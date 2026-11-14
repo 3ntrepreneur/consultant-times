@@ -10,7 +10,7 @@ One professional voice for everyone. Clear, specific, no hype, no slang.
 
 ## 2. Edition schedule
 - Weekdays 06:00 PT: full edition. Fridays add a "Week in 60 seconds" Wire item and a LinkedIn draft (see §11).
-- Mondays: one new How It Works deep dive (properly researched; replaces the oldest of the 3 cards).
+- Every weekday: THREE new How It Works deep dives (see §6). They replace yesterday's three, which move to data/library.json.
 - Budget: keep each run lean (target 10–20 searches). Search only for news since the last edition (`edition.published`).
 - If fewer than 2 new items qualify, still publish: refresh the Wire, prices/dates, careers board; keep the lead.
 
@@ -55,12 +55,17 @@ Store `heat` and `rel` on items for ranking only.
     unknowns, cs, sources (aim for 3+ sources, at least one primary). Lead and move of the week also get a `take`.
   * Tier 2 (other Big Moves, Under the Radar, Vancouver Desk stories): 300–600 words in `paras`, plus cs and 2+ sources.
   * Tier 3 (Wire items): 120–250 words in `paras` explaining the item and its context, plus the source link.
-  * How It Works (every Monday, one new deep dive, 1,500–2,500 words): `sections` with these headings — The short version;
-    How it makes money; The economics (unit economics, margins, key ratios, from filings/annual reports); The number that runs
-    the business; Where AI and automation hit; Who wins and why; then `caseq`, a full `caseAnswer` (structured, MECE),
-    `cheat` (6–8 one-line facts), `facts` (4 key numbers), and 5+ sources (company filings first). The new piece replaces
-    the oldest of the 3 cards; give the other two cards `status` "Coming soon" until written. Backlog ideas: Amazon, trucking,
-    Costco, airlines, Netflix, Starbucks, Shopify, banks, the Big Four's own model, Uber, Lululemon, Canadian telecoms, Loblaw.
+  * How It Works (EVERY weekday, exactly 3 new deep dives, 700–1,200 words each): pick 3 topics from data/backlog.json
+    (different sectors; prefer reader suggestions from the form; at least one Canadian or B.C.-relevant topic per week), remove
+    them from the backlog and top the backlog up to 20+ topics when it runs low. Research each from primary sources first
+    (annual report, 10-K/earnings release, regulator or industry-body data), then trade press. Fields: `id`, `sector`, `title`,
+    `body` (2 sentences), `summary`, `ai`, `kicker` "How It Works", `firm`, `date`, `year`, `confidence`, `readTime`, `facts`
+    (4 key numbers), `sections` [{h, paras}] with these headings in order — The short version; How it makes money; The
+    economics; The number that runs the business; Where AI and automation hit; Who wins and why — then `caseq`, a structured
+    MECE `caseAnswer`, `cheat` (6–8 one-line facts), and 4+ sources (at least one primary). Every number must come from a source;
+    label our own arithmetic "computed". Never invent figures; if a number is not available, say so.
+  * Library: before writing the new three, move yesterday's three full objects from edition.howItWorks into the FRONT of
+    data/library.json ({"items":[...]}, newest first). Never delete library items. Ids must be unique across edition + library.
 - Usage guard: if the run is running long, finish Tier 1 fully, then Tier 2, then Tier 3; a Tier 3 item may ship as a
   summary-only brief rather than delaying the edition. Carry over unchanged articles from the previous edition by id
   (do not rewrite them).
@@ -108,7 +113,8 @@ Only real postings with working https links. Include pay only if the posting sta
 
 ## 12. Data contract (data/edition.json) — see scripts/validate.py
 Top-level: schema, edition{id,label,published,next}, lead (story id), stories[], wire[], caseOfDay{q,basedOn},
-bigMoves[], radar[], vancouver{stories[],jobs[]}, howItWorks[3], archive[], corrections[].
+bigMoves[], radar[], vancouver{stories[],jobs[]}, howItWorks[3 — exactly], archive[], corrections[].
+Also data/library.json ({"items":[]}, past How It Works deep dives) and data/backlog.json ([{topic,sector,hook}]).
 Story ids: lowercase-hyphen slugs, unique, stable across editions (articles keep their links).
 When stories drop off the front page, move them (full objects) into `archive[]` (keep last 90 days; older → data/archive-YYYY-MM.json).
 
@@ -118,6 +124,6 @@ When stories drop off the front page, move them (full objects) into `archive[]` 
 3. Independent check pass: re-open sources and verify every number, name, date, and URL in new/changed items. Fix or cut.
 4. Run `python3 scripts/validate.py data/edition.next.json`. If it fails: fix and re-run once. If it still fails: do NOT
    publish; keep the current edition; write status {result:"failed", reason}; send a push notification "Edition failed".
-5. On pass: copy current edition.json → last-good.json, move edition.next.json → edition.json, update status.json
+5. On pass: copy current edition.json (and library.json) → last-good.json / keep a copy of library.json as library.prev.json, then move edition.next.json → edition.json, update status.json
    {last_run, result:"ok", edition}, commit with message "Edition YYYY-MM-DD" and push to main.
 6. Send a push notification ONLY if items were held or the run failed.

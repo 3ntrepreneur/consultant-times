@@ -1,1 +1,177 @@
-[]
+[
+ {
+  "topic": "Costco",
+  "sector": "Retail",
+  "hook": "Membership fees fund the low prices"
+ },
+ {
+  "topic": "Walmart",
+  "sector": "Retail",
+  "hook": "Scale, logistics and the grocery engine"
+ },
+ {
+  "topic": "Netflix",
+  "sector": "Media",
+  "hook": "Subscriptions, ads and content amortization"
+ },
+ {
+  "topic": "Uber",
+  "sector": "Mobility",
+  "hook": "Take rate and driver supply"
+ },
+ {
+  "topic": "Starbucks",
+  "sector": "Restaurants",
+  "hook": "Stores, loyalty and the turnaround"
+ },
+ {
+  "topic": "Airlines (Air Canada)",
+  "sector": "Transport",
+  "hook": "Load factor and fuel"
+ },
+ {
+  "topic": "Shopify",
+  "sector": "Software",
+  "hook": "Merchants, payments and take rate"
+ },
+ {
+  "topic": "Tesla",
+  "sector": "Autos",
+  "hook": "Margins, software and robotaxis"
+ },
+ {
+  "topic": "A Canadian bank (RBC)",
+  "sector": "Banking",
+  "hook": "Net interest margin and fees"
+ },
+ {
+  "topic": "Insurance",
+  "sector": "Financial services",
+  "hook": "Float, underwriting and claims"
+ },
+ {
+  "topic": "Hospitals",
+  "sector": "Health",
+  "hook": "Payer mix and staffing"
+ },
+ {
+  "topic": "A real-estate developer",
+  "sector": "Real estate",
+  "hook": "Land, financing and pre-sales"
+ },
+ {
+  "topic": "Canadian telecoms (Rogers, Telus, Bell)",
+  "sector": "Telecom",
+  "hook": "ARPU, spectrum and churn"
+ },
+ {
+  "topic": "Loblaw",
+  "sector": "Grocery",
+  "hook": "Private label and pharmacy"
+ },
+ {
+  "topic": "A pharma company",
+  "sector": "Health",
+  "hook": "R&D, patents and pricing"
+ },
+ {
+  "topic": "TSMC",
+  "sector": "Semiconductors",
+  "hook": "Foundry economics"
+ },
+ {
+  "topic": "Private equity",
+  "sector": "Finance",
+  "hook": "Fees, leverage and exits"
+ },
+ {
+  "topic": "Hotels (Marriott)",
+  "sector": "Hospitality",
+  "hook": "Asset-light franchising"
+ },
+ {
+  "topic": "Cruise lines",
+  "sector": "Travel",
+  "hook": "Occupancy and onboard spend"
+ },
+ {
+  "topic": "Apple",
+  "sector": "Tech",
+  "hook": "Services, hardware and the App Store"
+ },
+ {
+  "topic": "Nike",
+  "sector": "Apparel",
+  "hook": "Brand, wholesale vs direct"
+ },
+ {
+  "topic": "Tim Hortons",
+  "sector": "Restaurants",
+  "hook": "Franchise model and coffee"
+ },
+ {
+  "topic": "Suncor / oil sands",
+  "sector": "Energy",
+  "hook": "Breakevens and refining"
+ },
+ {
+  "topic": "Mining (Teck)",
+  "sector": "Resources",
+  "hook": "Commodity cycles and costs"
+ },
+ {
+  "topic": "CN Rail",
+  "sector": "Transport",
+  "hook": "Operating ratio"
+ },
+ {
+  "topic": "The Port of Vancouver",
+  "sector": "Logistics",
+  "hook": "Throughput and trade flows"
+ },
+ {
+  "topic": "Air freight and Amazon Air",
+  "sector": "Logistics",
+  "hook": "Network design"
+ },
+ {
+  "topic": "Spotify",
+  "sector": "Media",
+  "hook": "Royalties and gross margin"
+ },
+ {
+  "topic": "Whistler Blackcomb / Vail",
+  "sector": "Leisure",
+  "hook": "Pass pricing and capacity"
+ },
+ {
+  "topic": "DoorDash",
+  "sector": "Delivery",
+  "hook": "Marketplace economics"
+ },
+ {
+  "topic": "Moderna / biotech",
+  "sector": "Health",
+  "hook": "Pipeline risk"
+ },
+ {
+  "topic": "Lululemon",
+  "sector": "Apparel",
+  "hook": "Brand and store productivity"
+ },
+ {
+  "topic": "The Big Four's own model",
+  "sector": "Consulting",
+  "hook": "Pyramids, utilisation and pricing"
+ },
+ {
+  "topic": "Home builders",
+  "sector": "Real estate",
+  "hook": "Cycle and land banks"
+ },
+ {
+  "topic": "Grocery delivery",
+  "sector": "Retail",
+  "hook": "Unit economics"
+ }
+]
