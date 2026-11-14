@@ -584,6 +584,8 @@ function render(){
   else { main.innerHTML = home(d); if (hash==="feedback") { const f=document.getElementById("feedback"); if (f) f.scrollIntoView(); } }
 }
 document.addEventListener("click", (e) => {
+  const home_ = e.target.closest('a[href="#"]');
+  if (home_) { st.view = "Latest"; st.firm = "All"; st.desk = "All"; st.menu = null; st.moveType = "All"; if (!location.hash || location.hash === "#") { e.preventDefault(); render(); window.scrollTo(0, 0); } return; }
   const b = e.target.closest("[data-act]"); if (!b) return;
   const [k, v] = b.getAttribute("data-act").split(/:(.*)/s);
   if (k==="menu") st.menu = st.menu===v ? null : v;
