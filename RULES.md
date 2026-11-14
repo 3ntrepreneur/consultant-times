@@ -68,6 +68,13 @@ Store `heat` and `rel` on items for ranking only.
 - Confidence: "Confirmed" (official source), "Reported" (major/trade press), "Developing" (single/weak source).
 - Times: include `time` (e.g. "9:40 AM PT") only if the source gives one. Never invent times.
 
+## 6b. Category pages (each section has its own layout, filled automatically)
+The site builds every category page from ALL items in the edition, so each page needs enough material. Every item (stories,
+bigMoves, radar, wire, vancouver.stories) should carry `desk` (one of the 9 industry desks) and `firm` where relevant; stories
+also carry `section`. Aim per edition: AI & Tools 8+ items, Big Moves 6 moves + 3 wire deals, Vancouver Desk 5–8 items
+(at least 4 genuinely local B.C. items), firm pages: any firm named in an item is matched automatically, so name firms
+precisely in titles/summaries. Industry desks: spread items across desks; avoid leaving a desk empty for a whole week.
+
 ## 7. Sensitive stories (legal safety — HOLD rules)
 - Allegations are always "allegations"; include the company's/person's response.
 - Personal conduct of an individual (affairs, misconduct, crimes, health): publish ONLY if at least two major outlets

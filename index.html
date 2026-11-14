@@ -82,7 +82,29 @@ footer{padding:28px 0 48px;display:flex;flex-wrap:wrap;gap:32px;font-size:14px;l
 footer > div{flex:1 1 220px}
 .muted{color:var(--muted)}
 .notice{background:var(--tint);padding:16px 20px;margin:20px 0;font-size:15px}
+/* category pages */
+.lead.sm h1{font-size:44px}
+.side{flex:1 1 300px;min-width:0;border-left:1px solid var(--ink);padding-left:28px}
+.side article{padding:14px 0;border-top:1px solid var(--rule);margin-top:6px}
+.band{color:#fff;padding:34px 40px;margin:0 -40px;border-bottom:3px double var(--paper)}
+.band h1{font-weight:900;font-size:56px;line-height:1.02;margin:8px 0 8px;letter-spacing:-.01em}
+.band p{margin:0;font-size:17px;opacity:.85;max-width:720px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:0 24px;border-top:2px solid var(--ink)}
+.mini{min-width:0;padding:16px 0;border-bottom:1px solid var(--rule);display:flex;flex-direction:column;gap:8px}
+.mini h3{font-weight:700;font-size:20px;line-height:1.22;margin:0}
+.mini p{font-size:14px;line-height:1.5;margin:0}
+.mini p.cs{background:var(--tint);padding:8px 10px}
+.tiles,.score{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.score{grid-template-columns:1fr 1fr}
+.jobs{align-self:flex-start}
+.tile{display:flex;flex-direction:column;gap:6px;padding:16px;text-decoration:none;min-width:0}
+.tv{font-size:34px;font-weight:600;line-height:1;color:#FF6B57}
+.tbl{border-top:2px solid var(--ink)}
+.tr{display:grid;grid-template-columns:96px 1fr 150px 80px;gap:16px;padding:16px 0;border-bottom:1px solid var(--rule);align-items:start}
+.tr.th{padding:8px 0;font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.chip2{display:inline-block;color:#fff;padding:3px 8px;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
 @media (max-width:820px){
+ .side{border-left:0;padding-left:0;border-top:1px solid var(--ink);margin-top:24px;padding-top:16px}.lead.sm h1{font-size:32px}.band{padding:24px 20px;margin:0 -20px}.band h1{font-size:38px}.tr{grid-template-columns:1fr;gap:6px}.tr.th{display:none}.tr .mono{text-align:left!important}
  .nav{display:none}.burger{display:block}
  .wrap{padding-left:20px;padding-right:20px}
  .lead{padding-right:0}.lead h1{font-size:36px}
@@ -137,10 +159,10 @@ async function load(){
 function renderNav(){
   const nav = document.getElementById("nav");
   const btn = (label, pressed, act, chev) => `<button data-act="${esc(act)}" aria-pressed="${pressed}">${esc(label)}${chev ? ' <span style="font-size:11px">▾</span>' : ""}</button>`;
-  let h = btn("Latest", st.view==="Latest" && !st.menu, "view:Latest");
+  let h = btn("Latest", st.view==="Latest" && !st.menu && st.firm==="All" && st.desk==="All", "view:Latest");
   h += btn(st.firm==="All" ? "Firms" : st.firm, st.firm!=="All" || st.menu==="firms", "menu:firms", true);
   h += btn(st.desk==="All" ? "Industries" : st.desk, st.desk!=="All" || st.menu==="desks", "menu:desks", true);
-  SECTIONS.slice(1).forEach((s) => h += btn(s, st.view===s && !st.menu, "view:"+s));
+  SECTIONS.slice(1).forEach((s) => h += btn(s, st.view===s && !st.menu && st.firm==="All" && st.desk==="All", "view:"+s));
   h += btn("More", st.menu==="more", "menu:more", true);
   nav.innerHTML = h;
   const panel = document.getElementById("panel");
@@ -250,25 +272,151 @@ function footerHTML(){
   <div><b>Sources and corrections</b><br><span class="muted">Every item links its source and labels its type. Spot an error? <a href="#feedback">Tell us</a> and it's fixed in the next edition. <a href="#corrections">Corrections log</a>.</span></div>`;
 }
 
+// ---------- category pages (each section has its own layout) ----------
+const MON = { jan:1,feb:2,mar:3,apr:4,may:5,jun:6,jul:7,aug:8,sep:9,oct:10,nov:11,dec:12 };
+const KIND_RANK = { story:0, move:1, how:2, van:3, radar:4, wire:5 };
+const AIRX = /\bAI\b|artificial intelligence|Anthropic|OpenAI|Nvidia|Cohere|Mercor|\bmodels?\b|agentic|semiconductor|\bchips?\b|Marvell|Lumentum|Salesforce|Shield AI/i;
+function dkey(x){
+  const m = String(x.date || "").trim().toLowerCase().match(/^([a-z]{3})[a-z]*\.?\s*(\d{1,2})?/);
+  if (!m || !MON[m[1]]) return 0;
+  const k = MON[m[1]] * 100 + (m[2] ? +m[2] : 0), n = new Date(), today = (n.getMonth() + 1) * 100 + n.getDate();
+  return k > today ? 0.5 : k;
+}
+function sortNew(a){ return a.slice().sort((p, q) => (dkey(q) - dkey(p)) || ((KIND_RANK[p.kind] || 0) - (KIND_RANK[q.kind] || 0))); }
+function poolOf(d){
+  const mk = (x, kind) => Object.assign({}, x, {
+    kind, title: x.title || x.text || "",
+    blurb: x.summary || x.body || (kind === "wire" ? "" : (x.cs || "")),
+    label: x.kicker || (kind === "move" ? x.type : kind === "van" || kind === "wire" ? x.tag : kind === "radar" ? "Under the Radar" : "How it works"),
+    where: kind === "move" ? (x.co || "") : kind === "van" ? "Vancouver" : (x.firm === "Industry" ? "" : (x.firm || "")) });
+  return [].concat(arr(d.stories).map((x) => mk(x, "story")), arr(d.bigMoves).map((x) => mk(x, "move")), arr(d.radar).map((x) => mk(x, "radar")),
+    arr((d.vancouver || {}).stories).map((x) => mk(x, "van")), arr(d.wire).map((x) => mk(x, "wire")), arr(d.howItWorks).map((x) => mk(x, "how")));
+}
+const colOf = (x) => x.kind === "move" ? (MC[x.type] || "#3D5A80") : x.kind === "van" ? "var(--van)" : x.kind === "how" ? "var(--teal)" : kc(x.kicker || x.tag);
+const headOf = (x) => `<div class="kick" style="font-size:11px;color:${colOf(x)}">${esc(x.label)}${x.where ? " · " + esc(x.where) : ""} · <span class="mono muted" style="letter-spacing:0;font-weight:500">${esc(x.date || "")}</span>${x.isNew ? '<span class="new">New</span>' : ""}</div>`;
+const linkOf = (x) => `<a href="#story-${esc(x.id)}" style="text-decoration:none">${esc(x.title)}</a>`;
+const srcOne = (x) => { const s = arr(x.sources)[0] || (x.url ? { stype: x.stype, src: x.src, url: x.url } : null); return s ? srcLine(s) : ""; };
+function mini(x, o){
+  o = o || {};
+  return `<article class="mini">${headOf(x)}${x.num ? `<div class="mono" style="font-size:22px;font-weight:600;color:var(--van)">${esc(x.num)}</div>` : ""}<h3 class="serif">${linkOf(x)}</h3>${x.blurb && !o.nob ? `<p>${esc(x.blurb)}</p>` : ""}${o.cs && x.cs && x.cs !== x.blurb ? `<p class="cs"><b>Client signal:</b> ${esc(x.cs)}</p>` : ""}<div class="muted" style="font-size:12px;margin-top:auto">${srcOne(x)}</div></article>`;
+}
+function bigLead(x, h1){
+  return `<div class="lead sm">${headOf(x)}<h1 style="${h1 || ""}">${linkOf(x)}</h1>${x.blurb ? `<p style="font-size:19px;line-height:1.65;margin:0 0 18px">${esc(x.blurb)}</p>` : ""}${x.cs ? `<p class="signal"><b>Client signal:</b> ${esc(x.cs)}</p>` : ""}<div style="display:flex;flex-wrap:wrap;align-items:center;gap:12px;font-size:13px" class="muted">${srcOne(x)}<a href="#story-${esc(x.id)}" style="min-height:44px;display:inline-flex;align-items:center;padding:0 18px;background:var(--ink);color:var(--paper);font-weight:700;font-size:14px;text-decoration:none">Read the full story →</a></div></div>`;
+}
+function sideList(title, sub, items, color){
+  return `<aside class="side"><div style="display:flex;align-items:baseline;gap:10px"><h2 class="serif" style="font-weight:900;font-size:26px;margin:0;${color ? "color:" + color : ""}">${esc(title)}</h2>${sub ? `<span class="muted" style="font-size:12px">${esc(sub)}</span>` : ""}</div>
+  ${items.map((x) => `<article>${headOf(x)}<h3 class="serif" style="font-weight:700;font-size:20px;line-height:1.22;margin:5px 0 4px">${linkOf(x)}</h3>${x.blurb ? `<p style="font-size:14px;line-height:1.5;margin:0" class="muted">${esc(x.blurb.length > 150 ? x.blurb.slice(0, 147).replace(/\s+\S*$/, "") + "…" : x.blurb)}</p>` : ""}</article>`).join("") || '<p class="muted">Nothing here yet.</p>'}</aside>`;
+}
+function tile(x, dark){
+  return `<a class="tile" href="#story-${esc(x.id)}" style="${dark ? "background:var(--ink);color:var(--paper)" : "border:1px solid var(--ink)"}"><span class="kick" style="font-size:11px;color:${dark ? "#FF9C8B" : colOf(x)}">${esc(x.type || x.label)} · ${esc(x.co || x.where || "")}</span><span class="mono tv">${esc(x.value || x.num || "")}</span><span style="font-size:12px;opacity:.75;line-height:1.35">${esc(x.vlabel || "")}</span><span class="serif" style="font-weight:700;font-size:17px;line-height:1.25">${esc(x.title)}</span></a>`;
+}
+const pageBand = (title, sub, bg, badge) => `<section class="band" style="background:${bg}"><div class="kick" style="opacity:.75">${esc(badge)}</div><h1 class="serif">${esc(title)}</h1><p>${esc(sub)}</p></section>`;
+
+// AI & Tools: tech front page (lead + top stories, money strip, headline grid)
+function aiPage(d){
+  const L = sortNew(poolOf(d).filter((x) => x.kind !== "how" && (x.section === "AI & Tools" || x.desk === "Tech & AI" || AIRX.test(x.title + " " + x.blurb))));
+  if (!L.length) return noneHTML("AI & Tools");
+  const lead = L.find((x) => x.kind === "story" || x.kind === "move") || L[0];
+  const rest = L.filter((x) => x !== lead), side = rest.filter((x) => x.kind !== "wire").slice(0, 3), used = [lead].concat(side);
+  const moves = rest.filter((x) => x.kind === "move" && used.indexOf(x) < 0).slice(0, 4);
+  const grid = rest.filter((x) => used.indexOf(x) < 0 && moves.indexOf(x) < 0);
+  return `<section class="row" style="padding:28px 0;border-bottom:1px solid var(--ink)">${bigLead(lead)}${sideList("Top stories", "AI & Tools", side)}</section>
+  ${moves.length ? `<section class="sec"><div class="sec-h"><div><h2>The money in AI</h2><p>Deals, valuations and funding rounds shaping the AI market.</p></div></div><div class="tiles">${moves.map((m) => tile(m, true)).join("")}</div></section>` : ""}
+  ${grid.length ? `<section class="sec"><div class="sec-h"><div><h2>More from AI &amp; Tools</h2><p>Models, research, workforce shifts and the policy around them. Newest first.</p></div></div><div class="grid">${grid.map((x) => mini(x)).join("")}</div></section>` : ""}`;
+}
+
+// Big Moves: dealboard (lead + scoreboard tiles, deal table, wire + radar)
+function movesPage(d){
+  const P = poolOf(d), all = sortNew(P.filter((x) => x.kind === "move"));
+  const types = ["All", "M&A", "IPO", "Scandal", "Funding", "Earnings", "Leadership", "Canada"].filter((t) => t === "All" || all.some((m) => m.type === t));
+  const list = all.filter((m) => st.moveType === "All" || m.type === st.moveType);
+  const dealStory = P.filter((x) => x.kind === "story" && x.section === "Big Moves")[0] || all[0];
+  const wire = P.filter((x) => x.kind === "wire" && /deal|market|fund|ipo|earn/i.test(x.tag || ""));
+  const radar = P.filter((x) => x.kind === "radar");
+  const score = all.filter((m) => m !== dealStory).slice(0, 4);
+  if (!dealStory) return noneHTML("Big Moves");
+  return `<section class="row" style="padding:28px 0;border-bottom:1px solid var(--ink);gap:0">${bigLead(dealStory)}<div class="side" style="padding-top:2px"><div class="kick" style="margin-bottom:10px">Scoreboard</div><div class="score">${score.map((m) => tile(m, true)).join("")}</div></div></section>
+  <section class="sec"><div class="sec-h"><div><h2>The deal board</h2><p>Every big move in this edition, with the number that matters and what it means for client work.</p></div><div style="display:flex;flex-wrap:wrap;gap:6px">${types.map((t) => `<button class="tab" data-act="move:${esc(t)}" aria-pressed="${st.moveType === t}">${esc(t)}</button>`).join("")}</div></div>
+   <div class="tbl"><div class="tr th"><span>Type</span><span>Move</span><span style="text-align:right">Value</span><span>Date</span></div>${list.map((m) => `<div class="tr"><span><span class="chip2" style="background:${MC[m.type] || "#3D5A80"}">${esc(m.type)}</span></span><span style="min-width:0"><b class="serif" style="font-size:19px;line-height:1.25;display:block">${linkOf(m)}</b><span style="font-size:14px;line-height:1.5;display:block;margin-top:4px"><b>Client signal:</b> ${esc(m.cs)}</span><span class="muted" style="font-size:12px">${esc(m.co)} · ${srcOne(m)}</span></span><span class="mono" style="font-size:20px;font-weight:600;text-align:right;color:${MC[m.type] || "#3D5A80"}">${esc(m.value)}<small class="muted" style="display:block;font-size:11px;font-weight:500">${esc(m.vlabel)}</small></span><span class="mono muted" style="font-size:12px">${esc(m.date)}</span></div>`).join("")}</div>
+   <div class="muted" style="font-size:12px;margin-top:10px">Figures are a snapshot at publication, not live. Allegations are reported as allegations until established.</div></section>
+  ${wire.length || radar.length ? `<section class="row" style="gap:40px;padding:8px 0 28px;border-bottom:1px solid var(--ink)">${wire.length ? `<div style="flex:1 1 360px;min-width:0"><h2 class="serif" style="font-weight:900;font-size:26px;margin:0 0 6px">Deals &amp; markets on the wire</h2>${wire.map((x) => `<div style="padding:10px 0;border-top:1px solid var(--rule);font-size:15px;line-height:1.45"><span class="mono muted" style="font-size:12px">${esc(x.date)}</span> &nbsp;${linkOf(x)}</div>`).join("")}</div>` : ""}${radar.length ? `<div style="flex:1 1 360px;min-width:0"><h2 class="serif" style="font-weight:900;font-size:26px;margin:0 0 6px">Under the radar</h2>${radar.map((x) => `<div style="padding:10px 0;border-top:1px solid var(--rule)"><div class="kick" style="font-size:11px;color:#3D5A80">${esc(x.desk || "")} · <span class="mono muted" style="letter-spacing:0;font-weight:500">${esc(x.date)}</span></div><div class="serif" style="font-weight:700;font-size:18px;line-height:1.25;margin-top:3px">${linkOf(x)}</div></div>`).join("")}</div>` : ""}</section>` : ""}`;
+}
+
+// Vancouver: local paper (green masthead, local lead, by-the-numbers, careers board)
+function vanPage(d){
+  const v = d.vancouver || {}, today = new Date().toISOString().slice(0, 10);
+  const jobs = arr(v.jobs).filter((j) => !j.closes || j.closes >= today);
+  const L = sortNew(poolOf(d).filter((x) => x.kind === "van" || x.type === "Canada" || /Vancouver|\bB\.C\.|British Columbia/i.test(x.title + " " + x.blurb)));
+  if (!L.length && !jobs.length) return noneHTML("Vancouver");
+  const lead = L.find((x) => x.kind === "van") || L[0], rest = L.filter((x) => x !== lead);
+  return `${pageBand("The Vancouver Desk", "B.C. business, deals and careers that Vancouver consultants and consulting students should know.", "var(--van)", "LOCAL · VANCOUVER")}
+  <section class="row" style="gap:0;padding:28px 0;border-bottom:1px solid var(--ink)">
+   <div style="flex:2 1 560px;min-width:0;padding-right:32px">${lead ? `<div class="kick" style="color:var(--van)">${esc(lead.label)} · ${esc(lead.date)}</div>${lead.num || lead.value ? `<div class="mono" style="font-size:56px;font-weight:600;color:var(--van);line-height:1;margin:12px 0 6px">${esc(lead.num || lead.value)}</div>` : ""}<h2 class="serif" style="font-weight:700;font-size:38px;line-height:1.1;margin:8px 0 14px">${linkOf(lead)}</h2>${lead.blurb ? `<p style="font-size:18px;line-height:1.65;margin:0 0 14px">${esc(lead.blurb)}</p>` : ""}<div class="muted" style="font-size:13px">${srcOne(lead)} &nbsp; <a href="#story-${esc(lead.id)}" style="font-weight:700;color:var(--ink)">Read the full story →</a></div>` : ""}
+    ${rest.length ? `<div class="grid" style="margin-top:28px;border-top-color:var(--van)">${rest.map((x) => mini(x, { cs: true })).join("")}</div>` : ""}</div>
+   <div style="flex:1 1 320px;min-width:0;display:flex;flex-direction:column;gap:24px">
+    <aside class="jobs"><div class="kick" style="font-size:11px;color:#BFE3D3">Careers board · Vancouver</div>${jobs.map((j) => `<div style="padding:14px 0;border-bottom:1px solid #3C7A64"><div class="serif" style="font-weight:700;font-size:19px;line-height:1.25">${esc(j.role)}</div><div style="font-size:14px;margin-top:4px">${esc(j.firm)} · ${esc(j.start)}</div><div class="mono" style="font-size:14px;font-weight:600;margin-top:4px;color:#FFD166">${esc(j.pay)}</div>${j.closes ? `<div style="font-size:12px;color:#BFE3D3">Apply by ${esc(j.closes)}</div>` : ""}<a href="${safeUrl(j.url)}" target="_blank" rel="noopener" style="font-size:13px;color:#BFE3D3">View posting →</a></div>`).join("") || '<p style="font-size:14px">No open roles listed right now.</p>'}<div style="font-size:12px;color:#BFE3D3;margin-top:12px;line-height:1.5">Consulting roles, internships and case competitions in Vancouver. Checked every edition; expired postings are removed.</div></aside>
+    <aside style="border:1px solid var(--van);padding:18px 20px"><div class="kick" style="color:var(--van);margin-bottom:6px">Vancouver by the numbers</div>${L.filter((x) => x.num || x.value).map((x) => `<div style="padding:9px 0;border-top:1px solid var(--rule)"><div class="mono" style="font-size:20px;font-weight:600;color:var(--van)">${esc(x.num || x.value)}</div><div style="font-size:13px;line-height:1.4">${linkOf(x)}</div></div>`).join("")}</aside></div></section>`;
+}
+
+// How It Works: library (featured deep dive + case box, then the series)
+function howPage(d){
+  const x = poolOf(d).filter((p) => p.kind === "how");
+  if (!x.length) return noneHTML("How It Works");
+  const f = x.find((e) => arr(e.sections).length) || x[0], rest = x.filter((e) => e !== f);
+  return `${pageBand("How It Works", "One business, taken apart like a consultant would. A new deep dive every Monday: business acumen and case-interview practice.", "var(--teal)", "THE SERIES")}
+  <section class="row" style="gap:36px;padding:28px 0;border-bottom:1px solid var(--ink);align-items:flex-start">
+   <div style="flex:2 1 520px;min-width:0"><div class="kick" style="color:var(--teal)">This week's deep dive · ${esc(f.sector)}</div><h2 class="serif" style="font-weight:700;font-size:44px;line-height:1.08;margin:10px 0 14px"><a href="#story-${esc(f.id)}" style="text-decoration:none">${esc(f.title)}</a></h2><p style="font-size:19px;line-height:1.65;margin:0 0 14px">${esc(f.body)}</p>${f.ai ? `<p style="font-size:16px;line-height:1.55;margin:0 0 18px"><b>Where AI hits:</b> ${esc(f.ai)}</p>` : ""}
+    ${arr(f.facts).length ? `<div class="facts">${arr(f.facts).map((q) => `<div><div class="k">${esc(q.k)}</div><div class="v">${esc(q.v)}</div></div>`).join("")}</div>` : ""}<a href="#story-${esc(f.id)}" style="min-height:48px;display:inline-flex;align-items:center;padding:0 24px;background:var(--ink);color:var(--paper);font-weight:700;text-decoration:none">Read the deep dive →</a></div>
+   <div style="flex:1 1 320px;min-width:0;display:flex;flex-direction:column;gap:18px">${f.caseq ? `<div style="background:var(--ink);color:var(--paper);padding:20px 22px"><div class="kick" style="color:#FFD166">Try the case</div><p class="serif" style="font-size:20px;line-height:1.4;margin:8px 0 0">${esc(f.caseq)}</p></div>` : ""}${arr(f.cheat).length ? `<div class="notice" style="border:2px solid var(--ink);margin:0"><div class="kick" style="margin-bottom:8px">Cheat sheet preview</div>${arr(f.cheat).slice(0, 4).map((c) => `<div style="padding:5px 0;border-top:1px solid var(--rule);font-size:14px;line-height:1.45">${esc(c)}</div>`).join("")}</div>` : ""}</div></section>
+  ${rest.length ? `<section class="sec"><div class="sec-h"><div><h2>More in the series</h2><p>Coming up next, and where AI hits each business.</p></div></div><div class="grid">${rest.map((e) => `<article class="mini" style="border-top:6px solid var(--teal);padding-top:12px"><div class="kick" style="color:var(--teal)">${esc(e.sector)}</div><h3 class="serif" style="font-size:24px">${linkOf(e)}</h3><p>${esc(e.body)}</p>${e.ai ? `<p><b>Where AI hits:</b> ${esc(e.ai)}</p>` : ""}<div class="muted" style="font-size:13px;margin-top:auto">${esc(e.status || (e.read ? e.read + " min read" : ""))}</div></article>`).join("")}</div></section>` : ""}
+  <section class="notice" style="margin:24px 0"><b>Which business should we take apart next?</b> Tell us a company or industry and it may become next Monday's deep dive. <a href="${safeUrl(SITE.formUrl)}" target="_blank" rel="noopener" style="font-weight:700">Suggest one →</a></section>`;
+}
+
+// Firm page: newsroom stream for one firm + elsewhere in consulting
+function firmPage(d, firm){
+  const P = sortNew(poolOf(d).filter((x) => x.kind !== "how")), name = firm === "Industry" ? "Industry-wide" : firm;
+  const has = (x) => firm === "Industry" ? x.firm === "Industry" : (x.firm === firm || new RegExp("\\b" + firm.replace(/[^a-z0-9]/gi, "") + "\\b", "i").test(x.title + " " + x.blurb + " " + (x.co || "")));
+  const m = P.filter(has), other = P.filter((x) => !has(x) && (x.desk === "Consulting industry" || x.tag === "Firms" || FIRMS.some((f) => f !== "Industry" && new RegExp("\\b" + f + "\\b").test(x.title)))).slice(0, 6);
+  const fill = m.length ? [] : P.slice(0, 6);
+  return `${pageBand(name, m.length ? m.length + (m.length === 1 ? " story" : " stories") + " in this edition" : "Nothing new on " + name + " in this edition", "#000", "FIRM DESK")}
+  <section class="row" style="gap:0;padding:28px 0;border-bottom:1px solid var(--ink)">
+   <div style="flex:2 1 560px;min-width:0;padding-right:32px">${m.length ? m.map((x) => `<article style="display:flex;gap:18px;padding:18px 0;border-top:1px solid var(--rule)"><div class="mono muted" style="width:60px;flex:0 0 60px;font-size:12px;padding-top:4px">${esc(x.date)}</div><div style="min-width:0">${headOf(x)}<h2 class="serif" style="font-weight:700;font-size:28px;line-height:1.15;margin:6px 0 8px">${linkOf(x)}</h2>${x.blurb ? `<p style="font-size:16px;line-height:1.6;margin:0 0 8px">${esc(x.blurb)}</p>` : ""}${x.cs ? `<p class="signal"><b>Client signal:</b> ${esc(x.cs)}</p>` : ""}<div class="muted" style="font-size:12px">${srcOne(x)}</div></div></article>`).join("") : `<p class="notice" style="margin-top:0">We haven't covered ${esc(name)} in this edition. Here is the latest from across the site.</p><div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(260px,1fr))">${fill.map((x) => mini(x)).join("")}</div>`}</div>
+   ${sideList("Elsewhere in consulting", "firms and the industry", other)}</section>`;
+}
+
+// Industry desk page: magazine layout (featured + stream + related)
+function deskPage(d, desk){
+  const P = sortNew(poolOf(d).filter((x) => x.kind !== "how")), m = P.filter((x) => x.desk === desk), others = P.filter((x) => x.desk !== desk);
+  const list = m.length ? m : [];
+  const f = list.find((x) => x.kind === "story" || x.kind === "move") || list[0];
+  const rest = list.filter((x) => x !== f);
+  return `${pageBand(desk, list.length ? list.length + (list.length === 1 ? " story" : " stories") + " on this desk" : "Nothing new on this desk in this edition", "#1B2A41", "INDUSTRY DESK")}
+  ${f ? `<section class="row" style="gap:0;padding:28px 0;border-bottom:1px solid var(--ink)">${bigLead(f, "font-size:40px")}${sideList("Also on this desk", desk, rest.slice(0, 4))}</section>` : `<p class="notice">We haven't covered ${esc(desk)} in this edition. Here is the latest from across the site.</p>`}
+  <section class="sec"><div class="sec-h"><div><h2>${f ? "Elsewhere on the site" : "Latest from across the site"}</h2><p>More headlines, newest first.</p></div></div><div class="grid">${others.slice(0, 8).map((x) => mini(x)).join("")}</div></section>`;
+}
+function noneHTML(name){ return `<p class="notice">Nothing in ${esc(name)} yet. Check back at the next edition.</p>`; }
+
 // ---------- pages ----------
 function home(d){
-  let stories = arr(d.stories);
-  const inView = (s) => (st.view==="Latest" || s.section===st.view) && storyMatches(s);
-  const match = stories.filter(inView);
-  const list = match.length ? match : stories;
-  let lead = list.find((s)=>s.id===d.lead) || list[0];
-  const cards = list.filter((s)=>s!==lead).concat(stories.filter((s)=>s!==lead && list.indexOf(s)<0)).slice(0,3);
-  const showNews = ["Latest","AI & Tools","Big Moves"].includes(st.view);
   let h = "";
-  if (showNews && lead) h += `<section class="row" style="padding:28px 0;border-bottom:1px solid var(--ink)">${leadHTML(lead)}${wireHTML(d.wire)}</section>
-    <section class="row" style="gap:24px;padding:28px 0;border-bottom:1px solid var(--ink)">${cards.map(cardHTML).join("")}</section>${st.view==="Latest"?caseHTML(d):""}`;
-  if (st.view==="Latest" || st.view==="Big Moves") h += bigMovesHTML(d) + radarHTML(d);
-  if (st.view==="Latest" || st.view==="Vancouver") h += vanHTML(d);
-  if (st.view==="Latest" || st.view==="How It Works") h += howHTML(d);
+  if (st.firm !== "All") h = firmPage(d, st.firm);
+  else if (st.desk !== "All") h = deskPage(d, st.desk);
+  else if (st.view === "AI & Tools") h = aiPage(d);
+  else if (st.view === "Big Moves") h = movesPage(d);
+  else if (st.view === "Vancouver") h = vanPage(d);
+  else if (st.view === "How It Works") h = howPage(d);
+  else {
+    const stories = arr(d.stories), lead = stories.find((s)=>s.id===d.lead) || stories[0];
+    const cards = stories.filter((s)=>s!==lead).slice(0,3);
+    if (lead) h += `<section class="row" style="padding:28px 0;border-bottom:1px solid var(--ink)">${leadHTML(lead)}${wireHTML(d.wire)}</section>
+      <section class="row" style="gap:24px;padding:28px 0;border-bottom:1px solid var(--ink)">${cards.map(cardHTML).join("")}</section>${caseHTML(d)}`;
+    h += bigMovesHTML(d) + radarHTML(d) + vanHTML(d) + howHTML(d);
+  }
   h += feedbackHTML();
   const fb = document.getElementById("filterbar");
   const filtered = st.view!=="Latest" || st.firm!=="All" || st.desk!=="All";
-  fb.innerHTML = filtered ? `<span style="display:inline-flex;align-items:center;gap:10px"><b class="kick">${esc(st.view)} · ${esc(st.firm==="All"?"All firms":st.firm)}${st.desk==="All"?"":" · "+esc(st.desk)}</b><span class="muted">${match.length? "· "+match.length+(match.length===1?" story":" stories") : "· no matching stories yet, showing latest"}</span><button class="tab" data-act="reset">Clear filters ✕</button></span>` : "";
+  const where = st.firm!=="All" ? (st.firm==="Industry"?"Industry-wide":st.firm) : st.desk!=="All" ? st.desk : st.view;
+  fb.innerHTML = filtered ? `<span style="display:inline-flex;align-items:center;gap:10px"><b class="kick">${esc(where)}</b><button class="tab" data-act="reset">Back to front page ✕</button></span>` : "";
   return h;
 }
 function articlePage(d, id){
@@ -337,13 +485,14 @@ document.addEventListener("click", (e) => {
   const b = e.target.closest("[data-act]"); if (!b) return;
   const [k, v] = b.getAttribute("data-act").split(/:(.*)/s);
   if (k==="menu") st.menu = st.menu===v ? null : v;
-  else if (k==="view") { st.view = v; st.menu = null; if (location.hash) history.pushState("", "", location.pathname); }
-  else if (k==="firm") { st.firm = v; st.menu = null; }
-  else if (k==="desk") { st.desk = v; st.menu = null; }
+  else if (k==="view") { st.view = v; st.firm = "All"; st.desk = "All"; st.menu = null; if (location.hash) history.pushState("", "", location.pathname); }
+  else if (k==="firm") { st.firm = v; st.desk = "All"; st.view = "Latest"; st.menu = null; if (location.hash) history.pushState("", "", location.pathname); }
+  else if (k==="desk") { st.desk = v; st.firm = "All"; st.view = "Latest"; st.menu = null; if (location.hash) history.pushState("", "", location.pathname); }
   else if (k==="move") st.moveType = v;
   else if (k==="page") { st.menu = null; location.hash = v; return; }
   else if (k==="reset") { st.firm="All"; st.desk="All"; st.view="Latest"; }
   render();
+  if (["view","firm","desk","reset"].includes(k)) window.scrollTo(0,0);
 });
 document.getElementById("burger").addEventListener("click", () => { st.menu = st.menu==="burger" ? null : "burger"; render(); });
 window.addEventListener("hashchange", () => { render(); window.scrollTo(0,0); });
