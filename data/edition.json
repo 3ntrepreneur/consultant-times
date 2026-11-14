@@ -972,5 +972,909 @@
     }
    ]
   }
+ ],
+ "deskNews": [
+  {
+   "id": "fs-pnc-usdc",
+   "kicker": "Industry desk",
+   "firm": "PNC",
+   "desk": "Financial services",
+   "date": "Nov 9",
+   "year": "2026",
+   "confidence": "Reported",
+   "readTime": "3 min read",
+   "lens": "Technology & disruption",
+   "title": "PNC lets corporate clients get paid in USDC, with Coinbase handling the stablecoin leg",
+   "summary": "PNC says eligible corporate and institutional clients can now receive USDC on Ethereum, converted one-to-one into dollars in their PNC accounts. It is a receive-only service, but it puts a large US bank on stablecoin rails.",
+   "cs": "Treasury, payments and cash-management teams at banks now have a live peer to benchmark against. Expect client work on stablecoin operating models: custody, reconciliation, fraud and liquidity, rather than whether to engage at all.",
+   "paras": [
+    "PNC announced on 9 November that clients in its Corporate and Institutional Banking unit can receive payments in USDC, a dollar-backed stablecoin, on the Ethereum network. Coinbase's payment products run the stablecoin side, while PNC provides the deposit account and treasury services.",
+    "The structure matters more than the headline. Funds arrive as USDC but are converted automatically at one-to-one into US dollars, so the client sees a bank balance rather than a crypto position. That keeps accounting, tax and risk treatment close to what the client already does.",
+    "For consultants, the pattern is a bank renting specialist infrastructure instead of building it. The open questions are economics (who earns the fee on conversion), controls (sanctions and fraud screening on-chain) and scope: this is incoming payments only."
+   ],
+   "facts": [
+    {
+     "k": "Asset",
+     "v": "USDC (dollar-backed stablecoin)"
+    },
+    {
+     "k": "Network",
+     "v": "Ethereum"
+    },
+    {
+     "k": "Conversion",
+     "v": "1:1 into US dollars"
+    },
+    {
+     "k": "Who can use it",
+     "v": "Eligible Corporate & Institutional Banking clients"
+    },
+    {
+     "k": "Direction",
+     "v": "Incoming payments only"
+    },
+    {
+     "k": "Partner",
+     "v": "Coinbase payment products"
+    }
+   ],
+   "questions": [
+    "Is this a revenue line or a defensive move for the bank's payments franchise?",
+    "What controls sit between an on-chain deposit and a bank balance?",
+    "Which of our clients' counterparties already pay in stablecoins?"
+   ],
+   "unknowns": [
+    "Pricing and fees were not part of the announcement.",
+    "Whether outgoing payments are planned."
+   ],
+   "sources": [
+    {
+     "stype": "Primary",
+     "src": "PNC Bank, 9 Nov release",
+     "url": "https://pnc.mediaroom.com/2026-11-09-PNC-Bank-Launches-Incoming-Stablecoin-Payments-for-Corporate-and-Institutional-Banking-Clients"
+    },
+    {
+     "stype": "Press",
+     "src": "The Block",
+     "url": "https://www.theblock.co/news/business/2026-11-09-coinbase-pnc-bank-expand-partnership-with-usdc-payments-corporate-clients-436466"
+    }
+   ]
+  },
+  {
+   "id": "fs-stablecoin-volume",
+   "kicker": "Industry desk",
+   "firm": "Industry",
+   "desk": "Financial services",
+   "date": "Nov",
+   "year": "2026",
+   "confidence": "Developing",
+   "readTime": "3 min read",
+   "lens": "Market size & growth",
+   "title": "Stablecoin payments reach about $482 billion in nine months as card networks and banks plug in",
+   "summary": "One analytics firm counts roughly $482 billion of stablecoin payments in the first nine months of 2026, up 45% on a year earlier. Mastercard, Visa and Stripe are all building products that connect stablecoins to ordinary payments.",
+   "cs": "Payments strategy is moving from 'will stablecoins matter' to 'where do we sit in the chain'. Banks, processors and large merchants will want help choosing between building, partnering and staying out.",
+   "paras": [
+    "Figures reported this month attribute the $482 billion payments total and 45% growth to Allium, a blockchain analytics firm. The same coverage says Mastercard launched a platform that combines fiat and stablecoin balances, and Stripe partnered with the Plasma network on cards that span currencies.",
+    "Trackers put the overall stablecoin market at roughly $280 billion at the start of September, though the number depends on methodology. Separately, Coinbase received conditional approval in April for a national trust bank charter from the US Office of the Comptroller of the Currency, a sign regulators are bringing stablecoin infrastructure inside the banking perimeter.",
+    "Treat the payments total with care: analytics firms define 'payments' differently and some volume is trading activity. The direction of travel, incumbents wrapping stablecoins rather than fighting them, is better supported than the exact number."
+   ],
+   "facts": [
+    {
+     "k": "Stablecoin payments, Jan to Sep 2026",
+     "v": "About $482B (Allium, via aggregator)"
+    },
+    {
+     "k": "Growth vs 2025",
+     "v": "+45%"
+    },
+    {
+     "k": "Total market, early Sep 2026",
+     "v": "About $280B (trackers vary)"
+    },
+    {
+     "k": "Coinbase",
+     "v": "Conditional OCC trust charter, Apr 2026"
+    }
+   ],
+   "questions": [
+    "How much of the volume is real commerce versus trading and treasury movement?",
+    "Which layer captures the margin: issuer, network, bank or wallet?",
+    "What does a bank's compliance model look like when settlement is on-chain?"
+   ],
+   "unknowns": [
+    "The payments figure comes from one analytics firm reported by an aggregator; we could not check the method.",
+    "Share of volume that is consumer or business payments."
+   ],
+   "sources": [
+    {
+     "stype": "Aggregator",
+     "src": "KuCoin news flash (citing Allium)",
+     "url": "https://www.kucoin.com/news/flash/mastercard-visa-stripe-expand-stablecoin-payment-services-as-usage-grows"
+    },
+    {
+     "stype": "Press",
+     "src": "Motley Fool research",
+     "url": "https://www.fool.com/research/banks-payment-processors-stablecoins"
+    },
+    {
+     "stype": "Press",
+     "src": "Crypto Briefing",
+     "url": "https://cryptobriefing.com/banks-shift-stablecoin-payment-rails/"
+    }
+   ]
+  },
+  {
+   "id": "en-lng-canada-blackstone",
+   "kicker": "Industry desk",
+   "firm": "Blackstone",
+   "desk": "Energy & resources",
+   "date": "Nov 2",
+   "year": "2026",
+   "confidence": "Reported",
+   "readTime": "3 min read",
+   "lens": "Capital & M&A",
+   "title": "Blackstone and four Canadian pension funds buy into LNG Canada through Mitsubishi's stake",
+   "summary": "A Blackstone-led group will invest US$3.1 billion for 49.9% of the Mitsubishi subsidiary that holds a 15% interest in LNG Canada. The cash helps fund the Phase 2 expansion that doubles the Kitimat terminal.",
+   "cs": "Infrastructure capital is now financing LNG build-out alongside the majors. Expect work on partner capital structures, offtake contracting and construction-cost control as Phase 2 proceeds.",
+   "paras": [
+    "Blackstone Credit and Insurance, with CPP Investments, OMERS, IMCO and PSP, signed the deal on 2 November. Mitsubishi stays the controlling partner and keeps its LNG offtake, about 2.1 million tonnes a year now and 4.2 million after expansion. Reuters reports Mitsubishi values the interest being sold at about US$1.6 billion, with the rest of the investment aimed at Phase 2.",
+    "LNG Canada, led by Shell with PetroChina, Petronas, Mitsubishi and KOGAS as partners, began production in June 2025. The partners approved Phase 2 in September 2026, which lifts capacity from roughly 14 to 28 million tonnes a year. Mitsubishi says the deal is expected to close in November.",
+    "The structure is the story: a trading house sells a minority stake in a holding company to recycle capital while keeping control and its gas. It is a template other Asian buyers with large project stakes could follow."
+   ],
+   "facts": [
+    {
+     "k": "Deal size",
+     "v": "US$3.1B"
+    },
+    {
+     "k": "Stake acquired",
+     "v": "49.9% non-controlling, in a Mitsubishi subsidiary"
+    },
+    {
+     "k": "Underlying asset",
+     "v": "15% of LNG Canada"
+    },
+    {
+     "k": "Phase 2",
+     "v": "Capacity 14 to 28 Mtpa; FID Sept 2026"
+    },
+    {
+     "k": "Closing",
+     "v": "Expected November"
+    }
+   ],
+   "questions": [
+    "What is the return profile for infrastructure credit in an LNG project?",
+    "Does Phase 2 stay on budget and schedule?",
+    "Which other partners will recycle capital the same way?"
+   ],
+   "unknowns": [
+    "Terms and pricing beyond the headline amount.",
+    "Regulatory approvals still needed to close."
+   ],
+   "sources": [
+    {
+     "stype": "Press",
+     "src": "Canadian Press via CTV News",
+     "url": "https://www.ctvnews.ca/business/article/blackstone-led-group-buys-into-mitsubishi-subsidiary-that-holds-lng-canada-stake/"
+    },
+    {
+     "stype": "Press",
+     "src": "Reuters via Engineering News",
+     "url": "https://www.engineeringnews.co.za/article/blackstone-canadian-pension-funds-to-invest-31bn-in-lng-canada-for-mitsubishi-stake-2026-11-03"
+    },
+    {
+     "stype": "Newsletter",
+     "src": "Oil & Gas 360",
+     "url": "https://www.oilandgas360.com/?p=1062838"
+    }
+   ]
+  },
+  {
+   "id": "en-oil-iran-talks",
+   "kicker": "Industry desk",
+   "firm": "Industry",
+   "desk": "Energy & resources",
+   "date": "Nov 6",
+   "year": "2026",
+   "confidence": "Developing",
+   "readTime": "3 min read",
+   "lens": "Risks & unknowns",
+   "title": "Oil drops sharply on signs of US–Iran talks, but supply risk through Hormuz remains",
+   "summary": "Crude fell roughly 6 to 7% at its lowest point in the week to 6 November after Iran signalled openness to negotiations, then recovered part of the loss. Prices had been elevated for months on disruption to Middle East supply.",
+   "cs": "Energy clients are planning against a wide price range. Scenario planning, hedging policy and capital-allocation reviews are where this volatility turns into work.",
+   "paras": [
+    "Weekly market summaries describe a volatile week in which oil dropped on hopes of a diplomatic route out of the conflict, with the decline measured at about 6% by one outlet and 7% by another at the low. The summary also notes months of elevated prices tied to uncertainty over the Strait of Hormuz and damaged Gulf infrastructure.",
+    "The International Energy Agency separately warned that natural gas markets could stay constrained into 2027 even as LNG and renewables investment grows. That fits the capital flowing into projects such as LNG Canada.",
+    "A one-week move on peace headlines says little about the trend. What matters for planning is the spread between a deal scenario and a prolonged disruption."
+   ],
+   "facts": [
+    {
+     "k": "Weekly move, week to Nov 6",
+     "v": "Roughly -6% to -7% at the low"
+    },
+    {
+     "k": "Context",
+     "v": "Months of elevated prices; Hormuz uncertainty"
+    },
+    {
+     "k": "Gas outlook",
+     "v": "IEA: constrained into 2027"
+    }
+   ],
+   "questions": [
+    "What price range should the capital plan survive?",
+    "Which projects only work if disruption persists?",
+    "How exposed is our supply chain to Gulf shipping?"
+   ],
+   "unknowns": [
+    "Whether talks lead to an agreement.",
+    "Exact closing prices, which vary by benchmark and day."
+   ],
+   "sources": [
+    {
+     "stype": "Newsletter",
+     "src": "Oil & Gas 360 weekly",
+     "url": "https://www.oilandgas360.com/?p=1062959"
+    },
+    {
+     "stype": "Press",
+     "src": "Oilprice.com",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/Blackstone-Led-Investors-Buy-into-LNG-Canada-for-31-Billion.amp.html"
+    }
+   ]
+  },
+  {
+   "id": "en-opec-hold",
+   "kicker": "Industry desk",
+   "firm": "Industry",
+   "desk": "Energy & resources",
+   "date": "Nov 9",
+   "year": "2026",
+   "confidence": "Reported",
+   "readTime": "3 min read",
+   "lens": "Structure & competition",
+   "title": "OPEC+ holds December output steady; the war, not the quota table, sets real supply",
+   "summary": "Seven core OPEC+ producers kept December production targets unchanged and set their next meeting for 29 November. A capacity review that feeds 2027 quotas has slipped to mid-November.",
+   "cs": "Quota decisions are secondary while actual output is constrained. Clients in oil, refining and petrochemicals need planning that does not assume a return to pre-war supply.",
+   "paras": [
+    "The group said it would keep monthly meetings, with the next on 29 November. A report on the October meeting noted the core members were still pumping about 5 million barrels a day below pre-war levels because of the Iran war, so targets above actual output are largely theoretical.",
+    "The capacity review matters because it will shape how quotas are divided in 2027. Delays keep the market guessing about who gets to produce more when supply normalises.",
+    "US data released on 4 November put commercial crude stocks, excluding the strategic reserve, at 409.8 million barrels for the week ending 30 October."
+   ],
+   "facts": [
+    {
+     "k": "Decision",
+     "v": "December targets unchanged"
+    },
+    {
+     "k": "Next meeting",
+     "v": "29 Nov 2026"
+    },
+    {
+     "k": "Core-member output vs pre-war (Oct report)",
+     "v": "About 5M bpd below"
+    },
+    {
+     "k": "US commercial crude stocks, wk to Oct 30",
+     "v": "409.8M barrels (EIA)"
+    }
+   ],
+   "questions": [
+    "When does actual supply recover, and who benefits first?",
+    "How will 2027 quotas be allocated after the capacity review?"
+   ],
+   "unknowns": [
+    "Outcome and timing of the capacity review."
+   ],
+   "sources": [
+    {
+     "stype": "Aggregator",
+     "src": "Oil Market Daily via PR Newswire",
+     "url": "https://finviz.com/news/419317/seven-opec-producers-keep-december-output-unchanged-while-crude-opens-lower"
+    },
+    {
+     "stype": "Press",
+     "src": "InvestingLive (citing Reuters)",
+     "url": "https://investinglive.com/commodities/weekend-opec-holds-november-output-steady-with-core-members-5-million-bpd-below-prewar-levels/"
+    }
+   ],
+   "dates": [
+    {
+     "iso": "2026-11-29",
+     "label": "OPEC+ core members' next monthly meeting"
+    }
+   ]
+  },
+  {
+   "id": "cr-holiday-forecast-earnings",
+   "kicker": "Industry desk",
+   "firm": "Industry",
+   "desk": "Consumer & retail",
+   "date": "Nov 14",
+   "year": "2026",
+   "confidence": "Reported",
+   "readTime": "3 min read",
+   "lens": "Demand & customers",
+   "title": "Retailers report into a forecast of a $1 trillion holiday season, the fastest growth since 2021",
+   "summary": "The National Retail Federation expects November and December sales to rise 4.2% to $1.013 trillion. Home Depot, Target, Walmart and others report next week, giving the first read on how that holds up against budget-conscious shoppers.",
+   "cs": "Retail clients will be re-planning inventory, pricing and promotions in real time. Watch guidance language on discretionary categories and low-income shoppers.",
+   "paras": [
+    "NRF released the forecast on 15 October, built with Oxford Economics. Last year holiday sales rose 3.1% to $972 billion, below NRF's own range. It says nearly half of this year's growth is real spending and the rest is higher prices, and that growth would be the fastest since 2021.",
+    "Earnings land in a tight window: Home Depot on 17 November, Target on 18 November, Walmart and Ross on 19 November and Best Buy on 24 November. Lowe's lists 18 November as tentative.",
+    "The forecast is nominal and covers retail excluding autos, gas stations and restaurants, so it will not map neatly onto any single company's results."
+   ],
+   "facts": [
+    {
+     "k": "NRF forecast, Nov to Dec",
+     "v": "+4.2% to $1.013T"
+    },
+    {
+     "k": "Last year",
+     "v": "+3.1% to $972B"
+    },
+    {
+     "k": "Core goods inflation forecast",
+     "v": "2.5% avg in 2026 (NRF)"
+    },
+    {
+     "k": "Home Depot",
+     "v": "Nov 17"
+    },
+    {
+     "k": "Target",
+     "v": "Nov 18"
+    },
+    {
+     "k": "Walmart / Ross",
+     "v": "Nov 19"
+    },
+    {
+     "k": "Best Buy",
+     "v": "Nov 24"
+    }
+   ],
+   "questions": [
+    "Is growth broad or driven by higher-income households?",
+    "How much of sales growth is price versus volume?",
+    "Where are retailers cutting or adding promotions?"
+   ],
+   "unknowns": [
+    "Company guidance for the holiday quarter.",
+    "Earnings dates other than those the companies have confirmed."
+   ],
+   "sources": [
+    {
+     "stype": "Primary",
+     "src": "National Retail Federation",
+     "url": "https://nrf.com/media-center/press-releases/nrf-forecasts-2026-holiday-sales-growth-as-consumers-remain-resilient"
+    },
+    {
+     "stype": "Press",
+     "src": "Retail Dive",
+     "url": "https://retaildive.com/news/nrf-forecasts-2026-holiday-sales-growth-seasonal-hiring/833239"
+    },
+    {
+     "stype": "Aggregator",
+     "src": "IfYouSpent earnings preview",
+     "url": "https://news.ifyouspent.com/en/news/retail-earnings-preview-walmart-home-depot-target-november-2026"
+    }
+   ],
+   "dates": [
+    {
+     "iso": "2026-11-17",
+     "label": "Home Depot earnings"
+    },
+    {
+     "iso": "2026-11-18",
+     "label": "Target earnings"
+    },
+    {
+     "iso": "2026-11-19",
+     "label": "Walmart and Ross Stores earnings"
+    },
+    {
+     "iso": "2026-11-24",
+     "label": "Best Buy earnings (first under new CEO)"
+    }
+   ]
+  },
+  {
+   "id": "cr-best-buy-ceo",
+   "kicker": "Industry desk",
+   "firm": "Best Buy",
+   "desk": "Consumer & retail",
+   "date": "Oct 31",
+   "year": "2026",
+   "confidence": "Reported",
+   "readTime": "3 min read",
+   "lens": "Talent & operations",
+   "title": "Best Buy's new CEO starts as the retailer leans on marketplace and retail media",
+   "summary": "Jason Bonfig took over from Corie Barry on 31 October. He built Best Buy's US online marketplace and scaled its retail media business, the two areas the company is counting on for margin.",
+   "cs": "A CEO change at a flat-growth retailer usually precedes a strategy reset. Look for portfolio, store-footprint and margin-mix work after the 24 November earnings call.",
+   "paras": [
+    "Best Buy announced the succession in April. Barry stepped down after seven years and stays as an adviser for six months. Bonfig, a 25-year veteran, oversaw merchandising, e-commerce, marketing, supply chain, Best Buy Canada and the Best Buy Ads network.",
+    "The company reported US$41.7 billion of revenue in fiscal 2026, with fourth-quarter comparable sales down 0.8%. Retail media and marketplace are the higher-margin lines the new CEO is known for building."
+   ],
+   "facts": [
+    {
+     "k": "New CEO",
+     "v": "Jason Bonfig, effective Oct 31"
+    },
+    {
+     "k": "Prior CEO",
+     "v": "Corie Barry (CEO since 2019), adviser for 6 months"
+    },
+    {
+     "k": "FY2026 revenue",
+     "v": "US$41.7B"
+    },
+    {
+     "k": "Q4 FY2026 comparable sales",
+     "v": "-0.8%"
+    },
+    {
+     "k": "Stores",
+     "v": "1,000+ in North America"
+    }
+   ],
+   "questions": [
+    "How large can retail media and marketplace get relative to hardware margins?",
+    "What does the store network look like in three years?"
+   ],
+   "unknowns": [
+    "Any strategy changes; the first call under Bonfig is 24 November."
+   ],
+   "sources": [
+    {
+     "stype": "Press",
+     "src": "Fox Business",
+     "url": "https://www.foxbusiness.com/retail/best-buy-ceo-corie-barry-step-down"
+    },
+    {
+     "stype": "Press",
+     "src": "KTVU (Best Buy release)",
+     "url": "https://www.ktvu.com/news/best-buy-next-ceo-jason-bonfig-corie-barry-step-down"
+    }
+   ]
+  },
+  {
+   "id": "he-medicare-glp1-bridge",
+   "kicker": "Industry desk",
+   "firm": "Industry",
+   "desk": "Health",
+   "date": "Jul 1",
+   "year": "2026",
+   "confidence": "Reported",
+   "readTime": "3 min read",
+   "lens": "Regulation & policy",
+   "title": "Medicare's GLP-1 Bridge puts a $50 copay on weight-loss drugs until the end of 2027",
+   "summary": "Since 1 July, eligible Part D members can fill covered obesity drugs for a flat $50 a month under a temporary CMS demonstration. It runs to 31 December 2027, with a longer-term model for Part D planned from 2027.",
+   "cs": "Payers, pharmacies and manufacturers are modelling uptake, prior-authorization workload and plan bids. The sunset date creates a clear planning cliff.",
+   "paras": [
+    "CMS says the Bridge covers Wegovy (injection and tablet), the Zepbound KwikPen and Foundayo for weight loss or weight maintenance. The copay is a flat $50 for a 30-day supply regardless of dose, applies nationwide, and sits outside the normal Part D benefit for the length of the demonstration.",
+    "There are limits. People already getting a GLP-1 under Part D for conditions such as type 2 diabetes or sleep apnea are not eligible, the copay does not count toward the deductible or out-of-pocket cap, and Extra Help amounts do not apply. Early reports described pharmacy denials in the first days.",
+    "A separate CMS model, announced in December 2025, would let Part D plans and state Medicaid programs cover GLP-1s at negotiated prices, with Part D participation from January 2027 and voluntary for manufacturers, states and plans."
+   ],
+   "facts": [
+    {
+     "k": "Program",
+     "v": "Medicare GLP-1 Bridge (CMS demonstration)"
+    },
+    {
+     "k": "Runs",
+     "v": "1 Jul 2026 to 31 Dec 2027"
+    },
+    {
+     "k": "Member cost",
+     "v": "$50 per 30-day supply"
+    },
+    {
+     "k": "Covered (June 2026)",
+     "v": "Wegovy, Zepbound KwikPen, Foundayo"
+    },
+    {
+     "k": "Follow-on",
+     "v": "CMS BALANCE model; Part D from Jan 2027 (voluntary)"
+    }
+   ],
+   "questions": [
+    "How many eligible members will actually use the benefit?",
+    "What happens to coverage when the Bridge ends?",
+    "How do plan bids and rebates adjust?"
+   ],
+   "unknowns": [
+    "Uptake and spend data since July.",
+    "Final design of the longer-term model."
+   ],
+   "sources": [
+    {
+     "stype": "Primary",
+     "src": "CMS release via Pharmacy Times",
+     "url": "https://www.pharmacytimes.com/view/medicare-s-new-glp-1-bridge-program-what-pharmacists-need-to-know-before-dispensing"
+    },
+    {
+     "stype": "Press",
+     "src": "KFF Health News",
+     "url": "https://kffhealthnews.org/?p=2232451"
+    },
+    {
+     "stype": "Press",
+     "src": "CBS News",
+     "url": "https://cbsnews.com/news/medicare-glp1-weight-loss-drug-coverage-july-1"
+    },
+    {
+     "stype": "Press",
+     "src": "Bloomberg Law",
+     "url": "https://news.bloomberglaw.com/health-law-and-business/trump-program-would-expand-glp-1-coverage-in-medicare-medicaid"
+    }
+   ],
+   "dates": [
+    {
+     "iso": "2027-12-31",
+     "label": "Medicare GLP-1 Bridge ends"
+    }
+   ]
+  },
+  {
+   "id": "il-up-ns-comment-round",
+   "kicker": "Industry desk",
+   "firm": "Union Pacific",
+   "desk": "Industrials & logistics",
+   "date": "Nov 9",
+   "year": "2026",
+   "confidence": "Reported",
+   "readTime": "3 min read",
+   "lens": "Regulation & policy",
+   "title": "Rail merger fight enters its comment round, with critics backing a bid to end the review",
+   "summary": "Opening comments on Union Pacific's proposed purchase of Norfolk Southern are due 18 November. Shippers critical of the deal have backed Canadian Pacific Kansas City's request that the Surface Transportation Board terminate the review.",
+   "cs": "A five-month comment window is when opponents and shippers build their evidence. Expect heavy demand for competition economics, network modelling and shipper impact analysis.",
+   "paras": [
+    "The STB restarted the proceeding on 18 August and set the schedule: comments, protests and requests for conditions are due 18 November, and responses on 16 February 2027. A public hearing is planned before final briefs, with dates to be set. On 18 September the Board unanimously rejected motions for summary denial from BNSF, CSX and shipper groups, while one member wrote that the applicants still have a long way to go.",
+    "On 9 November, MLex reported that critics backed a CPKC request to end the review, arguing public statements by Union Pacific's CEO at a shippers' conference had corrupted the record. The Board has not ruled on that request, and nothing in the schedule has changed.",
+    "The competitive question centres on a pricing commitment Union Pacific and Norfolk Southern offered, which BNSF says covers under 1% of rail traffic."
+   ],
+   "facts": [
+    {
+     "k": "Opening comments due",
+     "v": "18 Nov 2026"
+    },
+    {
+     "k": "Responses due",
+     "v": "16 Feb 2027"
+    },
+    {
+     "k": "Sep 18 ruling",
+     "v": "Summary-denial motions rejected, unanimous"
+    },
+    {
+     "k": "Pending request",
+     "v": "CPKC motion to end review, backed by shippers"
+    }
+   ],
+   "questions": [
+    "Which shippers lose rail-to-rail competition?",
+    "What conditions could make the deal approvable?",
+    "How long does the timetable push closing?"
+   ],
+   "unknowns": [
+    "Whether the STB acts on the termination request.",
+    "Dates of the public hearing."
+   ],
+   "sources": [
+    {
+     "stype": "Primary",
+     "src": "Surface Transportation Board",
+     "url": "https://www.stb.gov/?p=86992"
+    },
+    {
+     "stype": "Press",
+     "src": "Railway Age",
+     "url": "https://www.railwayage.com/regulatory/stb-rejects-summary-denial-motions-for-up-ns-merger-application/"
+    },
+    {
+     "stype": "Press",
+     "src": "MLex",
+     "url": "https://www.mlex.com/mlex/articles/2548120"
+    }
+   ],
+   "dates": [
+    {
+     "iso": "2026-11-18",
+     "label": "STB: opening comments on UP–NS merger due"
+    },
+    {
+     "iso": "2027-02-16",
+     "label": "STB: responses to comments due"
+    }
+   ]
+  },
+  {
+   "id": "il-detroit-us-investments",
+   "kicker": "Industry desk",
+   "firm": "Industry",
+   "desk": "Industrials & logistics",
+   "date": "Jul 29",
+   "year": "2026",
+   "confidence": "Reported",
+   "readTime": "3 min read",
+   "lens": "Talent & operations",
+   "title": "Detroit's Big Three line up US plant investments as 25% vehicle tariffs bite",
+   "summary": "The White House points to US manufacturing commitments from GM, Ford and Stellantis as proof tariffs are pulling production home. The investments are real announcements, but the causal claim is the administration's.",
+   "cs": "Auto and supplier clients face footprint decisions: where to build, what to localise and how to price tariff cost. Moves are shifting production between existing plants more than adding capacity.",
+   "paras": [
+    "A July White House release lists GM investing US$6 billion in US manufacturing including an Orion Township expansion, Ford putting US$3 billion into its BlueOval Battery Park in Marshall (1,700 jobs), and Stellantis spending US$388 million on a Van Buren Township hub plus smaller Detroit and Warren projects. The President cited the same investments in Michigan on 29 July.",
+    "The policy backdrop is a 25% tariff on vehicles and light trucks built outside the US, plus extended tariffs on foreign-built medium and heavy trucks and an offset for parts on US-built vehicles."
+   ],
+   "facts": [
+    {
+     "k": "GM",
+     "v": "US$6B US manufacturing, incl. Orion expansion"
+    },
+    {
+     "k": "Ford",
+     "v": "US$3B BlueOval Battery Park (Marshall, MI); 1,700 jobs"
+    },
+    {
+     "k": "Stellantis",
+     "v": "US$388M Van Buren hub; $140M Detroit; $100M Warren"
+    },
+    {
+     "k": "Tariff",
+     "v": "25% on foreign-built vehicles and light trucks"
+    }
+   ],
+   "questions": [
+    "How much capacity is new versus moved from Canada and Mexico?",
+    "What does the parts-tariff offset do to supplier margins?",
+    "How would a USMCA review change the footprint?"
+   ],
+   "unknowns": [
+    "Independent verification of job and capacity numbers, which come from a White House release."
+   ],
+   "sources": [
+    {
+     "stype": "Primary",
+     "src": "White House release (government claims)",
+     "url": "https://www.whitehouse.gov/releases/2026/07/made-in-michigan-again-president-trumps-trade-agenda-is-supercharging-american-auto-manufacturing/"
+    },
+    {
+     "stype": "Press",
+     "src": "Mexico Business News",
+     "url": "https://mexicobusiness.news/automotive/news/trump-credits-25-tariffs-us-auto-production-boom"
+    }
+   ]
+  },
+  {
+   "id": "mt-corus-recap",
+   "kicker": "Industry desk",
+   "firm": "Corus",
+   "desk": "Media & telecom",
+   "date": "Oct 8",
+   "year": "2026",
+   "confidence": "Reported",
+   "readTime": "3 min read",
+   "lens": "Capital & M&A",
+   "title": "Corus completes its recapitalisation as lenders take ownership and a new board is named",
+   "summary": "Corus has closed the debt-for-equity restructuring after Canadian regulators approved it and Quebecor's rival bid was rejected. The company says it owns 25 specialty channels, 15 conventional stations and 36 radio stations.",
+   "cs": "A restructured balance sheet does not fix the business model. Expect cost programmes, portfolio sales and distribution renegotiations; these are advisory and operations-improvement opportunities.",
+   "paras": [
+    "The deal, first announced in November 2025, was approved by an Ontario court in March 2026 and by the CRTC afterwards. The CRTC also rejected Quebecor's attempt to buy Corus. Closing on 8 October brought in a new board.",
+    "The pressure on the business has not eased. In August Corus cut more jobs across Global News and its radio operations, and unions have criticised new job losses at Bell Media and Corus while federal support for Canadian news remains unsettled."
+   ],
+   "facts": [
+    {
+     "k": "Closed",
+     "v": "8 Oct 2026"
+    },
+    {
+     "k": "Approvals",
+     "v": "Ontario court (Mar 2026); CRTC"
+    },
+    {
+     "k": "Rejected rival",
+     "v": "Quebecor takeover bid"
+    },
+    {
+     "k": "Assets",
+     "v": "25 specialty TV, 15 conventional stations, 36 radio"
+    }
+   ],
+   "questions": [
+    "Which assets are core after the restructuring?",
+    "How far can costs fall before the content quality suffers?",
+    "What happens to carriage deals with cable and streaming?"
+   ],
+   "unknowns": [
+    "The new owners' plans for assets.",
+    "Size of upcoming cuts."
+   ],
+   "sources": [
+    {
+     "stype": "Press",
+     "src": "Canadian Press via CP24",
+     "url": "https://www.cp24.com/news/canada/2026/10/08/corus-completes-recapitalization-transaction-announces-new-board-of-directors/"
+    },
+    {
+     "stype": "Press",
+     "src": "C21 Media",
+     "url": "https://c21media.net/news/corus-entertainment-granted-lifeline-as-crtc-approves-357m-recapitalisation-plan"
+    },
+    {
+     "stype": "Press",
+     "src": "Daily Hive",
+     "url": "https://dailyhive.com/canada/corus-layoffs-global-news"
+    }
+   ]
+  },
+  {
+   "id": "mt-ottawa-media-600m",
+   "kicker": "Industry desk",
+   "firm": "Industry",
+   "desk": "Media & telecom",
+   "date": "Nov 8",
+   "year": "2026",
+   "confidence": "Developing",
+   "readTime": "3 min read",
+   "lens": "Regulation & policy",
+   "title": "Ottawa details $600 million in media funding for 2026–27; critics question who pays",
+   "summary": "Heritage Minister Marc Miller broke the money into the Canada Media Fund, local news, Telefilm and music funds. The announcement does not say how much goes to each company.",
+   "cs": "Broadcasters and producers will be modelling how these funds and the proposed journalism tax credit change their economics. Policy and funding-strategy work follows.",
+   "paras": [
+    "On 8 November the government set out the 2026–27 allocation: Canada Media Fund $213.4 million, the Independent Local News Fund $80 million, Telefilm Canada $68.5 million and the Canada Music Fund $67 million. It is separate from a proposed journalism tax-credit expansion in Budget 2026.",
+    "Law professor Michael Geist argued taxpayers are covering costs that large technology platforms should bear, citing roughly $1.5 billion across several cultural and news measures. That figure is his tally of wider measures, not payments under this package.",
+    "Unions say uncertainty over federal support is pushing news job cuts at Bell Media and Corus."
+   ],
+   "facts": [
+    {
+     "k": "Canada Media Fund",
+     "v": "$213.4M"
+    },
+    {
+     "k": "Independent Local News Fund",
+     "v": "$80M"
+    },
+    {
+     "k": "Telefilm Canada",
+     "v": "$68.5M"
+    },
+    {
+     "k": "Canada Music Fund",
+     "v": "$67M"
+    },
+    {
+     "k": "Company-level payments",
+     "v": "Not specified"
+    }
+   ],
+   "questions": [
+    "Who gets what, and under which conditions?",
+    "Does the funding offset the loss of platform contributions?"
+   ],
+   "unknowns": [
+    "Company-by-company allocations.",
+    "Currency of the amounts, which the report does not label."
+   ],
+   "sources": [
+    {
+     "stype": "Newsletter",
+     "src": "iPhone in Canada",
+     "url": "https://www.iphoneincanada.ca/2026/11/08/ottawa-600-million-media-plan-global-news/"
+    },
+    {
+     "stype": "Primary",
+     "src": "Unifor statement on Bell Media and Corus cuts",
+     "url": "https://www.unifor.org/news/all-news/unifor-condemns-latest-bell-media-and-corus-job-cuts-crisis-deepens-canadian-media"
+    }
+   ]
+  },
+  {
+   "id": "ci-strategy-industry-2026",
+   "kicker": "Industry desk",
+   "firm": "Industry",
+   "desk": "Consulting industry",
+   "date": "Nov 14",
+   "year": "2026",
+   "confidence": "Reported",
+   "readTime": "3 min read",
+   "lens": "Market size & growth",
+   "title": "Strategy firms keep growing but not evenly: BCG up 7%, McKinsey's headcount shrinks, Accenture adds people",
+   "summary": "BCG closed the year at US$14.4 billion, up 7% for a 22nd straight year of growth. At McKinsey, headcount went down for the first time in years, while Accenture ended fiscal 2026 with about 814,000 people.",
+   "cs": "Firm leaders are re-cutting pyramids and pricing. For students and early-career candidates, the entry-level squeeze is the headline.",
+   "paras": [
+    "An industry review notes only BCG discloses revenue among the strategy firms, so comparisons rely on estimates. Revenue kept growing through 2025 across the big firms, but McKinsey's headcount falling was a break from the pattern.",
+    "Accenture is often grouped with the Big Four but is not one of them. It reported about 814,000 people at the end of fiscal 2026 versus about 779,000 a year earlier, and Deloitte says it has nearly 500,000. At the Big Four, tax grew faster than advisory: PwC's advisory revenue rose 3.0% like-for-like versus 6.3% for tax and legal.",
+    "The same review says Bain bought a London financial-crime compliance firm, JJC FinTech, in February 2026."
+   ],
+   "facts": [
+    {
+     "k": "BCG revenue",
+     "v": "US$14.4B, +7%; 22nd year of growth"
+    },
+    {
+     "k": "McKinsey",
+     "v": "Headcount fell; revenue not disclosed"
+    },
+    {
+     "k": "Accenture",
+     "v": "About 814,000 people (FY2026), up from about 779,000"
+    },
+    {
+     "k": "PwC advisory vs tax",
+     "v": "+3.0% vs +6.3%, like-for-like"
+    }
+   ],
+   "questions": [
+    "Where is demand growing: strategy, implementation or tax?",
+    "What does a smaller McKinsey pyramid mean for entry hiring?"
+   ],
+   "unknowns": [
+    "Non-disclosed firms' revenue.",
+    "Which figures are estimates."
+   ],
+   "sources": [
+    {
+     "stype": "Newsletter",
+     "src": "StrategyU, strategy consulting industry in 2026",
+     "url": "https://strategyu.co/strategy-consulting-industry-report/"
+    },
+    {
+     "stype": "Research",
+     "src": "Avasant, Strategic Consulting and Big Four market update 2026",
+     "url": "https://avasant.com/?p=288706"
+    }
+   ]
+  },
+  {
+   "id": "ci-fees-ai-pricing",
+   "kicker": "Industry desk",
+   "firm": "Industry",
+   "desk": "Consulting industry",
+   "date": "Nov 14",
+   "year": "2026",
+   "confidence": "Reported",
+   "readTime": "3 min read",
+   "lens": "Profit pools & margins",
+   "title": "AI is pushing the big firms toward outcome-based fees and expert-heavy teams",
+   "summary": "McKinsey said in November 2025 that about one in four of its global fees now depend on outcomes rather than hours. Bloomberg reported in August that McKinsey, BCG and Bain are emphasising deep technical and industry expertise as AI changes the talent model.",
+   "cs": "If AI compresses analytical hours, pricing tied to hours loses its logic. Firms and clients are renegotiating scope, risk-sharing and value metrics.",
+   "paras": [
+    "McKinsey's UK managing partner, Michael Birshan, told reporters in London that the firm is doing more performance-based work, per Business Insider. That fee mix figure is from late 2025, so check for updates.",
+    "The shift matters for the pyramid. If tools handle first-pass analysis, firms need fewer junior analysts per project and more people with deep domain skills. Bain also moved ahead of BCG into second place in Vault's 2026 North American prestige ranking, a rare change at the top."
+   ],
+   "facts": [
+    {
+     "k": "Outcome-based share of McKinsey fees",
+     "v": "About 25% (stated Nov 2025)"
+    },
+    {
+     "k": "Direction",
+     "v": "More performance-based pricing"
+    },
+    {
+     "k": "Talent model",
+     "v": "Technical and industry experts over generalists"
+    }
+   ],
+   "questions": [
+    "How do outcome-based fees shift risk to the firm?",
+    "How do clients verify attribution of results?"
+   ],
+   "unknowns": [
+    "Current fee mix; the share is from late 2025."
+   ],
+   "sources": [
+    {
+     "stype": "Press",
+     "src": "Yahoo Finance (citing Business Insider)",
+     "url": "https://finance.yahoo.com/sectors/technology/articles/ai-forcing-mckinsey-bcg-bain-093300265.html"
+    },
+    {
+     "stype": "Newsletter",
+     "src": "Management Consulted summary of Bloomberg, Aug 2026",
+     "url": "https://managementconsulted.com/media/publication/bloomberg/"
+    }
+   ]
+  }
  ]
 }

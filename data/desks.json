@@ -1,0 +1,25 @@
+{
+ "lenses": [
+  {"k":"Market size & growth","q":"How big is it, how fast is it growing, and is that real volume or just price?"},
+  {"k":"Profit pools & margins","q":"Where in the value chain is the money actually made, and is it moving?"},
+  {"k":"Structure & competition","q":"Who are the players, how concentrated is it, and who is gaining or losing share?"},
+  {"k":"Demand & customers","q":"Who buys, what do they want, and what is changing in their behaviour or budgets?"},
+  {"k":"Talent & operations","q":"What does it cost to run, where are the bottlenecks, and who runs it?"},
+  {"k":"Regulation & policy","q":"Which rules, funding or deadlines change what companies must or can do?"},
+  {"k":"Technology & disruption","q":"What new technology or business model threatens or reshapes the economics?"},
+  {"k":"Capital & M&A","q":"Where is money flowing in or out: deals, funding, restructurings, valuations?"},
+  {"k":"Risks & unknowns","q":"What could break the picture: supply shocks, litigation, geopolitics, missing data?"}
+ ],
+ "company": ["Strategy and positioning","Growth and margin by segment","Cash, debt and capital allocation","Customers and concentration","Cost base and operations","Leadership and organisation changes","Deals and partnerships","Regulatory, legal and reputational exposure","Where consultants get hired"],
+ "desks": {
+  "Tech & AI": {"metrics":["Enterprise AI spend and adoption rates","Gross margin on AI products (compute cost)","Cloud and data-centre capex","Net revenue retention for software","Headcount and productivity per employee"],"projects":["AI strategy and use-case prioritisation","Operating-model redesign around AI agents","Vendor and platform selection","Cost-to-serve reduction with automation"]},
+  "Financial services": {"metrics":["Net interest margin and cost of risk","Efficiency ratio","Capital ratios (CET1) and payout","Deposit growth and mix","Payments and fee revenue share"],"projects":["Payments and stablecoin strategy","Cost take-out and branch or operations transformation","Risk, compliance and financial-crime remediation","Post-merger integration"]},
+  "Energy & resources": {"metrics":["Benchmark oil and gas prices and spreads","Breakeven price per project","Capex per unit of capacity","Reserves and production growth","Power demand growth"],"projects":["Capital-allocation and portfolio strategy","Project cost and schedule control","Energy-transition and LNG market entry","Supply-chain and trading risk"]},
+  "Consumer & retail": {"metrics":["Same-store sales and traffic","Gross margin and markdown rates","Inventory turns","Share of e-commerce and retail media","Loyalty and customer value"],"projects":["Pricing and promotion","Assortment and supply-chain redesign","Store-footprint and formats","Retail media and marketplace growth"]},
+  "Health": {"metrics":["Drug price and net price after rebates","Coverage and utilisation rates","Cost per patient or per episode","Clinical-trial success and timelines","Staffing and capacity"],"projects":["Market access and pricing strategy","Payer and provider operations","Digital and AI in care delivery","Commercial launch planning"]},
+  "Industrials & logistics": {"metrics":["Capacity and utilisation","Order backlog and book-to-bill","Operating ratio or margin","Freight volumes and rates","Input and tariff costs"],"projects":["Footprint and sourcing under tariffs","Merger regulatory strategy and integration","Network and fleet optimisation","Automation and defence-tech scaling"]},
+  "Media & telecom": {"metrics":["Subscribers and churn","Average revenue per user","Advertising versus subscription mix","Content cost per hour or per subscriber","Network capex per subscriber"],"projects":["Streaming and bundle strategy","Restructuring and cost reduction","Spectrum, network and fibre investment cases","Content and rights portfolio"]},
+  "Public sector": {"metrics":["Budget and funding allocations","Programme delivery dates and compliance deadlines","Procurement volumes","Citizen-service wait times","Regulatory timeline slippage"],"projects":["Regulatory-readiness programmes","Digital-government and AI delivery","Procurement and grant strategy","Policy impact assessments"]},
+  "Consulting industry": {"metrics":["Revenue growth and headcount","Utilisation and realisation","Pyramid shape and graduate intake","Share of outcome-based fees","Attrition and partner promotion rates"],"projects":["AI-enabled delivery and pricing models","Talent and graduate-pipeline redesign","Practice and acquisition strategy","Knowledge and tooling platforms"]}
+ }
+}

@@ -89,6 +89,15 @@ also carry `section`. Aim per edition: AI & Tools 8+ items, Big Moves 6 moves + 
 (at least 4 genuinely local B.C. items), firm pages: any firm named in an item is matched automatically, so name firms
 precisely in titles/summaries. Industry desks: spread items across desks; avoid leaving a desk empty for a whole week.
 
+## 6d. Industry desks and the consultant's lens (`deskNews[]`; `data/desks.json`)
+Purpose: every desk page should read like a newspaper section and answer what a consultant would ask about an industry or company.
+- Each run, every desk in DESKS gets fresh coverage. Target 4–6 `deskNews[]` items per desk, and no desk empty for more than a week. Search each desk by its own metrics (see `data/desks.json` `desks.<desk>.metrics`) and by the nine lenses.
+- Lenses (field `lens`, exactly one of): Market size & growth | Profit pools & margins | Structure & competition | Demand & customers | Talent & operations | Regulation & policy | Technology & disruption | Capital & M&A | Risks & unknowns. Aim to cover several different lenses per desk, not five deals.
+- Fields per item: `id` (slug), `kicker` "Industry desk", `firm` (company name if the story is about one company, else "Industry"), `desk`, `date` ("Nov 9"), `year`, `confidence`, `readTime`, `lens`, `title`, `summary`, `cs` (client signal), `paras` (2–3, 120–250 words total, own words), `facts[]` ({k,v}; 3+; only figures a source states, with the as-of date or "estimate"), `questions[]` (2+, what a client would ask), `unknowns[]` (1+), `dates[]` ({iso,label}, for upcoming events), `sources[]` (2+ https).
+- Company stories answer the company checklist in `data/desks.json` (strategy, growth and margin, cash and debt, customers, cost base, leadership changes, deals, exposure, where consultants get hired) where sources allow. Never invent a number to fill a checklist item; put it in `unknowns`.
+- Items older than 60 days are archived with kind "desk" (see archive procedure). Standing items with future `dates` stay until the last date passes.
+- Government or company claims (for example a White House release) are labelled as claims in the text.
+
 ## 6c. Policy & Regulation (own tab; `policy[]` in edition.json)
 Purpose: government rules, funding and deadlines that create client work. AI policy first, then trade, tax, competition, privacy,
 procurement and sector regulation that move business. 3–5 new items a day when there is news; never pad.
@@ -137,19 +146,19 @@ Only real postings with working https links. Include pay only if the posting sta
 
 ## 12. Data contract (data/edition.json) — see scripts/validate.py
 Top-level: schema, edition{id,label,published,next}, lead (story id), stories[], wire[], caseOfDay{q,basedOn},
-policy[], bigMoves[], radar[], vancouver{stories[],jobs[]}, howItWorks[3 — exactly: one Industry, one Business, one Strategy], archive[], corrections[].
+policy[], bigMoves[], radar[], deskNews[], vancouver{stories[],jobs[]}, howItWorks[3 — exactly: one Industry, one Business, one Strategy], archive[], corrections[].
 Also data/library.json ({"items":[]}, past How It Works deep dives) and data/backlog.json ({"industry":[],"business":[],"strategy":[]}, each a list of {topic,hook}).
 Story ids: lowercase-hyphen slugs, unique, stable across editions (articles keep their links).
 ARCHIVE (nothing is ever deleted; old links must keep working): at the start of every run, compare the previous edition.json with
-the new draft. Every item whose id is NOT in the new edition (stories, policy, bigMoves, radar, wire, vancouver.stories) is copied in full
-into data/archive/YYYY-MM.json (month of today; {"items":[...]}, newest first) with `kind` (story|pol|move|radar|wire|van) and
+the new draft. Every item whose id is NOT in the new edition (stories, policy, deskNews, bigMoves, radar, wire, vancouver.stories) is copied in full
+into data/archive/YYYY-MM.json (month of today; {"items":[...]}, newest first) with `kind` (story|pol|move|radar|wire|van|desk) and
 `archivedOn` (YYYY-MM-DD) added. Add the month to data/archive/months.json if new. Items that stay on the page are not archived.
 Use the same ids as before. Archive ids must be unique and must not overlap the live edition (validate.py checks this).
 Leave edition.archive[] empty. How It Works items go to data/library.json instead (§6).
 
 ## 13. Run procedure (crash-safe)
 1. Read RULES.md, data/edition.json, data/status.json, data/backlog.json (if any).
-2. Research → fact sheets → score → draft new edition into `data/edition.next.json`.
+2. Research (including each desk per §6d) → fact sheets → score → draft new edition into `data/edition.next.json`.
 3. Independent check pass: re-open sources and verify every number, name, date, and URL in new/changed items. Fix or cut.
 4. Run `python3 scripts/validate.py data/edition.next.json`. If it fails: fix and re-run once. If it still fails: do NOT
    publish; keep the current edition; write status {result:"failed", reason}; send a push notification "Edition failed".

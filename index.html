@@ -151,7 +151,7 @@ const DESKS = ["Tech & AI","Financial services","Energy & resources","Consumer &
 const SECTIONS = ["Latest","AI & Tools","Policy","Big Moves","Vancouver","How It Works"];
 const KC = { "Deals":"#C70000","Big Moves":"#C70000","Research":"#005689","Models":"#C05A00","Tools":"#C05A00","Workforce":"#7D0068","Strategy":"#3D5A80","Regulation":"#3D5A80" };
 const MC = { "M&A":"#005689", "IPO":"#1F8A4C", "Scandal":"#C70000", "Funding":"#7D0068", "Canada":"#C05A00", "Earnings":"#3D5A80", "Leadership":"#3D5A80" };
-const st = { data:null, lib:[], arch:[], archDone:false, q:"", akind:"All", view:"Latest", firm:"All", desk:"All", menu:null, moveType:"All" };
+const st = { desks:null, data:null, lib:[], arch:[], archDone:false, q:"", akind:"All", view:"Latest", firm:"All", desk:"All", menu:null, moveType:"All" };
 
 // ---------- helpers ----------
 const esc = (v) => String(v == null ? "" : v).replace(/[&<>"']/g, (c) => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
@@ -178,6 +178,7 @@ async function load(){
   try { st.data = await tryGet("data/edition.json"); }
   catch(e){ try { st.data = await tryGet("data/last-good.json"); st.data._fallback = true; } catch(e2){ st.data = null; } }
   try { const l = await tryGet("data/library.json"); st.lib = arr(l.items); } catch(e){ st.lib = []; }
+  try { st.desks = await tryGet("data/desks.json"); } catch(e){ st.desks = null; }
   render();
 }
 
@@ -295,12 +296,12 @@ function footerHTML(){
   return `<div><div class="serif" style="font-weight:900;font-size:22px">The Consultant Times</div><div class="muted">Business news through a consultant's lens. New edition every weekday at 6am PT, plus a Friday wrap-up. ${by}</div></div>
   <div><b>Independent, AI-assisted</b><br><span class="muted">Curated and written with AI under <a href="#how-we-work">published editorial rules</a>. Not affiliated with, or paid by, any company covered.</span></div>
   <div><b>Not financial advice</b><br><span class="muted">Nothing on this site is investment advice.</span></div>
-  <div><b>Sources and corrections</b><br><span class="muted">Every item links its source and labels its type. Spot an error? <a href="#feedback">Tell us</a> and it's fixed in the next edition. <a href="#corrections">Corrections log</a>. <a href="#archive">Browse the archive</a>.</span></div>`;
+  <div><b>Sources and corrections</b><br><span class="muted">Every item links its source and labels its type. Spot an error? <a href="#feedback">Tell us</a> and it's fixed in the next edition. <a href="#corrections">Corrections log</a>. <a href="#archive">Browse the archive</a>. <a href="#lens">What consultants look at</a>.</span></div>`;
 }
 
 // ---------- category pages (each section has its own layout) ----------
 const MON = { jan:1,feb:2,mar:3,apr:4,may:5,jun:6,jul:7,aug:8,sep:9,oct:10,nov:11,dec:12 };
-const KIND_RANK = { story:0, pol:1, move:1, how:2, van:3, radar:4, wire:5 };
+const KIND_RANK = { desk:0, story:0, pol:1, move:1, how:2, van:3, radar:4, wire:5 };
 const AIRX = /\bAI\b|artificial intelligence|Anthropic|OpenAI|Nvidia|Cohere|Mercor|\bmodels?\b|agentic|semiconductor|\bchips?\b|Marvell|Lumentum|Salesforce|Shield AI/i;
 function dkey(x){
   const m = String(x.date || "").trim().toLowerCase().match(/^([a-z]{3})[a-z]*\.?\s*(\d{1,2})?/);
@@ -313,12 +314,12 @@ function poolOf(d){
   const mk = (x, kind) => Object.assign({}, x, {
     kind, title: x.title || x.text || "",
     blurb: x.summary || x.body || (kind === "wire" ? "" : (x.cs || "")),
-    label: x.kicker || (kind === "move" ? x.type : kind === "van" || kind === "wire" ? x.tag : kind === "radar" ? "Under the Radar" : "How it works"),
+    label: kind === "desk" ? (x.lens || "Industry desk") : x.kicker || (kind === "move" ? x.type : kind === "van" || kind === "wire" ? x.tag : kind === "radar" ? "Under the Radar" : "How it works"),
     where: kind === "move" ? (x.co || "") : kind === "van" ? "Vancouver" : (x.firm === "Industry" ? "" : (x.firm || "")) });
   return [].concat(arr(d.stories).map((x) => mk(x, "story")), arr(d.policy).map((x) => mk(x, "pol")), arr(d.bigMoves).map((x) => mk(x, "move")), arr(d.radar).map((x) => mk(x, "radar")),
-    arr((d.vancouver || {}).stories).map((x) => mk(x, "van")), arr(d.wire).map((x) => mk(x, "wire")), arr(d.howItWorks).map((x) => mk(x, "how")), arr(st.lib).map((x) => Object.assign(mk(x, "how"), { archived: true })));
+    arr((d.vancouver || {}).stories).map((x) => mk(x, "van")), arr(d.wire).map((x) => mk(x, "wire")), arr(d.howItWorks).map((x) => mk(x, "how")), arr(d.deskNews).map((x) => mk(x, "desk")), arr(st.lib).map((x) => Object.assign(mk(x, "how"), { archived: true })));
 }
-const colOf = (x) => x.kind === "move" ? (MC[x.type] || "#3D5A80") : x.kind === "van" ? "var(--van)" : x.kind === "how" ? "var(--teal)" : kc(x.kicker || x.tag);
+const colOf = (x) => x.kind === "desk" ? "#1B2A41" : x.kind === "move" ? (MC[x.type] || "#3D5A80") : x.kind === "van" ? "var(--van)" : x.kind === "how" ? "var(--teal)" : kc(x.kicker || x.tag);
 const headOf = (x) => `<div class="kick" style="font-size:11px;color:${colOf(x)}">${esc(x.label)}${x.where ? " · " + esc(x.where) : ""} · <span class="mono muted" style="letter-spacing:0;font-weight:500">${esc(x.date || "")}</span>${x.isNew ? '<span class="new">New</span>' : ""}</div>`;
 const linkOf = (x) => `<a href="#story-${esc(x.id)}" style="text-decoration:none">${esc(x.title)}</a>`;
 const srcOne = (x) => { const s = arr(x.sources)[0] || (x.url ? { stype: x.stype, src: x.src, url: x.url } : null); return s ? srcLine(s) : ""; };
@@ -445,20 +446,26 @@ function firmPage(d, firm){
    ${sideList("Elsewhere in consulting", "firms and the industry", other)}</section>`;
 }
 
-// Industry desk page: magazine layout (featured + stream + related)
+// Industry desk page: scorecard of what consultants look at, plus the news stream
 function deskPage(d, desk){
   const P = sortNew(poolOf(d).filter((x) => x.kind !== "how")), m = P.filter((x) => x.desk === desk), others = P.filter((x) => x.desk !== desk);
-  const list = m.length ? m : [];
-  const f = list.find((x) => x.kind === "story" || x.kind === "move") || list[0];
-  const rest = list.filter((x) => x !== f);
-  return `${pageBand(desk, list.length ? list.length + (list.length === 1 ? " story" : " stories") + " on this desk" : "Nothing new on this desk in this edition", "#1B2A41", "INDUSTRY DESK")}
-  ${f ? `<section class="row" style="gap:0;padding:28px 0;border-bottom:1px solid var(--ink)">${bigLead(f, "font-size:40px")}${sideList("Also on this desk", desk, rest.slice(0, 4))}</section>` : `<p class="notice">We haven't covered ${esc(desk)} in this edition. Here is the latest from across the site.</p>`}
+  const f = m.find((x) => x.kind === "desk" || x.kind === "story" || x.kind === "move") || m[0];
+  const rest = m.filter((x) => x !== f), side = rest.slice(0, 4), stream = rest.slice(4);
+  const cfg = st.desks || {}, DC = (cfg.desks || {})[desk] || {}, lenses = arr(cfg.lenses);
+  const today = new Date().toISOString().slice(0, 10);
+  const cal = [].concat(...m.map((x) => arr(x.dates).map((e) => ({ iso: e.iso, label: e.label, x })))).filter((e) => e.iso >= today).sort((p, q) => p.iso < q.iso ? -1 : 1).slice(0, 8);
+  const nums = [].concat(...m.filter((x) => x.kind === "desk").map((x) => arr(x.facts).slice(0, 2).map((k) => ({ k: k.k, v: k.v, x })))).slice(0, 8);
+  const sc = lenses.map((L) => { const hit = m.filter((x) => x.lens === L.k).slice(0, 2); return `<div style="border-top:2px solid var(--ink);padding:12px 0"><div class="kick" style="font-size:11px">${esc(L.k)}</div><p class="muted" style="font-size:13px;margin:4px 0 8px">${esc(L.q)}</p>${hit.length ? hit.map((x) => `<div style="font-size:15px;line-height:1.35;padding:3px 0">${linkOf(x)}</div>`).join("") : '<div class="muted" style="font-size:13px">No story on this lens in this edition.</div>'}</div>`; }).join("");
+  const lst = (t, a) => a.length ? `<div><div class="kick" style="margin-bottom:6px">${t}</div>${a.map((c) => `<div style="padding:6px 0;border-top:1px solid var(--rule);font-size:15px">${esc(c)}</div>`).join("")}</div>` : "";
+  return `${pageBand(desk, m.length ? m.length + (m.length === 1 ? " story" : " stories") + " on this desk" : "Nothing new on this desk in this edition", "#1B2A41", "INDUSTRY DESK")}
+  ${f ? `<section class="row" style="gap:0;padding:28px 0;border-bottom:1px solid var(--ink)">${bigLead(f, "font-size:40px")}${sideList("Also on this desk", desk, side)}</section>` : `<p class="notice">We haven't covered ${esc(desk)} in this edition. Here is the latest from across the site.</p>`}
+  ${stream.length ? `<section class="sec"><div class="sec-h"><div><h2>More from ${esc(desk)}</h2><p>Newest first.</p></div></div>${stream.map((x) => `<article style="display:flex;gap:18px;padding:14px 0;border-top:1px solid var(--rule)"><div class="mono muted" style="width:60px;flex:0 0 60px;font-size:12px;padding-top:4px">${esc(x.date)}</div><div style="min-width:0">${headOf(x)}<h3 class="serif" style="font-weight:700;font-size:22px;line-height:1.2;margin:4px 0 6px">${linkOf(x)}</h3>${x.blurb ? `<p style="font-size:15px;line-height:1.55;margin:0 0 6px">${esc(x.blurb)}</p>` : ""}<div class="muted" style="font-size:12px">${srcOne(x)}</div></div></article>`).join("")}</section>` : ""}
+  ${nums.length || cal.length ? `<section class="sec"><div class="row" style="gap:32px;align-items:flex-start">${nums.length ? `<div style="flex:1 1 360px;min-width:0"><div class="kick" style="margin-bottom:6px">Numbers to know</div>${nums.map((n) => `<div style="display:flex;gap:12px;justify-content:space-between;padding:8px 0;border-top:1px solid var(--rule);font-size:14px"><a href="#story-${esc(n.x.id)}" style="text-decoration:none;color:var(--muted);min-width:0">${esc(n.k)}</a><b class="mono" style="text-align:right">${esc(n.v)}</b></div>`).join("")}</div>` : ""}${cal.length ? `<div style="flex:1 1 360px;min-width:0"><div class="kick" style="margin-bottom:6px">On the calendar</div>${cal.map((e) => `<div style="display:flex;gap:12px;padding:8px 0;border-top:1px solid var(--rule);font-size:14px"><span class="mono" style="flex:0 0 92px">${esc(e.iso)}</span><a href="#story-${esc(e.x.id)}" style="text-decoration:none">${esc(e.label)}</a></div>`).join("")}</div>` : ""}</div></section>` : ""}
+  ${lenses.length ? `<section class="sec"><div class="sec-h"><div><h2>The consultant's scorecard</h2><p>The nine things consultants look at in an industry, and what we have on each. <a href="#lens">What the lenses mean</a></p></div></div><div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:0 28px">${sc}</div></section>` : ""}
+  ${DC.metrics || DC.projects ? `<section class="sec"><div class="row" style="gap:32px;align-items:flex-start"><div style="flex:1 1 320px;min-width:0">${lst("Metrics consultants track here", arr(DC.metrics))}</div><div style="flex:1 1 320px;min-width:0">${lst("Typical client projects", arr(DC.projects))}</div></div></section>` : ""}
   <section class="sec"><div class="sec-h"><div><h2>${f ? "Elsewhere on the site" : "Latest from across the site"}</h2><p>More headlines, newest first.</p></div></div><div class="grid">${others.slice(0, 8).map((x) => mini(x)).join("")}</div></section>`;
 }
-function noneHTML(name){ return `<p class="notice">Nothing in ${esc(name)} yet. Check back at the next edition.</p>`; }
-
-// ---------- archive ----------
-const AKINDS = { "All":null, "Stories":"story", "Policy":"pol", "Big Moves":"move", "Wire":"wire", "Vancouver":"van", "Under the Radar":"radar", "How It Works":"how" };
+const AKINDS = { "All":null, "Stories":"story", "Policy":"pol", "Big Moves":"move", "Wire":"wire", "Vancouver":"van", "Under the Radar":"radar", "How It Works":"how", "Industry desks":"desk" };
 function archiveItems(){
   const lib = arr(st.lib).map((x) => Object.assign({}, x, { kind:"how", archivedOn: x.archivedOn || "" }));
   return arr(st.arch).concat(lib);
@@ -503,12 +510,12 @@ function home(d){
 }
 function articlePage(d, id){
   const norm = (x, kind) => Object.assign({}, x, {
-    kicker: x.kicker || (kind==="pol" ? "Regulation" : kind==="move" ? x.type : kind==="radar" ? "Under the Radar" : kind==="van" ? "Vancouver · " + (x.tag||"") : kind==="wire" ? (x.tag||"Wire") : "How It Works"),
+    kicker: x.kicker || (kind==="pol" ? "Regulation" : kind==="move" ? x.type : kind==="radar" ? "Under the Radar" : kind==="van" ? "Vancouver · " + (x.tag||"") : kind==="wire" ? (x.tag||"Wire") : kind==="desk" ? "Industry desk" : "How It Works"),
     firm: x.firm || x.co || (kind==="van" ? "Vancouver" : ""),
     title: x.title || x.text,
     summary: x.summary || x.body || (kind==="wire" ? x.text : ""),
     sources: arr(x.sources).length ? x.sources : (x.url ? [{ stype: x.stype || "Source", src: x.src, url: x.url }] : []) });
-  const pool = arr(d.stories).map((x)=>norm(x,"story")).concat(arr(d.policy).map((x)=>norm(x,"pol")), arr(d.archive).map((x)=>norm(x,"story")), arr(d.bigMoves).map((x)=>norm(x,"move")), arr(d.radar).map((x)=>norm(x,"radar")), arr((d.vancouver||{}).stories).map((x)=>norm(x,"van")), arr(d.wire).map((x)=>norm(x,"wire")), arr(d.howItWorks).map((x)=>norm(x,"how")), arr(st.lib).map((x)=>norm(x,"how")), arr(st.arch).map((x)=>norm(x, x.kind||"story")));
+  const pool = arr(d.stories).map((x)=>norm(x,"story")).concat(arr(d.policy).map((x)=>norm(x,"pol")), arr(d.archive).map((x)=>norm(x,"story")), arr(d.bigMoves).map((x)=>norm(x,"move")), arr(d.radar).map((x)=>norm(x,"radar")), arr((d.vancouver||{}).stories).map((x)=>norm(x,"van")), arr(d.wire).map((x)=>norm(x,"wire")), arr(d.howItWorks).map((x)=>norm(x,"how")), arr(d.deskNews).map((x)=>norm(x,"desk")), arr(st.lib).map((x)=>norm(x,"how")), arr(st.arch).map((x)=>norm(x, x.kind||"story")));
   const s = pool.find((x)=>x.id===id);
   if (!s && !st.archDone) { loadArchive().then(() => { if (location.hash === "#story-" + id) render(); }); return `<div class="art"><p class="notice">Looking in the archive…</p></div>`; }
   if (!s) return `<div class="art"><a href="#">← Back to the front page</a><h1>Story not found</h1><p>We couldn't find that story. Try the <a href="#archive">archive</a>.</p></div>`;
@@ -517,13 +524,15 @@ function articlePage(d, id){
   const related = arr(d.stories).filter((x)=>x.id!==s.id).slice(0,3);
   document.title = s.title + " — The Consultant Times";
   return `<article class="art"><a href="#" style="font-weight:700;font-size:14px">← Back to the front page</a>
-   <div class="kick" style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:18px"><span style="color:${kc(s.kicker)}">${esc(s.kicker)} · ${esc(s.firm==="Industry"?"Industry-wide":s.firm)}</span><span style="background:var(--ink);color:var(--paper);padding:3px 8px">${esc(s.confidence||"Reported")}</span>${s.updated?`<span class="mono muted" style="letter-spacing:0">Updated ${esc(s.updated)}</span>`:""}</div>
+   <div class="kick" style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:18px"><span style="color:${kc(s.kicker)}">${esc(s.kicker)} · ${esc(s.firm==="Industry"?"Industry-wide":s.firm)}</span><span style="background:var(--ink);color:var(--paper);padding:3px 8px">${esc(s.confidence||"Reported")}</span>${s.lens||s.kind==="pol"?`<a href="#lens" style="border:1px solid var(--ink);padding:2px 8px;text-decoration:none;color:var(--ink)">Lens: ${esc(s.lens||"Regulation & policy")}</a>`:""}${s.updated?`<span class="mono muted" style="letter-spacing:0">Updated ${esc(s.updated)}</span>`:""}</div>
    <h1>${esc(s.title)}</h1><p class="serif" style="font-size:21px;line-height:1.45;color:#44403C;margin:0 0 16px">${esc(s.summary)}</p>
    <div class="byline">By The Consultant Times · AI-assisted · ${when(s)} ${esc(s.year||"")} ${s.readTime?"· "+esc(s.readTime):""}</div>
    ${facts}${arr(s.sections).map((sec,si)=>`<h2 class="serif" style="font-size:28px;margin:30px 0 10px">${esc(sec.h)}</h2>${arr(sec.paras).map((p,pi)=>`<p class="body${(si===0&&pi===0)?" dropcap":""}">${esc(p)}</p>`).join("")}`).join("")}
    ${s.caseq?`<div style="background:var(--ink);color:var(--paper);padding:20px 22px;margin:26px 0"><div class="kick" style="color:#FFD166">Try the case</div><p class="serif" style="font-size:21px;line-height:1.4;margin:8px 0 12px">${esc(s.caseq)}</p>${s.caseAnswer?`<details><summary style="cursor:pointer;font-weight:700;min-height:44px;display:flex;align-items:center">Show a model answer</summary><p style="font-size:16px;line-height:1.65;margin:8px 0 0">${esc(s.caseAnswer)}</p></details>`:""}</div>`:""}
    ${arr(s.cheat).length?`<div class="notice" style="border:2px solid var(--ink)"><div class="kick" style="margin-bottom:8px">Cheat sheet</div>${arr(s.cheat).map((c)=>`<div style="padding:5px 0;border-top:1px solid var(--rule)">${esc(c)}</div>`).join("")}</div>`:""}
    ${arr(s.sections).length ? "" : paras.length ? paras.map((p)=>`<p class="body">${esc(p)}</p>`).join("") : `<p class="muted" style="font-size:14px">This is a short brief. For the full details, see the original source below.</p>`}
+   ${arr(s.questions).length?`<div class="notice" style="border:2px solid var(--ink)"><div class="kick" style="margin-bottom:8px">Questions the client will ask</div>${arr(s.questions).map((u)=>`<div style="padding:4px 0">? ${esc(u)}</div>`).join("")}</div>`:""}
+   ${arr(s.dates).length?`<div class="notice"><div class="kick" style="margin-bottom:8px">Dates to watch</div>${arr(s.dates).map((u)=>`<div style="padding:4px 0"><span class="mono">${esc(u.iso)}</span> — ${esc(u.label)}</div>`).join("")}</div>`:""}
    ${arr(s.unknowns).length?`<div class="notice"><div class="kick" style="margin-bottom:8px">What we don't know yet</div>${arr(s.unknowns).map((u)=>`<div style="padding:4px 0">— ${esc(u)}</div>`).join("")}</div>`:""}
    ${arr(s.why).length?`<div class="kick" style="margin:20px 0 8px">Why it matters</div><ol class="why" style="margin:0;padding:0;list-style:none">${arr(s.why).map((t,i)=>`<li><span class="n">0${i+1}</span><span>${esc(t)}</span></li>`).join("")}</ol>`:""}
    ${s.cs?`<p style="font-size:16px;line-height:1.55;margin:20px 0;background:var(--ink);color:var(--paper);padding:16px 18px"><b style="color:#FF6B57">Client signal:</b> ${esc(s.cs)}</p>`:""}
@@ -546,6 +555,11 @@ function staticPage(name, d){
    <h2>Fact-checking</h2><p>Every edition is checked by a separate review pass that compares each fact against its source before publishing. If something is wrong, we correct it in the next edition and log it on the <a href="#corrections">corrections page</a>.</p>
    <h2>Copyright</h2><p>We summarise in our own words and link to the original. We don't reproduce articles, and we only use images with a clear licence, credited.</p>
    <h2>Opinion</h2><p>Opinion appears only in sections labelled "Our take". Nothing on this site is financial advice.</p></div>`;
+  if (name==="lens") { const c = st.desks || {}; return `<div class="page">${back}<h1>What consultants look at</h1>
+   <p>Every industry story on this site is tagged with one of nine lenses, and every desk page shows a scorecard of them. It is the checklist a consultant runs when sizing up an industry or a client, so you can see at a glance what we have and what is missing.</p>
+   <h2>Industry lenses</h2>${arr(c.lenses).map((L)=>`<p><b>${esc(L.k)}</b>: ${esc(L.q)}</p>`).join("")}
+   <h2>Company checklist</h2><p>When a story is about one company, these are the questions behind it:</p>${arr(c.company).map((t)=>`<p style="margin:4px 0">— ${esc(t)}</p>`).join("")}
+   <h2>How we use them</h2><p>Each desk story carries its lens, the key facts, the questions a client would ask, dates to watch and what we do not know. Facts only appear if a source states them.</p></div>`; }
   if (name==="corrections") { const c = arr(d && d.corrections); return `<div class="page">${back}<h1>Corrections</h1>${c.length ? c.map((x)=>`<p><b>${esc(x.date)}</b>: ${esc(x.text)}</p>`).join("") : "<p>No corrections yet. If you spot an error, please <a href='#feedback'>tell us</a>.</p>"}</div>`; }
   return "";
 }
@@ -556,13 +570,13 @@ function render(){
   const d = st.data; const main = document.getElementById("main");
   document.getElementById("footer").innerHTML = footerHTML();
   const hash = decodeURIComponent(location.hash.replace(/^#/, ""));
-  if (!d) { main.innerHTML = `<p class="notice">Today's edition couldn't load. Please refresh in a minute.</p>` + (["about","how-we-work","corrections"].includes(hash) ? staticPage(hash, null) : ""); return; }
+  if (!d) { main.innerHTML = `<p class="notice">Today's edition couldn't load. Please refresh in a minute.</p>` + (["about","how-we-work","corrections","lens"].includes(hash) ? staticPage(hash, null) : ""); return; }
   const ed = d.edition || {};
   document.getElementById("dateline").textContent = (ed.label || "") + (ed.next ? " · NEXT EDITION " + ed.next : "") + (d._fallback ? " · SHOWING PREVIOUS EDITION" : "");
   document.title = "The Consultant Times — business news through a consultant's lens";
   if (hash === "archive") { document.getElementById("filterbar").innerHTML = ""; main.innerHTML = archivePage() + feedbackHTML(); if (!st.archDone) loadArchive().then(() => { if (location.hash === "#archive") render(); }); return; }
   if (hash.startsWith("story-")) main.innerHTML = articlePage(d, hash.slice(6));
-  else if (["about","how-we-work","corrections"].includes(hash)) main.innerHTML = staticPage(hash, d);
+  else if (["about","how-we-work","corrections","lens"].includes(hash)) main.innerHTML = staticPage(hash, d);
   else { main.innerHTML = home(d); if (hash==="feedback") { const f=document.getElementById("feedback"); if (f) f.scrollIntoView(); } }
 }
 document.addEventListener("click", (e) => {
