@@ -79,8 +79,10 @@ Only real postings with working https links. Include pay only if the posting sta
 
 ## 11. Friday extras
 - Add Wire item tagged "Week in 60 seconds" linking to the five top stories (internal #story- links allowed as url "https://3ntrepreneur.github.io/consultant-times/#story-ID").
-- Write `drafts/linkedin-YYYY-MM-DD.md`: a ~120-word LinkedIn post in Thomson's professional voice about the week's top
-  story with the article link. It is a DRAFT for Thomson to post himself; never post anything.
+- Write a ~120-word LinkedIn post in Thomson's professional voice about the week's top story, with the article link,
+  and save it as a Gmail DRAFT addressed to Thomson himself (Gmail create_draft only), subject
+  "LinkedIn draft — The Consultant Times, week of YYYY-MM-DD". NEVER send it, never post anything anywhere,
+  and never commit drafts to this public repository.
 
 ## 12. Data contract (data/edition.json) — see scripts/validate.py
 Top-level: schema, edition{id,label,published,next}, lead (story id), stories[], wire[], caseOfDay{q,basedOn},
