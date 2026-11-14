@@ -145,12 +145,14 @@ footer > div{flex:1 1 220px}
 </div>
 <script>
 "use strict";
-const SITE = { name: "The Consultant Times", founder: "Thomson Le", formUrl: "https://docs.google.com/forms/d/e/1FAIpQLSfo1_S7TEHVEtA4acb5jJ0IMoUhgYiQcoDcwr9MFqbnnmq6_A/viewform", tz: "America/Vancouver" };
+const SITE = { name: "The Consultant Times", founder: "Thomson Le", formUrl: "https://docs.google.com/forms/d/e/1FAIpQLSfo1_S7TEHVEtA4acb5jJ0IMoUhgYiQcoDcwr9MFqbnnmq6_A/viewform", tz: "America/Vancouver", donateUrl: "", donateLabel: "Support the site" };
 const FIRMS = ["McKinsey","BCG","Bain","Deloitte","EY","PwC","KPMG","Accenture","Industry"];
 const DESKS = ["Tech & AI","Financial services","Energy & resources","Consumer & retail","Health","Industrials & logistics","Media & telecom","Public sector","Consulting industry"];
 const SECTIONS = ["Latest","AI & Tools","Policy","Big Moves","Vancouver","How It Works"];
 const KC = { "Deals":"#C70000","Big Moves":"#C70000","Research":"#005689","Models":"#C05A00","Tools":"#C05A00","Workforce":"#7D0068","Strategy":"#3D5A80","Regulation":"#3D5A80" };
-const MC = { "M&A":"#005689", "IPO":"#1F8A4C", "Scandal":"#C70000", "Funding":"#7D0068", "Canada":"#C05A00", "Earnings":"#3D5A80", "Leadership":"#3D5A80" };
+const MC = { "M&A":"#005689", "IPO":"#1F8A4C", "Legal & Governance":"#C70000", "Funding":"#7D0068", "Canada":"#C05A00", "Earnings":"#3D5A80", "Leadership":"#3D5A80", "Restructuring":"#8A4B08", "Partnerships":"#0F766E" };
+const BMTYPES = ["All","M&A","Funding","IPO","Earnings","Leadership","Restructuring","Partnerships","Legal & Governance","Canada"];
+const bmHas = (m, t) => t === "All" || m.type === t || (t === "Canada" && m.canada);
 const st = { desks:null, data:null, lib:[], arch:[], archDone:false, q:"", akind:"All", view:"Latest", firm:"All", desk:"All", menu:null, moveType:"All" };
 
 // ---------- helpers ----------
@@ -232,12 +234,12 @@ function cardHTML(s){
    <div style="margin-top:auto;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:8px;font-size:13px" class="muted"><span>${when(s)} · ${arr(s.sources).slice(0,1).map(srcLine).join("")}</span><a href="#story-${esc(s.id)}" style="font-weight:700;color:var(--ink)">Read →</a></div></article>`;
 }
 function bigMovesHTML(d){
-  const types = ["All","M&A","IPO","Scandal","Funding","Earnings","Leadership","Canada"].filter((t)=>t==="All" || arr(d.bigMoves).some((m)=>m.type===t));
-  let list = arr(d.bigMoves).filter((m)=>(st.moveType==="All" || m.type===st.moveType) && storyMatches(m));
+  const types = BMTYPES.filter((t)=>t==="All" || arr(d.bigMoves).some((m)=>bmHas(m,t)));
+  let list = arr(d.bigMoves).filter((m)=>bmHas(m, st.moveType) && storyMatches(m));
   if (!list.length) list = arr(d.bigMoves);
   if (!list.length) return "";
   const h = list[0], rest = list.slice(1);
-  return `<section class="sec"><div class="sec-h"><div><h2>Big Moves</h2><p>Deals, listings, shake-ups and scandals, with what each one means for client work.</p></div>
+  return `<section class="sec"><div class="sec-h"><div><h2>Big Moves</h2><p>Deals, listings, shake-ups and legal fights, with what each one means for client work.</p></div>
    <div style="display:flex;flex-wrap:wrap;gap:6px">${types.map((t)=>`<button class="tab" data-act="move:${esc(t)}" aria-pressed="${st.moveType===t}">${esc(t)}</button>`).join("")}</div></div>
    <div class="row" style="border-top:2px solid var(--ink)">
     <div class="bm-hero"><div class="kick" style="display:flex;justify-content:space-between;gap:8px"><span><span style="background:${MC[h.type]||"#3D5A80"};color:#fff;padding:3px 8px">${esc(h.type)}</span> &nbsp;Move of the week</span><span class="mono" style="letter-spacing:0;color:#A8A29A">${esc(h.date)}</span></div>
@@ -296,7 +298,7 @@ function footerHTML(){
   return `<div><div class="serif" style="font-weight:900;font-size:22px">The Consultant Times</div><div class="muted">Business news through a consultant's lens. New edition every weekday at 6am PT, plus a Friday wrap-up. ${by}</div></div>
   <div><b>Independent, AI-assisted</b><br><span class="muted">Curated and written with AI under <a href="#how-we-work">published editorial rules</a>. Not affiliated with, or paid by, any company covered.</span></div>
   <div><b>Not financial advice</b><br><span class="muted">Nothing on this site is investment advice.</span></div>
-  <div><b>Sources and corrections</b><br><span class="muted">Every item links its source and labels its type. Spot an error? <a href="#feedback">Tell us</a> and it's fixed in the next edition. <a href="#corrections">Corrections log</a>. <a href="#archive">Browse the archive</a>. <a href="#lens">What consultants look at</a>.</span></div>`;
+  <div><b>Sources and corrections</b><br><span class="muted">Every item links its source and labels its type. Spot an error? <a href="#feedback">Tell us</a> and it's fixed in the next edition. <a href="#corrections">Corrections log</a>. <a href="#archive">Browse the archive</a>. <a href="#lens">What consultants look at</a>.${/^https:\/\//.test(SITE.donateUrl) ? ` <a href="${safeUrl(SITE.donateUrl)}" target="_blank" rel="noopener">${esc(SITE.donateLabel)}</a>.` : ""}</span></div>`;
 }
 
 // ---------- category pages (each section has its own layout) ----------
@@ -355,8 +357,8 @@ function aiPage(d){
 // Big Moves: dealboard (lead + scoreboard tiles, deal table, wire + radar)
 function movesPage(d){
   const P = poolOf(d), all = sortNew(P.filter((x) => x.kind === "move"));
-  const types = ["All", "M&A", "IPO", "Scandal", "Funding", "Earnings", "Leadership", "Canada"].filter((t) => t === "All" || all.some((m) => m.type === t));
-  const list = all.filter((m) => st.moveType === "All" || m.type === st.moveType);
+  const types = BMTYPES.filter((t) => t === "All" || all.some((m) => bmHas(m, t)));
+  const list = all.filter((m) => bmHas(m, st.moveType));
   const dealStory = P.filter((x) => x.kind === "story" && x.section === "Big Moves")[0] || all[0];
   const wire = P.filter((x) => x.kind === "wire" && /deal|market|fund|ipo|earn/i.test(x.tag || ""));
   const radar = P.filter((x) => x.kind === "radar");
@@ -546,6 +548,8 @@ function staticPage(name, d){
    <p>The Consultant Times covers business news through a consultant's lens. Every story answers one question: does this create client work, change an industry's economics, or change how consulting itself works?</p>
    <p>It's written for everyone from partners to first-year students: senior enough to be useful, clear enough to learn from.</p>
    <p>${SITE.founder ? "The Consultant Times was founded by " + esc(SITE.founder) + ", a Business Information Technology Management student at BCIT in Vancouver." : "The Consultant Times is published from Vancouver, B.C."}</p>
+   ${SITE.founder ? `<h2>About the founder</h2><p>Hi, I'm ${esc(SITE.founder)}. I'm a first-year Business Information Technology Management student at BCIT in Vancouver, and I want a career advising leaders on strategy and business transformation.</p><p>I started The Consultant Times because I wanted one place to follow the business news consultants care about, and to learn how industries and companies really work while I study. I'm comfortable with technology but I'm not a developer, so I built this with AI tools and I say so openly.</p><p>Have a story tip, a company you'd like explained, or spotted a mistake? <a href="#feedback">Tell me</a>.</p>` : ""}
+   ${/^https:\/\//.test(SITE.donateUrl) ? `<h2>Support the site</h2><p>The Consultant Times is free to read and independent. If it helps you, you can chip in towards the running costs. Donations never influence what we cover.</p><p><a href="${safeUrl(SITE.donateUrl)}" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;min-height:48px;padding:0 26px;background:var(--ink);color:var(--paper);font-weight:600;text-decoration:none">${esc(SITE.donateLabel)} →</a></p>` : ""}
    <h2>How it's made</h2><p>Editions are researched, written and fact-checked with AI under the published rules on our <a href="#how-we-work">How we work</a> page, with human oversight for sensitive stories. We say this openly because how a newsroom works should never be hidden.</p></div>`;
   if (name==="how-we-work") return `<div class="page">${back}<h1>How we work</h1>
    <h2>What makes the front page</h2><p>Each item is judged on two things: how much attention it's getting (coverage speed, outlet tier, market reaction, company size, how many industries it touches) and how relevant it is to consulting work. The lead is the strongest story of the last 24 hours. Quiet but important stories go to Under the Radar.</p>
@@ -588,14 +592,14 @@ document.addEventListener("click", (e) => {
   else if (k==="desk") { st.desk = v; st.firm = "All"; st.view = "Latest"; st.menu = null; if (location.hash) history.pushState("", "", location.pathname); }
   else if (k==="move") st.moveType = v;
   else if (k==="akind") st.akind = v;
-  else if (k==="page") { st.menu = null; location.hash = v; return; }
+  else if (k==="page") { st.menu = null; if (location.hash === "#" + v) { render(); const f = v === "feedback" && document.getElementById("feedback"); if (f) f.scrollIntoView(); return; } location.hash = v; return; }
   else if (k==="reset") { st.firm="All"; st.desk="All"; st.view="Latest"; }
   render();
   if (["view","firm","desk","reset"].includes(k)) window.scrollTo(0,0);
 });
 document.addEventListener("input", (e) => { if (e.target && e.target.id === "arch-q") { st.q = e.target.value; const l = document.getElementById("arch-l" + "ist"); if (l) l.innerHTML = archiveList(); } });
 document.getElementById("burger").addEventListener("click", () => { st.menu = st.menu==="burger" ? null : "burger"; render(); });
-window.addEventListener("hashchange", () => { render(); window.scrollTo(0,0); });
+window.addEventListener("hashchange", () => { render(); const h = location.hash.replace(/^#/, ""); const f = h === "feedback" && document.getElementById("feedback"); if (f) f.scrollIntoView(); else window.scrollTo(0,0); });
 load();
 </script>
 </body>

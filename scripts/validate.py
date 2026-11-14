@@ -30,7 +30,9 @@ lead = next((s for s in S if s.get("id") == d.get("lead")), {})
 need(len(lead.get("paras") or []) >= 2, "lead needs a full article (paras)")
 for w in d.get("wire") or []:
     need(bool(w.get("text")) and https(w.get("url")), f"wire item bad: {str(w)[:60]}")
+BMT = ["M&A","Funding","IPO","Earnings","Leadership","Restructuring","Partnerships","Legal & Governance","Canada"]
 for m in d.get("bigMoves") or []:
+    need(m.get("type") in BMT, f"bigMove {m.get('id')} has invalid type {m.get('type')}")
     need(all(m.get(k) for k in ("type", "co", "title", "value", "cs")) and https(m.get("url")), f"bigMove bad: {m.get('title','?')}")
 for r in d.get("radar") or []:
     need(all(r.get(k) for k in ("title", "cs")) and https(r.get("url")), f"radar bad: {r.get('title','?')}")
@@ -65,7 +67,7 @@ need(len(allids) == len(set(allids)), "duplicate ids across sections")
 for h in d.get("howItWorks") or []:
     need(len(h.get("sections") or []) >= 5, f"deep dive {h.get('id')} needs 5+ sections")
     need(h.get("caseq") and h.get("caseAnswer") and len(h.get("cheat") or []) >= 5 and len(h.get("facts") or []) >= 3 and len(h.get("sources") or []) >= 4, f"deep dive {h.get('id')} needs caseq, caseAnswer, cheat (5+), facts (3+) and 4+ sources")
-    need(sum(len(p.split()) for s_ in h.get("sections") or [] for p in s_.get("paras") or []) >= 650, f"deep dive {h.get('id')} is under 650 words")
+    need(sum(len(p.split()) for s_ in h.get("sections") or [] for p in s_.get("paras") or []) >= (650 if "launch" in str(d.get("edition", {}).get("id", "")) else 1300), f"deep dive {h.get('id')} is under the minimum length (1,300 words; launch edition 650)")
 import os
 lib = os.path.join(os.path.dirname(os.path.abspath(p)), "library.json")
 if os.path.exists(lib):

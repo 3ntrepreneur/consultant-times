@@ -237,7 +237,7 @@
  "bigMoves": [
   {
    "id": "nvidia-probe",
-   "type": "Scandal",
+   "type": "Legal & Governance",
    "co": "Nvidia",
    "firm": "Industry",
    "desk": "Tech & AI",
@@ -290,7 +290,7 @@
   },
   {
    "id": "cohere-canada",
-   "type": "Canada",
+   "type": "Funding",
    "co": "Cohere",
    "firm": "Industry",
    "desk": "Public sector",
@@ -304,7 +304,8 @@
    "stype": "Aggregator",
    "src": "AI Tools Recap",
    "url": "https://aitoolsrecap.com/Blog/ai-news-november-09-2026",
-   "juris": "Canada"
+   "juris": "Canada",
+   "canada": true
   },
   {
    "id": "shield-ai",

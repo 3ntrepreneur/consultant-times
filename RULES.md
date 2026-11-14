@@ -35,7 +35,7 @@ Heat (1–5): coverage speed, outlet tier, market reaction vs normal, company we
 Relevance (1–5): does it create/change/kill client work?
 - Lead = highest heat×relevance among items from the newest 24h of news. Keep the current lead unless a new item beats it clearly.
 - Cards (3) = next best news items. Wire (6–8) = smaller items, one line each.
-- Big Moves (up to 6) = deals, IPOs, scandals, funding, earnings shocks, leadership changes; first item = move of the week.
+- Big Moves = deals, IPOs, funding, earnings shocks, leadership changes, restructurings, partnerships, legal and governance matters; first item = move of the week. `type` must be exactly one of: M&A | Funding | IPO | Earnings | Leadership | Restructuring | Partnerships | Legal & Governance | Canada. A Canadian move keeps its event type and also sets `"canada": true` (so it shows under the Canada filter). Use "Legal & Governance" for investigations, lawsuits, fines and board probes (allegations stay allegations).
 - Under the Radar (2–3) = heat ≤2 and relevance ≥4.
 - Max 2 stories per firm per edition; at least 1 non–Big Four item.
 Store `heat` and `rel` on items for ranking only.
@@ -55,7 +55,7 @@ Store `heat` and `rel` on items for ranking only.
     unknowns, cs, sources (aim for 3+ sources, at least one primary). Lead and move of the week also get a `take`.
   * Tier 2 (other Big Moves, Under the Radar, Vancouver Desk stories): 300–600 words in `paras`, plus cs and 2+ sources.
   * Tier 3 (Wire items): 120–250 words in `paras` explaining the item and its context, plus the source link.
-  * How It Works (EVERY weekday, exactly 3 new deep dives, 700–1,200 words each). Each day has ONE of each `type`:
+  * How It Works (EVERY weekday, exactly 3 new deep dives, 1,400–2,400 words each (about double the launch length; validator minimum 1,300)). Each day has ONE of each `type`:
       - "Industry": how an industry works (economics, players, cost drivers, cycles), e.g. trucking, airlines, banking.
       - "Business": how one specific company works. It does NOT have to be big; any real business with enough public data
         (filings, annual reports, credible trade press) works, including small, local or Canadian ones.
