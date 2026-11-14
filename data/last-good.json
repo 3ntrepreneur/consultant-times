@@ -1,0 +1,439 @@
+{
+ "schema": 1,
+ "edition": {
+  "id": "2026-11-14-launch",
+  "label": "SATURDAY 14 NOVEMBER 2026 · LAUNCH EDITION",
+  "published": "2026-11-14T01:30:00-07:00",
+  "next": "MON 6:00 AM PT"
+ },
+ "lead": "deloitte-edisyl",
+ "stories": [
+  {
+   "id": "deloitte-edisyl",
+   "date": "Nov 13",
+   "year": "2026",
+   "isNew": true,
+   "firm": "Deloitte",
+   "section": "Big Moves",
+   "kicker": "Deals",
+   "desk": "Consulting industry",
+   "heat": 2,
+   "rel": 5,
+   "title": "Deloitte spins up a new AI company, Edisyl",
+   "pre": "Deloitte spins up a new AI company,",
+   "hl": "Edisyl",
+   "post": "",
+   "summary": "Deloitte's venture arm, D71 Ventures, bought the AI business of Flipside Crypto and relaunched it as Edisyl, a standalone enterprise AI company.",
+   "facts": [
+    {
+     "k": "Buyer",
+     "v": "D71 Ventures"
+    },
+    {
+     "k": "Bought",
+     "v": "Flipside's AI unit"
+    },
+    {
+     "k": "Launched as",
+     "v": "Edisyl"
+    },
+    {
+     "k": "Price",
+     "v": "Undisclosed"
+    }
+   ],
+   "why": [
+    "The Big Four are moving from advising on AI to owning AI products, which earn money outside billable hours.",
+    "Deloitte used its venture arm to buy a ready-made team and technology instead of building from scratch.",
+    "Watch how audit-independence rules apply when an audit firm also owns AI companies it could sell to clients."
+   ],
+   "cs": "Rival firms' boards will ask whether they should buy AI companies too, and acquired AI businesses need integration and go-to-market help.",
+   "take": "The Big Four no longer just advise on AI. They're buying and launching AI companies, and more will follow.",
+   "confidence": "Reported",
+   "readTime": "3 min read",
+   "paras": [
+    "Deloitte has bought its way into another AI business. Its venture arm, D71 Ventures, has acquired the AI business of Flipside Crypto and relaunched it as Edisyl, a new standalone enterprise AI company, Consultancy.org reported on November 13.",
+    "Flipside is a Boston-based firm best known for blockchain data and analytics tools for crypto organisations. According to CB Insights, it raised about $65.7 million over seven funding rounds and was valued at $350 million in April 2022.",
+    "The deal fits a broader push at Deloitte. Its US arm launched Zora AI, a suite of AI agents, and the firm then set up a Global Agentic Network to build agents for clients. Bloomberg Law reported in September that Deloitte is almost halfway through a five-year commitment to spend $3 billion on AI."
+   ],
+   "unknowns": [
+    "What Deloitte paid. No price has been reported.",
+    "How many Flipside staff are moving to Edisyl.",
+    "What Edisyl will sell, and whether Deloitte audit clients will be allowed to buy it."
+   ],
+   "sources": [
+    {
+     "stype": "Trade press",
+     "src": "Consultancy.org",
+     "url": "https://www.consultancy.org/"
+    },
+    {
+     "stype": "Data",
+     "src": "CB Insights: Flipside Crypto funding",
+     "url": "https://www.cbinsights.com/company/flipside-crypto/financials"
+    },
+    {
+     "stype": "Press",
+     "src": "Accounting Today: Deloitte's Global Agentic Network",
+     "url": "https://www.accountingtoday.com/news/deloitte-rolls-out-ai-agent-ecosystem"
+    },
+    {
+     "stype": "Press",
+     "src": "Bloomberg Law: Big Four bet on AI's promise",
+     "url": "https://news.bloomberglaw.com/esg/big-four-firms-bet-on-ais-promise-as-technology-threats-escalate"
+    }
+   ]
+  },
+  {
+   "id": "mercor-750m",
+   "date": "Nov 12",
+   "year": "2026",
+   "firm": "Industry",
+   "section": "AI & Tools",
+   "kicker": "Workforce",
+   "desk": "Tech & AI",
+   "heat": 3,
+   "rel": 4,
+   "title": "Mercor raises $750M to have human experts test AI agents",
+   "summary": "Mercor, which started as an AI hiring platform and now connects professionals with companies training AI, raised $750M to expand evaluation of agents that do professional work.",
+   "cs": "HR and L&D leaders will need plans for junior roles as experts train the agents that do the work.",
+   "confidence": "Developing",
+   "sources": [
+    {
+     "stype": "Aggregator",
+     "src": "bcombinator",
+     "url": "https://bcombinator.com/en/2026/11/12/whats-happening-in-tech-this-weeks-deals-and-trends/"
+    }
+   ]
+  },
+  {
+   "id": "bcg-ai-spend",
+   "date": "Nov 9",
+   "year": "2026",
+   "firm": "BCG",
+   "section": "AI & Tools",
+   "kicker": "Research",
+   "desk": "Tech & AI",
+   "heat": 3,
+   "rel": 5,
+   "title": "BCG: companies now spend 3.3% of revenue on AI, almost double late 2025",
+   "summary": "BCG estimates AI investment has climbed to 3.3% of revenue from 1.7% in late 2025, but payoffs stay patchy because human sign-offs remain after AI does the task.",
+   "cs": "Every CFO funding AI will ask where the payoff is: workflow redesign and ROI-tracking work.",
+   "confidence": "Reported",
+   "sources": [
+    {
+     "stype": "Press",
+     "src": "SHRM",
+     "url": "https://www.shrm.org/topics-tools/news/ai-unlocked-4-essential-things-to-know-this-week-november-9"
+    }
+   ]
+  },
+  {
+   "id": "anthropic-models-52",
+   "date": "Nov 9",
+   "year": "2026",
+   "firm": "Industry",
+   "section": "AI & Tools",
+   "kicker": "Models",
+   "desk": "Tech & AI",
+   "heat": 4,
+   "rel": 3,
+   "title": "Anthropic ships Claude Fable 5.2 and Mythos 5.2",
+   "summary": "New models aimed at complex engineering, agent coordination and technical work. Accenture's Cyber.AI security service already runs on Claude.",
+   "cs": "Clients will re-run build-vs-buy decisions on agents: expect vendor-selection work.",
+   "confidence": "Reported",
+   "sources": [
+    {
+     "stype": "Aggregator",
+     "src": "bcombinator",
+     "url": "https://bcombinator.com/en/2026/11/12/whats-happening-in-tech-this-weeks-deals-and-trends/"
+    }
+   ]
+  },
+  {
+   "id": "mckinsey-state-of-ai",
+   "date": "Nov 4",
+   "year": "2026",
+   "firm": "McKinsey",
+   "section": "AI & Tools",
+   "kicker": "Research",
+   "desk": "Tech & AI",
+   "heat": 3,
+   "rel": 5,
+   "title": "McKinsey's State of AI: agent use climbs as companies build rather than buy",
+   "summary": "A read of McKinsey's 2026 survey: agentic AI use is rising, led by large enterprises, and more companies are building their own software.",
+   "cs": "Build-over-buy means more custom engineering projects, not just software licences.",
+   "confidence": "Reported",
+   "sources": [
+    {
+     "stype": "Press",
+     "src": "diginomica",
+     "url": "https://diginomica.com/were-road-roi-mckinseys-verdict-ai-2026"
+    },
+    {
+     "stype": "Official",
+     "src": "McKinsey: The state of AI in 2026",
+     "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai"
+    }
+   ]
+  }
+ ],
+ "wire": [
+  {
+   "date": "Nov 18",
+   "tag": "Coming up",
+   "text": "Opposition comments due on the $85B Union Pacific–Norfolk Southern merger.",
+   "src": "DealRoom",
+   "url": "https://dealroom.net/blog/upcoming-m-a"
+  },
+  {
+   "date": "Nov 13",
+   "tag": "Firms",
+   "isNew": true,
+   "text": "UK accountant Menzies switches on Dayshape's AI resourcing platform as it reorganises by service line.",
+   "src": "Consultancy.org",
+   "url": "https://www.consultancy.org/"
+  },
+  {
+   "date": "Nov 11",
+   "tag": "Deals",
+   "text": "13 AI acquisitions announced in the first 11 days of November alone.",
+   "src": "FourWeekMBA",
+   "url": "https://fourweekmba.com/ai-13-ai-deals-in-november-openai-and-meta-named-no-price/"
+  },
+  {
+   "date": "Nov 10",
+   "tag": "Nvidia",
+   "text": "Nvidia's board hires Joon H. Kim and Wachtell Lipton to run the CEO investigation.",
+   "src": "INDmoney",
+   "url": "https://www.indmoney.com/blog/us-stocks/why-is-nvidia-stock-falling-jensen-huang-affair-china-chip-claims"
+  },
+  {
+   "date": "Nov 9",
+   "tag": "Markets",
+   "text": "AMD, Broadcom and Marvell rallied as investors treated Nvidia's probe as company-specific.",
+   "src": "Beinsure",
+   "url": "https://beinsure.com/news/nvidia-board-investigates-ceo-jensen-huang-allegations/"
+  },
+  {
+   "date": "Nov 5",
+   "tag": "Deals",
+   "text": "Dropbox to buy AI storage firm Tigris Data, reportedly for $350M.",
+   "src": "FourWeekMBA",
+   "url": "https://fourweekmba.com/ai-13-ai-deals-in-november-openai-and-meta-named-no-price/"
+  }
+ ],
+ "caseOfDay": {
+  "q": "Deloitte just launched Edisyl. How would you size the market for AI products owned by professional-services firms?",
+  "basedOn": "deloitte-edisyl"
+ },
+ "bigMoves": [
+  {
+   "id": "nvidia-probe",
+   "type": "Scandal",
+   "co": "Nvidia",
+   "firm": "Industry",
+   "desk": "Tech & AI",
+   "date": "Nov 8–10",
+   "heat": 5,
+   "rel": 4,
+   "value": "−9.5%",
+   "vlabel": "share drop over two sessions",
+   "title": "Nvidia's board opens a probe into CEO Jensen Huang",
+   "body": "Independent directors launched an investigation into reports that Huang was targeted by a foreign intelligence effort. The board says it has no reason to believe company information was compromised, and the allegations have not been established.",
+   "cs": "A live case of key-person risk at a $4.5 trillion company. Boards and their advisers will be stress-testing succession plans.",
+   "take": "Whatever the probe finds, every board just got a reminder to have a real succession plan.",
+   "stype": "Press",
+   "src": "Al Jazeera",
+   "url": "https://www.aljazeera.com/economy/2026/11/9/nvidia-shares-slump-amid-investigation-into-ceo-jensen-huang"
+  },
+  {
+   "id": "anthropic-ipo",
+   "type": "IPO",
+   "co": "Anthropic",
+   "firm": "Industry",
+   "desk": "Financial services",
+   "date": "Nov",
+   "heat": 5,
+   "rel": 4,
+   "value": "$75B+",
+   "vlabel": "possible raise (estimate)",
+   "title": "Anthropic files for what could be the largest IPO ever",
+   "cs": "Mega-IPOs mean months of readiness work: governance, controls and investor storytelling.",
+   "stype": "Research",
+   "src": "Renaissance Capital",
+   "url": "https://www.renaissancecapital.com/IPO-Center/News/122506/us-ipo-weekly-recap-anthropic-files-for-potentially-record-breaking-ipo"
+  },
+  {
+   "id": "marvell-lumentum",
+   "type": "M&A",
+   "co": "Marvell · Lumentum",
+   "firm": "Industry",
+   "desk": "Tech & AI",
+   "date": "Nov",
+   "heat": 4,
+   "rel": 4,
+   "value": "$121B",
+   "vlabel": "AI deals, Nov 1–11 (mostly this one)",
+   "title": "Marvell's Lumentum deal dwarfs every other AI acquisition this month",
+   "cs": "Chip supply chains are consolidating. Integration at this scale is huge advisory work.",
+   "stype": "Aggregator",
+   "src": "FourWeekMBA",
+   "url": "https://fourweekmba.com/ai-13-ai-deals-in-november-openai-and-meta-named-no-price/"
+  },
+  {
+   "id": "cohere-canada",
+   "type": "Canada",
+   "co": "Cohere",
+   "firm": "Industry",
+   "desk": "Public sector",
+   "date": "Nov",
+   "heat": 3,
+   "rel": 4,
+   "value": "$1.14B",
+   "vlabel": "Canadian equity stake (up to)",
+   "title": "Ottawa agrees to invest up to $1.14B in Cohere",
+   "cs": "Sovereign AI is now industrial policy. Expect public-sector AI strategy work in Canada.",
+   "stype": "Aggregator",
+   "src": "AI Tools Recap",
+   "url": "https://aitoolsrecap.com/Blog/ai-news-november-09-2026"
+  },
+  {
+   "id": "shield-ai",
+   "type": "Funding",
+   "co": "Shield AI",
+   "firm": "Industry",
+   "desk": "Industrials & logistics",
+   "date": "Nov 9",
+   "heat": 3,
+   "rel": 3,
+   "value": "$28.8B",
+   "vlabel": "new valuation, up from $12.7B",
+   "title": "Shield AI buys Echodyne for $5.3B and more than doubles its valuation",
+   "cs": "Defence tech is consolidating fast, a growing niche for strategy and deal teams.",
+   "stype": "Aggregator",
+   "src": "AI Tools Recap",
+   "url": "https://aitoolsrecap.com/Blog/ai-news-november-09-2026"
+  },
+  {
+   "id": "salesforce-cresta",
+   "type": "M&A",
+   "co": "Salesforce · Cresta",
+   "firm": "Industry",
+   "desk": "Tech & AI",
+   "date": "Nov 2",
+   "heat": 3,
+   "rel": 3,
+   "value": "$2.7B",
+   "vlabel": "reported price",
+   "title": "Salesforce agrees to buy AI customer-service firm Cresta",
+   "cs": "Software giants are buying AI features rather than building them, then need integration help.",
+   "stype": "Aggregator",
+   "src": "FourWeekMBA",
+   "url": "https://fourweekmba.com/ai-13-ai-deals-in-november-openai-and-meta-named-no-price/"
+  }
+ ],
+ "radar": [
+  {
+   "desk": "Industrials & logistics",
+   "firm": "Industry",
+   "date": "Nov 18",
+   "title": "Deadline for objections to the $85B Union Pacific–Norfolk Southern merger",
+   "cs": "Shippers, ports and rival railroads must decide their stance now: network, pricing and contingency planning.",
+   "stype": "Research",
+   "src": "DealRoom",
+   "url": "https://dealroom.net/blog/upcoming-m-a"
+  },
+  {
+   "desk": "Media & telecom",
+   "firm": "Industry",
+   "date": "Nov 9",
+   "title": "Anthropic, Google, Microsoft and OpenAI back a publisher opt-out for AI training",
+   "cs": "Publishers and content-rich companies need a licensing-vs-blocking strategy for their archives.",
+   "stype": "Newsletter",
+   "src": "Women in AI",
+   "url": "https://womeninaibythemarketeergroup.substack.com/p/she-read-it-so-you-dont-have-to-ai-76a"
+  },
+  {
+   "desk": "Public sector",
+   "firm": "Industry",
+   "date": "Nov",
+   "title": "Australia plans an AI regulator after an agent got into a government portal",
+   "cs": "Governments will need AI-agent governance and access controls, so expect public-sector AI risk mandates.",
+   "stype": "Newsletter",
+   "src": "Women in AI",
+   "url": "https://womeninaibythemarketeergroup.substack.com/p/she-read-it-so-you-dont-have-to-ai-76a"
+  }
+ ],
+ "vancouver": {
+  "stories": [
+   {
+    "tag": "Real estate",
+    "date": "Oct data",
+    "num": "$1,075,900",
+    "title": "Metro Vancouver home prices are down 5.5% from a year ago",
+    "cs": "Developers, lenders and builders are under margin pressure. Expect restructuring, cost and portfolio work.",
+    "stype": "Press",
+    "src": "Castanet",
+    "url": "https://www.castanetkamloops.net/edition/news-story-633101-6-.htm"
+   },
+   {
+    "tag": "Life sciences",
+    "date": "Recent",
+    "num": "~$100M",
+    "title": "Ottawa backs B.C. life sciences, including Burnaby's Kardium and Evonik Canada",
+    "cs": "Manufacturing scale-ups need capacity planning, operations and supply-chain help.",
+    "stype": "Newsletter",
+    "src": "Vancouver Tech Journal",
+    "url": "https://vantechjournal.com/p/federal-dollars-land-in-b-c-life-sciences"
+   },
+   {
+    "tag": "Talent",
+    "date": "Recent",
+    "num": "#2 in Canada",
+    "title": "Vancouver ranks 9th in North America for tech talent, with about 127,700 tech workers",
+    "cs": "A deep local talent pool makes Vancouver attractive for delivery centres and AI teams.",
+    "stype": "Research",
+    "src": "CBRE via VTJ",
+    "url": "https://vantechjournal.com/p/federal-dollars-land-in-b-c-life-sciences"
+   }
+  ],
+  "jobs": [
+   {
+    "role": "Senior Consultant, Healthcare Operations",
+    "firm": "KPMG Vancouver",
+    "start": "Starts January 2027",
+    "pay": "$66,000–$85,000 base",
+    "url": "https://prideatwork.ca/?p=4543756"
+   }
+  ]
+ },
+ "howItWorks": [
+  {
+   "sector": "Restaurants",
+   "title": "How Chipotle runs a restaurant",
+   "body": "Company-owned stores, a short menu and an assembly line built for speed. The economics come down to how many orders each store can push through at the lunch peak.",
+   "ai": "digital ordering lanes, kitchen automation, staffing forecasts.",
+   "caseq": "Chipotle wants to raise throughput 10% without adding staff. What are your levers?",
+   "status": "Full deep dive coming Monday"
+  },
+  {
+   "sector": "Tech and retail",
+   "title": "How Amazon really works",
+   "body": "The store is the part you see, but the profit mostly comes from AWS and advertising. Retail is a volume and logistics machine that feeds both.",
+   "ai": "warehouse robotics, demand forecasting, and selling AI to everyone else through AWS.",
+   "caseq": "Should Amazon spin off AWS? Build the argument for each side.",
+   "status": "Coming soon"
+  },
+  {
+   "sector": "Logistics",
+   "title": "How trucking actually makes money",
+   "body": "Freight is paid by the mile, but trucks often drive back empty. A huge, fragmented market of small carriers, brokers in the middle, and constant driver turnover.",
+   "ai": "load matching, route and fuel optimisation, automated brokerage.",
+   "caseq": "A mid-sized carrier's margins fell two years in a row. Where do you look first?",
+   "status": "Coming soon"
+  }
+ ],
+ "archive": [],
+ "corrections": []
+}

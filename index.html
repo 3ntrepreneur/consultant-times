@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Consultant Times — business news through a consultant's lens</title>
+<meta name="description" content="Daily business, deals and AI news for consultants and consulting students, with what each story means for client work.">
+<meta property="og:title" content="The Consultant Times">
+<meta property="og:description" content="Business news through a consultant's lens. New edition every weekday at 6am PT.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,900&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#F6F1E7;--ink:#141414;--muted:#5C5C5C;--rule:#C9C1B0;--tint:#EDE5D3;--red:#E8462E;--teal:#00747A;--van:#1F5F4A}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:'IBM Plex Sans',system-ui,sans-serif}
+a{color:inherit}
+button{font-family:inherit;color:inherit}
+.wrap{max-width:1240px;margin:0 auto;padding:0 40px}
+.serif{font-family:'Fraunces',Georgia,serif}
+.mono{font-family:'IBM Plex Mono',ui-monospace,monospace}
+.kick{font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
+.badge{border:1px solid var(--muted);padding:1px 6px;font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.new{margin-left:8px;background:var(--red);color:#fff;padding:1px 6px;font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase}
+.hl{background:var(--red);color:#fff;padding:0 10px;font-style:italic;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.sec{padding:28px 0;border-bottom:1px solid var(--ink)}
+.sec-h{display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:12px;margin-bottom:16px}
+.sec-h h2{font-family:'Fraunces',serif;font-weight:900;font-size:30px;margin:0}
+.sec-h p{font-size:15px;color:var(--muted);margin:4px 0 0}
+.row{display:flex;flex-wrap:wrap}
+.linkbtn{background:transparent;border:0;cursor:pointer;font-weight:700;text-decoration:underline;text-underline-offset:4px;min-height:40px;padding:0}
+/* nav */
+.topbar{background:#000;color:#fff;position:sticky;top:0;z-index:20}
+.topbar .wrap{display:flex;align-items:center;gap:16px;min-height:60px}
+.logo{font-family:'Fraunces',serif;font-weight:900;font-size:22px;letter-spacing:-.02em;white-space:nowrap;text-decoration:none;color:#fff}
+.nav{display:flex;flex-wrap:wrap;flex:1 1 auto}
+.nav button{min-height:60px;padding:0 12px;border:0;border-bottom:3px solid transparent;background:transparent;color:#fff;font-size:14px;font-weight:600;cursor:pointer;white-space:nowrap}
+.nav button[aria-pressed=true]{border-bottom-color:#fff}
+.burger{display:none;width:44px;height:44px;border:0;background:transparent;color:#fff;font-size:22px;cursor:pointer}
+.panel{border-top:1px solid #2A2A2A;background:#111;color:#fff}
+.panel .wrap{padding-top:18px;padding-bottom:22px}
+.panel .chips{display:flex;flex-wrap:wrap;gap:6px 8px;margin-top:8px}
+.chip{min-height:44px;padding:0 14px;border:1px solid #3A3A3A;background:transparent;color:#fff;font-size:14px;font-weight:600;cursor:pointer}
+.chip[aria-pressed=true]{background:#fff;color:#000;border-color:#fff}
+.tab{min-height:40px;padding:0 12px;border:1px solid var(--ink);background:transparent;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;cursor:pointer}
+.tab[aria-pressed=true]{background:var(--ink);color:var(--paper)}
+.dateline{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:8px;padding:12px 0;border-bottom:3px double var(--ink);font-size:13px;min-height:36px}
+/* lead */
+.lead{flex:2 1 640px;min-width:0;padding-right:32px}
+.lead h1{font-family:'Fraunces',serif;font-weight:700;font-size:52px;line-height:1.06;letter-spacing:-.01em;margin:14px 0 18px}
+.facts{display:flex;flex-wrap:wrap;border-top:2px solid var(--ink);border-bottom:1px solid var(--rule);margin-bottom:20px}
+.facts div{flex:1 1 140px;min-width:0;padding:10px 14px 10px 0}
+.facts .k{font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.facts .v{font-family:'IBM Plex Mono',monospace;font-size:15px;font-weight:600;margin-top:3px}
+.why li{display:flex;gap:12px;padding:8px 0;border-top:1px solid var(--rule);font-size:15px;line-height:1.5}
+.why .n{font-family:'IBM Plex Mono',monospace;font-weight:600;color:var(--red)}
+.take{border-left:4px solid var(--red);padding:2px 0 2px 18px}
+.take p{font-family:'Fraunces',serif;font-size:21px;line-height:1.4;margin:6px 0 0}
+.wire{flex:1 1 300px;min-width:0;border-left:1px solid var(--ink);padding-left:28px}
+.wire li{display:flex;gap:12px;padding:11px 0;border-top:1px solid var(--rule)}
+.wire .d{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--muted);width:56px;flex:0 0 56px;padding-top:2px}
+.card{flex:1 1 300px;min-width:0;border-top:6px solid var(--ink);padding-top:12px;display:flex;flex-direction:column}
+.card h3{font-family:'Fraunces',serif;font-weight:700;font-size:25px;line-height:1.15;margin:8px 0 10px;cursor:pointer}
+.signal{font-size:15px;line-height:1.5;margin:0 0 12px;background:var(--tint);padding:10px 12px}
+/* big moves */
+.bm-hero{flex:1 1 420px;min-width:0;background:var(--ink);color:var(--paper);padding:28px}
+.bm-val{font-family:'IBM Plex Mono',monospace;font-size:64px;font-weight:600;line-height:1;margin:22px 0 4px;color:#FF6B57}
+.bm-row{display:flex;gap:18px;align-items:flex-start;padding:16px 0 16px 24px;border-bottom:1px solid var(--rule)}
+.bm-row .v{width:110px;flex:0 0 110px}
+.grid3{display:flex;flex-wrap:wrap;border-top:2px solid var(--ink)}
+.grid3 article{flex:1 1 300px;min-width:0;padding:16px 20px 16px 0;border-bottom:1px solid var(--rule);display:flex;flex-direction:column;gap:8px}
+.grid3 h3{font-family:'Fraunces',serif;font-weight:700;font-size:20px;line-height:1.22;margin:0}
+.jobs{flex:1 1 300px;min-width:0;background:var(--van);color:#fff;padding:22px}
+.case{background:var(--ink);color:var(--paper);padding:22px 26px;display:flex;flex-wrap:wrap;gap:12px 28px;align-items:center}
+/* article */
+.art{max-width:760px;margin:0 auto;padding:28px 0 40px}
+.art h1{font-family:'Fraunces',serif;font-weight:700;font-size:46px;line-height:1.08;margin:14px 0 12px}
+.art p.body{font-size:18px;line-height:1.75;margin:0 0 18px}
+.page{max-width:760px;margin:0 auto;padding:28px 0 40px;font-size:17px;line-height:1.7}
+.page h1{font-family:'Fraunces',serif;font-size:42px;line-height:1.1}
+.page h2{font-family:'Fraunces',serif;font-size:26px;margin-top:32px}
+footer{padding:28px 0 48px;display:flex;flex-wrap:wrap;gap:32px;font-size:14px;line-height:1.6}
+footer > div{flex:1 1 220px}
+.muted{color:var(--muted)}
+.notice{background:var(--tint);padding:16px 20px;margin:20px 0;font-size:15px}
+@media (max-width:820px){
+ .nav{display:none}.burger{display:block}
+ .wrap{padding-left:20px;padding-right:20px}
+ .lead{padding-right:0}.lead h1{font-size:36px}
+ .wire{border-left:0;padding-left:0;border-top:1px solid var(--ink);margin-top:24px;padding-top:16px}
+ .bm-row{padding-left:0}.bm-val{font-size:48px}.art h1{font-size:34px}
+}
+@media print{.topbar,.panel{display:none}}
+</style>
+</head>
+<body>
+<div class="topbar" id="top">
+ <div class="wrap">
+  <button class="burger" id="burger" aria-label="Menu" aria-expanded="false">☰</button>
+  <a class="logo" href="#">The Consultant Times</a>
+  <nav class="nav" id="nav" aria-label="Sections"></nav>
+ </div>
+ <div id="panel"></div>
+</div>
+<div class="wrap">
+ <div class="dateline"><span class="mono" id="dateline"></span><span id="filterbar"></span></div>
+ <main id="main"><p class="notice">Loading today's edition…</p></main>
+ <footer id="footer"></footer>
+</div>
+<script>
+"use strict";
+const SITE = { name: "The Consultant Times", founder: "Thomson Le", formUrl: "__FORM_URL__", tz: "America/Vancouver" };
+const FIRMS = ["McKinsey","BCG","Bain","Deloitte","EY","PwC","KPMG","Accenture","Doane Grant Thornton","Industry"];
+const DESKS = ["Tech & AI","Financial services","Energy & resources","Consumer & retail","Health","Industrials & logistics","Media & telecom","Public sector","Consulting industry"];
+const SECTIONS = ["Latest","AI & Tools","Big Moves","Vancouver","How It Works"];
+const KC = { "Deals":"#C70000","Big Moves":"#C70000","Research":"#005689","Models":"#C05A00","Tools":"#C05A00","Workforce":"#7D0068","Strategy":"#3D5A80","Regulation":"#3D5A80" };
+const MC = { "M&A":"#005689", "IPO":"#1F8A4C", "Scandal":"#C70000", "Funding":"#7D0068", "Canada":"#C05A00", "Earnings":"#3D5A80", "Leadership":"#3D5A80" };
+const st = { data:null, view:"Latest", firm:"All", desk:"All", menu:null, moveType:"All" };
+
+// ---------- helpers ----------
+const esc = (v) => String(v == null ? "" : v).replace(/[&<>"']/g, (c) => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
+const safeUrl = (u) => /^https:\/\//i.test(String(u || "")) ? esc(u) : "#";
+const arr = (x) => Array.isArray(x) ? x : [];
+const kc = (k) => KC[k] || "#3D5A80";
+function srcLine(s){ return s && s.url ? `<span class="badge">${esc(s.stype||s.type||"Source")}</span> <a href="${safeUrl(s.url)}" target="_blank" rel="noopener">${esc(s.src||s.name||"Source")}</a>` : ""; }
+function when(s){ return esc(s.date || "") + (s.time ? " · " + esc(s.time) : ""); }
+function storyMatches(s){ return (st.firm==="All" || s.firm===st.firm) && (st.desk==="All" || s.desk===st.desk); }
+
+// ---------- data loading with fallback ----------
+async function load(){
+  const tryGet = async (p) => { const r = await fetch(p + "?v=" + Date.now(), { cache:"no-store" }); if (!r.ok) throw new Error(p); return r.json(); };
+  try { st.data = await tryGet("data/edition.json"); }
+  catch(e){ try { st.data = await tryGet("data/last-good.json"); st.data._fallback = true; } catch(e2){ st.data = null; } }
+  render();
+}
+
+// ---------- nav ----------
+function renderNav(){
+  const nav = document.getElementById("nav");
+  const btn = (label, pressed, act, chev) => `<button data-act="${esc(act)}" aria-pressed="${pressed}">${esc(label)}${chev ? ' <span style="font-size:11px">▾</span>' : ""}</button>`;
+  let h = btn("Latest", st.view==="Latest" && !st.menu, "view:Latest");
+  h += btn(st.firm==="All" ? "Firms" : st.firm, st.firm!=="All" || st.menu==="firms", "menu:firms", true);
+  h += btn(st.desk==="All" ? "Industries" : st.desk, st.desk!=="All" || st.menu==="desks", "menu:desks", true);
+  SECTIONS.slice(1).forEach((s) => h += btn(s, st.view===s && !st.menu, "view:"+s));
+  h += btn("More", st.menu==="more", "menu:more", true);
+  nav.innerHTML = h;
+  const panel = document.getElementById("panel");
+  const chips = (title, items) => `<div class="panel"><div class="wrap"><div class="kick" style="color:#9A9A9A">${esc(title)}</div><div class="chips">${items}</div></div></div>`;
+  const chip = (label, on, act) => `<button class="chip" data-act="${esc(act)}" aria-pressed="${on}">${esc(label)}</button>`;
+  let p = "";
+  if (st.menu==="burger") p += chips("Sections", SECTIONS.map((s)=>chip(s, st.view===s, "view:"+s)).join("") + chip("About","false","page:about") + chip("How we work","false","page:how-we-work"));
+  if (st.menu==="firms" || st.menu==="burger") p += chips("Filter by firm", chip("All firms", st.firm==="All", "firm:All") + FIRMS.map((f)=>chip(f==="Industry"?"Industry-wide":f, st.firm===f, "firm:"+f)).join(""));
+  if (st.menu==="desks" || st.menu==="burger") p += chips("Industry desks", chip("All industries", st.desk==="All", "desk:All") + DESKS.map((d)=>chip(d, st.desk===d, "desk:"+d)).join(""));
+  if (st.menu==="more") p += chips("More", chip("About","false","page:about") + chip("How we work","false","page:how-we-work") + chip("Corrections","false","page:corrections") + chip("Suggestions & feedback","false","page:feedback"));
+  panel.innerHTML = p;
+  document.getElementById("burger").setAttribute("aria-expanded", st.menu==="burger" ? "true" : "false");
+}
+
+// ---------- sections ----------
+function leadHTML(s){
+  const facts = arr(s.facts).length ? `<div class="facts">${arr(s.facts).map((f)=>`<div><div class="k">${esc(f.k)}</div><div class="v">${esc(f.v)}</div></div>`).join("")}</div>` : "";
+  const why = arr(s.why).length ? `<div style="flex:1 1 300px;min-width:0"><div class="kick" style="margin-bottom:8px">Why it matters</div><ol class="why" style="margin:0;padding:0;list-style:none">${arr(s.why).map((t,i)=>`<li><span class="n">0${i+1}</span><span>${esc(t)}</span></li>`).join("")}</ol></div>` : "";
+  const take = s.take ? `<div class="take" style="flex:1 1 260px;min-width:0"><div class="kick">Our take</div><p>${esc(s.take)}</p></div>` : "";
+  const head = s.hl ? `${esc(s.pre||"")} <span class="hl">${esc(s.hl)}</span> ${esc(s.post||"")}` : esc(s.title);
+  return `<div class="lead">
+   <div class="kick" style="display:flex;flex-wrap:wrap;gap:10px;align-items:center"><span style="background:${kc(s.kicker)};color:#fff;padding:4px 8px">Lead</span><span style="color:${kc(s.kicker)}">${esc(s.kicker)} · ${esc(s.firm==="Industry"?"Industry-wide":s.firm)}</span><span class="mono muted" style="letter-spacing:0">${when(s)}</span>${s.isNew?'<span class="new">New</span>':""}</div>
+   <h1><a href="#story-${esc(s.id)}" style="text-decoration:none">${head}</a></h1>${facts}
+   <p style="font-size:19px;line-height:1.65;margin:0 0 20px">${esc(s.summary)}</p>
+   <div class="row" style="gap:28px;align-items:flex-start">${why}${take}</div>
+   <p class="signal" style="margin-top:18px"><b>Client signal:</b> ${esc(s.cs)}</p>
+   <div style="display:flex;flex-wrap:wrap;align-items:center;gap:12px;font-size:13px" class="muted">${arr(s.sources).slice(0,1).map(srcLine).join("")}
+   <a href="#story-${esc(s.id)}" style="min-height:44px;display:inline-flex;align-items:center;padding:0 18px;background:var(--ink);color:var(--paper);font-weight:700;font-size:14px;text-decoration:none">Read the full story →</a></div></div>`;
+}
+function wireHTML(w){
+  return `<aside class="wire"><div style="display:flex;align-items:baseline;gap:10px"><h2 class="serif" style="font-weight:900;font-size:26px;margin:0">The Wire</h2><span class="muted" style="font-size:12px">quick hits, newest first</span></div>
+  <ol style="list-style:none;margin:10px 0 0;padding:0">${arr(w).map((x)=>`<li><span class="d">${esc(x.date)}</span><span style="min-width:0;font-size:15px;line-height:1.45"><b class="kick" style="font-size:11px;color:${kc(x.tag)}">${esc(x.tag)}</b>${x.isNew?'<span class="new">New</span>':""}<br>${esc(x.text)} <a href="${safeUrl(x.url)}" target="_blank" rel="noopener" class="muted" style="font-size:12px">${esc(x.src)}</a></span></li>`).join("") || '<li class="muted">Nothing on the wire yet.</li>'}</ol></aside>`;
+}
+function cardHTML(s){
+  return `<article class="card" style="border-top-color:${kc(s.kicker)}">
+   <div class="kick" style="color:${kc(s.kicker)}">${esc(s.kicker)} · ${esc(s.firm==="Industry"?"Industry-wide":s.firm)}${s.isNew?'<span class="new">New</span>':""}</div>
+   <h3><a href="#story-${esc(s.id)}" style="text-decoration:none">${esc(s.title)}</a></h3>
+   <p style="font-size:15px;line-height:1.6;margin:0 0 10px">${esc(s.summary)}</p>
+   <p class="signal"><b>Client signal:</b> ${esc(s.cs)}</p>
+   <div style="margin-top:auto;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:8px;font-size:13px" class="muted"><span>${when(s)} · ${arr(s.sources).slice(0,1).map(srcLine).join("")}</span><a href="#story-${esc(s.id)}" style="font-weight:700;color:var(--ink)">Read →</a></div></article>`;
+}
+function bigMovesHTML(d){
+  const types = ["All","M&A","IPO","Scandal","Funding","Earnings","Leadership","Canada"].filter((t)=>t==="All" || arr(d.bigMoves).some((m)=>m.type===t));
+  let list = arr(d.bigMoves).filter((m)=>(st.moveType==="All" || m.type===st.moveType) && storyMatches(m));
+  if (!list.length) list = arr(d.bigMoves);
+  if (!list.length) return "";
+  const h = list[0], rest = list.slice(1);
+  return `<section class="sec"><div class="sec-h"><div><h2>Big Moves</h2><p>Deals, listings, shake-ups and scandals, with what each one means for client work.</p></div>
+   <div style="display:flex;flex-wrap:wrap;gap:6px">${types.map((t)=>`<button class="tab" data-act="move:${esc(t)}" aria-pressed="${st.moveType===t}">${esc(t)}</button>`).join("")}</div></div>
+   <div class="row" style="border-top:2px solid var(--ink)">
+    <div class="bm-hero"><div class="kick" style="display:flex;justify-content:space-between;gap:8px"><span><span style="background:${MC[h.type]||"#3D5A80"};color:#fff;padding:3px 8px">${esc(h.type)}</span> &nbsp;Move of the week</span><span class="mono" style="letter-spacing:0;color:#A8A29A">${esc(h.date)}</span></div>
+     <div class="bm-val">${esc(h.value)}</div><div style="font-size:13px;color:#A8A29A">${esc(h.vlabel)}</div>
+     <h3 class="serif" style="font-weight:700;font-size:30px;line-height:1.15;margin:18px 0 10px">${esc(h.title)}</h3>
+     ${h.body?`<p style="font-size:15px;line-height:1.6;margin:0 0 14px;color:#E7E0D2">${esc(h.body)}</p>`:""}
+     <p style="font-size:15px;line-height:1.5;margin:0 0 14px"><b style="color:#FF6B57">Client signal:</b> ${esc(h.cs)}</p>
+     ${h.take?`<p class="serif" style="font-size:18px;line-height:1.4;margin:0 0 14px;border-left:3px solid #FF6B57;padding-left:14px">Our take: ${esc(h.take)}</p>`:""}
+     <div style="font-size:13px;color:#A8A29A">${srcLine(h)}</div></div>
+    <div style="flex:1.4 1 520px;min-width:0">${rest.map((m)=>`<div class="bm-row"><div class="v"><div class="mono" style="font-size:22px;font-weight:600;color:${MC[m.type]||"#3D5A80"}">${esc(m.value)}</div><div class="muted" style="font-size:11px;line-height:1.3;margin-top:2px">${esc(m.vlabel)}</div></div>
+     <div style="min-width:0;flex:1 1 auto"><div class="kick" style="font-size:11px;color:${MC[m.type]||"#3D5A80"}">${esc(m.type)} · ${esc(m.co)} <span class="mono muted" style="letter-spacing:0;font-weight:500">· ${esc(m.date)}</span></div>
+     <div class="serif" style="font-weight:700;font-size:19px;line-height:1.25;margin:4px 0">${esc(m.title)}</div>
+     <div style="font-size:14px;line-height:1.5;color:#44403C"><b>Client signal:</b> ${esc(m.cs)} <span class="muted" style="font-size:12px">· ${srcLine(m)}</span></div></div></div>`).join("")}</div>
+   </div><div class="muted" style="font-size:12px;margin-top:10px">Figures are a snapshot at publication, not live. Allegations are reported as allegations until established.</div></section>`;
+}
+function radarHTML(d){
+  const r = arr(d.radar).filter(storyMatches);
+  if (!r.length) return "";
+  return `<section class="sec"><div class="sec-h"><div><h2>Under the Radar</h2><p>Quiet stories with real consequences: what a sharp consultant knows before the client does.</p></div></div>
+  <div class="grid3">${r.map((x)=>`<article><div class="kick" style="font-size:11px;color:#3D5A80">${esc(x.desk)} · <span class="mono muted" style="letter-spacing:0;font-weight:500">${esc(x.date)}</span></div><h3>${esc(x.title)}</h3><p style="font-size:15px;line-height:1.5;margin:0"><b>Client signal:</b> ${esc(x.cs)}</p><div class="muted" style="font-size:12px;margin-top:auto">${srcLine(x)}</div></article>`).join("")}</div></section>`;
+}
+function vanHTML(d){
+  const v = d.vancouver || {}; const today = new Date().toISOString().slice(0,10);
+  const jobs = arr(v.jobs).filter((j)=>!j.closes || j.closes >= today);
+  if (!arr(v.stories).length && !jobs.length) return "";
+  return `<section class="sec"><div class="sec-h"><div><div style="display:flex;align-items:baseline;gap:12px"><h2>The Vancouver Desk</h2><span style="background:var(--van);color:#fff;font-size:11px;font-weight:700;letter-spacing:.12em;padding:3px 8px">LOCAL</span></div><p>B.C. business, deals and careers that Vancouver consultants and consulting students should know.</p></div></div>
+  <div class="row" style="border-top:2px solid var(--van)"><div class="row" style="flex:2 1 560px;min-width:0">${arr(v.stories).map((x)=>`<article style="flex:1 1 260px;min-width:0;padding:16px 20px 16px 0;border-bottom:1px solid var(--rule);display:flex;flex-direction:column;gap:8px">
+   <div class="kick" style="font-size:11px;color:var(--van)">${esc(x.tag)} · <span class="mono muted" style="letter-spacing:0;font-weight:500">${esc(x.date)}</span></div>
+   <div class="mono" style="font-size:24px;font-weight:600;color:var(--van)">${esc(x.num)}</div>
+   <h3 class="serif" style="font-weight:700;font-size:20px;line-height:1.22;margin:0">${esc(x.title)}</h3>
+   <p style="font-size:15px;line-height:1.5;margin:0"><b>Client signal:</b> ${esc(x.cs)}</p><div class="muted" style="font-size:12px;margin-top:auto">${srcLine(x)}</div></article>`).join("")}</div>
+   <aside class="jobs"><div class="kick" style="font-size:11px;color:#BFE3D3">Careers board · Vancouver</div>
+   ${jobs.map((j)=>`<div style="padding:14px 0;border-bottom:1px solid #3C7A64"><div class="serif" style="font-weight:700;font-size:19px;line-height:1.25">${esc(j.role)}</div><div style="font-size:14px;margin-top:4px">${esc(j.firm)} · ${esc(j.start)}</div><div class="mono" style="font-size:14px;font-weight:600;margin-top:4px;color:#FFD166">${esc(j.pay)}</div>${j.closes?`<div style="font-size:12px;color:#BFE3D3">Apply by ${esc(j.closes)}</div>`:""}<a href="${safeUrl(j.url)}" target="_blank" rel="noopener" style="font-size:13px;color:#BFE3D3">View posting →</a></div>`).join("") || '<p style="font-size:14px">No open roles listed right now.</p>'}
+   <div style="font-size:12px;color:#BFE3D3;margin-top:12px;line-height:1.5">Consulting roles, internships and case competitions in Vancouver. Checked every edition; expired postings are removed.</div></aside></div></section>`;
+}
+function howHTML(d){
+  const x = arr(d.howItWorks); if (!x.length) return "";
+  return `<section class="sec"><div class="sec-h"><div><h2>How It Works</h2><p>One business, taken apart like a consultant would. New every Monday.</p></div><div class="muted" style="font-size:13px">Business acumen and case-interview practice</div></div>
+  <div class="row" style="gap:24px">${x.map((e)=>`<article style="flex:1 1 300px;min-width:0;border-top:6px solid var(--teal);padding-top:12px;display:flex;flex-direction:column">
+   <div class="kick" style="color:var(--teal)">How it works · ${esc(e.sector)}</div><h3 class="serif" style="font-weight:700;font-size:25px;line-height:1.15;margin:8px 0 10px">${esc(e.title)}</h3>
+   <p style="font-size:15px;line-height:1.6;margin:0 0 10px">${esc(e.body)}</p><p style="font-size:15px;line-height:1.5;margin:0 0 10px"><b>Where AI hits:</b> ${esc(e.ai)}</p>
+   <div style="background:var(--tint);padding:12px 14px;margin:4px 0 10px"><div class="kick" style="font-size:11px">Try the case</div><div class="serif" style="font-size:17px;line-height:1.35;margin-top:4px">${esc(e.caseq)}</div></div>
+   <div class="muted" style="font-size:13px;margin-top:auto">${esc(e.status || (e.read + " min read"))}</div></article>`).join("")}</div></section>`;
+}
+function caseHTML(d){
+  const c = d.caseOfDay; if (!c || !c.q) return "";
+  return `<section style="padding:24px 0;border-bottom:1px solid var(--ink)"><div class="case"><div class="kick" style="color:#FFD166">Case of the day</div><div class="serif" style="flex:1 1 400px;font-size:22px;line-height:1.35">${esc(c.q)}</div>${c.basedOn?`<a href="#story-${esc(c.basedOn)}" style="font-size:13px;color:#BFBFBF">Based on today's lead →</a>`:""}</div></section>`;
+}
+function feedbackHTML(){
+  const has = /^https:\/\//.test(SITE.formUrl);
+  return `<section class="sec" id="feedback"><div class="row" style="gap:28px;align-items:flex-start"><div style="flex:1 1 300px"><h2 class="serif" style="font-weight:900;font-size:30px;margin:0">Suggestions &amp; feedback</h2><p class="muted" style="font-size:15px;line-height:1.5">Spotted an error, have a story tip, or want a company explained in How It Works? Tell us. Corrections are fixed in the next edition. No account needed.</p></div>
+  <div style="flex:2 1 460px;min-width:0">${has ? `<a href="${safeUrl(SITE.formUrl)}" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;min-height:48px;padding:0 26px;background:var(--ink);color:var(--paper);font-weight:600;text-decoration:none">Send a suggestion →</a><p class="muted" style="font-size:13px">Opens a short anonymous form. Email is optional, only if you want a reply.</p>` : `<p class="notice">The suggestion form is being set up and will appear here shortly.</p>`}</div></div></section>`;
+}
+function footerHTML(){
+  const by = SITE.founder && SITE.founder !== "Thomson Le" ? "Founded and edited by " + esc(SITE.founder) + "." : "Published by The Consultant Times editorial team.";
+  return `<div><div class="serif" style="font-weight:900;font-size:22px">The Consultant Times</div><div class="muted">Business news through a consultant's lens. New edition every weekday at 6am PT, plus a Friday wrap-up. ${by}</div></div>
+  <div><b>Independent, AI-assisted</b><br><span class="muted">Curated and written with AI under <a href="#how-we-work">published editorial rules</a>. Not affiliated with, or paid by, any company covered.</span></div>
+  <div><b>Not financial advice</b><br><span class="muted">Share prices and deal values are snapshots for information only.</span></div>
+  <div><b>Sources and corrections</b><br><span class="muted">Every item links its source and labels its type. Spot an error? <a href="#feedback">Tell us</a> and it's fixed in the next edition. <a href="#corrections">Corrections log</a>.</span></div>`;
+}
+
+// ---------- pages ----------
+function home(d){
+  let stories = arr(d.stories);
+  const inView = (s) => (st.view==="Latest" || s.section===st.view) && storyMatches(s);
+  const match = stories.filter(inView);
+  const list = match.length ? match : stories;
+  let lead = list.find((s)=>s.id===d.lead) || list[0];
+  const cards = list.filter((s)=>s!==lead).concat(stories.filter((s)=>s!==lead && list.indexOf(s)<0)).slice(0,3);
+  const showNews = ["Latest","AI & Tools","Big Moves"].includes(st.view);
+  let h = "";
+  if (showNews && lead) h += `<section class="row" style="padding:28px 0;border-bottom:1px solid var(--ink)">${leadHTML(lead)}${wireHTML(d.wire)}</section>
+    <section class="row" style="gap:24px;padding:28px 0;border-bottom:1px solid var(--ink)">${cards.map(cardHTML).join("")}</section>${st.view==="Latest"?caseHTML(d):""}`;
+  if (st.view==="Latest" || st.view==="Big Moves") h += bigMovesHTML(d) + radarHTML(d);
+  if (st.view==="Latest" || st.view==="Vancouver") h += vanHTML(d);
+  if (st.view==="Latest" || st.view==="How It Works") h += howHTML(d);
+  h += feedbackHTML();
+  const fb = document.getElementById("filterbar");
+  const filtered = st.view!=="Latest" || st.firm!=="All" || st.desk!=="All";
+  fb.innerHTML = filtered ? `<span style="display:inline-flex;align-items:center;gap:10px"><b class="kick">${esc(st.view)} · ${esc(st.firm==="All"?"All firms":st.firm)}${st.desk==="All"?"":" · "+esc(st.desk)}</b><span class="muted">${match.length? "· "+match.length+(match.length===1?" story":" stories") : "· no matching stories yet, showing latest"}</span><button class="tab" data-act="reset">Clear filters ✕</button></span>` : "";
+  return h;
+}
+function articlePage(d, id){
+  const all = arr(d.stories).concat(arr(d.archive));
+  const s = all.find((x)=>x.id===id);
+  if (!s) return `<div class="art"><a href="#">← Back to the front page</a><h1>Story not found</h1><p>It may have moved to the archive.</p></div>`;
+  const facts = arr(s.facts).length ? `<div class="facts">${arr(s.facts).map((f)=>`<div><div class="k">${esc(f.k)}</div><div class="v">${esc(f.v)}</div></div>`).join("")}</div>` : "";
+  const paras = arr(s.paras).length ? arr(s.paras) : [s.summary];
+  const related = arr(d.stories).filter((x)=>x.id!==s.id).slice(0,3);
+  document.title = s.title + " — The Consultant Times";
+  return `<article class="art"><a href="#" style="font-weight:700;font-size:14px">← Back to the front page</a>
+   <div class="kick" style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:18px"><span style="color:${kc(s.kicker)}">${esc(s.kicker)} · ${esc(s.firm==="Industry"?"Industry-wide":s.firm)}</span><span style="background:var(--ink);color:var(--paper);padding:3px 8px">${esc(s.confidence||"Reported")}</span>${s.updated?`<span class="mono muted" style="letter-spacing:0">Updated ${esc(s.updated)}</span>`:""}</div>
+   <h1>${esc(s.title)}</h1><p class="serif" style="font-size:21px;line-height:1.45;color:#44403C;margin:0 0 16px">${esc(s.summary)}</p>
+   <div class="muted" style="font-size:13px;padding:10px 0;border-top:1px solid var(--ink);border-bottom:1px solid var(--rule);margin-bottom:22px">The Consultant Times · AI-assisted · ${when(s)} ${esc(s.year||"")} ${s.readTime?"· "+esc(s.readTime):""}</div>
+   ${facts}${paras.map((p)=>`<p class="body">${esc(p)}</p>`).join("")}
+   ${arr(s.unknowns).length?`<div class="notice"><div class="kick" style="margin-bottom:8px">What we don't know yet</div>${arr(s.unknowns).map((u)=>`<div style="padding:4px 0">— ${esc(u)}</div>`).join("")}</div>`:""}
+   ${arr(s.why).length?`<div class="kick" style="margin:20px 0 8px">Why it matters</div><ol class="why" style="margin:0;padding:0;list-style:none">${arr(s.why).map((t,i)=>`<li><span class="n">0${i+1}</span><span>${esc(t)}</span></li>`).join("")}</ol>`:""}
+   <p style="font-size:16px;line-height:1.55;margin:20px 0;background:var(--ink);color:var(--paper);padding:16px 18px"><b style="color:#FF6B57">Client signal:</b> ${esc(s.cs)}</p>
+   ${s.take?`<div class="take" style="margin:0 0 26px"><div class="kick">Our take</div><p>${esc(s.take)}</p></div>`:""}
+   <div class="kick" style="margin-bottom:6px">Sources</div><ol style="margin:0 0 28px;padding-left:20px;font-size:14px;line-height:1.8">${arr(s.sources).map((so)=>`<li>${srcLine(so)}</li>`).join("")}</ol>
+   ${related.length?`<div class="kick" style="margin-bottom:6px">Related</div>${related.map((r)=>`<a href="#story-${esc(r.id)}" class="serif" style="display:block;padding:10px 0;border-top:1px solid var(--rule);font-size:18px;font-weight:700;text-decoration:none">${esc(r.title)} →</a>`).join("")}`:""}</article>`;
+}
+function staticPage(name, d){
+  const back = `<a href="#" style="font-weight:700;font-size:14px">← Back to the front page</a>`;
+  if (name==="about") return `<div class="page">${back}<h1>About The Consultant Times</h1>
+   <p>The Consultant Times covers business news through a consultant's lens. Every story answers one question: does this create client work, change an industry's economics, or change how consulting itself works?</p>
+   <p>It's written for everyone from partners to first-year students: senior enough to be useful, clear enough to learn from.</p>
+   <p>${SITE.founder && SITE.founder!=="Thomson Le" ? "The Consultant Times was founded by " + esc(SITE.founder) + ", a Business Information Technology Management student at BCIT in Vancouver." : "The Consultant Times is published from Vancouver, B.C."}</p>
+   <h2>How it's made</h2><p>Editions are researched, written and fact-checked with AI under the published rules on our <a href="#how-we-work">How we work</a> page, with human oversight for sensitive stories. We say this openly because how a newsroom works should never be hidden.</p></div>`;
+  if (name==="how-we-work") return `<div class="page">${back}<h1>How we work</h1>
+   <h2>What makes the front page</h2><p>Each item is judged on two things: how much attention it's getting (coverage speed, outlet tier, market reaction, company size, how many industries it touches) and how relevant it is to consulting work. The lead is the strongest story of the last 24 hours. Quiet but important stories go to Under the Radar.</p>
+   <h2>Sourcing</h2><p>We prefer original sources (company releases, filings, regulators), then major news outlets, then trade press. Every item links its source and labels its type. Numbers are never published without a source; estimates are marked as estimates.</p>
+   <h2>Confidence labels</h2><p><b>Confirmed</b>: from an official source. <b>Reported</b>: from news reporting. <b>Developing</b>: early or single-source, may change.</p>
+   <h2>Sensitive stories</h2><p>Allegations are reported as allegations. Stories about an individual's conduct require at least two major outlets and include the response of the person or company. They are reviewed by a human before publishing.</p>
+   <h2>Fact-checking</h2><p>Every edition is checked by a separate review pass that compares each fact against its source before publishing. If something is wrong, we correct it in the next edition and log it on the <a href="#corrections">corrections page</a>.</p>
+   <h2>Copyright</h2><p>We summarise in our own words and link to the original. We don't reproduce articles, and we only use images with a clear licence, credited.</p>
+   <h2>Opinion</h2><p>Opinion appears only in sections labelled "Our take". Nothing on this site is financial advice.</p></div>`;
+  if (name==="corrections") { const c = arr(d && d.corrections); return `<div class="page">${back}<h1>Corrections</h1>${c.length ? c.map((x)=>`<p><b>${esc(x.date)}</b>: ${esc(x.text)}</p>`).join("") : "<p>No corrections yet. If you spot an error, please <a href='#feedback'>tell us</a>.</p>"}</div>`; }
+  return "";
+}
+
+// ---------- render + routing ----------
+function render(){
+  renderNav();
+  const d = st.data; const main = document.getElementById("main");
+  document.getElementById("footer").innerHTML = footerHTML();
+  const hash = decodeURIComponent(location.hash.replace(/^#/, ""));
+  if (!d) { main.innerHTML = `<p class="notice">Today's edition couldn't load. Please refresh in a minute.</p>` + (["about","how-we-work","corrections"].includes(hash) ? staticPage(hash, null) : ""); return; }
+  const ed = d.edition || {};
+  document.getElementById("dateline").textContent = (ed.label || "") + (ed.next ? " · NEXT EDITION " + ed.next : "") + (d._fallback ? " · SHOWING PREVIOUS EDITION" : "");
+  document.title = "The Consultant Times — business news through a consultant's lens";
+  if (hash.startsWith("story-")) main.innerHTML = articlePage(d, hash.slice(6));
+  else if (["about","how-we-work","corrections"].includes(hash)) main.innerHTML = staticPage(hash, d);
+  else { main.innerHTML = home(d); if (hash==="feedback") { const f=document.getElementById("feedback"); if (f) f.scrollIntoView(); } }
+}
+document.addEventListener("click", (e) => {
+  const b = e.target.closest("[data-act]"); if (!b) return;
+  const [k, v] = b.getAttribute("data-act").split(/:(.*)/s);
+  if (k==="menu") st.menu = st.menu===v ? null : v;
+  else if (k==="view") { st.view = v; st.menu = null; if (location.hash) history.pushState("", "", location.pathname); }
+  else if (k==="firm") { st.firm = v; st.menu = null; }
+  else if (k==="desk") { st.desk = v; st.menu = null; }
+  else if (k==="move") st.moveType = v;
+  else if (k==="page") { st.menu = null; location.hash = v; return; }
+  else if (k==="reset") { st.firm="All"; st.desk="All"; st.view="Latest"; }
+  render();
+});
+document.getElementById("burger").addEventListener("click", () => { st.menu = st.menu==="burger" ? null : "burger"; render(); });
+window.addEventListener("hashchange", () => { render(); window.scrollTo(0,0); });
+load();
+</script>
+</body>
+</html>
