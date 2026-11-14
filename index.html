@@ -109,7 +109,7 @@ footer > div{flex:1 1 220px}
 <script>
 "use strict";
 const SITE = { name: "The Consultant Times", founder: "Thomson Le", formUrl: "https://docs.google.com/forms/d/e/1FAIpQLSfo1_S7TEHVEtA4acb5jJ0IMoUhgYiQcoDcwr9MFqbnnmq6_A/viewform", tz: "America/Vancouver" };
-const FIRMS = ["McKinsey","BCG","Bain","Deloitte","EY","PwC","KPMG","Accenture","Doane Grant Thornton","Industry"];
+const FIRMS = ["McKinsey","BCG","Bain","Deloitte","EY","PwC","KPMG","Accenture","Industry"];
 const DESKS = ["Tech & AI","Financial services","Energy & resources","Consumer & retail","Health","Industrials & logistics","Media & telecom","Public sector","Consulting industry"];
 const SECTIONS = ["Latest","AI & Tools","Big Moves","Vancouver","How It Works"];
 const KC = { "Deals":"#C70000","Big Moves":"#C70000","Research":"#005689","Models":"#C05A00","Tools":"#C05A00","Workforce":"#7D0068","Strategy":"#3D5A80","Regulation":"#3D5A80" };
@@ -243,7 +243,7 @@ function feedbackHTML(){
   <div style="flex:2 1 460px;min-width:0">${has ? `<a href="${safeUrl(SITE.formUrl)}" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;min-height:48px;padding:0 26px;background:var(--ink);color:var(--paper);font-weight:600;text-decoration:none">Send a suggestion →</a><p class="muted" style="font-size:13px">Opens a short anonymous form. Email is optional, only if you want a reply.</p>` : `<p class="notice">The suggestion form is being set up and will appear here shortly.</p>`}</div></div></section>`;
 }
 function footerHTML(){
-  const by = SITE.founder && SITE.founder !== "Thomson Le" ? "Founded and edited by " + esc(SITE.founder) + "." : "Published by The Consultant Times editorial team.";
+  const by = SITE.founder ? "Founded and edited by " + esc(SITE.founder) + "." : "Published by The Consultant Times editorial team.";
   return `<div><div class="serif" style="font-weight:900;font-size:22px">The Consultant Times</div><div class="muted">Business news through a consultant's lens. New edition every weekday at 6am PT, plus a Friday wrap-up. ${by}</div></div>
   <div><b>Independent, AI-assisted</b><br><span class="muted">Curated and written with AI under <a href="#how-we-work">published editorial rules</a>. Not affiliated with, or paid by, any company covered.</span></div>
   <div><b>Not financial advice</b><br><span class="muted">Share prices and deal values are snapshots for information only.</span></div>
@@ -276,14 +276,14 @@ function articlePage(d, id){
   const s = all.find((x)=>x.id===id);
   if (!s) return `<div class="art"><a href="#">← Back to the front page</a><h1>Story not found</h1><p>It may have moved to the archive.</p></div>`;
   const facts = arr(s.facts).length ? `<div class="facts">${arr(s.facts).map((f)=>`<div><div class="k">${esc(f.k)}</div><div class="v">${esc(f.v)}</div></div>`).join("")}</div>` : "";
-  const paras = arr(s.paras).length ? arr(s.paras) : [s.summary];
+  const paras = arr(s.paras);
   const related = arr(d.stories).filter((x)=>x.id!==s.id).slice(0,3);
   document.title = s.title + " — The Consultant Times";
   return `<article class="art"><a href="#" style="font-weight:700;font-size:14px">← Back to the front page</a>
    <div class="kick" style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:18px"><span style="color:${kc(s.kicker)}">${esc(s.kicker)} · ${esc(s.firm==="Industry"?"Industry-wide":s.firm)}</span><span style="background:var(--ink);color:var(--paper);padding:3px 8px">${esc(s.confidence||"Reported")}</span>${s.updated?`<span class="mono muted" style="letter-spacing:0">Updated ${esc(s.updated)}</span>`:""}</div>
    <h1>${esc(s.title)}</h1><p class="serif" style="font-size:21px;line-height:1.45;color:#44403C;margin:0 0 16px">${esc(s.summary)}</p>
    <div class="muted" style="font-size:13px;padding:10px 0;border-top:1px solid var(--ink);border-bottom:1px solid var(--rule);margin-bottom:22px">The Consultant Times · AI-assisted · ${when(s)} ${esc(s.year||"")} ${s.readTime?"· "+esc(s.readTime):""}</div>
-   ${facts}${paras.map((p)=>`<p class="body">${esc(p)}</p>`).join("")}
+   ${facts}${paras.length ? paras.map((p)=>`<p class="body">${esc(p)}</p>`).join("") : `<p class="muted" style="font-size:14px">This is a short brief. For the full details, see the original source below.</p>`}
    ${arr(s.unknowns).length?`<div class="notice"><div class="kick" style="margin-bottom:8px">What we don't know yet</div>${arr(s.unknowns).map((u)=>`<div style="padding:4px 0">— ${esc(u)}</div>`).join("")}</div>`:""}
    ${arr(s.why).length?`<div class="kick" style="margin:20px 0 8px">Why it matters</div><ol class="why" style="margin:0;padding:0;list-style:none">${arr(s.why).map((t,i)=>`<li><span class="n">0${i+1}</span><span>${esc(t)}</span></li>`).join("")}</ol>`:""}
    <p style="font-size:16px;line-height:1.55;margin:20px 0;background:var(--ink);color:var(--paper);padding:16px 18px"><b style="color:#FF6B57">Client signal:</b> ${esc(s.cs)}</p>
@@ -296,7 +296,7 @@ function staticPage(name, d){
   if (name==="about") return `<div class="page">${back}<h1>About The Consultant Times</h1>
    <p>The Consultant Times covers business news through a consultant's lens. Every story answers one question: does this create client work, change an industry's economics, or change how consulting itself works?</p>
    <p>It's written for everyone from partners to first-year students: senior enough to be useful, clear enough to learn from.</p>
-   <p>${SITE.founder && SITE.founder!=="Thomson Le" ? "The Consultant Times was founded by " + esc(SITE.founder) + ", a Business Information Technology Management student at BCIT in Vancouver." : "The Consultant Times is published from Vancouver, B.C."}</p>
+   <p>${SITE.founder ? "The Consultant Times was founded by " + esc(SITE.founder) + ", a Business Information Technology Management student at BCIT in Vancouver." : "The Consultant Times is published from Vancouver, B.C."}</p>
    <h2>How it's made</h2><p>Editions are researched, written and fact-checked with AI under the published rules on our <a href="#how-we-work">How we work</a> page, with human oversight for sensitive stories. We say this openly because how a newsroom works should never be hidden.</p></div>`;
   if (name==="how-we-work") return `<div class="page">${back}<h1>How we work</h1>
    <h2>What makes the front page</h2><p>Each item is judged on two things: how much attention it's getting (coverage speed, outlet tier, market reaction, company size, how many industries it touches) and how relevant it is to consulting work. The lead is the strongest story of the last 24 hours. Quiet but important stories go to Under the Radar.</p>
