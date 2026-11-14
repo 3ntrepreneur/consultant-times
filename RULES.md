@@ -46,7 +46,7 @@ Store `heat` and `rel` on items for ranking only.
 - Headlines < 12 words, specific, with the number or stakes. Summaries < 45 words.
 - Attribute claims ("according to Reuters"). Estimates marked "est.", press-reported prices marked "reported".
 - Opinion ONLY in `take` fields. Takes: lead + move of the week only (others only if genuinely sharp).
-- Every story has a `cs` (Client signal) line: which clients/roles will hire consultants because of this.
+- Every story has a `cs` (shown as "What it means") line: which clients/roles will hire consultants because of this.
 - EVERY item on the page (stories, Big Moves, Under the Radar, Vancouver Desk, Wire, How It Works) has an `id` and opens
   its own article page. Write in a Guardian-style feature voice: specific, well-structured, context-rich, never padded.
   Article depth is set by tier AND by how many verified facts exist. Never pad thin news with speculation; if facts run out,
