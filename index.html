@@ -148,7 +148,7 @@ footer > div{flex:1 1 220px}
 const SITE = { name: "The Consultant Times", founder: "Thomson Le", formUrl: "https://docs.google.com/forms/d/e/1FAIpQLSfo1_S7TEHVEtA4acb5jJ0IMoUhgYiQcoDcwr9MFqbnnmq6_A/viewform", tz: "America/Vancouver" };
 const FIRMS = ["McKinsey","BCG","Bain","Deloitte","EY","PwC","KPMG","Accenture","Industry"];
 const DESKS = ["Tech & AI","Financial services","Energy & resources","Consumer & retail","Health","Industrials & logistics","Media & telecom","Public sector","Consulting industry"];
-const SECTIONS = ["Latest","AI & Tools","Big Moves","Vancouver","How It Works"];
+const SECTIONS = ["Latest","AI & Tools","Policy","Big Moves","Vancouver","How It Works"];
 const KC = { "Deals":"#C70000","Big Moves":"#C70000","Research":"#005689","Models":"#C05A00","Tools":"#C05A00","Workforce":"#7D0068","Strategy":"#3D5A80","Regulation":"#3D5A80" };
 const MC = { "M&A":"#005689", "IPO":"#1F8A4C", "Scandal":"#C70000", "Funding":"#7D0068", "Canada":"#C05A00", "Earnings":"#3D5A80", "Leadership":"#3D5A80" };
 const st = { data:null, lib:[], arch:[], archDone:false, q:"", akind:"All", view:"Latest", firm:"All", desk:"All", menu:null, moveType:"All" };
@@ -274,9 +274,9 @@ function vanHTML(d){
 }
 function howHTML(d){
   const x = arr(d.howItWorks); if (!x.length) return "";
-  return `<section class="sec"><div class="sec-h"><div><h2>How It Works</h2><p>One business, taken apart like a consultant would. Three new deep dives every weekday.</p></div><div class="muted" style="font-size:13px">Business acumen and case-interview practice</div></div>
+  return `<section class="sec"><div class="sec-h"><div><h2>How It Works</h2><p>One industry, one business and one strategy framework, taken apart like a consultant would. Three new deep dives every weekday.</p></div><div class="muted" style="font-size:13px">Business acumen and case-interview practice</div></div>
   <div class="row" style="gap:24px">${x.map((e)=>`<article style="flex:1 1 300px;min-width:0;border-top:6px solid var(--teal);padding-top:12px;display:flex;flex-direction:column">
-   <div class="kick" style="color:var(--teal)">How it works · ${esc(e.sector)}</div><h3 class="serif" style="font-weight:700;font-size:25px;line-height:1.15;margin:8px 0 10px"><a href="#story-${esc(e.id)}" style="text-decoration:none">${esc(e.title)}</a></h3>
+   <div class="kick" style="color:var(--teal)">${esc(e.type ? e.type + " · " : "How it works · ")}${esc(e.sector)}</div><h3 class="serif" style="font-weight:700;font-size:25px;line-height:1.15;margin:8px 0 10px"><a href="#story-${esc(e.id)}" style="text-decoration:none">${esc(e.title)}</a></h3>
    <p style="font-size:15px;line-height:1.6;margin:0 0 10px">${esc(e.body)}</p><p style="font-size:15px;line-height:1.5;margin:0 0 10px"><b>Where AI hits:</b> ${esc(e.ai)}</p>
    <div style="background:var(--tint);padding:12px 14px;margin:4px 0 10px"><div class="kick" style="font-size:11px">Try the case</div><div class="serif" style="font-size:17px;line-height:1.35;margin-top:4px">${esc(e.caseq)}</div></div>
    <div style="font-size:13px;margin-top:auto;display:flex;justify-content:space-between;gap:8px"><span class="muted">${esc(e.status || (e.read + " min read"))}</span>${arr(e.sections).length?`<a href="#story-${esc(e.id)}" style="font-weight:700">Read the deep dive →</a>`:""}</div></article>`).join("")}</div></section>`;
@@ -300,7 +300,7 @@ function footerHTML(){
 
 // ---------- category pages (each section has its own layout) ----------
 const MON = { jan:1,feb:2,mar:3,apr:4,may:5,jun:6,jul:7,aug:8,sep:9,oct:10,nov:11,dec:12 };
-const KIND_RANK = { story:0, move:1, how:2, van:3, radar:4, wire:5 };
+const KIND_RANK = { story:0, pol:1, move:1, how:2, van:3, radar:4, wire:5 };
 const AIRX = /\bAI\b|artificial intelligence|Anthropic|OpenAI|Nvidia|Cohere|Mercor|\bmodels?\b|agentic|semiconductor|\bchips?\b|Marvell|Lumentum|Salesforce|Shield AI/i;
 function dkey(x){
   const m = String(x.date || "").trim().toLowerCase().match(/^([a-z]{3})[a-z]*\.?\s*(\d{1,2})?/);
@@ -315,7 +315,7 @@ function poolOf(d){
     blurb: x.summary || x.body || (kind === "wire" ? "" : (x.cs || "")),
     label: x.kicker || (kind === "move" ? x.type : kind === "van" || kind === "wire" ? x.tag : kind === "radar" ? "Under the Radar" : "How it works"),
     where: kind === "move" ? (x.co || "") : kind === "van" ? "Vancouver" : (x.firm === "Industry" ? "" : (x.firm || "")) });
-  return [].concat(arr(d.stories).map((x) => mk(x, "story")), arr(d.bigMoves).map((x) => mk(x, "move")), arr(d.radar).map((x) => mk(x, "radar")),
+  return [].concat(arr(d.stories).map((x) => mk(x, "story")), arr(d.policy).map((x) => mk(x, "pol")), arr(d.bigMoves).map((x) => mk(x, "move")), arr(d.radar).map((x) => mk(x, "radar")),
     arr((d.vancouver || {}).stories).map((x) => mk(x, "van")), arr(d.wire).map((x) => mk(x, "wire")), arr(d.howItWorks).map((x) => mk(x, "how")), arr(st.lib).map((x) => Object.assign(mk(x, "how"), { archived: true })));
 }
 const colOf = (x) => x.kind === "move" ? (MC[x.type] || "#3D5A80") : x.kind === "van" ? "var(--van)" : x.kind === "how" ? "var(--teal)" : kc(x.kicker || x.tag);
@@ -389,16 +389,48 @@ function howPage(d){
   const today = arr(d.howItWorks).map((e) => Object.assign({}, e, { label: "How it works" }));
   if (!today.length) return noneHTML("How It Works");
   const f = today[0], two = today.slice(1), lib = arr(st.lib);
-  const side = (e) => `<article style="padding:16px 0;border-top:1px solid var(--rule)"><div class="kick" style="color:var(--teal)">${esc(e.sector)} · <span class="mono muted" style="letter-spacing:0;font-weight:500">${esc(e.readTime || "")}</span></div><h3 class="serif" style="font-weight:700;font-size:26px;line-height:1.15;margin:6px 0 8px"><a href="#story-${esc(e.id)}" style="text-decoration:none">${esc(e.title)}</a></h3><p style="font-size:15px;line-height:1.55;margin:0 0 10px">${esc(e.body)}</p><div style="background:var(--tint);padding:10px 12px;font-size:14px;line-height:1.4"><b>Try the case:</b> ${esc(e.caseq)}</div><div style="margin-top:10px;font-size:13px"><a href="#story-${esc(e.id)}" style="font-weight:700">Read the deep dive →</a></div></article>`;
-  return `${pageBand("How It Works", "One business, taken apart like a consultant would. Three new deep dives every weekday: business acumen and case-interview practice.", "var(--teal)", "THE SERIES · TODAY'S THREE")}
+  const side = (e) => `<article style="padding:16px 0;border-top:1px solid var(--rule)"><div class="kick" style="color:var(--teal)">${esc(e.type ? e.type + " · " : "")}${esc(e.sector)} · <span class="mono muted" style="letter-spacing:0;font-weight:500">${esc(e.readTime || "")}</span></div><h3 class="serif" style="font-weight:700;font-size:26px;line-height:1.15;margin:6px 0 8px"><a href="#story-${esc(e.id)}" style="text-decoration:none">${esc(e.title)}</a></h3><p style="font-size:15px;line-height:1.55;margin:0 0 10px">${esc(e.body)}</p><div style="background:var(--tint);padding:10px 12px;font-size:14px;line-height:1.4"><b>Try the case:</b> ${esc(e.caseq)}</div><div style="margin-top:10px;font-size:13px"><a href="#story-${esc(e.id)}" style="font-weight:700">Read the deep dive →</a></div></article>`;
+  return `${pageBand("How It Works", "One business, taken apart like a consultant would. Three new deep dives every weekday: one industry, one business and one strategy framework.", "var(--teal)", "THE SERIES · TODAY'S THREE")}
   <section class="row" style="gap:0;padding:28px 0;border-bottom:1px solid var(--ink);align-items:flex-start">
-   <div style="flex:2 1 520px;min-width:0;padding-right:32px"><div class="kick" style="color:var(--teal)">Deep dive 1 of ${today.length} · ${esc(f.sector)}</div><h2 class="serif" style="font-weight:700;font-size:44px;line-height:1.08;margin:10px 0 14px"><a href="#story-${esc(f.id)}" style="text-decoration:none">${esc(f.title)}</a></h2><p style="font-size:19px;line-height:1.65;margin:0 0 14px">${esc(f.body)}</p>${f.ai ? `<p style="font-size:16px;line-height:1.55;margin:0 0 18px"><b>Where AI hits:</b> ${esc(f.ai)}</p>` : ""}
+   <div style="flex:2 1 520px;min-width:0;padding-right:32px"><div class="kick" style="color:var(--teal)">Deep dive 1 of ${today.length} · ${esc(f.type ? f.type + " · " : "")}${esc(f.sector)}</div><h2 class="serif" style="font-weight:700;font-size:44px;line-height:1.08;margin:10px 0 14px"><a href="#story-${esc(f.id)}" style="text-decoration:none">${esc(f.title)}</a></h2><p style="font-size:19px;line-height:1.65;margin:0 0 14px">${esc(f.body)}</p>${f.ai ? `<p style="font-size:16px;line-height:1.55;margin:0 0 18px"><b>Where AI hits:</b> ${esc(f.ai)}</p>` : ""}
     ${arr(f.facts).length ? `<div class="facts">${arr(f.facts).map((q) => `<div><div class="k">${esc(q.k)}</div><div class="v">${esc(q.v)}</div></div>`).join("")}</div>` : ""}
     ${f.caseq ? `<div style="background:var(--ink);color:var(--paper);padding:18px 20px;margin:0 0 18px"><div class="kick" style="color:#FFD166">Try the case</div><p class="serif" style="font-size:20px;line-height:1.4;margin:6px 0 0">${esc(f.caseq)}</p></div>` : ""}
     <a href="#story-${esc(f.id)}" style="min-height:48px;display:inline-flex;align-items:center;padding:0 24px;background:var(--ink);color:var(--paper);font-weight:700;text-decoration:none">Read the deep dive →</a></div>
    <div class="side"><div class="kick" style="margin-bottom:4px">Also today</div>${two.map(side).join("")}</div></section>
-  <section class="sec"><div class="sec-h"><div><h2>The library</h2><p>${lib.length ? "Every earlier deep dive, newest first." : "Every deep dive is kept here once it leaves today's three."}</p></div></div>${lib.length ? `<div class="grid">${lib.map((e) => `<article class="mini" style="border-top:4px solid var(--teal);padding-top:10px"><div class="kick" style="font-size:11px;color:var(--teal)">${esc(e.sector)} · <span class="mono muted" style="letter-spacing:0;font-weight:500">${esc(e.date || "")}</span></div><h3 class="serif">${linkOf(Object.assign({}, e))}</h3><p>${esc(e.body)}</p></article>`).join("")}</div>` : `<p class="notice">The library fills up from tomorrow.</p>`}</section>
+  <section class="sec"><div class="sec-h"><div><h2>The library</h2><p>${lib.length ? "Every earlier deep dive, newest first." : "Every deep dive is kept here once it leaves today's three."}</p></div></div>${lib.length ? `<div class="grid">${lib.map((e) => `<article class="mini" style="border-top:4px solid var(--teal);padding-top:10px"><div class="kick" style="font-size:11px;color:var(--teal)">${esc(e.type ? e.type + " · " : "")}${esc(e.sector)} · <span class="mono muted" style="letter-spacing:0;font-weight:500">${esc(e.date || "")}</span></div><h3 class="serif">${linkOf(Object.assign({}, e))}</h3><p>${esc(e.body)}</p></article>`).join("")}</div>` : `<p class="notice">The library fills up from tomorrow.</p>`}</section>
   <section class="notice" style="margin:24px 0"><b>Which business should we take apart next?</b> Tell us a company or industry and it may become a deep dive. <a href="${safeUrl(SITE.formUrl)}" target="_blank" rel="noopener" style="font-weight:700">Suggest one →</a></section>`;
+}
+
+// Policy & Regulation: lead + calendar, by jurisdiction, what it means for clients
+const JGROUPS = [["Canada", ["Canada", "B.C."]], ["United States", ["US"]], ["EU & UK", ["EU", "UK"]], ["Rest of world", ["Rest of world", "Global", "Other"]]];
+const POLRX = /regulat|legislat|\bAct\b|\bbill\b|government|minister|Ottawa|objection|consultation|antitrust|competition bureau/i;
+function policyItems(d){ return sortNew(poolOf(d).filter((x) => x.kind !== "how" && (x.kind === "pol" || x.juris || x.desk === "Public sector" || POLRX.test(x.title + " " + x.blurb)))); }
+function calendarOf(d){
+  const t = new Date().toISOString().slice(0, 10), out = [];
+  poolOf(d).forEach((x) => arr(x.dates).forEach((e) => { if (e.iso && e.iso >= t) out.push({ iso: e.iso, label: e.label, id: x.id }); }));
+  return out.sort((a, b) => a.iso < b.iso ? -1 : 1);
+}
+function fmtDay(iso){ const dt = new Date(iso + "T12:00:00"); return dt.toLocaleDateString("en-CA", { month: "short", day: "numeric", year: "numeric" }); }
+function inDays(iso){ const n = Math.round((new Date(iso + "T12:00:00") - new Date(new Date().toISOString().slice(0, 10) + "T12:00:00")) / 86400000); return n <= 0 ? "today" : n === 1 ? "tomorrow" : n < 60 ? "in " + n + " days" : n < 700 ? "in " + Math.round(n / 30) + " months" : "in " + (n / 365).toFixed(1) + " years"; }
+function policyPage(d){
+  const L = policyItems(d);
+  if (!L.length) return noneHTML("Policy");
+  const lead = L.find((x) => x.kind === "pol") || L[0], rest = L.filter((x) => x !== lead), cal = calendarOf(d);
+  const juris = JGROUPS.map(([name, keys]) => [name, L.filter((x) => keys.indexOf(x.juris) >= 0)]).filter(([n, it]) => it.length);
+  const noj = L.filter((x) => !x.juris && x !== lead);
+  const cs = L.filter((x) => x.kind === "pol" && x.cs).concat(L.filter((x) => x.kind !== "pol" && x.cs)).slice(0, 3);
+  return `${pageBand("Policy & Regulation", "Government rules, funding and deadlines that create client work, with AI policy first. We report what the rules say and leave the politics to others.", "#1B2A41", "POLICY DESK")}
+  <section class="row" style="gap:0;padding:28px 0;border-bottom:1px solid var(--ink)">${bigLead(lead)}
+   <aside class="side"><div style="display:flex;align-items:baseline;gap:10px"><h2 class="serif" style="font-weight:900;font-size:26px;margin:0">On the calendar</h2><span class="muted" style="font-size:12px">dates that matter</span></div>
+    ${cal.length ? cal.map((e) => `<article><div class="mono" style="font-size:13px;font-weight:600;color:var(--red)">${esc(fmtDay(e.iso))} <span class="muted" style="font-weight:500">· ${esc(inDays(e.iso))}</span></div><div style="font-size:15px;line-height:1.4;margin-top:3px"><a href="#story-${esc(e.id)}" style="text-decoration:none">${esc(e.label)}</a></div></article>`).join("") : '<p class="muted">No dated deadlines right now.</p>'}</aside></section>
+  ${juris.length ? `<section class="sec"><div class="sec-h"><div><h2>By jurisdiction</h2><p>Where each rule applies, so you can see which clients are affected.</p></div></div><div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(250px,1fr))">${juris.map(([name, it]) => `<div class="mini" style="gap:0"><div class="kick" style="font-size:12px;padding-bottom:8px;border-bottom:3px solid var(--ink);margin-bottom:6px">${esc(name)}</div>${it.map((x) => `<div style="padding:10px 0;border-bottom:1px solid var(--rule)"><div class="kick" style="font-size:10px;color:${colOf(x)}">${esc(x.label)} · <span class="mono muted" style="letter-spacing:0;font-weight:500">${esc(x.date || "")}</span></div><div class="serif" style="font-weight:700;font-size:18px;line-height:1.25;margin-top:3px">${linkOf(x)}</div></div>`).join("")}</div>`).join("")}</div></section>` : ""}
+  ${cs.length ? `<section style="background:var(--ink);color:var(--paper);padding:24px 28px;margin:28px 0"><div class="kick" style="color:#FFD166;margin-bottom:10px">What it means for clients</div><div class="row" style="gap:28px">${cs.map((x) => `<div style="flex:1 1 260px;min-width:0"><div class="serif" style="font-weight:700;font-size:17px;line-height:1.3;margin-bottom:6px"><a href="#story-${esc(x.id)}" style="text-decoration:none;color:var(--paper)">${esc(x.title)}</a></div><div style="font-size:14px;line-height:1.5;color:#D8D2C4">${esc(x.cs)}</div></div>`).join("")}</div></section>` : ""}
+  ${noj.length ? `<section class="sec"><div class="sec-h"><div><h2>More policy headlines</h2></div></div><div class="grid">${noj.map((x) => mini(x)).join("")}</div></section>` : ""}`;
+}
+function policyHTML(d){
+  const L = policyItems(d).slice(0, 3);
+  if (!L.length) return "";
+  return `<section class="sec"><div class="sec-h"><div><h2>Policy &amp; Regulation</h2><p>Rules, funding and deadlines that create client work.</p></div><button class="linkbtn" data-act="view:Policy">All policy news →</button></div><div class="grid">${L.map((x) => mini(x, { cs: true })).join("")}</div></section>`;
 }
 
 // Firm page: newsroom stream for one firm + elsewhere in consulting
@@ -426,7 +458,7 @@ function deskPage(d, desk){
 function noneHTML(name){ return `<p class="notice">Nothing in ${esc(name)} yet. Check back at the next edition.</p>`; }
 
 // ---------- archive ----------
-const AKINDS = { "All":null, "Stories":"story", "Big Moves":"move", "Wire":"wire", "Vancouver":"van", "Under the Radar":"radar", "How It Works":"how" };
+const AKINDS = { "All":null, "Stories":"story", "Policy":"pol", "Big Moves":"move", "Wire":"wire", "Vancouver":"van", "Under the Radar":"radar", "How It Works":"how" };
 function archiveItems(){
   const lib = arr(st.lib).map((x) => Object.assign({}, x, { kind:"how", archivedOn: x.archivedOn || "" }));
   return arr(st.arch).concat(lib);
@@ -451,6 +483,7 @@ function home(d){
   if (st.firm !== "All") h = firmPage(d, st.firm);
   else if (st.desk !== "All") h = deskPage(d, st.desk);
   else if (st.view === "AI & Tools") h = aiPage(d);
+  else if (st.view === "Policy") h = policyPage(d);
   else if (st.view === "Big Moves") h = movesPage(d);
   else if (st.view === "Vancouver") h = vanPage(d);
   else if (st.view === "How It Works") h = howPage(d);
@@ -459,7 +492,7 @@ function home(d){
     const cards = stories.filter((s)=>s!==lead).slice(0,3);
     if (lead) h += `<section class="row" style="padding:28px 0;border-bottom:1px solid var(--ink)">${leadHTML(lead)}${wireHTML(d.wire)}</section>
       <section class="row" style="gap:24px;padding:28px 0;border-bottom:1px solid var(--ink)">${cards.map(cardHTML).join("")}</section>${caseHTML(d)}`;
-    h += bigMovesHTML(d) + radarHTML(d) + vanHTML(d) + howHTML(d);
+    h += bigMovesHTML(d) + radarHTML(d) + policyHTML(d) + vanHTML(d) + howHTML(d);
   }
   h += feedbackHTML();
   const fb = document.getElementById("filterbar");
@@ -470,12 +503,12 @@ function home(d){
 }
 function articlePage(d, id){
   const norm = (x, kind) => Object.assign({}, x, {
-    kicker: x.kicker || (kind==="move" ? x.type : kind==="radar" ? "Under the Radar" : kind==="van" ? "Vancouver · " + (x.tag||"") : kind==="wire" ? (x.tag||"Wire") : "How It Works"),
+    kicker: x.kicker || (kind==="pol" ? "Regulation" : kind==="move" ? x.type : kind==="radar" ? "Under the Radar" : kind==="van" ? "Vancouver · " + (x.tag||"") : kind==="wire" ? (x.tag||"Wire") : "How It Works"),
     firm: x.firm || x.co || (kind==="van" ? "Vancouver" : ""),
     title: x.title || x.text,
     summary: x.summary || x.body || (kind==="wire" ? x.text : ""),
     sources: arr(x.sources).length ? x.sources : (x.url ? [{ stype: x.stype || "Source", src: x.src, url: x.url }] : []) });
-  const pool = arr(d.stories).map((x)=>norm(x,"story")).concat(arr(d.archive).map((x)=>norm(x,"story")), arr(d.bigMoves).map((x)=>norm(x,"move")), arr(d.radar).map((x)=>norm(x,"radar")), arr((d.vancouver||{}).stories).map((x)=>norm(x,"van")), arr(d.wire).map((x)=>norm(x,"wire")), arr(d.howItWorks).map((x)=>norm(x,"how")), arr(st.lib).map((x)=>norm(x,"how")), arr(st.arch).map((x)=>norm(x, x.kind||"story")));
+  const pool = arr(d.stories).map((x)=>norm(x,"story")).concat(arr(d.policy).map((x)=>norm(x,"pol")), arr(d.archive).map((x)=>norm(x,"story")), arr(d.bigMoves).map((x)=>norm(x,"move")), arr(d.radar).map((x)=>norm(x,"radar")), arr((d.vancouver||{}).stories).map((x)=>norm(x,"van")), arr(d.wire).map((x)=>norm(x,"wire")), arr(d.howItWorks).map((x)=>norm(x,"how")), arr(st.lib).map((x)=>norm(x,"how")), arr(st.arch).map((x)=>norm(x, x.kind||"story")));
   const s = pool.find((x)=>x.id===id);
   if (!s && !st.archDone) { loadArchive().then(() => { if (location.hash === "#story-" + id) render(); }); return `<div class="art"><p class="notice">Looking in the archive…</p></div>`; }
   if (!s) return `<div class="art"><a href="#">← Back to the front page</a><h1>Story not found</h1><p>We couldn't find that story. Try the <a href="#archive">archive</a>.</p></div>`;

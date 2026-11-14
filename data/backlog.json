@@ -1,177 +1,248 @@
-[
- {
-  "topic": "Costco",
-  "sector": "Retail",
-  "hook": "Membership fees fund the low prices"
- },
- {
-  "topic": "Walmart",
-  "sector": "Retail",
-  "hook": "Scale, logistics and the grocery engine"
- },
- {
-  "topic": "Netflix",
-  "sector": "Media",
-  "hook": "Subscriptions, ads and content amortization"
- },
- {
-  "topic": "Uber",
-  "sector": "Mobility",
-  "hook": "Take rate and driver supply"
- },
- {
-  "topic": "Starbucks",
-  "sector": "Restaurants",
-  "hook": "Stores, loyalty and the turnaround"
- },
- {
-  "topic": "Airlines (Air Canada)",
-  "sector": "Transport",
-  "hook": "Load factor and fuel"
- },
- {
-  "topic": "Shopify",
-  "sector": "Software",
-  "hook": "Merchants, payments and take rate"
- },
- {
-  "topic": "Tesla",
-  "sector": "Autos",
-  "hook": "Margins, software and robotaxis"
- },
- {
-  "topic": "A Canadian bank (RBC)",
-  "sector": "Banking",
-  "hook": "Net interest margin and fees"
- },
- {
-  "topic": "Insurance",
-  "sector": "Financial services",
-  "hook": "Float, underwriting and claims"
- },
- {
-  "topic": "Hospitals",
-  "sector": "Health",
-  "hook": "Payer mix and staffing"
- },
- {
-  "topic": "A real-estate developer",
-  "sector": "Real estate",
-  "hook": "Land, financing and pre-sales"
- },
- {
-  "topic": "Canadian telecoms (Rogers, Telus, Bell)",
-  "sector": "Telecom",
-  "hook": "ARPU, spectrum and churn"
- },
- {
-  "topic": "Loblaw",
-  "sector": "Grocery",
-  "hook": "Private label and pharmacy"
- },
- {
-  "topic": "A pharma company",
-  "sector": "Health",
-  "hook": "R&D, patents and pricing"
- },
- {
-  "topic": "TSMC",
-  "sector": "Semiconductors",
-  "hook": "Foundry economics"
- },
- {
-  "topic": "Private equity",
-  "sector": "Finance",
-  "hook": "Fees, leverage and exits"
- },
- {
-  "topic": "Hotels (Marriott)",
-  "sector": "Hospitality",
-  "hook": "Asset-light franchising"
- },
- {
-  "topic": "Cruise lines",
-  "sector": "Travel",
-  "hook": "Occupancy and onboard spend"
- },
- {
-  "topic": "Apple",
-  "sector": "Tech",
-  "hook": "Services, hardware and the App Store"
- },
- {
-  "topic": "Nike",
-  "sector": "Apparel",
-  "hook": "Brand, wholesale vs direct"
- },
- {
-  "topic": "Tim Hortons",
-  "sector": "Restaurants",
-  "hook": "Franchise model and coffee"
- },
- {
-  "topic": "Suncor / oil sands",
-  "sector": "Energy",
-  "hook": "Breakevens and refining"
- },
- {
-  "topic": "Mining (Teck)",
-  "sector": "Resources",
-  "hook": "Commodity cycles and costs"
- },
- {
-  "topic": "CN Rail",
-  "sector": "Transport",
-  "hook": "Operating ratio"
- },
- {
-  "topic": "The Port of Vancouver",
-  "sector": "Logistics",
-  "hook": "Throughput and trade flows"
- },
- {
-  "topic": "Air freight and Amazon Air",
-  "sector": "Logistics",
-  "hook": "Network design"
- },
- {
-  "topic": "Spotify",
-  "sector": "Media",
-  "hook": "Royalties and gross margin"
- },
- {
-  "topic": "Whistler Blackcomb / Vail",
-  "sector": "Leisure",
-  "hook": "Pass pricing and capacity"
- },
- {
-  "topic": "DoorDash",
-  "sector": "Delivery",
-  "hook": "Marketplace economics"
- },
- {
-  "topic": "Moderna / biotech",
-  "sector": "Health",
-  "hook": "Pipeline risk"
- },
- {
-  "topic": "Lululemon",
-  "sector": "Apparel",
-  "hook": "Brand and store productivity"
- },
- {
-  "topic": "The Big Four's own model",
-  "sector": "Consulting",
-  "hook": "Pyramids, utilisation and pricing"
- },
- {
-  "topic": "Home builders",
-  "sector": "Real estate",
-  "hook": "Cycle and land banks"
- },
- {
-  "topic": "Grocery delivery",
-  "sector": "Retail",
-  "hook": "Unit economics"
- }
-]
+{
+ "industry": [
+  {
+   "topic": "Airlines",
+   "hook": "Load factor, fuel and fleet"
+  },
+  {
+   "topic": "Grocery retail",
+   "hook": "Thin margins and private label"
+  },
+  {
+   "topic": "Banking",
+   "hook": "Net interest margin and fees"
+  },
+  {
+   "topic": "Insurance",
+   "hook": "Float, underwriting and claims"
+  },
+  {
+   "topic": "Telecom",
+   "hook": "ARPU, spectrum and churn"
+  },
+  {
+   "topic": "Hospitals and health systems",
+   "hook": "Payer mix and staffing"
+  },
+  {
+   "topic": "Residential real-estate development",
+   "hook": "Land, financing and pre-sales"
+  },
+  {
+   "topic": "Oil and gas",
+   "hook": "Breakevens and price cycles"
+  },
+  {
+   "topic": "Mining",
+   "hook": "Commodity cycles and costs"
+  },
+  {
+   "topic": "Freight rail",
+   "hook": "Operating ratio"
+  },
+  {
+   "topic": "Ports and shipping",
+   "hook": "Throughput and trade flows"
+  },
+  {
+   "topic": "Semiconductors",
+   "hook": "Foundry economics"
+  },
+  {
+   "topic": "Hotels",
+   "hook": "Asset-light franchising"
+  },
+  {
+   "topic": "Ski resorts and leisure",
+   "hook": "Pass pricing and capacity"
+  },
+  {
+   "topic": "Home building",
+   "hook": "Cycle and land banks"
+  },
+  {
+   "topic": "Aerospace and defence",
+   "hook": "Long programmes and backlog"
+  },
+  {
+   "topic": "Agriculture and food processing",
+   "hook": "Margins and weather risk"
+  },
+  {
+   "topic": "Pharmaceuticals",
+   "hook": "R&D, patents and pricing"
+  },
+  {
+   "topic": "Construction and engineering",
+   "hook": "Bids and project risk"
+  },
+  {
+   "topic": "Streaming and media",
+   "hook": "Content costs and subscriptions"
+  }
+ ],
+ "business": [
+  {
+   "topic": "Costco",
+   "hook": "Membership fees fund low prices"
+  },
+  {
+   "topic": "Netflix",
+   "hook": "Subscriptions, ads and content amortization"
+  },
+  {
+   "topic": "Starbucks",
+   "hook": "Stores, loyalty and the turnaround"
+  },
+  {
+   "topic": "Shopify",
+   "hook": "Merchants, payments and take rate"
+  },
+  {
+   "topic": "Lululemon",
+   "hook": "Brand and store productivity"
+  },
+  {
+   "topic": "Tim Hortons",
+   "hook": "Franchise model and coffee"
+  },
+  {
+   "topic": "Aritzia",
+   "hook": "Vancouver-founded fashion retailer"
+  },
+  {
+   "topic": "Canada Goose",
+   "hook": "Premium brand and wholesale vs direct"
+  },
+  {
+   "topic": "Dollarama",
+   "hook": "Fixed price points and sourcing"
+  },
+  {
+   "topic": "Canadian Tire",
+   "hook": "Retail, financial services and loyalty"
+  },
+  {
+   "topic": "Duolingo",
+   "hook": "Freemium and conversion"
+  },
+  {
+   "topic": "Spotify",
+   "hook": "Royalties and gross margin"
+  },
+  {
+   "topic": "Uber",
+   "hook": "Take rate and driver supply"
+  },
+  {
+   "topic": "DoorDash",
+   "hook": "Marketplace economics"
+  },
+  {
+   "topic": "Warby Parker",
+   "hook": "Direct-to-consumer eyewear"
+  },
+  {
+   "topic": "Etsy",
+   "hook": "Marketplace take rate"
+  },
+  {
+   "topic": "Sweetgreen",
+   "hook": "Fast-casual salads and automation"
+  },
+  {
+   "topic": "Peloton",
+   "hook": "Hardware, subscriptions and churn"
+  },
+  {
+   "topic": "A local craft brewery",
+   "hook": "Small-business unit economics"
+  },
+  {
+   "topic": "Tesla",
+   "hook": "Margins, software and robotaxis"
+  }
+ ],
+ "strategy": [
+  {
+   "topic": "Porter's Five Forces",
+   "hook": "Reading an industry's profit pool"
+  },
+  {
+   "topic": "PESTLE analysis",
+   "hook": "Scanning the external environment"
+  },
+  {
+   "topic": "Market sizing: TAM, SAM, SOM",
+   "hook": "Top-down and bottom-up"
+  },
+  {
+   "topic": "BCG growth-share matrix",
+   "hook": "Portfolio decisions"
+  },
+  {
+   "topic": "Ansoff matrix",
+   "hook": "Four growth paths"
+  },
+  {
+   "topic": "The value chain",
+   "hook": "Where a company earns its margin"
+  },
+  {
+   "topic": "Blue Ocean strategy",
+   "hook": "Creating uncontested space"
+  },
+  {
+   "topic": "Jobs to be done",
+   "hook": "Why customers really buy"
+  },
+  {
+   "topic": "The 4Ps marketing mix",
+   "hook": "Product, price, place, promotion"
+  },
+  {
+   "topic": "STP: segmentation, targeting, positioning",
+   "hook": "Choosing who to serve"
+  },
+  {
+   "topic": "Unit economics: CAC, LTV and payback",
+   "hook": "Is each customer profitable?"
+  },
+  {
+   "topic": "The Business Model Canvas",
+   "hook": "Nine blocks of a model"
+  },
+  {
+   "topic": "Issue trees and MECE",
+   "hook": "Structuring any problem"
+  },
+  {
+   "topic": "McKinsey 7S",
+   "hook": "Aligning an organisation"
+  },
+  {
+   "topic": "Helmer's 7 Powers",
+   "hook": "What makes a moat"
+  },
+  {
+   "topic": "Pricing strategy",
+   "hook": "Value-based, cost-plus, competitor-based"
+  },
+  {
+   "topic": "Break-even analysis",
+   "hook": "Fixed costs and contribution margin"
+  },
+  {
+   "topic": "The profitability case framework",
+   "hook": "Revenue minus costs, case interviews"
+  },
+  {
+   "topic": "Customer funnel and conversion",
+   "hook": "From awareness to loyalty"
+  },
+  {
+   "topic": "Competitive benchmarking",
+   "hook": "Comparing against rivals"
+  }
+ ]
+}

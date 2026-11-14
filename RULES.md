@@ -55,15 +55,24 @@ Store `heat` and `rel` on items for ranking only.
     unknowns, cs, sources (aim for 3+ sources, at least one primary). Lead and move of the week also get a `take`.
   * Tier 2 (other Big Moves, Under the Radar, Vancouver Desk stories): 300–600 words in `paras`, plus cs and 2+ sources.
   * Tier 3 (Wire items): 120–250 words in `paras` explaining the item and its context, plus the source link.
-  * How It Works (EVERY weekday, exactly 3 new deep dives, 700–1,200 words each): pick 3 topics from data/backlog.json
-    (different sectors; prefer reader suggestions from the form; at least one Canadian or B.C.-relevant topic per week), remove
-    them from the backlog and top the backlog up to 20+ topics when it runs low. Research each from primary sources first
-    (annual report, 10-K/earnings release, regulator or industry-body data), then trade press. Fields: `id`, `sector`, `title`,
-    `body` (2 sentences), `summary`, `ai`, `kicker` "How It Works", `firm`, `date`, `year`, `confidence`, `readTime`, `facts`
-    (4 key numbers), `sections` [{h, paras}] with these headings in order — The short version; How it makes money; The
-    economics; The number that runs the business; Where AI and automation hit; Who wins and why — then `caseq`, a structured
-    MECE `caseAnswer`, `cheat` (6–8 one-line facts), and 4+ sources (at least one primary). Every number must come from a source;
-    label our own arithmetic "computed". Never invent figures; if a number is not available, say so.
+  * How It Works (EVERY weekday, exactly 3 new deep dives, 700–1,200 words each). Each day has ONE of each `type`:
+      - "Industry": how an industry works (economics, players, cost drivers, cycles), e.g. trucking, airlines, banking.
+      - "Business": how one specific company works. It does NOT have to be big; any real business with enough public data
+        (filings, annual reports, credible trade press) works, including small, local or Canadian ones.
+      - "Strategy": a business-strategy, marketing or analysis framework (SWOT, Porter's Five Forces, market sizing, 4Ps, unit
+        economics, etc.) explained clearly AND applied to a real company or industry with sourced numbers.
+    Pick topics from data/backlog.json ({"industry":[],"business":[],"strategy":[]} lists of {topic,hook}); prefer reader suggestions
+    from the form; at least one Canadian or B.C.-relevant topic per week; remove used topics and top each list up to 15+. These
+    categories are internal guidance: the site just shows the `type` label (Industry / Business / Strategy).
+    Research from primary sources first (annual report, 10-K/earnings release, regulator or industry-body data), then trade press.
+    Fields: `id`, `type`, `sector`, `title`, `body` (2 sentences), `summary`, `ai`, `kicker` "How It Works", `firm`, `date`, `year`,
+    `confidence`, `readTime`, `facts` (4 key numbers), `sections` [{h, paras}] (5+), then `caseq`, a structured MECE `caseAnswer`,
+    `cheat` (6–8 one-line facts), and 4+ sources (at least one primary).
+      Industry and Business headings in order: The short version; How it makes money; The economics; The number that runs the
+      business; Where AI and automation hit; Who wins and why.
+      Strategy headings: The short version; How to do it properly; A worked example (real company, sourced numbers); From
+      analysis to choices; Common mistakes; Where AI and automation hit.
+    Every number must come from a source; label our own arithmetic "computed". Never invent figures.
   * Library: before writing the new three, move yesterday's three full objects from edition.howItWorks into the FRONT of
     data/library.json ({"items":[...]}, newest first). Never delete library items. Ids must be unique across edition + library.
 - Usage guard: if the run is running long, finish Tier 1 fully, then Tier 2, then Tier 3; a Tier 3 item may ship as a
@@ -79,6 +88,21 @@ bigMoves, radar, wire, vancouver.stories) should carry `desk` (one of the 9 indu
 also carry `section`. Aim per edition: AI & Tools 8+ items, Big Moves 6 moves + 3 wire deals, Vancouver Desk 5–8 items
 (at least 4 genuinely local B.C. items), firm pages: any firm named in an item is matched automatically, so name firms
 precisely in titles/summaries. Industry desks: spread items across desks; avoid leaving a desk empty for a whole week.
+
+## 6c. Policy & Regulation (own tab; `policy[]` in edition.json)
+Purpose: government rules, funding and deadlines that create client work. AI policy first, then trade, tax, competition, privacy,
+procurement and sector regulation that move business. 3–5 new items a day when there is news; never pad.
+Jurisdictions to watch: Canada (federal and B.C.), United States (federal and states), EU and UK, plus major others (China, Australia).
+Sources: official first (government releases, Canada Gazette, regulators, legislation sites, Federal Register), then major press, then law-firm
+analysis (label stype "Research"). Cheap and free only.
+Fields per item in `policy[]`: `id`, `kicker` "Regulation", `firm` "Industry", `desk` "Public sector", `juris` (Canada | B.C. | US | EU | UK | Global |
+Rest of world | Other), `date`, `year`, `confidence`, `readTime`, `title`, `summary` (<45 words), `cs`, `paras` (200–450 words, 3–5 paragraphs), `unknowns`,
+`sources` (2+, https), and `dates` [{iso:"YYYY-MM-DD", label}] for every FUTURE deadline, start date or consultation close (feeds the "On the calendar" box).
+Neutrality: report what a law or agency says and who supports or opposes it; no opinion on parties or politicians; contested claims need two sources;
+say what is not yet known. Check status before repeating a date from an earlier edition.
+Standing items (laws not yet in force, open consultations) stay in `policy[]` until their last date passes, then are archived (kind "pol").
+Other items (bigMoves, radar, wire) that are really policy should carry `juris` (and `dates`) so they appear on the Policy page too.
+Run budget: 2–4 policy searches per run.
 
 ## 7. Sensitive stories (legal safety — HOLD rules)
 - Allegations are always "allegations"; include the company's/person's response.
@@ -113,12 +137,12 @@ Only real postings with working https links. Include pay only if the posting sta
 
 ## 12. Data contract (data/edition.json) — see scripts/validate.py
 Top-level: schema, edition{id,label,published,next}, lead (story id), stories[], wire[], caseOfDay{q,basedOn},
-bigMoves[], radar[], vancouver{stories[],jobs[]}, howItWorks[3 — exactly], archive[], corrections[].
-Also data/library.json ({"items":[]}, past How It Works deep dives) and data/backlog.json ([{topic,sector,hook}]).
+policy[], bigMoves[], radar[], vancouver{stories[],jobs[]}, howItWorks[3 — exactly: one Industry, one Business, one Strategy], archive[], corrections[].
+Also data/library.json ({"items":[]}, past How It Works deep dives) and data/backlog.json ({"industry":[],"business":[],"strategy":[]}, each a list of {topic,hook}).
 Story ids: lowercase-hyphen slugs, unique, stable across editions (articles keep their links).
 ARCHIVE (nothing is ever deleted; old links must keep working): at the start of every run, compare the previous edition.json with
-the new draft. Every item whose id is NOT in the new edition (stories, bigMoves, radar, wire, vancouver.stories) is copied in full
-into data/archive/YYYY-MM.json (month of today; {"items":[...]}, newest first) with `kind` (story|move|radar|wire|van) and
+the new draft. Every item whose id is NOT in the new edition (stories, policy, bigMoves, radar, wire, vancouver.stories) is copied in full
+into data/archive/YYYY-MM.json (month of today; {"items":[...]}, newest first) with `kind` (story|pol|move|radar|wire|van) and
 `archivedOn` (YYYY-MM-DD) added. Add the month to data/archive/months.json if new. Items that stay on the page are not archived.
 Use the same ids as before. Archive ids must be unique and must not overlap the live edition (validate.py checks this).
 Leave edition.archive[] empty. How It Works items go to data/library.json instead (§6).

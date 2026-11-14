@@ -1,1 +1,124 @@
-{"items": []}
+{
+ "items": [
+  {
+   "id": "how-amazon-works",
+   "sector": "Tech and retail",
+   "title": "How Amazon really works",
+   "kicker": "How It Works",
+   "firm": "Amazon",
+   "date": "Nov 14",
+   "year": "2026",
+   "confidence": "Confirmed",
+   "readTime": "9 min read",
+   "read": 9,
+   "status": "9 min read · deep dive",
+   "body": "The store is the part you see, but the profit mostly comes from AWS. Retail is a volume and logistics machine that feeds the cloud business and is only now earning decent margins.",
+   "summary": "Amazon booked $201.9 billion of sales and $28.1 billion of operating profit last quarter. Nearly two-thirds of that profit came from a cloud division that makes under a quarter of the revenue. Here is how the machine fits together.",
+   "ai": "warehouse and delivery automation, AI services sold to other companies through AWS, and Amazon's own chips.",
+   "caseq": "Should Amazon spin off AWS? Build the argument for each side.",
+   "facts": [
+    {
+     "k": "Q3 2026 sales",
+     "v": "$201.9B (+12%)"
+    },
+    {
+     "k": "Operating margin",
+     "v": "13.9% (record)"
+    },
+    {
+     "k": "AWS share of profit",
+     "v": "63% (computed)"
+    },
+    {
+     "k": "2026 capex plan",
+     "v": "~$220B"
+    }
+   ],
+   "sections": [
+    {
+     "h": "The short version",
+     "paras": [
+      "Amazon looks like a shop, but it reports as three businesses: North America, International and AWS, its cloud computing arm. The first two sell goods, run the delivery network and earn commissions and advertising from third-party sellers. AWS rents computing power and software to other companies.",
+      "The important fact for anyone studying the company is the gap between size and profit. In the third quarter of 2026 (the three months to 30 September), AWS produced $46.0 billion of Amazon's $201.9 billion in sales, about 23%. It produced $17.8 billion of the $28.1 billion in operating income, about 63%. The stores, the warehouses and the vans are a giant, lower-margin operation. AWS is the profit engine."
+     ]
+    },
+    {
+     "h": "How it makes money",
+     "paras": [
+      "Think of three engines. The first is retail: Amazon sells products itself and also lets millions of outside sellers list on its site. The second is the set of services wrapped around that traffic, notably advertising, which Amazon reports inside the two retail segments rather than separately. Advertising revenue was $19.6 billion in the quarter, up 11%, and Amazon told investors to expect high-teens growth in the fourth quarter. The third engine is AWS.",
+      "North America sales rose 6% to $112.9 billion and International rose 5% to $43.1 billion. AWS grew 39.3%, its fastest pace in nearly five years, and is now running at an annualised revenue rate of $184 billion. Amazon's chief executive, Andy Jassy, told investors AWS could keep growing above 40% in 2027 and 2028, and said Amazon may have two trillion-dollar revenue businesses within five to ten years. That is a management projection, not a result."
+     ]
+    },
+    {
+     "h": "The economics",
+     "paras": [
+      "Segment margins tell the story. AWS earned a 38.7% operating margin in the quarter, up from 34.6% a year earlier. North America earned 7.7%, up from 4.5%. International earned 3.7%, up from 2.9%. Together the two retail segments made $10.3 billion of operating income on roughly $156 billion of sales, a margin of about 6.6% by our arithmetic.",
+      "Retail margins are improving because Amazon is getting better at the most expensive part of its model: delivery. Worldwide shipping costs rose 11% in the quarter while units shipped rose 12%, so each parcel cost slightly less to move. Amazon says it delivered more than 1.5 billion items same-day or overnight to Prime members in the quarter, which it credits for winning market share. Faster delivery is a cost, but it also pulls customers and sellers toward the platform.",
+      "Total operating margin hit 13.9%, the highest Amazon has reported, compared with 9.7% a year earlier. One timing note: Prime Day moved into the second quarter this year, which distorted year-over-year comparisons in advertising and retail growth. Amazon says the shift took roughly 4 percentage points off reported sales growth."
+     ]
+    },
+    {
+     "h": "The number that runs the business",
+     "paras": [
+      "For Amazon the number to watch is AWS operating income, because it funds everything else. Each extra point of AWS margin is worth more than a large improvement in the retail business, which is why investors react so strongly to AWS growth.",
+      "The second number is capital spending. Amazon still expects roughly $220 billion of cash capital expenditure in 2026 and has said it will spend meaningfully more in 2027, mostly on data centres and AI chips. One summary of the filing reports quarterly capex of about $77 billion, well ahead of operating cash flow, with the company raising long-term debt to bridge the gap. That is the bet: spend ahead of demand for AI computing and trust that AWS growth justifies it."
+     ]
+    },
+    {
+     "h": "Where AI and automation hit",
+     "paras": [
+      "AI hits Amazon from two directions. As a customer of its own technology, it uses automation to cut the cost of fulfilment, and it is testing robotaxis through its Zoox unit, which began paid rides in Las Vegas. As a seller, AWS rents AI computing to others. Amazon says tens of thousands of customers use its AgentCore tool for building software agents, and that they deployed twice as many agents in the third quarter as in the previous three quarters combined.",
+      "Amazon is also pushing its own chips, Graviton and Trainium, as a cheaper alternative to Nvidia's. It reports that customer commitments for each rose more than 20 times and that customers saved more than $2 billion using its custom silicon. It plans to sell Trainium outside AWS from late 2027. Amazon also signed new AWS agreements with Meta, Nvidia, OpenAI, Salesforce and Oracle, among others."
+     ]
+    },
+    {
+     "h": "Who wins and why",
+     "paras": [
+      "The winners are the businesses that need computing power faster than they can build it, and the sellers who gain from Prime's reach. The risk sits in the spending. If AI demand grows more slowly than the $220 billion build-out assumes, AWS's margin would be squeezed by depreciation on all those data centres.",
+      "For consultants, Amazon is a case study in cross-subsidy and capital allocation: a low-margin consumer business that built the infrastructure for a high-margin B2B one, and now has to decide how much more to invest in it."
+     ]
+    }
+   ],
+   "caseAnswer": "Frame it as a decision with four tests. (1) Value: a standalone AWS would be valued as a cloud pure-play on a 39% margin and 39% growth, likely at a higher multiple than the conglomerate, so a spin-off could unlock value. (2) Strategic fit: AWS shares Amazon's logistics-light, capex-heavy culture only partly; but retail gives AWS an in-house anchor customer and a lab for new services. (3) Financing: AWS generates $17.8 billion of quarterly operating profit that pays for the AI build-out; retail would lose that cushion and AWS would have to fund its capex alone. (4) Execution risk and tax: a separation takes years and costs shared-services effort. Recommendation: do not spin off; keep AWS inside because the group balance sheet funds the AI race, but report AWS more transparently (it already does). Revisit if retail margins fall or AI demand cools.",
+   "cheat": [
+    "Three segments: North America (7.7% margin), International (3.7%), AWS (38.7%)",
+    "Q3 2026: $201.9B sales (+12%), $28.1B operating income, record 13.9% margin",
+    "AWS: 23% of sales, about 63% of operating income (computed)",
+    "AWS grew 39.3%; $184B annualised run rate; management guides to 40%+ in 2027–28",
+    "Advertising: $19.6B in Q3, reported inside the retail segments",
+    "Shipping cost +11% vs units +12%: delivery is getting cheaper per parcel",
+    "2026 capex plan about $220B: the AI bet, funded partly by debt",
+    "Prime Day timing moved into Q2 and distorts Q3 comparisons"
+   ],
+   "sources": [
+    {
+     "stype": "Official",
+     "src": "Amazon: Q3 2026 results",
+     "url": "https://aboutamazon.com/news/company-news/amazon-earnings-q3-2026-report"
+    },
+    {
+     "stype": "Official",
+     "src": "Business Wire release (via Finviz)",
+     "url": "https://finviz.com/news/412054/amazoncom-announces-third-quarter-results"
+    },
+    {
+     "stype": "Press",
+     "src": "Zacks: Q3 revenues and segment margins",
+     "url": "https://www.zacks.com/stock/news/3019798/amazon-q3-revenues-miss-estimates,-aws-growth-hits-near-5-year-high"
+    },
+    {
+     "stype": "Aggregator",
+     "src": "StockHub: filing summary (capex, debt)",
+     "url": "https://stockhub.kr/en/insights/view_1793328991344_p0ld8dnjm"
+    },
+    {
+     "stype": "Aggregator",
+     "src": "Unite.AI: Q3 summary",
+     "url": "https://www.unite.ai/?p=498107"
+    }
+   ],
+   "type": "Business",
+   "archivedOn": "2026-11-14"
+  }
+ ]
+}

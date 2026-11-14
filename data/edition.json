@@ -185,7 +185,8 @@
    "text": "Opposition comments due on the $85B Union Pacific–Norfolk Southern merger.",
    "src": "DealRoom",
    "url": "https://dealroom.net/blog/upcoming-m-a",
-   "id": "wire-opposition-comments-due-on-the-85b-union-pacific-n"
+   "id": "wire-opposition-comments-due-on-the-85b-union-pacific-n",
+   "juris": "US"
   },
   {
    "date": "Nov 13",
@@ -302,7 +303,8 @@
    "cs": "Sovereign AI is now industrial policy. Expect public-sector AI strategy work in Canada.",
    "stype": "Aggregator",
    "src": "AI Tools Recap",
-   "url": "https://aitoolsrecap.com/Blog/ai-news-november-09-2026"
+   "url": "https://aitoolsrecap.com/Blog/ai-news-november-09-2026",
+   "juris": "Canada"
   },
   {
    "id": "shield-ai",
@@ -349,7 +351,14 @@
    "stype": "Research",
    "src": "DealRoom",
    "url": "https://dealroom.net/blog/upcoming-m-a",
-   "id": "radar-deadline-for-objections-to-the-85b-union-pacific-n"
+   "id": "radar-deadline-for-objections-to-the-85b-union-pacific-n",
+   "juris": "US",
+   "dates": [
+    {
+     "iso": "2026-11-18",
+     "label": "Deadline for objections to the $85B Union Pacific–Norfolk Southern merger"
+    }
+   ]
   },
   {
    "desk": "Media & telecom",
@@ -371,7 +380,8 @@
    "stype": "Newsletter",
    "src": "Women in AI",
    "url": "https://womeninaibythemarketeergroup.substack.com/p/she-read-it-so-you-dont-have-to-ai-76a",
-   "id": "radar-australia-plans-an-ai-regulator-after-an-agent-got"
+   "id": "radar-australia-plans-an-ai-regulator-after-an-agent-got",
+   "juris": "Rest of world"
   }
  ],
  "vancouver": {
@@ -421,6 +431,125 @@
   ]
  },
  "howItWorks": [
+  {
+   "id": "how-trucking-works",
+   "sector": "Logistics",
+   "title": "How trucking makes money (and why it barely does)",
+   "kicker": "How It Works",
+   "firm": "Trucking industry",
+   "date": "Nov 14",
+   "year": "2026",
+   "confidence": "Confirmed",
+   "readTime": "9 min read",
+   "read": 9,
+   "status": "9 min read · deep dive",
+   "body": "Freight is paid by the mile, but trucks often drive back empty. A huge, fragmented market of carriers, brokers in the middle and constant cost pressure means margins are thin.",
+   "summary": "Running a truck cost a record $2.34 a mile in 2025, according to the industry's main benchmark. Rates have not kept pace, and a sixth of all miles earn nothing. Here is why the economics are so tight.",
+   "ai": "load matching, route and fuel optimisation, and automated freight brokerage.",
+   "caseq": "A 200-truck regional carrier makes a 2% margin. The owner wants it doubled in 12 months. What are your levers?",
+   "facts": [
+    {
+     "k": "Cost to run a truck, 2025",
+     "v": "$2.336 / mile (record)"
+    },
+    {
+     "k": "Cost excluding fuel",
+     "v": "$1.854 / mile"
+    },
+    {
+     "k": "Empty miles (2024 data)",
+     "v": "16.7%"
+    },
+    {
+     "k": "Contract cushion over non-fuel cost",
+     "v": "$1.01 (2022) → $0.26 (2025)"
+    }
+   ],
+   "sections": [
+    {
+     "h": "The short version",
+     "paras": [
+      "Trucking moves most of the goods in North America, and it is a business of very small margins and very large numbers of players. Shippers (the manufacturers and retailers with goods to move) pay carriers (the companies that own the trucks) by the mile or by the load. Brokers sit between them, matching loads to trucks and keeping a spread.",
+      "The basic problem is that the costs are mostly fixed or hard to control, while the price is set by supply and demand in an open market. When there are more trucks than freight, rates fall below what it costs to run them, and carriers keep driving anyway because a parked truck still has a payment due."
+     ]
+    },
+    {
+     "h": "How it makes money",
+     "paras": [
+      "A carrier earns revenue per loaded mile, under either a contract with a shipper (a rate agreed for a year or so) or on the spot market (a price for a single load, set daily). Contract rates give stability; spot rates swing with demand and tend to run below costs when the market is weak.",
+      "The numbers show how tight things have been. FreightWaves, drawing on ATRI and its own SONAR rate data, reports that contract linehaul rates once cleared carriers' non-fuel costs by about $1.01 per loaded mile in 2022. By 2025 that cushion had shrunk to $0.26. Spot rates sat below non-fuel cost every year from 2023 to 2025. Dry van contract rates averaged $2.69 a mile in the third quarter of 2026, which FreightWaves says is below fourth-quarter 2021 levels, while non-fuel costs are about 30% higher than in 2021. In its view, the 2026 rate rise is a correction rather than a boom."
+     ]
+    },
+    {
+     "h": "The economics",
+     "paras": [
+      "The industry benchmark is the American Transportation Research Institute's annual survey. Its 2026 edition, covering 2025, put the average cost of operating a truck at $2.336 per mile, up 3.4% and the highest in the report's history. Excluding fuel, costs rose 4.2% to $1.854 per mile.",
+      "The main lines: driver wages were about 82 cents per mile, with another 21 cents for benefits. Fuel was about 48 cents. Repair and maintenance rose 8.6% to 21.5 cents. Insurance was 10.6 cents per mile, up 3.9% in a year and 23.9% since 2021. Tariffs pushed tyre costs up 6.4% to about 5 cents. According to ATRI, only fuel and driver pay rose more slowly than inflation.",
+      "ATRI's previous report, covering 2024, found operating margins had fallen below 2%. Reading across both reports: a carrier that mismanages a few cents per mile can move from profit to loss."
+     ]
+    },
+    {
+     "h": "The number that runs the business",
+     "paras": [
+      "The number is the share of miles driven empty. In ATRI's report on 2024 data, empty miles averaged 16.7%. Every empty mile still burns fuel, driver time and tyres but earns nothing.",
+      "A simple illustration: if a truck costs $2.34 per mile driven and 16.7% of miles are empty, the cost of each loaded mile is about $2.80 (2.336 divided by 0.833). Pricing a load at $2.50 a mile can therefore lose money even when it looks profitable. This is why carriers fight for backhauls, loads on the return leg, and why dense networks and repeat lanes beat one-off spot freight."
+     ]
+    },
+    {
+     "h": "Where AI and automation hit",
+     "paras": [
+      "The most developed uses are digital freight matching (software that finds a load for an empty truck), route and fuel optimisation, and automated brokerage that prices and books freight without a phone call. Each of these targets the same issues: empty miles and brokers' spreads.",
+      "Autonomous trucks are a longer-term story and are not yet a material part of the economics. The nearer-term win for most fleets is data: knowing their true cost per mile by lane and by customer."
+     ]
+    },
+    {
+     "h": "Who wins and why",
+     "paras": [
+      "Winners are carriers with dense, repeat freight and low empty miles, those with strong contracts instead of spot exposure, and brokers with better pricing data. Losers are small fleets that cannot absorb a record insurance and maintenance bill.",
+      "Industry voices quoted by trade press describe 2026 as a turning point for freight rates, but also say costs are rising fast enough that fleets must keep cutting costs. For consultants, trucking is a clean example of a fragmented industry in which operational detail, not strategy slides, decides who survives."
+     ]
+    }
+   ],
+   "caseAnswer": "Start from the profit equation: margin equals revenue per mile minus cost per mile, divided by revenue per mile, so doubling a 2% margin to 4% needs roughly a 2% improvement in net revenue per mile. Levers, grouped MECE: (1) Revenue: shift mix from spot to contract, reprice the worst 10% of lanes, add accessorial charges (detention, layover), and raise rates on customers where the carrier's service is hard to replace. (2) Utilisation: cut empty miles by lining up backhauls and adding repeat lanes; each point of empty miles is worth about the same as a point of revenue. (3) Cost: fuel efficiency (idle time, speed, tyres), maintenance planning, insurance renegotiation and safety scoring, and driver retention to reduce turnover cost. (4) Overheads and capital: right-size the trailer-to-truck ratio and delay replacing old equipment. Prioritise by size and speed: empty miles and lane repricing first, because they need no capital and show results within a quarter. Validate with a cost-per-loaded-mile model by lane before acting.",
+   "cheat": [
+    "2025 average cost: $2.336 per mile, a record; $1.854 excluding fuel (ATRI)",
+    "Driver pay about 82¢ + 21¢ benefits per mile; fuel about 48¢; insurance 10.6¢",
+    "Empty miles: 16.7% in ATRI's 2024 data, so cost per loaded mile is higher than cost per mile",
+    "Contract cushion over non-fuel cost: $1.01 per loaded mile in 2022, $0.26 in 2025",
+    "Spot rates were below non-fuel cost every year 2023–2025 (FreightWaves)",
+    "Operating margins in the 2024 data fell below 2%",
+    "Dry van contract rate $2.69/mile in Q3 2026, below Q4 2021, while costs are about 30% higher",
+    "Levers: backhauls, contract mix, insurance and maintenance, driver retention"
+   ],
+   "sources": [
+    {
+     "stype": "Research",
+     "src": "ATRI: 2026 Analysis of the Operational Costs of Trucking (PDF)",
+     "url": "https://truckingresearch.org/wp-content/uploads/2026/07/ATRI-Operational-Costs-of-Trucking-07-2026.pdf"
+    },
+    {
+     "stype": "Trade press",
+     "src": "Trucking Info: record operating costs in 2025",
+     "url": "https://truckinginfo.com/news/trucking-fleets-faced-record-operating-costs-during-third-year-of-freight-recession"
+    },
+    {
+     "stype": "Trade press",
+     "src": "FreightWaves: why rates are rising without more freight",
+     "url": "https://freightwaves.com/news/why-trucking-rates-are-rising-without-more-freight"
+    },
+    {
+     "stype": "Trade press",
+     "src": "FreightWaves: ATRI report on rising costs (2025 edition)",
+     "url": "https://www.freightwaves.com/news/atri-report-rising-costs-continue-to-squeeze-trucking-industry"
+    },
+    {
+     "stype": "Trade press",
+     "src": "The Trucker: why trucking is getting more expensive",
+     "url": "https://www.thetrucker.com/trucking-news/trucking-industry/trucking-is-getting-more-expensive-atri-report-explains-why"
+    }
+   ],
+   "type": "Industry"
+  },
   {
    "id": "how-chipotle-works",
    "sector": "Restaurants",
@@ -559,245 +688,289 @@
      "url": "https://franchiseinvestordata.com/news/chipotle-q3-2026-earnings-stock-jump/"
     }
    ],
-   "cs": "Restaurant operators chasing throughput and automation ROI need operations, labour-model and technology-investment work."
+   "cs": "Restaurant operators chasing throughput and automation ROI need operations, labour-model and technology-investment work.",
+   "type": "Business"
   },
   {
-   "id": "how-amazon-works",
-   "sector": "Tech and retail",
-   "title": "How Amazon really works",
+   "id": "how-swot-analysis",
+   "type": "Strategy",
+   "sector": "Framework",
+   "title": "SWOT analysis: how to make four boxes useful",
    "kicker": "How It Works",
-   "firm": "Amazon",
+   "firm": "Strategy framework",
    "date": "Nov 14",
    "year": "2026",
    "confidence": "Confirmed",
-   "readTime": "9 min read",
-   "read": 9,
-   "status": "9 min read · deep dive",
-   "body": "The store is the part you see, but the profit mostly comes from AWS. Retail is a volume and logistics machine that feeds the cloud business and is only now earning decent margins.",
-   "summary": "Amazon booked $201.9 billion of sales and $28.1 billion of operating profit last quarter. Nearly two-thirds of that profit came from a cloud division that makes under a quarter of the revenue. Here is how the machine fits together.",
-   "ai": "warehouse and delivery automation, AI services sold to other companies through AWS, and Amazon's own chips.",
-   "caseq": "Should Amazon spin off AWS? Build the argument for each side.",
+   "readTime": "8 min read",
+   "read": 8,
+   "status": "8 min read · deep dive",
+   "body": "Everyone has filled in a SWOT grid. Few people turn it into decisions. Here is how consultants use it, with Chipotle as a worked example.",
+   "summary": "A SWOT lists strengths, weaknesses, opportunities and threats. Done badly it is a bland list. Done well it ranks what matters and ends in choices. We apply it to Chipotle, using its latest results.",
+   "ai": "AI can draft a SWOT in seconds, but the draft is generic. Its best use is gathering evidence for each box, while people do the judging and ranking.",
+   "caseq": "A regional grocery chain asks you for a SWOT analysis. What do you do before you draw the four boxes?",
    "facts": [
     {
-     "k": "Q3 2026 sales",
-     "v": "$201.9B (+12%)"
+     "k": "Internal factors",
+     "v": "Strengths · Weaknesses"
     },
     {
-     "k": "Operating margin",
-     "v": "13.9% (record)"
+     "k": "External factors",
+     "v": "Opportunities · Threats"
     },
     {
-     "k": "AWS share of profit",
-     "v": "63% (computed)"
+     "k": "Real output",
+     "v": "Ranked strategic choices"
     },
     {
-     "k": "2026 capex plan",
-     "v": "~$220B"
+     "k": "Example used",
+     "v": "Chipotle, Q3 2026"
     }
    ],
    "sections": [
     {
      "h": "The short version",
      "paras": [
-      "Amazon looks like a shop, but it reports as three businesses: North America, International and AWS, its cloud computing arm. The first two sell goods, run the delivery network and earn commissions and advertising from third-party sellers. AWS rents computing power and software to other companies.",
-      "The important fact for anyone studying the company is the gap between size and profit. In the third quarter of 2026 (the three months to 30 September), AWS produced $46.0 billion of Amazon's $201.9 billion in sales, about 23%. It produced $17.8 billion of the $28.1 billion in operating income, about 63%. The stores, the warehouses and the vans are a giant, lower-margin operation. AWS is the profit engine."
+      "A SWOT analysis sorts what is true about a business into four boxes. Strengths and weaknesses are internal: things the company controls or can change, like its brand, costs, people and processes. Opportunities and threats are external: things happening in the market that the company does not control, like customer trends, competitors, regulation and input prices.",
+      "The framework is popular because it is simple, and that is also its weakness. A grid of generic bullets (strong brand, rising competition) tells a client nothing they did not know. A SWOT earns its place only when every item is specific, backed by a number, ranked by importance, and connected to a decision."
      ]
     },
     {
-     "h": "How it makes money",
+     "h": "How to do it properly",
      "paras": [
-      "Think of three engines. The first is retail: Amazon sells products itself and also lets millions of outside sellers list on its site. The second is the set of services wrapped around that traffic, notably advertising, which Amazon reports inside the two retail segments rather than separately. Advertising revenue was $19.6 billion in the quarter, up 11%, and Amazon told investors to expect high-teens growth in the fourth quarter. The third engine is AWS.",
-      "North America sales rose 6% to $112.9 billion and International rose 5% to $43.1 billion. AWS grew 39.3%, its fastest pace in nearly five years, and is now running at an annualised revenue rate of $184 billion. Amazon's chief executive, Andy Jassy, told investors AWS could keep growing above 40% in 2027 and 2028, and said Amazon may have two trillion-dollar revenue businesses within five to ten years. That is a management projection, not a result."
+      "Start with a question, not a grid. A SWOT of the whole company is rarely useful; a SWOT for a decision, such as whether to open in a new country or add automation, is. The question decides which facts matter.",
+      "Then use one test to sort every item: could the company change it next year? If yes, it is internal (a strength or weakness). If no, it is external (an opportunity or threat). Most mistakes come from putting an outside trend, like rising wages, into the weakness box.",
+      "Attach evidence to every bullet: a figure, a date and a source. Then rank each box by two things, how much it could move the results and how likely it is. Keep the top three or four in each box and drop the rest."
      ]
     },
     {
-     "h": "The economics",
+     "h": "A worked example: Chipotle",
      "paras": [
-      "Segment margins tell the story. AWS earned a 38.7% operating margin in the quarter, up from 34.6% a year earlier. North America earned 7.7%, up from 4.5%. International earned 3.7%, up from 2.9%. Together the two retail segments made $10.3 billion of operating income on roughly $156 billion of sales, a margin of about 6.6% by our arithmetic.",
-      "Retail margins are improving because Amazon is getting better at the most expensive part of its model: delivery. Worldwide shipping costs rose 11% in the quarter while units shipped rose 12%, so each parcel cost slightly less to move. Amazon says it delivered more than 1.5 billion items same-day or overnight to Prime members in the quarter, which it credits for winning market share. Faster delivery is a cost, but it also pulls customers and sellers toward the platform.",
-      "Total operating margin hit 13.9%, the highest Amazon has reported, compared with 9.7% a year earlier. One timing note: Prime Day moved into the second quarter this year, which distorted year-over-year comparisons in advertising and retail growth. Amazon says the shift took roughly 4 percentage points off reported sales growth."
+      "Chipotle's third-quarter 2026 results give plenty of evidence. Strengths: it owns all of its restaurants in North America, so it keeps the whole margin (23.3% restaurant-level margin in the quarter); digital orders are 38.8% of food and beverage sales; and its loyalty programme accounts for more than a third of sales. Its design is built around throughput, serving more people in the lunch rush.",
+      "Weaknesses: that same ownership means no franchisee to absorb cost increases. Margin fell from 24.5% to 23.3% in a year, and labour rose to 25.7% of revenue from 25.2%. The business also had a poor 2025, with comparable sales down 1.7% and customer counts down 3.2%, so it is recovering rather than cruising.",
+      "Opportunities: roughly 350 to 370 new restaurants planned for 2026, including 10 to 15 international partner-operated ones; drive-through Chipotlanes in about 80% of new restaurants; and automation such as the Cook to Needs forecasting tool, already in more than 500 restaurants, plus the robotic makeline and avocado machine being tested.",
+      "Threats: a food-safety incident would hit the whole brand at once; beef and freight costs push up food costs; further price increases could push customers away; and rivals such as Sweetgreen and Cava are building their own automation."
      ]
     },
     {
-     "h": "The number that runs the business",
+     "h": "From four boxes to choices",
      "paras": [
-      "For Amazon the number to watch is AWS operating income, because it funds everything else. Each extra point of AWS margin is worth more than a large improvement in the retail business, which is why investors react so strongly to AWS growth.",
-      "The second number is capital spending. Amazon still expects roughly $220 billion of cash capital expenditure in 2026 and has said it will spend meaningfully more in 2027, mostly on data centres and AI chips. One summary of the filing reports quarterly capex of about $77 billion, well ahead of operating cash flow, with the company raising long-term debt to bridge the gap. That is the bet: spend ahead of demand for AI computing and trust that AWS growth justifies it."
+      "The step most people skip is turning the grid into strategy. A common method is a TOWS matrix, which crosses the boxes: use strengths to seize opportunities, use strengths to blunt threats, fix weaknesses that block opportunities, and protect against the combination of weaknesses and threats.",
+      "For Chipotle: its strong throughput and digital base (strengths) support rapid rollout of Chipotlanes in new stores (opportunity). Its exposure to labour inflation (weakness) is the reason automation (opportunity) matters. Its single-brand risk (threat) argues for a very high food-safety standard. Each crossing becomes a candidate strategy, which you then rank and assign an owner.",
+      "The deliverable is not the grid. It is a short list of prioritised moves, each tied to evidence."
+     ]
+    },
+    {
+     "h": "Common mistakes",
+     "paras": [
+      "The usual failures are generic bullets with no numbers, mixing internal and external factors, listing 20 items per box, treating every item as equal, and stopping at the list. A related error is using a SWOT as the whole analysis: it organises facts but does not size markets, test economics or compare options. It works best as a summary step after real research.",
+      "Another trap is looking only at the company's own point of view. A strength matters only relative to competitors: a loyal customer base is a strength if rivals lack one, and table stakes if they all have it."
      ]
     },
     {
      "h": "Where AI and automation hit",
      "paras": [
-      "AI hits Amazon from two directions. As a customer of its own technology, it uses automation to cut the cost of fulfilment, and it is testing robotaxis through its Zoox unit, which began paid rides in Las Vegas. As a seller, AWS rents AI computing to others. Amazon says tens of thousands of customers use its AgentCore tool for building software agents, and that they deployed twice as many agents in the third quarter as in the previous three quarters combined.",
-      "Amazon is also pushing its own chips, Graviton and Trainium, as a cheaper alternative to Nvidia's. It reports that customer commitments for each rose more than 20 times and that customers saved more than $2 billion using its custom silicon. It plans to sell Trainium outside AWS from late 2027. Amazon also signed new AWS agreements with Meta, Nvidia, OpenAI, Salesforce and Oracle, among others."
-     ]
-    },
-    {
-     "h": "Who wins and why",
-     "paras": [
-      "The winners are the businesses that need computing power faster than they can build it, and the sellers who gain from Prime's reach. The risk sits in the spending. If AI demand grows more slowly than the $220 billion build-out assumes, AWS's margin would be squeezed by depreciation on all those data centres.",
-      "For consultants, Amazon is a case study in cross-subsidy and capital allocation: a low-margin consumer business that built the infrastructure for a high-margin B2B one, and now has to decide how much more to invest in it."
+      "AI tools will draft a SWOT in seconds, and the result is usually fluent but generic. Their useful role is evidence gathering: pulling figures from filings, summarising earnings calls and spotting competitor moves. The judgment, which items matter and what to do about them, is still the consultant's job, and it is where the value is."
      ]
     }
    ],
-   "caseAnswer": "Frame it as a decision with four tests. (1) Value: a standalone AWS would be valued as a cloud pure-play on a 39% margin and 39% growth, likely at a higher multiple than the conglomerate, so a spin-off could unlock value. (2) Strategic fit: AWS shares Amazon's logistics-light, capex-heavy culture only partly; but retail gives AWS an in-house anchor customer and a lab for new services. (3) Financing: AWS generates $17.8 billion of quarterly operating profit that pays for the AI build-out; retail would lose that cushion and AWS would have to fund its capex alone. (4) Execution risk and tax: a separation takes years and costs shared-services effort. Recommendation: do not spin off; keep AWS inside because the group balance sheet funds the AI race, but report AWS more transparently (it already does). Revisit if retail margins fall or AI demand cools.",
+   "caseAnswer": "Before drawing anything, clarify the decision the client faces (for example, whether to fund a new format, enter a new region or cut costs) because that determines scope. Then gather evidence in three streams: internal data (store-level margins, shrink, labour cost, loyalty data), customer research (price perception, share of basket), and the market (competitor openings, discounters, supplier inflation, local regulation). Build the SWOT only after that, with every bullet carrying a number and a source and tested as internal or external. Rank by impact and likelihood, keep the top three per box, and cross them in a TOWS matrix to generate options. Present three to five prioritised strategic moves with owners, quick wins first, and note which assumptions need testing. Finally, challenge it: which strengths are real relative to competitors, and what would change the ranking?",
    "cheat": [
-    "Three segments: North America (7.7% margin), International (3.7%), AWS (38.7%)",
-    "Q3 2026: $201.9B sales (+12%), $28.1B operating income, record 13.9% margin",
-    "AWS: 23% of sales, about 63% of operating income (computed)",
-    "AWS grew 39.3%; $184B annualised run rate; management guides to 40%+ in 2027–28",
-    "Advertising: $19.6B in Q3, reported inside the retail segments",
-    "Shipping cost +11% vs units +12%: delivery is getting cheaper per parcel",
-    "2026 capex plan about $220B: the AI bet, funded partly by debt",
-    "Prime Day timing moved into Q2 and distorts Q3 comparisons"
+    "SWOT = Strengths and Weaknesses (internal) + Opportunities and Threats (external)",
+    "Sorting test: could the company change it next year? Yes means internal",
+    "Every bullet needs a number, a date and a source",
+    "Rank by impact and likelihood; keep the top 3–4 per box",
+    "TOWS matrix crosses the boxes to generate strategies (S-O, S-T, W-O, W-T)",
+    "The deliverable is a ranked list of choices, not the grid",
+    "Strengths only count relative to competitors",
+    "Use it as a summary after research, not instead of research"
    ],
    "sources": [
     {
      "stype": "Official",
-     "src": "Amazon: Q3 2026 results",
-     "url": "https://aboutamazon.com/news/company-news/amazon-earnings-q3-2026-report"
+     "src": "Chipotle Q3 2026 results (SEC Form 8-K)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001058090/000105809026000103/cmg-20261028xex991.htm"
     },
     {
-     "stype": "Official",
-     "src": "Business Wire release (via Finviz)",
-     "url": "https://finviz.com/news/412054/amazoncom-announces-third-quarter-results"
+     "stype": "Trade press",
+     "src": "Nation's Restaurant News: third straight quarter of positive transactions",
+     "url": "https://www.nrn.com/fast-casual/chipotle-turns-in-third-straight-quarter-of-positive-transactions"
     },
     {
      "stype": "Press",
-     "src": "Zacks: Q3 revenues and segment margins",
-     "url": "https://www.zacks.com/stock/news/3019798/amazon-q3-revenues-miss-estimates,-aws-growth-hits-near-5-year-high"
-    },
-    {
-     "stype": "Aggregator",
-     "src": "StockHub: filing summary (capex, debt)",
-     "url": "https://stockhub.kr/en/insights/view_1793328991344_p0ld8dnjm"
-    },
-    {
-     "stype": "Aggregator",
-     "src": "Unite.AI: Q3 summary",
-     "url": "https://www.unite.ai/?p=498107"
-    }
-   ]
-  },
-  {
-   "id": "how-trucking-works",
-   "sector": "Logistics",
-   "title": "How trucking makes money (and why it barely does)",
-   "kicker": "How It Works",
-   "firm": "Trucking industry",
-   "date": "Nov 14",
-   "year": "2026",
-   "confidence": "Confirmed",
-   "readTime": "9 min read",
-   "read": 9,
-   "status": "9 min read · deep dive",
-   "body": "Freight is paid by the mile, but trucks often drive back empty. A huge, fragmented market of carriers, brokers in the middle and constant cost pressure means margins are thin.",
-   "summary": "Running a truck cost a record $2.34 a mile in 2025, according to the industry's main benchmark. Rates have not kept pace, and a sixth of all miles earn nothing. Here is why the economics are so tight.",
-   "ai": "load matching, route and fuel optimisation, and automated freight brokerage.",
-   "caseq": "A 200-truck regional carrier makes a 2% margin. The owner wants it doubled in 12 months. What are your levers?",
-   "facts": [
-    {
-     "k": "Cost to run a truck, 2025",
-     "v": "$2.336 / mile (record)"
-    },
-    {
-     "k": "Cost excluding fuel",
-     "v": "$1.854 / mile"
-    },
-    {
-     "k": "Empty miles (2024 data)",
-     "v": "16.7%"
-    },
-    {
-     "k": "Contract cushion over non-fuel cost",
-     "v": "$1.01 (2022) → $0.26 (2025)"
-    }
-   ],
-   "sections": [
-    {
-     "h": "The short version",
-     "paras": [
-      "Trucking moves most of the goods in North America, and it is a business of very small margins and very large numbers of players. Shippers (the manufacturers and retailers with goods to move) pay carriers (the companies that own the trucks) by the mile or by the load. Brokers sit between them, matching loads to trucks and keeping a spread.",
-      "The basic problem is that the costs are mostly fixed or hard to control, while the price is set by supply and demand in an open market. When there are more trucks than freight, rates fall below what it costs to run them, and carriers keep driving anyway because a parked truck still has a payment due."
-     ]
-    },
-    {
-     "h": "How it makes money",
-     "paras": [
-      "A carrier earns revenue per loaded mile, under either a contract with a shipper (a rate agreed for a year or so) or on the spot market (a price for a single load, set daily). Contract rates give stability; spot rates swing with demand and tend to run below costs when the market is weak.",
-      "The numbers show how tight things have been. FreightWaves, drawing on ATRI and its own SONAR rate data, reports that contract linehaul rates once cleared carriers' non-fuel costs by about $1.01 per loaded mile in 2022. By 2025 that cushion had shrunk to $0.26. Spot rates sat below non-fuel cost every year from 2023 to 2025. Dry van contract rates averaged $2.69 a mile in the third quarter of 2026, which FreightWaves says is below fourth-quarter 2021 levels, while non-fuel costs are about 30% higher than in 2021. In its view, the 2026 rate rise is a correction rather than a boom."
-     ]
-    },
-    {
-     "h": "The economics",
-     "paras": [
-      "The industry benchmark is the American Transportation Research Institute's annual survey. Its 2026 edition, covering 2025, put the average cost of operating a truck at $2.336 per mile, up 3.4% and the highest in the report's history. Excluding fuel, costs rose 4.2% to $1.854 per mile.",
-      "The main lines: driver wages were about 82 cents per mile, with another 21 cents for benefits. Fuel was about 48 cents. Repair and maintenance rose 8.6% to 21.5 cents. Insurance was 10.6 cents per mile, up 3.9% in a year and 23.9% since 2021. Tariffs pushed tyre costs up 6.4% to about 5 cents. According to ATRI, only fuel and driver pay rose more slowly than inflation.",
-      "ATRI's previous report, covering 2024, found operating margins had fallen below 2%. Reading across both reports: a carrier that mismanages a few cents per mile can move from profit to loss."
-     ]
-    },
-    {
-     "h": "The number that runs the business",
-     "paras": [
-      "The number is the share of miles driven empty. In ATRI's report on 2024 data, empty miles averaged 16.7%. Every empty mile still burns fuel, driver time and tyres but earns nothing.",
-      "A simple illustration: if a truck costs $2.34 per mile driven and 16.7% of miles are empty, the cost of each loaded mile is about $2.80 (2.336 divided by 0.833). Pricing a load at $2.50 a mile can therefore lose money even when it looks profitable. This is why carriers fight for backhauls, loads on the return leg, and why dense networks and repeat lanes beat one-off spot freight."
-     ]
-    },
-    {
-     "h": "Where AI and automation hit",
-     "paras": [
-      "The most developed uses are digital freight matching (software that finds a load for an empty truck), route and fuel optimisation, and automated brokerage that prices and books freight without a phone call. Each of these targets the same issues: empty miles and brokers' spreads.",
-      "Autonomous trucks are a longer-term story and are not yet a material part of the economics. The nearer-term win for most fleets is data: knowing their true cost per mile by lane and by customer."
-     ]
-    },
-    {
-     "h": "Who wins and why",
-     "paras": [
-      "Winners are carriers with dense, repeat freight and low empty miles, those with strong contracts instead of spot exposure, and brokers with better pricing data. Losers are small fleets that cannot absorb a record insurance and maintenance bill.",
-      "Industry voices quoted by trade press describe 2026 as a turning point for freight rates, but also say costs are rising fast enough that fleets must keep cutting costs. For consultants, trucking is a clean example of a fragmented industry in which operational detail, not strategy slides, decides who survives."
-     ]
-    }
-   ],
-   "caseAnswer": "Start from the profit equation: margin equals revenue per mile minus cost per mile, divided by revenue per mile, so doubling a 2% margin to 4% needs roughly a 2% improvement in net revenue per mile. Levers, grouped MECE: (1) Revenue: shift mix from spot to contract, reprice the worst 10% of lanes, add accessorial charges (detention, layover), and raise rates on customers where the carrier's service is hard to replace. (2) Utilisation: cut empty miles by lining up backhauls and adding repeat lanes; each point of empty miles is worth about the same as a point of revenue. (3) Cost: fuel efficiency (idle time, speed, tyres), maintenance planning, insurance renegotiation and safety scoring, and driver retention to reduce turnover cost. (4) Overheads and capital: right-size the trailer-to-truck ratio and delay replacing old equipment. Prioritise by size and speed: empty miles and lane repricing first, because they need no capital and show results within a quarter. Validate with a cost-per-loaded-mile model by lane before acting.",
-   "cheat": [
-    "2025 average cost: $2.336 per mile, a record; $1.854 excluding fuel (ATRI)",
-    "Driver pay about 82¢ + 21¢ benefits per mile; fuel about 48¢; insurance 10.6¢",
-    "Empty miles: 16.7% in ATRI's 2024 data, so cost per loaded mile is higher than cost per mile",
-    "Contract cushion over non-fuel cost: $1.01 per loaded mile in 2022, $0.26 in 2025",
-    "Spot rates were below non-fuel cost every year 2023–2025 (FreightWaves)",
-    "Operating margins in the 2024 data fell below 2%",
-    "Dry van contract rate $2.69/mile in Q3 2026, below Q4 2021, while costs are about 30% higher",
-    "Levers: backhauls, contract mix, insurance and maintenance, driver retention"
-   ],
-   "sources": [
-    {
-     "stype": "Research",
-     "src": "ATRI: 2026 Analysis of the Operational Costs of Trucking (PDF)",
-     "url": "https://truckingresearch.org/wp-content/uploads/2026/07/ATRI-Operational-Costs-of-Trucking-07-2026.pdf"
+     "src": "Q3 2026 earnings call transcript (Benzinga via Webull)",
+     "url": "https://www.webull.com/news/15828035901588480"
     },
     {
      "stype": "Trade press",
-     "src": "Trucking Info: record operating costs in 2025",
-     "url": "https://truckinginfo.com/news/trucking-fleets-faced-record-operating-costs-during-third-year-of-freight-recession"
-    },
-    {
-     "stype": "Trade press",
-     "src": "FreightWaves: why rates are rising without more freight",
-     "url": "https://freightwaves.com/news/why-trucking-rates-are-rising-without-more-freight"
-    },
-    {
-     "stype": "Trade press",
-     "src": "FreightWaves: ATRI report on rising costs (2025 edition)",
-     "url": "https://www.freightwaves.com/news/atri-report-rising-costs-continue-to-squeeze-trucking-industry"
-    },
-    {
-     "stype": "Trade press",
-     "src": "The Trucker: why trucking is getting more expensive",
-     "url": "https://www.thetrucker.com/trucking-news/trucking-industry/trucking-is-getting-more-expensive-atri-report-explains-why"
+     "src": "Restaurant Dive: Cava and Chipotle invest in Hyphen",
+     "url": "https://www.restaurantdive.com/news/cava-chipotle-invest-hyphen-automated-makeline/757450/"
     }
    ]
   }
  ],
  "archive": [],
- "corrections": []
+ "corrections": [],
+ "policy": [
+  {
+   "id": "pol-eu-ai-act-delay",
+   "kicker": "Regulation",
+   "firm": "Industry",
+   "desk": "Public sector",
+   "juris": "EU",
+   "date": "Aug 4",
+   "year": "2026",
+   "confidence": "Reported",
+   "readTime": "3 min read",
+   "title": "EU pushes its toughest AI Act rules back to December 2027",
+   "summary": "Lawmakers agreed to delay the AI Act's high-risk obligations by about 16 months. The delay changes when companies must spend on compliance, not whether they must comply.",
+   "cs": "Banks, insurers, HR-tech and health clients get more time, but still need AI inventories, risk classification and governance programmes. Expect work to be re-phased, not cancelled.",
+   "dates": [
+    {
+     "iso": "2027-12-02",
+     "label": "EU AI Act: high-risk obligations for stand-alone AI systems apply"
+    },
+    {
+     "iso": "2028-08-02",
+     "label": "EU AI Act: high-risk obligations for AI embedded in regulated products apply"
+    }
+   ],
+   "paras": [
+    "The European Union has agreed to postpone the most demanding parts of its AI Act. Under the Digital Omnibus on AI, obligations for high-risk systems that stand alone now apply from 2 December 2027 instead of 2 August 2026. Rules for high-risk AI built into regulated products, such as machinery, move to 2 August 2028, according to law-firm summaries of the agreement.",
+    "High-risk systems are the ones used in areas such as hiring, education, credit and insurance, law enforcement, biometrics and critical infrastructure. The delay was justified by missing technical standards and guidance: companies argued they could not comply with rules that did not yet have a rulebook behind them. The European Commission first proposed the change in November 2025, and Parliament and the Council reached a deal in 2026.",
+    "The deal is narrower than the headline suggests. Practitioner analysis notes that the bans on certain AI practices (in force since February 2025) and the rules for general-purpose models (since August 2025) were not touched, and that transparency duties in Article 50 still apply from August 2026. The Omnibus mostly streamlines and clarifies the existing text rather than rewriting its risk-based structure.",
+    "For clients, the practical point is timing. Teams that use the extra months to build inventories of their AI systems, classify them by risk and set up governance will be ahead of the queue for conformity assessments in 2027. Those that treat the delay as a cancellation will face a compressed deadline later."
+   ],
+   "unknowns": [
+    "Whether every detail of the agreed text has completed formal adoption.",
+    "How quickly the harmonised technical standards will actually be published."
+   ],
+   "sources": [
+    {
+     "stype": "Research",
+     "src": "Winston Taylor: AI Digital Omnibus agreed",
+     "url": "https://www.winstontaylor.com/insights/ai-act-rules-on-high-risk-ai-delayed-as-ai-digital-omnibus-agreed"
+    },
+    {
+     "stype": "Research",
+     "src": "HLC: EU legislators agree delay for high-risk AI rules",
+     "url": "https://www.hlc.com/en/publications/eu-legislators-agree-to-delay-for-highrisk-ai-rules"
+    },
+    {
+     "stype": "Research",
+     "src": "DLA Piper: Digital AI Omnibus (June 2026 update)",
+     "url": "https://knowledge.dlapiper.com/dlapiperknowledge/globalemploymentlatestdevelopments/2026/The-Digital-AI-Omnibus-Proposed-deferral-of-high-risk-AI-obligations-under-the-AI-Act"
+    },
+    {
+     "stype": "Research",
+     "src": "Cooley: Digital AI Omnibus delays key deadlines",
+     "url": "https://cdp.cooley.com/digital-ai-omnibus-delays-key-deadlines-introduces-new-rules/"
+    },
+    {
+     "stype": "Newsletter",
+     "src": "The Science Talk: Omnibus delay, relief or trap",
+     "url": "https://pranoti.thesciencetalk.com/perspectives/eu-ai-act-omnibus-delay-relief-or-trap/"
+    }
+   ]
+  },
+  {
+   "id": "pol-canada-ai-for-all",
+   "kicker": "Regulation",
+   "firm": "Industry",
+   "desk": "Public sector",
+   "juris": "Canada",
+   "date": "Jun 4",
+   "year": "2026",
+   "confidence": "Reported",
+   "readTime": "3 min read",
+   "title": "Canada's AI plan: big spending, no AI law, new privacy and online-safety bills",
+   "summary": "Ottawa's AI for All strategy leans on privacy reform and online-safety legislation instead of a dedicated AI act, and adds a trusted-AI certification scheme and sovereign data-centre plans.",
+   "cs": "Canadian clients face privacy and data-governance obligations first, not an AI-specific regime. Demand: privacy programmes, AI governance and assurance, and sovereign-compute strategy.",
+   "dates": [],
+   "paras": [
+    "Prime Minister Mark Carney and AI Minister Evan Solomon launched Canada's national AI strategy, AI for All, on 4 June 2026. It proposes large-scale data centres, a sovereign AI foundation and measures to attract foreign investment into Canadian AI, and a Canada Trusted AI Certification programme to identify trustworthy products in the market.",
+    "The notable choice is what it leaves out. Law-firm and commentary analysis agrees that the government does not plan AI-specific regulation. Instead it relies on updating privacy law and bringing back online-safety legislation, a different path from the EU's dedicated AI Act. An earlier federal bill with AI rules, the Artificial Intelligence and Data Act, died with the previous Parliament, and commentators note the government does not appear to intend to reintroduce AI-specific legislation.",
+    "Parliament now has a set of related bills. Solomon tabled a long-awaited private-sector privacy bill with stiff fines in June, and the government has also tabled the Safe Social Media Act, which would create a Digital Safety Act. Solomon has said he is confident the bills together will protect children, personal information and privacy.",
+    "Critics, including law professor Michael Geist, have called the strategy big on spending but short on the specifics that matter, such as transparency requirements. For Canadian companies the message is to prepare for stronger privacy duties, and to expect certification and procurement rules to shape which AI products public bodies buy."
+   ],
+   "unknowns": [
+    "When the privacy and online-safety bills will pass, and in what form.",
+    "How the Trusted AI Certification will work and who will be required to hold it."
+   ],
+   "sources": [
+    {
+     "stype": "Research",
+     "src": "Gowling WLG: Canada launches AI for All",
+     "url": "https://gowlingwlg.com/en/insights-resources/articles/2026/canada-launches-ai-for-all-national-artificial-intelligence-strategy"
+    },
+    {
+     "stype": "Press",
+     "src": "Global News: Canada's AI strategy release",
+     "url": "https://globalnews.ca/news/11889388/canada-ai-strategy-release/"
+    },
+    {
+     "stype": "Press",
+     "src": "The Logic: Solomon says new laws will address AI trust deficit",
+     "url": "https://thelogic.co/news/evan-solomon-privacy-laws-address-ai-trust/"
+    },
+    {
+     "stype": "Research",
+     "src": "McCarthy Tétrault: what the national AI strategy means for business",
+     "url": "https://www.mccarthy.ca/en/insights/blogs/techlex/canada-s-national-ai-strategy-what-it-means-for-businesses"
+    },
+    {
+     "stype": "Research",
+     "src": "Michael Geist: AI for All, details to follow",
+     "url": "https://www.michaelgeist.ca/2026/06/ai-for-all-details-to-follow-government-releases-a-big-spending-ai-strategy-that-is-still-short-on-the-specifics-that-matter/"
+    }
+   ]
+  },
+  {
+   "id": "pol-us-state-ai-preemption",
+   "kicker": "Regulation",
+   "firm": "Industry",
+   "desk": "Public sector",
+   "juris": "US",
+   "date": "Dec 11",
+   "year": "2025",
+   "confidence": "Reported",
+   "readTime": "3 min read",
+   "title": "Washington's push to override state AI laws: what the order does and doesn't do",
+   "summary": "A December 2025 executive order set up a Justice Department task force to challenge state AI laws. The order alone doesn't cancel them, so companies still have to comply with state rules.",
+   "cs": "Multi-state clients need a compliance plan that works under both outcomes: state rules stay, or a federal standard replaces them. Scenario planning and regulatory monitoring are the work.",
+   "dates": [],
+   "paras": [
+    "On 11 December 2025 President Trump signed an executive order titled Ensuring a National Policy Framework for Artificial Intelligence. It directs the Attorney General to create an AI Litigation Task Force whose job is to challenge state AI laws, on grounds such as interference with interstate commerce or conflict with federal law. The Commerce Department was told to review state AI laws and refer potentially unlawful provisions to the task force, with a list due in March 2026.",
+    "The order also asks White House advisers to draft a legislative proposal for a single federal framework that would override conflicting state laws, while carving out areas such as child safety, data-centre infrastructure and state government use of AI. It singled out Colorado's algorithmic-discrimination law as an early target.",
+    "Legal analysts stress the limits. An executive order is not a statute, so on its own it does not displace state law. Until courts invalidate a state rule, companies must keep complying with it. A February 2026 analysis notes that Colorado's AI Act (effective 30 June 2026) and California's frontier-AI transparency law (effective 1 January 2026) were unlikely to be affected in the short term.",
+    "The order has drawn criticism from labour groups and from politicians in both parties, and support from some policy analysts who want a single national standard. For clients that operate across states, the practical task is to build compliance that survives either result."
+   ],
+   "unknowns": [
+    "How the courts will rule on any federal challenge to a state AI law.",
+    "Whether Congress passes a federal framework, and what it would preempt.",
+    "The current status of Colorado's start date: we have not re-checked it since the February 2026 analysis cited here."
+   ],
+   "sources": [
+    {
+     "stype": "Research",
+     "src": "Jenner & Block: executive order to preempt state AI laws",
+     "url": "https://www.jenner.com/en/news-insights/publications/client-alert-trump-administration-issues-executive-order-in-attempt-to-preempt-state-ai-laws"
+    },
+    {
+     "stype": "Research",
+     "src": "Ropes & Gray: landscape and limits of the federal push",
+     "url": "https://www.ropesgray.com/en/insights/alerts/2026/03/examining-the-landscape-and-limitations-of-the-federal-push-to-override-state-ai-regulation"
+    },
+    {
+     "stype": "Research",
+     "src": "Regulatory Review: President Trump targets state AI regulations",
+     "url": "https://www.theregreview.org/2026/02/26/champagne-president-trump-targets-state-based-ai-regulations/"
+    },
+    {
+     "stype": "Press",
+     "src": "Decrypt: the order sets up a federal fight with states",
+     "url": "https://decrypt.co/352093/trumps-new-ai-order-sets-up-federal-fight-states-over-regulations"
+    }
+   ]
+  }
+ ]
 }

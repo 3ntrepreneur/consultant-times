@@ -39,7 +39,14 @@ for j in (d.get("vancouver") or {}).get("jobs") or []:
     need(https(j.get("url")), f"job url bad: {j.get('role')}")
     if j.get("closes"): need(j["closes"] >= today, f"job expired: {j.get('role')}")
 need(len(d.get("howItWorks") or []) == 3, "howItWorks must contain exactly 3 deep dives")
-allitems = [("bigMove", m) for m in d.get("bigMoves") or []] + [("radar", r) for r in d.get("radar") or []] + [("vancouver", v) for v in (d.get("vancouver") or {}).get("stories") or []] + [("wire", w) for w in d.get("wire") or []] + [("howItWorks", h) for h in d.get("howItWorks") or []]
+need(sorted(h.get("type") for h in d.get("howItWorks") or []) == ["Business", "Industry", "Strategy"], "howItWorks must be exactly one Industry, one Business and one Strategy deep dive (field `type`)")
+for p_ in d.get("policy") or []:
+    need(bool(re.fullmatch(r"[a-z0-9-]{3,80}", str(p_.get("id", "")))), "policy item bad id")
+    need(p_.get("juris") in ("Canada", "B.C.", "US", "EU", "UK", "Global", "Rest of world", "Other"), f"policy {p_.get('id')} needs a valid juris")
+    need(len(p_.get("paras") or []) >= 2 and p_.get("summary") and p_.get("cs"), f"policy {p_.get('id')} needs paras, summary and cs")
+    need(len(p_.get("sources") or []) >= 2 and all(str(s_.get("url", "")).startswith("https://") for s_ in p_.get("sources") or []), f"policy {p_.get('id')} needs 2+ https sources")
+    for e_ in p_.get("dates") or []: need(bool(re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(e_.get("iso", "")))), f"policy {p_.get('id')} bad date iso")
+allitems = [("policy", q) for q in d.get("policy") or []] + [("bigMove", m) for m in d.get("bigMoves") or []] + [("radar", r) for r in d.get("radar") or []] + [("vancouver", v) for v in (d.get("vancouver") or {}).get("stories") or []] + [("wire", w) for w in d.get("wire") or []] + [("howItWorks", h) for h in d.get("howItWorks") or []]
 allids = ids + [x.get("id") for _, x in allitems]
 for kind, x in allitems: need(bool(re.fullmatch(r"[a-z0-9-]{3,80}", str(x.get("id", "")))), f"{kind} item missing/bad id: {str(x.get('title') or x.get('text'))[:50]}")
 need(len(allids) == len(set(allids)), "duplicate ids across sections")
