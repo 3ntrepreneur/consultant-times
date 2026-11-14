@@ -4337,6 +4337,551 @@
       "kicker": "Industry desk",
       "year": "2026",
       "firm": "Industry"
+    },
+    {
+      "id": "cr-retail-sales-aug-sep",
+      "desk": "Consumer & retail",
+      "date": "Oct 23",
+      "lens": "Demand & customers",
+      "confidence": "Reported",
+      "readTime": "3 min read",
+      "title": "Canadian retail sales rebound in August and an early estimate points to another gain in September",
+      "summary": "Sales rose 1.2% to $74.6 billion in August after a 0.7% drop in July. Statistics Canada's advance estimate shows a further 0.7% rise for September.",
+      "cs": "Retailers and brands are seeing a choppy but growing consumer. Volatility month to month makes inventory and promotion planning harder.",
+      "paras": [
+        "Statistics Canada reported that retail sales rose 1.2% to $74.6 billion in August, with gains in all nine subsectors, and volumes also up 1.2% (Retail Insight Network). The gain followed a 0.7% fall in July to $73.7 billion, the first drop since December 2025, according to the Canadian Press.",
+        "Trading Economics, summarizing the agency's advance estimate, says September sales likely rose 0.7%, with gains at food and beverage, general merchandise and health and personal care stores. The full September figure is due on 20 November, and the advance number is usually revised."
+      ],
+      "facts": [
+        {
+          "k": "August retail sales",
+          "v": "$74.6 billion (+1.2%)"
+        },
+        {
+          "k": "July retail sales",
+          "v": "$73.7 billion (-0.7%)"
+        },
+        {
+          "k": "September advance estimate",
+          "v": "+0.7%"
+        },
+        {
+          "k": "Full September release",
+          "v": "20 Nov 2026"
+        }
+      ],
+      "questions": [
+        "Is the August bounce a one-off after a weak July?",
+        "Which categories are carrying the growth?"
+      ],
+      "unknowns": [
+        "The September number is an advance estimate and will be revised."
+      ],
+      "sources": [
+        {
+          "stype": "Press",
+          "src": "Retail Insight Network: Canadian retail trade grows 1.2% in August",
+          "url": "https://www.retail-insight-network.com/newsletters/canadian-retail-trade-rises-1-2-august"
+        },
+        {
+          "stype": "Press",
+          "src": "Advisor.ca (Canadian Press): Retail sales down 0.7% in July",
+          "url": "https://www.advisor.ca/economy/economic-indicators/retail-sales-down-0-7-in-july-at-73-7b-statistics-canada/"
+        },
+        {
+          "stype": "Aggregator",
+          "src": "Trading Economics: Canada retail sales rise for 2nd month",
+          "url": "https://tradingeconomics.com/canada/retail-sales/news/594663"
+        }
+      ],
+      "kicker": "Industry desk",
+      "year": "2026",
+      "firm": "Industry",
+      "dates": [
+        {
+          "iso": "2026-11-20",
+          "label": "Statistics Canada releases September retail sales"
+        }
+      ]
+    },
+    {
+      "id": "cr-holiday-2026-canada",
+      "desk": "Consumer & retail",
+      "date": "Oct 14",
+      "lens": "Demand & customers",
+      "confidence": "Reported",
+      "readTime": "3 min read",
+      "title": "Canadian holiday forecasts split: Deloitte sees gift spending down 5%, Mastercard sees sales up 3.5%",
+      "summary": "Surveys point to more selective shoppers. The two forecasts measure different things, but both say Black Friday matters more than ever.",
+      "cs": "Retailers must plan promotions, inventory and pricing around a cautious shopper. A wrong forecast means either empty shelves or excess stock.",
+      "paras": [
+        "Deloitte Canada's 2026 Holiday Retail Outlook, released 14 October, projects spending on gifts and gift cards to fall 5% and says Canadians are becoming 'far more discerning'. One in three (34%) say their household finances are worse than a year ago. It calls Black Friday the defining conversion moment of the season.",
+        "Mastercard's Economics Institute expects Canadian holiday retail sales, excluding gas and autos, to rise 3.5% year over year between 1 November and Boxing Day. The measures differ: Deloitte tracks planned gift spending from a survey, while Mastercard tracks sales activity.",
+        "Retail Insider quotes an industry executive saying Black Friday has become a shopping season rather than a single day, with some categories starting promotions in early November. Black Friday falls on 27 November."
+      ],
+      "facts": [
+        {
+          "k": "Deloitte gift spending",
+          "v": "Down 5% (survey, 28 Aug to 4 Sep)"
+        },
+        {
+          "k": "Mastercard holiday sales",
+          "v": "+3.5%, 1 Nov to 26 Dec, ex gas and autos"
+        },
+        {
+          "k": "Black Friday",
+          "v": "27 Nov 2026"
+        },
+        {
+          "k": "Households worse off",
+          "v": "34% (Deloitte)"
+        }
+      ],
+      "questions": [
+        "Do retailers discount earlier and erode margin?",
+        "Which categories hold up if gift budgets shrink?"
+      ],
+      "unknowns": [
+        "Forecasts differ in method and may not reconcile."
+      ],
+      "sources": [
+        {
+          "stype": "Research",
+          "src": "Deloitte Canada: 2026 Holiday Retail Outlook",
+          "url": "https://www.deloitte.com/ca/en/about/press-room/holiday-retail-outlook-reveals-spending-on-gifts-is-expected-to-drop-5-percent.html"
+        },
+        {
+          "stype": "Research",
+          "src": "Mastercard: Canadian holiday outlook",
+          "url": "https://www.mastercard.com/ca/en/news-and-trends/press/2026/november/from-early-lists-to-last-minute-gifts.html"
+        },
+        {
+          "stype": "Press",
+          "src": "Retail Insider: Canadian retailers face cautious holiday shoppers",
+          "url": "https://retail-insider.com/?p=211494"
+        }
+      ],
+      "kicker": "Industry desk",
+      "year": "2026",
+      "firm": "Industry",
+      "dates": [
+        {
+          "iso": "2026-11-27",
+          "label": "Black Friday"
+        }
+      ]
+    },
+    {
+      "id": "cr-bain-black-friday-us",
+      "desk": "Consumer & retail",
+      "date": "Oct 12",
+      "lens": "Market size & growth",
+      "confidence": "Reported",
+      "readTime": "3 min read",
+      "title": "Bain expects US Black Friday-to-Cyber Monday sales above $85 billion",
+      "summary": "The five-day window is forecast to grow 8.75%, roughly double the 4.5% rate for the whole holiday season.",
+      "cs": "Retail share of year is moving into fewer, bigger days. It affects staffing, fulfilment and media-spend planning for clients with US exposure.",
+      "paras": [
+        "Bain & Company's forecast says US retail sales from Black Friday through Cyber Monday should top $85 billion this year, about 8.5% of total holiday spending. It expects growth of 8.75% over 2025 in the window, against 4.5% for the full holiday season.",
+        "A separate eMarketer forecast, reported by Talk Business, predicts US holiday retail sales growth of 4.1%, with Black Friday e-commerce at $13.4 billion, up 7.7%. The forecasts rest on assumptions about gas prices, inflation and tariffs."
+      ],
+      "facts": [
+        {
+          "k": "Window sales (US)",
+          "v": "Above $85 billion"
+        },
+        {
+          "k": "Growth of window",
+          "v": "+8.75%"
+        },
+        {
+          "k": "Whole season growth",
+          "v": "+4.5%"
+        },
+        {
+          "k": "Share of holiday spending",
+          "v": "8.5%"
+        }
+      ],
+      "questions": [
+        "Does concentration into big days raise returns or discounting?",
+        "How much of the window growth is pulled forward from December?"
+      ],
+      "unknowns": [
+        "US data. Canadian sales behave differently."
+      ],
+      "sources": [
+        {
+          "stype": "Research",
+          "src": "Bain: Black Friday 2026 sales forecast",
+          "url": "https://www.bain.com/tr/insights/black-friday-2026-sales-forecast-infographic/"
+        },
+        {
+          "stype": "Press",
+          "src": "Talk Business: Early holiday predictions call for 4.1% rise",
+          "url": "https://talkbusiness.net/2026/09/the-supply-side-early-holiday-predictions-call-for-a-4-1-rise-in-retail-sales/"
+        }
+      ],
+      "kicker": "Industry desk",
+      "year": "2026",
+      "firm": "Industry"
+    },
+    {
+      "id": "cr-grocery-capacity-q3",
+      "desk": "Consumer & retail",
+      "date": "Oct 2026",
+      "lens": "Structure & competition",
+      "confidence": "Reported",
+      "readTime": "3 min read",
+      "title": "Canadian grocers keep adding stores and capital spending while real supermarket volumes stay soft",
+      "summary": "Loblaw alone plans $2.4 billion of 2026 spending, with discount formats and e-commerce taking the investment.",
+      "cs": "Overbuilding capacity into flat volume squeezes the weakest chains. Format, location and price-position decisions decide share.",
+      "paras": [
+        "Retail Insider's Q3 grocery report says Canada's largest grocers kept adding and repositioning capacity even as supermarket data showed limited volume growth. Loblaw announced $2.4 billion of planned Canadian capital spending for 2026 and said in September that about $1.2 billion remained to be deployed. Discount expansion is being adapted to local markets.",
+        "Loblaw also completed the sale of PC Financial on 1 July for total consideration of $1,234 million, including 7.2 million EQB shares valued at $963 million, leaving it with about 19.9% of EQB. Loblaw's third-quarter results are due on 19 November."
+      ],
+      "facts": [
+        {
+          "k": "Loblaw 2026 capex plan",
+          "v": "$2.4 billion, about $1.2bn left as of Sept"
+        },
+        {
+          "k": "PC Financial sale",
+          "v": "$1,234 million, closed 1 Jul 2026"
+        },
+        {
+          "k": "Stake in EQB",
+          "v": "About 19.9%"
+        },
+        {
+          "k": "Loblaw Q3 results",
+          "v": "19 Nov 2026"
+        }
+      ],
+      "questions": [
+        "Which regions are overserved by new grocery space?",
+        "Does discount expansion cannibalize Loblaw's own stores?"
+      ],
+      "unknowns": [
+        "Loblaw's Q3 figures were not out at the time of writing."
+      ],
+      "sources": [
+        {
+          "stype": "Research",
+          "src": "Retail Insider: Q3 2026 grocery report",
+          "url": "https://retail-insider.com/reports/2026/10/q3-2026-grocery-capacity-expands-as-competition-for-the-basket-intensifies/"
+        },
+        {
+          "stype": "Primary",
+          "src": "Loblaw: Q2 2026 report to shareholders (PDF)",
+          "url": "https://dis-prod.assetful.loblaw.ca/content/dam/loblaw-companies-limited/creative-assets/loblaw-ca/investor-relations-reports/annual/2026/LCL_Q2%202026_RTS.pdf"
+        },
+        {
+          "stype": "Primary",
+          "src": "Loblaw: Q3 earnings release timing (GlobeNewswire)",
+          "url": "https://www.globenewswire.com/news-release/2026/10/22/3386201/0/en/index.html"
+        }
+      ],
+      "kicker": "Industry desk",
+      "year": "2026",
+      "firm": "Loblaw",
+      "dates": [
+        {
+          "iso": "2026-11-19",
+          "label": "Loblaw releases Q3 2026 results"
+        }
+      ]
+    },
+    {
+      "id": "cr-health-beauty-growth",
+      "desk": "Consumer & retail",
+      "date": "Sep 24",
+      "lens": "Market size & growth",
+      "confidence": "Reported",
+      "readTime": "3 min read",
+      "title": "Health and personal care is the fastest-growing retail category in Canada this year",
+      "summary": "Sales at health and personal care stores were up 12.2% year over year in July, with volumes up 10.7%.",
+      "cs": "Pharmacy, beauty and wellness retail is outgrowing the rest of the market, which favours chains with pharmacy and loyalty assets.",
+      "paras": [
+        "Retail Insider's September monitor, built on Statistics Canada data, says health and personal care retailers saw sales rise 12.2% year over year in July and volumes rise 10.7%. Its June commodity data show home health products up 15.9% and infant care, personal and beauty products up 9.1%. The publication says the pattern has held through 2026.",
+        "Trading Economics' summary of the advance September estimate also lists health and personal care retailers among the gainers, up 1.6% on the month."
+      ],
+      "facts": [
+        {
+          "k": "July sales growth, health and personal care",
+          "v": "+12.2% y/y"
+        },
+        {
+          "k": "Volume growth",
+          "v": "+10.7%"
+        },
+        {
+          "k": "Home health products (June)",
+          "v": "+15.9% y/y"
+        },
+        {
+          "k": "September advance",
+          "v": "+1.6% m/m"
+        }
+      ],
+      "questions": [
+        "Is growth driven by prices, ageing demand or channel shift from grocery?",
+        "Which retailers have the pharmacy and beauty mix to capture it?"
+      ],
+      "unknowns": [
+        "Categories are Retail Insider's own groupings mapped from Statistics Canada data."
+      ],
+      "sources": [
+        {
+          "stype": "Research",
+          "src": "Retail Insider: Canadian Retail Monitor, September 2026",
+          "url": "https://retail-insider.com/retail-insider/2026/10/retail-insiders-canadian-retail-monitor-september-2026-consumer-spending-becomes-selective/"
+        },
+        {
+          "stype": "Aggregator",
+          "src": "Trading Economics: Canada retail sales",
+          "url": "https://tradingeconomics.com/canada/retail-sales/news/594663"
+        }
+      ],
+      "kicker": "Industry desk",
+      "year": "2026",
+      "firm": "Industry"
+    },
+    {
+      "id": "he-lilly-q3-2026",
+      "desk": "Health",
+      "date": "Oct 30",
+      "lens": "Profit pools & margins",
+      "confidence": "Reported",
+      "readTime": "3 min read",
+      "title": "Lilly's sales jump 39% on obesity drugs as prices fall 15%",
+      "summary": "Revenue reached $24.4 billion. Volume grew 53% while realized prices fell 15%, and full-year guidance rose to $91 billion to $92 billion.",
+      "cs": "Volume is outrunning price in obesity care. Payers, pharmacies and rivals need models for a lower-price, higher-volume market.",
+      "paras": [
+        "Eli Lilly reported third-quarter 2026 revenue of $24.4 billion, up 39%, driven by a 53% increase in volume partly offset by a 15% decline in realized prices. Mounjaro and Zepbound together brought in more than $16 billion. Non-GAAP earnings per share were $7.48, including $4.57 of acquired research charges tied to deals such as AtaiBeckley and Curevo.",
+        "Lilly raised 2026 revenue guidance to $91 billion to $92 billion and cut non-GAAP EPS guidance slightly to $35 to $36 because of those charges. The call also flagged about $900 million of one-time revenue items, including milestones and rebate estimate changes. Formal 2027 guidance is due in January."
+      ],
+      "facts": [
+        {
+          "k": "Q3 revenue",
+          "v": "$24.4 billion (+39%)"
+        },
+        {
+          "k": "Volume / price",
+          "v": "+53% / -15%"
+        },
+        {
+          "k": "Mounjaro + Zepbound",
+          "v": "More than $16 billion"
+        },
+        {
+          "k": "2026 revenue guidance",
+          "v": "$91-92 billion"
+        },
+        {
+          "k": "One-time items in Q3",
+          "v": "About $900 million"
+        }
+      ],
+      "questions": [
+        "How far can price fall before volume growth stops compensating?",
+        "Does Medicare coverage change who pays?"
+      ],
+      "unknowns": [
+        "2027 guidance is not out until January.",
+        "Zacks' reading of the guidance revision is secondary."
+      ],
+      "sources": [
+        {
+          "stype": "Primary",
+          "src": "Eli Lilly: Q3 2026 results",
+          "url": "https://investor.lilly.com/node/55191"
+        },
+        {
+          "stype": "Aggregator",
+          "src": "Zacks: LLY Q3 beat, 2026 view raised",
+          "url": "https://www.zacks.com/stock/news/3018734/lly-stock-jumps-as-q3-earnings-beat-estimates-2026-sales-view-raised"
+        },
+        {
+          "stype": "Press",
+          "src": "Singju Post: Lilly Q3 2026 call transcript",
+          "url": "https://singjupost.com/eli-lilly-lly-q3-2026-earnings-call-transcript/"
+        }
+      ],
+      "kicker": "Industry desk",
+      "year": "2026",
+      "firm": "Eli Lilly"
+    },
+    {
+      "id": "he-cihi-er-waits",
+      "desk": "Health",
+      "date": "Jun 25",
+      "lens": "Risks & unknowns",
+      "confidence": "Reported",
+      "readTime": "3 min read",
+      "title": "CIHI says emergency waits are driven by long-term care and home-care backlogs, not the ER itself",
+      "summary": "The report points to a lack of beds and community care spots that leave admitted patients stuck in emergency departments.",
+      "cs": "Capacity planning, patient-flow and long-term-care investment are the levers. Hospital and provincial clients need whole-system, not ER-only, fixes.",
+      "paras": [
+        "The Canadian Institute for Health Information said on 24 June that long emergency department waits are made worse by a lack of available spots in long-term care and home care, creating a bottleneck for hospital beds. The institute's director of health system analytics said improving ER waits will take solutions that look at the entire health-care system.",
+        "A commentary in Canadian Healthcare Technology agrees ED crowding is a system issue but argues the report focuses only on throughput, a process measure that does not explain why the system is failing or whether patient outcomes are improving."
+      ],
+      "facts": [
+        {
+          "k": "Report",
+          "v": "CIHI, released 24 Jun 2026"
+        },
+        {
+          "k": "Main driver",
+          "v": "Long-term and home-care capacity gaps"
+        },
+        {
+          "k": "Critique",
+          "v": "Throughput measures do not show outcomes"
+        }
+      ],
+      "questions": [
+        "Where is the bed-capacity gap largest?",
+        "What would a shift of funding to home care cost?"
+      ],
+      "unknowns": [
+        "The sources do not give the national wait-time figures."
+      ],
+      "sources": [
+        {
+          "stype": "Press",
+          "src": "CP24: What a new report reveals about the cause of ER waits",
+          "url": "https://www.cp24.com/news/canada/2026/06/25/what-a-new-report-reveals-about-the-true-cause-of-canadas-massive-emergency-wait-times/"
+        },
+        {
+          "stype": "Press",
+          "src": "CFJC Today (Canadian Press): Backlogs driving ER wait times up",
+          "url": "https://cfjctoday.com/?p=1101116"
+        },
+        {
+          "stype": "Research",
+          "src": "Canadian Healthcare Technology: ED wait times on the rise",
+          "url": "https://www.canhealth.com/2026/07/08/ed-wait-times-on-the-rise-across-canada/"
+        }
+      ],
+      "kicker": "Industry desk",
+      "year": "2026",
+      "firm": "Industry"
+    },
+    {
+      "id": "he-generics-pricing-pact",
+      "desk": "Health",
+      "date": "Jun 11",
+      "lens": "Profit pools & margins",
+      "confidence": "Reported",
+      "readTime": "3 min read",
+      "title": "Provinces and generic makers extend their pricing agreement to 2028",
+      "summary": "The pCPA and the Canadian Generic Pharmaceutical Association renewed their pricing deal for two years from 1 October 2026.",
+      "cs": "Generic makers and pharmacies get pricing stability. Brand makers and consultants should model tiered-price erosion on new generics.",
+      "paras": [
+        "The pan-Canadian Pharmaceutical Alliance, which negotiates for public drug plans, and the Canadian Generic Pharmaceutical Association extended their generic-drug pricing agreement for two years from 1 October 2026. It keeps the pan-Canadian tiered pricing framework and select-molecule pricing.",
+        "The generics association says generic makers supplied about 80% of prescriptions dispensed in Canada in 2025. Benefits and Pensions Monitor reports the 2023 renewal set new single-source generics at 75% of the brand reference price, with automatic drops after that."
+      ],
+      "facts": [
+        {
+          "k": "Effective",
+          "v": "1 Oct 2026, two years"
+        },
+        {
+          "k": "Mechanisms",
+          "v": "Tiered pricing and select-molecule pricing"
+        },
+        {
+          "k": "Generic share of prescriptions",
+          "v": "About 80% (2025)"
+        },
+        {
+          "k": "New single-source generics",
+          "v": "Listed at 75% of brand price (2023 terms)"
+        }
+      ],
+      "questions": [
+        "Will price stability keep generic makers supplying thin-margin drugs?",
+        "What happens to supply if generic margins stay thin?"
+      ],
+      "unknowns": [
+        "Savings figures are from the industry association."
+      ],
+      "sources": [
+        {
+          "stype": "Primary",
+          "src": "CGPA: pCPA and CGPA extend pricing agreement",
+          "url": "https://canadiangenerics.ca/?p=11428"
+        },
+        {
+          "stype": "Primary",
+          "src": "Newswire: pCPA and CGPA extend agreement",
+          "url": "https://www.newswire.ca/news-releases/the-pan-canadian-pharmaceutical-alliance-and-the-canadian-generic-pharmaceutical-association-extend-agreement-on-pricing-initiative-for-generic-drugs-899641520.html"
+        },
+        {
+          "stype": "Press",
+          "src": "Benefits and Pensions Monitor: generic pricing agreement to 2028",
+          "url": "https://www.benefitsandpensionsmonitor.com/benefits/pharma/canadian-pharma-companies-extend-generic-drug-pricing-agreement-to-2028/393726"
+        }
+      ],
+      "kicker": "Industry desk",
+      "year": "2026",
+      "firm": "Industry"
+    },
+    {
+      "id": "he-bc-pharmacare-launch",
+      "desk": "Health",
+      "date": "Mar 1",
+      "lens": "Demand & customers",
+      "confidence": "Reported",
+      "readTime": "3 min read",
+      "title": "B.C. launches national pharmacare coverage for diabetes drugs and menopause therapy",
+      "summary": "The B.C. plan took effect 1 March 2026. Manitoba, P.E.I. and Yukon have signed their own agreements.",
+      "cs": "Pharmacies, insurers and drug makers face a larger public payer for chronic-disease drugs. Private plan design and pricing follow.",
+      "paras": [
+        "The B.C. government said its PharmaCare National Pharmacare Plan launched for residents on 1 March 2026 and covers the full cost of many diabetes medications and menopausal hormone therapy. Lifetimes Canada says Manitoba, P.E.I. and Yukon have also signed agreements and are phasing in their own timelines.",
+        "The same explainer notes new Patented Medicine Prices Review Board guidelines took effect on 1 January 2026 and that the CUSMA renegotiation could affect drug spending if intellectual-property protections for brands lengthen."
+      ],
+      "facts": [
+        {
+          "k": "B.C. launch",
+          "v": "1 Mar 2026"
+        },
+        {
+          "k": "Covered",
+          "v": "Many diabetes drugs, menopausal hormone therapy"
+        },
+        {
+          "k": "Other agreements",
+          "v": "Manitoba, P.E.I., Yukon"
+        },
+        {
+          "k": "PMPRB guidelines",
+          "v": "Effective 1 Jan 2026"
+        }
+      ],
+      "questions": [
+        "How much of existing private coverage does public pharmacare displace?",
+        "Will other provinces follow B.C.'s coverage list?"
+      ],
+      "unknowns": [
+        "Which other provinces will sign is not covered in the sources."
+      ],
+      "sources": [
+        {
+          "stype": "Primary",
+          "src": "B.C. Government: National Pharmacare Plan launches Mar 1",
+          "url": "https://news.gov.bc.ca/33403"
+        },
+        {
+          "stype": "Press",
+          "src": "Lifetimes Canada: Drug costs in Canada 2026",
+          "url": "https://lifetimescanada.com/blog/pharmacare/drug-costs-in-canada-2026-national-pharmacare-and-whats-still-covered"
+        }
+      ],
+      "kicker": "Industry desk",
+      "year": "2026",
+      "firm": "Industry"
     }
   ]
 }
