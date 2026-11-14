@@ -284,6 +284,38 @@
       "section": "AI & Tools",
       "desk": "Tech & AI",
       "confidence": "Reported"
+    },
+    {
+      "id": "claude-sheets-whiteboards",
+      "date": "Nov 10",
+      "title": "Anthropic launches Claude Sheets, Whiteboards and Meetings in beta",
+      "summary": "Sheets and Whiteboards are in beta for paid plans on web, desktop and mobile, and Claude Data is generally available. Meetings joins Google Meet calls for Team and Enterprise.",
+      "cs": "Consultants can build shared models, boards and meeting follow-ups in one tool, with Excel export. Expect clients to ask how this fits alongside Microsoft and Google suites.",
+      "heat": 4,
+      "rel": 4,
+      "kicker": "Office tools",
+      "sources": [
+        {
+          "stype": "Press",
+          "src": "TechCrunch: Claude Meetings",
+          "url": "https://techcrunch.com/?p=3186876"
+        },
+        {
+          "stype": "Press",
+          "src": "SD Times: Anthropic launches tools for team collaboration",
+          "url": "https://sdtimes.com/?p=61743"
+        },
+        {
+          "stype": "Aggregator",
+          "src": "AI Weekly: Claude Sheets, Meetings and Whiteboards",
+          "url": "https://aiweekly.co/alerts/anthropic-rolls-out-claude-sheets-meetings-and-whiteboards"
+        }
+      ],
+      "year": "2026",
+      "firm": "Industry",
+      "section": "AI & Tools",
+      "desk": "Tech & AI",
+      "confidence": "Reported"
     }
   ],
   "wire": [
@@ -448,6 +480,141 @@
       "stype": "Aggregator",
       "src": "FourWeekMBA",
       "url": "https://fourweekmba.com/ai-13-ai-deals-in-november-openai-and-meta-named-no-price/"
+    },
+    {
+      "id": "moneris-sale",
+      "type": "M&A",
+      "co": "Moneris",
+      "firm": "Industry",
+      "desk": "Financial services",
+      "date": "Aug 10",
+      "heat": 4,
+      "rel": 4,
+      "value": "C$2B",
+      "vlabel": "sale price (US$1.4B)",
+      "title": "BMO and RBC sell Moneris to Francisco Partners",
+      "body": "The two banks, which each held 50%, agreed to sell their payments processor in an all-cash deal. They keep exclusive customer-referral arrangements. RBC expects an after-tax gain of about C$475 million and BMO about C$600 million.",
+      "cs": "Banks are separating ownership of payment infrastructure from the distribution of it. Expect more carve-outs and referral-model deals.",
+      "take": "The banks keep the customer and hand off the capital-heavy part.",
+      "stype": "Press",
+      "src": "BNN Bloomberg (Reuters)",
+      "url": "https://www.bnnbloomberg.ca/business/company-news/2026/08/10/rbc-bmo-to-sell-moneris-to-francisco-partners-in-2-billion-deal",
+      "canada": true
+    },
+    {
+      "id": "revolut-115bn",
+      "type": "Funding",
+      "co": "Revolut",
+      "firm": "Industry",
+      "desk": "Financial services",
+      "date": "Nov 4",
+      "heat": 4,
+      "rel": 3,
+      "value": "$115B",
+      "vlabel": "valuation",
+      "title": "Revolut closes a secondary share sale at a $115 billion valuation",
+      "body": "The round values the UK neobank at $115 billion, up from $75 billion a year ago, making it Europe's most valuable private company. It reported pre-tax profit of £1.7 billion for 2025 on revenue of £4.5 billion.",
+      "cs": "Digital banks now trade as global platforms. Incumbent banks benchmark cost-to-serve and product breadth against them.",
+      "take": "Profit, not just growth, is what supports the price.",
+      "stype": "Press",
+      "src": "FinTech Futures",
+      "url": "https://www.fintechfutures.com/digital-banking/revolut-hits-115bn-valuation"
+    },
+    {
+      "id": "openai-11b-round",
+      "type": "Funding",
+      "co": "OpenAI",
+      "firm": "Industry",
+      "desk": "Tech & AI",
+      "date": "Nov 6",
+      "heat": 5,
+      "rel": 4,
+      "value": "$11B",
+      "vlabel": "first close, $1.25T valuation",
+      "title": "OpenAI banks about $11 billion of a round valued at $1.25 trillion",
+      "body": "Bloomberg reported that the first portion has been wired, with the round possibly reaching $20 billion. OpenAI first sought $30 billion at a $1.4 trillion valuation, and its March round raised $122 billion at $852 billion. OpenAI declined to comment.",
+      "cs": "A smaller, lower-valued round than planned suggests investors are more selective about AI infrastructure spending.",
+      "take": "Still the biggest private valuation ever, but below the original ask.",
+      "stype": "Aggregator",
+      "src": "FourWeekMBA (Bloomberg report)",
+      "url": "https://fourweekmba.com/ai-openai-said-to-close-11b-at-1-25t-round-may-reach-20b/"
+    },
+    {
+      "id": "cerebras-ipo",
+      "type": "IPO",
+      "co": "Cerebras",
+      "firm": "Industry",
+      "desk": "Tech & AI",
+      "date": "May 13",
+      "heat": 3,
+      "rel": 3,
+      "value": "$5.55B",
+      "vlabel": "raised",
+      "title": "Cerebras prices its IPO at $185, raising $5.55 billion",
+      "body": "The AI chipmaker sold 30 million shares above its marketed range, in the largest US IPO of 2026 at the time. Reuters reports a fully diluted valuation of about $56 billion; demand ran at more than 20 times the shares offered. A $20 billion OpenAI compute deal underpins the story.",
+      "cs": "The IPO shows public investors will fund AI hardware that challenges Nvidia, though customer concentration remains a risk.",
+      "take": "Customer concentration with OpenAI is the thing to watch.",
+      "stype": "Press",
+      "src": "Quartz",
+      "url": "https://qz.com/cerebras-ipo-pricing-185-dollars-ai-chips-051426"
+    },
+    {
+      "id": "fox-roku",
+      "type": "M&A",
+      "co": "Fox / Roku",
+      "firm": "Industry",
+      "desk": "Media & telecom",
+      "date": "Oct 14",
+      "heat": 4,
+      "rel": 4,
+      "value": "$22B",
+      "vlabel": "enterprise value",
+      "title": "Fox shareholders and Roku holders approve the $160-a-share takeover",
+      "body": "Fox is paying $96 in cash and 0.9693 Fox Class A shares per Roku share. The deal is expected to close in the first half of 2027 but faces a second DOJ request for information. Fox expects about $400 million of run-rate cost savings.",
+      "cs": "A broadcaster buying a streaming platform. Expect work on integration, ad-tech and distribution-terms negotiations.",
+      "take": "Antitrust review, not shareholders, is the real gate.",
+      "stype": "Press",
+      "src": "The Desk",
+      "url": "https://thedesk.net/2026/10/shareholders-of-fox-roku-approve-22-billion-takeover-deal/"
+    },
+    {
+      "id": "bell-towerco",
+      "type": "Partnerships",
+      "co": "BCE / La Caisse",
+      "firm": "BCE",
+      "desk": "Media & telecom",
+      "date": "Oct 2026",
+      "heat": 3,
+      "rel": 4,
+      "value": "C$2.45B",
+      "vlabel": "for a 49.9% stake",
+      "title": "BCE sells almost half of a new wireless-tower company to La Caisse",
+      "body": "The new TowerCo holds more than 5,000 Bell tower sites. BCE keeps control and says the sale supports its goal of cutting net debt leverage to 3.5 times by the end of 2027.",
+      "cs": "A pension fund buys stable infrastructure cash flow while the telco funds AI data centres and fibre. A template for other carriers.",
+      "take": "BCE keeps control but monetizes the asset.",
+      "stype": "Press",
+      "src": "BNN Bloomberg",
+      "url": "https://www.bnnbloomberg.ca/business/company-news/2026/11/05/bce-reports-q3-profit-down-from-year-ago-revenue-edged-higher/",
+      "canada": true
+    },
+    {
+      "id": "accenture-17-deals",
+      "type": "M&A",
+      "co": "Accenture",
+      "firm": "Accenture",
+      "desk": "Consulting industry",
+      "date": "Oct 1",
+      "heat": 3,
+      "rel": 5,
+      "value": "$4.9B",
+      "vlabel": "across 17 deals in FY2026",
+      "title": "Accenture spent $4.9 billion on 17 acquisitions in fiscal 2026 and plans about $5 billion more",
+      "body": "The deal pace supports its fiscal 2027 growth guide, which includes 2 to 2.5 points from acquisitions. Accenture raised $5 billion of debt in the fourth quarter.",
+      "cs": "A leading consulting firm is buying AI, data and safety capabilities rather than building them. Boutiques are acquisition targets.",
+      "take": "Acquisitions are carrying growth.",
+      "stype": "Research",
+      "src": "Earnings Whispers",
+      "url": "https://earningswhispers.com/article/ACN/r54"
     }
   ],
   "radar": [
@@ -582,6 +749,28 @@
         "src": "Daily Hive",
         "url": "https://dailyhive.com/vancouver/bc-government-look-west-economic-growth-additional-major-projects",
         "id": "van-look-west-200b"
+      },
+      {
+        "tag": "Energy",
+        "date": "Sep 29",
+        "num": "$32B",
+        "title": "Ottawa values the LNG Canada Phase 2 build at $32 billion of private investment",
+        "cs": "Contractors, labour suppliers and Kitimat-area service firms should plan for a multi-year build. Port, rail and housing pressure follow.",
+        "stype": "Press",
+        "src": "The Hub",
+        "url": "https://thehub.ca/2026/09/29/lng-canada-approves-phase-2-expansion-at-kitimat-terminal-doubling-export-capacity/",
+        "id": "van-lng-canada-phase-2"
+      },
+      {
+        "tag": "Ports & trade",
+        "date": "Oct 1",
+        "num": "1M b/d",
+        "title": "Pacific Link would end near Delta, about 35 km south of Vancouver",
+        "cs": "Port, terminal and marine-services clients face a decade of permitting and consultation. B.C.'s position and tanker-ban rules are the swing factors.",
+        "stype": "Press",
+        "src": "Baird Maritime",
+        "url": "https://www.bairdmaritime.com/offshore/transport/canada-designates-pacific-link-pipeline",
+        "id": "van-pacific-link-delta"
       }
     ],
     "jobs": [
@@ -1245,6 +1434,176 @@
           "stype": "Press",
           "src": "Advisor.ca: Budget 2026 groceries benefit",
           "url": "https://www.advisor.ca/economy/budget-2026/budget-proposes-50-one-time-groceries-benefit-top-up/"
+        }
+      ]
+    },
+    {
+      "id": "pol-crtc-switching-fee-ban",
+      "kicker": "Regulation",
+      "firm": "Industry",
+      "desk": "Media & telecom",
+      "juris": "Canada",
+      "date": "Mar 12",
+      "year": "2026",
+      "confidence": "Reported",
+      "readTime": "3 min read",
+      "title": "CRTC bans fees that stand in the way of switching phone and internet plans",
+      "summary": "Telecom Regulatory Policy 2026-43 prohibits fees for activating, changing or cancelling a plan. It took effect 12 June.",
+      "cs": "Carriers' wireless pricing, device and onboarding models need redesign. Competitors and fintech-style resellers gain room.",
+      "dates": [
+        {
+          "iso": "2026-06-12",
+          "label": "CRTC switching-fee ban takes effect"
+        }
+      ],
+      "paras": [
+        "Telecom Regulatory Policy CRTC 2026-43, issued 12 March, prohibits fees tied to activating, changing or cancelling a cellphone or internet plan. RefDesk reports the policy carves out narrow exceptions for physical installation and explicitly chosen additional products. The ban took effect 12 June 2026.",
+        "The CRTC has since opened a show-cause proceeding on new device, SIM and shipping fees. Rogers and Telus both blame the ban for lower fee revenue in their third-quarter results."
+      ],
+      "unknowns": [
+        "Final penalties in the show-cause case.",
+        "How narrowly the CRTC will read the 'optional service' exception."
+      ],
+      "sources": [
+        {
+          "stype": "Press",
+          "src": "Money.ca: CRTC junk fee investigation",
+          "url": "https://money.ca/news/crtc-bell-rogers-telus-junk-fees-switching-investigation"
+        },
+        {
+          "stype": "Research",
+          "src": "RefDesk: CRTC inquiry guide",
+          "url": "https://refdesk.ca/blog/crtc-inquiry-bell-rogers-telus-sim-device-fees-july-8-2026-consumers-refunds-complaints-guide"
+        }
+      ]
+    },
+    {
+      "id": "pol-pacific-link-national-interest",
+      "kicker": "Regulation",
+      "firm": "Industry",
+      "desk": "Energy & resources",
+      "juris": "Canada",
+      "date": "Oct 1",
+      "year": "2026",
+      "confidence": "Reported",
+      "readTime": "3 min read",
+      "title": "Pacific Link becomes the first project listed under the Building Canada Act",
+      "summary": "Ottawa fast-tracked a proposed 1 million barrel-a-day oil pipeline to B.C. A single federal review is targeted for 1 September 2027.",
+      "cs": "Energy, infrastructure and Indigenous-partnership advisers get a test of Ottawa's one-window review model. Financing structure and consultation are the risks.",
+      "dates": [
+        {
+          "iso": "2027-09-01",
+          "label": "Target for federal conditions document on Pacific Link"
+        }
+      ],
+      "paras": [
+        "The federal government listed Pacific Link as a project of national interest on 1 October, its first under the Building Canada Act. The roughly 1,250-kilometre line would carry up to a million barrels a day from Bruderheim, Alberta, to near Delta, B.C. Alberta puts the cost at C$35.2 billion to C$43.7 billion. The Major Projects Office leads the review, with a conditions document due by 1 September 2027.",
+        "CBC, via Wealth Professional, reports Alberta and Trans Mountain would each hold 45% and Pembina 10%, with Indigenous communities offered at least 10% ownership backed by loan guarantees. Baird Maritime reports the Coldwater Indian Band is considering court action. Carney said the project's emissions intensity would be addressed partly through the Pathways carbon capture project."
+      ],
+      "unknowns": [
+        "Final route and regulatory approvals.",
+        "Whether Indigenous consultation and B.C. support hold."
+      ],
+      "sources": [
+        {
+          "stype": "Press",
+          "src": "Castanet (Canadian Press): Pipeline designated project of national interest",
+          "url": "https://www.castanetkamloops.net/news/Canada/632973/Pipeline-designated-project-of-national-interest"
+        },
+        {
+          "stype": "Press",
+          "src": "Oil & Gas Journal: Pacific Link listed",
+          "url": "https://www.ogj.com/pipelines-transportation/pipelines/news/55409286/canada-lists-pacific-link-as-project-of-national-interest"
+        },
+        {
+          "stype": "Press",
+          "src": "Wealth Professional: first national interest project",
+          "url": "https://www.wealthprofessional.ca/news/industry-news/west-coast-oil-pipeline-becomes-canadas-first-national-interest-project/393679"
+        }
+      ]
+    },
+    {
+      "id": "pol-canada-us-tariff-escalation",
+      "kicker": "Regulation",
+      "firm": "Industry",
+      "desk": "Industrials & logistics",
+      "juris": "Canada",
+      "date": "Aug 22",
+      "year": "2026",
+      "confidence": "Reported",
+      "readTime": "3 min read",
+      "title": "Canada-US trade talks collapse and 50% US tariffs hit $20 billion of Canadian goods",
+      "summary": "Canada suspended talks and set retaliatory tariffs from 8 September. The future of the continental trade pact is in question.",
+      "cs": "Manufacturers, retailers and logistics firms must re-plan sourcing and pricing. Supply-chain, scenario and market-diversification work is in demand.",
+      "dates": [
+        {
+          "iso": "2026-09-08",
+          "label": "Canada's retaliatory tariffs begin"
+        }
+      ],
+      "paras": [
+        "The CNN report carried by KRDO says talks failed on 21 August, the night before the deadline for 50% US tariffs on $20 billion of Canadian goods. The National reports the tariffs cover hundreds of goods, including plywood, liquor, electrical equipment and hockey gear, and affect about 5% of Canada's exports to the US.",
+        "Prime Minister Carney suspended negotiations and said Canada would match the tariffs dollar for dollar from 8 September, targeting steel, dairy, appliances, farm equipment, paper and electronics. US Trade Representative Greer blamed Canada for backing out of agreed terms. Carney said the escalation calls the continental trade pact into question."
+      ],
+      "unknowns": [
+        "Whether talks resume after the US midterms.",
+        "Net effect on consumer prices in both countries."
+      ],
+      "sources": [
+        {
+          "stype": "Press",
+          "src": "The National: Canada to hit back dollar for dollar",
+          "url": "https://www.thenationalnews.com/news/2026/08/23/canada-to-hit-back-dollar-for-dollar-in-trade-war-after-trumps-50-per-cent-levy/"
+        },
+        {
+          "stype": "Press",
+          "src": "CNN via KRDO: Carney says US asked too much",
+          "url": "https://krdo.com/?p=1753904"
+        },
+        {
+          "stype": "Press",
+          "src": "CS Monitor: talks collapse, new round of tariffs",
+          "url": "https://csmonitor.com/USA/2026/0822/US-Canada-trade-talks-collapse-setting-off-new-round-of-tariffs"
+        }
+      ]
+    },
+    {
+      "id": "pol-canada-open-banking-regs",
+      "kicker": "Regulation",
+      "firm": "Industry",
+      "desk": "Financial services",
+      "juris": "Canada",
+      "date": "Jun 27",
+      "year": "2026",
+      "confidence": "Reported",
+      "readTime": "3 min read",
+      "title": "Draft open-banking regulations published in the Canada Gazette",
+      "summary": "The draft Consumer-Driven Banking Regulations set accreditation and consent rules for phase one. Consultation closed 26 August.",
+      "cs": "Banks and fintechs should map accreditation, consent and security obligations now. A final timeline is still missing.",
+      "dates": [
+        {
+          "iso": "2026-08-26",
+          "label": "Consultation on draft regulations closed"
+        }
+      ],
+      "paras": [
+        "The proposed Consumer-Driven Banking Regulations were published on 27 June in the Canada Gazette, Part I. Substance Law says they cover accreditation, complaint handling, technical standards, consent management and national-security review. Consultation ran to 26 August.",
+        "Red Compass Labs notes the draft implements phase one, read-only data access, and cautions that adoption assumptions look optimistic given the read-only launch. The Bank of Canada has said it will not set a date until the work is fully scoped."
+      ],
+      "unknowns": [
+        "Go-live date.",
+        "Final accreditation criteria."
+      ],
+      "sources": [
+        {
+          "stype": "Research",
+          "src": "Substance Law: Consumer-Driven Banking Regulations",
+          "url": "https://substancelaw.ca/consumer-driven-banking-regulations/"
+        },
+        {
+          "stype": "Research",
+          "src": "Red Compass Labs: Canada moves the needle on open banking",
+          "url": "https://www.redcompasslabs.com/insights/canada-finally-moves-the-needle-on-open-banking/"
         }
       ]
     }
@@ -2535,6 +2894,1449 @@
       ],
       "kicker": "Industry desk",
       "year": "2026"
+    },
+    {
+      "id": "fs-boc-oct-hike",
+      "desk": "Financial services",
+      "date": "Oct 28",
+      "lens": "Profit pools & margins",
+      "confidence": "Reported",
+      "readTime": "3 min read",
+      "title": "Bank of Canada hikes to 2.5%, its first increase in more than three years",
+      "summary": "A 25-basis-point move lifts the overnight rate to 2.5%. The Bank sees stronger growth ahead but says energy-driven cost pressure could spread.",
+      "cs": "Lenders, insurers and mortgage-exposed clients now plan for a rising-rate path. Net interest margin, credit-loss and housing-demand assumptions all need refreshing.",
+      "paras": [
+        "The Bank of Canada raised its overnight target by 25 basis points to 2.5% on 28 October, the first increase since July 2023. The Bank Rate moves to 2.75% and the deposit rate to 2.45%. The Canadian Press reports that Governor Tiff Macklem said the Bank considered holding, because the rise in inflation is narrowly concentrated around an energy price shock, but moved to limit the risk of cost pressure spreading to other prices.",
+        "The October Monetary Policy Report projects GDP growth of 1% in 2026 and 2% in both 2027 and 2028, a stronger path than in July. EconoTimes reports it sees inflation averaging about 3% in 2027 and returning near 2% by mid-2028. Statistics Canada put September inflation at 3.1%, while the Bank's gasoline-excluded measure was 2.2%.",
+        "Forecasters differ on what comes next. CIBC expects a pause on 9 December and a further quarter-point move in January. RBC's chief economist expects another hike in December or January."
+      ],
+      "facts": [
+        {
+          "k": "Overnight rate",
+          "v": "2.5% (up 25 bp), first hike since Jul 2023"
+        },
+        {
+          "k": "Bank Rate / deposit rate",
+          "v": "2.75% / 2.45%"
+        },
+        {
+          "k": "GDP growth forecast",
+          "v": "1% (2026), 2% (2027), 2% (2028)"
+        },
+        {
+          "k": "September CPI",
+          "v": "3.1% year over year (Statistics Canada)"
+        },
+        {
+          "k": "Next decision",
+          "v": "9 Dec 2026"
+        }
+      ],
+      "questions": [
+        "How much of the Big Six margin benefit is offset by higher credit costs?",
+        "Which housing-exposed lenders are most sensitive to a second hike?"
+      ],
+      "unknowns": [
+        "The path of oil prices, which the Bank ties to its inflation risk, is uncertain.",
+        "Forecaster views on December and January are opinions, not Bank guidance."
+      ],
+      "sources": [
+        {
+          "stype": "Press",
+          "src": "Advisor.ca (Canadian Press): Bank of Canada delivers 1st hike in three years",
+          "url": "https://www.advisor.ca/economy/policy/bank-of-canada-delivers-1st-hike-in-three-years/"
+        },
+        {
+          "stype": "Primary",
+          "src": "Bank of Canada: policy rate to 2½%",
+          "url": "https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/"
+        },
+        {
+          "stype": "Press",
+          "src": "EconoTimes: Bank of Canada raises rate to 2.5%",
+          "url": "https://econotimes.com/Bank-of-Canada-Raises-Rate-to-2-5-as-Inflation-Risks-Persist-1765115"
+        }
+      ],
+      "kicker": "Industry desk",
+      "year": "2026",
+      "firm": "Industry",
+      "dates": [
+        {
+          "iso": "2026-12-09",
+          "label": "Bank of Canada rate decision"
+        },
+        {
+          "iso": "2027-01-27",
+          "label": "Bank of Canada Monetary Policy Report"
+        }
+      ]
+    },
+    {
+      "id": "fs-open-banking-draft-regs",
+      "desk": "Financial services",
+      "date": "Jun 27",
+      "lens": "Regulation & policy",
+      "confidence": "Reported",
+      "readTime": "3 min read",
+      "title": "Canada's open-banking rules move to draft regulations, but no launch date is set",
+      "summary": "Ottawa published draft Consumer-Driven Banking Regulations for phase one, read access. The Bank of Canada has not committed to a go-live date.",
+      "cs": "Banks, fintechs and payments firms need accreditation, consent and data-sharing programmes. Timing risk is the planning problem.",
+      "paras": [
+        "On 27 June the federal government published proposed Consumer-Driven Banking Regulations in the Canada Gazette, Part I. Substance Law's summary says the draft covers accreditation, complaint handling, technical-standards compliance, consent management and national-security review, with public comment open until 26 August.",
+        "Open Banking Expo reports that, in March, the Bank of Canada's payments lead said the Bank was still scoping the work and wanted industry to have enough lead time before any date is set. Phase one is read access to account data; payments come later."
+      ],
+      "facts": [
+        {
+          "k": "Draft regulations",
+          "v": "Canada Gazette Part I, 27 Jun 2026"
+        },
+        {
+          "k": "Consultation",
+          "v": "Open until 26 Aug 2026"
+        },
+        {
+          "k": "Phase one",
+          "v": "Read access (account data sharing)"
+        },
+        {
+          "k": "Lead regulator",
+          "v": "Bank of Canada"
+        }
+      ],
+      "questions": [
+        "Which accreditation requirements will be hardest for smaller fintechs?",
+        "How will banks recover the cost of building data-sharing APIs?"
+      ],
+      "unknowns": [
+        "No confirmed launch date was found in the sources used.",
+        "Final regulations may differ from the draft."
+      ],
+      "sources": [
+        {
+          "stype": "Research",
+          "src": "Substance Law: Proposed Consumer-Driven Banking Regulations",
+          "url": "https://substancelaw.ca/consumer-driven-banking-regulations/"
+        },
+        {
+          "stype": "Press",
+          "src": "Open Banking Expo: Bank of Canada sets course for Consumer-Driven Banking",
+          "url": "https://www.openbankingexpo.com/news/bank-of-canada-sets-course-for-consumer-driven-banking-and-stablecoin-supervision/"
+        }
+      ],
+      "kicker": "Industry desk",
+      "year": "2026",
+      "firm": "Industry",
+      "dates": [
+        {
+          "iso": "2026-08-26",
+          "label": "Consultation on draft Consumer-Driven Banking Regulations closed"
+        }
+      ]
+    },
+    {
+      "id": "en-mainline-apportionment",
+      "desk": "Energy & resources",
+      "date": "Oct 21",
+      "lens": "Structure & competition",
+      "confidence": "Reported",
+      "readTime": "3 min read",
+      "title": "Canadian export pipelines run tight: Mainline at 16% apportionment, Trans Mountain at a record 7%",
+      "summary": "Enbridge and Trans Mountain both ration space as demand outruns capacity, even with heavy-oil discounts widening.",
+      "cs": "Producers, marketers and refiners should treat takeaway capacity as the binding constraint. It shapes netbacks, expansion timing and Asia strategy.",
+      "paras": [
+        "S&P Global reports that Enbridge's Mainline set heavy-crude apportionment at 16% at Superior and 7% at Kerrobert for November, with light crude at 19% and 13% at two delivery points. Heavy apportionment has been high all year, rising from 13% in January to 19% in June. Mainline throughput averaged 3.1 million barrels a day in the second quarter.",
+        "Trans Mountain's 890,000-barrel-a-day system was apportioned 7% for October, a system record and the third time this year. Growing Asian demand is pulling more barrels off the B.C. coast."
+      ],
+      "facts": [
+        {
+          "k": "Mainline heavy apportionment",
+          "v": "16% at Superior (Nov)"
+        },
+        {
+          "k": "Trans Mountain apportionment",
+          "v": "7% for Oct, a record"
+        },
+        {
+          "k": "Trans Mountain capacity",
+          "v": "890,000 b/d"
+        },
+        {
+          "k": "Mainline Q2 throughput",
+          "v": "3.1 million b/d"
+        }
+      ],
+      "questions": [
+        "What do rationed barrels cost producers per month in netback?",
+        "Does Asia demand justify the next expansion?"
+      ],
+      "unknowns": [
+        "Apportionment moves monthly and may differ by delivery point."
+      ],
+      "sources": [
+        {
+          "stype": "Research",
+          "src": "S&P Global: Canadian pipelines see higher apportionment",
+          "url": "https://www.spglobal.com/energy/en/news-research/latest-news/crude-oil/102126-canadian-pipelines-see-higher-apportionment-heavy-oil-price-discounts-widen"
+        },
+        {
+          "stype": "Press",
+          "src": "Energy Now (Bloomberg): Canada's pipeline problem returns",
+          "url": "https://energynow.ca/2026/01/canadas-pipeline-problem-returns-as-oil-sands-output-surges/"
+        }
+      ],
+      "kicker": "Industry desk",
+      "year": "2026",
+      "firm": "Industry"
+    },
+    {
+      "id": "en-wcs-discount",
+      "desk": "Energy & resources",
+      "date": "Nov 9",
+      "lens": "Profit pools & margins",
+      "confidence": "Reported",
+      "readTime": "3 min read",
+      "title": "Heavy-oil discount blows out to $31, then narrows as freight eases",
+      "summary": "Western Canadian Select traded as wide as $31 under WTI in early November before settling near $25. Freight and constrained export capacity drove the swing.",
+      "cs": "A wide discount hits producer cash flow and royalties. It also raises the value of any spare west-coast export capacity.",
+      "paras": [
+        "Reuters, via the BOE Report, says the WCS discount at Hardisty reached as wide as $31 a barrel below WTI in the first week of November and narrowed to $25 on 9 November. At Houston, WCS hit an all-time wide discount of $23 in late October as high global freight rates cut demand for re-exports.",
+        "Analyst Rory Johnston attributes the retreat mainly to freight rates easing from October highs. Cenovus said on 4 November that exporting off the B.C. coast is currently more attractive than sending barrels to the US Gulf Coast, and expects the wide spread to be temporary. East Daley Analytics notes planned Trans Mountain and Enbridge expansions are not expected before 2027."
+      ],
+      "facts": [
+        {
+          "k": "WCS discount, early Nov (Hardisty)",
+          "v": "Up to $31 under WTI"
+        },
+        {
+          "k": "WCS discount, 9 Nov",
+          "v": "$25 under WTI"
+        },
+        {
+          "k": "WCS at Houston, late Oct",
+          "v": "Record $23 discount"
+        }
+      ],
+      "questions": [
+        "How long do high tanker rates keep the spread wide?",
+        "Does Cenovus's view hold if rates stay elevated?"
+      ],
+      "unknowns": [
+        "Quotes are from a broker and a newsletter author, relayed by Reuters."
+      ],
+      "sources": [
+        {
+          "stype": "Press",
+          "src": "BOE Report (Reuters): Discount on WCS narrows, 9 Nov",
+          "url": "https://boereport.com/2026/11/09/discount-on-western-canada-select-narrows-54/"
+        },
+        {
+          "stype": "Press",
+          "src": "BOE Report (Reuters): Discount on WCS narrows, 4 Nov",
+          "url": "https://boereport.com/2026/11/04/discount-on-western-canada-select-narrows-51/"
+        }
+      ],
+      "kicker": "Industry desk",
+      "year": "2026",
+      "firm": "Industry"
+    },
+    {
+      "id": "en-lng-canada-phase-2",
+      "desk": "Energy & resources",
+      "date": "Sep 29",
+      "lens": "Capital & M&A",
+      "confidence": "Reported",
+      "readTime": "3 min read",
+      "title": "LNG Canada Phase 2 gets the green light, doubling Kitimat to 28 million tonnes a year",
+      "summary": "Shell and partners took a final investment decision on two more trains. First commercial operations are expected in the early 2030s.",
+      "cs": "Engineering, procurement, gas-supply and port clients get a long project pipeline. Policy makers get a test case for faster approvals.",
+      "paras": [
+        "Shell Canada Energy announced a final investment decision on LNG Canada Phase 2 on 29 September. It adds two trains, lifting capacity at Kitimat, B.C., from 14 to 28 million tonnes a year, plus storage, a loading berth and five new Coastal GasLink compressor stations. Shell holds 40%, with Petronas, PetroChina, Mitsubishi and Korea Gas as partners.",
+        "The Hub reports Ottawa values the project at $32 billion of private investment and that it moved from federal referral to decision in twelve months. Fluor and JGC's joint venture received notice to proceed."
+      ],
+      "facts": [
+        {
+          "k": "Capacity",
+          "v": "14 to 28 Mtpa"
+        },
+        {
+          "k": "Shell stake",
+          "v": "40%, nearly 6 Mtpa extra offtake"
+        },
+        {
+          "k": "Ottawa's investment figure",
+          "v": "$32 billion"
+        },
+        {
+          "k": "Operations",
+          "v": "Early 2030s"
+        },
+        {
+          "k": "Pipeline",
+          "v": "Coastal GasLink Phase 2, construction from early 2027"
+        }
+      ],
+      "questions": [
+        "How much Phase 2 gas is already contracted to Asian buyers?",
+        "What does the build do to local labour costs?"
+      ],
+      "unknowns": [
+        "The $32 billion is Ottawa's valuation, not a company-disclosed capex figure."
+      ],
+      "sources": [
+        {
+          "stype": "Primary",
+          "src": "Shell: final investment decision on LNG Canada Phase 2",
+          "url": "https://www.shell.com/news-and-insights/newsroom/news-and-media-releases/2026/shell-takes-final-investment-decision-to-double-lng-canada-capacity.html"
+        },
+        {
+          "stype": "Press",
+          "src": "The Hub: LNG Canada approves Phase 2",
+          "url": "https://thehub.ca/2026/09/29/lng-canada-approves-phase-2-expansion-at-kitimat-terminal-doubling-export-capacity/"
+        },
+        {
+          "stype": "Press",
+          "src": "Oil & Gas Journal: Shell takes FID",
+          "url": "https://www.ogj.com/pipelines-transportation/lng/news/55408348/shell-takes-fid-to-double-lng-canada-capacity"
+        }
+      ],
+      "kicker": "Industry desk",
+      "year": "2026",
+      "firm": "Industry"
+    },
+    {
+      "id": "en-us-clean-power-bnef",
+      "desk": "Energy & resources",
+      "date": "Oct 16",
+      "lens": "Demand & customers",
+      "confidence": "Reported",
+      "readTime": "3 min read",
+      "title": "Data centres push US clean-power additions to records in 2026 and 2027",
+      "summary": "BloombergNEF expects 89 GW of solar, wind and storage this year and 93 GW next. Storage and wind forecasts rose; solar fell.",
+      "cs": "Utilities, developers and power-intensive clients plan around a record build driven by data-centre demand. Canadian suppliers and investors read this as export-market signal.",
+      "paras": [
+        "BloombergNEF forecasts the US will add 89 GW of solar, wind and storage capacity in 2026 and 93 GW in 2027, two straight record years. It expects more than 1 terawatt of additions from 2026 to 2036. The storage outlook rose 34% to 383 GW and onshore wind rose 15% to about 100 GW, while utility-scale solar fell 7.5% to 430 GW because of new import tariffs.",
+        "BNEF says surging data-centre demand is also opening room for new gas generation. A pipeline of tax-credit-eligible projects underpins near-term build, but protectionism and credit timing are risks."
+      ],
+      "facts": [
+        {
+          "k": "US additions 2026",
+          "v": "89 GW solar, wind and storage"
+        },
+        {
+          "k": "US additions 2027",
+          "v": "93 GW"
+        },
+        {
+          "k": "Storage 2026-36",
+          "v": "383 GW (+34% vs May outlook)"
+        },
+        {
+          "k": "Utility solar 2026-36",
+          "v": "430 GW (-7.5%)"
+        }
+      ],
+      "questions": [
+        "How much of this build is contracted by data-centre operators?",
+        "Which regions see grid-interconnection delays?"
+      ],
+      "unknowns": [
+        "Forecasts, not completed builds."
+      ],
+      "sources": [
+        {
+          "stype": "Research",
+          "src": "BloombergNEF: US clean power rises with data centers",
+          "url": "https://about.bnef.com/?p=27751"
+        },
+        {
+          "stype": "Press",
+          "src": "Utility Dive: BNEF ups US storage forecast",
+          "url": "https://www.utilitydive.com/news/bnef-ups-us-energy-storage-deployment-forecast-by-30/872870"
+        }
+      ],
+      "kicker": "Industry desk",
+      "year": "2026",
+      "firm": "Industry"
+    },
+    {
+      "id": "en-trans-mountain-expansion-room",
+      "desk": "Energy & resources",
+      "date": "Jan 21",
+      "lens": "Market size & growth",
+      "confidence": "Reported",
+      "readTime": "3 min read",
+      "title": "Trans Mountain plans to stretch capacity to 1.25 million barrels a day",
+      "summary": "With the system running near full, owners are looking at drag-reducing agents and extra pumping. Enbridge has also approved a 150,000 b/d Mainline addition.",
+      "cs": "Marketers and producers should plan around incremental, not new-build, capacity until a new line is approved.",
+      "paras": [
+        "Energy Now, carrying Bloomberg, reports Trans Mountain plans to raise capacity from 890,000 to 1.25 million barrels a day over four or five years using drag-reducing agents and extra pumping capacity. Since the expansion started up in May 2024, Canadian heavy crude has traded at an average discount of about $12 a barrel to the US benchmark, against almost $17 a barrel the year before.",
+        "Transport Topics, also via Bloomberg, says Enbridge reached a final investment decision in November 2025 to add 150,000 barrels a day to the Mainline and 100,000 to Flanagan South at a cost of about $1.4 billion."
+      ],
+      "facts": [
+        {
+          "k": "TMX capacity plan",
+          "v": "890,000 to 1.25 million b/d in 4-5 years"
+        },
+        {
+          "k": "Enbridge Mainline addition",
+          "v": "+150,000 b/d (FID Nov 2025)"
+        },
+        {
+          "k": "Flanagan South addition",
+          "v": "+100,000 b/d"
+        },
+        {
+          "k": "Combined cost",
+          "v": "About $1.4 billion"
+        }
+      ],
+      "questions": [
+        "Is incremental capacity enough if oil-sands output keeps growing?",
+        "Which producers benefit most if egress rises by 150,000 b/d?"
+      ],
+      "unknowns": [
+        "Figures date from January and may have changed."
+      ],
+      "sources": [
+        {
+          "stype": "Press",
+          "src": "Energy Now (Bloomberg): Canada's pipeline problem returns",
+          "url": "https://energynow.ca/2026/01/canadas-pipeline-problem-returns-as-oil-sands-output-surges/"
+        },
+        {
+          "stype": "Press",
+          "src": "Transport Topics (Bloomberg): Canada's pipeline problem returns",
+          "url": "https://www.ttnews.com/articles/canada-pipeline-problem"
+        }
+      ],
+      "kicker": "Industry desk",
+      "year": "2026",
+      "firm": "Industry"
+    },
+    {
+      "id": "ind-ism-october",
+      "desk": "Industrials & logistics",
+      "date": "Nov 2",
+      "lens": "Market size & growth",
+      "confidence": "Reported",
+      "readTime": "3 min read",
+      "title": "US factory index rises to 55.5 in October, the tenth straight month of growth",
+      "summary": "Production and new orders improved, but input prices stay high and employment growth slowed.",
+      "cs": "Manufacturers and their suppliers see healthy demand, led by AI, data centres and defence, alongside cost and policy pressure. Operations and procurement work stay in demand.",
+      "paras": [
+        "The Institute for Supply Management's manufacturing PMI rose to 55.5 in October from 54.5, beating forecasts and marking a tenth month of expansion. Production hit 59.0, new orders 55.5 and employment 52.4. The prices-paid index eased to 75.2. Reuters, via Colorado Biz, ties demand to consumer spending and AI-related business spending.",
+        "S&P Global's separate survey showed US manufacturing growing more slowly: its final October PMI was 54.9, down from 55.9 in September, a 52-month high. Respondent comments in ISM's report describe demand strength in AI, data centres, semiconductors and defence, but also customers in wait-and-see mode and cost, lead-time and policy uncertainty."
+      ],
+      "facts": [
+        {
+          "k": "ISM manufacturing PMI",
+          "v": "55.5 (Sep 54.5)"
+        },
+        {
+          "k": "Production / new orders",
+          "v": "59.0 / 55.5"
+        },
+        {
+          "k": "Prices paid",
+          "v": "75.2 (Sep 77.9)"
+        },
+        {
+          "k": "S&P Global US PMI",
+          "v": "54.9 (Sep 55.9)"
+        }
+      ],
+      "questions": [
+        "Is the demand breadth real, or concentrated in a few AI-linked sectors?",
+        "How long can firms absorb input-cost increases?"
+      ],
+      "unknowns": [
+        "Survey data, not output data. The two surveys differ in size and method."
+      ],
+      "sources": [
+        {
+          "stype": "Primary",
+          "src": "ISM: Manufacturing PMI at 55.5% (PR Newswire via Webull)",
+          "url": "https://www.webull.com/news/15854774774635520"
+        },
+        {
+          "stype": "Press",
+          "src": "Colorado Biz (Reuters): US manufacturing activity rises in October",
+          "url": "https://coloradobiz.com/us-manufacturing-activity-rises-october-high-input-prices/"
+        },
+        {
+          "stype": "Aggregator",
+          "src": "InvestingLive: S&P Global US manufacturing PMI",
+          "url": "https://investinglive.com/news/us-s-p-global-final-manufacturing-pmi-for-october-54-9-vs-56-0-preliminary/"
+        }
+      ],
+      "kicker": "Industry desk",
+      "year": "2026",
+      "firm": "Industry"
+    },
+    {
+      "id": "ind-canada-pmi-october",
+      "desk": "Industrials & logistics",
+      "date": "Nov 2",
+      "lens": "Risks & unknowns",
+      "confidence": "Reported",
+      "readTime": "3 min read",
+      "title": "Canadian manufacturing slips into contraction in October",
+      "summary": "The S&P Global Canada PMI fell to 49.6, the first reading below 50 this year, as tariffs and cost pressure weighed.",
+      "cs": "Canadian manufacturers face a split with US peers. Pricing, supply-chain and market-diversification work becomes more urgent.",
+      "paras": [
+        "S&P Global's Canada manufacturing PMI dropped to 49.6 in October from 51.5, its first contraction of 2026 and the weakest since December 2025. Production fell for the first time since March, employment declined, and selling prices rose at the fastest pace in more than four years.",
+        "Reuters says tariffs and geopolitical uncertainty weighed on activity. S&P Global's Paul Smith said the sector ran out of steam after solid growth through the year. The next reading will show whether October was a blip."
+      ],
+      "facts": [
+        {
+          "k": "Canada manufacturing PMI",
+          "v": "49.6 (Sep 51.5)"
+        },
+        {
+          "k": "Status",
+          "v": "First reading below 50 in 2026"
+        },
+        {
+          "k": "Selling prices",
+          "v": "Fastest rise in over four years"
+        },
+        {
+          "k": "Canada composite PMI",
+          "v": "48.1, fifth month below 50"
+        }
+      ],
+      "questions": [
+        "Is the drop tariff-driven or part of broader demand weakness?",
+        "Which Canadian sub-sectors are hit hardest by US tariffs?"
+      ],
+      "unknowns": [
+        "One monthly survey reading."
+      ],
+      "sources": [
+        {
+          "stype": "Aggregator",
+          "src": "InvestingLive: Canada S&P Global manufacturing PMI 49.6",
+          "url": "https://investinglive.com/news/canada-s-p-global-manufacturing-pmi-49-6-versus-51-5-last-month/"
+        },
+        {
+          "stype": "Aggregator",
+          "src": "Trading Economics: Canada manufacturing growth falls",
+          "url": "https://tradingeconomics.com/canada/manufacturing-pmi/news/597349"
+        }
+      ],
+      "kicker": "Industry desk",
+      "year": "2026",
+      "firm": "Industry"
+    },
+    {
+      "id": "ind-boeing-q3",
+      "desk": "Industrials & logistics",
+      "date": "Oct 27",
+      "lens": "Profit pools & margins",
+      "confidence": "Reported",
+      "readTime": "3 min read",
+      "title": "Boeing's commercial unit still loses money, but the loss narrows to $697 million",
+      "summary": "Revenue was $24.2 billion and the backlog hit a record $745 billion. The 737 rate is still short of its 47-a-month target.",
+      "cs": "Suppliers, airlines and lessors plan around slow rate recovery. Boeing's supply-chain cost issues are an operations-improvement case.",
+      "paras": [
+        "Boeing reported third-quarter revenue of $24.2 billion, up 4%, with a GAAP loss of $0.26 a share and a core loss of $0.34. Commercial Airplanes lost $697 million on $10.7 billion of revenue, a margin of negative 6.5%, versus a $5.35 billion loss a year earlier when a 777X charge hit. The unit delivered 161 aircraft and booked 300 net orders.",
+        "Defense, Space & Security earned $492 million and Global Services $1.02 billion. The 737 is still working toward 47 a month, and the 777-9 first delivery remains planned for 2027. Total backlog is a record $745 billion."
+      ],
+      "facts": [
+        {
+          "k": "Q3 revenue",
+          "v": "$24.2 billion (+4%)"
+        },
+        {
+          "k": "Commercial Airplanes operating loss",
+          "v": "$697 million (-6.5% margin)"
+        },
+        {
+          "k": "Deliveries / net orders",
+          "v": "161 / 300"
+        },
+        {
+          "k": "Total backlog",
+          "v": "$745 billion record"
+        },
+        {
+          "k": "737 target rate",
+          "v": "47 per month, not yet reached"
+        }
+      ],
+      "questions": [
+        "What limits 737 output: wings, labour or certification?",
+        "How fast can suppliers match a higher 737 rate?"
+      ],
+      "unknowns": [
+        "Free cash flow of $0.5 billion includes working-capital timing."
+      ],
+      "sources": [
+        {
+          "stype": "Primary",
+          "src": "Boeing: Third quarter 2026 results",
+          "url": "https://boeing.mediaroom.com/2026-10-27-Boeing-Reports-Third-Quarter-Results"
+        },
+        {
+          "stype": "Press",
+          "src": "Airways Magazine: Boeing Q3 2026",
+          "url": "https://airwaysmag.com/new-post/boeing-q3-2026-commercial-loss-cash-flow"
+        },
+        {
+          "stype": "Press",
+          "src": "Khaleej Times (Reuters): Boeing production challenges",
+          "url": "https://www.khaleejtimes.com/boeing-jetliner-production-challenges-weigh-on-third-quarter-results-2"
+        }
+      ],
+      "kicker": "Industry desk",
+      "year": "2026",
+      "firm": "Boeing"
+    },
+    {
+      "id": "ind-up-ns-merger-review",
+      "desk": "Industrials & logistics",
+      "date": "Aug 18",
+      "lens": "Capital & M&A",
+      "confidence": "Reported",
+      "readTime": "3 min read",
+      "title": "The STB restarts its review of the $85 billion Union Pacific-Norfolk Southern merger",
+      "summary": "A procedural schedule is set, with opposition comments due 18 November and a final decision likely in the second half of 2027.",
+      "cs": "Shippers, ports and rival railroads must decide their position now. It is also a test of the tougher 2001 rail-merger rules.",
+      "paras": [
+        "FreightWaves reports the Surface Transportation Board removed the proceeding from abeyance and adopted a schedule that pushes a final decision well into the second half of 2027. Final briefs are due 28 May 2027. The review is the first under the 2001 rules, which require applicants to show the merger enhances competition.",
+        "Pulse 2.0 reports comments, protests and requests for conditions on the revised application are due 18 November 2026, and the Board expects a public hearing before final briefs. The decision is procedural, not a ruling on the merits."
+      ],
+      "facts": [
+        {
+          "k": "Deal value",
+          "v": "$85 billion"
+        },
+        {
+          "k": "Opposition comments due",
+          "v": "18 Nov 2026"
+        },
+        {
+          "k": "Final briefs due",
+          "v": "28 May 2027"
+        },
+        {
+          "k": "Final decision",
+          "v": "Within 90 days of close of record"
+        }
+      ],
+      "questions": [
+        "Which shippers and railroads will file conditions requests?",
+        "What competition remedies would the Board accept?"
+      ],
+      "unknowns": [
+        "Hearing dates are still to be set."
+      ],
+      "sources": [
+        {
+          "stype": "Press",
+          "src": "FreightWaves: Regulators set schedule for review of UP-NS merger",
+          "url": "https://www.freightwaves.com/news/regulators-set-schedule-for-review-of-up-ns-merger"
+        },
+        {
+          "stype": "Aggregator",
+          "src": "Pulse 2.0: STB restarts review, sets Nov 18 comment deadline",
+          "url": "https://pulse2.com/stb-restarts-union-pacific-norfolk-southern-merger-review-and-sets-november-18-comment-deadline/"
+        }
+      ],
+      "kicker": "Industry desk",
+      "year": "2026",
+      "firm": "Union Pacific",
+      "dates": [
+        {
+          "iso": "2026-11-18",
+          "label": "STB: opposition comments due on UP-NS merger"
+        },
+        {
+          "iso": "2027-05-28",
+          "label": "STB: final briefs due"
+        }
+      ]
+    },
+    {
+      "id": "md-paramount-wbd-close",
+      "desk": "Media & telecom",
+      "date": "Oct 6",
+      "lens": "Structure & competition",
+      "confidence": "Reported",
+      "readTime": "3 min read",
+      "title": "Paramount closes its Warner Bros. Discovery takeover and the combined company becomes Skydance",
+      "summary": "The deal closed on 6 October after settlements with a coalition of states. Court-enforceable commitments now govern production, labour and news independence.",
+      "cs": "The sector is now run by fewer, larger studios. Integration, cost take-out, streaming scale and regulatory-compliance work follow.",
+      "paras": [
+        "Paramount completed its acquisition of Warner Bros. Discovery on 6 October. Law Commentary says it closed after the deal cleared federal antitrust review and Paramount settled suits brought by a coalition of states and the Writers Guild. WBD shareholders received about $31 a share in cash. The combined company is called Skydance.",
+        "The headline value depends on the measure: AP reports an $81 billion takeover, while other outlets cite an enterprise value of about $110 billion. Advanced Television says the company promises at least 30 theatrical films a year with a minimum 45-day window. Financing from Saudi Arabia, Qatar and the UAE drew scrutiny."
+      ],
+      "facts": [
+        {
+          "k": "Closed",
+          "v": "6 Oct 2026"
+        },
+        {
+          "k": "Price",
+          "v": "About $31 per WBD share, in cash"
+        },
+        {
+          "k": "Value",
+          "v": "$81bn equity (AP); about $110bn enterprise"
+        },
+        {
+          "k": "Film pledge",
+          "v": "At least 30 a year, 45-day windows"
+        },
+        {
+          "k": "Combined brand",
+          "v": "Skydance"
+        }
+      ],
+      "questions": [
+        "How large will integration cost cuts be?",
+        "How will the state-settlement conditions be enforced?"
+      ],
+      "unknowns": [
+        "Different outlets quote different deal values."
+      ],
+      "sources": [
+        {
+          "stype": "Press",
+          "src": "Law Commentary: Paramount closes WBD deal, creating Skydance",
+          "url": "https://www.lawcommentary.com/articles/paramount-closes-111-billion-warner-bros-discovery-deal-creating-skydance"
+        },
+        {
+          "stype": "Press",
+          "src": "AP via ABC30: Paramount-Warner Bros. merger complete",
+          "url": "https://abc30.com/post/paramont-warner-bros-81-billion-dollar-merger-complete-skydance-will-trade-wall-street-week/19913297/"
+        },
+        {
+          "stype": "Press",
+          "src": "Advanced Television: Paramount closes WBD merger",
+          "url": "https://www.advanced-television.com/?p=293405"
+        }
+      ],
+      "kicker": "Industry desk",
+      "year": "2026",
+      "firm": "Paramount"
+    },
+    {
+      "id": "md-crtc-fee-probe",
+      "desk": "Media & telecom",
+      "date": "Aug 14",
+      "lens": "Regulation & policy",
+      "confidence": "Reported",
+      "readTime": "3 min read",
+      "title": "CRTC keeps pressing Bell, Rogers and Telus over new device, SIM and shipping fees",
+      "summary": "The regulator rejected the carriers' procedural moves and is examining whether new fees dodge the switching-fee ban. Fines are possible.",
+      "cs": "Telecom clients must price around tighter fee rules. The case is the first test of how the ban is enforced.",
+      "paras": [
+        "After the CRTC banned fees tied to activating, changing or cancelling a plan (Telecom Regulatory Policy 2026-43, effective 12 June), carriers added others. Money.ca lists a $40 device-handling fee at Bell, a $15 SIM or eSIM charge at Telus, and a $40 device-setup fee, $25 shipping fee and SIM fee at Rogers.",
+        "On 14 August the CRTC rejected a Telus request, backed by Bell and Rogers, to split the case and remove staff, keeping the review on paper. iPhone in Canada reports none of the disputed fees are struck down until the CRTC rules, so carriers may keep charging them. Compliance orders and penalties are possible."
+      ],
+      "facts": [
+        {
+          "k": "Ban in force",
+          "v": "12 Jun 2026 (TRP 2026-43)"
+        },
+        {
+          "k": "Bell",
+          "v": "$40 device-handling fee"
+        },
+        {
+          "k": "Rogers",
+          "v": "$40 setup, $25 shipping, SIM fee"
+        },
+        {
+          "k": "Telus",
+          "v": "$15 SIM/eSIM fee"
+        },
+        {
+          "k": "Proceeding",
+          "v": "Telecom Notice 2026-155, decision 14 Aug 2026"
+        }
+      ],
+      "questions": [
+        "Will the CRTC treat device handling as an optional service?",
+        "What penalty level will it set?"
+      ],
+      "unknowns": [
+        "No final ruling was found at publication."
+      ],
+      "sources": [
+        {
+          "stype": "Primary",
+          "src": "CRTC: Telecom Notice of Consultation 2026-155-2",
+          "url": "https://crtc.gc.ca/eng/archive/2026/2026-155-2.htm"
+        },
+        {
+          "stype": "Press",
+          "src": "Money.ca: CRTC investigates new fees",
+          "url": "https://money.ca/news/crtc-bell-rogers-telus-junk-fees-switching-investigation"
+        },
+        {
+          "stype": "Press",
+          "src": "iPhone in Canada: CRTC rejects attempt to stall probe",
+          "url": "https://www.iphoneincanada.ca/2026/08/16/crtc-rejects-bell-rogers-telus-attempt-to-stall-switching-fee-probe/"
+        }
+      ],
+      "kicker": "Industry desk",
+      "year": "2026",
+      "firm": "Industry"
+    },
+    {
+      "id": "md-telecom-q3-2026",
+      "desk": "Media & telecom",
+      "date": "Nov 5",
+      "lens": "Profit pools & margins",
+      "confidence": "Reported",
+      "readTime": "3 min read",
+      "title": "Canada's telcos report flat wireless revenue as fee limits and price competition bite",
+      "summary": "BCE, Rogers and Telus all show weak wireless service revenue. Cash flow, tower sales and media assets carry the story.",
+      "cs": "Telecom clients are shifting from subscriber growth to cost, capital allocation and asset monetization. Wireless pricing discipline is the swing factor.",
+      "paras": [
+        "BCE's third-quarter revenue rose 2.2%, but wireless service revenue fell 1.3% and ARPU fell 1.7%. Adjusted EBITDA grew 0.9%. BCE agreed to sell 49.9% of a new wireless-tower company to La Caisse for $2.45 billion and reaffirmed 2026 guidance. Net earnings fell 84.6% against a year-earlier gain from the MLSE sale.",
+        "Rogers' service revenue and adjusted EBITDA each rose 1%, with record free cash flow of $1.4 billion. Its wireless service revenue fell 1%, partly from the fee ban. MobileSyrup reports Rogers added 17,000 mobile subscribers against 62,000 a year earlier, and Telus posted a $660 million net loss on a goodwill impairment at Telus Health."
+      ],
+      "facts": [
+        {
+          "k": "BCE wireless service revenue",
+          "v": "-1.3%, ARPU -1.7%"
+        },
+        {
+          "k": "BCE tower deal",
+          "v": "49.9% stake to La Caisse for $2.45bn"
+        },
+        {
+          "k": "Rogers free cash flow",
+          "v": "$1.4 billion in Q3"
+        },
+        {
+          "k": "Rogers mobile net adds",
+          "v": "17,000 (62,000 a year ago)"
+        },
+        {
+          "k": "Telus Q3",
+          "v": "$660 million net loss, goodwill impairment"
+        }
+      ],
+      "questions": [
+        "Can carriers lift wireless ARPU without new fees?",
+        "How much debt does each asset sale retire?"
+      ],
+      "unknowns": [
+        "Each company reports on a different basis."
+      ],
+      "sources": [
+        {
+          "stype": "Primary",
+          "src": "BCE: Third quarter 2026 results (TelecomTV)",
+          "url": "https://www.telecomtv.com/content/access-evolution/bce-reports-third-quarter-2026-results-56617/"
+        },
+        {
+          "stype": "Primary",
+          "src": "Rogers: Q3 2026 results (Capital.com)",
+          "url": "https://capital.com/en-eu/news/rogers-communications-reports-third-quarter-2026-results"
+        },
+        {
+          "stype": "Press",
+          "src": "MobileSyrup: Telecom quarterly earnings round-up",
+          "url": "https://mobilesyrup.com/2026/11/06/telecom-quarterly-earnings-round-up/"
+        }
+      ],
+      "kicker": "Industry desk",
+      "year": "2026",
+      "firm": "Industry"
+    },
+    {
+      "id": "md-rogers-sports-stake",
+      "desk": "Media & telecom",
+      "date": "Oct 23",
+      "lens": "Capital & M&A",
+      "confidence": "Reported",
+      "readTime": "3 min read",
+      "title": "Rogers becomes full owner of MLSE and starts selling a minority stake in its sports assets",
+      "summary": "The company plans to sell a minority interest in Rogers Sports to outside investors by the first half of 2027 to repay debt.",
+      "cs": "A template for monetizing media and sports assets inside a telco. Valuation, governance and carve-out work follow.",
+      "paras": [
+        "Rogers said on 23 October that it became 100% owner of MLSE on 1 October and is pursuing the sale of a minority interest in its consolidated sports, media and entertainment assets, branded Rogers Sports, by the first half of 2027. It expects to use the proceeds to repay debt.",
+        "Media revenue rose 9% in the quarter on sports revenue and subscriber revenue from the Warner Bros. Discovery channels, partly offset by lower advertising revenue. The Blue Jays drew more than 3.3 million fans."
+      ],
+      "facts": [
+        {
+          "k": "MLSE ownership",
+          "v": "100% from 1 Oct 2026"
+        },
+        {
+          "k": "Planned sale",
+          "v": "Minority stake in Rogers Sports by H1 2027"
+        },
+        {
+          "k": "Use of proceeds",
+          "v": "Debt repayment"
+        },
+        {
+          "k": "Media revenue Q3",
+          "v": "+9%"
+        }
+      ],
+      "questions": [
+        "What valuation will investors put on Rogers Sports?",
+        "Does a minority sale dilute Rogers' control of its teams?"
+      ],
+      "unknowns": [
+        "Deal size and buyers have not been disclosed."
+      ],
+      "sources": [
+        {
+          "stype": "Primary",
+          "src": "Rogers: Q3 2026 results (Capital.com)",
+          "url": "https://capital.com/en-eu/news/rogers-communications-reports-third-quarter-2026-results"
+        },
+        {
+          "stype": "Press",
+          "src": "Finviz (Rogers release)",
+          "url": "https://finviz.com/news/407166/rogers-communications-reports-third-quarter-2026-results"
+        }
+      ],
+      "kicker": "Industry desk",
+      "year": "2026",
+      "firm": "Rogers"
+    },
+    {
+      "id": "con-accenture-q4",
+      "desk": "Consulting industry",
+      "date": "Oct 1",
+      "lens": "Market size & growth",
+      "confidence": "Reported",
+      "readTime": "3 min read",
+      "title": "Accenture ends fiscal 2026 on a record for big contracts, with AI work broadening",
+      "summary": "Fourth-quarter revenue was $18.7 billion and bookings $22.2 billion. A record 141 client bookings topped $100 million each.",
+      "cs": "Demand for AI-led transformation is real, but it is shifting towards data foundations and managed services. Consulting bookings eased from the prior quarter.",
+      "paras": [
+        "Accenture reported fourth-quarter revenue of $18.7 billion, up 6%, and earnings of $3.29 a share. Bookings were $22.2 billion, including $12.8 billion of managed services. CEO Julie Sweet cited a quarterly record of 141 client bookings worth at least $100 million. Fiscal 2026 revenue was $74.2 billion.",
+        "Sweet said AI has not led to headcount cuts and that the company is upskilling and hiring in data and AI. It ended the year with nearly 110,000 AI and data professionals, and more than 400 clients started their first advanced-AI projects with Accenture during the year, according to National CIO Review. InMoney notes consulting bookings eased from about $10.3 billion in Q3 to $9.4 billion, and Accenture no longer reports separate AI bookings."
+      ],
+      "facts": [
+        {
+          "k": "Q4 revenue",
+          "v": "$18.7 billion (+6%)"
+        },
+        {
+          "k": "Bookings",
+          "v": "$22.2 billion (consulting $9.4bn, managed services $12.8bn)"
+        },
+        {
+          "k": "Large bookings",
+          "v": "141 of $100m+ (record)"
+        },
+        {
+          "k": "FY2026 revenue",
+          "v": "$74.2 billion"
+        },
+        {
+          "k": "AI and data staff",
+          "v": "Nearly 110,000"
+        }
+      ],
+      "questions": [
+        "Is consulting demand weakening while managed services grow?",
+        "How much of the AI uplift is price versus volume?"
+      ],
+      "unknowns": [
+        "Accenture no longer discloses AI revenue, so AI's share is unclear."
+      ],
+      "sources": [
+        {
+          "stype": "Research",
+          "src": "Constellation Research: Accenture Q4 results",
+          "url": "https://www.constellationr.com/insights/news/accentures-q4-results-indicate-enterprise-ai-broadening"
+        },
+        {
+          "stype": "Press",
+          "src": "National CIO Review: Accenture sees lower AI costs",
+          "url": "https://nationalcioreview.com/articles-insights/cio-field-notes/accenture-sees-lower-ai-costs-unlocking-more-enterprise-use-cases/"
+        },
+        {
+          "stype": "Press",
+          "src": "InMoney: Accenture Q4 earnings analysis",
+          "url": "https://www.indmoney.com/blog/us-stocks/accenture-q4-earnings-analysis-why-is-acn-stock-rising"
+        }
+      ],
+      "kicker": "Industry desk",
+      "year": "2026",
+      "firm": "Accenture"
+    },
+    {
+      "id": "con-accenture-fy27-outlook",
+      "desk": "Consulting industry",
+      "date": "Oct 1",
+      "lens": "Capital & M&A",
+      "confidence": "Reported",
+      "readTime": "3 min read",
+      "title": "Accenture's fiscal 2027 guide leans on acquisitions: about $5 billion more planned",
+      "summary": "Revenue growth of 3% to 6% includes 2 to 2.5 points from acquisitions, implying slower organic growth.",
+      "cs": "Even the market leader is buying capability rather than growing it organically. Boutique AI and data firms are the likely targets.",
+      "paras": [
+        "Earnings Whispers calculates that Accenture's guidance of 3% to 6% local-currency growth in fiscal 2027 includes 2 to 2.5 points from acquisitions, implying organic growth of roughly 1% to 3.5% versus about 3% in fiscal 2026. Management plans about $5 billion more in deals after deploying $4.9 billion across 17 deals in fiscal 2026.",
+        "Benzinga reports the first-quarter revenue guide is $18.95 billion to $19.60 billion and that Accenture plans to return at least $9.5 billion to shareholders. Analysts quoted by Benzinga are split: Susquehanna worries AI could disrupt systems integration and application development, which make up nearly half of revenue."
+      ],
+      "facts": [
+        {
+          "k": "FY27 revenue growth guide",
+          "v": "3% to 6% local currency"
+        },
+        {
+          "k": "From acquisitions",
+          "v": "2 to 2.5 points"
+        },
+        {
+          "k": "FY26 acquisitions",
+          "v": "$4.9bn across 17 deals"
+        },
+        {
+          "k": "Planned FY27 deals",
+          "v": "About $5bn"
+        },
+        {
+          "k": "Shareholder returns FY27",
+          "v": "At least $9.5bn"
+        }
+      ],
+      "questions": [
+        "Which capabilities will Accenture buy next?",
+        "Do acquisitions inflate reported growth versus competitors?"
+      ],
+      "unknowns": [
+        "Organic growth is an analyst calculation, not company guidance."
+      ],
+      "sources": [
+        {
+          "stype": "Research",
+          "src": "Earnings Whispers: ACN fiscal Q4 analysis",
+          "url": "https://earningswhispers.com/article/ACN/r54"
+        },
+        {
+          "stype": "Press",
+          "src": "Benzinga: Accenture Q4 beats, FY27 guide",
+          "url": "https://www.benzinga.com/node/62112964"
+        }
+      ],
+      "kicker": "Industry desk",
+      "year": "2026",
+      "firm": "Accenture"
+    },
+    {
+      "id": "con-mckinsey-headcount",
+      "desk": "Consulting industry",
+      "date": "Jul 20",
+      "lens": "Talent & operations",
+      "confidence": "Reported",
+      "readTime": "3 min read",
+      "title": "McKinsey has shrunk from a 45,000 peak and weighs cutting about 10% of non-client roles",
+      "summary": "Reports say the cuts target back-office and support functions, while client-facing hiring in North America grows.",
+      "cs": "The 'barbell' is the story: entry-level and senior roles hold, and the middle and back office shrink. It matters for anyone planning a consulting career.",
+      "paras": [
+        "StrategyCase, written by a former McKinsey senior consultant, says McKinsey took its headcount from a 2022 peak above 45,000 to roughly 40,000 while planning a 12% increase in North American headcount in 2026, with junior ranks up as much as 20%. Quartz notes revenue growth has stalled after the multi-year hiring spree.",
+        "AI Weekly summarizes reports that McKinsey is targeting 10% cuts in non-client-facing headcount over 18 to 24 months, and that PwC US cut about 600 executive-assistant roles. A McKinsey spokesperson said the aim is to make support functions more efficient, including by using AI."
+      ],
+      "facts": [
+        {
+          "k": "Peak headcount",
+          "v": "Above 45,000 (2022)"
+        },
+        {
+          "k": "Current headcount",
+          "v": "About 40,000"
+        },
+        {
+          "k": "Reported target",
+          "v": "About 10% of non-client roles over 18-24 months"
+        },
+        {
+          "k": "North America 2026 plan",
+          "v": "+12% headcount, junior up to 20%"
+        }
+      ],
+      "questions": [
+        "Which support roles are most exposed?",
+        "Does junior hiring really expand, or only for AI-fluent grads?"
+      ],
+      "unknowns": [
+        "The cut size is reported, not announced; McKinsey has not published a number."
+      ],
+      "sources": [
+        {
+          "stype": "Research",
+          "src": "StrategyCase: The consulting job market in 2026",
+          "url": "https://strategycase.com/consulting-job-market.md"
+        },
+        {
+          "stype": "Press",
+          "src": "Quartz: McKinsey white-collar layoffs",
+          "url": "https://qz.com/mckinsey-white-collar-jobs-layoffs"
+        },
+        {
+          "stype": "Aggregator",
+          "src": "AI Weekly: McKinsey, PwC, EY cut EA roles",
+          "url": "https://aiweekly.co/alerts/mckinsey-pwc-ey-cut-ea-roles-as-ai-takes-over"
+        }
+      ],
+      "kicker": "Industry desk",
+      "year": "2026",
+      "firm": "McKinsey"
+    },
+    {
+      "id": "con-graduate-hiring",
+      "desk": "Consulting industry",
+      "date": "May 31",
+      "lens": "Talent & operations",
+      "confidence": "Reported",
+      "readTime": "3 min read",
+      "title": "Graduate hiring splits: Bain raises its intake 25% while the Big Four trim theirs",
+      "summary": "Starting pay at the top firms was frozen for a third year. Firms differ on whether AI replaces junior work.",
+      "cs": "For a first-year student, the signal is that AI fluency and judgment matter more than volume of entry roles. Firms are choosing different strategies.",
+      "paras": [
+        "City A.M., via Pulse, reports Bain raised graduate hires 25% to exceed pre-pandemic levels, Alvarez & Marsal is targeting US and European campuses and BCG is holding or slightly raising entry-level hiring. The same report says the Big Four have already cut hundreds of graduate roles.",
+        "The Irish Times reported in December that McKinsey, BCG and Bain froze starting salaries for 2026 for a third year, and that Big Four starting pay has not risen since 2022. In February the Irish Times reported PwC UK applications up 35% and that PwC chose not to automate some junior work so staff learn judgment."
+      ],
+      "facts": [
+        {
+          "k": "Bain graduate hiring",
+          "v": "+25% (City A.M., May 2026)"
+        },
+        {
+          "k": "Top-firm starting pay",
+          "v": "Frozen for a third year"
+        },
+        {
+          "k": "Big Four starting pay",
+          "v": "No rise since 2022"
+        },
+        {
+          "k": "PwC UK applications",
+          "v": "+35%"
+        }
+      ],
+      "questions": [
+        "Will AI-first hiring tests become standard?",
+        "Does firm size predict hiring strategy?"
+      ],
+      "unknowns": [
+        "Hiring plans change quickly and are reported secondhand."
+      ],
+      "sources": [
+        {
+          "stype": "Press",
+          "src": "Pulse (City A.M.): BCG, Bain and Alvarez ramp up entry-level hiring",
+          "url": "https://www.pulse.bot/human-resources/news/bcg-bain-and-alvarez-to-ramp-up-entry-level-hiring-despite-ai-fears-a19e2b12-5837-4055-be77-4e552770076d/"
+        },
+        {
+          "stype": "Press",
+          "src": "Irish Times: top consultancies freeze starting salaries",
+          "url": "https://www.irishtimes.com/business/2025/12/01/top-consultancies-freeze-starting-salaries-as-ai-threatens-pyramid-model"
+        },
+        {
+          "stype": "Press",
+          "src": "Irish Times: PwC UK applications jump 35%",
+          "url": "https://www.irishtimes.com/business/2026/02/13/pwc-uk-applications-jump-35-in-graduate-jobs-drought/"
+        }
+      ],
+      "kicker": "Industry desk",
+      "year": "2026",
+      "firm": "Industry"
+    },
+    {
+      "id": "ps-digital-transformation-canada",
+      "desk": "Public sector",
+      "date": "Nov 5",
+      "lens": "Technology & disruption",
+      "confidence": "Reported",
+      "readTime": "3 min read",
+      "title": "Ottawa launches Digital Transformation Canada and budgets $1 billion for government IT",
+      "summary": "The new body folds in Shared Services Canada and other digital teams. Budget 2026 proposes a $1 billion Government Transformation Fund and a Digital Transformation Canada Act.",
+      "cs": "A large, long-running public-sector tech-modernisation market. Procurement, change-management and AI-adoption work sit inside it.",
+      "paras": [
+        "Digital Transformation Canada was launched on 3 September, led by CEO Patrick Pichette, a former Bell Canada and McKinsey executive. Its own site says it brings together Shared Services Canada and selected functions from the Treasury Board Secretariat, Public Services and Procurement Canada, and Employment and Social Development Canada.",
+        "Budget 2026, tabled 5 November, proposes about $1 billion over five years from 2026-27 for a Government Transformation Fund, $17.6 million over five years for a private-sector fellowship, and a future Digital Transformation Canada Act. Gowling WLG also notes $176.3 million over five years for a Digital Safety and Data Protection Commission. CTV reports the GCtranslate tool has translated more than 400 million words."
+      ],
+      "facts": [
+        {
+          "k": "Launched",
+          "v": "3 Sep 2026, CEO Patrick Pichette"
+        },
+        {
+          "k": "Government Transformation Fund",
+          "v": "About $1bn over five years (proposed)"
+        },
+        {
+          "k": "Fellowship programme",
+          "v": "$17.6m over five years"
+        },
+        {
+          "k": "New legislation",
+          "v": "Digital Transformation Canada Act (planned)"
+        }
+      ],
+      "questions": [
+        "Which departments get first call on the fund?",
+        "How will fellows be matched to projects?"
+      ],
+      "unknowns": [
+        "Budget measures are proposals until Parliament passes them.",
+        "Operating budget for the new body is not published."
+      ],
+      "sources": [
+        {
+          "stype": "Primary",
+          "src": "Government of Canada: About Digital Transformation Canada",
+          "url": "https://www.canada.ca/en/shared-services/digital-transformation.html"
+        },
+        {
+          "stype": "Press",
+          "src": "BNN Bloomberg: Feds to spend $1 billion on digital transformation",
+          "url": "https://www.bnnbloomberg.ca/business/politics/2026/11/05/feds-to-spend-1-billion-on-digital-transformation-of-public-service/"
+        },
+        {
+          "stype": "Research",
+          "src": "Gowling WLG: Investing in intelligence",
+          "url": "https://gowlingwlg.com/en/insights-resources/articles/2026/investing-in-intelligence"
+        }
+      ],
+      "kicker": "Industry desk",
+      "year": "2026",
+      "firm": "Industry"
+    },
+    {
+      "id": "ps-public-service-shrink",
+      "desk": "Public sector",
+      "date": "Nov 5",
+      "lens": "Talent & operations",
+      "confidence": "Reported",
+      "readTime": "3 min read",
+      "title": "The federal public service is down to 332,000 and on track for a 10% cut",
+      "summary": "Staff numbers have fallen from a 368,000 peak. Budget 2026 aligns operating budgets with savings from the Early Retirement Incentive programme.",
+      "cs": "Fewer people and more AI: departments need operating-model, automation and service-delivery redesign. Transition and workforce planning are core work.",
+      "paras": [
+        "BNN Bloomberg reports Budget 2026 states the government is on track to reduce the civil service by 10%. There were 332,000 federal public servants as of August 2026, down from a peak of 368,000 in 2023-24.",
+        "The budget says the government will align organization operating budgets with personnel savings from the Early Retirement Incentive programme. In parallel, Digital Transformation Canada is meant to lead adoption of AI across the public service."
+      ],
+      "facts": [
+        {
+          "k": "Public servants",
+          "v": "332,000 (Aug 2026)"
+        },
+        {
+          "k": "Peak",
+          "v": "368,000 in 2023-24"
+        },
+        {
+          "k": "Target",
+          "v": "About 10% reduction"
+        },
+        {
+          "k": "Mechanism",
+          "v": "Early Retirement Incentive; budgets aligned to savings"
+        }
+      ],
+      "questions": [
+        "Which services absorb the cuts?",
+        "Does AI offset the lost capacity?"
+      ],
+      "unknowns": [
+        "The 10% base year and timeline are not defined in the sources."
+      ],
+      "sources": [
+        {
+          "stype": "Press",
+          "src": "BNN Bloomberg: Feds to spend $1 billion on digital transformation",
+          "url": "https://www.bnnbloomberg.ca/business/politics/2026/11/05/feds-to-spend-1-billion-on-digital-transformation-of-public-service/"
+        },
+        {
+          "stype": "Press",
+          "src": "CTV News: Feds to spend $1 billion",
+          "url": "https://www.ctvnews.ca/ottawa/article/feds-to-spend-1-billion-on-digital-transformation-of-public-service/"
+        }
+      ],
+      "kicker": "Industry desk",
+      "year": "2026",
+      "firm": "Industry"
+    },
+    {
+      "id": "he-pfizer-q3-2026",
+      "desk": "Health",
+      "date": "Nov 3",
+      "lens": "Profit pools & margins",
+      "confidence": "Reported",
+      "readTime": "3 min read",
+      "title": "Pfizer raises 2026 guidance as launched and acquired products grow 32%",
+      "summary": "Revenue was flat at $16.6 billion. Excluding COVID products, it grew 7%. Full-year revenue guidance rises to $62 to $64 billion.",
+      "cs": "Big pharma is trading COVID decline for new-product growth. Cost programmes and 2027 pricing pressure drive consulting demand.",
+      "paras": [
+        "Pfizer reported third-quarter 2026 revenue of $16.6 billion, relatively flat, with adjusted EPS of $0.87. Excluding Comirnaty and Paxlovid, revenue grew 7% operationally, and launched and acquired products grew 32% operationally. Eliquis rose 25%, driven mainly by higher US net price. A $650 million in-process R&D charge for an Innovent licensing deal cost about $0.10 a share.",
+        "Pfizer raised full-year revenue guidance by $1.5 billion at the midpoint to $62 to $64 billion and adjusted EPS to $2.95 to $3.05. On the call it said IRA pricing, 340B changes and most-favoured-nation effects will feed 2027 guidance, due around mid-December, and that it is prioritizing bolt-on acquisitions."
+      ],
+      "facts": [
+        {
+          "k": "Q3 revenue",
+          "v": "$16.6 billion, flat"
+        },
+        {
+          "k": "Non-COVID revenue",
+          "v": "+7% operational"
+        },
+        {
+          "k": "Launched and acquired products",
+          "v": "+32% operational"
+        },
+        {
+          "k": "2026 revenue guidance",
+          "v": "$62-64 billion (raised $1.5bn)"
+        },
+        {
+          "k": "2026 adjusted EPS guidance",
+          "v": "$2.95-3.05"
+        }
+      ],
+      "questions": [
+        "How exposed is 2027 to pricing reform?",
+        "Which bolt-ons fit Pfizer's pipeline?"
+      ],
+      "unknowns": [
+        "2027 guidance is not due until mid-December."
+      ],
+      "sources": [
+        {
+          "stype": "Primary",
+          "src": "Pfizer: Q3 2026 results",
+          "url": "https://www.pfizer.com/news/articles/pfizer_s_third_quarter_results_reflect_confidence_and_momentum"
+        },
+        {
+          "stype": "Primary",
+          "src": "Pfizer (SEC exhibit): Q3 2026 results",
+          "url": "https://last10k.com/sec-filings/pfe/0000078003-26-000125.htm"
+        },
+        {
+          "stype": "Aggregator",
+          "src": "AlphaSense: Pfizer Q3 2026 analysis",
+          "url": "https://www.alpha-sense.com/earnings/pfe/"
+        }
+      ],
+      "kicker": "Industry desk",
+      "year": "2026",
+      "firm": "Pfizer"
+    },
+    {
+      "id": "he-health-canada-reliance-order",
+      "desk": "Health",
+      "date": "Jul 15",
+      "lens": "Regulation & policy",
+      "confidence": "Reported",
+      "readTime": "3 min read",
+      "title": "Health Canada lets reviewers rely on foreign regulators' decisions to speed drug approvals",
+      "summary": "A Ministerial Reliance Order, now in force, cuts duplicate review. A separate pilot would prioritize domestically made generics.",
+      "cs": "Drug makers and market-access teams may get faster Canadian launches. Regulatory strategy and submission sequencing change.",
+      "paras": [
+        "Health Canada announced on 15 July a package to speed access to medicines. CP24 reports a new order lets it rely on decisions or documents from certain foreign regulators, to reduce unnecessary duplication while keeping national safety, efficacy and quality requirements. Smart & Biggar reported in August that the order is now in force.",
+        "The same package opened a consultation, from 15 July to 12 September, on prioritizing certain generic submissions involving domestic manufacturing. Smart & Biggar's mid-year review also notes Canada's Drug Agency streamlined its reimbursement review process for submissions from August."
+      ],
+      "facts": [
+        {
+          "k": "Announced",
+          "v": "15 Jul 2026"
+        },
+        {
+          "k": "Order",
+          "v": "Ministerial Reliance Order, in force"
+        },
+        {
+          "k": "Generics pilot consultation",
+          "v": "15 Jul to 12 Sep 2026"
+        },
+        {
+          "k": "Reimbursement reviews",
+          "v": "Streamlined process for Aug 2026 submissions"
+        }
+      ],
+      "questions": [
+        "Which foreign regulators will Health Canada rely on?",
+        "Will reliance shorten reimbursement as well as approval?"
+      ],
+      "unknowns": [
+        "Approval timelines under the order are not yet published."
+      ],
+      "sources": [
+        {
+          "stype": "Press",
+          "src": "CP24: Health Canada introduces order to expedite drug approvals",
+          "url": "https://www.cp24.com/news/canada/2026/07/16/health-canada-introduces-order-to-expedite-drug-approvals-in-canada/"
+        },
+        {
+          "stype": "Primary",
+          "src": "Health Canada: Helping Canadians access treatments faster",
+          "url": "https://www.canada.ca/en/health-canada/news/2026/07/helping-canadians-access-safe-effective-treatments-and-medicines-faster.html"
+        },
+        {
+          "stype": "Research",
+          "src": "Smart & Biggar: 2026 mid-year highlights",
+          "url": "https://www.smartbiggar.ca/insights/publication/2026-mid-year-highlights-in-canadian-life-sciences-ip-and-regulatory-law"
+        }
+      ],
+      "kicker": "Industry desk",
+      "year": "2026",
+      "firm": "Industry"
+    },
+    {
+      "id": "he-canada-drug-shortage-rules",
+      "desk": "Health",
+      "date": "Oct 7",
+      "lens": "Risks & unknowns",
+      "confidence": "Reported",
+      "readTime": "3 min read",
+      "title": "Canada tightens drug-shortage rules and issues guidance on extending expiry dates",
+      "summary": "New regulations give Health Canada more power to manage shortages, and an October guide covers extending expiry dates.",
+      "cs": "Supply-chain, manufacturers and hospital procurement teams face new notification duties. Resilience planning becomes a compliance matter.",
+      "paras": [
+        "Fasken says Health Canada expanded its authority to monitor and manage drug shortages, and manufacturers must now notify it if they have not sold a drug in Canada for twelve months. Smart & Biggar reports the regulations amending the Food and Drugs Act on shortages and discontinuation of sale were published on 17 June.",
+        "On 7 October Health Canada published a guide, GUI-0500, on extending expiration dates of marketed drugs in response to shortages."
+      ],
+      "facts": [
+        {
+          "k": "Regulations published",
+          "v": "17 Jun 2026"
+        },
+        {
+          "k": "New duty",
+          "v": "Notify after 12 months without sales in Canada"
+        },
+        {
+          "k": "Guide",
+          "v": "GUI-0500, 7 Oct 2026"
+        }
+      ],
+      "questions": [
+        "How many supply-chain notices will this generate?",
+        "Which manufacturers face the largest compliance burden?"
+      ],
+      "unknowns": [
+        "Penalty provisions were not covered in the sources used."
+      ],
+      "sources": [
+        {
+          "stype": "Research",
+          "src": "Fasken: Health Canada strengthens drug shortage framework",
+          "url": "https://www.fasken.com/en/knowledge/2026/07/health-canada-strengthens-the-drug-and-medical-device-shortage-framework"
+        },
+        {
+          "stype": "Research",
+          "src": "Smart & Biggar: Updated shortage regulations",
+          "url": "https://www.smartbiggar.ca/insights/publication/new-regulatory-amendments-formalize-updates-to-the-drug-and-medical-device-shortages-framework"
+        }
+      ],
+      "kicker": "Industry desk",
+      "year": "2026",
+      "firm": "Industry"
     }
   ]
 }
