@@ -116,7 +116,12 @@ Top-level: schema, edition{id,label,published,next}, lead (story id), stories[],
 bigMoves[], radar[], vancouver{stories[],jobs[]}, howItWorks[3 — exactly], archive[], corrections[].
 Also data/library.json ({"items":[]}, past How It Works deep dives) and data/backlog.json ([{topic,sector,hook}]).
 Story ids: lowercase-hyphen slugs, unique, stable across editions (articles keep their links).
-When stories drop off the front page, move them (full objects) into `archive[]` (keep last 90 days; older → data/archive-YYYY-MM.json).
+ARCHIVE (nothing is ever deleted; old links must keep working): at the start of every run, compare the previous edition.json with
+the new draft. Every item whose id is NOT in the new edition (stories, bigMoves, radar, wire, vancouver.stories) is copied in full
+into data/archive/YYYY-MM.json (month of today; {"items":[...]}, newest first) with `kind` (story|move|radar|wire|van) and
+`archivedOn` (YYYY-MM-DD) added. Add the month to data/archive/months.json if new. Items that stay on the page are not archived.
+Use the same ids as before. Archive ids must be unique and must not overlap the live edition (validate.py checks this).
+Leave edition.archive[] empty. How It Works items go to data/library.json instead (§6).
 
 ## 13. Run procedure (crash-safe)
 1. Read RULES.md, data/edition.json, data/status.json, data/backlog.json (if any).

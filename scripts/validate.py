@@ -59,3 +59,15 @@ need("<script" not in txt.lower(), "script tag found in data")
 if errs:
     print("VALIDATION FAILED:"); [print(" -", e) for e in errs]; sys.exit(1)
 print("OK:", len(S), "stories,", len(d.get("wire") or []), "wire,", len(d.get("bigMoves") or []), "big moves")
+
+# archive integrity (non-fatal files may not exist yet)
+adir = os.path.join(os.path.dirname(os.path.abspath(p)), "archive")
+if os.path.isdir(adir):
+    aids = []
+    for f in sorted(os.listdir(adir)):
+        if f.endswith(".json") and f != "months.json":
+            aids += [x.get("id") for x in json.load(open(os.path.join(adir, f))).get("items", [])]
+    if len(aids) != len(set(aids)): errs.append("duplicate ids in data/archive")
+    if set(aids) & set(allids): errs.append("archive ids overlap with the live edition")
+    if errs:
+        print("VALIDATION FAILED:"); [print(" -", e) for e in errs]; sys.exit(1)

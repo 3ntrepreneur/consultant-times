@@ -151,7 +151,7 @@ const DESKS = ["Tech & AI","Financial services","Energy & resources","Consumer &
 const SECTIONS = ["Latest","AI & Tools","Big Moves","Vancouver","How It Works"];
 const KC = { "Deals":"#C70000","Big Moves":"#C70000","Research":"#005689","Models":"#C05A00","Tools":"#C05A00","Workforce":"#7D0068","Strategy":"#3D5A80","Regulation":"#3D5A80" };
 const MC = { "M&A":"#005689", "IPO":"#1F8A4C", "Scandal":"#C70000", "Funding":"#7D0068", "Canada":"#C05A00", "Earnings":"#3D5A80", "Leadership":"#3D5A80" };
-const st = { data:null, lib:[], view:"Latest", firm:"All", desk:"All", menu:null, moveType:"All" };
+const st = { data:null, lib:[], arch:[], archDone:false, q:"", akind:"All", view:"Latest", firm:"All", desk:"All", menu:null, moveType:"All" };
 
 // ---------- helpers ----------
 const esc = (v) => String(v == null ? "" : v).replace(/[&<>"']/g, (c) => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
@@ -163,8 +163,18 @@ function when(s){ return esc(s.date || "") + (s.time ? " · " + esc(s.time) : ""
 function storyMatches(s){ return (st.firm==="All" || s.firm===st.firm) && (st.desk==="All" || s.desk===st.desk); }
 
 // ---------- data loading with fallback ----------
+const getJSON = async (p) => { const r = await fetch(p + "?v=" + Date.now(), { cache:"no-store" }); if (!r.ok) throw new Error(p); return r.json(); };
+async function loadArchive(){
+  if (st.archDone) return;
+  try {
+    const months = arr(await getJSON("data/archive/months.json"));
+    const parts = await Promise.all(months.map((m) => getJSON("data/archive/" + encodeURIComponent(m) + ".json").catch(() => ({ items: [] }))));
+    st.arch = [].concat(...parts.map((p) => arr(p.items)));
+  } catch(e){ st.arch = []; }
+  st.archDone = true;
+}
 async function load(){
-  const tryGet = async (p) => { const r = await fetch(p + "?v=" + Date.now(), { cache:"no-store" }); if (!r.ok) throw new Error(p); return r.json(); };
+  const tryGet = getJSON;
   try { st.data = await tryGet("data/edition.json"); }
   catch(e){ try { st.data = await tryGet("data/last-good.json"); st.data._fallback = true; } catch(e2){ st.data = null; } }
   try { const l = await tryGet("data/library.json"); st.lib = arr(l.items); } catch(e){ st.lib = []; }
@@ -188,7 +198,7 @@ function renderNav(){
   if (st.menu==="burger") p += chips("Sections", SECTIONS.map((s)=>chip(s, st.view===s, "view:"+s)).join("") + chip("About","false","page:about") + chip("How we work","false","page:how-we-work"));
   if (st.menu==="firms" || st.menu==="burger") p += chips("Filter by firm", chip("All firms", st.firm==="All", "firm:All") + FIRMS.map((f)=>chip(f==="Industry"?"Industry-wide":f, st.firm===f, "firm:"+f)).join(""));
   if (st.menu==="desks" || st.menu==="burger") p += chips("Industry desks", chip("All industries", st.desk==="All", "desk:All") + DESKS.map((d)=>chip(d, st.desk===d, "desk:"+d)).join(""));
-  if (st.menu==="more") p += chips("More", chip("About","false","page:about") + chip("How we work","false","page:how-we-work") + chip("Corrections","false","page:corrections") + chip("Suggestions & feedback","false","page:feedback"));
+  if (st.menu==="more") p += chips("More", chip("About","false","page:about") + chip("How we work","false","page:how-we-work") + chip("Archive","false","page:archive") + chip("Corrections","false","page:corrections") + chip("Suggestions & feedback","false","page:feedback"));
   panel.innerHTML = p;
   document.getElementById("burger").setAttribute("aria-expanded", st.menu==="burger" ? "true" : "false");
 }
@@ -285,7 +295,7 @@ function footerHTML(){
   return `<div><div class="serif" style="font-weight:900;font-size:22px">The Consultant Times</div><div class="muted">Business news through a consultant's lens. New edition every weekday at 6am PT, plus a Friday wrap-up. ${by}</div></div>
   <div><b>Independent, AI-assisted</b><br><span class="muted">Curated and written with AI under <a href="#how-we-work">published editorial rules</a>. Not affiliated with, or paid by, any company covered.</span></div>
   <div><b>Not financial advice</b><br><span class="muted">Nothing on this site is investment advice.</span></div>
-  <div><b>Sources and corrections</b><br><span class="muted">Every item links its source and labels its type. Spot an error? <a href="#feedback">Tell us</a> and it's fixed in the next edition. <a href="#corrections">Corrections log</a>.</span></div>`;
+  <div><b>Sources and corrections</b><br><span class="muted">Every item links its source and labels its type. Spot an error? <a href="#feedback">Tell us</a> and it's fixed in the next edition. <a href="#corrections">Corrections log</a>. <a href="#archive">Browse the archive</a>.</span></div>`;
 }
 
 // ---------- category pages (each section has its own layout) ----------
@@ -415,6 +425,26 @@ function deskPage(d, desk){
 }
 function noneHTML(name){ return `<p class="notice">Nothing in ${esc(name)} yet. Check back at the next edition.</p>`; }
 
+// ---------- archive ----------
+const AKINDS = { "All":null, "Stories":"story", "Big Moves":"move", "Wire":"wire", "Vancouver":"van", "Under the Radar":"radar", "How It Works":"how" };
+function archiveItems(){
+  const lib = arr(st.lib).map((x) => Object.assign({}, x, { kind:"how", archivedOn: x.archivedOn || "" }));
+  return arr(st.arch).concat(lib);
+}
+function archiveList(){
+  const k = AKINDS[st.akind], q = st.q.trim().toLowerCase();
+  const items = archiveItems().filter((x) => (!k || x.kind === k) && (!q || ((x.title || x.text || "") + " " + (x.summary || x.body || "") + " " + (x.firm || x.co || "")).toLowerCase().indexOf(q) >= 0));
+  if (!items.length) return `<p class="notice">${archiveItems().length ? "Nothing matches that search." : "The archive starts filling after the next edition. Every story, move and wire item we publish is kept here."}</p>`;
+  const groups = {};
+  items.forEach((x) => { const m = (x.archivedOn || "").slice(0, 7) || "Earlier"; (groups[m] = groups[m] || []).push(x); });
+  const label = (m) => { if (m === "Earlier") return m; const [y, mo] = m.split("-"); return ["January","February","March","April","May","June","July","August","September","October","November","December"][+mo - 1] + " " + y; };
+  return Object.keys(groups).sort().reverse().map((m) => `<h2 class="serif" style="font-weight:900;font-size:24px;margin:26px 0 4px">${esc(label(m))} <span class="muted" style="font-size:14px;font-weight:500">· ${groups[m].length} items</span></h2><div style="border-top:2px solid var(--ink)">${groups[m].map((x) => { const t = x.title || x.text || ""; const lab = x.kicker || x.type || x.tag || (x.kind === "how" ? "How it works" : ""); return `<div style="display:flex;gap:16px;padding:12px 0;border-bottom:1px solid var(--rule)"><span class="mono muted" style="width:64px;flex:0 0 64px;font-size:12px;padding-top:3px">${esc(x.date || "")}</span><span style="min-width:0"><span class="kick" style="font-size:11px;color:${colOf(Object.assign({ kind:x.kind }, x))}">${esc(lab)}${x.firm && x.firm !== "Industry" ? " · " + esc(x.firm) : ""}</span><br><a class="serif" href="#story-${esc(x.id)}" style="font-weight:700;font-size:19px;line-height:1.3;text-decoration:none">${esc(t)}</a></span></div>`; }).join("")}</div>`).join("");
+}
+function archivePage(){
+  return `${pageBand("The Archive", "Every story, move, wire item and deep dive we've published. Nothing is deleted, and every old link keeps working.", "#1B2A41", "SEARCH THE PAST")}
+  <section style="padding:24px 0 8px"><div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center"><input id="arch-q" type="search" placeholder="Search headlines, companies, firms…" value="${esc(st.q)}" style="flex:1 1 280px;min-height:46px;padding:0 14px;border:1px solid var(--ink);background:#fff;font:inherit;font-size:16px"><div style="display:flex;flex-wrap:wrap;gap:6px">${Object.keys(AKINDS).map((k) => `<button class="tab" data-act="akind:${esc(k)}" aria-pressed="${st.akind === k}">${esc(k)}</button>`).join("")}</div></div><div id="arch-list">${st.archDone ? archiveList() : '<p class="notice">Loading the archive…</p>'}</div></section>`;
+}
+
 // ---------- pages ----------
 function home(d){
   let h = "";
@@ -445,9 +475,10 @@ function articlePage(d, id){
     title: x.title || x.text,
     summary: x.summary || x.body || (kind==="wire" ? x.text : ""),
     sources: arr(x.sources).length ? x.sources : (x.url ? [{ stype: x.stype || "Source", src: x.src, url: x.url }] : []) });
-  const pool = arr(d.stories).map((x)=>norm(x,"story")).concat(arr(d.archive).map((x)=>norm(x,"story")), arr(d.bigMoves).map((x)=>norm(x,"move")), arr(d.radar).map((x)=>norm(x,"radar")), arr((d.vancouver||{}).stories).map((x)=>norm(x,"van")), arr(d.wire).map((x)=>norm(x,"wire")), arr(d.howItWorks).map((x)=>norm(x,"how")), arr(st.lib).map((x)=>norm(x,"how")));
+  const pool = arr(d.stories).map((x)=>norm(x,"story")).concat(arr(d.archive).map((x)=>norm(x,"story")), arr(d.bigMoves).map((x)=>norm(x,"move")), arr(d.radar).map((x)=>norm(x,"radar")), arr((d.vancouver||{}).stories).map((x)=>norm(x,"van")), arr(d.wire).map((x)=>norm(x,"wire")), arr(d.howItWorks).map((x)=>norm(x,"how")), arr(st.lib).map((x)=>norm(x,"how")), arr(st.arch).map((x)=>norm(x, x.kind||"story")));
   const s = pool.find((x)=>x.id===id);
-  if (!s) return `<div class="art"><a href="#">← Back to the front page</a><h1>Story not found</h1><p>It may have moved to the archive.</p></div>`;
+  if (!s && !st.archDone) { loadArchive().then(() => { if (location.hash === "#story-" + id) render(); }); return `<div class="art"><p class="notice">Looking in the archive…</p></div>`; }
+  if (!s) return `<div class="art"><a href="#">← Back to the front page</a><h1>Story not found</h1><p>We couldn't find that story. Try the <a href="#archive">archive</a>.</p></div>`;
   const facts = arr(s.facts).length ? `<div class="facts">${arr(s.facts).map((f)=>`<div><div class="k">${esc(f.k)}</div><div class="v">${esc(f.v)}</div></div>`).join("")}</div>` : "";
   const paras = arr(s.paras);
   const related = arr(d.stories).filter((x)=>x.id!==s.id).slice(0,3);
@@ -496,6 +527,7 @@ function render(){
   const ed = d.edition || {};
   document.getElementById("dateline").textContent = (ed.label || "") + (ed.next ? " · NEXT EDITION " + ed.next : "") + (d._fallback ? " · SHOWING PREVIOUS EDITION" : "");
   document.title = "The Consultant Times — business news through a consultant's lens";
+  if (hash === "archive") { document.getElementById("filterbar").innerHTML = ""; main.innerHTML = archivePage() + feedbackHTML(); if (!st.archDone) loadArchive().then(() => { if (location.hash === "#archive") render(); }); return; }
   if (hash.startsWith("story-")) main.innerHTML = articlePage(d, hash.slice(6));
   else if (["about","how-we-work","corrections"].includes(hash)) main.innerHTML = staticPage(hash, d);
   else { main.innerHTML = home(d); if (hash==="feedback") { const f=document.getElementById("feedback"); if (f) f.scrollIntoView(); } }
@@ -508,11 +540,13 @@ document.addEventListener("click", (e) => {
   else if (k==="firm") { st.firm = v; st.desk = "All"; st.view = "Latest"; st.menu = null; if (location.hash) history.pushState("", "", location.pathname); }
   else if (k==="desk") { st.desk = v; st.firm = "All"; st.view = "Latest"; st.menu = null; if (location.hash) history.pushState("", "", location.pathname); }
   else if (k==="move") st.moveType = v;
+  else if (k==="akind") st.akind = v;
   else if (k==="page") { st.menu = null; location.hash = v; return; }
   else if (k==="reset") { st.firm="All"; st.desk="All"; st.view="Latest"; }
   render();
   if (["view","firm","desk","reset"].includes(k)) window.scrollTo(0,0);
 });
+document.addEventListener("input", (e) => { if (e.target && e.target.id === "arch-q") { st.q = e.target.value; const l = document.getElementById("arch-l" + "ist"); if (l) l.innerHTML = archiveList(); } });
 document.getElementById("burger").addEventListener("click", () => { st.menu = st.menu==="burger" ? null : "burger"; render(); });
 window.addEventListener("hashchange", () => { render(); window.scrollTo(0,0); });
 load();
