@@ -79,6 +79,30 @@
   {
    "topic": "Streaming and media",
    "hook": "Content costs and subscriptions"
+  },
+  {
+   "topic": "Trucking",
+   "hook": "Operating ratio, fuel and drivers"
+  },
+  {
+   "topic": "Self-storage and other 'boring' businesses",
+   "hook": "Clean economics and land value"
+  },
+  {
+   "topic": "Car dealerships",
+   "hook": "Why service and financing matter more than new cars"
+  },
+  {
+   "topic": "Utilities",
+   "hook": "Regulated returns and demand from data centres"
+  },
+  {
+   "topic": "Dental and clinic networks",
+   "hook": "Roll-ups and unit economics"
+  },
+  {
+   "topic": "Credit unions versus banks",
+   "hook": "Structure, member ownership and margins"
   }
  ],
  "business": [
@@ -161,6 +185,34 @@
   {
    "topic": "Tesla",
    "hook": "Margins, software and robotaxis"
+  },
+  {
+   "topic": "Marriott",
+   "hook": "Asset-light franchising"
+  },
+  {
+   "topic": "McDonald's",
+   "hook": "A real-estate business with a menu"
+  },
+  {
+   "topic": "Amazon",
+   "hook": "Retail, marketplace, AWS and Prime stacked"
+  },
+  {
+   "topic": "Apple",
+   "hook": "Hardware, App Store fees and services"
+  },
+  {
+   "topic": "Visa and Mastercard",
+   "hook": "Interchange and network effects"
+  },
+  {
+   "topic": "Air Canada and Aeroplan",
+   "hook": "Loyalty points as a currency"
+  },
+  {
+   "topic": "Zara (Inditex)",
+   "hook": "Fast fashion as a logistics strategy"
   }
  ],
  "strategy": [
@@ -243,6 +295,38 @@
   {
    "topic": "Competitive benchmarking",
    "hook": "Comparing against rivals"
+  },
+  {
+   "topic": "Spotting a business model in 60 seconds",
+   "hook": "Who pays, for what, and what is recurring"
+  },
+  {
+   "topic": "Moats and durable advantage",
+   "hook": "Seven sources of advantage with real examples"
+  },
+  {
+   "topic": "Disruption",
+   "hook": "How low-end entrants beat incumbents"
+  },
+  {
+   "topic": "Price wars and the prisoner's dilemma",
+   "hook": "How rivals avoid destroying margins"
+  },
+  {
+   "topic": "Vertical integration versus outsourcing",
+   "hook": "Build, buy or partner"
+  },
+  {
+   "topic": "Deal math and valuation multiples",
+   "hook": "EV, synergies and what multiples mean"
+  },
+  {
+   "topic": "Pricing psychology",
+   "hook": "Anchoring, decoys and bundling"
+  },
+  {
+   "topic": "Reading macro indicators",
+   "hook": "Rates, inflation and what they move by sector"
   }
  ]
 }

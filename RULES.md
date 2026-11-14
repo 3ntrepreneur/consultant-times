@@ -98,6 +98,9 @@ Purpose: every desk page should read like a newspaper section and answer what a 
 - Items older than 60 days are archived with kind "desk" (see archive procedure). Standing items with future `dates` stay until the last date passes.
 - Government or company claims (for example a White House release) are labelled as claims in the text.
 
+## 6e. Method guide (`data/guide.md`)
+Read `data/guide.md` before drafting any How It Works piece or desk story. It holds the owner's business-acumen method: one master question per piece, the 60-second business-model test, the moat checklist, what every Industry piece must include, and number discipline. It is method only. Never publish unsourced "industry-typical" figures; cite a real source for every number.
+
 ## 6c. Policy & Regulation (own tab; `policy[]` in edition.json)
 Purpose: government rules, funding and deadlines that create client work. AI policy first, then trade, tax, competition, privacy,
 procurement and sector regulation that move business. 3–5 new items a day when there is news; never pad.
@@ -157,7 +160,7 @@ Use the same ids as before. Archive ids must be unique and must not overlap the 
 Leave edition.archive[] empty. How It Works items go to data/library.json instead (§6).
 
 ## 13. Run procedure (crash-safe)
-1. Read RULES.md, data/edition.json, data/status.json, data/backlog.json (if any).
+1. Read RULES.md, data/guide.md, data/edition.json, data/status.json, data/backlog.json (if any).
 2. Research (including each desk per §6d) → fact sheets → score → draft new edition into `data/edition.next.json`.
 3. Independent check pass: re-open sources and verify every number, name, date, and URL in new/changed items. Fix or cut.
 4. Run `python3 scripts/validate.py data/edition.next.json`. If it fails: fix and re-run once. If it still fails: do NOT
