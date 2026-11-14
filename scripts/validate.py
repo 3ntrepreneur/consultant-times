@@ -39,6 +39,12 @@ for j in (d.get("vancouver") or {}).get("jobs") or []:
     need(https(j.get("url")), f"job url bad: {j.get('role')}")
     if j.get("closes"): need(j["closes"] >= today, f"job expired: {j.get('role')}")
 need(len(d.get("howItWorks") or []) >= 1, "howItWorks empty")
+allitems = [("bigMove", m) for m in d.get("bigMoves") or []] + [("radar", r) for r in d.get("radar") or []] + [("vancouver", v) for v in (d.get("vancouver") or {}).get("stories") or []] + [("wire", w) for w in d.get("wire") or []] + [("howItWorks", h) for h in d.get("howItWorks") or []]
+allids = ids + [x.get("id") for _, x in allitems]
+for kind, x in allitems: need(bool(re.fullmatch(r"[a-z0-9-]{3,80}", str(x.get("id", "")))), f"{kind} item missing/bad id: {str(x.get('title') or x.get('text'))[:50]}")
+need(len(allids) == len(set(allids)), "duplicate ids across sections")
+for h in d.get("howItWorks") or []:
+    if h.get("sections"): need(h.get("caseq") and h.get("caseAnswer") and len(h.get("sources") or []) >= 3, f"deep dive {h.get('id')} needs caseq, caseAnswer and 3+ sources")
 txt = json.dumps(d)
 need("<script" not in txt.lower(), "script tag found in data")
 if errs:

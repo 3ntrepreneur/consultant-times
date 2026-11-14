@@ -172,7 +172,7 @@ function leadHTML(s){
 }
 function wireHTML(w){
   return `<aside class="wire"><div style="display:flex;align-items:baseline;gap:10px"><h2 class="serif" style="font-weight:900;font-size:26px;margin:0">The Wire</h2><span class="muted" style="font-size:12px">quick hits, newest first</span></div>
-  <ol style="list-style:none;margin:10px 0 0;padding:0">${arr(w).map((x)=>`<li><span class="d">${esc(x.date)}</span><span style="min-width:0;font-size:15px;line-height:1.45"><b class="kick" style="font-size:11px;color:${kc(x.tag)}">${esc(x.tag)}</b>${x.isNew?'<span class="new">New</span>':""}<br>${esc(x.text)} <a href="${safeUrl(x.url)}" target="_blank" rel="noopener" class="muted" style="font-size:12px">${esc(x.src)}</a></span></li>`).join("") || '<li class="muted">Nothing on the wire yet.</li>'}</ol></aside>`;
+  <ol style="list-style:none;margin:10px 0 0;padding:0">${arr(w).map((x)=>`<li><span class="d">${esc(x.date)}</span><span style="min-width:0;font-size:15px;line-height:1.45"><b class="kick" style="font-size:11px;color:${kc(x.tag)}">${esc(x.tag)}</b>${x.isNew?'<span class="new">New</span>':""}<br><a href="#story-${esc(x.id)}" style="text-decoration:none">${esc(x.text)}</a> <a href="${safeUrl(x.url)}" target="_blank" rel="noopener" class="muted" style="font-size:12px">${esc(x.src)}</a></span></li>`).join("") || '<li class="muted">Nothing on the wire yet.</li>'}</ol></aside>`;
 }
 function cardHTML(s){
   return `<article class="card" style="border-top-color:${kc(s.kicker)}">
@@ -193,14 +193,14 @@ function bigMovesHTML(d){
    <div class="row" style="border-top:2px solid var(--ink)">
     <div class="bm-hero"><div class="kick" style="display:flex;justify-content:space-between;gap:8px"><span><span style="background:${MC[h.type]||"#3D5A80"};color:#fff;padding:3px 8px">${esc(h.type)}</span> &nbsp;Move of the week</span><span class="mono" style="letter-spacing:0;color:#A8A29A">${esc(h.date)}</span></div>
      <div class="bm-val">${esc(h.value)}</div><div style="font-size:13px;color:#A8A29A">${esc(h.vlabel)}</div>
-     <h3 class="serif" style="font-weight:700;font-size:30px;line-height:1.15;margin:18px 0 10px">${esc(h.title)}</h3>
+     <h3 class="serif" style="font-weight:700;font-size:30px;line-height:1.15;margin:18px 0 10px"><a href="#story-${esc(h.id)}" style="text-decoration:none">${esc(h.title)}</a></h3>
      ${h.body?`<p style="font-size:15px;line-height:1.6;margin:0 0 14px;color:#E7E0D2">${esc(h.body)}</p>`:""}
      <p style="font-size:15px;line-height:1.5;margin:0 0 14px"><b style="color:#FF6B57">Client signal:</b> ${esc(h.cs)}</p>
      ${h.take?`<p class="serif" style="font-size:18px;line-height:1.4;margin:0 0 14px;border-left:3px solid #FF6B57;padding-left:14px">Our take: ${esc(h.take)}</p>`:""}
      <div style="font-size:13px;color:#A8A29A">${srcLine(h)}</div></div>
     <div style="flex:1.4 1 520px;min-width:0">${rest.map((m)=>`<div class="bm-row"><div class="v"><div class="mono" style="font-size:22px;font-weight:600;color:${MC[m.type]||"#3D5A80"}">${esc(m.value)}</div><div class="muted" style="font-size:11px;line-height:1.3;margin-top:2px">${esc(m.vlabel)}</div></div>
      <div style="min-width:0;flex:1 1 auto"><div class="kick" style="font-size:11px;color:${MC[m.type]||"#3D5A80"}">${esc(m.type)} · ${esc(m.co)} <span class="mono muted" style="letter-spacing:0;font-weight:500">· ${esc(m.date)}</span></div>
-     <div class="serif" style="font-weight:700;font-size:19px;line-height:1.25;margin:4px 0">${esc(m.title)}</div>
+     <div class="serif" style="font-weight:700;font-size:19px;line-height:1.25;margin:4px 0"><a href="#story-${esc(m.id)}" style="text-decoration:none">${esc(m.title)}</a></div>
      <div style="font-size:14px;line-height:1.5;color:#44403C"><b>Client signal:</b> ${esc(m.cs)} <span class="muted" style="font-size:12px">· ${srcLine(m)}</span></div></div></div>`).join("")}</div>
    </div><div class="muted" style="font-size:12px;margin-top:10px">Figures are a snapshot at publication, not live. Allegations are reported as allegations until established.</div></section>`;
 }
@@ -208,7 +208,7 @@ function radarHTML(d){
   const r = arr(d.radar).filter(storyMatches);
   if (!r.length) return "";
   return `<section class="sec"><div class="sec-h"><div><h2>Under the Radar</h2><p>Quiet stories with real consequences: what a sharp consultant knows before the client does.</p></div></div>
-  <div class="grid3">${r.map((x)=>`<article><div class="kick" style="font-size:11px;color:#3D5A80">${esc(x.desk)} · <span class="mono muted" style="letter-spacing:0;font-weight:500">${esc(x.date)}</span></div><h3>${esc(x.title)}</h3><p style="font-size:15px;line-height:1.5;margin:0"><b>Client signal:</b> ${esc(x.cs)}</p><div class="muted" style="font-size:12px;margin-top:auto">${srcLine(x)}</div></article>`).join("")}</div></section>`;
+  <div class="grid3">${r.map((x)=>`<article><div class="kick" style="font-size:11px;color:#3D5A80">${esc(x.desk)} · <span class="mono muted" style="letter-spacing:0;font-weight:500">${esc(x.date)}</span></div><h3><a href="#story-${esc(x.id)}" style="text-decoration:none">${esc(x.title)}</a></h3><p style="font-size:15px;line-height:1.5;margin:0"><b>Client signal:</b> ${esc(x.cs)}</p><div class="muted" style="font-size:12px;margin-top:auto">${srcLine(x)}</div></article>`).join("")}</div></section>`;
 }
 function vanHTML(d){
   const v = d.vancouver || {}; const today = new Date().toISOString().slice(0,10);
@@ -218,7 +218,7 @@ function vanHTML(d){
   <div class="row" style="border-top:2px solid var(--van)"><div class="row" style="flex:2 1 560px;min-width:0">${arr(v.stories).map((x)=>`<article style="flex:1 1 260px;min-width:0;padding:16px 20px 16px 0;border-bottom:1px solid var(--rule);display:flex;flex-direction:column;gap:8px">
    <div class="kick" style="font-size:11px;color:var(--van)">${esc(x.tag)} · <span class="mono muted" style="letter-spacing:0;font-weight:500">${esc(x.date)}</span></div>
    <div class="mono" style="font-size:24px;font-weight:600;color:var(--van)">${esc(x.num)}</div>
-   <h3 class="serif" style="font-weight:700;font-size:20px;line-height:1.22;margin:0">${esc(x.title)}</h3>
+   <h3 class="serif" style="font-weight:700;font-size:20px;line-height:1.22;margin:0"><a href="#story-${esc(x.id)}" style="text-decoration:none">${esc(x.title)}</a></h3>
    <p style="font-size:15px;line-height:1.5;margin:0"><b>Client signal:</b> ${esc(x.cs)}</p><div class="muted" style="font-size:12px;margin-top:auto">${srcLine(x)}</div></article>`).join("")}</div>
    <aside class="jobs"><div class="kick" style="font-size:11px;color:#BFE3D3">Careers board · Vancouver</div>
    ${jobs.map((j)=>`<div style="padding:14px 0;border-bottom:1px solid #3C7A64"><div class="serif" style="font-weight:700;font-size:19px;line-height:1.25">${esc(j.role)}</div><div style="font-size:14px;margin-top:4px">${esc(j.firm)} · ${esc(j.start)}</div><div class="mono" style="font-size:14px;font-weight:600;margin-top:4px;color:#FFD166">${esc(j.pay)}</div>${j.closes?`<div style="font-size:12px;color:#BFE3D3">Apply by ${esc(j.closes)}</div>`:""}<a href="${safeUrl(j.url)}" target="_blank" rel="noopener" style="font-size:13px;color:#BFE3D3">View posting →</a></div>`).join("") || '<p style="font-size:14px">No open roles listed right now.</p>'}
@@ -226,12 +226,12 @@ function vanHTML(d){
 }
 function howHTML(d){
   const x = arr(d.howItWorks); if (!x.length) return "";
-  return `<section class="sec"><div class="sec-h"><div><h2>How It Works</h2><p>One business, taken apart like a consultant would. New every Monday.</p></div><div class="muted" style="font-size:13px">Business acumen and case-interview practice</div></div>
+  return `<section class="sec"><div class="sec-h"><div><h2>How It Works</h2><p>One business, taken apart like a consultant would. A new deep dive every Monday.</p></div><div class="muted" style="font-size:13px">Business acumen and case-interview practice</div></div>
   <div class="row" style="gap:24px">${x.map((e)=>`<article style="flex:1 1 300px;min-width:0;border-top:6px solid var(--teal);padding-top:12px;display:flex;flex-direction:column">
-   <div class="kick" style="color:var(--teal)">How it works · ${esc(e.sector)}</div><h3 class="serif" style="font-weight:700;font-size:25px;line-height:1.15;margin:8px 0 10px">${esc(e.title)}</h3>
+   <div class="kick" style="color:var(--teal)">How it works · ${esc(e.sector)}</div><h3 class="serif" style="font-weight:700;font-size:25px;line-height:1.15;margin:8px 0 10px"><a href="#story-${esc(e.id)}" style="text-decoration:none">${esc(e.title)}</a></h3>
    <p style="font-size:15px;line-height:1.6;margin:0 0 10px">${esc(e.body)}</p><p style="font-size:15px;line-height:1.5;margin:0 0 10px"><b>Where AI hits:</b> ${esc(e.ai)}</p>
    <div style="background:var(--tint);padding:12px 14px;margin:4px 0 10px"><div class="kick" style="font-size:11px">Try the case</div><div class="serif" style="font-size:17px;line-height:1.35;margin-top:4px">${esc(e.caseq)}</div></div>
-   <div class="muted" style="font-size:13px;margin-top:auto">${esc(e.status || (e.read + " min read"))}</div></article>`).join("")}</div></section>`;
+   <div style="font-size:13px;margin-top:auto;display:flex;justify-content:space-between;gap:8px"><span class="muted">${esc(e.status || (e.read + " min read"))}</span>${arr(e.sections).length?`<a href="#story-${esc(e.id)}" style="font-weight:700">Read the deep dive →</a>`:""}</div></article>`).join("")}</div></section>`;
 }
 function caseHTML(d){
   const c = d.caseOfDay; if (!c || !c.q) return "";
@@ -272,8 +272,14 @@ function home(d){
   return h;
 }
 function articlePage(d, id){
-  const all = arr(d.stories).concat(arr(d.archive));
-  const s = all.find((x)=>x.id===id);
+  const norm = (x, kind) => Object.assign({}, x, {
+    kicker: x.kicker || (kind==="move" ? x.type : kind==="radar" ? "Under the Radar" : kind==="van" ? "Vancouver · " + (x.tag||"") : kind==="wire" ? (x.tag||"Wire") : "How It Works"),
+    firm: x.firm || x.co || (kind==="van" ? "Vancouver" : ""),
+    title: x.title || x.text,
+    summary: x.summary || x.body || (kind==="wire" ? x.text : ""),
+    sources: arr(x.sources).length ? x.sources : (x.url ? [{ stype: x.stype || "Source", src: x.src, url: x.url }] : []) });
+  const pool = arr(d.stories).map((x)=>norm(x,"story")).concat(arr(d.archive).map((x)=>norm(x,"story")), arr(d.bigMoves).map((x)=>norm(x,"move")), arr(d.radar).map((x)=>norm(x,"radar")), arr((d.vancouver||{}).stories).map((x)=>norm(x,"van")), arr(d.wire).map((x)=>norm(x,"wire")), arr(d.howItWorks).map((x)=>norm(x,"how")));
+  const s = pool.find((x)=>x.id===id);
   if (!s) return `<div class="art"><a href="#">← Back to the front page</a><h1>Story not found</h1><p>It may have moved to the archive.</p></div>`;
   const facts = arr(s.facts).length ? `<div class="facts">${arr(s.facts).map((f)=>`<div><div class="k">${esc(f.k)}</div><div class="v">${esc(f.v)}</div></div>`).join("")}</div>` : "";
   const paras = arr(s.paras);
@@ -283,10 +289,13 @@ function articlePage(d, id){
    <div class="kick" style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:18px"><span style="color:${kc(s.kicker)}">${esc(s.kicker)} · ${esc(s.firm==="Industry"?"Industry-wide":s.firm)}</span><span style="background:var(--ink);color:var(--paper);padding:3px 8px">${esc(s.confidence||"Reported")}</span>${s.updated?`<span class="mono muted" style="letter-spacing:0">Updated ${esc(s.updated)}</span>`:""}</div>
    <h1>${esc(s.title)}</h1><p class="serif" style="font-size:21px;line-height:1.45;color:#44403C;margin:0 0 16px">${esc(s.summary)}</p>
    <div class="muted" style="font-size:13px;padding:10px 0;border-top:1px solid var(--ink);border-bottom:1px solid var(--rule);margin-bottom:22px">The Consultant Times · AI-assisted · ${when(s)} ${esc(s.year||"")} ${s.readTime?"· "+esc(s.readTime):""}</div>
-   ${facts}${paras.length ? paras.map((p)=>`<p class="body">${esc(p)}</p>`).join("") : `<p class="muted" style="font-size:14px">This is a short brief. For the full details, see the original source below.</p>`}
+   ${facts}${arr(s.sections).map((sec)=>`<h2 class="serif" style="font-size:28px;margin:30px 0 10px">${esc(sec.h)}</h2>${arr(sec.paras).map((p)=>`<p class="body">${esc(p)}</p>`).join("")}`).join("")}
+   ${s.caseq?`<div style="background:var(--ink);color:var(--paper);padding:20px 22px;margin:26px 0"><div class="kick" style="color:#FFD166">Try the case</div><p class="serif" style="font-size:21px;line-height:1.4;margin:8px 0 12px">${esc(s.caseq)}</p>${s.caseAnswer?`<details><summary style="cursor:pointer;font-weight:700;min-height:44px;display:flex;align-items:center">Show a model answer</summary><p style="font-size:16px;line-height:1.65;margin:8px 0 0">${esc(s.caseAnswer)}</p></details>`:""}</div>`:""}
+   ${arr(s.cheat).length?`<div class="notice" style="border:2px solid var(--ink)"><div class="kick" style="margin-bottom:8px">Cheat sheet</div>${arr(s.cheat).map((c)=>`<div style="padding:5px 0;border-top:1px solid var(--rule)">${esc(c)}</div>`).join("")}</div>`:""}
+   ${arr(s.sections).length ? "" : paras.length ? paras.map((p)=>`<p class="body">${esc(p)}</p>`).join("") : `<p class="muted" style="font-size:14px">This is a short brief. For the full details, see the original source below.</p>`}
    ${arr(s.unknowns).length?`<div class="notice"><div class="kick" style="margin-bottom:8px">What we don't know yet</div>${arr(s.unknowns).map((u)=>`<div style="padding:4px 0">— ${esc(u)}</div>`).join("")}</div>`:""}
    ${arr(s.why).length?`<div class="kick" style="margin:20px 0 8px">Why it matters</div><ol class="why" style="margin:0;padding:0;list-style:none">${arr(s.why).map((t,i)=>`<li><span class="n">0${i+1}</span><span>${esc(t)}</span></li>`).join("")}</ol>`:""}
-   <p style="font-size:16px;line-height:1.55;margin:20px 0;background:var(--ink);color:var(--paper);padding:16px 18px"><b style="color:#FF6B57">Client signal:</b> ${esc(s.cs)}</p>
+   ${s.cs?`<p style="font-size:16px;line-height:1.55;margin:20px 0;background:var(--ink);color:var(--paper);padding:16px 18px"><b style="color:#FF6B57">Client signal:</b> ${esc(s.cs)}</p>`:""}
    ${s.take?`<div class="take" style="margin:0 0 26px"><div class="kick">Our take</div><p>${esc(s.take)}</p></div>`:""}
    <div class="kick" style="margin-bottom:6px">Sources</div><ol style="margin:0 0 28px;padding-left:20px;font-size:14px;line-height:1.8">${arr(s.sources).map((so)=>`<li>${srcLine(so)}</li>`).join("")}</ol>
    ${related.length?`<div class="kick" style="margin-bottom:6px">Related</div>${related.map((r)=>`<a href="#story-${esc(r.id)}" class="serif" style="display:block;padding:10px 0;border-top:1px solid var(--rule);font-size:18px;font-weight:700;text-decoration:none">${esc(r.title)} →</a>`).join("")}`:""}</article>`;

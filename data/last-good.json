@@ -184,7 +184,8 @@
    "tag": "Coming up",
    "text": "Opposition comments due on the $85B Union Pacific–Norfolk Southern merger.",
    "src": "DealRoom",
-   "url": "https://dealroom.net/blog/upcoming-m-a"
+   "url": "https://dealroom.net/blog/upcoming-m-a",
+   "id": "wire-opposition-comments-due-on-the-85b-union-pacific-n"
   },
   {
    "date": "Nov 13",
@@ -192,35 +193,40 @@
    "isNew": true,
    "text": "UK accountant Menzies switches on Dayshape's AI resourcing platform as it reorganises by service line.",
    "src": "Consultancy.org",
-   "url": "https://www.consultancy.org/"
+   "url": "https://www.consultancy.org/",
+   "id": "wire-uk-accountant-menzies-switches-on-dayshape-s-ai-re"
   },
   {
    "date": "Nov 11",
    "tag": "Deals",
    "text": "13 AI acquisitions announced in the first 11 days of November alone.",
    "src": "FourWeekMBA",
-   "url": "https://fourweekmba.com/ai-13-ai-deals-in-november-openai-and-meta-named-no-price/"
+   "url": "https://fourweekmba.com/ai-13-ai-deals-in-november-openai-and-meta-named-no-price/",
+   "id": "wire-13-ai-acquisitions-announced-in-the-first-11-days-"
   },
   {
    "date": "Nov 10",
    "tag": "Nvidia",
    "text": "Nvidia's board hires Joon H. Kim and Wachtell Lipton to run the CEO investigation.",
    "src": "INDmoney",
-   "url": "https://www.indmoney.com/blog/us-stocks/why-is-nvidia-stock-falling-jensen-huang-affair-china-chip-claims"
+   "url": "https://www.indmoney.com/blog/us-stocks/why-is-nvidia-stock-falling-jensen-huang-affair-china-chip-claims",
+   "id": "wire-nvidia-s-board-hires-joon-h-kim-and-wachtell-lipto"
   },
   {
    "date": "Nov 9",
    "tag": "Markets",
    "text": "AMD, Broadcom and Marvell rallied as investors treated Nvidia's probe as company-specific.",
    "src": "Beinsure",
-   "url": "https://beinsure.com/news/nvidia-board-investigates-ceo-jensen-huang-allegations/"
+   "url": "https://beinsure.com/news/nvidia-board-investigates-ceo-jensen-huang-allegations/",
+   "id": "wire-amd-broadcom-and-marvell-rallied-as-investors-trea"
   },
   {
    "date": "Nov 5",
    "tag": "Deals",
    "text": "Dropbox to buy AI storage firm Tigris Data, reportedly for $350M.",
    "src": "FourWeekMBA",
-   "url": "https://fourweekmba.com/ai-13-ai-deals-in-november-openai-and-meta-named-no-price/"
+   "url": "https://fourweekmba.com/ai-13-ai-deals-in-november-openai-and-meta-named-no-price/",
+   "id": "wire-dropbox-to-buy-ai-storage-firm-tigris-data-reporte"
   }
  ],
  "caseOfDay": {
@@ -342,7 +348,8 @@
    "cs": "Shippers, ports and rival railroads must decide their stance now: network, pricing and contingency planning.",
    "stype": "Research",
    "src": "DealRoom",
-   "url": "https://dealroom.net/blog/upcoming-m-a"
+   "url": "https://dealroom.net/blog/upcoming-m-a",
+   "id": "radar-deadline-for-objections-to-the-85b-union-pacific-n"
   },
   {
    "desk": "Media & telecom",
@@ -352,7 +359,8 @@
    "cs": "Publishers and content-rich companies need a licensing-vs-blocking strategy for their archives.",
    "stype": "Newsletter",
    "src": "Women in AI",
-   "url": "https://womeninaibythemarketeergroup.substack.com/p/she-read-it-so-you-dont-have-to-ai-76a"
+   "url": "https://womeninaibythemarketeergroup.substack.com/p/she-read-it-so-you-dont-have-to-ai-76a",
+   "id": "radar-anthropic-google-microsoft-and-openai-back-a-publi"
   },
   {
    "desk": "Public sector",
@@ -362,7 +370,8 @@
    "cs": "Governments will need AI-agent governance and access controls, so expect public-sector AI risk mandates.",
    "stype": "Newsletter",
    "src": "Women in AI",
-   "url": "https://womeninaibythemarketeergroup.substack.com/p/she-read-it-so-you-dont-have-to-ai-76a"
+   "url": "https://womeninaibythemarketeergroup.substack.com/p/she-read-it-so-you-dont-have-to-ai-76a",
+   "id": "radar-australia-plans-an-ai-regulator-after-an-agent-got"
   }
  ],
  "vancouver": {
@@ -375,7 +384,8 @@
     "cs": "Developers, lenders and builders are under margin pressure. Expect restructuring, cost and portfolio work.",
     "stype": "Press",
     "src": "Castanet",
-    "url": "https://www.castanetkamloops.net/edition/news-story-633101-6-.htm"
+    "url": "https://www.castanetkamloops.net/edition/news-story-633101-6-.htm",
+    "id": "van-metro-vancouver-home-prices-are-down-5-5-from-a-ye"
    },
    {
     "tag": "Life sciences",
@@ -385,7 +395,8 @@
     "cs": "Manufacturing scale-ups need capacity planning, operations and supply-chain help.",
     "stype": "Newsletter",
     "src": "Vancouver Tech Journal",
-    "url": "https://vantechjournal.com/p/federal-dollars-land-in-b-c-life-sciences"
+    "url": "https://vantechjournal.com/p/federal-dollars-land-in-b-c-life-sciences",
+    "id": "van-ottawa-backs-b-c-life-sciences-including-burnaby-s"
    },
    {
     "tag": "Talent",
@@ -395,7 +406,8 @@
     "cs": "A deep local talent pool makes Vancouver attractive for delivery centres and AI teams.",
     "stype": "Research",
     "src": "CBRE via VTJ",
-    "url": "https://vantechjournal.com/p/federal-dollars-land-in-b-c-life-sciences"
+    "url": "https://vantechjournal.com/p/federal-dollars-land-in-b-c-life-sciences",
+    "id": "van-vancouver-ranks-9th-in-north-america-for-tech-tale"
    }
   ],
   "jobs": [
@@ -410,12 +422,144 @@
  },
  "howItWorks": [
   {
+   "id": "how-chipotle-works",
    "sector": "Restaurants",
    "title": "How Chipotle runs a restaurant",
    "body": "Company-owned stores, a short menu and an assembly line built for speed. The economics come down to how many orders each store can push through at the lunch peak.",
-   "ai": "digital ordering lanes, kitchen automation, staffing forecasts.",
+   "ai": "digital ordering lanes, kitchen automation, and AI tools that tell crews what to cook and when.",
    "caseq": "Chipotle wants to raise throughput 10% without adding staff. What are your levers?",
-   "status": "Full deep dive coming Monday"
+   "read": 12,
+   "status": "12 min read · deep dive",
+   "kicker": "How It Works",
+   "firm": "Chipotle",
+   "date": "Nov 14",
+   "year": "2026",
+   "confidence": "Confirmed",
+   "readTime": "12 min read",
+   "summary": "Chipotle sells about $3.3 billion of burritos and bowls a quarter from more than 4,100 restaurants it owns itself. Here's how the machine works, where the money goes, and why the whole business comes down to one number: entrées per peak 15 minutes.",
+   "facts": [
+    {
+     "k": "Q3 2026 revenue",
+     "v": "$3.3B (+9.6%)"
+    },
+    {
+     "k": "Restaurant margin",
+     "v": "23.3%"
+    },
+    {
+     "k": "Digital share",
+     "v": "38.8%"
+    },
+    {
+     "k": "Restaurants",
+     "v": "4,100+"
+    }
+   ],
+   "sections": [
+    {
+     "h": "The short version",
+     "paras": [
+      "Chipotle is a fast-casual chain with a deliberately simple model: a short menu of burritos, bowls, tacos and salads, assembled in front of the customer on a single production line. Unlike McDonald's or Subway, it doesn't franchise. It owns and operates every restaurant it runs in North America and Europe, which means it keeps all of each store's profit, but also carries all of its costs and risks.",
+      "That choice shapes everything. A franchisor earns royalties and lets franchisees worry about labour and food costs. Chipotle earns the full margin on every bowl, so its results move directly with how efficiently each restaurant runs. When things go well, the economics are excellent. When costs rise or traffic falls, there's no franchisee to absorb the hit."
+     ]
+    },
+    {
+     "h": "How it makes money",
+     "paras": [
+      "Almost all revenue is food and drink sold in its own restaurants. In the third quarter of 2026, total revenue rose 9.6% to $3.3 billion. Most of that growth came from opening new restaurants, with a smaller boost from existing ones: comparable restaurant sales (stores open at least 13 months) rose 2.1%, made up of a 1.3% higher average bill and 0.8% more transactions.",
+      "That split matters. Growth from new stores is predictable but capital-hungry. Growth from more customers in existing stores is the healthiest kind, because it spreads fixed costs over more sales. Chipotle had a rough 2025: comparable sales fell 1.7% and customer counts fell 3.2%, its first full-year decline in over 20 years. Q3 2026 was its third straight quarter of rising transactions, which is why investors cheered. The shares jumped about 9% the day after the results.",
+      "Digital orders through the app, website and delivery platforms made up 38.8% of food and beverage revenue in the quarter, up from 36.7% a year earlier. Its loyalty programme, relaunched in April, now accounts for over a third of sales."
+     ]
+    },
+    {
+     "h": "The economics of one restaurant",
+     "paras": [
+      "The key profitability measure is restaurant-level operating margin: revenue minus the direct costs of running restaurants (food, packaging, labour, rent and other operating costs). In Q3 2026 it was 23.3%, down from 24.5% a year earlier.",
+      "Where each dollar goes, roughly: food, beverage and packaging took 29.5% of revenue, and labour took 25.7%, up from 25.2% as wages rose. The rest covers occupancy and other operating costs before the margin. Beef and freight costs pushed food costs up, while menu price increases helped offset them.",
+      "Each restaurant does about $3.1 million in sales a year on a trailing basis, according to industry tracking of Chipotle's average restaurant sales. New restaurants are a big part of the story: management has said new stores deliver about 60% cash-on-cash returns in their second year, which is why it keeps opening one almost every day."
+     ]
+    },
+    {
+     "h": "The number that runs the business: throughput",
+     "paras": [
+      "Because Chipotle sells most of its food in a few busy hours, the real constraint isn't demand. It's how many people a restaurant can serve during the lunch and dinner rush. The company measures this as entrées per peak 15 minutes. Every extra entrée served at peak is almost pure profit, because rent, staff and equipment are already paid for.",
+      "That's why most of Chipotle's strategy targets speed: a second, dedicated makeline for digital orders; the Chipotlane (a drive-through lane for pre-paid app orders, now in roughly 80% of new restaurants); and a high-efficiency equipment package that it says adds more than two extra entrées during the peak 15 minutes in restaurants that have it."
+     ]
+    },
+    {
+     "h": "Where AI and automation hit",
+     "paras": [
+      "Chipotle is attacking throughput with a mix of AI and robotics. Its AI-enabled 'Cook to Needs' tool, which forecasts what to cook and when, went from pilot to more than 500 restaurants within the third quarter of 2026.",
+      "On the robotics side, it has tested an automated makeline built by Hyphen that assembles bowls and salads for digital orders underneath the counter, and the 'Autocado', which cuts, cores and peels avocados for guacamole. Bowls and salads make up roughly two-thirds of digital orders, which is why automating them could free staff to focus on the front line.",
+      "Rivals are racing too: Sweetgreen built its own automated 'Infinite Kitchen', and Cava has invested in Hyphen. For consultants, this is the classic operations question: where does automation raise capacity enough to pay for itself, and where does it just add cost and complexity?"
+     ]
+    },
+    {
+     "h": "Who wins and why",
+     "paras": [
+      "Chipotle's advantages are scale, a simple menu that's easy to run consistently, a strong digital and loyalty base, and the discipline of owning every store. Its risks are the flip side: labour inflation hits it directly, food-safety incidents hurt the whole brand at once, and price increases can push away customers if they go too far.",
+      "The next growth chapter is international, with partner-operated restaurants in markets such as Mexico and the Middle East. It lets Chipotle grow abroad without carrying all the risk of building in unfamiliar markets itself. The 2026 plan calls for 350 to 370 new restaurants, including 10 to 15 international partner-operated ones."
+     ]
+    }
+   ],
+   "caseAnswer": "Structure it as capacity per peak 15 minutes = (orders the front line can make + orders the digital line can make) limited by the slowest step. Levers: (1) Labour deployment, not more labour: put the right people on the front line, digital line and grill at peak; the company has shown deployment alone can add several entrées per peak 15 minutes. (2) Remove bottlenecks: prep done before peak (prep failures cascade into slow lines), faster cooking equipment, automated avocado prep. (3) Shift demand: move orders to digital and Chipotlanes, which run in parallel with the front line. (4) Automate the digital line for bowls and salads (about two-thirds of digital orders). (5) Simplify: limit limited-time offers that slow the line. Then size each lever, check payback on equipment, and pilot in a few markets before rolling out.",
+   "cheat": [
+    "Model: company-owned, no franchising in North America and Europe",
+    "Q3 2026: $3.3B revenue (+9.6%), comps +2.1%, restaurant margin 23.3%",
+    "Costs: food and packaging 29.5% of revenue, labour 25.7%",
+    "Digital: 38.8% of food and beverage sales; loyalty over 33% of sales",
+    "Key metric: entrées per peak 15 minutes (throughput)",
+    "Growth: 350–370 new restaurants in 2026, ~80% with a Chipotlane",
+    "AI and automation: Cook to Needs, Hyphen makeline, Autocado"
+   ],
+   "sources": [
+    {
+     "stype": "Official",
+     "src": "Chipotle Q3 2026 results (SEC Form 8-K)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001058090/000105809026000103/cmg-20261028xex991.htm"
+    },
+    {
+     "stype": "Official",
+     "src": "Chipotle Q2 2026 results",
+     "url": "https://newsroom.chipotle.com/2026-07-29-CHIPOTLE-RAISES-FULL-YEAR-COMPARABLE-SALES-GUIDANCE-ON-STRONG-Q2-MOMENTUM?asPDF=1"
+    },
+    {
+     "stype": "Official",
+     "src": "Chipotle Q1 2026 results",
+     "url": "https://newsroom.chipotle.com/2026-04-29-CHIPOTLE-ANNOUNCES-FIRST-QUARTER-2026-RESULTS"
+    },
+    {
+     "stype": "Trade press",
+     "src": "Nation's Restaurant News: third straight quarter of positive transactions",
+     "url": "https://www.nrn.com/fast-casual/chipotle-turns-in-third-straight-quarter-of-positive-transactions"
+    },
+    {
+     "stype": "Press",
+     "src": "Q3 2026 earnings call transcript (Benzinga via Webull)",
+     "url": "https://www.webull.com/news/15828035901588480"
+    },
+    {
+     "stype": "Press",
+     "src": "Q2 2026 earnings call summary (Webull)",
+     "url": "https://www.webull.com/news/15364304517866496"
+    },
+    {
+     "stype": "Trade press",
+     "src": "Restaurant Dive: Cava and Chipotle invest in Hyphen",
+     "url": "https://www.restaurantdive.com/news/cava-chipotle-invest-hyphen-automated-makeline/757450/"
+    },
+    {
+     "stype": "Trade press",
+     "src": "Restaurant Business: Chipotle tests automated makeline",
+     "url": "https://restaurantbusinessonline.com/technology/chipotle-begin-test-automated-makeline"
+    },
+    {
+     "stype": "Aggregator",
+     "src": "Franchise Investor Data: Q3 2026 recap (average restaurant sales)",
+     "url": "https://franchiseinvestordata.com/news/chipotle-q3-2026-earnings-stock-jump/"
+    }
+   ],
+   "cs": "Restaurant operators chasing throughput and automation ROI need operations, labour-model and technology-investment work."
   },
   {
    "sector": "Tech and retail",
@@ -423,7 +567,8 @@
    "body": "The store is the part you see, but the profit mostly comes from AWS and advertising. Retail is a volume and logistics machine that feeds both.",
    "ai": "warehouse robotics, demand forecasting, and selling AI to everyone else through AWS.",
    "caseq": "Should Amazon spin off AWS? Build the argument for each side.",
-   "status": "Coming soon"
+   "status": "Coming soon",
+   "id": "how-amazon-works"
   },
   {
    "sector": "Logistics",
@@ -431,7 +576,8 @@
    "body": "Freight is paid by the mile, but trucks often drive back empty. A huge, fragmented market of small carriers, brokers in the middle, and constant driver turnover.",
    "ai": "load matching, route and fuel optimisation, automated brokerage.",
    "caseq": "A mid-sized carrier's margins fell two years in a row. Where do you look first?",
-   "status": "Coming soon"
+   "status": "Coming soon",
+   "id": "how-trucking-works"
   }
  ],
  "archive": [],

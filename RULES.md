@@ -47,8 +47,23 @@ Store `heat` and `rel` on items for ranking only.
 - Attribute claims ("according to Reuters"). Estimates marked "est.", press-reported prices marked "reported".
 - Opinion ONLY in `take` fields. Takes: lead + move of the week only (others only if genuinely sharp).
 - Every story has a `cs` (Client signal) line: which clients/roles will hire consultants because of this.
-- Full articles (`paras`, `why`, `facts`, `unknowns`, `sources`): lead (400–600 words), 3 cards (200–300 words),
-  move of the week (in `body`, 2–4 sentences). Everything else: summary/brief + link.
+- EVERY item on the page (stories, Big Moves, Under the Radar, Vancouver Desk, Wire, How It Works) has an `id` and opens
+  its own article page. Write in a Guardian-style feature voice: specific, well-structured, context-rich, never padded.
+  Article depth is set by tier AND by how many verified facts exist. Never pad thin news with speculation; if facts run out,
+  stop and say what is unknown.
+  * Tier 1 (lead, 3 cards, move of the week): 800–1,200 words in `paras` (or `sections` [{h, paras}]), plus facts, why,
+    unknowns, cs, sources (aim for 3+ sources, at least one primary). Lead and move of the week also get a `take`.
+  * Tier 2 (other Big Moves, Under the Radar, Vancouver Desk stories): 300–600 words in `paras`, plus cs and 2+ sources.
+  * Tier 3 (Wire items): 120–250 words in `paras` explaining the item and its context, plus the source link.
+  * How It Works (every Monday, one new deep dive, 1,500–2,500 words): `sections` with these headings — The short version;
+    How it makes money; The economics (unit economics, margins, key ratios, from filings/annual reports); The number that runs
+    the business; Where AI and automation hit; Who wins and why; then `caseq`, a full `caseAnswer` (structured, MECE),
+    `cheat` (6–8 one-line facts), `facts` (4 key numbers), and 5+ sources (company filings first). The new piece replaces
+    the oldest of the 3 cards; give the other two cards `status` "Coming soon" until written. Backlog ideas: Amazon, trucking,
+    Costco, airlines, Netflix, Starbucks, Shopify, banks, the Big Four's own model, Uber, Lululemon, Canadian telecoms, Loblaw.
+- Usage guard: if the run is running long, finish Tier 1 fully, then Tier 2, then Tier 3; a Tier 3 item may ship as a
+  summary-only brief rather than delaying the edition. Carry over unchanged articles from the previous edition by id
+  (do not rewrite them).
 - "What we don't know yet" (`unknowns`) whenever key facts are missing. Never fill gaps with guesses.
 - Confidence: "Confirmed" (official source), "Reported" (major/trade press), "Developing" (single/weak source).
 - Times: include `time` (e.g. "9:40 AM PT") only if the source gives one. Never invent times.
