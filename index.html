@@ -208,7 +208,7 @@ function renderNav(){
 
 // ---------- sections ----------
 function leadHTML(s){
-  const facts = arr(s.facts).length ? `<div class="facts">${arr(s.facts).map((f)=>`<div><div class="k">${esc(f.k)}</div><div class="v">${esc(f.v)}</div></div>`).join("")}</div>` : "";
+  const facts = "";
   const why = arr(s.why).length ? `<div style="flex:1 1 300px;min-width:0"><div class="kick" style="margin-bottom:8px">Why it matters</div><ol class="why" style="margin:0;padding:0;list-style:none">${arr(s.why).map((t,i)=>`<li><span class="n">0${i+1}</span><span>${esc(t)}</span></li>`).join("")}</ol></div>` : "";
   const take = s.take ? `<div class="take" style="flex:1 1 260px;min-width:0"><div class="kick">Our take</div><p>${esc(s.take)}</p></div>` : "";
   const head = s.hl ? `${esc(s.pre||"")} <span class="hl">${esc(s.hl)}</span> ${esc(s.post||"")}` : esc(s.title);
@@ -396,7 +396,7 @@ function howPage(d){
   return `${pageBand("How It Works", "One business, taken apart like a consultant would. Three new deep dives every weekday: one industry, one business and one strategy framework.", "var(--teal)", "THE SERIES · TODAY'S THREE")}
   <section class="row" style="gap:0;padding:28px 0;border-bottom:1px solid var(--ink);align-items:flex-start">
    <div style="flex:2 1 520px;min-width:0;padding-right:32px"><div class="kick" style="color:var(--teal)">Deep dive 1 of ${today.length} · ${esc(f.type ? f.type + " · " : "")}${esc(f.sector)}</div><h2 class="serif" style="font-weight:700;font-size:44px;line-height:1.08;margin:10px 0 14px"><a href="#story-${esc(f.id)}" style="text-decoration:none">${esc(f.title)}</a></h2><p style="font-size:19px;line-height:1.65;margin:0 0 14px">${esc(f.body)}</p>${f.ai ? `<p style="font-size:16px;line-height:1.55;margin:0 0 18px"><b>Where AI hits:</b> ${esc(f.ai)}</p>` : ""}
-    ${arr(f.facts).length ? `<div class="facts">${arr(f.facts).map((q) => `<div><div class="k">${esc(q.k)}</div><div class="v">${esc(q.v)}</div></div>`).join("")}</div>` : ""}
+    
     ${f.caseq ? `<div style="background:var(--ink);color:var(--paper);padding:18px 20px;margin:0 0 18px"><div class="kick" style="color:#FFD166">Try the case</div><p class="serif" style="font-size:20px;line-height:1.4;margin:6px 0 0">${esc(f.caseq)}</p></div>` : ""}
     <a href="#story-${esc(f.id)}" style="min-height:48px;display:inline-flex;align-items:center;padding:0 24px;background:var(--ink);color:var(--paper);font-weight:700;text-decoration:none">Read the deep dive →</a></div>
    <div class="side"><div class="kick" style="margin-bottom:4px">Also today</div>${two.map(side).join("")}</div></section>
@@ -521,7 +521,7 @@ function articlePage(d, id){
   const s = pool.find((x)=>x.id===id);
   if (!s && !st.archDone) { loadArchive().then(() => { if (location.hash === "#story-" + id) render(); }); return `<div class="art"><p class="notice">Looking in the archive…</p></div>`; }
   if (!s) return `<div class="art"><a href="#">← Back to the front page</a><h1>Story not found</h1><p>We couldn't find that story. Try the <a href="#archive">archive</a>.</p></div>`;
-  const facts = arr(s.facts).length ? `<div class="facts">${arr(s.facts).map((f)=>`<div><div class="k">${esc(f.k)}</div><div class="v">${esc(f.v)}</div></div>`).join("")}</div>` : "";
+  const facts = "";
   const paras = arr(s.paras);
   const related = arr(d.stories).filter((x)=>x.id!==s.id).slice(0,3);
   document.title = s.title + " — The Consultant Times";
@@ -563,7 +563,7 @@ function staticPage(name, d){
    <p>Every industry story on this site is tagged with one of nine lenses, and every desk page shows a scorecard of them. It is the checklist a consultant runs when sizing up an industry or a client, so you can see at a glance what we have and what is missing.</p>
    <h2>Industry lenses</h2>${arr(c.lenses).map((L)=>`<p><b>${esc(L.k)}</b>: ${esc(L.q)}</p>`).join("")}
    <h2>Company checklist</h2><p>When a story is about one company, these are the questions behind it:</p>${arr(c.company).map((t)=>`<p style="margin:4px 0">— ${esc(t)}</p>`).join("")}
-   <h2>How we use them</h2><p>Each desk story carries its lens, the key facts, the questions a client would ask, dates to watch and what we do not know. Facts only appear if a source states them.</p></div>`; }
+   <h2>How we use them</h2><p>Each desk story carries its lens, the questions a client would ask, dates to watch and what we do not know.</p></div>`; }
   if (name==="corrections") { const c = arr(d && d.corrections); return `<div class="page">${back}<h1>Corrections</h1>${c.length ? c.map((x)=>`<p><b>${esc(x.date)}</b>: ${esc(x.text)}</p>`).join("") : "<p>No corrections yet. If you spot an error, please <a href='#feedback'>tell us</a>.</p>"}</div>`; }
   return "";
 }
