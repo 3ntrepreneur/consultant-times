@@ -615,6 +615,25 @@
       "stype": "Research",
       "src": "Earnings Whispers",
       "url": "https://earningswhispers.com/article/ACN/r54"
+    },
+    {
+      "id": "openai-deployco",
+      "type": "Partnerships",
+      "co": "OpenAI Deployment Company",
+      "firm": "Bain",
+      "desk": "Consulting industry",
+      "date": "May 11",
+      "heat": 4,
+      "rel": 5,
+      "value": "$4B",
+      "vlabel": "initial funding, 19 investors",
+      "title": "OpenAI launches a $4 billion deployment company and Bain, McKinsey and Capgemini join as partners",
+      "body": "The new business is majority-owned by OpenAI, led by TPG with Advent, Bain Capital and Brookfield, and began by acquiring the 150-person consulting firm Tomoro. Bain's investment focuses on private equity clients and their portfolio companies.",
+      "cs": "An AI lab is building its own consulting arm while consulting firms invest in it. Consultants should expect more partnership and competition at the same time.",
+      "take": "Model makers are moving into the services layer, which makes the firms partners and rivals.",
+      "stype": "Primary",
+      "src": "Bain & Company press release",
+      "url": "https://www.bain.com/about/media-center/press-releases/2026/bain-company-openai-a-new-venture-to-deploy-ai-at-enterprise-scale/"
     }
   ],
   "radar": [
@@ -4877,6 +4896,249 @@
           "stype": "Press",
           "src": "Lifetimes Canada: Drug costs in Canada 2026",
           "url": "https://lifetimescanada.com/blog/pharmacare/drug-costs-in-canada-2026-national-pharmacare-and-whats-still-covered"
+        }
+      ],
+      "kicker": "Industry desk",
+      "year": "2026",
+      "firm": "Industry"
+    },
+    {
+      "id": "en-suncor-q3-2026",
+      "desk": "Energy & resources",
+      "date": "Nov 3",
+      "lens": "Profit pools & margins",
+      "confidence": "Reported",
+      "readTime": "3 min read",
+      "title": "Suncor's profit more than doubles and it lifts its buyback by half",
+      "summary": "Net earnings reached $3.8 billion on stronger crude prices and record refined-product sales. Monthly repurchases rise to $750 million.",
+      "cs": "Integrated oil sands and refining shows how much margin sits downstream. Capital-return policy and maintenance execution are the discussion points for boards.",
+      "paras": [
+        "Suncor reported third-quarter 2026 net earnings of $3.814 billion, or $3.27 a share, up from $1.619 billion a year earlier. Adjusted operating earnings were $4.631 billion and adjusted funds from operations $6.705 billion. Net earnings include a $1.080 billion non-cash asset impairment.",
+        "Oil sands production was 948,000 barrels a day against 958,300 a year earlier, as extra maintenance at Syncrude offset a record third quarter at Firebag. Refined product sales hit a third-quarter record of 676,900 barrels a day, helped by wider export capacity. OilPrice reports Suncor raised planned monthly buybacks by 50% to $750 million from October and expects $5.5 billion of repurchases in 2026."
+      ],
+      "facts": [
+        {
+          "k": "Net earnings",
+          "v": "$3.814 billion ($3.27 a share)"
+        },
+        {
+          "k": "Adjusted operating earnings",
+          "v": "$4.631 billion"
+        },
+        {
+          "k": "Refined product sales",
+          "v": "676,900 b/d, a Q3 record"
+        },
+        {
+          "k": "2026 buybacks",
+          "v": "About $5.5 billion"
+        },
+        {
+          "k": "Impairment included",
+          "v": "$1.080 billion non-cash"
+        }
+      ],
+      "questions": [
+        "How much of the profit jump is price versus operations?",
+        "What does the 10% refinery capacity restatement mean for utilization comparisons?"
+      ],
+      "unknowns": [
+        "The impairment's asset is not identified in the excerpts used."
+      ],
+      "sources": [
+        {
+          "stype": "Primary",
+          "src": "Suncor: Q3 2026 results (BOE Report)",
+          "url": "https://boereport.com/2026/11/03/suncor-energy-reports-third-quarter-2026-results/"
+        },
+        {
+          "stype": "Press",
+          "src": "OilPrice: Suncor profit more than doubles",
+          "url": "https://oilprice.com/Company-News/Suncor-Profit-More-Than-Doubles-as-Cash-Flow-Hits-Record-High.html"
+        },
+        {
+          "stype": "Research",
+          "src": "RBN Energy: Suncor continues strong execution",
+          "url": "https://rbnenergy.com/daily-posts/analyst-insight/q3-2026-earnings-calls-suncor-continues-strong-execution"
+        }
+      ],
+      "kicker": "Industry desk",
+      "year": "2026",
+      "firm": "Suncor"
+    },
+    {
+      "id": "en-cenovus-q3-2026",
+      "desk": "Energy & resources",
+      "date": "Nov 4",
+      "lens": "Market size & growth",
+      "confidence": "Reported",
+      "readTime": "3 min read",
+      "title": "Cenovus passes one million barrels of oil equivalent a day for the first time",
+      "summary": "Record oil sands output and a record downstream margin drove $5.0 billion of adjusted funds flow. It also agreed to buy Athabasca Oil.",
+      "cs": "A low-cost-volume strategy is working while pipelines are tight. Consolidation of oil sands assets continues.",
+      "paras": [
+        "Cenovus reported upstream production of 1,024 thousand barrels of oil equivalent a day in the third quarter, its highest ever and up more than 50,000 from the second quarter, with oil sands production at 833,000 and records at Foster Creek, Christina Lake and Sunrise. Oil sands operating costs fell to $10.23 a barrel. It generated about $5.0 billion of adjusted funds flow and returned $1.9 billion to shareholders.",
+        "RBN Energy says the downstream business posted record operating margins of $1.8 billion and that management expects 2026 upstream output near the top of its guidance range. After the quarter, on 5 October, Cenovus announced a cash-and-stock agreement to acquire Athabasca Oil at about $12.00 a share."
+      ],
+      "facts": [
+        {
+          "k": "Upstream production",
+          "v": "1,024 MBOE/d, record"
+        },
+        {
+          "k": "Adjusted funds flow",
+          "v": "About $5.0 billion"
+        },
+        {
+          "k": "Oil sands operating cost",
+          "v": "$10.23 per barrel"
+        },
+        {
+          "k": "Returned to shareholders",
+          "v": "$1.9 billion in Q3"
+        },
+        {
+          "k": "Athabasca deal",
+          "v": "Announced 5 Oct 2026, about $12.00 a share"
+        }
+      ],
+      "questions": [
+        "Do cost gains persist when pipeline space is tight?",
+        "What does the Athabasca deal add in barrels and synergies?"
+      ],
+      "unknowns": [
+        "Athabasca deal value and closing timing were not confirmed in the excerpts used."
+      ],
+      "sources": [
+        {
+          "stype": "Primary",
+          "src": "Cenovus: Q3 2026 results (SEC exhibit)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001475260/000147526026000041/q32026newsrelease.htm"
+        },
+        {
+          "stype": "Primary",
+          "src": "Cenovus: Q3 2026 results (BOE Report)",
+          "url": "https://boereport.com/2026/11/04/cenovus-announces-third-quarter-2026-results/"
+        },
+        {
+          "stype": "Research",
+          "src": "RBN Energy: Cenovus breaches 1 million BOE/d",
+          "url": "https://rbnenergy.com/daily-posts/analyst-insight/q3-2026-earnings-calls-cenovus-breaches-1-million-boed-first-time"
+        }
+      ],
+      "kicker": "Industry desk",
+      "year": "2026",
+      "firm": "Cenovus"
+    },
+    {
+      "id": "ind-canadian-rail-q3",
+      "desk": "Industrials & logistics",
+      "date": "Oct 28",
+      "lens": "Demand & customers",
+      "confidence": "Reported",
+      "readTime": "3 min read",
+      "title": "Canada's two big railways both grow revenue 15% in the third quarter, with volumes up 4% at CN and 6% at CPKC",
+      "summary": "Freight demand held up despite tariff noise. CPKC leaned on cross-border and Mexico traffic while CN grew volumes and free cash flow.",
+      "cs": "Rail volumes are a real-economy signal. Shippers should expect continued network competition and rate discipline.",
+      "paras": [
+        "CPKC reported third-quarter revenue of $4.2 billion, up 15%, on a 6% increase in revenue ton-miles, with core adjusted earnings per share of $1.28, up 16%. Reported operating ratio rose 130 basis points to 64.8%, while the core adjusted ratio was 61.9%. Its CEO said the North American network countered macro headwinds.",
+        "Railway Age reports CN's third-quarter revenue was C$4.771 billion, up 15%, with revenue ton-miles up 4% and nine-month free cash flow of C$2.918 billion, up 25%. CN still projects low single-digit revenue ton-mile growth for 2026 and mid-to-high single-digit adjusted EPS growth, tracking toward the top of that range."
+      ],
+      "facts": [
+        {
+          "k": "CPKC revenue / volumes",
+          "v": "$4.2bn (+15%) / RTM +6%"
+        },
+        {
+          "k": "CPKC core adjusted EPS",
+          "v": "$1.28 (+16%)"
+        },
+        {
+          "k": "CN revenue / volumes",
+          "v": "C$4.771bn (+15%) / RTM +4%"
+        },
+        {
+          "k": "CN 9-month free cash flow",
+          "v": "C$2.918bn (+25%)"
+        }
+      ],
+      "questions": [
+        "How much of the CPKC revenue gain is price and fuel versus volume?",
+        "Does the UP-NS review change competitive positions?"
+      ],
+      "unknowns": [
+        "Quarterly volume data does not show whether tariff effects are building."
+      ],
+      "sources": [
+        {
+          "stype": "Primary",
+          "src": "CPKC: Q3 2026 results (SEC exhibit)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000016875/000001687526000031/exhibit991-q32026earningsr.htm"
+        },
+        {
+          "stype": "Press",
+          "src": "Railway Age: CPKC on track to deliver a strong 2026",
+          "url": "https://www.railwayage.com/freight/class-i/cpkc-on-track-to-deliver-a-strong-2026/"
+        },
+        {
+          "stype": "Press",
+          "src": "Railway Age: CN reports strong third-quarter results",
+          "url": "https://www.railwayage.com/freight/class-i/cn-reports-strong-third-quarter-results-names-new-cfo/"
+        }
+      ],
+      "kicker": "Industry desk",
+      "year": "2026",
+      "firm": "CPKC"
+    },
+    {
+      "id": "fs-mortgage-renewal-arrears",
+      "desk": "Financial services",
+      "date": "Oct 26",
+      "lens": "Risks & unknowns",
+      "confidence": "Reported",
+      "readTime": "3 min read",
+      "title": "Mortgage arrears are rising slowly, concentrated in Toronto and Vancouver, while wider household credit holds up",
+      "summary": "CMHC expects moderate increases through late 2026. CIBC economists say credit quality is surprising on the upside.",
+      "cs": "Lenders can plan for a slow grind, not a cliff. Underwriting, collections and renewal-retention strategies matter most in the two most exposed metro markets.",
+      "paras": [
+        "CMHC's Housing Observer says the national mortgage arrears rate, measured as 90 or more days behind, rose 7 basis points between the third quarter of 2023 and the third quarter of 2025 and remains low by historical standards. Its model, based on Equifax data, expects moderate increases from late 2025 to late 2026, with Toronto and Vancouver the most at risk.",
+        "Canadian Mortgage Professional reports CIBC economists wrote that household credit quality is surprising on the upside, with credit scores improving and early-stage delinquencies easing even as serious mortgage arrears climb. Consumer proposals made up 77% of insolvency filings in the third quarter against 60% in 2019. CIBC expects renewal payment increases to ease notably from February 2027."
+      ],
+      "facts": [
+        {
+          "k": "Arrears rise (Q3 2023 to Q3 2025)",
+          "v": "+7 bps, still historically low"
+        },
+        {
+          "k": "Most exposed markets",
+          "v": "Toronto and Vancouver"
+        },
+        {
+          "k": "Consumer proposals share of filings",
+          "v": "77% in Q3 vs 60% in 2019"
+        },
+        {
+          "k": "CIBC view",
+          "v": "Payment shock eases from Feb 2027"
+        }
+      ],
+      "questions": [
+        "How exposed are first-time buyers from the pandemic period at first renewal?",
+        "Does the Bank of Canada hike change the renewal path?"
+      ],
+      "unknowns": [
+        "Forecasts assumed a policy-rate decline by end-2026; the Bank has since raised rates."
+      ],
+      "sources": [
+        {
+          "stype": "Primary",
+          "src": "CMHC: Mortgage renewal wave strains some regions and borrowers",
+          "url": "https://www.cmhc-schl.gc.ca/en/observer/2026/mortgage-renewal-wave-strains-some-regions-borrowers"
+        },
+        {
+          "stype": "Press",
+          "src": "Canadian Mortgage Professional: Mortgage arrears keep rising, CIBC sees few cracks",
+          "url": "https://www.mpamag.com/ca/mortgage-industry/industry-trends/canadian-household-credit-defies-renewal-shock-cibc-finds/595354"
         }
       ],
       "kicker": "Industry desk",
