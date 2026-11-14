@@ -11,7 +11,7 @@ One professional voice for everyone. Clear, specific, no hype, no slang.
 ## 2. Edition schedule
 - Weekdays 06:00 PT: full edition. Fridays add a "Week in 60 seconds" Wire item and a LinkedIn draft (see §11).
 - Every weekday: THREE new How It Works deep dives (see §6). They replace yesterday's three, which move to data/library.json.
-- Budget: keep each run lean (target 10–20 searches). Search only for news since the last edition (`edition.published`).
+- Budget: build-up phase (until every page reaches its target, see §6f) 30–40 searches per run, otherwise 15–25. Keep runs lean either way. Search only for news since the last edition (`edition.published`).
 - If fewer than 2 new items qualify, still publish: refresh the Wire, prices/dates, careers board; keep the lead.
 
 ## 3. What to cover (coverage map)
@@ -100,6 +100,13 @@ Purpose: every desk page should read like a newspaper section and answer what a 
 
 ## 6e. Method guide (`data/guide.md`)
 Read `data/guide.md` before drafting any How It Works piece or desk story. It holds the owner's business-acumen method: one master question per piece, the 60-second business-model test, the moat checklist, what every Industry piece must include, and number discipline. It is method only. Never publish unsourced "industry-typical" figures; cite a real source for every number.
+
+## 6f. Volume targets and retention (owner's decision, 14 Nov 2026)
+Every section page should look like a full newspaper section. Phase 1 targets (reach within about two weeks, then hold): each industry desk 10 items; AI & Tools 10 (new and updated software consultants use: Alteryx, Celonis, KNIME, Power BI, Tableau, process-mining and analytics tools, AI assistants, their releases and updates); Policy 10; Big Moves 10; Vancouver 10; each firm page 3. Phase 2 (only when the owner says so, after checking usage): 20 each, 5 per firm.
+- Build-up: while a page is below target, add enough new items each run to close the gap (about 2–4 per page per day), prioritising pages that are empty. Never pad with stale or weak items; a short page with real items beats a full page of filler.
+- Retention: items do NOT leave the edition just because a new day started. Keep each item on its page for 30 days (policy and desk items with a future `dates` entry stay until that date passes), then archive it. Front-page `stories[]` still turns over daily. When a page has more than 2x its target, archive the oldest first.
+- Carry-forward: new runs start from the previous edition's arrays and add, update or archive items; they do not rebuild them from scratch.
+- `data/status.json` records per-page counts each run so the next run knows where the gaps are.
 
 ## 6c. Policy & Regulation (own tab; `policy[]` in edition.json)
 Purpose: government rules, funding and deadlines that create client work. AI policy first, then trade, tax, competition, privacy,
