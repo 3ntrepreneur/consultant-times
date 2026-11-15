@@ -9,7 +9,7 @@ economics, or change how consulting itself works? Audience: from senior partners
 One professional voice for everyone. Clear, specific, no hype, no slang.
 
 ## 2. Edition schedule
-- Weekdays 06:00 PT: full edition. Fridays add a "Week in 60 seconds" Wire item and a LinkedIn draft (see §11).
+- Weekdays 10:00 and 22:00 PT: two editions a day (the 22:00 run is lighter: only news since the 10:00 edition).  Fridays add a "Week in 60 seconds" Wire item and a LinkedIn draft (see §11).
 - Every weekday: THREE new How It Works deep dives (see §6). They replace yesterday's three, which move to data/library.json.
 - Budget: build-up phase (until every page reaches its target, see §6f) 30–40 searches per run, otherwise 15–25. Keep runs lean either way. Search only for news since the last edition (`edition.published`).
 - If fewer than 2 new items qualify, still publish: refresh the Wire, prices/dates, careers board; keep the lead.
@@ -175,3 +175,12 @@ Leave edition.archive[] empty. How It Works items go to data/library.json instea
 5. On pass: copy current edition.json (and library.json) → last-good.json / keep a copy of library.json as library.prev.json, then move edition.next.json → edition.json, update status.json
    {last_run, result:"ok", edition}, commit with message "Edition YYYY-MM-DD" and push to main.
 6. Send a push notification ONLY if items were held or the run failed.
+
+
+## 14. Keep every page at 10 or more items (carry-forward)
+- Every industry desk, Policy, Big Moves, AI & Tools and Vancouver page must hold at least 10 items after each run. Firm pages should hold 3 or more where possible.
+- Never rebuild arrays from scratch. Start from the previous edition, add the new items, and when a page would drop below 10, keep the best older items (highest heat x relevance, newest first) until it is back at 10. Move only the items beyond the best 20 per page to the archive.
+- Count items per desk across stories, policy, bigMoves, radar, wire and deskNews, using each item's `desk` value. Check counts before publishing and report any page under 10.
+- Every article needs 2+ real https sources, in-prose attribution, and at most one quote under 15 words per source. Do not invent URLs; a page may stay short rather than publish an unsourced item.
+- Site display: the `cs` field shows as "What it means". The first entry in `questions` shows as the "For your next interview" prompt, so write it as a question an interviewer could ask. The `facts` field is stored but no longer shown on article pages.
+- Set `edition.next` to the next run time (e.g. "MON 10:00 AM PT" or "TODAY 10:00 PM PT").
