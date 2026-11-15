@@ -1,10 +1,6 @@
 {
  "industry": [
   {
-   "topic": "Airlines",
-   "hook": "Load factor, fuel and fleet"
-  },
-  {
    "topic": "Grocery retail",
    "hook": "Thin margins and private label"
   },
@@ -131,10 +127,6 @@
    "hook": "Franchise model and coffee"
   },
   {
-   "topic": "Aritzia",
-   "hook": "Vancouver-founded fashion retailer"
-  },
-  {
    "topic": "Canada Goose",
    "hook": "Premium brand and wholesale vs direct"
   },
@@ -216,10 +208,6 @@
   }
  ],
  "strategy": [
-  {
-   "topic": "Porter's Five Forces",
-   "hook": "Reading an industry's profit pool"
-  },
   {
    "topic": "PESTLE analysis",
    "hook": "Scanning the external environment"

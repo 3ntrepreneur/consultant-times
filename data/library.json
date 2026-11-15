@@ -1,6 +1,382 @@
 {
  "items": [
   {
+   "id": "how-trucking-works",
+   "sector": "Logistics",
+   "title": "How trucking makes money (and why it barely does)",
+   "kicker": "How It Works",
+   "firm": "Trucking industry",
+   "date": "Nov 14",
+   "year": "2026",
+   "confidence": "Confirmed",
+   "readTime": "9 min read",
+   "read": 9,
+   "status": "9 min read · deep dive",
+   "body": "Freight is paid by the mile, but trucks often drive back empty. A huge, fragmented market of carriers, brokers in the middle and constant cost pressure means margins are thin.",
+   "summary": "Running a truck cost a record $2.34 a mile in 2025, according to the industry's main benchmark. Rates have not kept pace, and a sixth of all miles earn nothing. Here is why the economics are so tight.",
+   "ai": "load matching, route and fuel optimisation, and automated freight brokerage.",
+   "caseq": "A 200-truck regional carrier makes a 2% margin. The owner wants it doubled in 12 months. What are your levers?",
+   "facts": [
+    {
+     "k": "Cost to run a truck, 2025",
+     "v": "$2.336 / mile (record)"
+    },
+    {
+     "k": "Cost excluding fuel",
+     "v": "$1.854 / mile"
+    },
+    {
+     "k": "Empty miles (2024 data)",
+     "v": "16.7%"
+    },
+    {
+     "k": "Contract cushion over non-fuel cost",
+     "v": "$1.01 (2022) → $0.26 (2025)"
+    }
+   ],
+   "sections": [
+    {
+     "h": "The short version",
+     "paras": [
+      "Trucking moves most of the goods in North America, and it is a business of very small margins and very large numbers of players. Shippers (the manufacturers and retailers with goods to move) pay carriers (the companies that own the trucks) by the mile or by the load. Brokers sit between them, matching loads to trucks and keeping a spread.",
+      "The basic problem is that the costs are mostly fixed or hard to control, while the price is set by supply and demand in an open market. When there are more trucks than freight, rates fall below what it costs to run them, and carriers keep driving anyway because a parked truck still has a payment due."
+     ]
+    },
+    {
+     "h": "How it makes money",
+     "paras": [
+      "A carrier earns revenue per loaded mile, under either a contract with a shipper (a rate agreed for a year or so) or on the spot market (a price for a single load, set daily). Contract rates give stability; spot rates swing with demand and tend to run below costs when the market is weak.",
+      "The numbers show how tight things have been. FreightWaves, drawing on ATRI and its own SONAR rate data, reports that contract linehaul rates once cleared carriers' non-fuel costs by about $1.01 per loaded mile in 2022. By 2025 that cushion had shrunk to $0.26. Spot rates sat below non-fuel cost every year from 2023 to 2025. Dry van contract rates averaged $2.69 a mile in the third quarter of 2026, which FreightWaves says is below fourth-quarter 2021 levels, while non-fuel costs are about 30% higher than in 2021. In its view, the 2026 rate rise is a correction rather than a boom."
+     ]
+    },
+    {
+     "h": "The economics",
+     "paras": [
+      "The industry benchmark is the American Transportation Research Institute's annual survey. Its 2026 edition, covering 2025, put the average cost of operating a truck at $2.336 per mile, up 3.4% and the highest in the report's history. Excluding fuel, costs rose 4.2% to $1.854 per mile.",
+      "The main lines: driver wages were about 82 cents per mile, with another 21 cents for benefits. Fuel was about 48 cents. Repair and maintenance rose 8.6% to 21.5 cents. Insurance was 10.6 cents per mile, up 3.9% in a year and 23.9% since 2021. Tariffs pushed tyre costs up 6.4% to about 5 cents. According to ATRI, only fuel and driver pay rose more slowly than inflation.",
+      "ATRI's previous report, covering 2024, found operating margins had fallen below 2%. Reading across both reports: a carrier that mismanages a few cents per mile can move from profit to loss."
+     ]
+    },
+    {
+     "h": "The number that runs the business",
+     "paras": [
+      "The number is the share of miles driven empty. In ATRI's report on 2024 data, empty miles averaged 16.7%. Every empty mile still burns fuel, driver time and tyres but earns nothing.",
+      "A simple illustration: if a truck costs $2.34 per mile driven and 16.7% of miles are empty, the cost of each loaded mile is about $2.80 (2.336 divided by 0.833). Pricing a load at $2.50 a mile can therefore lose money even when it looks profitable. This is why carriers fight for backhauls, loads on the return leg, and why dense networks and repeat lanes beat one-off spot freight."
+     ]
+    },
+    {
+     "h": "Where AI and automation hit",
+     "paras": [
+      "The most developed uses are digital freight matching (software that finds a load for an empty truck), route and fuel optimisation, and automated brokerage that prices and books freight without a phone call. Each of these targets the same issues: empty miles and brokers' spreads.",
+      "Autonomous trucks are a longer-term story and are not yet a material part of the economics. The nearer-term win for most fleets is data: knowing their true cost per mile by lane and by customer."
+     ]
+    },
+    {
+     "h": "Who wins and why",
+     "paras": [
+      "Winners are carriers with dense, repeat freight and low empty miles, those with strong contracts instead of spot exposure, and brokers with better pricing data. Losers are small fleets that cannot absorb a record insurance and maintenance bill.",
+      "Industry voices quoted by trade press describe 2026 as a turning point for freight rates, but also say costs are rising fast enough that fleets must keep cutting costs. For consultants, trucking is a clean example of a fragmented industry in which operational detail, not strategy slides, decides who survives."
+     ]
+    }
+   ],
+   "caseAnswer": "Start from the profit equation: margin equals revenue per mile minus cost per mile, divided by revenue per mile, so doubling a 2% margin to 4% needs roughly a 2% improvement in net revenue per mile. Levers, grouped MECE: (1) Revenue: shift mix from spot to contract, reprice the worst 10% of lanes, add accessorial charges (detention, layover), and raise rates on customers where the carrier's service is hard to replace. (2) Utilisation: cut empty miles by lining up backhauls and adding repeat lanes; each point of empty miles is worth about the same as a point of revenue. (3) Cost: fuel efficiency (idle time, speed, tyres), maintenance planning, insurance renegotiation and safety scoring, and driver retention to reduce turnover cost. (4) Overheads and capital: right-size the trailer-to-truck ratio and delay replacing old equipment. Prioritise by size and speed: empty miles and lane repricing first, because they need no capital and show results within a quarter. Validate with a cost-per-loaded-mile model by lane before acting.",
+   "cheat": [
+    "2025 average cost: $2.336 per mile, a record; $1.854 excluding fuel (ATRI)",
+    "Driver pay about 82¢ + 21¢ benefits per mile; fuel about 48¢; insurance 10.6¢",
+    "Empty miles: 16.7% in ATRI's 2024 data, so cost per loaded mile is higher than cost per mile",
+    "Contract cushion over non-fuel cost: $1.01 per loaded mile in 2022, $0.26 in 2025",
+    "Spot rates were below non-fuel cost every year 2023–2025 (FreightWaves)",
+    "Operating margins in the 2024 data fell below 2%",
+    "Dry van contract rate $2.69/mile in Q3 2026, below Q4 2021, while costs are about 30% higher",
+    "Levers: backhauls, contract mix, insurance and maintenance, driver retention"
+   ],
+   "sources": [
+    {
+     "stype": "Research",
+     "src": "ATRI: 2026 Analysis of the Operational Costs of Trucking (PDF)",
+     "url": "https://truckingresearch.org/wp-content/uploads/2026/07/ATRI-Operational-Costs-of-Trucking-07-2026.pdf"
+    },
+    {
+     "stype": "Trade press",
+     "src": "Trucking Info: record operating costs in 2025",
+     "url": "https://truckinginfo.com/news/trucking-fleets-faced-record-operating-costs-during-third-year-of-freight-recession"
+    },
+    {
+     "stype": "Trade press",
+     "src": "FreightWaves: why rates are rising without more freight",
+     "url": "https://freightwaves.com/news/why-trucking-rates-are-rising-without-more-freight"
+    },
+    {
+     "stype": "Trade press",
+     "src": "FreightWaves: ATRI report on rising costs (2025 edition)",
+     "url": "https://www.freightwaves.com/news/atri-report-rising-costs-continue-to-squeeze-trucking-industry"
+    },
+    {
+     "stype": "Trade press",
+     "src": "The Trucker: why trucking is getting more expensive",
+     "url": "https://www.thetrucker.com/trucking-news/trucking-industry/trucking-is-getting-more-expensive-atri-report-explains-why"
+    }
+   ],
+   "type": "Industry"
+  },
+  {
+   "id": "how-chipotle-works",
+   "sector": "Restaurants",
+   "title": "How Chipotle runs a restaurant",
+   "body": "Company-owned stores, a short menu and an assembly line built for speed. The economics come down to how many orders each store can push through at the lunch peak.",
+   "ai": "digital ordering lanes, kitchen automation, and AI tools that tell crews what to cook and when.",
+   "caseq": "Chipotle wants to raise throughput 10% without adding staff. What are your levers?",
+   "read": 12,
+   "status": "12 min read · deep dive",
+   "kicker": "How It Works",
+   "firm": "Chipotle",
+   "date": "Nov 14",
+   "year": "2026",
+   "confidence": "Confirmed",
+   "readTime": "12 min read",
+   "summary": "Chipotle sells about $3.3 billion of burritos and bowls a quarter from more than 4,100 restaurants it owns itself. Here's how the machine works, where the money goes, and why the whole business comes down to one number: entrées per peak 15 minutes.",
+   "facts": [
+    {
+     "k": "Q3 2026 revenue",
+     "v": "$3.3B (+9.6%)"
+    },
+    {
+     "k": "Restaurant margin",
+     "v": "23.3%"
+    },
+    {
+     "k": "Digital share",
+     "v": "38.8%"
+    },
+    {
+     "k": "Restaurants",
+     "v": "4,100+"
+    }
+   ],
+   "sections": [
+    {
+     "h": "The short version",
+     "paras": [
+      "Chipotle is a fast-casual chain with a deliberately simple model: a short menu of burritos, bowls, tacos and salads, assembled in front of the customer on a single production line. Unlike McDonald's or Subway, it doesn't franchise. It owns and operates every restaurant it runs in North America and Europe, which means it keeps all of each store's profit, but also carries all of its costs and risks.",
+      "That choice shapes everything. A franchisor earns royalties and lets franchisees worry about labour and food costs. Chipotle earns the full margin on every bowl, so its results move directly with how efficiently each restaurant runs. When things go well, the economics are excellent. When costs rise or traffic falls, there's no franchisee to absorb the hit."
+     ]
+    },
+    {
+     "h": "How it makes money",
+     "paras": [
+      "Almost all revenue is food and drink sold in its own restaurants. In the third quarter of 2026, total revenue rose 9.6% to $3.3 billion. Most of that growth came from opening new restaurants, with a smaller boost from existing ones: comparable restaurant sales (stores open at least 13 months) rose 2.1%, made up of a 1.3% higher average bill and 0.8% more transactions.",
+      "That split matters. Growth from new stores is predictable but capital-hungry. Growth from more customers in existing stores is the healthiest kind, because it spreads fixed costs over more sales. Chipotle had a rough 2025: comparable sales fell 1.7% and customer counts fell 3.2%, its first full-year decline in over 20 years. Q3 2026 was its third straight quarter of rising transactions, which is why investors cheered. The shares jumped about 9% the day after the results.",
+      "Digital orders through the app, website and delivery platforms made up 38.8% of food and beverage revenue in the quarter, up from 36.7% a year earlier. Its loyalty programme, relaunched in April, now accounts for over a third of sales."
+     ]
+    },
+    {
+     "h": "The economics of one restaurant",
+     "paras": [
+      "The key profitability measure is restaurant-level operating margin: revenue minus the direct costs of running restaurants (food, packaging, labour, rent and other operating costs). In Q3 2026 it was 23.3%, down from 24.5% a year earlier.",
+      "Where each dollar goes, roughly: food, beverage and packaging took 29.5% of revenue, and labour took 25.7%, up from 25.2% as wages rose. The rest covers occupancy and other operating costs before the margin. Beef and freight costs pushed food costs up, while menu price increases helped offset them.",
+      "Each restaurant does about $3.1 million in sales a year on a trailing basis, according to industry tracking of Chipotle's average restaurant sales. New restaurants are a big part of the story: management has said new stores deliver about 60% cash-on-cash returns in their second year, which is why it keeps opening one almost every day."
+     ]
+    },
+    {
+     "h": "The number that runs the business: throughput",
+     "paras": [
+      "Because Chipotle sells most of its food in a few busy hours, the real constraint isn't demand. It's how many people a restaurant can serve during the lunch and dinner rush. The company measures this as entrées per peak 15 minutes. Every extra entrée served at peak is almost pure profit, because rent, staff and equipment are already paid for.",
+      "That's why most of Chipotle's strategy targets speed: a second, dedicated makeline for digital orders; the Chipotlane (a drive-through lane for pre-paid app orders, now in roughly 80% of new restaurants); and a high-efficiency equipment package that it says adds more than two extra entrées during the peak 15 minutes in restaurants that have it."
+     ]
+    },
+    {
+     "h": "Where AI and automation hit",
+     "paras": [
+      "Chipotle is attacking throughput with a mix of AI and robotics. Its AI-enabled 'Cook to Needs' tool, which forecasts what to cook and when, went from pilot to more than 500 restaurants within the third quarter of 2026.",
+      "On the robotics side, it has tested an automated makeline built by Hyphen that assembles bowls and salads for digital orders underneath the counter, and the 'Autocado', which cuts, cores and peels avocados for guacamole. Bowls and salads make up roughly two-thirds of digital orders, which is why automating them could free staff to focus on the front line.",
+      "Rivals are racing too: Sweetgreen built its own automated 'Infinite Kitchen', and Cava has invested in Hyphen. For consultants, this is the classic operations question: where does automation raise capacity enough to pay for itself, and where does it just add cost and complexity?"
+     ]
+    },
+    {
+     "h": "Who wins and why",
+     "paras": [
+      "Chipotle's advantages are scale, a simple menu that's easy to run consistently, a strong digital and loyalty base, and the discipline of owning every store. Its risks are the flip side: labour inflation hits it directly, food-safety incidents hurt the whole brand at once, and price increases can push away customers if they go too far.",
+      "The next growth chapter is international, with partner-operated restaurants in markets such as Mexico and the Middle East. It lets Chipotle grow abroad without carrying all the risk of building in unfamiliar markets itself. The 2026 plan calls for 350 to 370 new restaurants, including 10 to 15 international partner-operated ones."
+     ]
+    }
+   ],
+   "caseAnswer": "Structure it as capacity per peak 15 minutes = (orders the front line can make + orders the digital line can make) limited by the slowest step. Levers: (1) Labour deployment, not more labour: put the right people on the front line, digital line and grill at peak; the company has shown deployment alone can add several entrées per peak 15 minutes. (2) Remove bottlenecks: prep done before peak (prep failures cascade into slow lines), faster cooking equipment, automated avocado prep. (3) Shift demand: move orders to digital and Chipotlanes, which run in parallel with the front line. (4) Automate the digital line for bowls and salads (about two-thirds of digital orders). (5) Simplify: limit limited-time offers that slow the line. Then size each lever, check payback on equipment, and pilot in a few markets before rolling out.",
+   "cheat": [
+    "Model: company-owned, no franchising in North America and Europe",
+    "Q3 2026: $3.3B revenue (+9.6%), comps +2.1%, restaurant margin 23.3%",
+    "Costs: food and packaging 29.5% of revenue, labour 25.7%",
+    "Digital: 38.8% of food and beverage sales; loyalty over 33% of sales",
+    "Key metric: entrées per peak 15 minutes (throughput)",
+    "Growth: 350–370 new restaurants in 2026, ~80% with a Chipotlane",
+    "AI and automation: Cook to Needs, Hyphen makeline, Autocado"
+   ],
+   "sources": [
+    {
+     "stype": "Official",
+     "src": "Chipotle Q3 2026 results (SEC Form 8-K)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001058090/000105809026000103/cmg-20261028xex991.htm"
+    },
+    {
+     "stype": "Official",
+     "src": "Chipotle Q2 2026 results",
+     "url": "https://newsroom.chipotle.com/2026-07-29-CHIPOTLE-RAISES-FULL-YEAR-COMPARABLE-SALES-GUIDANCE-ON-STRONG-Q2-MOMENTUM?asPDF=1"
+    },
+    {
+     "stype": "Official",
+     "src": "Chipotle Q1 2026 results",
+     "url": "https://newsroom.chipotle.com/2026-04-29-CHIPOTLE-ANNOUNCES-FIRST-QUARTER-2026-RESULTS"
+    },
+    {
+     "stype": "Trade press",
+     "src": "Nation's Restaurant News: third straight quarter of positive transactions",
+     "url": "https://www.nrn.com/fast-casual/chipotle-turns-in-third-straight-quarter-of-positive-transactions"
+    },
+    {
+     "stype": "Press",
+     "src": "Q3 2026 earnings call transcript (Benzinga via Webull)",
+     "url": "https://www.webull.com/news/15828035901588480"
+    },
+    {
+     "stype": "Press",
+     "src": "Q2 2026 earnings call summary (Webull)",
+     "url": "https://www.webull.com/news/15364304517866496"
+    },
+    {
+     "stype": "Trade press",
+     "src": "Restaurant Dive: Cava and Chipotle invest in Hyphen",
+     "url": "https://www.restaurantdive.com/news/cava-chipotle-invest-hyphen-automated-makeline/757450/"
+    },
+    {
+     "stype": "Trade press",
+     "src": "Restaurant Business: Chipotle tests automated makeline",
+     "url": "https://restaurantbusinessonline.com/technology/chipotle-begin-test-automated-makeline"
+    },
+    {
+     "stype": "Aggregator",
+     "src": "Franchise Investor Data: Q3 2026 recap (average restaurant sales)",
+     "url": "https://franchiseinvestordata.com/news/chipotle-q3-2026-earnings-stock-jump/"
+    }
+   ],
+   "cs": "Restaurant operators chasing throughput and automation ROI need operations, labour-model and technology-investment work.",
+   "type": "Business"
+  },
+  {
+   "id": "how-swot-analysis",
+   "type": "Strategy",
+   "sector": "Framework",
+   "title": "SWOT analysis: how to make four boxes useful",
+   "kicker": "How It Works",
+   "firm": "Strategy framework",
+   "date": "Nov 14",
+   "year": "2026",
+   "confidence": "Confirmed",
+   "readTime": "8 min read",
+   "read": 8,
+   "status": "8 min read · deep dive",
+   "body": "Everyone has filled in a SWOT grid. Few people turn it into decisions. Here is how consultants use it, with Chipotle as a worked example.",
+   "summary": "A SWOT lists strengths, weaknesses, opportunities and threats. Done badly it is a bland list. Done well it ranks what matters and ends in choices. We apply it to Chipotle, using its latest results.",
+   "ai": "AI can draft a SWOT in seconds, but the draft is generic. Its best use is gathering evidence for each box, while people do the judging and ranking.",
+   "caseq": "A regional grocery chain asks you for a SWOT analysis. What do you do before you draw the four boxes?",
+   "facts": [
+    {
+     "k": "Internal factors",
+     "v": "Strengths · Weaknesses"
+    },
+    {
+     "k": "External factors",
+     "v": "Opportunities · Threats"
+    },
+    {
+     "k": "Real output",
+     "v": "Ranked strategic choices"
+    },
+    {
+     "k": "Example used",
+     "v": "Chipotle, Q3 2026"
+    }
+   ],
+   "sections": [
+    {
+     "h": "The short version",
+     "paras": [
+      "A SWOT analysis sorts what is true about a business into four boxes. Strengths and weaknesses are internal: things the company controls or can change, like its brand, costs, people and processes. Opportunities and threats are external: things happening in the market that the company does not control, like customer trends, competitors, regulation and input prices.",
+      "The framework is popular because it is simple, and that is also its weakness. A grid of generic bullets (strong brand, rising competition) tells a client nothing they did not know. A SWOT earns its place only when every item is specific, backed by a number, ranked by importance, and connected to a decision."
+     ]
+    },
+    {
+     "h": "How to do it properly",
+     "paras": [
+      "Start with a question, not a grid. A SWOT of the whole company is rarely useful; a SWOT for a decision, such as whether to open in a new country or add automation, is. The question decides which facts matter.",
+      "Then use one test to sort every item: could the company change it next year? If yes, it is internal (a strength or weakness). If no, it is external (an opportunity or threat). Most mistakes come from putting an outside trend, like rising wages, into the weakness box.",
+      "Attach evidence to every bullet: a figure, a date and a source. Then rank each box by two things, how much it could move the results and how likely it is. Keep the top three or four in each box and drop the rest."
+     ]
+    },
+    {
+     "h": "A worked example: Chipotle",
+     "paras": [
+      "Chipotle's third-quarter 2026 results give plenty of evidence. Strengths: it owns all of its restaurants in North America, so it keeps the whole margin (23.3% restaurant-level margin in the quarter); digital orders are 38.8% of food and beverage sales; and its loyalty programme accounts for more than a third of sales. Its design is built around throughput, serving more people in the lunch rush.",
+      "Weaknesses: that same ownership means no franchisee to absorb cost increases. Margin fell from 24.5% to 23.3% in a year, and labour rose to 25.7% of revenue from 25.2%. The business also had a poor 2025, with comparable sales down 1.7% and customer counts down 3.2%, so it is recovering rather than cruising.",
+      "Opportunities: roughly 350 to 370 new restaurants planned for 2026, including 10 to 15 international partner-operated ones; drive-through Chipotlanes in about 80% of new restaurants; and automation such as the Cook to Needs forecasting tool, already in more than 500 restaurants, plus the robotic makeline and avocado machine being tested.",
+      "Threats: a food-safety incident would hit the whole brand at once; beef and freight costs push up food costs; further price increases could push customers away; and rivals such as Sweetgreen and Cava are building their own automation."
+     ]
+    },
+    {
+     "h": "From four boxes to choices",
+     "paras": [
+      "The step most people skip is turning the grid into strategy. A common method is a TOWS matrix, which crosses the boxes: use strengths to seize opportunities, use strengths to blunt threats, fix weaknesses that block opportunities, and protect against the combination of weaknesses and threats.",
+      "For Chipotle: its strong throughput and digital base (strengths) support rapid rollout of Chipotlanes in new stores (opportunity). Its exposure to labour inflation (weakness) is the reason automation (opportunity) matters. Its single-brand risk (threat) argues for a very high food-safety standard. Each crossing becomes a candidate strategy, which you then rank and assign an owner.",
+      "The deliverable is not the grid. It is a short list of prioritised moves, each tied to evidence."
+     ]
+    },
+    {
+     "h": "Common mistakes",
+     "paras": [
+      "The usual failures are generic bullets with no numbers, mixing internal and external factors, listing 20 items per box, treating every item as equal, and stopping at the list. A related error is using a SWOT as the whole analysis: it organises facts but does not size markets, test economics or compare options. It works best as a summary step after real research.",
+      "Another trap is looking only at the company's own point of view. A strength matters only relative to competitors: a loyal customer base is a strength if rivals lack one, and table stakes if they all have it."
+     ]
+    },
+    {
+     "h": "Where AI and automation hit",
+     "paras": [
+      "AI tools will draft a SWOT in seconds, and the result is usually fluent but generic. Their useful role is evidence gathering: pulling figures from filings, summarising earnings calls and spotting competitor moves. The judgment, which items matter and what to do about them, is still the consultant's job, and it is where the value is."
+     ]
+    }
+   ],
+   "caseAnswer": "Before drawing anything, clarify the decision the client faces (for example, whether to fund a new format, enter a new region or cut costs) because that determines scope. Then gather evidence in three streams: internal data (store-level margins, shrink, labour cost, loyalty data), customer research (price perception, share of basket), and the market (competitor openings, discounters, supplier inflation, local regulation). Build the SWOT only after that, with every bullet carrying a number and a source and tested as internal or external. Rank by impact and likelihood, keep the top three per box, and cross them in a TOWS matrix to generate options. Present three to five prioritised strategic moves with owners, quick wins first, and note which assumptions need testing. Finally, challenge it: which strengths are real relative to competitors, and what would change the ranking?",
+   "cheat": [
+    "SWOT = Strengths and Weaknesses (internal) + Opportunities and Threats (external)",
+    "Sorting test: could the company change it next year? Yes means internal",
+    "Every bullet needs a number, a date and a source",
+    "Rank by impact and likelihood; keep the top 3–4 per box",
+    "TOWS matrix crosses the boxes to generate strategies (S-O, S-T, W-O, W-T)",
+    "The deliverable is a ranked list of choices, not the grid",
+    "Strengths only count relative to competitors",
+    "Use it as a summary after research, not instead of research"
+   ],
+   "sources": [
+    {
+     "stype": "Official",
+     "src": "Chipotle Q3 2026 results (SEC Form 8-K)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001058090/000105809026000103/cmg-20261028xex991.htm"
+    },
+    {
+     "stype": "Trade press",
+     "src": "Nation's Restaurant News: third straight quarter of positive transactions",
+     "url": "https://www.nrn.com/fast-casual/chipotle-turns-in-third-straight-quarter-of-positive-transactions"
+    },
+    {
+     "stype": "Press",
+     "src": "Q3 2026 earnings call transcript (Benzinga via Webull)",
+     "url": "https://www.webull.com/news/15828035901588480"
+    },
+    {
+     "stype": "Trade press",
+     "src": "Restaurant Dive: Cava and Chipotle invest in Hyphen",
+     "url": "https://www.restaurantdive.com/news/cava-chipotle-invest-hyphen-automated-makeline/757450/"
+    }
+   ]
+  },
+  {
    "id": "how-amazon-works",
    "sector": "Tech and retail",
    "title": "How Amazon really works",
