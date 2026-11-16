@@ -1,1 +1,6 @@
-{"last_run":"2026-11-15T12:30:00-07:00","result":"ok","edition":"2026-11-15-1000","note":"Manual Sunday refresh: Anthropic IPO roadshow update. Financial services desk at 9 items."}
+{
+ "last_run": "2026-11-15T18:30:00-07:00",
+ "result": "ok",
+ "edition": "2026-11-15-1800",
+ "note": "Test run (Sunday evening). 3 new deep dives; news window thin (search returned titles only); 1 new Wire item. Desk counts: {\"Consulting industry\": 11, \"Tech & AI\": 14, \"Public sector\": 11, \"Media & telecom\": 11, \"Energy & resources\": 11, \"Industrials & logistics\": 10, \"Financial services\": 9, \"null\": 6, \"Consumer & retail\": 10, \"Health\": 11, \"Vancouver\": 10}"
+}

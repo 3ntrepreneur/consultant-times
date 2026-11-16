@@ -1,10 +1,6 @@
 {
  "industry": [
   {
-   "topic": "Grocery retail",
-   "hook": "Thin margins and private label"
-  },
-  {
    "topic": "Banking",
    "hook": "Net interest margin and fees"
   },
@@ -131,10 +127,6 @@
    "hook": "Premium brand and wholesale vs direct"
   },
   {
-   "topic": "Dollarama",
-   "hook": "Fixed price points and sourcing"
-  },
-  {
    "topic": "Canadian Tire",
    "hook": "Retail, financial services and loyalty"
   },
@@ -243,10 +235,6 @@
   {
    "topic": "STP: segmentation, targeting, positioning",
    "hook": "Choosing who to serve"
-  },
-  {
-   "topic": "Unit economics: CAC, LTV and payback",
-   "hook": "Is each customer profitable?"
   },
   {
    "topic": "The Business Model Canvas",

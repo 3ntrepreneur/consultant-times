@@ -1,6 +1,448 @@
 {
  "items": [
   {
+   "id": "how-airlines-make-money",
+   "type": "Industry",
+   "sector": "Airlines",
+   "title": "How airlines make money",
+   "body": "Airlines sell a perishable seat on a machine that costs almost the same to fly full or empty, so profit comes from a few points of load factor, a premium cabin and a loyalty programme. In 2026 a fuel shock showed how thin that margin really is.",
+   "summary": "The world's airlines will earn about 2% net margin on $1.17 trillion of revenue in 2026, roughly $4.50 per passenger, according to IATA. Here is where the money comes from at Air Canada and Delta, why fuel and labour take more than half the bill, and why the best airlines are partly banks and partly premium-cabin sellers.",
+   "ai": "Airlines use AI and automation in revenue management (pricing every seat by the hour), crew and aircraft scheduling around disruption, predictive maintenance and airport self-service, but none of it removes the two big costs, fuel and people.",
+   "caseq": "An airline's net margin has fallen from about 4% to 2% in a year, driven by jet fuel. What do you recommend to restore profit?",
+   "caseAnswer": "Frame profit as (revenue per seat-mile minus cost per seat-mile) x seat-miles flown. 1) Revenue: yield (fares, premium cabins, ancillaries and fuel surcharges), load factor, and non-ticket income such as loyalty and cargo. 2) Cost: fuel (hedging, fleet efficiency, pass-through), labour (productivity, contracts), ownership (leases, aircraft age) and airport and other fees. 3) Capacity: cut or redeploy the least profitable routes and cap growth while rivals face the same fuel price. 4) Balance sheet: liquidity, sale-leasebacks and government support to survive the trough. Prioritise by size and speed: pass-through and capacity discipline first, loyalty and premium mix as the durable lever.",
+   "cheat": [
+    "IATA forecasts 2026 industry revenue of $1.165T and net profit of $23.0B, a 2.0% net margin, about $4.50 per passenger (IATA, 7 Jun 2026).",
+    "Fuel is 31.4% of industry operating costs in 2026, up from 25.4% in 2025; labour is $271B, about 24% of costs (computed).",
+    "At Air Canada in 2025, wages (23.3%) and fuel (22.1%) were the two biggest costs, each computed from the annual report (22,372 revenue, 21,454 costs).",
+    "Air Canada Q3 2026: revenue C$6,984M, operating margin 3.7%, fuel bill up C$906M year on year.",
+    "Delta, Q2 2026: premium tickets (35.0%) edged out main-cabin tickets (34.7%) as a share of revenue (computed).",
+    "Delta collected $2.4B from American Express in one quarter, a loyalty income stream that behaves like a bank, not a seat sale.",
+    "Air Canada and WestJet together carry up to 78% of domestic traffic on key routes (Competition Bureau, via C2C Journal).",
+    "Counter-intuitive: the industry has never posted a net margin above 5%, and its ROIC (4.3%) sits below its cost of capital (8.5%)."
+   ],
+   "kicker": "How It Works",
+   "firm": "Air Canada",
+   "date": "Nov 15",
+   "year": "2026",
+   "confidence": "Confirmed",
+   "readTime": "14 min read",
+   "read": 14,
+   "status": "14 min read · deep dive",
+   "facts": [
+    {
+     "k": "Industry net margin 2026f",
+     "v": "2.0% (IATA)"
+    },
+    {
+     "k": "Profit per passenger 2026f",
+     "v": "$4.50"
+    },
+    {
+     "k": "Air Canada Q3 2026 op. margin",
+     "v": "3.7%"
+    },
+    {
+     "k": "Fuel share of industry costs",
+     "v": "31.4%"
+    }
+   ],
+   "cs": "Airlines are a high-fixed-cost, near-commodity business where the margin ceiling is set by fuel, labour and aircraft supply. The winners are the carriers that fill planes, sell premium seats and turn their loyalty programme into a second business.",
+   "sections": [
+    {
+     "h": "The short version",
+     "paras": [
+      "An airline sells a seat on a specific flight, and once the door closes an empty seat is worth nothing. The aircraft, the pilots, the fuel to get airborne and the landing fees are nearly the same whether the plane carries 120 people or 180. That makes airlines a fixed-cost, perishable-inventory business, and almost everything interesting about them follows from that: pricing is a daily auction, load factor is the master dial, and a small change in revenue or fuel swings profit by a lot.",
+      "The other defining fact is how little is left at the end. IATA, the global airline trade body, forecast in June 2026 that the industry will earn $23.0 billion of net profit on $1.165 trillion of revenue, a 2.0% net margin and about $4.50 for each passenger carried. That forecast was cut roughly in half after the Middle East conflict pushed up jet fuel; before the shock, IATA had projected $41 billion. IATA also notes that the industry has never posted a net margin above 5%. So the question for any airline is not how to get rich, but how to stay solidly above zero through the cycle."
+     ]
+    },
+    {
+     "h": "How it makes money",
+     "paras": [
+      "Most revenue is still the ticket. Air Canada's 2025 annual report shows C$22,372 million of operating revenue, of which passenger revenue was C$19,604 million (87.6%, computed), cargo C$1,033 million (4.6%, computed) and other revenue C$1,735 million (7.8%, computed). Across the whole industry, IATA expects 2026 revenue of $839 billion from passenger tickets, $165 billion from ancillary items such as bags and seat selection, and $162 billion from cargo. Ancillaries are growing fastest, at 12.6%, against 9.2% for tickets.",
+      "The more telling story is inside the ticket and beside it. Delta's second-quarter 2026 release splits its $19.8 billion of revenue in detail. Premium tickets brought in $6.9 billion and main-cabin tickets $6.85 billion, so premium cabins are now slightly larger than economy as a share of revenue (35.0% against 34.7%, computed). Delta also reports that revenue streams other than main-cabin tickets (premium, loyalty, cargo, maintenance and so on) are 61% of its adjusted revenue, up from 59% a year earlier. Its refinery line is an odd extra: $2.1 billion of third-party fuel sales that carry matching cost, so it inflates revenue without adding much profit.",
+      "The loyalty programme is the part that behaves least like an airline. Delta received $2.4 billion from American Express in the quarter, up 16%. The card issuer pays the airline for points that it then hands to cardholders, so the airline is selling a financial product, not a seat. Air Canada's Aeroplan works the same way, and Air Canada used proceeds from an Aeroplan transaction to repay C$1.7 billion of debt and fund a C$800 million share buyback, according to its Q3 2026 release. The release does not disclose the transaction's size, so treat this as evidence of the programme's value, not a number to extrapolate from.",
+      "Cargo is a smaller but useful stream. Air Canada's cargo revenue was up 33% in Q3 2026, and Delta's grew 39% in Q2, but both are well under 5% of revenue at these carriers, so cargo helps at the margin rather than defining the model."
+     ]
+    },
+    {
+     "h": "The economics",
+     "paras": [
+      "Start with the cost stack. Air Canada's 2025 expenses total C$21,454 million. The largest lines are wages, salaries and benefits at C$5,005 million (23.3% of costs, computed) and aircraft fuel at C$4,731 million (22.1%, computed). Next come depreciation (C$2,012 million), airport and navigation fees (C$1,587 million), aircraft maintenance (C$1,343 million), sales and distribution (C$1,075 million), ground packages (C$872 million) and regional capacity purchase fees (C$863 million). Operating income was C$918 million, a 4.1% operating margin (computed). That is a normal year for a good airline.",
+      "The industry view from IATA is similar but fuel-heavy in 2026. Total operating expenses are forecast at $1.117 trillion, of which fuel is $350 billion (31.4%, up from 25.4% in 2025) and labour is $271 billion (about 24%, computed). Non-fuel costs are growing a modest 4.0%, while fuel is up nearly 40%. IATA's assumptions explain why: Brent crude averages $95 a barrel (against $69 in 2025), jet fuel averages $152 a barrel (against $90), and the gap between jet fuel and crude, the crack spread, is at a historic high of $57 a barrel. Only about one-third of 2026 fuel use is hedged.",
+      "The Air Canada quarter shows what that does to a P&L. In Q3 2026, revenue rose 21% to C$6,984 million, yet operating income was only C$261 million, a 3.7% margin against 4.9% a year earlier. Fuel cost C$2,118 million, which is C$906 million more than a year ago and about 30% of revenue (computed). Fuel cost per litre rose to 148.3 cents from 88.3 cents. The fuel increase alone was about 3.5 times the quarter's operating income (computed). Management responded by cutting its full-year adjusted EBITDA guidance to C$2.4 to 2.7 billion from C$2.9 to 3.2 billion, and said that only about 70% of extra Q4 fuel cost would be recovered through fares and surcharges.",
+      "Delta shows the same pressure with a stronger starting point. Its September quarter operating margin was 7.2% on a GAAP basis (9.4% adjusted), and it says it has absorbed about $6 billion of higher fuel cost in 2026. Smaller, leisure-heavy Air Transat is on the sharp end: its fiscal third quarter to July 31 produced a C$106.6 million loss, with about C$105 million of extra fuel cost in the quarter, and it said its ability to pass costs to customers had been very limited. Ottawa has stepped in with federal financing for Transat and a federal loan for Porter.",
+      "Behind these costs is a supply problem. IATA says aircraft are scarce: the order backlog hit 18,100 in May 2026, more than half the active fleet, lease rates are at record levels, and older planes cost more to maintain. That is why airlines cannot simply grow their way out. Fewer planes keep competitors honest on capacity, but they also keep costs high."
+     ]
+    },
+    {
+     "h": "The number that runs the business",
+     "paras": [
+      "The number is load factor: the share of seats that carry a paying passenger. Because the cost of flying is mostly fixed, the last few seats filled drop almost straight to profit, and the last few left empty are pure loss. IATA expects a record 84.0% industry load factor in 2026. Air Canada's was 89.1% in Q3 2026, up 2.6 points, in the peak summer quarter.",
+      "Load factor cannot be read alone, because an airline can fill a plane by selling cheap. The partner number is yield, the revenue earned per passenger-mile flown. Air Canada's yield rose 11.0% to 23.8 cents in Q3, so it filled more seats and charged more per mile at the same time, which is the combination that pays for a fuel shock. The summary is revenue per available seat-mile (roughly load factor times yield) set against cost per available seat-mile. Air Canada's Q3 unit revenue was 23.4 cents against a GAAP unit cost of 22.5 cents, which leaves a thin gap. Excluding fuel and one-off items, its adjusted unit cost was 14.45 cents, up only 3.3%, which shows that the squeeze came almost entirely from fuel.",
+      "That thin gap is why airlines obsess over capacity discipline. When one carrier adds seats on a route, rivals match, fares fall and everyone's load factor-yield trade-off worsens. In the autumn of 2026, Canadian commentators were already predicting a price war once the summer peak faded, with some smaller carriers at risk, which is a live example of the problem."
+     ]
+    },
+    {
+     "h": "Where AI and automation hit",
+     "paras": [
+      "The most mature use of AI in aviation is revenue management: algorithms that decide, flight by flight and hour by hour, how many seats to sell at each fare bucket and when to raise prices. This directly attacks the master dial, because a one-point gain in load factor or yield is worth more than most cost programmes. Close behind are crew and fleet scheduling tools that re-plan a network when weather or a strike hits, and predictive maintenance that flags parts before they fail, which matters when older aircraft are being flown longer. Airport self-service and automated customer messaging take out some sales and service labour.",
+      "These tools help at the edges, but IATA's own numbers show the limits. Labour costs are forecast to rise 4.0% in 2026 while workforce productivity per employee falls 0.4%, because airlines are flying older fleets with fewer new aircraft and tight crew supply. Fuel, the biggest swing cost, cannot be automated away. For a consultant, the right question is not whether AI saves cost, but whether it raises revenue per seat or protects reliability enough to matter against a fuel bill that moved by hundreds of millions of dollars in one quarter."
+     ]
+    },
+    {
+     "h": "Who wins and why",
+     "paras": [
+      "Profit pools are uneven. Within the industry, IATA expects North American airlines to earn $9.4 billion in 2026 (a 2.5% net margin and $8.10 per passenger), down from $12.4 billion in 2025. That is better per passenger than the global $4.50, which tells you that scale, strong home markets and premium and loyalty revenue help. Outside the airlines, the owners of scarce things also do well: aircraft lessors at record lease rates and card issuers that pay for loyalty points sit in structurally healthier positions than the airline itself.",
+      "Concentration shapes who can pass costs on. In Canada, the Competition Bureau describes the domestic market as highly concentrated with two leading carriers. A June 2025 summary put Air Canada and WestJet at 56% to 78% of domestic passengers at the eight busiest airports, with a figure of up to 78% on key routes. Air Canada competes with WestJet on about 61% of its routes, down from 72% in 2019, and the bureau estimates one more competitor on a route is associated with 9% lower prices. Two dominant carriers can pass fuel costs on more easily than a sector of many small ones, but the Air Transat and Porter cases show that smaller, leisure-focused or less diversified carriers hit trouble first.",
+      "The cycle is the other half of the story. Airline profits move with GDP, consumer confidence and fuel. IATA's 2025 numbers (net profit of $45 billion on a 4.2% margin) were described as thin even in a good year, and 2026 halved them within a few months. Counter-cyclical cushions exist but are small: cargo, loyalty income that arrives whether or not planes are full, and sale-leasebacks, which Air Canada is using to raise cash (C$501 million so far in 2026, with an assumed C$1 billion for the year). Air Canada ended Q3 with C$8,018 million of liquidity and net debt of 1.3 times EBITDA, which is the kind of cushion that decides who survives a bad winter.",
+      "The counter-intuitive fact is that the industry earns less than its cost of capital even in good years. IATA puts 2026 return on invested capital at 4.3%, against a weighted average cost of capital of 8.5%, so the industry as a whole is destroying value by its own measure even while it reports a profit. The carriers that beat that gap do it by acting less like airlines and more like diversified businesses: Delta's premium cabins and American Express income, Air Canada's Aeroplan, cargo and maintenance work.",
+      "In a case interview you could say: an airline is a fixed-cost, perishable-seat business with a margin of a few percent, so it wins by filling planes at good prices, selling premium cabins and loyalty points, and staying liquid enough to survive the next fuel spike."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "stype": "Official",
+     "src": "Air Canada, Q3 2026 financial results release",
+     "url": "https://www.aircanada.com/media/aircanada-reports-third-quarter-2026-financial-results/"
+    },
+    {
+     "stype": "Official",
+     "src": "Air Canada, 2025 Annual Report (MD&A results of operations)",
+     "url": "https://content.presspage.com/uploads/3167/5101b9bd-8766-4720-9034-db9245b8c26c/2025_ar_en_final.pdf"
+    },
+    {
+     "stype": "Official",
+     "src": "IATA, Middle East disruptions and high fuel prices halve airline industry profitability (7 Jun 2026)",
+     "url": "https://www.iata.org/en/pressroom/2026-releases/06-07-middle-east-disruptions-high-fuel-prices-halve-airline-industry-profitability/"
+    },
+    {
+     "stype": "Official",
+     "src": "IATA, Profits and margins to shrink in 2026 but remain positive (Chart of the Week, 19 Jun 2026)",
+     "url": "https://www.iata.org/en/iata-repository/publications/economic-reports/profits-and-margins-to-shrink-in-2026-but-remain-positive/"
+    },
+    {
+     "stype": "Official",
+     "src": "Delta Air Lines, September quarter 2026 financial results",
+     "url": "https://news.delta.com/delta-air-lines-announces-september-quarter-2026-financial-results"
+    },
+    {
+     "stype": "Official",
+     "src": "Delta Air Lines, June quarter 2026 financial results (revenue breakdown)",
+     "url": "https://ir.delta.com/news/news-details/2026/Delta-Air-Lines-Announces-June-Quarter-2026-Financial-Results/default.aspx"
+    },
+    {
+     "stype": "Press",
+     "src": "Travelweek, Transat Q3 costs hit by extra $105 million from jet fuel",
+     "url": "https://www.travelweek.ca/?p=195587"
+    },
+    {
+     "stype": "Press",
+     "src": "CP24, Canadian airlines battle for passengers as fuel costs soar (12 Sep 2026)",
+     "url": "https://cp24.com/news/canada/2026/09/12/cheaper-flights-ahead-canadian-airlines-battle-for-passengers-as-fuel-costs-soar"
+    },
+    {
+     "stype": "Press",
+     "src": "C2C Journal, Unfriendly skies (cites Competition Bureau of Canada data)",
+     "url": "https://c2cjournal.ca/2026/03/unfriendly-skies-why-canada-needs-real-airline-competition/"
+    }
+   ]
+  },
+  {
+   "id": "how-aritzia-works",
+   "type": "Business",
+   "sector": "Apparel Retail",
+   "title": "How Aritzia works",
+   "body": "Aritzia designs its own clothes, has them made by outside factories and sells them mostly at full price through large boutiques and its own website. Sales rose 44.1% to $1.17 billion last quarter, and two-thirds now come from the US.",
+   "summary": "Aritzia's second quarter of fiscal 2027 brought $1.17 billion of revenue, up 44.1%, and a 21.0% adjusted EBITDA margin. Here is how a Vancouver fashion brand makes its money, why new stores are the engine, and why sales per square foot matters more than the number of boutiques.",
+   "ai": "Little AI is disclosed; the visible automation is RFID stock tracking and a robotics-enabled distribution centre in Delta, British Columbia.",
+   "caseq": "Aritzia plans to double revenue in five years, mostly by opening US boutiques. How would you test whether the plan will work, and what could go wrong?",
+   "caseAnswer": "Structure by revenue growth = (number of boutiques x productivity per boutique) + digital, then check margin and capital. (1) New-store productivity: compare each opening cohort's sales per square foot and payback with the company's claim of under 12 months; test whether newer US markets are performing as well as early ones. (2) Digital halo: measure how much online sales rise in a market after a boutique opens (company says about 65%) and whether that is incremental. (3) Margin: full-price sell-through, markdown rate by category, tariff and currency exposure, and whether adjusted gross margin can keep rising after the Q2 jump. (4) Capital and supply chain: return on about $1.1 billion of planned store space and $500 million for US distribution, with robotics at Delta. (5) Brand risk: category expansion into handbags, shoes and beauty could dilute the brand. Then size each lever, run downside cases on US comps and the Canadian dollar, and recommend a staged rollout with gates on productivity.",
+   "cheat": [
+    "Model: vertically integrated own-brand apparel; about 97% of revenue from exclusive brands",
+    "Q2 FY2027: $1.17B revenue (+44.1%), comps +34.5%, US 66.6% of sales",
+    "Adjusted gross margin 48.7%; reported 57.1% includes $97.4M tariff refunds",
+    "Adjusted EBITDA $246.2M, 21.0% margin; SG&A 29.5% of revenue",
+    "Channels: boutiques $766.9M (65.6%), digital $402.9M (34.4%, +67.7%)",
+    "146 boutiques; FY2027 guide $4.78B to $4.88B revenue",
+    "FY2032 target: $9.5B to $10.5B revenue; new boutiques claimed payback under 12 months",
+    "Automation: RFID stock tracking, robotics planned at Delta distribution centre"
+   ],
+   "kicker": "How It Works",
+   "firm": "Aritzia",
+   "date": "Nov 15",
+   "year": "2026",
+   "confidence": "Confirmed",
+   "readTime": "9 min read",
+   "read": 9,
+   "status": "9 min read · deep dive",
+   "facts": [
+    {
+     "k": "Q2 FY2027 revenue",
+     "v": "C$1.17B (+44.1%)"
+    },
+    {
+     "k": "Adjusted EBITDA margin",
+     "v": "21.0%"
+    },
+    {
+     "k": "US share of sales",
+     "v": "66.6%"
+    },
+    {
+     "k": "Boutiques",
+     "v": "146"
+    }
+   ],
+   "cs": "Apparel retailers weighing store expansion, tariff exposure, inventory risk and omnichannel investment need growth-strategy, supply-chain and store-economics work.",
+   "sections": [
+    {
+     "h": "The short version",
+     "paras": [
+      "Aritzia is a Vancouver-based women's fashion brand that designs nearly everything it sells, has it made by outside factories, and sells it through its own boutiques and its own website and app. About 97% of net revenue comes from its exclusive brands, such as Aritzia, Wilfred, Babaton, TNA and The Super Puff, according to its annual information form for the year ended March 1, 2026. It sits at what it calls an attainable price point, between fast fashion and luxury. All dollar figures below are Canadian unless stated.",
+      "The master question for this piece is where the profit actually comes from. The answer is not clothing in general. It is full-price sales of a tightly edited, in-house range, sold through a small number of large, well-placed stores that also pull customers online. If the boutiques stopped selling, much of the profit would go with them, because the company says about half of boutique transactions are preceded by a digital interaction and opening a store in a new market lifts online sales there by about 65% on average.",
+      "The latest numbers show a machine running hot. In the 13 weeks ended August 30, 2026 (the second quarter of fiscal 2027), net revenue rose 44.1% to $1.17 billion, and comparable sales rose 34.5%. The United States was 66.6% of revenue, up 60.3%, while Canada grew 19.8%. The growth story is now mostly an American one."
+     ]
+    },
+    {
+     "h": "How it makes money",
+     "paras": [
+      "Run the 60-second business-model test. Who pays, and for what? The customer pays, directly, for apparel and accessories. There is no advertiser, no marketplace take rate and no franchise royalty. Aritzia is a vertically integrated brand: the AIF says it controls design, merchandise planning, sourcing, production and retail for its exclusive brands. The only third-party product in the mix is a complement of premium denim, accessories and footwear.",
+      "Is revenue one-off or recurring? One-off, per purchase, so the real question is repeat behaviour rather than churn. The AIF says loyal clients who shop across channels spend three times more than single-channel clients. At the October 2026 investor day, management said digitally acquired customers are twice as likely to shop in both channels. That is the closest thing to a recurring engine here: a habit rather than a contract.",
+      "Is there a locked-in consumable? No. A coat or a pair of trousers can be bought elsewhere tomorrow, which is why the model leans on brand and scarcity instead. Who owns the assets? Mostly Aritzia, and that makes it asset-heavier than a typical brand. It runs company-operated distribution centres (Vaughan, Ontario at 550,000 sq ft, plus New Westminster, British Columbia), uses a third-party operator for Columbus, Ohio (560,000 sq ft), and is building a 380,000 sq ft site in Delta, British Columbia with planned robotics. It leases its boutiques, which average about 10,000 sq ft, and pays for the fit-out. Factories are outsourced: finished goods come from manufacturers in 15 countries, and the company does not hold long-term contracts with them.",
+      "The revenue engines, named plainly, are three. First, boutique retail: $766.9 million in Q2, up 34.1% and 65.6% of revenue. Second, digital, meaning the website and app: $402.9 million, up 67.7% and 34.4% of revenue. Third, a small tail of other brands and formats, including Reigning Champ men's wear (four boutiques, which Aritzia counts separately), plus a small food and beverage team. Over fiscal 2021 to 2026, ecommerce grew at a 25% compound annual rate, per the AIF.",
+      "What would break it? Four things: a tariff or duty shock on imported goods, a weak Canadian dollar against the US dollar, a fashion miss that leaves unsold inventory and forces markdowns, and a brand that loses its edge as it doubles in size. The AIF lists the first three as named risks. The fourth is the one a consultant should worry about most."
+     ]
+    },
+    {
+     "h": "The economics",
+     "paras": [
+      "Start with the margin structure for the quarter. Reported gross profit was $667.4 million, a 57.1% margin, but that includes $97.4 million of refunds on tariffs paid earlier. Stripping those out, adjusted gross profit was $570.0 million, a 48.7% margin, up 490 basis points on a year earlier. Our arithmetic (computed): the refunds account for roughly 8.4 points of the reported margin, and about 15% of reported gross profit. Anyone quoting the 57.1% figure as the underlying run rate is wrong.",
+      "Below gross profit, selling, general and administrative costs were $345.4 million, 29.5% of revenue, compared with 30.8% a year earlier. Dollars rose 38.1%, but revenue rose faster, so the cost base was spread more thinly. That operating leverage is the heart of the profit story. Adjusted EBITDA reached $246.2 million, a 21.0% margin versus 15.2%. Net income was $201.7 million, but adjusted net income, which removes the refund effect and other items, was $156.0 million (computed difference: about $45.7 million). Diluted EPS was $1.70 as reported and $1.31 adjusted.",
+      "Why do margins rise when sales rise this quickly? Much of the cost is fixed per boutique, such as rent, a store manager and the fit-out, so extra sales fall mostly to profit. Fewer markdowns would also lift gross margin, though the filings reviewed give no markdown figure. ",
+      "New stores carry the growth, and the claimed payback is unusually fast. At the investor day, management said new boutiques pay back in under 12 months, against a 12 to 18 month planning assumption. That is a company statement made in a presentation, so treat it as a claim to test rather than an audited fact. Over the past four years boutique count grew about 7% a year while square footage grew about 14% a year, which means the company is building bigger boutiques, not simply more of them. A planned four-level flagship of roughly 41,800 sq ft at Vancouver's CF Pacific Centre shows the direction.",
+      "The balance sheet is sound for a business that is growing this fast. Cash was $528.1 million at quarter end versus $352.3 million a year earlier. Inventory was $714.9 million, up 35.8%, which is slower than revenue growth of 44.1% (computed comparison). Capital spending was $62.4 million in the quarter, and the company guides to about $250 million for fiscal 2027.",
+      "Guidance frames the year. For fiscal 2027, revenue is expected at $4.78 billion to $4.88 billion, up roughly 29% to 32%, with an adjusted EBITDA margin of about 20.0% (17.8% in fiscal 2026). The plan assumes 12 to 13 new boutiques plus four to five repositions, with 11 to 12 of the new ones in the US. Q3 revenue is guided to $1.275 billion to $1.325 billion, up about 23% to 27%, which is a notable slowdown from Q2 and a reminder that the comparison base is getting harder."
+     ]
+    },
+    {
+     "h": "The number that runs the business",
+     "paras": [
+      "Many retailers watch same-store sales. For Aritzia, the number that explains the model is sales per unit of space, backed by how quickly a new boutique earns back its cost. The company does not publish sales per square foot in the documents we reviewed, so we cannot give that figure. What it does publish is the payback claim above, the 7% versus 14% growth gap between store count and square footage, and the Q2 comparable sales growth of 34.5%.",
+      "Here is why that matters. A boutique is a big fixed bet: long lease, fit-out, staff, and inventory. Its profit depends on how much merchandise moves through a square foot at full price. Management's plan shows it believes in bigger formats: it wants 5 to 7 repositions a year, where an old small store is replaced by a larger one in a better location, and it is shifting capital accordingly. Of roughly $2 billion of planned five-year capital spending, about $1.1 billion is for retail square footage, about $500 million for US distribution and about $400 million for technology, digital, offices and maintenance.",
+      "The strategic bet is that productivity per square foot can hold as the network expands from 146 boutiques today to something much larger. The fiscal 2032 target is $9.5 billion to $10.5 billion of revenue, a 15% to 17% compound growth rate, with an adjusted EBITDA margin of about 21%. Management expects US boutiques to reach 160 by fiscal 2032 from 87 at the end of fiscal 2027, and assumes comparable sales growth only in the low to mid single digits. In other words, today's 30-plus percent comps are not the plan; the plan relies on new space. If new stores open at lower productivity than the early winners, the whole arithmetic weakens. Management also expects the US to supply just over 85% of incremental growth, with Canada at about 5%.",
+      "Canada is being treated as mature. Management said the Canadian boutique count will decline slightly as legacy Wilfred, TNA and Babaton stores are folded into larger Aritzia boutiques, such as the Toronto Eaton Centre flagship opened in April 2026. That is a good example of how the metric guides decisions: fewer, bigger, better-placed stores."
+     ]
+    },
+    {
+     "h": "Where AI and automation hit",
+     "paras": [
+      "Aritzia has said little in public about AI, and honesty requires saying so. The Q2 release and the five-year plan coverage we reviewed did not discuss AI. The AIF does carry a risk factor on AI and refers to reliance on third-party models. We make no claim about any payoff.",
+      "Where automation is visible, it is in the physical supply chain and inventory. First, Aritzia announced in December 2025 that it would deploy Nedap's RFID-based ID Cloud platform to get item-level stock accuracy, aimed at availability in stores and online and at ship-from-store, in-store pickup and returns. The coverage reported no measured results for Aritzia itself, so the benefits are expected, not proven. Second, the new Delta, British Columbia distribution centre is planned with robotics and increased automation, and the Ohio facility was slated for a retrofit in fiscal 2027.",
+      "Why does this matter for the economics? Digital revenue is growing at 67.7% and is a third of sales, and online orders cost more to pick, pack and return than boutique sales. Ship-from-store and buy-online-pick-up-in-store, which the AIF says most boutiques offer, only work if the stock count is right. RFID reduces the chance of promising an item that is not there. Better inventory visibility also supports the thing that drives margin: selling at full price with less excess stock to clear.",
+      "For a consultant, the useful question is where automation earns a return. In the warehouse, it pays when volumes are high and predictable, which is what the American push now promises: the plan puts about $500 million into US distribution. In design and the stores, the case is far less obvious, because the brand's value is a point of view and service. Automation here is a cost lever, not a moat."
+     ]
+    },
+    {
+     "h": "Who wins and why",
+     "paras": [
+      "Check the moat list. Brand is the main one: Aritzia has built a name that lets it hold prices well above fast fashion, and its exclusive-brand share of about 97% means no one else sells its product. Scale is a second, growing source of advantage, because bigger volumes spread design, distribution and marketing costs. Cost advantage is thin: it outsources production to many countries with no long-term contracts, so it has flexibility rather than a cost edge. There are no network effects, switching costs or regulation. Vertical integration is used where differentiation lives, in design and merchandise planning, and outsourced where it is commodity, in sewing.",
+      "The tariff episode shows both strengths and weakness. In fiscal 2026 the company moved some sourcing from China to Vietnam and Cambodia, a response only a company that controls its own sourcing can make. In Q2 it booked $97.4 million of refunds on tariffs paid earlier, which flattered reported profit. Guidance excludes any further refund benefit. The lesson is that the model passes through some of the risk but not all of it, so margins stay exposed to trade policy and to the Canadian dollar.",
+      "Who wins from here? Aritzia wins if US demand proves durable and each new boutique matches the productivity of earlier ones. Rivals in the premium women's wear segment face a competitor that is investing roughly $1.1 billion in new store space. The AIF says the Hill Shareholders held about 65.57% of voting power as of May 6, 2026, which supports long-term investment but limits outside shareholders' say.",
+      "The main risks are concentration and fatigue. Two-thirds of revenue comes from one country that was not the home market a decade ago; a few quarters of weaker comps would test the plan. A company that targets doubling its revenue and its client base also needs the product to keep feeling special. Expanding into handbags, shoes, jewellery and beauty, expected to add about $1.5 billion of revenue, widens the opportunity but dilutes focus. For consultants, a good engagement here would test new-boutique productivity by cohort, the markdown rate by category and the return on the distribution build-out.",
+      "In a case interview you could say: Aritzia is a vertically integrated brand that earns its profit by selling its own designs at full price through large boutiques that also drive online sales, so the business depends on how much each new square foot of store sells."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "stype": "Official",
+     "src": "Aritzia Q2 fiscal 2027 results (Newswire)",
+     "url": "https://www.newswire.ca/news-releases/aritzia-reports-second-quarter-fiscal-2027-financial-results-822612634.html"
+    },
+    {
+     "stype": "Official",
+     "src": "Aritzia 2026 Annual Information Form",
+     "url": "https://s21.q4cdn.com/489771965/files/doc_financials/2026/q4/Aritzia-Inc-2026-AIF-Final.pdf"
+    },
+    {
+     "stype": "Press",
+     "src": "FashionUnited: Aritzia sees significant profitability expansion in Q2",
+     "url": "https://fashionunited.com/news/business/aritzia-sees-significant-profitability-expansion-in-q2-fiscal-2027/2026100975112"
+    },
+    {
+     "stype": "Trade",
+     "src": "Retail Insider: Aritzia targets $10 billion, Canadian store strategy shifts",
+     "url": "https://retail-insider.com/retail-insider/retailer-news/2026/10/aritzia-targets-10-billion-as-canadian-store-strategy-shifts-toward-stronger-boutiques/"
+    },
+    {
+     "stype": "Trade",
+     "src": "Retail Dive: Aritzia growth plan to double revenue",
+     "url": "https://www.retaildive.com/news/aritzia-store-openings-product-expansions-double-revenue-growth-plan/873034/"
+    },
+    {
+     "stype": "Trade",
+     "src": "Yahoo Finance (PYMNTS Tech Tactics): Aritzia taps Nedap RFID",
+     "url": "https://finance.yahoo.com/news/tech-tactics-aritzia-taps-nedap-174906377.html"
+    }
+   ]
+  },
+  {
+   "id": "how-porters-five-forces",
+   "type": "Strategy",
+   "sector": "Grocery retail",
+   "title": "Porter's Five Forces: judging an industry before you judge a company",
+   "body": "Five Forces tells you how much profit an industry's structure will let any firm keep. Here is the method, applied to Canadian grocery with the latest filings and regulator data.",
+   "summary": "Rivalry, entry, substitutes, suppliers and buyers decide an industry's margin ceiling. We rate each force for Canadian grocery (Loblaw, Sobeys, Metro, Costco, Walmart) using Competition Bureau, company and Statistics Canada data.",
+   "ai": "AI is good at gathering force-by-force evidence from filings and regulator reports, but it cannot decide which force matters most or what a firm should do about it.",
+   "caseq": "A private-equity fund is considering buying a regional grocery chain in Canada. Using Five Forces, is the industry attractive?",
+   "caseAnswer": "Verdict: moderately attractive, with regulatory risk. 1) Rivalry: few large players, cushioned, but fighting on discount and promotions. 2) Entry: barriers high (sites, scale, property controls) but policy is lowering them. 3) Substitutes: low in the category, but shoppers trade down inside it. 4) Suppliers: mixed; large brands matter, the Grocery Code of Conduct is in force. 5) Buyers: individually weak, collectively influential, price-aware and loyalty-card holders. Then: check the target's position (format, region, discount exposure) and what would change a force.",
+   "cheat": [
+    "Five Forces rates an industry's structure, not a company's quality.",
+    "The forces: rivalry, new entrants, substitutes, supplier power, buyer power.",
+    "Rate each low/moderate/high and give one fact for the rating.",
+    "Strong forces cap margins, weak forces protect them.",
+    "Define the industry boundary and geography first.",
+    "Watch direction: regulation and technology can move a force quickly.",
+    "Canada: most shoppers use five groups (Loblaw, Sobeys, Metro, Costco, Walmart), per the Competition Bureau.",
+    "Property controls are a key entry barrier in grocery; Manitoba has banned new ones."
+   ],
+   "kicker": "How It Works",
+   "firm": "Industry",
+   "date": "Nov 15",
+   "year": "2026",
+   "confidence": "Confirmed",
+   "readTime": "9 min read",
+   "read": 9,
+   "status": "9 min read · deep dive",
+   "facts": [
+    {
+     "k": "Forces",
+     "v": "Rivalry · Entry · Substitutes · Suppliers · Buyers"
+    },
+    {
+     "k": "Output",
+     "v": "Industry margin ceiling"
+    },
+    {
+     "k": "Example used",
+     "v": "Canadian grocery retail"
+    },
+    {
+     "k": "Latest data",
+     "v": "Loblaw Q2 2026; StatCan Sept 2026"
+    }
+   ],
+   "cs": "Case-interview use: open an 'is this market attractive?' question by naming the five forces, rating each with one fact, and ending with a verdict.",
+   "sections": [
+    {
+     "h": "The short version",
+     "paras": [
+      "Porter's Five Forces is a way to judge how attractive an industry is, before you judge any one company in it. Michael Porter's argument is that profit is not only about how well firms run themselves. It is also about the structure around them. Five pressures decide how much of the value an industry creates is kept by the firms inside it, and how much leaks away to others.",
+      "The five forces are: rivalry among existing competitors; the threat of new entrants; the threat of substitutes; the bargaining power of suppliers; and the bargaining power of buyers. Strong forces squeeze profit, weak forces protect it. The output is a verdict on the industry's margin ceiling, which is why the framework sits in the strategy toolkit: it tells you whether the game is worth playing, and which part of the game to play.",
+      "The master question for this piece is: why would this business still be winning in ten years? Five Forces answers the first half. It shows what the industry will let any player earn, and which forces a player could change by its own choices."
+     ]
+    },
+    {
+     "h": "How to do it properly",
+     "paras": [
+      "Start by drawing the boundary. An industry is a set of firms whose products customers treat as close substitutes, in a defined geography. 'Food' is too wide. 'Supermarkets and supercentres in Canada' is workable, and you may need to split it further, for example into hard discount and full-service, because the forces differ by segment.",
+      "Then take each force and ask a specific question, with evidence. Rivalry: how many players are there, how similar are they, and do they compete on price or on something else? Entry: what would a newcomer need (capital, sites, supply chain, brand) and could incumbents block it? Substitutes: what else solves the same need, such as meal kits, restaurants or online delivery? Supplier power: do a few suppliers control something you cannot do without, or can you switch? Buyer power: are customers concentrated or able to switch cheaply?",
+      "Rate each force as low, moderate or high, and write the one fact that justifies the rating. This is where most analyses fail: a force is not 'high' because it sounds threatening, it is high because a number or a mechanism shows it. Look for facts like market shares, switching costs, share of costs a supplier represents, and the fixed-cost base that makes rivals fight for volume.",
+      "Finally, look at direction and at what is changing. Five Forces is a snapshot, so ask which force is moving, who or what is moving it (technology, regulation, a new entrant) and what that does to the margin ceiling. Many analysts also add a sixth lens, complementors or government, because regulation can reshape a force directly. We will see that in grocery."
+     ]
+    },
+    {
+     "h": "A worked example",
+     "paras": [
+      "Our industry is Canadian grocery retail. The Competition Bureau's 2023 market study found that most Canadians buy groceries from one of five companies: Loblaw, Sobeys (owned by Empire), Metro, Costco and Walmart. It reported that Loblaw, Sobeys and Metro each had more than 1,000 stores, including franchised ones, and that Costco and Walmart together had about 500. A 2026 Bureau update repeats that five-company finding.",
+      "Rivalry: moderate to high on the surface, but cushioned. Rivals are few, which usually dampens price wars. Yet they fight hard on value. Loblaw said in its second-quarter 2026 release (quarter ended June 20, 2026) that its discount banners again outperformed, and it opened 7 hard discount stores in the quarter. Empire's food same-store sales grew 1.2% in its quarter ended August 1, 2026, and it is rolling out its FreshCo discount banner in Atlantic Canada. Competition has moved to the discount aisle, and to promotions. Loblaw's September 2026 capital plan notes that the share of grocery sales bought on promotion has risen four percentage points since 2022.",
+      "New entrants: low to moderate threat. The Bureau pointed to property controls, which are clauses in leases or deeds that stop a rival grocer using a site, as a barrier that blocks new stores. It also noted that capital needs, low population density and the grocers' ownership of many discount banners make standalone entry hard. Policy is now pushing the barrier down: Manitoba passed a law barring new restrictive covenants in grocery, and the Bureau reports Sobeys, Loblaw and Walmart Canada have taken steps to remove such controls. Entry is not impossible, though. The Bureau lists online grocers as an area of innovation, and Retail Insider reports T&T planning new Ontario and Manitoba stores for 2028.",
+      "Substitutes: low to moderate. Restaurants, meal kits and delivery compete for some meals, but groceries are a necessity and most spending is hard to substitute. The real substitution happens inside the category, as shoppers trade down. Statistics Canada reports grocery prices rose 1.7% year over year in September 2026, the smallest annual increase since May 2024, but are still up 33.0% since September 2020. That cumulative rise is why shoppers move to discount banners and store brands.",
+      "Supplier power: mixed. For large national brands, the big grocers are crucial customers, and the Bureau noted that they receive supplier payments for shelf placement that independents generally do not. But suppliers are often large too. The relationship was serious enough that the industry built a Grocery Code of Conduct, which took full effect on January 1, 2026. It was prompted by supplier fees introduced by Walmart Canada and Loblaw in 2020, according to the Canadian Press. By July 2026 it had received 14 complaints, and 200 businesses had signed on, including all major grocers, though only a few hundred of the few thousand suppliers had. Read this as a sign that supplier power is strong enough to matter, and weak enough in some segments that a code was needed.",
+      "Buyer power: low per shopper, but price-aware. A single shopper has no leverage. But shoppers can switch. In the Bureau's 2023 survey, 79% said they visit multiple stores at least sometimes to find the best price, and 75% hold a loyalty card. Loyalty cards raise switching costs. Collectively, buyers also have political power: affordability is why Parliament and regulators keep returning to this sector.",
+      "The verdict: the industry structure supports healthy but politically exposed profits. The Bureau reported that the three biggest grocers' combined profit rose from about $2.4 billion in 2019 to $3.6 billion in 2022 (about 50%, computed). Loblaw alone earned $1,994 million of the $3,589 million in 2022 (about 56%, computed from the Bureau's table). Loblaw's retail gross margin in Q2 2026 was 32.2%, and its return on equity was 27.2% according to MarketBeat's summary of the earnings call. Those are strong figures. They are exactly what the forces predict: few rivals, high entry barriers and a necessity product. The caveat is that the Bureau said it could not obtain complete food-only margin data, so net margin conclusions need care."
+     ]
+    },
+    {
+     "h": "From analysis to choices",
+     "paras": [
+      "A Five Forces grid is only useful if it leads to choices. The standard move is to ask, for each force, how a firm could weaken it or position itself where it is weakest. Think of it as three plays: position the firm where forces are weakest, shift the forces in its favour, or exploit change before others do.",
+      "Take Loblaw. The strongest pressure on margin is buyers moving to value. Its response, from its own releases, is to build the discount position itself: the 2026 plan puts about $2.4 billion into capital spending, with grocery expansion focused mainly on No Frills and Maxi. That keeps price-sensitive shoppers inside its own network, which reduces rivalry's bite. A discount store that you own cannot take sales from you.",
+      "Take Empire. The same logic explains rolling FreshCo into Atlantic Canada. It also explains the scale of its fiscal 2027 plan: Retail Insider reports a target of more than 25 new stores and roughly $850 million of capital spending, about half for renovations and store development.",
+      "Take a challenger, such as a regional independent or foreign entrant. Five Forces says the barrier is sites and supply, so the choice is where to enter: places where property controls are being removed, formats where scale matters less, or a niche such as ethnic grocery. Take a supplier: the code of conduct is a chance to strengthen its position by joining and documenting practices.",
+      "For the policy-maker, the framework points at the weakest link. If entry is the force that most protects profit, then the Bureau's recommendations make sense: ban property controls, back unit pricing so buyers can compare, and support new grocery models. Notice that the Bureau's September 2026 update says progress is partial and urges governments to adopt all four recommendations."
+     ]
+    },
+    {
+     "h": "Common mistakes",
+     "paras": [
+      "The first mistake is drawing the industry too wide or too narrow. Analyse 'retail' and every force looks mixed. Analyse one banner and you miss the competition inside the same parent company.",
+      "The second is treating the framework as a list of threats. Each force needs a rating and a fact. 'Rivalry is intense' with no evidence is the Five Forces version of a bland SWOT bullet.",
+      "The third is forgetting that a force can be high and the industry still profitable. Rivals may be many but disciplined, or the force may fall on someone else in the chain. Always ask who captures the value, and whether firms can pass costs on. Grocery shows this: costs rose, prices rose, and profits held.",
+      "The fourth is ignoring dynamics: regulation, technology and a change in consumer habits can move a force within a few years. A static grid in a moving industry is stale.",
+      "The fifth is mixing the industry with the firm. Five Forces tells you what the industry will allow. Whether Loblaw earns more than the average depends on its own advantages, such as scale, private labels and loyalty data, which belong in a separate moat analysis. Finally, do not forget numbers: show a market share, a switching cost, or a margin, with its date and source, and label your own arithmetic as computed."
+     ]
+    },
+    {
+     "h": "Where AI and automation hit",
+     "paras": [
+      "AI is useful at the evidence stage. It can pull store counts and margins from filings, summarise regulator reports, track price changes and flag when a force shifts, for example when a new discount banner opens in a region. That is hours of research cut to minutes.",
+      "AI also changes the forces themselves. Online ordering and delivery lower the barrier for some entrants and raise buyers' ability to compare prices. For incumbents, automation in warehouses and forecasting lowers costs, which is why Empire and Metro are restructuring e-commerce fulfilment, according to Retail Insider. Dynamic pricing and personalised promotions can sharpen rivalry but also shape how the Bureau sees competition.",
+      "What AI cannot do is judge. A model will happily call every force 'high' or invent a plausible market share. Check each figure against the source, decide which force is decisive, and write the recommendation. The people who do this well are rated on judgment, not on a pretty grid.",
+      "In an interview: Canadian grocery earns healthy profits because a handful of rivals face high entry barriers and sell a necessity, while the main risks are buyers trading down to discount and regulators attacking the barriers."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "stype": "Official",
+     "src": "Competition Bureau Canada: Canada Needs More Grocery Competition (retail grocery market study, 2023)",
+     "url": "https://competition-bureau.canada.ca/en/how-we-foster-competition/education-and-outreach/canada-needs-more-grocery-competition"
+    },
+    {
+     "stype": "Official",
+     "src": "Competition Bureau Canada: Assessing progress on the retail grocery recommendations (Sept 3, 2026)",
+     "url": "https://competition-bureau.canada.ca/en/how-we-foster-competition/education-and-outreach/publications/assessing-progress-competition-bureaus-retail-grocery-recommendations"
+    },
+    {
+     "stype": "Official",
+     "src": "Statistics Canada: The Daily, Consumer Price Index, September 2026",
+     "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261019/dq261019a-eng.htm"
+    },
+    {
+     "stype": "Official",
+     "src": "Loblaw: Second quarter 2026 results (July 30, 2026)",
+     "url": "https://www.loblaw.ca/en/loblaw-reports-second-quarter-revenue-growth-of-41-and-adjusted-diluted-net-earnings-per-common-share-growth-of-119/"
+    },
+    {
+     "stype": "Official",
+     "src": "Loblaw: 2026 capital investment and hard discount openings (Sept 1, 2026)",
+     "url": "https://www.loblaw.ca/en/loblaw-to-invest-approximately-12-billion-in-capital-expenditures-through-remainder-of-2026-opening-more-hard-discount-stores-to-help-lower-prices-for-more-canadians/"
+    },
+    {
+     "stype": "Official",
+     "src": "Empire: Q1 fiscal 2027 results (Sept 10, 2026)",
+     "url": "https://www.empireco.ca/news/empire-reports-eps-of-104-in-the-first-quarter-of-fiscal-2027-results"
+    },
+    {
+     "stype": "Press",
+     "src": "Canadian Press via BNN Bloomberg: Grocery code report (July 22, 2026)",
+     "url": "https://www.bnnbloomberg.ca/business/economics/2026/07/22/retailers-suppliers-hesitant-to-raise-concerns-grocery-code-report-finds/"
+    },
+    {
+     "stype": "Trade",
+     "src": "Retail Insider: Q3 2026 grocery capacity report",
+     "url": "https://retail-insider.com/reports/2026/10/q3-2026-grocery-capacity-expands-as-competition-for-the-basket-intensifies/"
+    },
+    {
+     "stype": "Trade",
+     "src": "MarketBeat: Loblaw Q2 2026 earnings summary",
+     "url": "https://www.marketbeat.com/earnings/reports/2026-7-30-loblaw-companies-limited-lto-stock/"
+    }
+   ]
+  },
+  {
    "id": "how-trucking-works",
    "sector": "Logistics",
    "title": "How trucking makes money (and why it barely does)",

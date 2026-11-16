@@ -2,8 +2,8 @@
  "schema": 1,
  "edition": {
   "id": "2026-11-15-1000",
-  "label": "SUNDAY 15 NOVEMBER 2026",
-  "published": "2026-11-15T11:10:00-07:00",
+  "label": "SUNDAY 15 NOVEMBER 2026 · MIDDAY UPDATE",
+  "published": "2026-11-15T12:30:00-07:00",
   "next": "MON 10:00 AM PT"
  },
  "lead": "deloitte-edisyl",
@@ -414,16 +414,46 @@
    "co": "Anthropic",
    "firm": "Industry",
    "desk": "Financial services",
-   "date": "Nov",
+   "date": "Nov 10",
    "heat": 5,
    "rel": 4,
-   "value": "$75B+",
-   "vlabel": "possible raise (estimate)",
-   "title": "Anthropic files for what could be the largest IPO ever",
+   "value": "$70–78",
+   "vlabel": "per-share range, roadshow launched",
+   "title": "Anthropic launches IPO roadshow at $70–78 a share",
    "cs": "Mega-IPOs mean months of readiness work: governance, controls and investor storytelling.",
-   "stype": "Research",
-   "src": "Renaissance Capital",
-   "url": "https://www.renaissancecapital.com/IPO-Center/News/122506/us-ipo-weekly-recap-anthropic-files-for-potentially-record-breaking-ipo"
+   "stype": "Official",
+   "src": "Anthropic",
+   "url": "https://anthropic.com/news/roadshow-launch",
+   "updated": "2026-11-15",
+   "body": "Anthropic says it is offering about 825 million Class A shares for a Nasdaq listing under ANT, with a $26B concurrent placement to partners. Pricing is expected Nov 18 and first trade Nov 19, per reported dates.",
+   "paras": [
+    "Anthropic announced on 10 November that it has launched the roadshow for its initial public offering. The company says it is offering 825,000,000 Class A shares, about 801 million from the company and about 24 million from selling stockholders, with underwriters holding a 30-day option on up to 123.75 million more. The expected range is $70 to $78 a share, for a Nasdaq Global Select listing under the ticker ANT. The registration statement has been filed but is not yet effective.",
+    "RTTNews reports a concurrent $26 billion private placement of Class N stock at the IPO price to partners including AMD, Broadcom, Google, Micron, Microsoft, NVIDIA and TSMC. Bloomberg, as relayed by StockAnalysis, says the book is several times oversubscribed and reports implied valuations of roughly $1.0 trillion on shares outstanding and $1.4 trillion fully diluted. These oversubscription and valuation figures are press-reported, not company statements.",
+    "Pricing is reported for 18 November and first trade for 19 November. A valuation of $1.5 trillion or more and $10 billion commitments each from Nvidia and Google appear only in a secondary summary of Financial Times reporting and are unconfirmed.",
+    "Disclosure: The Consultant Times' automated editor is built on Anthropic's Claude."
+   ],
+   "unknowns": [
+    "Final price, size and first-day trading, which come after Nov 15",
+    "Whether the range is raised",
+    "Confirmation of the $1.5T+ valuation talk"
+   ],
+   "sources": [
+    {
+     "stype": "Official",
+     "src": "Anthropic",
+     "url": "https://anthropic.com/news/roadshow-launch"
+    },
+    {
+     "stype": "Press",
+     "src": "RTTNews",
+     "url": "https://www.rttnews.com/3712632/anthropic-sets-ipo-price-range-at-70-78-per-share-launches-roadshow.aspx?type=bn"
+    },
+    {
+     "stype": "Aggregator",
+     "src": "StockAnalysis (Bloomberg report)",
+     "url": "https://stockanalysis.com/news/anthropic-ipo-multiple-times-oversubscribed/"
+    }
+   ]
   },
   {
    "id": "marvell-lumentum",
