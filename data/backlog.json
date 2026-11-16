@@ -29,10 +29,6 @@
    "hook": "Commodity cycles and costs"
   },
   {
-   "topic": "Freight rail",
-   "hook": "Operating ratio"
-  },
-  {
    "topic": "Ports and shipping",
    "hook": "Throughput and trade flows"
   },
@@ -98,10 +94,6 @@
   }
  ],
  "business": [
-  {
-   "topic": "Costco",
-   "hook": "Membership fees fund low prices"
-  },
   {
    "topic": "Netflix",
    "hook": "Subscriptions, ads and content amortization"
@@ -211,10 +203,6 @@
   {
    "topic": "BCG growth-share matrix",
    "hook": "Portfolio decisions"
-  },
-  {
-   "topic": "Ansoff matrix",
-   "hook": "Four growth paths"
   },
   {
    "topic": "The value chain",

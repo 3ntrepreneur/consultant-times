@@ -1,6 +1,412 @@
 {
  "items": [
   {
+   "id": "how-grocery-retail-works",
+   "type": "Industry",
+   "sector": "Grocery retail",
+   "title": "How grocery retail makes money",
+   "body": "Grocers sell perishable food that shoppers compare every week, so the profit left over is a few cents on the dollar. The levers are a point of gross margin, a pharmacy next door and a private label range.",
+   "summary": "Loblaw earned a 6.9% operating margin in 2025, Metro a 4.8% adjusted net margin, and Empire about 2.3% (computed). Here is how Canadian grocers and Kroger turn thin margins into profit, why private label and pharmacy matter, and why two big automation write-downs show the limits of technology.",
+   "ai": "Grocers use AI to forecast demand and cut spoilage, set prices and promotions by store, and plan delivery routes; none of it changes the thin margin structure, and automated fulfilment write-downs at Kroger and Empire show the risk of building fixed capacity ahead of volume.",
+   "caseq": "A regional grocer's operating margin has fallen by one point while same-store sales grew 2%. What do you recommend?",
+   "caseAnswer": "Frame profit as sales x (gross margin minus operating expense ratio). 1) Sales: traffic, basket size and price inflation, separating volume from price. 2) Gross margin: mix (fresh, pharmacy, health and beauty), private label penetration, supplier terms and promotional spend, and shrink. 3) Operating costs: labour scheduling, store and distribution productivity, rent and energy, and any under-used automation or e-commerce capacity. 4) Capital and risk: write-downs, capex returns and balance sheet. Quantify the one-point drop first, since a point of gross margin is a large share of a margin of a few percent, then prioritise private label and mix for durable gain and cost and capacity fixes for speed.",
+   "cheat": [
+    "Loblaw 2025: revenue C$63,903M, operating income C$4,424M, a 6.9% margin (computed); gross margin 31.3%.",
+    "Metro fiscal 2025: gross margin 19.9%, operating expenses 10.4% of sales, adjusted net earnings 4.8% of sales.",
+    "Empire fiscal 2026: sales C$31,950M, adjusted EBITDA margin 7.8%, adjusted net earnings C$747M (2.3%, computed).",
+    "Kroger 2025: sales $147.6B, operating profit $1.89B (1.3%, computed), after $2.5B of automated fulfillment impairment.",
+    "Loblaw's drug retail segment is 29.2% of revenue (computed), so pharmacy is a major profit source in a grocery group.",
+    "US store brands hold 21.3% of dollar sales and 23.5% of unit sales in 2025 (PLMA/Circana); no Canadian share was found in the filings reviewed.",
+    "Top three Canadian grocers' profits rose from C$2.4B in 2019 to C$3.6B in 2022 (Competition Bureau, via Fasken).",
+    "Counter-intuitive: the biggest recent profit hits at Kroger and Empire were automation write-downs, not lost customers."
+   ],
+   "kicker": "How It Works",
+   "firm": "Loblaw",
+   "date": "Nov 15",
+   "year": "2026",
+   "confidence": "Confirmed",
+   "readTime": "12 min read",
+   "read": 12,
+   "status": "12 min read · deep dive",
+   "facts": [
+    {
+     "k": "Loblaw 2025 operating margin",
+     "v": "6.9% (computed)"
+    },
+    {
+     "k": "Metro FY25 adj. net margin",
+     "v": "4.8%"
+    },
+    {
+     "k": "Kroger 2025 operating margin",
+     "v": "1.3% (computed)"
+    },
+    {
+     "k": "Top-five Canadian share",
+     "v": "~65% (USDA, year n/a)"
+    }
+   ],
+   "cs": "Grocery is a high-volume, thin-margin business where a point of gross margin is a large share of profit. Scale, pharmacy and private label protect that point, and automation only helps where volume already justifies the fixed cost.",
+   "sections": [
+    {
+     "h": "The short version",
+     "paras": [
+      "A grocer buys food at a wholesale price, adds a markup, and sells it again within days. Most of what it sells is perishable, shoppers buy the same basket every week, and rivals' prices sit on the shelf for anyone to compare. That makes grocery a high-volume, low-margin business: profit is the thin gap between what a retailer earns above the cost of the food and what it spends running stores, trucks, warehouses and people.",
+      "The filings show how thin the gap is. Loblaw earned C$4,424 million of operating income on C$63,903 million of 2025 revenue, a 6.9% margin (computed), helped by a large pharmacy business. Metro's adjusted net earnings were 4.8% of sales. Empire, which owns Sobeys, made adjusted net earnings of C$747 million on C$31,950 million of fiscal 2026 sales, or 2.3% (computed). Kroger, the largest US supermarket group, reported an operating profit of $1.89 billion on $147.6 billion of sales, 1.3% (computed), and about 3.0% before a $2.5 billion impairment (computed). The question for any grocer is therefore not how to get rich but how to keep a few cents on each dollar while competitors watch every price.",
+      "Private label, meaning products sold under the retailer's own name, is the best-known way to improve that arithmetic, because the retailer keeps the margin that would otherwise go to a national brand. It is also hard to measure: the Loblaw and Metro results releases I reviewed give no private label sales figure, so the strongest claims about it rest on reasoning and on US data rather than on Canadian disclosure."
+     ]
+    },
+    {
+     "h": "How it makes money",
+     "paras": [
+      "There are three engines. The first is food sold at a markup over its cost. The second is everything else on the same footprint, especially pharmacy, health and beauty, and in some banners fuel. The third is the retailer's own brands, which lift the margin on the food itself. At Loblaw in 2025, food retail sales were C$45,234 million (70.8% of revenue, computed) and drug retail sales C$18,669 million (29.2%, computed). Food same-store sales grew 2.3%. Loblaw also reported C$335 million of operating income from discontinued operations, which is its PC Financial business, and that sits outside the C$4,424 million above.",
+      "Gross margin, the share of sales left after the cost of goods, differs widely: Loblaw 31.3%, Empire 27.1%, Kroger 22.9% and Metro 19.9%. These are not a league table. Pharmacy, beauty, fuel and the way each company classifies costs all change the figure, so the useful comparison is each company against its own past. On that basis margins are edging up: Metro 19.9% from 19.7%, Empire 27.1% from 26.8% and Kroger 22.9% from 22.3%.",
+      "Private label works because the retailer commissions a manufacturer to make the product, skips most of the national advertising a brand would carry, and controls the shelf position. In the United States, the PLMA trade body, using Circana data, reports store brands at a 21.3% dollar share of 2025 sales, up from 19.1% in 2021, and a 23.5% unit share, up from 21.6%. Unit share above dollar share means store-brand items sell at a lower average price per unit (analysis, not a reported figure). Metro's release credits what it calls strong private labels but gives no numbers.",
+      "The point for a consultant is that private label is a bargaining tool as well as a margin tool. A credible own-brand alternative weakens a national supplier's demand for higher prices and gives the grocer a way to hold its price position when shoppers trade down."
+     ]
+    },
+    {
+     "h": "The economics",
+     "paras": [
+      "Start with Loblaw's 2025 statement, all computed from its Q4 release. Cost of sales was C$43,871 million, 68.7% of revenue, leaving gross profit of C$20,032 million, or 31.3%. Selling, general and administrative expense was C$15,608 million, 24.4% of revenue, so it absorbed 77.9% of gross profit. Operating income was C$4,424 million, 6.9%. Loblaw's retail adjusted EBITDA margin, which excludes depreciation, was 11.2%.",
+      "Metro's structure is simpler and leaner. For fiscal 2025 on sales of C$22,006.7 million, gross margin was 19.9%, operating expenses 10.4% of sales, and operating income before depreciation and similar items C$2,082.9 million, or 9.5%. Adjusted net earnings were C$1,049.8 million, 4.8% of sales, and reported net earnings were 4.6%. Empire's adjusted EBITDA margin was 7.8% for fiscal 2026, against a reported 5.5% once a C$746 million e-commerce impairment is included.",
+      "The profit pool is broad and it is growing in dollars. The Competition Bureau's 2023 market study found that the three largest grocers' profits rose from C$2.4 billion in 2019 to C$3.6 billion in 2022, and that food gross margins rose one to two percentage points since 2017, which it called modest yet meaningful (as summarised by the law firm Fasken). The Retail Council of Canada, the industry lobby, argued to the Bureau that most of the gain came from pharmacy, health and beauty and from operating efficiencies, and that food margins were flat or down. That is a claim by an interested party, but it points at a real feature: the profit pool sits partly outside the food aisle.",
+      "Behind these margins is a mostly fixed cost base. Stores, distribution centres, leases and core staffing do not shrink when volume dips, so grocers earn their return on sales growth that outruns cost growth. Same-store sales rose 2.3% at Loblaw (food, 2025), 1.9% at Empire (fiscal 2026) and 1.6% at Metro in its fourth quarter, all nominal figures that include food price inflation."
+     ]
+    },
+    {
+     "h": "The number that runs the business",
+     "paras": [
+      "The number is gross margin, measured in single percentage points of sales. Because the final profit is only a few cents on the dollar, a one-point move in gross margin is a large share of profit. At Metro, one point of sales is about 10.5% of its 9.5% EBITDA-style margin (computed). At Kroger, one point of sales is about $1.48 billion (computed), against operating profit before the impairment of roughly $4.4 billion (computed), a little over a third.",
+      "This explains the daily behaviour of grocers. Promotions, price matching and private label launches are all attempts to protect the number from two sides at once: shoppers who will switch store for a lower basket price, and suppliers who want to push through cost increases. It also explains why the number is political. The Competition Bureau's attention to margin gains since 2017 is a reminder that regulators and customers read the same figure grocers manage, and that a rise can be seen as the system working or as pricing power.",
+      "The partner number is the operating expense ratio. Metro held operating expenses at 10.4% of sales in both fiscal 2024 and fiscal 2025 while gross margin rose by 0.2 points, and its EBITDA-style margin moved from 9.4% to 9.5%. That is the operating leverage pattern in miniature: margin gains from mix and private label only reach profit if costs stay flat."
+     ]
+    },
+    {
+     "h": "Where AI and automation hit",
+     "paras": [
+      "The most proven uses of AI in grocery are unglamorous: forecasting demand so fewer perishables are thrown out, setting prices and promotions by store and by item, and optimising delivery routes and shelf replenishment. They work on the two numbers above, either by protecting gross margin or by holding down operating expense. I found no filing that gives a dollar figure for the savings, so treat any consultant claim of a specific percentage as an assumption until a company discloses it.",
+      "The sourced evidence in the filings is about the opposite risk, automation that outruns volume. Kroger's 2025 operating profit fell to $1.89 billion from $3.85 billion in 2024, and its release attributes $2.5 billion of the decline to impairment and related charges on its automated fulfillment network, 1.7% of sales (computed). Empire's fiscal 2026 results include a C$746 million e-commerce impairment, 2.3% of sales (computed). In both cases the write-down arrived in a single year and was large enough to cut the reported margin visibly.",
+      "The lesson is that automating a fixed-cost asset raises the break-even volume. A highly automated warehouse is efficient at full utilisation and expensive at partial use, while a store-based pick model scales more gently. Grocers therefore gain most from AI that sits on top of existing stores and supply chains, and carry the most risk from AI that needs new assets and a sudden jump in online orders."
+     ]
+    },
+    {
+     "h": "Who wins and why",
+     "paras": [
+      "Canada is concentrated. The Competition Bureau called the industry highly concentrated and noted that at least eight large chains each had a different owner when the Competition Act was introduced in 1986, with five later bought by competitors. Loblaw, Sobeys and Metro each have over 1,000 stores, including franchised ones, and the Bureau reported their combined 2022 sales above C$100 billion. A USDA report, as cited by The Packer, puts shares at Loblaw 17%, Costco 15%, Sobeys 14%, Walmart 13% and Metro 6%, or 65% combined for the top five. That article does not state the data year, and its photo caption gives a different total of nearly 76%, so use these as an indication only. Costco and Walmart do not report Canadian sales separately.",
+      "Concentration helps explain the margin. Five chains that all see the same costs tend to move prices together without coordination, and the two price-led players, Costco and Walmart, are the main check on the others. Whoever has scale in purchasing, a pharmacy and health offer, and a trusted private label can defend gross margin; the regional or single-format grocer cannot.",
+      "On the cycle, grocery is a staple business and does not boom or bust with the economy. All three Canadian companies above kept growing same-store sales by 1.6% to 2.3%. The cycle shows up instead in mix. In the United States, store-brand unit share rose from 21.6% in 2021 to 23.5% in 2025, a period of high food inflation, which is consistent with shoppers trading down (analysis). Fresh food, pharmacy and private label are the segments that hold up; promotional national brands and discretionary general merchandise are where margin leaks.",
+      "The counter-intuitive fact is that a grocer's profit is not mainly decided in the food aisle. Loblaw's drug segment is 29.2% of revenue (computed), the Retail Council attributes much of the industry's margin gain to pharmacy, health and beauty, and the largest recent earnings shocks at Kroger and Empire came from automation write-downs, not from shoppers leaving. The winners combine a price reputation, a pharmacy that adds higher-margin sales, and a private label range that keeps the margin on the basket.",
+      "In a case interview you could say: grocery is a thin-margin, high-volume business where a point of gross margin is a third of profit, so it wins by building scale, a pharmacy and a private label range that protect that point, and by adding automation only where volume already justifies it."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "stype": "Official",
+     "src": "Loblaw Companies Limited, Q4 and full-year 2025 news release",
+     "url": "https://dis-prod.assetful.loblaw.ca/content/dam/loblaw-companies-limited/creative-assets/loblaw-ca/investor-relations-reports/annual/2025/LCL_Q4%202025_NR.pdf"
+    },
+    {
+     "stype": "Official",
+     "src": "Metro Inc., 2025 fourth quarter results",
+     "url": "https://corpo.metro.ca/userfiles/file/PDF/communique/2025/METRO-Reports-2025-Fourth-Quarter-Results.pdf"
+    },
+    {
+     "stype": "Official",
+     "src": "Empire Company, fourth quarter and fiscal 2026 results",
+     "url": "https://www.empireco.ca/news/empire-reports-eps-of-094-in-the-fourth-quarter-and-fiscal-2026-results"
+    },
+    {
+     "stype": "Official",
+     "src": "Kroger, fourth quarter and full-year 2025 results",
+     "url": "https://ir.kroger.com/news/news-details/2026/Kroger-Reports-Fourth-Quarter-and-Full-Year-2025-Results-andAnnounces-Guidance-for-2026/default.aspx"
+    },
+    {
+     "stype": "Research",
+     "src": "PLMA, US private label industry reached $282.8 billion in 2025 (Circana data)",
+     "url": "https://www.plma.com/article/us-private-label-industry-reached-2828-billion-sales-2025"
+    },
+    {
+     "stype": "Press",
+     "src": "Fasken, Competition Bureau retail grocery market study summary (June 2023)",
+     "url": "https://www.fasken.com/en/knowledge/2023/06/canada-needs-more-competition-competition-bureau-releases-its-retail-grocery-market-study-report"
+    },
+    {
+     "stype": "Press",
+     "src": "Global News, Competition Bureau grocery study takeaways",
+     "url": "https://globalnews.ca/news/9796699/competition-bureau-canada-grocery-study-takeaways"
+    },
+    {
+     "stype": "Press",
+     "src": "Supermarket News, Canada sounds call for more grocery retail competition",
+     "url": "https://www.supermarketnews.com/retailers/canada-sounds-call-more-grocery-retail-competition"
+    },
+    {
+     "stype": "Press",
+     "src": "The Packer, Top 5 grocery stores in Canada by market share (citing USDA)",
+     "url": "https://www.thepacker.com/news/retail/five-retailers-dominate-canadas-grocery-sales"
+    }
+   ]
+  },
+  {
+   "id": "how-dollarama-works",
+   "type": "Business",
+   "sector": "Discount retail",
+   "title": "How Dollarama works",
+   "body": "Dollarama sells goods priced between 25 cents and five dollars from small stores that pay back in about two years, and it buys nearly half of its Canadian volume directly from overseas factories. That model produced a 26.7% operating margin in fiscal 2026.",
+   "summary": "Dollarama earned C$1.31 billion on C$7.26 billion of sales in fiscal 2026, a net margin of about 18% (computed). Here is how direct import, a fixed price ladder and two-year store payback drive that margin, what Dollarcity and The Reject Shop add, and what could break it.",
+   "ai": "AI and automation help Dollarama most in demand forecasting, replenishment and warehouse logistics, including a new Western Canada hub due by the end of 2027. They are a modest lever, because the main costs are goods and store labour, and the filings reviewed quantify no automation savings.",
+   "caseq": "A Canadian dollar-store chain's EBITDA margin has fallen from 34.1% to 32.2% in a year as it adds an acquired foreign business. What do you recommend?",
+   "caseAnswer": "Frame profit as store count x sales per store x margin, less overhead. 1) Diagnose the mix: separate the core Canadian segment (45.7% gross margin, 34.9% EBITDA margin) from the acquired Australian one (about 5.5% EBITDA margin, computed) to confirm the decline is mix, not core erosion. 2) Core health: check comparable sales (transactions versus basket), imported cost, freight and currency pass-through, and private-label share. 3) Acquired business: set a timeline to lift gross margin and cut SG&A through sourcing, store layout and range changes, and stop new openings if renovated stores do not beat the old ones. 4) Capital allocation: keep new Canadian stores (about two-year payback) and the Latin American stake ahead of buybacks and the foreign turnaround if cash is tight, and watch leverage (2.12x adjusted net debt to EBITDA). Prioritise by size and speed: confirm the mix explanation first, then fix Australia's cost base, while protecting the Canadian engine.",
+   "cheat": [
+    "FY2026 (to Feb 1, 2026): sales C$7,255.8M, EBITDA C$2,408.2M (33.2%), operating margin 26.7%, net earnings C$1,309.4M (Dollarama FY26 release).",
+    "Canadian price points run from C$0.25 to C$5.00; 65% of Canadian sales are private label (2026 Annual Information Form).",
+    "46% of Canadian procurement volume in FY2026 was overseas direct imports, mostly from China; the largest vendor is about 6.2% of purchases (AIF).",
+    "New Canadian store: about C$1M investment, about two-year payback, average store sales about C$4.1M, about C$392 per sq ft (computed).",
+    "Canadian comparable sales: +4.2% in FY2026; +5.4% in Q2 FY2027 (transactions +3.7%, basket +1.7%).",
+    "FY2026 buybacks: 4,426,267 shares for C$834.2M, about 63.7% of net earnings (computed).",
+    "Dollarcity: 781 stores at June 30, 2026; Dollarama's share of CY2025 earnings C$191.5M, about 14.6% of FY26 net earnings (computed).",
+    "Australia (The Reject Shop, bought for A$233.6M): Q2 FY2027 EBITDA C$10.2M on C$184.8M sales, operating loss C$17.1M."
+   ],
+   "kicker": "How It Works",
+   "firm": "Dollarama",
+   "date": "Nov 15",
+   "year": "2026",
+   "confidence": "Confirmed",
+   "readTime": "12 min read",
+   "read": 12,
+   "status": "12 min read · deep dive",
+   "facts": [
+    {
+     "k": "FY2026 EBITDA margin",
+     "v": "33.2%"
+    },
+    {
+     "k": "Canadian new-store payback",
+     "v": "about 2 years"
+    },
+    {
+     "k": "Direct imports, share of Canadian volume",
+     "v": "46%"
+    },
+    {
+     "k": "Canadian comps, Q2 FY2027",
+     "v": "+5.4%"
+    }
+   ],
+   "cs": "Dollarama is a low-price, high-turnover retailer whose margin comes from direct import, private label and cheap stores that pay back in about two years. The winners in this format are the chains with the scale to buy cheaper than rivals and the store economics to keep opening more.",
+   "sections": [
+    {
+     "h": "The short version",
+     "paras": [
+      "Dollarama sells everyday goods, seasonal items and consumables at a fixed set of low prices, and it has turned that simple idea into one of the most profitable retail formats in Canada. In the year ended February 1, 2026, it reported sales of C$7,255.8 million, EBITDA of C$2,408.2 million (a 33.2% margin) and net earnings of C$1,309.4 million, which is about 18.0% of sales (computed). Most grocers and general merchants dream of an operating margin in the single digits. Dollarama reported 26.7%.",
+      "The master question is where the profit comes from. The answer is not one product. It is a loop: buy a large share of the range directly from factories overseas, price it at a few round numbers, put it in small, cheap-to-run stores, and let frequent low-ticket visits fill those stores. Cheap goods bring traffic, traffic fills the stores, full stores pay back quickly, and quick payback funds the next store.",
+      "Under the 60-second test, the customer pays at the till, once per visit, for a basket of low-priced goods. Revenue is repeat rather than contractual: there is no subscription and no consumable lock-in, so loyalty comes from habit and price. Dollarama owns its distribution network and buys its goods, so it is asset-heavy in logistics but mostly leases its stores. What would break it is covered at the end."
+     ]
+    },
+    {
+     "h": "How it makes money",
+     "paras": [
+      "There are three engines. The first and largest is Canada, with 1,734 stores at the end of the second quarter of fiscal 2027 (13 weeks ended August 2, 2026). The second is Dollarcity, a Latin American dollar-store chain in which Dollarama holds equity-accounted stakes, so it contributes earnings but not sales. The third is Australia, where Dollarama bought The Reject Shop in July 2025 and now runs 414 stores. Consolidated second-quarter sales were C$2,026.6 million, up 17.6%, helped by the Australian addition.",
+      "Canadian pricing is a ladder. According to the 2026 Annual Information Form, items range from C$0.25 up to C$5.00. Dollarcity's range is US$0.69 to US$4.00, and Australia's is A$0.45 to A$15.00. The ladder matters because it lets management trade up the basket, for example by selling a C$4 or C$5 item that would once have sat in a department store, without losing the identity of a low-price shop. The Form says seasonal products were about 13% of Canadian sales in fiscal 2026, which gives a steady flow of reasons to visit.",
+      "The mix is also protective. The Form states that 65% of Canadian sales came from private label and 35% from national brands. Private label carries a better margin and cannot be price-compared in a rival store, because the same item does not exist there.",
+      "Dollarcity is the quiet profit engine. Dollarama's share of Dollarcity's net earnings for calendar 2025 was C$191.5 million, up 47.4%. That equals about 14.6% of Dollarama's fiscal 2026 net earnings (computed, though the periods differ by a month). Dollarcity had 781 stores on June 30, 2026, against 658 a year earlier, and its sales grew 30.0% in the second quarter. Dollarama holds 60.1% of the main operating company (CARS) and 80.05% of ICM, the entity expanding in Mexico."
+     ]
+    },
+    {
+     "h": "The economics",
+     "paras": [
+      "Start with the income statement for fiscal 2026: gross margin 45.0%, selling, general and administrative (SG&A) expense 15.1% of sales, EBITDA margin 33.2% and operating margin 26.7%. Capital spending was only C$272.8 million, about 3.8% of sales (computed). A business that earns a 33% EBITDA margin and spends under 4% of sales on capex converts a large share of earnings to cash. That is the profile of a very good retailer.",
+      "The source of the gross margin is direct import. The Form says 46% of Canadian procurement volume in fiscal 2026 was overseas direct imports, from more than 25 countries, with the vast majority from China. The other 54% came from North American vendors. Buying direct removes the wholesaler's margin and lets Dollarama specify the product and the pack size. Concentration risk is modest: the largest vendor is about 6.2% of Canadian purchases and the top ten about 35%.",
+      "The store economics explain the growth plan. Per the Form, a new Canadian store needs about C$1 million of capital and inventory, net of tenant allowance, and pays back in about two years. New stores are expected to sell more than C$3.2 million in their first two years, and the average store sells about C$4.1 million. On an average footprint of 10,455 square feet, that is roughly C$392 per square foot (computed). Management targets about 2,200 Canadian stores by 2034, which is about 466 more than today's 1,734 (computed). Guidance for fiscal 2027 calls for 65 to 75 net new Canadian stores.",
+      "The margin did slip in the most recent quarter, and the cause is mix rather than the Canadian engine. Second-quarter consolidated gross margin was 44.5% against 45.5% a year earlier, and SG&A rose to 15.1% from 14.0%, which pushed EBITDA margin down to 32.2% from 34.1%. Canada alone had a 45.7% gross margin and a 34.9% EBITDA margin. Australia reported a 32.4% gross margin, SG&A at 28.1% of sales, EBITDA of C$10.2 million on C$184.8 million of sales (about 5.5%, computed) and an operating loss of C$17.1 million. Australia reduced diluted earnings per share by C$0.05 in the quarter, and management still expects a net loss there for fiscal 2027.",
+      "The Australian purchase shows the trade-off. The Reject Shop was bought for A$233.6 million, from an offer of A$6.68 a share, according to the Form. It brings a second large market and a store base, but at a fraction of Canadian profitability for now. Dollarama is refitting stores, with 60 using its layout and fixtures, while keeping the old banner until the range better reflects its value offer."
+     ]
+    },
+    {
+     "h": "The number that runs the business",
+     "paras": [
+      "The number is comparable store sales in Canada, because it tells you whether the existing store base is getting more productive. Fiscal 2026 comparable sales rose 4.2%, and the second quarter of fiscal 2027 rose 5.4%, made up of 3.7% more transactions and a 1.7% larger average basket. Growth in transactions is the healthier half: it means more people are visiting, not just paying more per visit. In September 2026, management raised its fiscal 2027 comparable sales guidance to 4.0% to 4.5% from 3.0% to 4.0%.",
+      "Why does this one figure matter so much? Because the cost base is largely fixed once a store opens, in the form of rent, staff and lighting. Extra sales on the same space flow to profit at a high rate. It also validates the payback maths: a store that grows its sales after the two-year ramp is a better investment than the initial model assumed.",
+      "Watch two companions. The first is gross margin in Canada, guided at 45.0% to 45.5% for fiscal 2027, because that shows whether imported costs, freight and currency are being passed through. The second is net new stores, because comparable sales exclude them and the growth story needs both. A company opening 65 to 75 stores a year on a base of 1,734 is adding about 4% to its store count (computed)."
+     ]
+    },
+    {
+     "h": "Where AI and automation hit",
+     "paras": [
+      "Retail automation lands in places where Dollarama is already structurally strong. Demand forecasting and replenishment matter for a chain with thousands of low-priced items and a large seasonal range, because an overstocked item at a low price point has little room for markdown. Assortment and pricing tools can help management decide which products justify a C$4 or C$5 slot on the ladder.",
+      "Logistics is the other area. Dollarama says it operates seven warehouses and one distribution centre in Canada, with a Western Canada hub near Calgary due by the end of calendar 2027. That project is the main reason capital spending is guided at C$420 million to C$470 million for fiscal 2027, against C$272.8 million in fiscal 2026. Automated sorting and routing are typical in such facilities, though the company's filings that I reviewed do not quantify any automation savings, so this is a reasoned expectation, not a reported result.",
+      "The honest view is that AI is a modest lever here. The costs that matter most are the goods and the store labour, and the customer's trip to a physical shop cannot be replaced by software. Online shopping is not a significant disclosed line in the figures reviewed, which suggests the store remains the engine. The more relevant technology threat is indirect: online marketplaces selling similar imported goods at low prices, which is a pricing risk rather than an automation one."
+     ]
+    },
+    {
+     "h": "Who wins and why",
+     "paras": [
+      "Dollarama wins on cost and scale, not on network effects or switching costs. The moat checklist is clear. Scale and cost advantage are the real ones: direct sourcing from overseas factories, a distribution network that serves more than 1,700 Canadian stores, and a store model that pays back in about two years. A rival with fewer stores buys in smaller volumes and carries higher unit costs. Brand is a secondary moat, since the name stands for low prices to Canadian shoppers. Switching costs are close to zero, so the moat depends on staying cheaper and more convenient than the alternatives.",
+      "The competition looks fragmented and small next to it. The Form names Dollar Tree Canada, Your Dollar Store With More, Great Canadian Dollar Store and Buck or Two Plus! as pure-play dollar chains, with about 500 stores between them (Dollarama's own estimate). Dollarama's 1,734 Canadian stores are more than three times that figure (computed). The larger threat is from general merchants and grocers such as Walmart, which can discount many of the same categories as part of a bigger trip. That comparison is my own judgement, not a figure from the filings, but it explains why Dollarama keeps adding consumables and keeps its prices low: it competes for the everyday basket, not just the occasional impulse item.",
+      "Capital allocation is disciplined and returns cash. In fiscal 2026 the company repurchased 4,426,267 shares for C$834.2 million at an average of C$188.47. That equals about 63.7% of fiscal 2026 net earnings (computed). In the second quarter of fiscal 2027 it bought another 1,596,016 shares for C$300.4 million. The current normal course issuer bid allows up to 13,532,086 shares, or 5.0% of those outstanding. The quarterly dividend was raised 13.4% to C$0.12 a share. Net debt was C$2,517.0 million at the end of the second quarter, or 2.12 times adjusted EBITDA, which is moderate and sits within a business that funds growth and buybacks from cash flow, with new notes issued in 2026 to refinance.",
+      "What would break it? Five things deserve attention. First, tariffs, freight and currency changes, because 46% of Canadian purchase volume is imported and most of it from China. Second, comparable sales turning negative, which would expose the fixed cost base. Third, a saturated Canadian market, since the 2,200-store target implies only about 466 more locations. Fourth, Australia consuming management time and capital without reaching Canadian returns, with a net loss still expected for fiscal 2027. Fifth, valuation: the company buys back shares at prices near C$188, so poor returns on that spending would be a self-inflicted loss.",
+      "In a case interview you could say: Dollarama is a low-price, high-turnover retailer that earns a 33% EBITDA margin because it imports roughly half of what it sells, runs cheap stores that pay back in about two years, and funds expansion and buybacks from cash flow, so it stays ahead as long as it keeps costs below those of rivals and customers keep coming back."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "stype": "Official",
+     "src": "Dollarama, Fiscal 2027 second quarter results (newswire release)",
+     "url": "https://www.newswire.ca/news-releases/dollarama-reports-fiscal-2027-second-quarter-results-863412551.html"
+    },
+    {
+     "stype": "Official",
+     "src": "Dollarama, Fourth quarter and fiscal year 2026 results (newswire release)",
+     "url": "https://www.newswire.ca/news-releases/dollarama-reports-fourth-quarter-and-fiscal-year-2026-results-829058586.html"
+    },
+    {
+     "stype": "Official",
+     "src": "Dollarama, 2026 Annual Information Form",
+     "url": "https://www.dollarama.com/en-CA/corp/wp-content/uploads/2026/04/2026-Annual-Information-Form-EN.pdf"
+    },
+    {
+     "stype": "Press",
+     "src": "Inside Retail, The Reject Shop enters into acquisition agreement with Canada's Dollarama (Mar 2025)",
+     "url": "https://insideretail.com.au/sectors/discount-retail/the-reject-shop-enters-into-acquisition-agreement-with-canadas-dollarama-202503"
+    },
+    {
+     "stype": "Press",
+     "src": "Retail Insider, Dollarama sales surpass $7 billion in its fiscal year (Mar 2026)",
+     "url": "https://retail-insider.com/retail-insider/2026/03/dollarama-sales-surpass-7-billion-in-its-fiscal-year/"
+    }
+   ]
+  },
+  {
+   "id": "how-unit-economics",
+   "type": "Strategy",
+   "sector": "Strategy framework",
+   "title": "Unit economics: knowing what one customer is worth",
+   "body": "Unit economics compares what a customer is worth with what it cost to win them. Here are CAC, LTV and payback, applied to Duolingo's latest filing, with every figure sourced or labelled.",
+   "summary": "CAC, churn, LTV, payback and LTV:CAC explained with a small assumption-based example, then applied to Duolingo's Q3 2026 results: 13.1 million paid subscribers, 72.9% gross margin, and why public data can only bound its true CAC.",
+   "ai": "AI is good at assembling cohort tables and sensitivity runs from filings and event data, but it cannot choose which churn or CAC figure to trust, or decide how much growth a firm should buy.",
+   "caseq": "A subscription app spends $20 million a year on marketing and adds 400,000 paying customers. Is the business healthy, and what would you check?",
+   "caseAnswer": "Verdict: cannot say yet; the figures give a blended CAC of $50 (computed: 20 million / 400,000), so the answer depends on four checks. 1) Revenue: price per customer and plan mix. 2) Cost to serve: gross margin and contribution margin after fees and support. 3) Retention: monthly churn by cohort, which sets lifetime and LTV. 4) Acquisition: paid versus organic split and marginal CAC by channel. Then compute gross-margin-adjusted LTV and payback, compare with cash available to fund growth, and treat any benchmark ratio as a sense check only. Recommend scaling the channels where payback is short and cohorts hold, and fixing retention before buying more users.",
+   "cheat": [
+    "CAC is the full sales and marketing cost of winning one new customer.",
+    "LTV is expected lifetime revenue per customer; adjust it by gross margin for a truer value.",
+    "Lifetime in months is roughly 1 divided by monthly churn (a simplification).",
+    "Payback = CAC divided by monthly gross profit per customer.",
+    "LTV:CAC above 3 is a typical software guideline (Skok), not a recommendation.",
+    "Use cohorts and marginal CAC; blended averages hide weak channels.",
+    "Duolingo Q3 2026: 13.1M paid subscribers, 72.9% gross margin, S&M $42.2M.",
+    "Duolingo does not disclose CAC or churn, so any ratio for it is an estimate."
+   ],
+   "kicker": "How It Works",
+   "firm": "Industry",
+   "date": "Nov 15",
+   "year": "2026",
+   "confidence": "Confirmed",
+   "readTime": "12 min read",
+   "read": 12,
+   "status": "12 min read · deep dive",
+   "facts": [
+    {
+     "k": "Core metrics",
+     "v": "CAC · Churn · LTV · Payback · LTV:CAC"
+    },
+    {
+     "k": "Output",
+     "v": "Value of one customer vs cost to win"
+    },
+    {
+     "k": "Example used",
+     "v": "Duolingo, Q3 2026"
+    },
+    {
+     "k": "Latest data",
+     "v": "Duolingo Q3 2026 shareholder letter"
+    }
+   ],
+   "cs": "Case-interview use: for any customer-growth question, compute gross-profit LTV, CAC and payback, then check churn by cohort before judging growth spend.",
+   "sections": [
+    {
+     "h": "The short version",
+     "paras": [
+      "Unit economics asks a plain question: for one customer, how much money comes in, how much it costs to win and serve them, and how long until the account pays for itself. A business can grow fast and still lose money on every customer. A business can also look small and be very healthy if each customer is worth far more than it cost to find. The framework turns that into a handful of numbers a team can track and argue about.",
+      "The terms are short. CAC (customer acquisition cost) is the sales and marketing spend needed to win one new customer. Churn is the share of customers who leave in a period. LTV (lifetime value) is the total revenue a customer is expected to bring before leaving. Gross-margin-adjusted LTV counts only the gross profit from that revenue, after the direct cost of serving the customer. Payback period is the time it takes for a customer's gross profit to repay the CAC. LTV:CAC is lifetime value divided by acquisition cost. Contribution margin is what is left of revenue after all variable costs, including those of serving, collecting and supporting the customer, but before fixed overheads.",
+      "The master question for this piece is: why would this business still be winning in ten years? Unit economics answers a narrow part of it. It shows whether each new customer adds to the firm's value or drains it, and which lever (price, retention, cost to serve or cost to win) matters most. It does not show whether customers will still want the product in ten years, which is a question about moat and demand."
+     ]
+    },
+    {
+     "h": "How to do it properly",
+     "paras": [
+      "Start with the customer definition. A customer must mean the same thing in the numerator and the denominator. Count paying customers, not sign-ups, unless free users are part of the funnel you are pricing. Split the analysis by segment, channel or cohort (customers who joined in the same month), because an average across very different groups hides the answer. A cheap channel that brings in short-lived customers can look good on CAC and bad on LTV.",
+      "Next, measure CAC fully. Include the salaries of the sales and marketing team, advertising, tools and agency fees, not only media spend. Use spend from the period before the customers arrived if sales cycles are long. Separate paid CAC from blended CAC: blended CAC divides all spend by all new customers, including those who came through word of mouth, so it flatters the paid channels. Most public companies report only total sales and marketing expense, which means an outsider can only compute rough proxies, not the company's own CAC.",
+      "Then estimate LTV. The standard shortcut is monthly revenue per customer, multiplied by gross margin, divided by monthly churn. The logic is that expected lifetime in months is about one divided by the monthly churn rate. Two cautions follow. First, use gross margin, not revenue, otherwise a low-margin business looks richer than it is. Second, churn is an estimate that can move a lot: an essay on LTV by Jason Cohen (A Smart Bear) argues LTV is not a stable, knowable number and can change by roughly 2x within a year, and that it should not be used alone to set acquisition spending.",
+      "Finally, compute payback: CAC divided by monthly gross profit per customer. Payback is more robust than LTV because it needs no forecast beyond the first months, and it speaks directly to cash. A firm with long payback has to fund growth with capital; a firm with short payback can recycle cash into acquisition. Contribution margin belongs here too: if support, payment fees or delivery costs vary with each customer, subtract them, otherwise payback is understated.",
+      "Benchmarks help you ask whether your numbers look odd, but they are not goals. David Skok, a venture investor, wrote that a guideline for a successful software-as-a-service business is that LTV:CAC should be higher than 3, and that this assumes the simpler LTV formula and a gross margin of 80% or higher (typical guideline, published by a VC, not a rule). He also notes that his under-12-months guideline for recovering CAC was written in 2011 and is dated, and that enterprise land-and-expand models can run around 20 months. Cohen's essay reports the common view that 3 is healthy and 5 very good, but questions the approach. The ratio of 3 is a rule of thumb for a certain kind of subscription software with high gross margin. It does not tell a consumer app, a marketplace or a hardware seller what to target."
+     ]
+    },
+    {
+     "h": "A worked example",
+     "paras": [
+      "First, a small illustration. Every number in this block is an ASSUMPTION for teaching, not data from any company. Suppose a subscription costs $10 a month, and serving it costs $2 a month, so gross margin is 80% (assumption). Suppose card fees and support cost another $1 a month per customer, so contribution margin is $7 a month, or 70% of revenue (assumption). Suppose monthly churn is 5%, so expected lifetime is 1 / 0.05 = 20 months (computed from the assumption). Simple LTV is $10 x 20 = $200. Gross-margin-adjusted LTV is $8 x 20 = $160. If CAC is $50 (assumption), LTV:CAC on the adjusted figure is 160 / 50 = 3.2, and payback is $50 / $8 = about 6 months (computed). Change churn to 8% and lifetime falls to 12.5 months, adjusted LTV to $100, and the ratio to 2.0, with no change in marketing at all. That sensitivity is the point of the exercise.",
+      "Now a real company: Duolingo, the language-learning app. It is a useful case because it reports paid subscribers, daily users, gross margin and sales and marketing expense every quarter, and because most of its users are free. Its figures come from its third-quarter 2026 shareholder letter, filed with the SEC. In that quarter it reported total revenue of $309.0 million, of which $270.0 million was subscription revenue, against $271.7 million and $229.5 million a year earlier. Paid subscribers at the end of the quarter were 13.1 million, up from 11.5 million. Daily active users were 64.9 million and monthly active users 153.1 million. Gross profit was $225.1 million, a gross margin of 72.9%, up from 72.5%. GAAP sales and marketing expense was $42.2 million, against $35.1 million a year earlier.",
+      "What can an outsider compute? Sales and marketing was about 13.6% of revenue (computed: 42.2 / 309.0). Paid subscribers were about 8.6% of monthly active users (computed: 13.1 / 153.1), which shows the funnel: most of the 153.1 million users pay nothing, and the free tier is both a product and an acquisition channel. Subscription revenue per period-end paid subscriber was about $20.6 for the quarter, or about $6.9 a month (computed: 270.0 / 13.1, divided by three; this ignores that subscribers changed during the quarter, and that subscription revenue includes some plan types with different prices). Applying the company-wide gross margin of 72.9% gives about $5.0 of gross profit per subscriber per month (computed; the margin is for the whole company, not only subscriptions).",
+      "Duolingo does not disclose CAC, subscriber churn or retention in the letter, so a true LTV:CAC cannot be computed from public data. We can, however, run a deliberately harsh test. Net paid subscriber additions over the year were 1.6 million (computed: 13.1 - 11.5). If we assume the third-quarter sales and marketing figure repeats in each of four quarters, annual spend is about $169 million (est., computed: 4 x 42.2), and dividing by net additions gives about $105 per net new subscriber (computed). At $5.0 of monthly gross profit, that implies payback of about 21 months (computed). This is an upper bound and not Duolingo's CAC: net additions are lower than gross additions because some subscribers leave, the spending also supports free users and retention of existing users, and all of it is annualised from one quarter. The real figure is likely lower.",
+      "The same filing contains a clue about where the company is pointing the lever. Daily users rose to 64.9 million from 50.5 million, about 29% (computed), faster than paid subscribers, which rose about 14% (computed). Duolingo says it ran experiments aimed at increasing user retention and DAUs. The reading, an inference and not a company statement, is that growing free daily use feeds the paid funnel more cheaply than buying new users."
+     ]
+    },
+    {
+     "h": "From analysis to choices",
+     "paras": [
+      "A set of unit-economics numbers is only useful if it changes a decision. There are four levers: raise price or revenue per customer, cut the cost to serve, lower CAC, or lengthen customer life by reducing churn. Test each against the others. A 1-point cut in monthly churn often beats a 10% cut in CAC, because it lifts LTV for every customer already won, while a CAC cut helps only future ones. The worked illustration above shows this: moving churn from 5% to 8% cut the ratio from 3.2 to 2.0.",
+      "Next, decide how fast to spend. If payback is short and the cohort is reliable, spending more on acquisition grows value, until the marginal customer (the next one, from a costlier channel) pays back too slowly. Average CAC is not marginal CAC. A company should compare channels at the margin and stop where payback exceeds what it can fund or how long it expects customers to stay.",
+      "For Duolingo, the choice visible in the data is the free-to-paid funnel. With paid subscribers at roughly 8.6% of monthly users (computed), a small improvement in conversion adds many paying customers at almost no extra acquisition cost, and daily habit is the likely driver of that conversion. That is an inference from the company's stated focus on retention and DAUs, not a company statement about its own conversion economics. The choice for management is how much to push monetisation (which can annoy free users) against engagement (which feeds future conversion).",
+      "For an investor or consultant, the next step is to ask for what is missing: subscriber churn by cohort, gross additions, and split of S&M between acquiring users and retaining them. Without them, any LTV:CAC figure for a public company is an estimate, and should be labelled as one. A recommendation built on a benchmark alone, such as 'raise spending until the ratio falls to 3', mixes up a rule of thumb with a decision."
+     ]
+    },
+    {
+     "h": "Common mistakes",
+     "paras": [
+      "The first mistake is using revenue instead of gross profit. A customer who brings $200 of revenue and $100 of cost is not worth $200. The second is using blended CAC, which includes free word-of-mouth growth, to judge a paid channel; the marginal customer costs more than the average one.",
+      "The third is relying on a single churn number. Churn is rarely flat: new customers often leave faster than old ones, and a monthly figure taken from a growing business mixes young and old cohorts. Cohort curves are more honest. The fourth is treating LTV as a precise forecast. As noted above, it can move by a large factor in a year, which makes LTV:CAC a rough signal.",
+      "The fifth is applying a benchmark as a target. A ratio of 3 or a payback of 12 months came from software businesses with high margins and, in Skok's own account, the payback guideline dates from 2011. A firm with strong cash, long customer life and lower margin may rationally accept a different number, and one with weak cash may need much shorter payback than any guideline says.",
+      "The sixth is leaving out costs and time. Contribution margin should include payment fees, support and discounts, and cash timing matters: annual plans paid up front change payback. Finally, do not mix labels. When a public company does not give CAC, say so, label your proxy as computed and say what it overstates or understates."
+     ]
+    },
+    {
+     "h": "Where AI and automation hit",
+     "paras": [
+      "AI helps most with the measurement work. It can pull subscriber counts, margins and marketing expense from filings into a consistent table, rebuild cohorts from raw event data, and flag when a segment's churn drifts. It can also run sensitivity tables in seconds, which makes the point about churn and price easy to see.",
+      "AI also changes the inputs. In consumer apps, generative features can raise the cost to serve, because each active user triggers computing costs, which pushes gross margin down; the Duolingo letter shows gross margin at 72.9%, so it is worth watching whether that holds as usage rises. Automation can lower CAC through better targeting and lifecycle messaging, and lower support costs. But if every competitor uses the same tools, the gain in CAC is competed away, so the lasting advantage lies in retention and product, not in the ad machine.",
+      "What AI cannot do is decide which number to trust. It will fill a gap with a plausible churn rate or a neat ratio, so every figure must be checked against a filing or labelled as an assumption. It also cannot judge whether spending more on growth is wise given a company's cash and strategy. That is a human decision about risk.",
+      "In an interview: unit economics compares what one customer is worth, in gross profit over their life, with what it costs to win them, and a business is healthy when payback is quick and retention is strong, whatever any rule-of-thumb ratio says."
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "stype": "Official",
+     "src": "Duolingo: Q3 2026 shareholder letter (Form 8-K exhibit, SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001562088/000162828026069474/q3fy26duolingo9-30x26share.htm"
+    },
+    {
+     "stype": "Research",
+     "src": "David Skok, For Entrepreneurs: SaaS Metrics 2.0 definitions (LTV:CAC and months to recover CAC)",
+     "url": "https://forentrepreneurs.com/saas-metrics-2-definitions-2/"
+    },
+    {
+     "stype": "Research",
+     "src": "A Smart Bear (Jason Cohen): essay on LTV",
+     "url": "https://longform.asmartbear.com/ltv/"
+    },
+    {
+     "stype": "Official",
+     "src": "Duolingo, Q3 2026 results presentation (Form 8-K, SEC EDGAR)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001562088/000162828026069474/q3fy26duolingo9-30x26xpres.htm"
+    }
+   ]
+  },
+  {
    "id": "how-airlines-make-money",
    "type": "Industry",
    "sector": "Airlines",
