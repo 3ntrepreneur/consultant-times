@@ -1,10 +1,10 @@
 {
  "schema": 1,
  "edition": {
-  "id": "2026-11-16-1000",
-  "label": "MONDAY 16 NOVEMBER 2026 · MORNING EDITION",
-  "published": "2026-11-16T10:00:00-08:00",
-  "next": "TODAY 10:00 PM PT"
+  "id": "2026-11-16-2200",
+  "label": "MONDAY 16 NOVEMBER 2026 · EVENING EDITION",
+  "published": "2026-11-16T22:00:00-08:00",
+  "next": "TOMORROW 10:00 AM PT"
  },
  "lead": "deloitte-edisyl",
  "stories": [
