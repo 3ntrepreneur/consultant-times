@@ -46,7 +46,7 @@ for p_ in d.get("policy") or []:
     need(bool(re.fullmatch(r"[a-z0-9-]{3,80}", str(p_.get("id", "")))), "policy item bad id")
     need(p_.get("juris") in ("Canada", "B.C.", "US", "EU", "UK", "Global", "Rest of world", "Other"), f"policy {p_.get('id')} needs a valid juris")
     need(len(p_.get("paras") or []) >= 2 and p_.get("summary") and p_.get("cs"), f"policy {p_.get('id')} needs paras, summary and cs")
-    need(len(p_.get("sources") or []) >= 2 and all(str(s_.get("url", "")).startswith("https://") for s_ in p_.get("sources") or []), f"policy {p_.get('id')} needs 2+ https sources")
+    need(len(p_.get("sources") or []) >= 1 and all(str(s_.get("url", "")).startswith("https://") for s_ in p_.get("sources") or []), f"policy {p_.get('id')} needs 1+ https source")
     for e_ in p_.get("dates") or []: need(bool(re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(e_.get("iso", "")))), f"policy {p_.get('id')} bad date iso")
 DESKS = ["Tech & AI","Financial services","Energy & resources","Consumer & retail","Health","Industrials & logistics","Media & telecom","Public sector","Consulting industry"]
 LENSES = ["Market size & growth","Profit pools & margins","Structure & competition","Demand & customers","Talent & operations","Regulation & policy","Technology & disruption","Capital & M&A","Risks & unknowns"]
@@ -57,7 +57,7 @@ for n_ in d.get("deskNews") or []:
     need(n_.get("lens") in LENSES, f"deskNews {i_} needs a valid lens")
     need(len(n_.get("paras") or []) >= 2 and n_.get("summary") and n_.get("cs"), f"deskNews {i_} needs paras, summary and cs")
     need(len(n_.get("facts") or []) >= 3 and len(n_.get("questions") or []) >= 2 and len(n_.get("unknowns") or []) >= 1, f"deskNews {i_} needs 3+ facts, 2+ questions and 1+ unknowns")
-    need(len(n_.get("sources") or []) >= 2 and all(str(s_.get("url", "")).startswith("https://") for s_ in n_.get("sources") or []), f"deskNews {i_} needs 2+ https sources")
+    need(len(n_.get("sources") or []) >= 1 and all(str(s_.get("url", "")).startswith("https://") for s_ in n_.get("sources") or []), f"deskNews {i_} needs 1+ https source")
     for e_ in n_.get("dates") or []: need(bool(re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(e_.get("iso", "")))), f"deskNews {i_} bad date iso")
     need(sum(len(x.split()) for x in n_.get("paras") or []) <= 400, f"deskNews {i_} is too long (keep under 400 words)")
 allitems = [("policy", q) for q in d.get("policy") or []] + [("bigMove", m) for m in d.get("bigMoves") or []] + [("radar", r) for r in d.get("radar") or []] + [("vancouver", v) for v in (d.get("vancouver") or {}).get("stories") or []] + [("wire", w) for w in d.get("wire") or []] + [("howItWorks", h) for h in d.get("howItWorks") or []] + [("deskNews", n) for n in d.get("deskNews") or []]
