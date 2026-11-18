@@ -6,8 +6,85 @@
   "published": "2026-11-17T22:00:00-08:00",
   "next": "WED 10:00 AM PT"
  },
- "lead": "deloitte-edisyl",
+ "lead": "nvidia-q3-fy27-results",
  "stories": [
+  {
+   "id": "nvidia-q3-fy27-results",
+   "date": "Nov 17",
+   "year": "2026",
+   "isNew": true,
+   "firm": "Nvidia",
+   "section": "AI & Tools",
+   "kicker": "Earnings",
+   "desk": "Tech & AI",
+   "heat": 5,
+   "rel": 4,
+   "title": "Nvidia posts $115.8B quarter and guides to $130B, minus China",
+   "pre": "Nvidia posts ",
+   "hl": "$115.8B quarter",
+   "post": " and guides to $130B, minus China",
+   "summary": "Nvidia reported revenue of $115.8B, up 103%, and guided next quarter to $130B with no China data-centre compute, in its first report since Jensen Huang resigned as CEO.",
+   "facts": [
+    {
+     "k": "Q3 FY27 revenue",
+     "v": "$115.8B, +103% y/y (company release)"
+    },
+    {
+     "k": "Data Center revenue",
+     "v": "$107.6B, +110% y/y"
+    },
+    {
+     "k": "Q4 guidance",
+     "v": "$130.0B ±3%, no China data-centre compute assumed"
+    },
+    {
+     "k": "GAAP gross margin",
+     "v": "74.8%; Q4 guided 71–72%"
+    }
+   ],
+   "why": "The biggest supplier of AI hardware is growing faster and guiding higher, but does so under an interim CEO and with China excluded from its outlook.",
+   "cs": "Data-centre, power and financing programmes, plus CEO-succession, continuity and export-control scenario work at Nvidia customers and suppliers.",
+   "confidence": "Confirmed",
+   "readTime": "5 min",
+   "paras": [
+    "Nvidia reported record results for its third fiscal quarter of 2027 on 17 November 2026, a quarter ended 25 October. According to the company's release, revenue was $115.8 billion, up 103% from a year earlier and 20% from the previous quarter. Data Center revenue, the segment that sells the accelerators and systems behind AI build-outs, was $107.6 billion, up 110% year on year. CBS News, citing FactSet, reported that Wall Street had expected revenue of nearly $109 billion.",
+    "Profitability was equally striking. Nvidia reports GAAP gross margin of 74.8% and GAAP operating income of $77.5 billion. GAAP net income was $65.3 billion, or $2.70 a diluted share. On those reported numbers, net income was about 56% of revenue (our computed figure), an unusually high ratio for a company that sells hardware at this scale.",
+    "The outlook is the part clients will study. For the fourth quarter, which Nvidia says contains an extra week, it guides to revenue of $130.0 billion, plus or minus 3%, with gross margin of 71.0% to 72.0%. The company says that guidance assumes no Data Center compute revenue from China. Gross margin is therefore guided below the third-quarter level, a point the release does not explain. Nvidia also reports returning $28.1 billion to shareholders in the quarter and says about $227.3 billion remains under its repurchase authorisation, after the board added $150 billion in September. The next quarterly dividend is $0.25 a share.",
+    "This was also Nvidia's first earnings report since a change at the top. In a filing dated 12 November, the company said Jensen Huang had resigned as president, chief executive and director, effective immediately. The filing gives no reason. Chief financial officer Colette Kress is interim CEO while keeping the CFO role, Harvey C. Jones has been appointed the board's first chair, and the board has begun a search that will consider internal and external candidates. Press outlets have reported on the circumstances; because they concern an individual's personal conduct and the company has not addressed them in its filings, we do not repeat them here. CBS reports, citing an unnamed source, that the board is against reinstating Huang; Nvidia has not said so on the record in the documents we reviewed.",
+    "Kress, quoted in the release, said the company's momentum is real and that its new Vera Rubin platform is off to an explosive start. CBS reported shares up almost 3% after hours, to $159.60. It also reported that the board formed a committee to oversee export-control compliance and that questions have been raised about whether advanced chips reached China in breach of rules; CBS does not say Nvidia is accused of any violation.",
+    "For consultants the numbers point in several directions. First, capital intensity: a $130 billion quarterly run-rate means customers' data-centre, power and cooling programmes are being sized in the tens of billions, and the advisory work that follows is site selection, financing structures, grid connection and supply-chain assurance. Second, concentration and governance: a company this central to AI supply chains now has an interim CEO who is also CFO, so boards and procurement teams at its largest customers will ask about continuity, key-person risk and contract terms. Third, trade policy: guidance that excludes China compute revenue shows how much planning now depends on export rules, and clients with exposure will want scenario work rather than a single forecast.",
+    "Context helps here. Nvidia's Data Center segment is now more than 90% of revenue on the company's own figures ($107.6 billion of $115.8 billion, our computed share of about 93%), so the group's results are in effect a read on AI infrastructure spending across hyperscalers, sovereign programmes and enterprises. Guidance of $130 billion for a quarter with an extra week implies further growth, but the release does not break down how much of the step-up comes from the additional week, which is why we list it as unknown. Analysts and clients will look for the company's quarterly report and call commentary for customer concentration, supply constraints and the pace of the Vera Rubin ramp.",
+    "Leadership continuity is the other thread. The 12 November filing describes an orderly structure on paper: an interim chief executive with 13 years at the company, a newly created independent board chair, and a stated search covering internal and external candidates. What it does not say is how long the search will take, which is the practical question for customers signing multi-year supply and capacity agreements.",
+    "Several things remain unknown: who the permanent CEO will be and when, why gross margin is guided down, how much of the Q4 guide is the extra week, and how customers' spending plans hold up if financing conditions tighten. We will update this item as the company files its quarterly report and as further sourced reporting appears."
+   ],
+   "unknowns": [
+    "Who the permanent CEO will be and when",
+    "Why gross margin is guided below Q3",
+    "How much of the Q4 guide comes from the extra week",
+    "Whether the reported export-control questions lead to any action"
+   ],
+   "questions": [
+    "A client plans a $5B AI data-centre build with Nvidia as sole supplier; how do you assess supplier risk during a CEO transition?"
+   ],
+   "sources": [
+    {
+     "stype": "Official",
+     "src": "Nvidia",
+     "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027"
+    },
+    {
+     "stype": "Official",
+     "src": "Nvidia 8-K (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm"
+    },
+    {
+     "stype": "Press",
+     "src": "CBS News",
+     "url": "https://www.cbsnews.com/news/nvidia-earnings-jensen-huang-colette-kress/"
+    }
+   ],
+   "take": "The numbers say Nvidia's business is in excellent shape; the open question is whether a company this central can run on an interim chief executive who is also its CFO. Clients with large Nvidia commitments should ask about continuity and contract terms now, not after the permanent CEO is named."
+  },
   {
    "id": "deloitte-edisyl",
    "date": "Nov 13",
@@ -81,80 +158,6 @@
      "stype": "Press",
      "src": "Bloomberg Law: Big Four bet on AI's promise",
      "url": "https://news.bloomberglaw.com/esg/big-four-firms-bet-on-ais-promise-as-technology-threats-escalate"
-    }
-   ]
-  },
-  {
-   "id": "nvidia-q3-fy27-results",
-   "date": "Nov 17",
-   "year": "2026",
-   "isNew": true,
-   "firm": "Nvidia",
-   "section": "AI & Tools",
-   "kicker": "Earnings",
-   "desk": "Tech & AI",
-   "heat": 5,
-   "rel": 4,
-   "title": "Nvidia posts $115.8B quarter and guides to $130B, minus China",
-   "pre": "Nvidia posts ",
-   "hl": "$115.8B quarter",
-   "post": " and guides to $130B, minus China",
-   "summary": "Nvidia reported revenue of $115.8B, up 103%, and guided next quarter to $130B with no China data-centre compute, in its first report since Jensen Huang resigned as CEO.",
-   "facts": [
-    {
-     "k": "Q3 FY27 revenue",
-     "v": "$115.8B, +103% y/y (company release)"
-    },
-    {
-     "k": "Data Center revenue",
-     "v": "$107.6B, +110% y/y"
-    },
-    {
-     "k": "Q4 guidance",
-     "v": "$130.0B ±3%, no China data-centre compute assumed"
-    },
-    {
-     "k": "GAAP gross margin",
-     "v": "74.8%; Q4 guided 71–72%"
-    }
-   ],
-   "why": "The biggest supplier of AI hardware is growing faster and guiding higher, but does so under an interim CEO and with China excluded from its outlook.",
-   "cs": "Data-centre, power and financing programmes, plus CEO-succession, continuity and export-control scenario work at Nvidia customers and suppliers.",
-   "confidence": "Confirmed",
-   "readTime": "5 min",
-   "paras": [
-    "Nvidia reported record results for its third fiscal quarter of 2027 on 17 November 2026, a quarter ended 25 October. According to the company's release, revenue was $115.8 billion, up 103% from a year earlier and 20% from the previous quarter. Data Center revenue, the segment that sells the accelerators and systems behind AI build-outs, was $107.6 billion, up 110% year on year. CBS News, citing FactSet, reported that Wall Street had expected revenue of nearly $109 billion.",
-    "Profitability was equally striking. Nvidia reports GAAP gross margin of 74.8% and GAAP operating income of $77.5 billion. GAAP net income was $65.3 billion, or $2.70 a diluted share. On those reported numbers, net income was about 56% of revenue (our computed figure), an unusually high ratio for a company that sells hardware at this scale.",
-    "The outlook is the part clients will study. For the fourth quarter, which Nvidia says contains an extra week, it guides to revenue of $130.0 billion, plus or minus 3%, with gross margin of 71.0% to 72.0%. The company says that guidance assumes no Data Center compute revenue from China. Gross margin is therefore guided below the third-quarter level, a point the release does not explain. Nvidia also reports returning $28.1 billion to shareholders in the quarter and says about $227.3 billion remains under its repurchase authorisation, after the board added $150 billion in September. The next quarterly dividend is $0.25 a share.",
-    "This was also Nvidia's first earnings report since a change at the top. In a filing dated 12 November, the company said Jensen Huang had resigned as president, chief executive and director, effective immediately. The filing gives no reason. Chief financial officer Colette Kress is interim CEO while keeping the CFO role, Harvey C. Jones has been appointed the board's first chair, and the board has begun a search that will consider internal and external candidates. Press outlets have reported on the circumstances; because they concern an individual's personal conduct and the company has not addressed them in its filings, we do not repeat them here. CBS reports, citing an unnamed source, that the board is against reinstating Huang; Nvidia has not said so on the record in the documents we reviewed.",
-    "Kress, quoted in the release, said the company's momentum is real and that its new Vera Rubin platform is off to an explosive start. CBS reported shares up almost 3% after hours, to $159.60. It also reported that the board formed a committee to oversee export-control compliance and that questions have been raised about whether advanced chips reached China in breach of rules; CBS does not say Nvidia is accused of any violation.",
-    "For consultants the numbers point in several directions. First, capital intensity: a $130 billion quarterly run-rate means customers' data-centre, power and cooling programmes are being sized in the tens of billions, and the advisory work that follows is site selection, financing structures, grid connection and supply-chain assurance. Second, concentration and governance: a company this central to AI supply chains now has an interim CEO who is also CFO, so boards and procurement teams at its largest customers will ask about continuity, key-person risk and contract terms. Third, trade policy: guidance that excludes China compute revenue shows how much planning now depends on export rules, and clients with exposure will want scenario work rather than a single forecast.",
-    "Several things remain unknown: who the permanent CEO will be and when, why gross margin is guided down, how much of the Q4 guide is the extra week, and how customers' spending plans hold up if financing conditions tighten. We will update this item as the company files its quarterly report and as further sourced reporting appears."
-   ],
-   "unknowns": [
-    "Who the permanent CEO will be and when",
-    "Why gross margin is guided below Q3",
-    "How much of the Q4 guide comes from the extra week",
-    "Whether the reported export-control questions lead to any action"
-   ],
-   "questions": [
-    "A client plans a $5B AI data-centre build with Nvidia as sole supplier; how do you assess supplier risk during a CEO transition?"
-   ],
-   "sources": [
-    {
-     "stype": "Official",
-     "src": "Nvidia",
-     "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027"
-    },
-    {
-     "stype": "Official",
-     "src": "Nvidia 8-K (SEC)",
-     "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm"
-    },
-    {
-     "stype": "Press",
-     "src": "CBS News",
-     "url": "https://www.cbsnews.com/news/nvidia-earnings-jensen-huang-colette-kress/"
     }
    ]
   },
