@@ -184,3 +184,10 @@ Leave edition.archive[] empty. How It Works items go to data/library.json instea
 - Every article needs 2+ real https sources, in-prose attribution, and at most one quote under 15 words per source. Do not invent URLs; a page may stay short rather than publish an unsourced item.
 - Site display: the `cs` field shows as "What it means". The first entry in `questions` shows as the "For your next interview" prompt, so write it as a question an interviewer could ask. The `facts` field is stored but no longer shown on article pages.
 - Set `edition.next` to the next run time (e.g. "MON 10:00 AM PT" or "TODAY 10:00 PM PT").
+
+## 15. Front page freshness (owner's rule, 18 Nov 2026)
+- Every run (10:00 and 22:00) must replace or recycle the front page. The lead and the three cards (the first four `stories`) must be news from the last 24 hours. Nothing older than 48 hours may stay in the lead or card slots.
+- Before finishing, check the date of each of those four items. If any is stale, replace it with the best fresh item (highest heat x relevance, newest first) and move the stale item down the `stories` list (it keeps its id and page; do not archive it early).
+- A new item that clearly beats the lead (see §5) becomes the lead in the same run. Do not wait for the next edition.
+- Spend research effort on this first: look for fresh candidates (Big Four/MBB firms, Nvidia/AI, big M&A, CEO changes, earnings, policy) before refilling category pages. Fresh items still need 2+ real https sources and must pass the §7 hold rules.
+- If fewer than four fresh, verifiable items exist, fill the slots with the freshest available and list in the final message which slots are stale and why.
