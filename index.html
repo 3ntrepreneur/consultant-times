@@ -202,7 +202,7 @@ function renderNav(){
   if (st.menu==="burger") p += chips("Sections", SECTIONS.map((s)=>chip(s, st.view===s, "view:"+s)).join("") + chip("About","false","page:about") + chip("How we work","false","page:how-we-work"));
   if (st.menu==="firms" || st.menu==="burger") p += chips("Filter by firm", chip("All firms", st.firm==="All", "firm:All") + FIRMS.map((f)=>chip(f==="Industry"?"Industry-wide":f, st.firm===f, "firm:"+f)).join(""));
   if (st.menu==="desks" || st.menu==="burger") p += chips("Industry desks", chip("All industries", st.desk==="All", "desk:All") + DESKS.map((d)=>chip(d, st.desk===d, "desk:"+d)).join(""));
-  if (st.menu==="more") p += chips("More", chip("Deal & distress tracker","false","page:tracker") + chip("About","false","page:about") + chip("How we work","false","page:how-we-work") + chip("Archive","false","page:archive") + chip("Corrections","false","page:corrections") + chip("Suggestions & feedback","false","page:feedback"));
+  if (st.menu==="more") p += chips("More", chip("Deal & distress tracker","false","page:tracker") + chip("Firm league table","false","page:league") + chip("About","false","page:about") + chip("How we work","false","page:how-we-work") + chip("Archive","false","page:archive") + chip("Corrections","false","page:corrections") + chip("Suggestions & feedback","false","page:feedback"));
   panel.innerHTML = p;
   document.getElementById("burger").setAttribute("aria-expanded", st.menu==="burger" ? "true" : "false");
 }
@@ -611,6 +611,27 @@ function trackerPage(d){
   <p class="muted" style="font-size:13px;margin-top:16px">${list.length} of ${all.length} moves shown. Allegations are labelled as allegations; see <a href="#how-we-work">how we work</a>.</p></div>`;
 }
 
+
+// ---------- firm league table (own page: #league) ----------
+function leaguePage(d){
+  const back = `<a href="#" style="font-weight:700;font-size:14px">← Back to the front page</a>`;
+  const ageDays = (x) => { const v = Date.parse((x.date || "") + " " + (x.year || new Date().getFullYear())); return isNaN(v) ? 999 : (Date.now() - v) / 864e5; };
+  const P = sortNew(poolOf(d).filter((x) => x.kind !== "how" && ageDays(x) <= 30));
+  const has = (x, f) => x.firm === f || new RegExp("\\b" + f.replace(/[^a-z0-9]/gi, "") + "\\b", "i").test(x.title + " " + x.blurb + " " + (x.co || ""));
+  const rows = FIRMS.filter((f) => f !== "Industry").map((f) => {
+    const m = P.filter((x) => has(x, f));
+    const score = m.reduce((s, x) => s + ((x.heat || 2) * (x.rel || 2)), 0);
+    const top = m.slice().sort((a, b) => ((b.heat || 2) * (b.rel || 2)) - ((a.heat || 2) * (a.rel || 2)))[0];
+    return { f, n: m.length, score, top, latest: m[0], moves: m.filter((x) => x.kind === "move").length, stories: m.filter((x) => x.kind === "story").length };
+  }).sort((a, b) => (b.score - a.score) || (b.n - a.n));
+  const max = Math.max(1, ...rows.map((r) => r.score));
+  const body = rows.map((r, i) => `<tr style="border-top:1px solid var(--rule);vertical-align:top"><td class="mono" style="padding:12px 8px 12px 0;font-size:22px;font-weight:600;width:44px">${i + 1}</td><td style="padding:12px 8px;min-width:150px"><button class="linkbtn" data-act="firm:${esc(r.f)}" style="font-weight:800;font-size:18px">${esc(r.f)}</button><div style="height:6px;background:var(--ink);width:${Math.max(4, Math.round(r.score / max * 100))}%;max-width:160px;margin-top:6px"></div></td><td class="mono" style="padding:12px 8px;font-size:14px;white-space:nowrap">${r.n} ${r.n === 1 ? "item" : "items"}<br><span class="muted" style="font-size:12px">${r.stories} ${r.stories === 1 ? "story" : "stories"} · ${r.moves} ${r.moves === 1 ? "move" : "moves"}</span></td><td class="mono" style="padding:12px 8px;font-size:14px">${r.score}</td><td style="padding:12px 0 12px 8px;font-size:14px;line-height:1.45;min-width:240px">${r.top ? `<a href="#story-${esc(r.top.id)}" style="font-weight:600">${esc(r.top.title)}</a><br><span class="muted mono" style="font-size:12px">${esc(r.top.date || "")}${r.top.cs ? "" : ""}</span>` : '<span class="muted">Nothing in this edition</span>'}</td></tr>`).join("");
+  return `<div class="wrap" style="padding:28px 0 40px">${back}<h1 class="serif" style="font-size:42px;line-height:1.1;margin:14px 0 6px">Firm league table</h1>
+  <p class="muted" style="max-width:720px;margin:0 0 18px">The big consulting names ranked by how much news they are making over the last 30 days. Score adds up heat (how much attention each item is getting) times relevance (how much it matters to consulting work) across every item that names the firm. Click a firm to see all its stories.</p>
+  <div style="overflow-x:auto"><table style="width:100%;border-collapse:collapse"><thead><tr class="mono" style="font-size:11px;text-align:left"><th style="padding:6px 8px 6px 0">#</th><th style="padding:6px 8px">FIRM</th><th style="padding:6px 8px">COVERAGE</th><th style="padding:6px 8px">SCORE</th><th style="padding:6px 0 6px 8px">BIGGEST ITEM</th></tr></thead><tbody>${body}</tbody></table></div>
+  <p class="muted" style="font-size:13px;margin-top:16px">Based on items from the last 30 days, counted when a firm is named in the headline, summary or company field. Wire items without a heat score count at a default value. It measures news flow, not firm size or quality.</p></div>`;
+}
+
 // ---------- render + routing ----------
 function render(){
   renderNav();
@@ -625,6 +646,7 @@ function render(){
   if (hash === "archive") { document.getElementById("filterbar").innerHTML = ""; main.innerHTML = archivePage() + feedbackHTML(); if (!st.archDone) loadArchive().then(() => { if (location.hash === "#archive") render(); }); return; }
   if (hash.startsWith("story-")) main.innerHTML = articlePage(d, hash.slice(6));
   else if (hash === "tracker") main.innerHTML = trackerPage(d);
+  else if (hash === "league") main.innerHTML = leaguePage(d);
   else if (["about","how-we-work","corrections","lens"].includes(hash)) main.innerHTML = staticPage(hash, d);
   else { main.innerHTML = home(d); if (hash==="feedback") { const f=document.getElementById("feedback"); if (f) f.scrollIntoView(); } }
 }
