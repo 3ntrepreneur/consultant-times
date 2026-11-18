@@ -1,6 +1,6 @@
 {
- "last_run": "2026-11-17T10:00:00-08:00",
+ "last_run": "2026-11-17T22:00:00-08:00",
  "result": "ok",
- "edition": "2026-11-17-1000",
- "note": "Morning run: web search returned headlines only (no page text or dates), so no new item could be fact-checked. Edition carried forward unchanged; no new How It Works deep dives were written (no verifiable source material); yesterday's three stay live. Financial services desk stays at 9. No reader suggestions."
+ "edition": "2026-11-17-2200",
+ "note": "Evening run: added JPMorgan CFO succession (primary release plus American Banker), bringing Financial services to 10. Everything else carried forward; no new How It Works on the 22:00 run. No reader suggestions. Other fetched items (OneMain ILC approval) had only one source, so not published."
 }

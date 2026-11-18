@@ -1,10 +1,10 @@
 {
  "schema": 1,
  "edition": {
-  "id": "2026-11-17-1000",
-  "label": "TUESDAY 17 NOVEMBER 2026 · MORNING EDITION",
-  "published": "2026-11-17T10:00:00-08:00",
-  "next": "TODAY 10:00 PM PT"
+  "id": "2026-11-17-2200",
+  "label": "TUESDAY 17 NOVEMBER 2026 · EVENING EDITION",
+  "published": "2026-11-17T22:00:00-08:00",
+  "next": "WED 10:00 AM PT"
  },
  "lead": "deloitte-edisyl",
  "stories": [
@@ -488,6 +488,54 @@
    "stype": "Aggregator",
    "src": "FourWeekMBA",
    "url": "https://fourweekmba.com/ai-13-ai-deals-in-november-openai-and-meta-named-no-price/"
+  },
+  {
+   "id": "jpmorgan-cfo-succession",
+   "type": "Leadership",
+   "co": "JPMorgan Chase",
+   "firm": "JPMorgan Chase",
+   "desk": "Financial services",
+   "date": "Nov 17",
+   "heat": 3,
+   "rel": 3,
+   "value": "Early 2028",
+   "vlabel": "Barnum stays on as Vice Chairman until then",
+   "title": "JPMorgan names Bregje de Best to succeed CFO Jeremy Barnum",
+   "cs": "Finance-function and investor-relations work: succession planning, CFO-office transitions and capital-messaging prep at large banks.",
+   "stype": "Official",
+   "src": "JPMorgan Chase",
+   "url": "https://www.jpmorganchase.com/newsroom/press-releases/2026/jpmorganchase-announces-bregje-de-best-will-succeed-jeremy-barnum-as-cfo",
+   "updated": "2026-11-17",
+   "confidence": "Confirmed",
+   "readTime": "3 min",
+   "year": 2026,
+   "body": "JPMorgan says de Best, CFO of its investment bank, will take over as group CFO after first-quarter 2027 reporting; Barnum becomes Vice Chairman and stays until early 2028.",
+   "paras": [
+    "JPMorgan Chase said on 17 November 2026 that Bregje de Best, currently chief financial officer of its Corporate & Investment Bank, will succeed Jeremy Barnum as the firm's chief financial officer. According to the company's release, the handover happens after the first-quarter 2027 financial reporting, at which point de Best joins the firmwide Operating Committee.",
+    "Barnum, who has held the role for six years, told the company he intends to conclude his tenure as CFO. The release says he will become a Vice Chairman at that point and has agreed to stay until early 2028. Until the handover he will lead the January and April earnings announcements and the February Investor Day, so the transition is staged rather than abrupt. In the release, chief executive Jamie Dimon said Barnum asked to transition leadership of Finance to another executive.",
+    "De Best currently oversees Finance, Business Management and Controls for the Corporate & Investment Bank's Global Banking, Markets, Payments and Securities Services businesses, and was previously co-head of Global Corporate Banking, according to JPMorgan. The company says it will name her successor as the investment bank's CFO early next year. American Banker, which also reported the news, gave her age as 43; the release does not state it, so that figure rests on one outlet.",
+    "American Banker framed the announcement against continuing speculation about when Dimon will eventually retire. Neither the company release nor the trade report says anything about a Dimon timetable, so that context is the publication's framing rather than a company statement.",
+    "For advisers, a large-bank CFO change matters less for the individual than for what follows it: the investor-day messaging on capital and expenses, the reshuffle of the investment-bank finance team, and the way peers present their own succession plans to shareholders and supervisors."
+   ],
+   "unknowns": [
+    "Who will succeed de Best as CFO of the Corporate & Investment Bank (to be named early next year)",
+    "Any change to the CEO succession timetable (not addressed in the release)"
+   ],
+   "questions": [
+    "How would you advise a bank preparing its investor day during a CFO handover?"
+   ],
+   "sources": [
+    {
+     "stype": "Official",
+     "src": "JPMorgan Chase",
+     "url": "https://www.jpmorganchase.com/newsroom/press-releases/2026/jpmorganchase-announces-bregje-de-best-will-succeed-jeremy-barnum-as-cfo"
+    },
+    {
+     "stype": "Press",
+     "src": "American Banker",
+     "url": "https://www.americanbanker.com/news/jpmorgan-s-cfo-plans-exit-company-names-internal-successor"
+    }
+   ]
   },
   {
    "id": "cohere-canada",
