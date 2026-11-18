@@ -221,3 +221,6 @@ For each, `cs` must say what work it creates (for example, bankruptcy: turnaroun
 
 ### 15e. How It Works cadence (owner's rule, 18 Nov 2026)
 How It Works is weekly, not daily. New deep dives are written only on the Monday 10:00 run (if Monday is a holiday, the next weekday 10:00 run). Every other run keeps the three current deep dives in `howItWorks` and writes nothing new for them, which frees search budget for the front page, Big Moves and category pages (§15-15d). Keep backlog topics topped up to 15+ per list.
+
+### 15f. Per-article pages for Google (owner's request, 18 Nov 2026)
+After validation passes and before committing, run `python3 scripts/build_pages.py`. It writes one crawlable page per item to `s/<id>/index.html` and rebuilds `sitemap.xml`. Commit `s/` and `sitemap.xml` together with the edition files (include them in every "Edition" commit). Never hand-edit files under `s/`. The front page (`index.html`) is not touched by runs.
