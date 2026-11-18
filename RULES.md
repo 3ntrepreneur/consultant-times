@@ -35,7 +35,7 @@ Heat (1–5): coverage speed, outlet tier, market reaction vs normal, company we
 Relevance (1–5): does it create/change/kill client work?
 - Lead = highest heat×relevance among items from the newest 24h of news. Keep the current lead unless a new item beats it clearly.
 - Cards (3) = next best news items. Wire (6–8) = smaller items, one line each.
-- Big Moves = deals, IPOs, funding, earnings shocks, leadership changes, restructurings, partnerships, legal and governance matters; first item = move of the week. `type` must be exactly one of: M&A | Funding | IPO | Earnings | Leadership | Restructuring | Partnerships | Legal & Governance | Canada. A Canadian move keeps its event type and also sets `"canada": true` (so it shows under the Canada filter). Use "Legal & Governance" for investigations, lawsuits, fines and board probes (allegations stay allegations).
+- Big Moves = deals, IPOs, funding, earnings shocks, leadership changes, restructurings, partnerships, legal and governance matters; first item = move of the week. `type` must be exactly one of: M&A | Funding | IPO | Earnings | Leadership | Restructuring | Partnerships | Legal & Governance | Divestiture | Distress | Market Entry | Canada. A Canadian move keeps its event type and also sets `"canada": true` (so it shows under the Canada filter). Use "Legal & Governance" for investigations, lawsuits, fines and board probes (allegations stay allegations).
 - Under the Radar (2–3) = heat ≤2 and relevance ≥4.
 - Max 2 stories per firm per edition; at least 1 non–Big Four item.
 Store `heat` and `rel` on items for ranking only.
@@ -198,3 +198,17 @@ Leave edition.archive[] empty. How It Works items go to data/library.json instea
 - Every category page (the 9 industry desks, Policy, Big Moves, AI & Tools, Vancouver) must be refreshed each run with news from the last 24 hours, shown first. Search each desk for fresh items each run (use `data/desks.json` metrics) and add at least 1-3 new verified items per desk per run where they exist. Items older than 48 hours stay below the fresh ones, still at 10+ per page (§14).
 - Fresh items need 2+ real https sources and must pass the §7 hold rules. If a desk has no fresh verifiable item, leave its older items in place and name the desk in the final message; never pad with weak or single-sourced items.
 - Budget: this overrides the lean-search budget for the 10:00 run. Use up to 40 searches/fetches, spent first on the front page, then on each desk.
+
+### 15c. Big Moves: what consultants care about (owner's request, 18 Nov 2026)
+Big Moves is not just earnings. Each run, search every type below for news from the last 24 hours and add every verified item (aim for 10+ fresh Big Moves per run, newest first, each with 2+ sources):
+- M&A, take-privates, mergers of equals, and hostile or contested bids (due diligence, integration, synergy work).
+- Divestiture: carve-outs, spin-offs, asset sales, break-ups, business exits.
+- Distress: bankruptcy and insolvency filings, creditor protection (CCAA/Chapter 11), restructuring support agreements, dissolutions and wind-downs, going-concern warnings, delistings, major debt exchanges.
+- IPO / listings, SPACs, direct listings, secondary offerings, and Funding rounds of $100M+.
+- Market Entry: entry into a new country, segment or category; large new plants, data centres and product lines; JV launches.
+- Restructuring: layoffs, cost programmes, reorganisations, closures.
+- Leadership: CEO/CFO/chair changes and activist campaigns.
+- Partnerships: large alliances and supply or technology deals.
+- Legal & Governance: regulatory actions, fines, major lawsuits, investigations (allegations stay allegations; §7 applies).
+- Earnings only when there is a shock, a guidance change or a read-across to client work.
+For each, `cs` must say what work it creates (for example, bankruptcy: turnaround, restructuring advisory, supply-chain contingency; divestiture: separation, TSA design; market entry: market sizing, go-to-market).

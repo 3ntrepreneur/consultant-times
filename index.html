@@ -150,8 +150,8 @@ const FIRMS = ["McKinsey","BCG","Bain","Deloitte","EY","PwC","KPMG","Accenture",
 const DESKS = ["Tech & AI","Financial services","Energy & resources","Consumer & retail","Health","Industrials & logistics","Media & telecom","Public sector","Consulting industry"];
 const SECTIONS = ["Latest","AI & Tools","Policy","Big Moves","Vancouver","How It Works"];
 const KC = { "Deals":"#C70000","Big Moves":"#C70000","Research":"#005689","Models":"#C05A00","Tools":"#C05A00","Workforce":"#7D0068","Strategy":"#3D5A80","Regulation":"#3D5A80" };
-const MC = { "M&A":"#005689", "IPO":"#1F8A4C", "Legal & Governance":"#C70000", "Funding":"#7D0068", "Canada":"#C05A00", "Earnings":"#3D5A80", "Leadership":"#3D5A80", "Restructuring":"#8A4B08", "Partnerships":"#0F766E" };
-const BMTYPES = ["All","M&A","Funding","IPO","Earnings","Leadership","Restructuring","Partnerships","Legal & Governance","Canada"];
+const MC = { "M&A":"#005689", "IPO":"#1F8A4C", "Legal & Governance":"#C70000", "Funding":"#7D0068", "Canada":"#C05A00", "Earnings":"#3D5A80", "Leadership":"#3D5A80", "Restructuring":"#8A4B08", "Partnerships":"#0F766E", "Divestiture":"#6B4E16", "Distress":"#9B1C1C", "Market Entry":"#0B6E4F" };
+const BMTYPES = ["All","M&A","Funding","IPO","Earnings","Leadership","Restructuring","Partnerships","Legal & Governance","Divestiture","Distress","Market Entry","Canada"];
 const bmHas = (m, t) => t === "All" || m.type === t || (t === "Canada" && m.canada);
 const st = { desks:null, data:null, lib:[], arch:[], archDone:false, q:"", akind:"All", view:"Latest", firm:"All", desk:"All", menu:null, moveType:"All" };
 

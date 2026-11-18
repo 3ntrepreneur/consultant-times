@@ -30,7 +30,7 @@ lead = next((s for s in S if s.get("id") == d.get("lead")), {})
 need(len(lead.get("paras") or []) >= 2, "lead needs a full article (paras)")
 for w in d.get("wire") or []:
     need(bool(w.get("text")) and https(w.get("url")), f"wire item bad: {str(w)[:60]}")
-BMT = ["M&A","Funding","IPO","Earnings","Leadership","Restructuring","Partnerships","Legal & Governance","Canada"]
+BMT = ["M&A","Funding","IPO","Earnings","Leadership","Restructuring","Partnerships","Legal & Governance","Divestiture","Distress","Market Entry","Canada"]
 for m in d.get("bigMoves") or []:
     need(m.get("type") in BMT, f"bigMove {m.get('id')} has invalid type {m.get('type')}")
     need(all(m.get(k) for k in ("type", "co", "title", "value", "cs")) and https(m.get("url")), f"bigMove bad: {m.get('title','?')}")
