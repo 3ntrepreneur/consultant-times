@@ -10,7 +10,7 @@ One professional voice for everyone. Clear, specific, no hype, no slang.
 
 ## 2. Edition schedule
 - Weekdays 10:00 and 22:00 PT: two editions a day (the 22:00 run is lighter: only news since the 10:00 edition).  Fridays add a "Week in 60 seconds" Wire item and a LinkedIn draft (see §11).
-- Every weekday: THREE new How It Works deep dives (see §6). They replace yesterday's three, which move to data/library.json.
+- Once a week (Monday 10:00 run only; owner's rule, 18 Nov 2026): THREE new How It Works deep dives (see §6). They replace last week's three, which move to data/library.json. On all other runs, carry the current three forward unchanged and do not research or write new deep dives.
 - Budget: build-up phase (until every page reaches its target, see §6f) 30–40 searches per run, otherwise 15–25. Keep runs lean either way. Search only for news since the last edition (`edition.published`).
 - If fewer than 2 new items qualify, still publish: refresh the Wire, prices/dates, careers board; keep the lead.
 
@@ -55,7 +55,7 @@ Store `heat` and `rel` on items for ranking only.
     unknowns, cs, sources (aim for 3+ sources, at least one primary). Lead and move of the week also get a `take`.
   * Tier 2 (other Big Moves, Under the Radar, Vancouver Desk stories): 300–600 words in `paras`, plus cs and 2+ sources.
   * Tier 3 (Wire items): 120–250 words in `paras` explaining the item and its context, plus the source link.
-  * How It Works (EVERY weekday, exactly 3 new deep dives, 1,400–2,400 words each (about double the launch length; validator minimum 1,300)). Each day has ONE of each `type`:
+  * How It Works (ONCE A WEEK on the Monday 10:00 run, exactly 3 new deep dives, 1,400–2,400 words each (about double the launch length; validator minimum 1,300)). Each week has ONE of each `type`:
       - "Industry": how an industry works (economics, players, cost drivers, cycles), e.g. trucking, airlines, banking.
       - "Business": how one specific company works. It does NOT have to be big; any real business with enough public data
         (filings, annual reports, credible trade press) works, including small, local or Canadian ones.
@@ -73,7 +73,7 @@ Store `heat` and `rel` on items for ranking only.
       Strategy headings: The short version; How to do it properly; A worked example (real company, sourced numbers); From
       analysis to choices; Common mistakes; Where AI and automation hit.
     Every number must come from a source; label our own arithmetic "computed". Never invent figures.
-  * Library: before writing the new three, move yesterday's three full objects from edition.howItWorks into the FRONT of
+  * Library: before writing the new three, move last week's three full objects from edition.howItWorks into the FRONT of
     data/library.json ({"items":[...]}, newest first). Never delete library items. Ids must be unique across edition + library.
 - Usage guard: if the run is running long, finish Tier 1 fully, then Tier 2, then Tier 3; a Tier 3 item may ship as a
   summary-only brief rather than delaying the edition. Carry over unchanged articles from the previous edition by id
@@ -218,3 +218,6 @@ For each, `cs` must say what work it creates (for example, bankruptcy: turnaroun
 - Pick candidates from search headlines, listing pages (consultancy.org, American Banker, company newsrooms) and wire-style roundups, then fetch each in batches (several URLs per agent call) to save time.
 - If a page cannot be fetched, try a primary source or another outlet. Only if two sources cannot be read does the item stay out; say so in the final message.
 - A run that publishes no new front-page item must state exactly why (which fetches failed) in `data/status.json` and the final message. "Search returned headlines only" is not an accepted reason by itself.
+
+### 15e. How It Works cadence (owner's rule, 18 Nov 2026)
+How It Works is weekly, not daily. New deep dives are written only on the Monday 10:00 run (if Monday is a holiday, the next weekday 10:00 run). Every other run keeps the three current deep dives in `howItWorks` and writes nothing new for them, which frees search budget for the front page, Big Moves and category pages (§15-15d). Keep backlog topics topped up to 15+ per list.
