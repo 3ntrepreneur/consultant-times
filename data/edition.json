@@ -86,6 +86,139 @@
    "take": "The numbers say Nvidia's business is in excellent shape; the open question is whether a company this central can run on an interim chief executive who is also its CFO. Clients with large Nvidia commitments should ask about continuity and contract terms now, not after the permanent CEO is named."
   },
   {
+   "id": "home-depot-new-ceo-mcphail",
+   "date": "Nov 17",
+   "year": "2026",
+   "isNew": true,
+   "firm": "Home Depot",
+   "section": "Big Moves",
+   "kicker": "Leadership",
+   "desk": "Consumer & retail",
+   "heat": 4,
+   "rel": 4,
+   "title": "Home Depot promotes CFO Richard McPhail to CEO",
+   "pre": "Home Depot promotes CFO ",
+   "hl": "Richard McPhail",
+   "post": " to CEO",
+   "summary": "Home Depot named CFO Richard McPhail chief executive from 23 November, with Ted Decker staying as chair, on the day it reported third-quarter results.",
+   "facts": [
+    {
+     "k": "Effective",
+     "v": "23 November 2026"
+    },
+    {
+     "k": "New COO",
+     "v": "Ann-Marie Campbell"
+    },
+    {
+     "k": "New CFO",
+     "v": "Jordan Broggi"
+    },
+    {
+     "k": "Q3 sales",
+     "v": "Up about $2B, almost 5% (WSB-TV)"
+    }
+   ],
+   "why": "The nation's largest home-improvement retailer hands all three top roles to long-serving insiders.",
+   "cs": "CFO-office transition, investor-messaging and operating-model work at large retailers; housing-cycle scenario planning for suppliers.",
+   "confidence": "Confirmed",
+   "readTime": "3 min",
+   "paras": [
+    "Home Depot said on 17 November 2026 that chief financial officer Richard McPhail will become chief executive officer, effective 23 November, succeeding Ted Decker. According to the company's release, filed with the US Securities and Exchange Commission, McPhail, who joined Home Depot in 2005 and has been CFO since September 2019, will also be elected to the board. Decker will step down as president and CEO and continue as chair of the board.",
+    "The release names two further changes on the same date. Ann-Marie Campbell, described as a 41-year veteran of the company, becomes president and chief operating officer. Jordan Broggi, a 13-year veteran who was most recently executive vice president of interconnected retail, becomes executive vice president and CFO. In effect the top three roles all pass to long-serving insiders.",
+    "Asked about the reason, the company pointed to succession planning. The Atlanta Journal-Constitution quotes a spokesperson calling the change part of normal and ongoing succession planning, and WSB-TV quotes independent lead director Greg Brenneman referring to the board's ongoing, active succession planning. In the release, Decker says he looks forward to supporting the new team during the transition.",
+    "The announcement came on the morning Home Depot reported third-quarter results. WSB-TV reports that sales rose about $2 billion, almost 5%, from the same period in 2025, and quotes McPhail saying the quarter exceeded the company's expectations. Neither the release nor the two press reports we read gives earnings per share, comparable sales or guidance, so we do not report them here.",
+    "For advisers, a CFO-to-CEO promotion at a $100-billion-plus retailer tends to signal continuity in strategy and capital allocation rather than a reset. It also opens a sequence of work: the new CFO's finance organisation, the operating committee under a new COO, and any change in how the company talks to investors about housing-market sensitivity, professional customers and its acquisition-led supply-chain strategy. These are our readings of the structure, not company statements.",
+    "What we do not yet know: whether strategy, capital-return policy or the company's financial targets will change under McPhail; how investors reacted, since none of the sources we read reports a share-price move; and what Decker's role as chair will involve in practice."
+   ],
+   "unknowns": [
+    "Whether strategy or capital-return policy will change under McPhail",
+    "Investor reaction (not reported in sources read)",
+    "Third-quarter EPS, comparable sales and guidance (not in sources read)"
+   ],
+   "questions": [
+    "How would you advise a retailer whose CFO has just become CEO on structuring the new finance team?"
+   ],
+   "sources": [
+    {
+     "stype": "Official",
+     "src": "Home Depot (SEC 8-K exhibit 99.1)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000354950/000035495026000182/exhibit991november2026.htm"
+    },
+    {
+     "stype": "Press",
+     "src": "Atlanta Journal-Constitution",
+     "url": "https://www.ajc.com/business/2026/11/home-depot-announces-richard-mcphail-as-new-ceo/"
+    },
+    {
+     "stype": "Press",
+     "src": "WSB-TV",
+     "url": "https://www.wsbtv.com/news/local/cobb-county/home-depot-ceo-steps-down-company-reports-strong-earnings-2-billion-sales-increase/BYSK37QIEBHNDNK5WMXGVFHXTA/"
+    }
+   ]
+  },
+  {
+   "id": "jpmorgan-cfo-succession",
+   "date": "Nov 17",
+   "year": "2026",
+   "isNew": true,
+   "firm": "JPMorgan Chase",
+   "section": "Big Moves",
+   "kicker": "Leadership",
+   "desk": "Financial services",
+   "heat": 4,
+   "rel": 3,
+   "title": "JPMorgan names Bregje de Best to succeed CFO Jeremy Barnum",
+   "pre": "JPMorgan names ",
+   "hl": "Bregje de Best",
+   "post": " to succeed CFO Jeremy Barnum",
+   "summary": "JPMorgan says de Best, CFO of its investment bank, will take over as group CFO after first-quarter 2027 reporting; Barnum becomes Vice Chairman and stays until early 2028.",
+   "facts": [
+    {
+     "k": "Handover",
+     "v": "After Q1 2027 reporting"
+    },
+    {
+     "k": "Barnum",
+     "v": "Vice Chairman, staying to early 2028"
+    },
+    {
+     "k": "Tenure",
+     "v": "Six years as CFO"
+    }
+   ],
+   "why": "A staged succession at the largest US bank, announced alongside continuing speculation about CEO succession.",
+   "cs": "Finance-function and investor-relations work: succession planning, CFO-office transitions and capital-messaging prep at large banks.",
+   "confidence": "Confirmed",
+   "readTime": "3 min",
+   "paras": [
+    "JPMorgan Chase said on 17 November 2026 that Bregje de Best, currently chief financial officer of its Corporate & Investment Bank, will succeed Jeremy Barnum as the firm's chief financial officer. According to the company's release, the handover happens after the first-quarter 2027 financial reporting, at which point de Best joins the firmwide Operating Committee.",
+    "Barnum, who has held the role for six years, told the company he intends to conclude his tenure as CFO. The release says he will become a Vice Chairman at that point and has agreed to stay until early 2028. Until the handover he will lead the January and April earnings announcements and the February Investor Day, so the transition is staged rather than abrupt. In the release, chief executive Jamie Dimon said Barnum asked to transition leadership of Finance to another executive.",
+    "De Best currently oversees Finance, Business Management and Controls for the Corporate & Investment Bank's Global Banking, Markets, Payments and Securities Services businesses, and was previously co-head of Global Corporate Banking, according to JPMorgan. The company says it will name her successor as the investment bank's CFO early next year. American Banker, which also reported the news, gave her age as 43; the release does not state it, so that figure rests on one outlet.",
+    "American Banker framed the announcement against continuing speculation about when Dimon will eventually retire. Neither the company release nor the trade report says anything about a Dimon timetable, so that context is the publication's framing rather than a company statement.",
+    "For advisers, a large-bank CFO change matters less for the individual than for what follows it: the investor-day messaging on capital and expenses, the reshuffle of the investment-bank finance team, and the way peers present their own succession plans to shareholders and supervisors."
+   ],
+   "unknowns": [
+    "Who will succeed de Best as CFO of the Corporate & Investment Bank (to be named early next year)",
+    "Any change to the CEO succession timetable (not addressed in the release)"
+   ],
+   "questions": [
+    "How would you advise a bank preparing its investor day during a CFO handover?"
+   ],
+   "sources": [
+    {
+     "stype": "Official",
+     "src": "JPMorgan Chase",
+     "url": "https://www.jpmorganchase.com/newsroom/press-releases/2026/jpmorganchase-announces-bregje-de-best-will-succeed-jeremy-barnum-as-cfo"
+    },
+    {
+     "stype": "Press",
+     "src": "American Banker",
+     "url": "https://www.americanbanker.com/news/jpmorgan-s-cfo-plans-exit-company-names-internal-successor"
+    }
+   ]
+  },
+  {
    "id": "deloitte-edisyl",
    "date": "Nov 13",
    "year": "2026",
@@ -565,54 +698,6 @@
    "stype": "Aggregator",
    "src": "FourWeekMBA",
    "url": "https://fourweekmba.com/ai-13-ai-deals-in-november-openai-and-meta-named-no-price/"
-  },
-  {
-   "id": "jpmorgan-cfo-succession",
-   "type": "Leadership",
-   "co": "JPMorgan Chase",
-   "firm": "JPMorgan Chase",
-   "desk": "Financial services",
-   "date": "Nov 17",
-   "heat": 3,
-   "rel": 3,
-   "value": "Early 2028",
-   "vlabel": "Barnum stays on as Vice Chairman until then",
-   "title": "JPMorgan names Bregje de Best to succeed CFO Jeremy Barnum",
-   "cs": "Finance-function and investor-relations work: succession planning, CFO-office transitions and capital-messaging prep at large banks.",
-   "stype": "Official",
-   "src": "JPMorgan Chase",
-   "url": "https://www.jpmorganchase.com/newsroom/press-releases/2026/jpmorganchase-announces-bregje-de-best-will-succeed-jeremy-barnum-as-cfo",
-   "updated": "2026-11-17",
-   "confidence": "Confirmed",
-   "readTime": "3 min",
-   "year": 2026,
-   "body": "JPMorgan says de Best, CFO of its investment bank, will take over as group CFO after first-quarter 2027 reporting; Barnum becomes Vice Chairman and stays until early 2028.",
-   "paras": [
-    "JPMorgan Chase said on 17 November 2026 that Bregje de Best, currently chief financial officer of its Corporate & Investment Bank, will succeed Jeremy Barnum as the firm's chief financial officer. According to the company's release, the handover happens after the first-quarter 2027 financial reporting, at which point de Best joins the firmwide Operating Committee.",
-    "Barnum, who has held the role for six years, told the company he intends to conclude his tenure as CFO. The release says he will become a Vice Chairman at that point and has agreed to stay until early 2028. Until the handover he will lead the January and April earnings announcements and the February Investor Day, so the transition is staged rather than abrupt. In the release, chief executive Jamie Dimon said Barnum asked to transition leadership of Finance to another executive.",
-    "De Best currently oversees Finance, Business Management and Controls for the Corporate & Investment Bank's Global Banking, Markets, Payments and Securities Services businesses, and was previously co-head of Global Corporate Banking, according to JPMorgan. The company says it will name her successor as the investment bank's CFO early next year. American Banker, which also reported the news, gave her age as 43; the release does not state it, so that figure rests on one outlet.",
-    "American Banker framed the announcement against continuing speculation about when Dimon will eventually retire. Neither the company release nor the trade report says anything about a Dimon timetable, so that context is the publication's framing rather than a company statement.",
-    "For advisers, a large-bank CFO change matters less for the individual than for what follows it: the investor-day messaging on capital and expenses, the reshuffle of the investment-bank finance team, and the way peers present their own succession plans to shareholders and supervisors."
-   ],
-   "unknowns": [
-    "Who will succeed de Best as CFO of the Corporate & Investment Bank (to be named early next year)",
-    "Any change to the CEO succession timetable (not addressed in the release)"
-   ],
-   "questions": [
-    "How would you advise a bank preparing its investor day during a CFO handover?"
-   ],
-   "sources": [
-    {
-     "stype": "Official",
-     "src": "JPMorgan Chase",
-     "url": "https://www.jpmorganchase.com/newsroom/press-releases/2026/jpmorganchase-announces-bregje-de-best-will-succeed-jeremy-barnum-as-cfo"
-    },
-    {
-     "stype": "Press",
-     "src": "American Banker",
-     "url": "https://www.americanbanker.com/news/jpmorgan-s-cfo-plans-exit-company-names-internal-successor"
-    }
-   ]
   },
   {
    "id": "cohere-canada",
