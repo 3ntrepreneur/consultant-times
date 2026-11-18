@@ -191,3 +191,10 @@ Leave edition.archive[] empty. How It Works items go to data/library.json instea
 - A new item that clearly beats the lead (see §5) becomes the lead in the same run. Do not wait for the next edition.
 - Spend research effort on this first: look for fresh candidates (Big Four/MBB firms, Nvidia/AI, big M&A, CEO changes, earnings, policy) before refilling category pages. Fresh items still need 2+ real https sources and must pass the §7 hold rules.
 - If fewer than four fresh, verifiable items exist, fill the slots with the freshest available and list in the final message which slots are stale and why.
+
+### 15b. Many fresh items on the front page; older items live on category pages (owner's rule, 18 Nov 2026)
+- The front page (`stories[]`, in addition to the lead and three cards) should carry as many fresh items as the run can verify: aim for 8-12 items from the last 24 hours, ordered newest and hottest first. Each run, add every fresh verified story, not just two or three.
+- Front-page items older than 48 hours leave the front page (they drop out of the front `stories` order, or are moved out of `stories[]` into the array that matches their section: bigMoves, policy, deskNews, radar or wire). They keep their id and link and stay on their category page, which is built from all items by `desk`. Nothing is deleted; archive rules in §6f and §12 still apply.
+- Every category page (the 9 industry desks, Policy, Big Moves, AI & Tools, Vancouver) must be refreshed each run with news from the last 24 hours, shown first. Search each desk for fresh items each run (use `data/desks.json` metrics) and add at least 1-3 new verified items per desk per run where they exist. Items older than 48 hours stay below the fresh ones, still at 10+ per page (§14).
+- Fresh items need 2+ real https sources and must pass the §7 hold rules. If a desk has no fresh verifiable item, leave its older items in place and name the desk in the final message; never pad with weak or single-sourced items.
+- Budget: this overrides the lean-search budget for the 10:00 run. Use up to 40 searches/fetches, spent first on the front page, then on each desk.
