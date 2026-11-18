@@ -212,3 +212,9 @@ Big Moves is not just earnings. Each run, search every type below for news from 
 - Legal & Governance: regulatory actions, fines, major lawsuits, investigations (allegations stay allegations; §7 applies).
 - Earnings only when there is a shock, a guidance change or a read-across to client work.
 For each, `cs` must say what work it creates (for example, bankruptcy: turnaround, restructuring advisory, supply-chain contingency; divestiture: separation, TSA design; market entry: market sizing, go-to-market).
+
+### 15d. Search returns headlines only: read the pages (owner's rule, 18 Nov 2026)
+- WebSearch often returns titles and URLs without page text or dates. That is NOT a reason to carry the edition forward unchanged. Open the pages: use the `web-fetch` agent (or WebFetch) to read candidate articles and primary releases (company newsrooms, SEC filings, regulators) and build fact sheets from what was actually read.
+- Pick candidates from search headlines, listing pages (consultancy.org, American Banker, company newsrooms) and wire-style roundups, then fetch each in batches (several URLs per agent call) to save time.
+- If a page cannot be fetched, try a primary source or another outlet. Only if two sources cannot be read does the item stay out; say so in the final message.
+- A run that publishes no new front-page item must state exactly why (which fetches failed) in `data/status.json` and the final message. "Search returned headlines only" is not an accepted reason by itself.
