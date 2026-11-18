@@ -6,7 +6,10 @@
 <title>The Consultant Times — business news through a consultant's lens</title>
 <meta name="description" content="Daily business, deals and AI news for consultants and consulting students, with what each story means for client work.">
 <meta property="og:title" content="The Consultant Times">
-<meta property="og:description" content="Business news through a consultant's lens. New edition every weekday at 6am PT.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://3ntrepreneur.github.io/consultant-times/">
+<link rel="canonical" href="https://3ntrepreneur.github.io/consultant-times/">
+<meta property="og:description" content="Business news through a consultant's lens. Two editions every weekday, at 10:00 AM and 10:00 PM PT.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,900&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
 <style>
@@ -123,6 +126,7 @@ footer > div{flex:1 1 220px}
 }
 @media print{.topbar,.panel{display:none}}
 </style>
+<script data-goatcounter="https://consultanttimes.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
 <body>
 <header class="masthead"><div class="wrap">
@@ -668,7 +672,7 @@ document.addEventListener("click", (e) => {
 });
 document.addEventListener("input", (e) => { if (e.target && e.target.id === "arch-q") { st.q = e.target.value; const l = document.getElementById("arch-l" + "ist"); if (l) l.innerHTML = archiveList(); } });
 document.getElementById("burger").addEventListener("click", () => { st.menu = st.menu==="burger" ? null : "burger"; render(); });
-window.addEventListener("hashchange", () => { render(); const h = location.hash.replace(/^#/, ""); const f = h === "feedback" && document.getElementById("feedback"); if (f) f.scrollIntoView(); else window.scrollTo(0,0); });
+window.addEventListener("hashchange", () => { try { if (window.goatcounter && window.goatcounter.count) window.goatcounter.count({ path: location.pathname + location.hash }); } catch (e) {} render(); const h = location.hash.replace(/^#/, ""); const f = h === "feedback" && document.getElementById("feedback"); if (f) f.scrollIntoView(); else window.scrollTo(0,0); });
 load();
 </script>
 </body>
