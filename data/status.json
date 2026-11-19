@@ -1,6 +1,6 @@
 {
  "last_run": "2026-11-19T10:00:00-08:00",
- "result": "no_new_edition",
- "edition": "2026-11-18-2200",
- "note": "10:00 run: no new edition. Fetch blocked: reuters.com/business, apnews.com/hub/business, cbc.ca/news/business, cnbc.com/world and consultancy.org/news all returned PROVENANCE_REQUIRED (permission unanswered). biv.com/news read but stale (2024 listing). stocktitan Anthropic live page read (aggregator, last updated Nov 18; no Nov 19 trading data). WebSearch returned headlines only, no verifiable Nov 19 items from credible sources, so no new front-page item was written. Live edition 2026-11-18-2200 left unchanged. No reader suggestions read (Gmail not searched). No new How It Works (weekly, Mondays)."
+ "result": "ok",
+ "edition": "2026-11-19-1000",
+ "note": "Manual re-run. Reuters/AP blocked (SITE_BLOCKED); CBC text undated. Consultancy.org network read: added Oliver Wyman-Synpulse (new lead after Anthropic), Publicis Sapient-Ping, EY.ai Academy MENA, Steer-Mercator, Finyx-Entec, Alexander Haas CEO wire. No new items for other desks/policy/Vancouver (no readable fresh sources); all pages still 10+ via carry-forward. No reader suggestions found. No new How It Works (Mondays)."
 }

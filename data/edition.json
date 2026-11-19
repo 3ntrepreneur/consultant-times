@@ -1,10 +1,10 @@
 {
  "schema": 1,
  "edition": {
-  "id": "2026-11-18-2200",
-  "label": "WEDNESDAY 18 NOVEMBER 2026 · EVENING EDITION",
-  "published": "2026-11-18T22:00:00-08:00",
-  "next": "THU 10:00 AM PT"
+  "id": "2026-11-19-1000",
+  "label": "THURSDAY 19 NOVEMBER 2026 · MORNING EDITION",
+  "published": "2026-11-19T10:00:00-08:00",
+  "next": "TODAY 10:00 PM PT"
  },
  "lead": "anthropic-ipo-priced",
  "stories": [
@@ -73,6 +73,246 @@
      "stype": "Official",
      "src": "Anthropic",
      "url": "https://anthropic.com/news/roadshow-launch"
+    }
+   ]
+  },
+  {
+   "id": "oliver-wyman-synpulse",
+   "date": "Nov 19",
+   "year": "2026",
+   "isNew": true,
+   "firm": "Oliver Wyman",
+   "section": "Big Moves",
+   "kicker": "M&A",
+   "desk": "Consulting industry",
+   "heat": 4,
+   "rel": 5,
+   "title": "Oliver Wyman to buy 1,200-person Synpulse in its largest deal",
+   "pre": "Oliver Wyman to buy ",
+   "hl": "1,200-person Synpulse",
+   "post": " in its largest deal",
+   "summary": "Oliver Wyman has agreed to acquire Synpulse, a financial services consultancy of about 1,200 people, which Consultancy.eu calls its largest acquisition. Terms are undisclosed; closing is expected in early 2027.",
+   "facts": [
+    {
+     "k": "Target size",
+     "v": "About 1,200 professionals"
+    },
+    {
+     "k": "Terms",
+     "v": "Not disclosed"
+    },
+    {
+     "k": "Expected close",
+     "v": "Early 2027"
+    },
+    {
+     "k": "Oliver Wyman headcount",
+     "v": "7,000+ in 70+ offices; above 8,000 combined, per Consultancy.eu"
+    }
+   ],
+   "why": "A strategy firm is buying implementation capacity in financial services, the clearest sign yet that advice and delivery are merging.",
+   "cs": "Integration, brand and talent-retention work for the combined firm; for banks and insurers, a new option for strategy-to-build programmes and a vendor-landscape check on who now owns delivery.",
+   "confidence": "Reported",
+   "readTime": "3 min",
+   "paras": [
+    "Oliver Wyman, the management consultancy in the Marsh McLennan group, has agreed to acquire Synpulse, a financial services consultancy with about 1,200 professionals across Europe, Asia and North America, according to Consultancy.eu on 19 November 2026. The publication describes it as the largest acquisition in Oliver Wyman's history. No price or deal terms were disclosed, and the transaction is expected to close in early 2027.",
+    "Synpulse was founded in 1996 and sells consulting and technology services: enterprise systems modernisation, digital product development and AI solution implementation. It also runs a technology division, Synpulse8, which works with more than 100 technology partners. The firm is co-headquartered in Switzerland and Singapore, with about 550 staff in each, and has roughly 100 people in the United States and Canada, per Consultancy.eu.",
+    "The deal is Oliver Wyman's second acquisition this year, after the US restructuring firm CR3 Partners. Consultancy.eu puts Oliver Wyman at more than 7,000 staff in over 70 offices, which would pass 8,000 people once Synpulse is included. Synpulse is to keep its brand and leadership team, and the article gives no long-term integration plan. Ted Moynihan, Oliver Wyman's chief executive, and Konrad Niggli and Yves Roesti, Synpulse's co-chief executives, are quoted in the announcement coverage.",
+    "For readers in consulting, the logic is visible in the target's profile. Strategy firms have long sold the plan and left the build to systems integrators; a 1,200-person firm that modernises banking systems and implements AI gives Oliver Wyman a delivery arm inside its core sector. For clients, it means one provider can now be asked to carry a programme from target-state design to implementation, and procurement teams will want to know how independence is handled where the same group advises and builds.",
+    "What is not yet known is the price, how Synpulse's Asian and Swiss client base overlaps with Oliver Wyman's, and whether other partnerships held by Synpulse8 survive intact. We have read the Consultancy.eu report only, not a company release."
+   ],
+   "unknowns": [
+    "Purchase price and financing",
+    "Any regulatory approvals needed before the early-2027 close",
+    "How the Synpulse8 technology partnerships will be handled after closing"
+   ],
+   "questions": [
+    "Oliver Wyman is buying a 1,200-person delivery consultancy. How would you test whether strategy and implementation can sit in one firm without eroding client trust?"
+   ],
+   "sources": [
+    {
+     "stype": "Trade press",
+     "src": "Consultancy.eu",
+     "url": "https://www.consultancy.eu/news/14664/oliver-wyman-to-acquire-1200-person-financial-services-consultancy-synpulse"
+    }
+   ]
+  },
+  {
+   "id": "publicis-sapient-ping-identity",
+   "date": "Nov 19",
+   "year": "2026",
+   "isNew": true,
+   "firm": "Publicis Sapient",
+   "section": "AI & Tools",
+   "kicker": "Partnerships",
+   "desk": "Tech & AI",
+   "heat": 3,
+   "rel": 4,
+   "title": "Publicis Sapient and Ping Identity team up on identity systems for AI agents",
+   "pre": "Publicis Sapient and Ping Identity team up on ",
+   "hl": "identity systems",
+   "post": " for AI agents",
+   "summary": "Publicis Sapient and Ping Identity announced a global partnership to modernise legacy identity systems and prepare large organisations for AI agents, using Sapient Slingshot to automate parts of the migration, per Consultancy.uk.",
+   "facts": [
+    {
+     "k": "Partners",
+     "v": "Publicis Sapient and Ping Identity"
+    },
+    {
+     "k": "Platform",
+     "v": "Sapient Slingshot (AI-powered modernisation)"
+    },
+    {
+     "k": "Reference project",
+     "v": "The AA: 4.7M users, 1.5M active tokens migrated"
+    },
+    {
+     "k": "Terms",
+     "v": "Not disclosed"
+    }
+   ],
+   "why": "Identity is becoming the control point for AI agents, and consultancies are packaging migration work with specialist vendors.",
+   "cs": "Identity and access modernisation, agent-governance and zero-trust programmes at large enterprises; legacy IAM migrations that can be partly automated.",
+   "confidence": "Reported",
+   "readTime": "3 min",
+   "paras": [
+    "Publicis Sapient and Ping Identity have formed a global partnership to help large organisations replace outdated identity systems and prepare for AI agents, according to Consultancy.uk on 19 November 2026. Identity systems are the technology that decides who, or what, can access applications, data and sensitive systems.",
+    "The offer combines Publicis Sapient's digital transformation, AI and software engineering work with Ping's identity management and security products. Publicis Sapient says it will use its Sapient Slingshot platform, which it describes as AI-powered software development and modernisation, to automate parts of the job: analysing existing systems, configuring new solutions and testing integrations.",
+    "A central claim is that organisations will need to give AI agents their own identities and control which applications, tools and data each can reach. Alex Laurie of Ping Identity is quoted as saying AI agents are becoming a new class of digital identity inside the enterprise. Pinak Kiran Vedalankar, group vice president for technology at Publicis Sapient, framed the aim as accelerating identity modernisation.",
+    "The companies have worked together before. Consultancy.uk cites a migration for the UK motoring organisation The AA, which moved 4.7 million users and 1.5 million active tokens to a cloud-based identity platform, which the article says happened without downtime. That figure is the companies' claim as reported, not independently checked.",
+    "Deal terms and the number of clients lined up were not disclosed. For consultants, the practical read is that agent governance is turning into a billable identity workstream, and that vendors and integrators are pairing up to sell it as a migration project."
+   ],
+   "unknowns": [
+    "Commercial terms and any revenue targets",
+    "Which industries the first engagements will cover"
+   ],
+   "questions": [
+    "AI agents will need identities of their own. How would you scope an identity-governance programme for a bank that plans to deploy hundreds of agents?"
+   ],
+   "sources": [
+    {
+     "stype": "Trade press",
+     "src": "Consultancy.uk",
+     "url": "https://www.consultancy.uk/news/46258/publicis-sapient-and-ping-identity-partner-to-upgrade-identity-identity-systems-for-ai"
+    }
+   ]
+  },
+  {
+   "id": "ey-ai-academy-mena",
+   "date": "Nov 19",
+   "year": "2026",
+   "isNew": true,
+   "firm": "EY",
+   "section": "AI & Tools",
+   "kicker": "Partnerships",
+   "desk": "Consulting industry",
+   "heat": 3,
+   "rel": 4,
+   "title": "EY launches EY.ai Academy across the Middle East and North Africa",
+   "pre": "EY launches ",
+   "hl": "EY.ai Academy",
+   "post": " across the Middle East and North Africa",
+   "summary": "EY has launched its EY.ai Academy in MENA, offering bilingual AI learning for leaders, managers and technical staff in the UAE, Saudi Arabia, Qatar and Egypt, according to Consultancy-me.com. EY says the Academy has reached more than 200,000 learners worldwide.",
+   "facts": [
+    {
+     "k": "Markets",
+     "v": "UAE, Saudi Arabia, Qatar, Egypt and other Middle Eastern markets"
+    },
+    {
+     "k": "Learners to date (EY, worldwide)",
+     "v": "More than 200,000"
+    },
+    {
+     "k": "Languages",
+     "v": "Arabic and English"
+    },
+    {
+     "k": "Price",
+     "v": "Not stated"
+    }
+   ],
+   "why": "Big Four firms now sell AI training as a product, tied to their transformation work.",
+   "cs": "AI upskilling, change-management and adoption-measurement work for regional enterprises and governments; a sign that training is being bundled with consulting engagements.",
+   "confidence": "Reported",
+   "readTime": "3 min",
+   "paras": [
+    "EY has launched the EY.ai Academy across the Middle East and North Africa, Consultancy-me.com reported on 19 November 2026. The programme offers AI-focused learning and development for organisations in the UAE, Saudi Arabia, Qatar, Egypt and other Middle Eastern markets.",
+    "According to the report, learning paths are tailored for leaders, managers, technical specialists and frontline teams. The curriculum covers AI foundations, responsible AI and governance, data foundations, AI and machine learning platforms, and how to identify, prioritise and activate business use cases. Separate streams address organisational culture, leadership commitment, change management and adoption measurement.",
+    "Delivery includes e-learning, executive sessions, workshops, bootcamps and peer learning in Arabic and English. The programmes can be bought on their own or as part of wider transformation work by EY consultants, and are tailored by sector and workforce. EY says the Academy has supported more than 200,000 learners worldwide; that is EY's figure.",
+    "Mazen Baroudi, EY's MENA chief technology officer, said the region is entering a defining phase of AI adoption. Omar Odeh, MENA consulting leader, and Wasfi Masri, people consulting leader, are also named.",
+    "No price, client list or enrolment target for the region was given. For the industry, the signal is that adoption, not tooling, is where firms expect the next wave of paid work, and that training is a way into larger programmes."
+   ],
+   "unknowns": [
+    "Pricing and any anchor clients in the region",
+    "How the Academy's content is accredited"
+   ],
+   "questions": [
+    "EY is selling AI training alongside transformation work. How would you measure whether an AI upskilling programme changed how a client's staff actually work?"
+   ],
+   "sources": [
+    {
+     "stype": "Trade press",
+     "src": "Consultancy-me.com",
+     "url": "https://www.consultancy-me.com/news/14944/ey-launches-eyai-academy-to-support-workforce-ai-adoption-across-mena-region"
+    }
+   ]
+  },
+  {
+   "id": "steer-acquires-mercator",
+   "date": "Nov 18",
+   "year": "2026",
+   "isNew": true,
+   "firm": "Steer",
+   "section": "Big Moves",
+   "kicker": "M&A",
+   "desk": "Industrials & logistics",
+   "heat": 3,
+   "rel": 4,
+   "title": "Steer buys US ports consultancy Mercator, its fourth deal since 2021",
+   "pre": "Steer buys ",
+   "hl": "US ports consultancy Mercator",
+   "post": ", its fourth deal since 2021",
+   "summary": "UK-based Steer has acquired Mercator, a Kirkland, Washington consultancy advising ports, terminals and shipping on strategy, commercial and transaction work, according to Consultancy.uk. Price was not stated.",
+   "facts": [
+    {
+     "k": "Mercator HQ",
+     "v": "Kirkland, Washington; founded 2000"
+    },
+    {
+     "k": "Mercator track record",
+     "v": "150+ commercial due diligence projects; 40+ investors advised"
+    },
+    {
+     "k": "Steer",
+     "v": "Founded 1978; 29 offices"
+    },
+    {
+     "k": "Terms",
+     "v": "Not stated"
+    }
+   ],
+   "why": "Infrastructure advisers are buying sector specialists to deepen maritime and freight practices.",
+   "cs": "Port, terminal and shipping strategy, commercial due diligence and transaction advisory; a larger maritime bench for infrastructure investors.",
+   "confidence": "Reported",
+   "readTime": "3 min",
+   "paras": [
+    "Steer, the UK-headquartered transport and infrastructure consultancy, has acquired Mercator, a US maritime and ports adviser, Consultancy.uk reported on 18 November 2026. The deal strengthens Steer's work in ports, maritime transport and freight advisory.",
+    "Mercator has been based in Kirkland, Washington, since 2000. It advises investors, port authorities, terminal operators, shipping companies and logistics businesses on strategy, commercial matters and transactions. The article says it has completed more than 150 commercial due diligence projects and advised over 40 investors and financial institutions. Named projects include advice to the Ports of Seattle and Tacoma on forming the Northwest Seaport Alliance, to the Quebec Port Authority on a new container terminal, and to a Macquarie-led consortium on its acquisition of Long Beach Container Terminal.",
+    "Steer was founded in 1978 and has 29 offices across Europe, North America, Latin America and Asia. This is its fourth acquisition since 2021, following Fourth Economy in the US and Amberside Advisors and Evolution Infrastructure in the UK. Mercator will join Steer's North American division, keep its brand and keep its leadership. Steer chief executive Hugh Jones said the deal will strengthen the firm's offer beyond North America.",
+    "Price and deal value were not disclosed. The deal matters to clients because port ownership and terminal investment are active deal markets, and due-diligence capacity in that niche is thin."
+   ],
+   "unknowns": [
+    "Deal value",
+    "Mercator headcount and revenue"
+   ],
+   "questions": [
+    "Steer bought a niche ports adviser. How would you value a boutique consultancy whose revenue depends on a handful of infrastructure investors?"
+   ],
+   "sources": [
+    {
+     "stype": "Trade press",
+     "src": "Consultancy.uk",
+     "url": "https://www.consultancy.uk/news/46261/steer-acquires-us-based-maritime-and-ports-consultancy-mercator"
     }
    ]
   },
@@ -740,6 +980,22 @@
  ],
  "wire": [
   {
+   "date": "Nov 18",
+   "tag": "Leadership",
+   "text": "Alexander Haas promotes Jaci Thiede to president and CEO from 1 January 2027, succeeding David King, who stays as senior partner.",
+   "src": "Consulting.us",
+   "desk": "Consulting industry",
+   "url": "https://www.consulting.us/news/14247/alexander-haas-promotes-jaci-thiede-to-president-and-ceo",
+   "id": "wire-alexander-haas-thiede-ceo",
+   "firm": "Industry",
+   "confidence": "Reported",
+   "paras": [
+    "Alexander Haas, an Atlanta-based fundraising consultancy for nonprofits, has promoted Jaci Thiede to president and chief executive effective 1 January 2027, according to Consulting.us on 18 November 2026. She succeeds David King, who led the firm for more than 20 years and remains as a senior partner.",
+    "The firm was founded in 1987 and says it has advised more than 2,000 clients. It was acquired in 2024 by Collegium, a New York holding company for nonprofit-sector consultancies. Thiede, based in Denver, rejoined the firm as a partner in 2023 after starting her career there in 1994, and is its third leader and first woman in the role.",
+    "Collegium's founder and chief executive, Craig Leach, backed the choice in a statement. The report gives no detail on strategy changes."
+   ]
+  },
+  {
    "date": "Nov 11",
    "tag": "Capital",
    "text": "Thomson Reuters launches a US$500M share buyback and a new normal course issuer bid for up to 7 million shares.",
@@ -826,6 +1082,117 @@
   "basedOn": "anthropic-ipo-priced"
  },
  "bigMoves": [
+  {
+   "id": "bm-oliver-wyman-synpulse",
+   "type": "M&A",
+   "co": "Oliver Wyman",
+   "firm": "Oliver Wyman",
+   "desk": "Consulting industry",
+   "date": "Nov 19",
+   "year": 2026,
+   "heat": 3,
+   "rel": 4,
+   "value": "1,200 staff",
+   "vlabel": "Synpulse; terms undisclosed",
+   "title": "Oliver Wyman to acquire Synpulse in its largest deal",
+   "cs": "Integration, brand and talent-retention work for the combined firm; for banks and insurers, a new option for strategy-to-build programmes and a vendor-landscape check on who now owns delivery.",
+   "stype": "Trade press",
+   "src": "Consultancy.eu",
+   "url": "https://www.consultancy.eu/news/14664/oliver-wyman-to-acquire-1200-person-financial-services-consultancy-synpulse",
+   "updated": "2026-11-19",
+   "confidence": "Reported",
+   "readTime": "3 min",
+   "body": "Oliver Wyman has agreed to acquire Synpulse, a financial services consultancy of about 1,200 people, which Consultancy.eu calls its largest acquisition. Terms are undisclosed; closing is expected in early 2027.",
+   "paras": [
+    "Oliver Wyman, the management consultancy in the Marsh McLennan group, has agreed to acquire Synpulse, a financial services consultancy with about 1,200 professionals across Europe, Asia and North America, according to Consultancy.eu on 19 November 2026. The publication describes it as the largest acquisition in Oliver Wyman's history. No price or deal terms were disclosed, and the transaction is expected to close in early 2027.",
+    "Synpulse was founded in 1996 and sells consulting and technology services: enterprise systems modernisation, digital product development and AI solution implementation. It also runs a technology division, Synpulse8, which works with more than 100 technology partners. The firm is co-headquartered in Switzerland and Singapore, with about 550 staff in each, and has roughly 100 people in the United States and Canada, per Consultancy.eu.",
+    "The deal is Oliver Wyman's second acquisition this year, after the US restructuring firm CR3 Partners. Consultancy.eu puts Oliver Wyman at more than 7,000 staff in over 70 offices, which would pass 8,000 people once Synpulse is included. Synpulse is to keep its brand and leadership team, and the article gives no long-term integration plan. Ted Moynihan, Oliver Wyman's chief executive, and Konrad Niggli and Yves Roesti, Synpulse's co-chief executives, are quoted in the announcement coverage."
+   ],
+   "unknowns": [
+    "Deal terms were not disclosed"
+   ],
+   "sources": [
+    {
+     "stype": "Trade press",
+     "src": "Consultancy.eu",
+     "url": "https://www.consultancy.eu/news/14664/oliver-wyman-to-acquire-1200-person-financial-services-consultancy-synpulse"
+    }
+   ]
+  },
+  {
+   "id": "bm-steer-mercator",
+   "type": "M&A",
+   "co": "Steer",
+   "firm": "Steer",
+   "desk": "Industrials & logistics",
+   "date": "Nov 18",
+   "year": 2026,
+   "heat": 3,
+   "rel": 4,
+   "value": "Undisclosed",
+   "vlabel": "Mercator, US ports and maritime adviser",
+   "title": "Steer acquires US maritime consultancy Mercator",
+   "cs": "Port, terminal and shipping strategy, commercial due diligence and transaction advisory; a larger maritime bench for infrastructure investors.",
+   "stype": "Trade press",
+   "src": "Consultancy.uk",
+   "url": "https://www.consultancy.uk/news/46261/steer-acquires-us-based-maritime-and-ports-consultancy-mercator",
+   "updated": "2026-11-19",
+   "confidence": "Reported",
+   "readTime": "3 min",
+   "body": "UK-based Steer has acquired Mercator, a Kirkland, Washington consultancy advising ports, terminals and shipping on strategy, commercial and transaction work, according to Consultancy.uk. Price was not stated.",
+   "paras": [
+    "Steer, the UK-headquartered transport and infrastructure consultancy, has acquired Mercator, a US maritime and ports adviser, Consultancy.uk reported on 18 November 2026. The deal strengthens Steer's work in ports, maritime transport and freight advisory.",
+    "Mercator has been based in Kirkland, Washington, since 2000. It advises investors, port authorities, terminal operators, shipping companies and logistics businesses on strategy, commercial matters and transactions. The article says it has completed more than 150 commercial due diligence projects and advised over 40 investors and financial institutions. Named projects include advice to the Ports of Seattle and Tacoma on forming the Northwest Seaport Alliance, to the Quebec Port Authority on a new container terminal, and to a Macquarie-led consortium on its acquisition of Long Beach Container Terminal.",
+    "Steer was founded in 1978 and has 29 offices across Europe, North America, Latin America and Asia. This is its fourth acquisition since 2021, following Fourth Economy in the US and Amberside Advisors and Evolution Infrastructure in the UK. Mercator will join Steer's North American division, keep its brand and keep its leadership. Steer chief executive Hugh Jones said the deal will strengthen the firm's offer beyond North America."
+   ],
+   "unknowns": [
+    "Deal terms were not disclosed"
+   ],
+   "sources": [
+    {
+     "stype": "Trade press",
+     "src": "Consultancy.uk",
+     "url": "https://www.consultancy.uk/news/46261/steer-acquires-us-based-maritime-and-ports-consultancy-mercator"
+    }
+   ]
+  },
+  {
+   "id": "bm-finyx-entec-si",
+   "type": "M&A",
+   "co": "Finyx Group",
+   "firm": "Finyx",
+   "desk": "Public sector",
+   "date": "Nov 18",
+   "year": 2026,
+   "heat": 3,
+   "rel": 4,
+   "value": "Undisclosed",
+   "vlabel": "Entec Si, about 20 core staff",
+   "title": "Finyx acquires Birmingham consultancy Entec Si",
+   "cs": "Public-sector and not-for-profit advisory capacity is being consolidated by mid-sized technology consultancies, creating integration and local-government transformation work.",
+   "stype": "Trade press",
+   "src": "Consultancy.uk",
+   "url": "https://www.consultancy.uk/news/46264/birmingham-based-business-consultancy-entec-si-acquired-by-finyx",
+   "updated": "2026-11-19",
+   "confidence": "Reported",
+   "readTime": "3 min",
+   "body": "Finyx Group, a London-based technology and transformation consultancy with more than 100 consultants, has acquired Entec Si, a Birmingham firm of about 20 core staff, according to Consultancy.uk.",
+   "paras": [
+    "Finyx Group, a technology and transformation consultancy with offices in London, Belfast and York and more than 100 consultants, has acquired Entec Si, a Birmingham consultancy founded in 1996 by Peter Marsden, Consultancy.uk reported on 18 November 2026.",
+    "Entec Si has about 20 core staff plus associates and focuses on local government and not-for-profit clients, with work in healthcare, transport, aviation and higher education. No price or terms were given.",
+    "The deal follows Finyx's April 2026 purchase of Woodhurst, a 30-person financial services consultancy. Entec Si managing director Eman Al-Hillawi and Finyx chief executive Phil Stewart are quoted in the report."
+   ],
+   "unknowns": [
+    "Deal terms were not disclosed"
+   ],
+   "sources": [
+    {
+     "stype": "Trade press",
+     "src": "Consultancy.uk",
+     "url": "https://www.consultancy.uk/news/46264/birmingham-based-business-consultancy-entec-si-acquired-by-finyx"
+    }
+   ]
+  },
   {
    "id": "tasty-chickn-chapter-11",
    "type": "Distress",
