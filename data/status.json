@@ -1,6 +1,6 @@
 {
- "last_run": "2026-11-18T10:00:00-08:00",
- "result": "no_new_edition",
- "edition": "2026-11-17-2200",
- "note": "10:00 run on 18 Nov: no new edition published. WebFetch returned PROVENANCE_REQUIRED (permission not answered, unattended run) for consultancy.org/news, Reuters, CNBC, BNN Bloomberg, BIV, consulting.us/.ca, cognition.ai and mckinsey.com, so no candidate could be read and no item has 2 readable sources. Only unverified lead: McKinsey-Cognition AI software engineering alliance (17 Nov, listing excerpt only). No reader suggestions in Gmail. Live edition left untouched. No new How It Works (RULES 6/15e: Mondays only)."
+ "last_run": "2026-11-18T22:00:00-08:00",
+ "result": "ok",
+ "edition": "2026-11-18-2200",
+ "note": "22:00 run: added Anthropic IPO pricing (lead), Palo Alto/Applied Compute, Target Q3, McKinsey-Cognition alliance (Nov 16). Not read: Bloomberg and CNBC pages (blocked). Lowe's Q3 only via a secondary card, left out. No reader suggestions. No new How It Works (weekly, Mondays). All pages at 10+ items; no desk-by-desk fresh sweep this run (budget)."
 }

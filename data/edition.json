@@ -1,18 +1,219 @@
 {
  "schema": 1,
  "edition": {
-  "id": "2026-11-17-2200",
-  "label": "TUESDAY 17 NOVEMBER 2026 · EVENING EDITION (UPDATED)",
-  "published": "2026-11-17T22:00:00-08:00",
-  "next": "WED 10:00 AM PT"
+  "id": "2026-11-18-2200",
+  "label": "WEDNESDAY 18 NOVEMBER 2026 · EVENING EDITION",
+  "published": "2026-11-18T22:00:00-08:00",
+  "next": "THU 10:00 AM PT"
  },
- "lead": "nvidia-q3-fy27-results",
+ "lead": "anthropic-ipo-priced",
  "stories": [
+  {
+   "id": "anthropic-ipo-priced",
+   "date": "Nov 18",
+   "year": "2026",
+   "isNew": true,
+   "firm": "Industry",
+   "section": "Big Moves",
+   "kicker": "IPO",
+   "desk": "Tech & AI",
+   "heat": 5,
+   "rel": 4,
+   "title": "Anthropic prices IPO at $83 a share, valuing it near $1.5 trillion",
+   "pre": "Anthropic prices IPO at ",
+   "hl": "$83 a share",
+   "post": ", valuing it near $1.5 trillion",
+   "summary": "Anthropic priced its Nasdaq IPO at $83, above the $70–78 range, selling 980 million shares for about $81 billion, according to AP. Trading under ANT is due to begin Thursday.",
+   "facts": [
+    {
+     "k": "Price",
+     "v": "$83 a share (range was $70–78)"
+    },
+    {
+     "k": "Shares",
+     "v": "980M Class A (956.4M company, 23.6M selling holders)"
+    },
+    {
+     "k": "Proceeds",
+     "v": "About $81B, per AP"
+    },
+    {
+     "k": "Valuation",
+     "v": "About $1.5T, per AP"
+    }
+   ],
+   "why": "The largest IPO on record, per AP, resets what a listed AI lab costs to fund and to buy from.",
+   "cs": "IPO-readiness, investor-relations and controls work for AI-era issuers; compute-commitment and capital-allocation modelling for lenders and suppliers; vendor-risk reviews at enterprises that buy from a newly public AI supplier.",
+   "confidence": "Reported",
+   "readTime": "4 min",
+   "paras": [
+    "Anthropic priced its initial public offering at $83 a share on Wednesday 18 November 2026, above the $70 to $78 range it set when it launched its roadshow on 10 November, according to an Associated Press report carried by PBS NewsHour. The shares are due to begin trading on the Nasdaq on Thursday under the ticker ANT.",
+    "AP reports that 980 million Class A shares are being sold: 956,351,354 by the company and 23,648,646 by selling stockholders. The original plan, in Anthropic's own launch announcement, was 825 million shares. AP puts total proceeds at about $81 billion and the implied valuation at $1.5 trillion, and says that makes it the largest IPO on record, ahead of SpaceX, which raised about $75 billion in June. AP does not say whether the $81 billion is gross or net of fees.",
+    "The article also cites two figures from the offering documents that matter to advisers: $6.2 billion of debt, and about $900 billion of committed compute and infrastructure spending, of which about $70 billion falls in the next 12 months. Both are as reported by AP; we have not read the prospectus itself.",
+    "Anthropic's roadshow announcement, which we read earlier this month, also described a concurrent private placement of $26 billion to strategic partners at the IPO price. A market wrap on Yahoo Finance said seven technology companies had agreed to buy that block. We could not confirm the partner list or final size of the placement in a primary document, so it is not treated as settled here.",
+    "For consultants the story is less the headline number than the commitments behind it. A buyer with $900 billion of committed spending, and a valuation that depends on it being filled, shapes the demand for data-centre, power and chip supply chains, and for the advisory work that sits around them. For listed-company clients, the pricing above range is a data point on appetite for AI exposure, but a first-day move says little about durability.",
+    "Disclosure: The Consultant Times' automated editor is built on Anthropic's Claude."
+   ],
+   "unknowns": [
+    "Underwriters, any overallotment option and the exact listing time (not stated in the AP report)",
+    "Whether $81 billion is gross or net",
+    "Final size and buyers of the $26B concurrent placement",
+    "First-day trading, which comes after this edition"
+   ],
+   "questions": [
+    "A newly listed AI lab has $900 billion of committed compute spending. How would you test whether its customers' demand can fill that capacity?"
+   ],
+   "sources": [
+    {
+     "stype": "Press",
+     "src": "PBS NewsHour (AP)",
+     "url": "https://www.pbs.org/newshour/economy/anthropic-prices-its-ipo-at-83-per-share-valuing-the-ai-giant-at-1-5-trillion"
+    },
+    {
+     "stype": "Official",
+     "src": "Anthropic",
+     "url": "https://anthropic.com/news/roadshow-launch"
+    }
+   ]
+  },
+  {
+   "id": "palo-alto-applied-compute",
+   "date": "Nov 18",
+   "year": "2026",
+   "isNew": true,
+   "firm": "Industry",
+   "section": "Big Moves",
+   "kicker": "M&A",
+   "desk": "Tech & AI",
+   "heat": 4,
+   "rel": 4,
+   "title": "Palo Alto Networks buys Applied Compute for $4.5B in stock",
+   "pre": "Palo Alto Networks buys Applied Compute for ",
+   "hl": "$4.5B",
+   "post": " in stock",
+   "summary": "Palo Alto Networks agreed to buy AI start-up Applied Compute in an all-stock deal valued at $4.5 billion and raised its full-year revenue outlook, as quarterly revenue rose 39%.",
+   "facts": [
+    {
+     "k": "Deal value",
+     "v": "$4.5B all-stock, subject to adjustments"
+    },
+    {
+     "k": "Expected close",
+     "v": "Fiscal Q3 2027"
+    },
+    {
+     "k": "Q1 revenue",
+     "v": "$3.44B, up 39% (SiliconANGLE)"
+    },
+    {
+     "k": "FY27 revenue guide",
+     "v": "$14.52B–$14.57B"
+    }
+   ],
+   "why": "A cybersecurity leader pays up for post-training and inference tooling, tying AI security to the model stack.",
+   "cs": "Post-merger integration and AI-platform strategy work; security-architecture reviews for clients running mixed open and closed models; valuation and deal-structure support for AI start-up M&A.",
+   "confidence": "Confirmed",
+   "readTime": "4 min",
+   "paras": [
+    "Palo Alto Networks said on 18 November 2026 that it has signed a definitive agreement to acquire Applied Compute, an AI start-up. According to the company's press release filed with the US Securities and Exchange Commission, the all-stock transaction is valued at $4.5 billion, subject to adjustments, and is expected to close in the company's fiscal third quarter of 2027, subject to customary conditions including regulatory clearance.",
+    "Applied Compute's co-founder and chief executive, Yash Patil, will become co-chief AI officer of Palo Alto Networks after the close. In the release, chairman and CEO Nikesh Arora said every enterprise will run a mix of open and closed models and that each needs securing. SiliconANGLE reports that Applied Compute raised $350 million at a $3.25 billion valuation earlier in November and has annual recurring revenue above $100 million; the revenue figure is the company's own claim.",
+    "The deal landed alongside Palo Alto's first-quarter results for the period ended 31 October. SiliconANGLE reports adjusted earnings of $1.05 a share against analyst expectations of $0.97, and revenue of $3.44 billion, up 39% from a year earlier. Next-generation security annual recurring revenue rose 66% to $9.73 billion. The company raised full-year revenue guidance to $14.52 billion to $14.57 billion from $14.10 billion to $14.20 billion given in September, and guided full-year adjusted earnings per share to $4.26 to $4.30. The earnings figures come from SiliconANGLE and were not checked against the full results release.",
+    "Both SiliconANGLE and a separate market wrap report that Palo Alto's shares rose sharply on the day; the wrap put the gain at about 10% in regular trading. The release does not give a premium paid over Applied Compute's last round, but the $4.5 billion price compares with the $3.25 billion valuation reported for the recent funding.",
+    "The pattern matters for advisers. Acquirers are paying for post-training and inference capability, not only models, and are positioning security as part of the AI stack. Integration of an AI team into a large security vendor, and the product roadmap that follows, is exactly the kind of work that sits with strategy and operations consultants."
+   ],
+   "unknowns": [
+    "Deal premium and the adjustments to the price",
+    "Whether regulators will review the deal",
+    "Full results release and non-GAAP reconciliation (not read)",
+    "Integration plan and Applied Compute's existing customer commitments"
+   ],
+   "questions": [
+    "Palo Alto is paying $4.5B for an AI platform with about $100M of ARR. How would you test whether that price is justified?"
+   ],
+   "sources": [
+    {
+     "stype": "Official",
+     "src": "Palo Alto Networks (SEC 8-K exhibit 99.2)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001327567/000132756726000030/ex992pressrelease_november.htm"
+    },
+    {
+     "stype": "Press",
+     "src": "SiliconANGLE",
+     "url": "https://siliconangle.com/2026/11/18/palo-alto-networks-bets-4-5b-on-ai-startup-applied-compute-as-earnings-top-forecasts/"
+    }
+   ]
+  },
+  {
+   "id": "target-q3-tariff-refund",
+   "date": "Nov 18",
+   "year": "2026",
+   "isNew": true,
+   "firm": "Target",
+   "section": "Big Moves",
+   "kicker": "Earnings",
+   "desk": "Consumer & retail",
+   "heat": 4,
+   "rel": 4,
+   "title": "Target's Q3 sales rise 7.1%, helped by $301M tariff refund",
+   "pre": "Target's Q3 sales rise ",
+   "hl": "7.1%",
+   "post": ", helped by $301M tariff refund",
+   "summary": "Target reported third-quarter sales of $27.07 billion, up 7.1%, with comparable sales up 5.6%. A $301 million tariff refund added $0.50 a share, and the company raised its full-year sales outlook.",
+   "facts": [
+    {
+     "k": "Net sales",
+     "v": "$27,067M, up 7.1%"
+    },
+    {
+     "k": "Comparable sales",
+     "v": "+5.6%; traffic +5.0%"
+    },
+    {
+     "k": "Tariff refund benefit",
+     "v": "$301M pretax, $0.50 a share"
+    },
+    {
+     "k": "FY26 EPS guide",
+     "v": "$10.65–$11.40"
+    }
+   ],
+   "why": "A retailer's profit jump is part refund, part trading; the refund is a one-off that clients must strip out.",
+   "cs": "Tariff-refund recovery and customs-compliance work for importers; margin-bridge and earnings-quality analysis for retail finance teams; capex planning as Target guides to $5–6B in 2027.",
+   "confidence": "Confirmed",
+   "readTime": "3 min",
+   "paras": [
+    "Target reported third-quarter results on 18 November 2026 for the quarter ended 31 October. According to the company's earnings release, filed with the US Securities and Exchange Commission, net sales were $27,067 million, up 7.1% from $25,270 million a year earlier. Comparable sales rose 5.6%, with stores up 4.6% and digital up 9.8%, and comparable traffic rose 5.0%.",
+    "The profit lines are flattered by a one-off. Target recognised a $301 million pretax benefit from refunds of tariffs imposed under the International Emergency Economic Powers Act, worth $0.50 a share. Reported diluted earnings per share were $2.65 against $1.51 a year earlier. Excluding the refund, the company says GAAP EPS would have risen 42% and adjusted EPS 21%. Operating income was $1,672 million, a 6.2% margin, against $948 million, or 3.8%, a year ago, and gross margin was 30.5% against 28.2%.",
+    "On the outlook, Target now expects full-year 2026 net sales growth in a range around 6%, one point higher than its prior range, and full-year EPS of $10.65 to $11.40, which includes about $2.14 a share of tariff-refund benefits recognised so far. Guidance excludes any future refunds. The company also set 2027 capital spending at $5 billion to $6 billion. Chief executive Michael Fiddelke said results reflect progress against strategic priorities. Month-to-date November sales are in line with guidance and accelerating from October, the company says.",
+    "The release does not state the prior guidance for operating margin or EPS, so the size of the change in those lines is unknown from this document. A market wrap on Yahoo Finance reported Target shares up about 4% on the day.",
+    "The lesson for clients is earnings quality. A large share of this quarter's profit growth is a tariff refund that will not repeat, and importers across retail may be owed similar money, which creates recovery and compliance work alongside the usual margin and capex planning."
+   ],
+   "unknowns": [
+    "Prior full-year guidance for operating margin and EPS",
+    "How much of the remaining refund pool Target expects to recover",
+    "Detail behind the $5–6B 2027 capex plan"
+   ],
+   "questions": [
+    "Target's profit growth includes a one-off tariff refund. How would you build a margin bridge that separates trading from the refund?"
+   ],
+   "sources": [
+    {
+     "stype": "Official",
+     "src": "Target (SEC 8-K exhibit 99)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000027419/000002741926000051/a2026q3ex-99.htm"
+    },
+    {
+     "stype": "Press",
+     "src": "Yahoo Finance (Investopedia market wrap)",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nasdaq-p-125812319.html"
+    }
+   ]
+  },
   {
    "id": "nvidia-q3-fy27-results",
    "date": "Nov 17",
    "year": "2026",
-   "isNew": true,
+   "isNew": false,
    "firm": "Nvidia",
    "section": "AI & Tools",
    "kicker": "Earnings",
@@ -89,7 +290,7 @@
    "id": "home-depot-new-ceo-mcphail",
    "date": "Nov 17",
    "year": "2026",
-   "isNew": true,
+   "isNew": false,
    "firm": "Home Depot",
    "section": "Big Moves",
    "kicker": "Leadership",
@@ -161,7 +362,7 @@
    "id": "jpmorgan-cfo-succession",
    "date": "Nov 17",
    "year": "2026",
-   "isNew": true,
+   "isNew": false,
    "firm": "JPMorgan Chase",
    "section": "Big Moves",
    "kicker": "Leadership",
@@ -222,7 +423,7 @@
    "id": "deloitte-edisyl",
    "date": "Nov 13",
    "year": "2026",
-   "isNew": true,
+   "isNew": false,
    "firm": "Deloitte",
    "section": "Big Moves",
    "kicker": "Deals",
@@ -314,7 +515,8 @@
      "src": "bcombinator",
      "url": "https://bcombinator.com/en/2026/11/12/whats-happening-in-tech-this-weeks-deals-and-trends/"
     }
-   ]
+   ],
+   "isNew": false
   },
   {
    "id": "bcg-ai-spend",
@@ -336,7 +538,8 @@
      "src": "SHRM",
      "url": "https://www.shrm.org/topics-tools/news/ai-unlocked-4-essential-things-to-know-this-week-november-9"
     }
-   ]
+   ],
+   "isNew": false
   },
   {
    "id": "anthropic-models-52",
@@ -358,7 +561,8 @@
      "src": "bcombinator",
      "url": "https://bcombinator.com/en/2026/11/12/whats-happening-in-tech-this-weeks-deals-and-trends/"
     }
-   ]
+   ],
+   "isNew": false
   },
   {
    "id": "mckinsey-state-of-ai",
@@ -385,7 +589,8 @@
      "src": "McKinsey: The state of AI in 2026",
      "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai"
     }
-   ]
+   ],
+   "isNew": false
   },
   {
    "id": "powerbi-copilot-retire",
@@ -412,7 +617,8 @@
    "firm": "Industry",
    "section": "AI & Tools",
    "desk": "Tech & AI",
-   "confidence": "Reported"
+   "confidence": "Reported",
+   "isNew": false
   },
   {
    "id": "fabcon-barcelona-fabric-iq",
@@ -439,7 +645,8 @@
    "firm": "Industry",
    "section": "AI & Tools",
    "desk": "Tech & AI",
-   "confidence": "Reported"
+   "confidence": "Reported",
+   "isNew": false
   },
   {
    "id": "alteryx-summer-2026",
@@ -466,7 +673,8 @@
    "firm": "Industry",
    "section": "AI & Tools",
    "desk": "Tech & AI",
-   "confidence": "Reported"
+   "confidence": "Reported",
+   "isNew": false
   },
   {
    "id": "celonis-context-model",
@@ -493,7 +701,8 @@
    "firm": "Industry",
    "section": "AI & Tools",
    "desk": "Tech & AI",
-   "confidence": "Reported"
+   "confidence": "Reported",
+   "isNew": false
   },
   {
    "id": "claude-sheets-whiteboards",
@@ -525,7 +734,8 @@
    "firm": "Industry",
    "section": "AI & Tools",
    "desk": "Tech & AI",
-   "confidence": "Reported"
+   "confidence": "Reported",
+   "isNew": false
   }
  ],
  "wire": [
@@ -612,8 +822,8 @@
   }
  ],
  "caseOfDay": {
-  "q": "Deloitte just launched Edisyl. How would you size the market for AI products owned by professional-services firms?",
-  "basedOn": "deloitte-edisyl"
+  "q": "Anthropic priced its IPO above range with $900B of committed compute spending. How would you size the demand needed to justify that commitment?",
+  "basedOn": "anthropic-ipo-priced"
  },
  "bigMoves": [
   {
@@ -665,6 +875,51 @@
     }
    ],
    "isNew": true
+  },
+  {
+   "id": "mckinsey-cognition-alliance",
+   "type": "Partnerships",
+   "co": "McKinsey & Company",
+   "firm": "McKinsey",
+   "desk": "Consulting industry",
+   "date": "Nov 16",
+   "year": 2026,
+   "heat": 3,
+   "rel": 5,
+   "value": "Alliance",
+   "vlabel": "McKinsey and Cognition (Devin) to sell AI software engineering",
+   "title": "McKinsey and Cognition ally to sell AI software engineering",
+   "cs": "Direct read-across for consulting: McKinsey is packaging implementation of AI coding agents, with baselines for cost, speed and quality, as a service line; rivals and clients' engineering leaders must decide who owns that work.",
+   "stype": "Official",
+   "src": "McKinsey & Company",
+   "url": "https://www.mckinsey.com/about-us/overview/alliances/alliances-blog/mckinsey-and-cognition-collaborate-to-scale-agentic-software-development-and-deliver-measurable-business-value",
+   "updated": "2026-11-18",
+   "confidence": "Confirmed",
+   "readTime": "3 min",
+   "body": "McKinsey and Cognition, maker of the Devin AI software engineer, announced an alliance on 16 November to help large companies capture value from AI-driven software engineering.",
+   "paras": [
+    "McKinsey & Company and Cognition, the maker of the Devin autonomous software engineer, announced an alliance on 16 November 2026, according to McKinsey's alliances blog. McKinsey says it will help clients prioritise high-value engineering work, set baselines for cost, speed and quality, and scale new ways of working, while Cognition supplies Devin, which it describes as model-agnostic.",
+    "McKinsey cites its own second-quarter 2026 survey of 334 product and engineering leaders: the top 25% reported productivity gains of more than 2x, while nearly 30% reported declining productivity. The firm also says it has helped more than 50 companies rewire for AI-powered software development. The Next Web, which reported the news the same day, says the two will sell the offering to large companies in the US and Europe. Cognition's claims of lower cost through model routing and of clients among large banks and insurers are the company's own and were not independently verified.",
+    "A McKinsey senior partner, Saptarshi Ganguly, is quoted saying doubling productivity takes more than deploying agents. The page does not state financial terms, an effective date beyond publication, or whether the alliance is exclusive.",
+    "The read-across for the industry is that a leading strategy firm is tying its change-management and baselining work to a specific agent vendor. That is a template other firms are likely to copy with other vendors, and a reason for engineering leaders to ask what independent measurement they get."
+   ],
+   "unknowns": [
+    "Financial terms and exclusivity",
+    "Independent verification of the survey and case results",
+    "Whether other firms announce comparable alliances"
+   ],
+   "sources": [
+    {
+     "stype": "Official",
+     "src": "McKinsey & Company",
+     "url": "https://www.mckinsey.com/about-us/overview/alliances/alliances-blog/mckinsey-and-cognition-collaborate-to-scale-agentic-software-development-and-deliver-measurable-business-value"
+    },
+    {
+     "stype": "Trade press",
+     "src": "The Next Web",
+     "url": "https://thenextweb.com/news/cognition-mckinsey-alliance-devin-ai-software-engineering"
+    }
+   ]
   },
   {
    "id": "merck-kgaa-rapid-micro-biosystems",
@@ -791,24 +1046,22 @@
    "heat": 5,
    "rel": 4,
    "value": "$70–78",
-   "vlabel": "per-share range, roadshow launched",
-   "title": "Anthropic launches IPO roadshow at $70–78 a share",
+   "vlabel": "roadshow range; priced Nov 18 at $83 (see lead story)",
+   "title": "Anthropic roadshow launches at $70–78; IPO later priced at $83",
    "cs": "Mega-IPOs mean months of readiness work: governance, controls and investor storytelling.",
    "stype": "Official",
    "src": "Anthropic",
    "url": "https://anthropic.com/news/roadshow-launch",
-   "updated": "2026-11-15",
-   "body": "Anthropic says it is offering about 825 million Class A shares for a Nasdaq listing under ANT, with a $26B concurrent placement to partners. Pricing is expected Nov 18 and first trade Nov 19, per reported dates.",
+   "updated": "2026-11-18",
+   "body": "Anthropic launched its roadshow on 10 November for about 825 million Class A shares. On 18 November AP reported pricing at $83 a share, above the range, for 980 million shares.",
    "paras": [
     "Anthropic announced on 10 November that it has launched the roadshow for its initial public offering. The company says it is offering 825,000,000 Class A shares, about 801 million from the company and about 24 million from selling stockholders, with underwriters holding a 30-day option on up to 123.75 million more. The expected range is $70 to $78 a share, for a Nasdaq Global Select listing under the ticker ANT. The registration statement has been filed but is not yet effective.",
     "RTTNews reports a concurrent $26 billion private placement of Class N stock at the IPO price to partners including AMD, Broadcom, Google, Micron, Microsoft, NVIDIA and TSMC. Bloomberg, as relayed by StockAnalysis, says the book is several times oversubscribed and reports implied valuations of roughly $1.0 trillion on shares outstanding and $1.4 trillion fully diluted. These oversubscription and valuation figures are press-reported, not company statements.",
-    "Pricing is reported for 18 November and first trade for 19 November. A valuation of $1.5 trillion or more and $10 billion commitments each from Nvidia and Google appear only in a secondary summary of Financial Times reporting and are unconfirmed.",
+    "Update, 18 November: AP reports the IPO priced at $83 a share, above the range, for 980 million shares and about $81 billion, valuing the company at about $1.5 trillion. See the separate pricing story.",
     "Disclosure: The Consultant Times' automated editor is built on Anthropic's Claude."
    ],
    "unknowns": [
-    "Final price, size and first-day trading, which come after Nov 15",
-    "Whether the range is raised",
-    "Confirmation of the $1.5T+ valuation talk"
+    "First-day trading, which comes after Nov 18"
    ],
    "sources": [
     {

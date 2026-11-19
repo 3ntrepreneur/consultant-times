@@ -617,6 +617,152 @@
  },
  "bigMoves": [
   {
+   "id": "tasty-chickn-chapter-11",
+   "type": "Distress",
+   "co": "Tasty Chick'n",
+   "firm": "Tasty Chick'n",
+   "desk": "Consumer & retail",
+   "date": "Nov 17",
+   "year": 2026,
+   "heat": 3,
+   "rel": 4,
+   "value": "84 restaurants",
+   "vlabel": "across 10 states; sale process planned",
+   "title": "KFC franchisee Tasty Chick'n files Chapter 11 with 84 restaurants",
+   "cs": "Turnaround, franchise-system and real-estate advisory: franchisee distress, remodel mandates and royalty disputes are a pattern franchisors and lenders must plan for.",
+   "stype": "Trade press",
+   "src": "Nation's Restaurant News",
+   "url": "https://www.nrn.com/quick-service/kfc-franchisee-tasty-chick-n-files-for-chapter-11-bankruptcy",
+   "updated": "2026-11-17",
+   "confidence": "Reported",
+   "readTime": "3 min",
+   "body": "Tasty Chick'n, a KFC and Taco Bell franchisee, filed for Chapter 11 on 16 November in Texas, citing falling sales, thin margins and franchisor demands, and plans a court-supervised sale.",
+   "paras": [
+    "Tasty Chick'n LLC and three affiliates filed for Chapter 11 protection on 16 November 2026 in the US Bankruptcy Court for the Southern District of Texas, according to National Restaurant News and TheStreet (via Yahoo). The operator runs 84 restaurants in ten states: 75 KFC units and nine KFC/Taco Bell co-branded units.",
+    "The filings put numbers on the squeeze. NRN reports nearly $73 million of funded debt. TheStreet, citing court papers, reports assets of $50 million to $100 million and liabilities of $100 million to $500 million. The company's papers say sales fell 11.4% in fiscal 2024, 1.4% in 2025 and 2.8% so far in 2026, while restaurant-level margin dropped from 11.8% in fiscal 2023 to 4% this year. Trailing restaurant EBITDA was about $7.1 million against $12.4 million a year earlier, per TheStreet.",
+    "The papers also describe a dispute with the franchisor. Royalty deferrals began in mid-2025, a notice of breach followed in December 2025, and a notice of intent to terminate was issued on 15 September 2026, with unpaid royalties and fees cited at roughly $15.6 million to $15.7 million. The company also points to franchisor-required remodels at nearly 40 restaurants through 2029 as a cost it says it cannot carry.",
+    "To fund the case, the company has arranged a debtor-in-possession facility of up to $20 million from its prepetition lender, MidCap Financial Trust: $5 million of new money and a $15 million roll-up. No reorganisation plan has been described; the stated aim is a court-supervised sale, either as one portfolio or market by market. These are the company's claims in court filings, and the franchisor's position has not been reported in the sources we read.",
+    "For advisers, the case is a template: a mid-size franchisee squeezed between falling traffic, rising costs and brand-mandated capital spending. It points to work for lenders and landlords valuing a sale by market, for franchisors deciding how hard to enforce remodel schedules, and for other multi-unit operators stress-testing their own covenants."
+   ],
+   "unknowns": [
+    "Whether Yum Brands or the franchisor will comment or support the sale",
+    "Bid timeline and the buyer pool",
+    "Final creditor list and recoveries"
+   ],
+   "questions": [
+    "A multi-unit franchisee misses royalty payments while a brand demands remodels; how do you advise its lender?"
+   ],
+   "sources": [
+    {
+     "stype": "Trade press",
+     "src": "Nation's Restaurant News",
+     "url": "https://www.nrn.com/quick-service/kfc-franchisee-tasty-chick-n-files-for-chapter-11-bankruptcy"
+    },
+    {
+     "stype": "Press",
+     "src": "TheStreet (via Yahoo Finance)",
+     "url": "https://finance.yahoo.com/small-business/articles/major-fried-chicken-chain-franchisee-161700582.html"
+    }
+   ],
+   "isNew": true
+  },
+  {
+   "id": "merck-kgaa-rapid-micro-biosystems",
+   "type": "M&A",
+   "co": "Merck KGaA",
+   "firm": "Merck KGaA",
+   "desk": "Health",
+   "date": "Nov 17",
+   "year": 2026,
+   "heat": 2,
+   "rel": 3,
+   "value": "$0.75",
+   "vlabel": "per share, all-cash tender offer",
+   "title": "Merck KGaA agrees to buy Rapid Micro Biosystems at $0.75 a share",
+   "cs": "Deal-readiness, integration and carve-in work for life-science tools buyers; distressed small-cap targets are being absorbed by strategics.",
+   "stype": "Official",
+   "src": "Rapid Micro Biosystems (GlobeNewswire)",
+   "url": "https://www.globenewswire.com/news-release/2026/11/16/3403664/33206/en/rapid-micro-biosystems-signs-definitive-agreement-to-be-acquired-by-merck-kgaa-darmstadt-germany.html",
+   "updated": "2026-11-17",
+   "confidence": "Confirmed",
+   "readTime": "3 min",
+   "body": "Merck KGaA signed a definitive agreement on 16 November to buy Rapid Micro Biosystems through a cash tender offer at $0.75 a share, with closing expected in December.",
+   "paras": [
+    "Rapid Micro Biosystems said on 16 November 2026 that it signed a definitive agreement to be acquired by Merck KGaA, Darmstadt, Germany. Under the agreement, a Merck KGaA subsidiary, EMD Holdings NewCo II, Inc., will launch a tender offer for all shares at $0.75 in cash, followed by a merger.",
+    "The company's release says closing is expected in December 2026, subject to a minimum tender condition and customary conditions; it does not specify regulatory approvals. Perella Weinberg Partners is the company's financial adviser and Goodwin Procter LLP its legal counsel. InsideArbitrage, an event-driven deal newsletter, puts the premium at 15.38% and the deal value at about $39 million; the release itself does not state either figure, so we treat them as the newsletter's calculation.",
+    "The deal is small by value but it is a clear pattern: a strategic buyer in life-science tools picking up a quality-control automation business at a low absolute price. For consultants, the work is in integration of manufacturing-quality products into a larger life-science portfolio, customer-overlap analysis and the buyer's own technology roadmap. What the release does not say is why Merck KGaA wants the business or what it plans for the product line, so those are unknowns."
+   ],
+   "unknowns": [
+    "Merck KGaA's strategic rationale and integration plans",
+    "Regulatory approvals required",
+    "Final tender acceptance level"
+   ],
+   "questions": [
+    "A strategic buyer acquires a small automation-tools business at a low price; how do you size the integration opportunity?"
+   ],
+   "sources": [
+    {
+     "stype": "Official",
+     "src": "Rapid Micro Biosystems (GlobeNewswire)",
+     "url": "https://www.globenewswire.com/news-release/2026/11/16/3403664/33206/en/rapid-micro-biosystems-signs-definitive-agreement-to-be-acquired-by-merck-kgaa-darmstadt-germany.html"
+    },
+    {
+     "stype": "Newsletter",
+     "src": "InsideArbitrage",
+     "url": "https://www.insidearbitrage.com/2026/11/insidearbitrage-event-driven-monitor-november-17-2026/"
+    }
+   ],
+   "isNew": true
+  },
+  {
+   "id": "rosemont-aytu-biopharma",
+   "type": "M&A",
+   "co": "Rosemont Pharmaceuticals",
+   "firm": "Rosemont Pharmaceuticals",
+   "desk": "Health",
+   "date": "Nov 17",
+   "year": 2026,
+   "heat": 2,
+   "rel": 3,
+   "value": "$2.70",
+   "vlabel": "per share, all-cash tender offer",
+   "title": "Rosemont Pharmaceuticals agrees to buy Aytu BioPharma at $2.70 a share",
+   "cs": "Specialty-pharma integration, portfolio-fit and commercial-model work for acquirers of small branded-drug companies.",
+   "stype": "Official",
+   "src": "Aytu BioPharma (SEC exhibit 99.1)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1385818/000143774926037155/ex_1046254.htm",
+   "updated": "2026-11-17",
+   "confidence": "Confirmed",
+   "readTime": "3 min",
+   "body": "Rosemont Pharmaceuticals Holdings agreed on 16 November to buy Aytu BioPharma for $2.70 a share in cash via a tender offer, with closing expected by the end of 2026.",
+   "paras": [
+    "Aytu BioPharma announced on 16 November 2026 that it will be acquired by Rosemont Pharmaceuticals Holdings, based in Leeds in the UK, for $2.70 per share in cash. The deal is structured as a tender offer, to be launched within ten business days, followed by a second-step merger at the same price, according to an exhibit filed with the SEC.",
+    "The company's release says the price is a 41.1% premium to the 30-day volume-weighted average price and 51.7% to the 13 November close. InsideArbitrage reports a premium of 48.35%, so the basis differs between sources; we use the company's figures. Aytu's board approved unanimously, and holders including Nantahala Capital Management and Stonepine Capital Management, plus Aytu's officers and directors, signed support agreements. Conditions include a majority tender and the exercise or termination of certain warrants, and closing is expected in late December.",
+    "Canaccord Genuity and Dorsey & Whitney advised Aytu; Bourne Partners and Ropes & Gray advised Rosemont. For advisers, the transaction shows a private specialty-pharma buyer taking a listed small cap private, which typically creates work in commercial integration, supply-chain rationalisation and financing. The release does not describe Rosemont's plans for Aytu's products, so we cannot say more."
+   ],
+   "unknowns": [
+    "Rosemont's plans for the product portfolio",
+    "Financing details",
+    "Final tender acceptance"
+   ],
+   "questions": [
+    "How do you test portfolio fit when a private pharma company acquires a listed specialty-drug business?"
+   ],
+   "sources": [
+    {
+     "stype": "Official",
+     "src": "Aytu BioPharma (SEC exhibit 99.1)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1385818/000143774926037155/ex_1046254.htm"
+    },
+    {
+     "stype": "Newsletter",
+     "src": "InsideArbitrage",
+     "url": "https://www.insidearbitrage.com/2026/11/insidearbitrage-event-driven-monitor-november-17-2026/"
+    }
+   ],
+   "isNew": true
+  },
+  {
    "id": "nvidia-probe",
    "type": "Legal & Governance",
    "co": "Nvidia",
