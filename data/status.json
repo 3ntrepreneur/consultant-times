@@ -1,6 +1,6 @@
 {
- "last_run": "2026-11-19T22:00:00-08:00",
+ "last_run": "2026-11-20T10:00:00-08:00",
  "result": "ok",
- "edition": "2026-11-19-2200",
- "note": "Light 22:00 edition after fetch retry succeeded. Added IBM/Oxford Economics Canadian AI survey, Bishop Fleming-Kilsby Williams, Optima Partners CEO, BDO hires (single credible trade source each, RULES 16). Not read (rate limited): MHA to rebrand as Baker Tilly, Kroll Geoeconomic Risk Index. Other desks, policy, Vancouver not refreshed (earlier fetches blocked); all pages still 10+ by carry-forward. No reader suggestions. No new How It Works (Monday cadence)."
+ "edition": "2026-11-20-1000",
+ "note": "Friday 10:00 edition: Week in 60 seconds added. No new front-page item: searches for last-24h news returned only older items (Children's Place Nov 9, Fox-Roku Nov 6, McKinsey Nov 2025, Lycra Mar 2026) and the one fresh candidate (Salesforce layoffs, Nov 18) had only aggregator-level sources (American Bazaar, StockTwits quoting Business Insider), which RULES 16 does not accept. Fetch failures: huffpost.com (robots), castanetkamloops.net and usnews.com (4xx). Lead and cards are stale (Nov 17-19). No reader suggestions. No new How It Works (Monday cadence). All pages still 10+ by carry-forward."
 }

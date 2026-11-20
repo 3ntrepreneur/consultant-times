@@ -1,10 +1,10 @@
 {
  "schema": 1,
  "edition": {
-  "id": "2026-11-19-2200",
-  "label": "THURSDAY 19 NOVEMBER 2026 · EVENING EDITION",
-  "published": "2026-11-19T22:00:00-08:00",
-  "next": "TOMORROW 10:00 AM PT"
+  "id": "2026-11-20-1000",
+  "label": "FRIDAY 20 NOVEMBER 2026 · MORNING EDITION",
+  "published": "2026-11-20T10:00:00-08:00",
+  "next": "TODAY 10:00 PM PT"
  },
  "lead": "anthropic-ipo-priced",
  "stories": [
@@ -1038,6 +1038,22 @@
   }
  ],
  "wire": [
+  {
+   "date": "Nov 20",
+   "tag": "Week in 60 seconds",
+   "text": "The week in five stories: Anthropic's IPO, Oliver Wyman's Synpulse deal, Nvidia's results, Home Depot's new CEO and IBM's Canadian AI survey.",
+   "src": "The Consultant Times",
+   "desk": "Consulting industry",
+   "url": "https://3ntrepreneur.github.io/consultant-times/#story-anthropic-ipo-priced",
+   "id": "wire-week-in-60-seconds-2026-11-20",
+   "firm": "Industry",
+   "confidence": "Confirmed",
+   "paras": [
+    "Anthropic priced its IPO at $83 a share, the week's biggest capital-markets event and a reference point for every AI valuation conversation clients now have. Oliver Wyman agreed to buy Synpulse, its largest deal, adding about 1,200 people to its financial-services practice.",
+    "Nvidia reported fiscal third-quarter results that kept AI infrastructure spending at the centre of client budgets. Home Depot named a new chief executive, a transition that tends to bring operating-model and cost reviews. IBM's survey of Canadian AI leaders found about three in four fear falling behind, which points to demand for adoption and governance work.",
+    "Each item has its own article: https://3ntrepreneur.github.io/consultant-times/#story-anthropic-ipo-priced, https://3ntrepreneur.github.io/consultant-times/#story-oliver-wyman-synpulse, https://3ntrepreneur.github.io/consultant-times/#story-nvidia-q3-fy27-results, https://3ntrepreneur.github.io/consultant-times/#story-home-depot-new-ceo-mcphail, https://3ntrepreneur.github.io/consultant-times/#story-ibm-canada-ai-leaders-survey."
+   ]
+  },
   {
    "date": "Nov 20",
    "tag": "Leadership",
