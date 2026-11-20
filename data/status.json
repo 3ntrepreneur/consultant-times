@@ -1,6 +1,6 @@
 {
- "last_run": "2026-11-19T10:00:00-08:00",
- "result": "ok",
+ "last_run": "2026-11-19T22:00:00-08:00",
+ "result": "no_new_edition",
  "edition": "2026-11-19-1000",
- "note": "Manual re-run. Reuters/AP blocked (SITE_BLOCKED); CBC text undated. Consultancy.org network read: added Oliver Wyman-Synpulse (new lead after Anthropic), Publicis Sapient-Ping, EY.ai Academy MENA, Steer-Mercator, Finyx-Entec, Alexander Haas CEO wire. No new items for other desks/policy/Vancouver (no readable fresh sources); all pages still 10+ via carry-forward. No reader suggestions found. No new How It Works (Mondays)."
+ "note": "22:00 run: no new edition. WebFetch returned PROVENANCE_REQUIRED (permission request timed out) for consultancy.org/.uk/.ca, consulting.us, CNBC, BNN Bloomberg, BIV, CBC and federalreserve.gov, so no article could be read; search returned only stale headlines. Per RULES 15d nothing was written from headlines. Live 10:00 edition left untouched (all pages still 10+ by carry-forward). No reader suggestions in Gmail. No held items."
 }
