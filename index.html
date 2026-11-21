@@ -230,7 +230,7 @@ function leadHTML(s){
 }
 function wireHTML(w){
   return `<aside class="wire"><div style="display:flex;align-items:baseline;gap:10px"><h2 class="serif" style="font-weight:900;font-size:26px;margin:0">The Wire</h2><span class="muted" style="font-size:12px">quick hits, newest first</span></div>
-  <ol style="list-style:none;margin:10px 0 0;padding:0">${arr(w).map((x)=>`<li><span class="d">${esc(x.date)}</span><span style="min-width:0;font-size:15px;line-height:1.45"><b class="kick" style="font-size:11px;color:${kc(x.tag)}">${esc(x.tag)}</b>${x.isNew?'<span class="new">New</span>':""}<br><a href="#story-${esc(x.id)}" style="text-decoration:none">${esc(x.text)}</a> <a href="${safeUrl(x.url)}" target="_blank" rel="noopener" class="muted" style="font-size:12px">${esc(x.src)}</a></span></li>`).join("") || '<li class="muted">Nothing on the wire yet.</li>'}</ol></aside>`;
+  <ol style="list-style:none;margin:10px 0 0;padding:0">${arr(w).slice(0,6).map((x)=>`<li><span class="d">${esc(x.date)}</span><span style="min-width:0;font-size:15px;line-height:1.45"><b class="kick" style="font-size:11px;color:${kc(x.tag)}">${esc(x.tag)}</b>${x.isNew?'<span class="new">New</span>':""}<br><a href="#story-${esc(x.id)}" style="text-decoration:none">${esc(x.text)}</a> <a href="${safeUrl(x.url)}" target="_blank" rel="noopener" class="muted" style="font-size:12px">${esc(x.src)}</a></span></li>`).join("") || '<li class="muted">Nothing on the wire yet.</li>'}</ol></aside>`;
 }
 function cardHTML(s){
   return `<article class="card" style="border-top-color:${kc(s.kicker)}">
