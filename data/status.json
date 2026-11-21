@@ -1,6 +1,6 @@
 {
- "last_run": "2026-11-20T22:00:00-08:00",
- "result": "ok",
+ "last_run": "2026-11-21T10:00:00-08:00",
+ "result": "no_new_edition",
  "edition": "2026-11-20-2200",
- "note": "Friday 22:00 edition: 4 fresh Nov 20 items from Consultancy.org network (EY Canada $80M new lead; Deloitte-Valterra BPO; Teneo hire; KPMG Kenya hires) read via fetch. No reader suggestions. No new How It Works (Monday cadence). Carry-forward keeps pages 10+. Limited search results; other desks had no new verified fresh items."
+ "note": "Saturday 10:00 run: no new edition published. Reader suggestions: none. Searches returned headlines only; fetched Consultancy.org index (new unused Nov 19-20 items: MHA to rebrand as Baker Tilly, Praxis42 joins Apave, Mace Consult Americas hire, A&M Saudi tax, KPMG Middle East partners) but the article pages could not be read (permission/provenance error on fetch), so per RULES 15d nothing was written from headlines. Other candidates found were older than 48h (Children's Place Ch.11 Nov 9; Palo Alto/Applied Compute Nov 18; Qube Feb 2026). Live edition 2026-11-20-2200 left untouched; no new How It Works (Monday cadence)."
 }
