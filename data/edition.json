@@ -1,9 +1,9 @@
 {
  "schema": 1,
  "edition": {
-  "id": "2026-11-21-1000",
-  "label": "SATURDAY 21 NOVEMBER 2026 · MORNING EDITION",
-  "published": "2026-11-21T10:00:00-08:00",
+  "id": "2026-11-21-1130",
+  "label": "SATURDAY 21 NOVEMBER 2026 · MIDDAY UPDATE",
+  "published": "2026-11-21T11:30:00-08:00",
   "next": "MON 10:00 AM PT"
  },
  "lead": "ey-canada-80m-innovation",
@@ -1461,6 +1461,121 @@
     }
    ],
    "canada": true
+  },
+  {
+   "id": "bm-sherritt-temporary-layoffs",
+   "type": "Restructuring",
+   "co": "Sherritt International",
+   "firm": "Sherritt",
+   "desk": "Energy & resources",
+   "date": "Nov 4",
+   "year": 2026,
+   "heat": 3,
+   "rel": 4,
+   "value": "~280 jobs",
+   "vlabel": "47% of Canadian workforce, temporary",
+   "title": "Sherritt temporarily lays off 280 workers as refining stays halted",
+   "cs": "Turnaround and liquidity planning, sanctions-licence and supply-chain contingency work, and recapitalisation advisory for a Canadian metals refiner cut off from Cuban feed.",
+   "stype": "Company release",
+   "src": "Business Wire (Sherritt)",
+   "url": "https://www.businesswire.com/news/home/20261103544933/en/",
+   "updated": "2026-11-21",
+   "confidence": "Confirmed",
+   "readTime": "3 min",
+   "body": "Sherritt will temporarily lay off about 280 employees, 47% of its Canadian workforce, for roughly 90 days while its metals refining remains halted.",
+   "paras": [
+    "Sherritt International said on 4 November 2026 that it will temporarily lay off about 280 employees, or 47% of its Canadian workforce, in a release distributed by Business Wire. The layoffs are expected to last about 90 days, and staff may be recalled earlier. Interim chief executive Peter Hancock said the layoffs are intended to be temporary.",
+    "The company says refining at its Fort Saskatchewan facility stopped on 22 June 2026 when feed inventory ran out, while ammonia fertiliser and sulphuric acid production continues. Sherritt suspended its direct participation in Cuba joint-venture activity on 7 May 2026, citing U.S. Executive Order 14404, and says it has operated under constrained liquidity conditions. It received its first emergency U.S. Treasury OFAC licence on 19 October 2026.",
+    "The release does not say when refining will restart, how remaining regulatory licences will be handled, or where its recapitalisation transaction stands. It also notes that the company's chief human resources officer has left."
+   ],
+   "unknowns": [
+    "Recapitalisation status and timing of remaining licences not stated",
+    "Restart date for refining not stated"
+   ],
+   "sources": [
+    {
+     "stype": "Company release",
+     "src": "Business Wire (Sherritt)",
+     "url": "https://www.businesswire.com/news/home/20261103544933/en/"
+    }
+   ],
+   "canada": true
+  },
+  {
+   "id": "bm-cisco-november-layoffs",
+   "type": "Restructuring",
+   "co": "Cisco",
+   "firm": "Industry",
+   "desk": "Tech & AI",
+   "date": "Nov 18",
+   "year": 2026,
+   "heat": 3,
+   "rel": 3,
+   "value": "<1%",
+   "vlabel": "Share of global workforce in November round",
+   "title": "Cisco makes fresh layoffs, cutting under 1% of workforce",
+   "cs": "Workforce-redesign and operating-model work as large tech firms redeploy spending toward AI; read-across for cost-programme and talent-strategy engagements.",
+   "stype": "Trade press",
+   "src": "People Matters",
+   "url": "https://www.peoplematters.in/news/strategic-hr/cisco-reduces-workforce-by-88percent-in-two-years-reports-fresh-layoffs-in-november-53462",
+   "updated": "2026-11-21",
+   "confidence": "Developing",
+   "readTime": "3 min",
+   "body": "Cisco has made another round of job cuts affecting under 1% of its global workforce, according to People Matters, which relies on staff posts and a company statement.",
+   "paras": [
+    "Cisco's latest round of cuts affects less than 1% of its global workforce, according to People Matters on 20 November 2026. The report, based on LinkedIn posts from affected employees, says the cuts happened on 18 November and hit US staff. Cisco did not disclose the teams, locations or number affected, and the article cites a Cisco statement to SDxCentral that winning in the AI era requires focused discipline.",
+    "The article puts the longer trend in context: headcount fell by about 8,000, or 8.8%, between July 2024 and July 2026, and Cisco cut about 4,000 jobs in May 2026. It says Cisco expects revenue per employee to rise about 19%, with chief executive Chuck Robbins citing $19 billion in incremental revenue.",
+    "People Matters says there is no evidence linking the November cuts to Cisco's work with OpenAI Codex. Because the account rests on employee posts and a statement reported second-hand, the confidence here is Developing."
+   ],
+   "unknowns": [
+    "Number of roles, teams and locations affected not disclosed",
+    "The Cisco statement is reported second-hand via SDxCentral"
+   ],
+   "sources": [
+    {
+     "stype": "Trade press",
+     "src": "People Matters",
+     "url": "https://www.peoplematters.in/news/strategic-hr/cisco-reduces-workforce-by-88percent-in-two-years-reports-fresh-layoffs-in-november-53462"
+    }
+   ]
+  },
+  {
+   "id": "bm-us-ipo-debuts-2026-factbox",
+   "type": "IPO",
+   "co": "US IPO market",
+   "firm": "Industry",
+   "desk": "Financial services",
+   "date": "Nov 19",
+   "year": 2026,
+   "heat": 4,
+   "rel": 4,
+   "value": "+34.3%",
+   "vlabel": "Anthropic opening pop vs offer price",
+   "title": "Anthropic opens 34% above offer in first frontier-AI listing",
+   "cs": "Capital-markets readiness, IPO preparation and valuation work for late-stage AI and tech companies; investor-relations and governance build-outs for new listings.",
+   "stype": "Major press",
+   "src": "Reuters (via WHTC)",
+   "url": "https://whtc.com/2026/11/19/factbox-hot-and-cold-starts-how-major-us-ipos-fared-on-debut-in-2026/",
+   "updated": "2026-11-21",
+   "confidence": "Reported",
+   "readTime": "3 min",
+   "body": "Anthropic's shares opened 34.3% above their offer price on its Nasdaq debut on 19 November, according to a Reuters factbox on 2026 US IPOs.",
+   "paras": [
+    "Anthropic's shares opened 34.3% above their offer price on its Nasdaq debut on Thursday 19 November 2026, according to a Reuters factbox. The factbox calls it the first listing of a frontier AI lab and the second multibillion-dollar IPO this year by a company valued above $1.5 trillion, after SpaceX in June. It does not give Anthropic's offer price.",
+    "Reuters lists how other major 2026 US listings opened. Cerebras opened 89% above its $185 offer price in May and raised $5.55 billion. SpaceX opened 11.1% above its $135 offer price in June and raised $75 billion. Bending Spoons opened about 7% above its $29 offer price in July, raising $1.68 billion with selling shareholders. Jersey Mike's opened 8.7% below its $23 offer price in July, raising about $1 billion. vVardis opened 22.2% below its $18 offer price in its November NYSE debut, raising about $175 million.",
+    "The spread, from an 89% pop to a 22% drop, shows the window is open but selective. Opening-day moves are not a measure of lasting value, and this factbox does not say how any of the stocks have traded since."
+   ],
+   "unknowns": [
+    "Anthropic's offer price is not given in this factbox",
+    "Opening-day moves say little about later trading"
+   ],
+   "sources": [
+    {
+     "stype": "Major press",
+     "src": "Reuters (via WHTC)",
+     "url": "https://whtc.com/2026/11/19/factbox-hot-and-cold-starts-how-major-us-ipos-fared-on-debut-in-2026/"
+    }
+   ]
   },
   {
    "id": "bm-intuit-mailchimp-bending-spoons",

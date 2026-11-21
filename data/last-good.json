@@ -1,9 +1,9 @@
 {
  "schema": 1,
  "edition": {
-  "id": "2026-11-20-2200",
-  "label": "FRIDAY 20 NOVEMBER 2026 · EVENING EDITION",
-  "published": "2026-11-20T22:00:00-08:00",
+  "id": "2026-11-21-1000",
+  "label": "SATURDAY 21 NOVEMBER 2026 · MORNING EDITION",
+  "published": "2026-11-21T10:00:00-08:00",
   "next": "MON 10:00 AM PT"
  },
  "lead": "ey-canada-80m-innovation",
@@ -1461,6 +1461,244 @@
     }
    ],
    "canada": true
+  },
+  {
+   "id": "bm-intuit-mailchimp-bending-spoons",
+   "type": "Divestiture",
+   "co": "Intuit",
+   "firm": "Intuit",
+   "desk": "Tech & AI",
+   "date": "Nov 19",
+   "year": 2026,
+   "heat": 4,
+   "rel": 4,
+   "value": "$3.68B",
+   "vlabel": "Enterprise value; Bending Spoons buyer",
+   "title": "Intuit agrees to sell Mailchimp to Bending Spoons for $3.68 billion",
+   "cs": "Separation and transition-services work for the carved-out unit, integration and cost-take-out planning for the buyer, and capital-allocation advice for Intuit as it recycles cash into buybacks.",
+   "stype": "Company release",
+   "src": "Intuit investor relations",
+   "url": "https://investors.intuit.com/news-events/press-releases/detail/1331/intuit-reports-first-quarter-results-and-enters-agreement-to-sell-mailchimp-to-bending-spoons",
+   "updated": "2026-11-21",
+   "confidence": "Confirmed",
+   "readTime": "3 min",
+   "body": "Intuit has agreed to sell its Mailchimp marketing platform to Italy's Bending Spoons for about $3.68 billion, with closing expected in early 2027.",
+   "paras": [
+    "Intuit said on 19 November 2026, alongside its first-quarter results, that it has agreed to sell Mailchimp to Bending Spoons for approximately $3.68 billion, made up of $3.31 billion in cash and $368 million in Bending Spoons stock. Bending Spoons' own release describes an all-cash enterprise value of $3.68 billion in which Intuit reinvests $368 million into newly issued Bending Spoons equity. The two companies describe the same figures in different words, so the structure should be read from the filings. Closing is expected in early calendar year 2027, subject to regulatory approvals and customary conditions.",
+    "Intuit's release shows why the unit may have become a candidate for sale. Mailchimp revenue fell 1% to $313 million in the quarter ended 31 October 2026, while Intuit's total revenue rose 12% to $4.4 billion. Intuit said it plans to use the cash proceeds to repurchase shares in fiscal 2027 after the deal closes, and its guidance excludes the sale until then. Bending Spoons buys 100% of The Rocket Science Group, LLC and other Mailchimp assets and liabilities; its board approved the deal unanimously. Citi and J.P. Morgan advised Bending Spoons, with Freshfields as legal counsel and EY-Parthenon on financial due diligence.",
+    "Bending Spoons chief executive Luca Ferrari said the company will invest substantially in the business after closing. Neither release gives plans for pricing, products or customer data, which is what Mailchimp's customers and partners will watch."
+   ],
+   "unknowns": [
+    "Post-closing plans for pricing, product and data were not disclosed",
+    "Exact closing date and purchase price allocation were not disclosed"
+   ],
+   "sources": [
+    {
+     "stype": "Company release",
+     "src": "Intuit investor relations",
+     "url": "https://investors.intuit.com/news-events/press-releases/detail/1331/intuit-reports-first-quarter-results-and-enters-agreement-to-sell-mailchimp-to-bending-spoons"
+    },
+    {
+     "stype": "Company release",
+     "src": "Bending Spoons newsroom",
+     "url": "https://investors.bendingspoons.com/newsroom/bending-spoons-to-acquire-mailchimp"
+    }
+   ]
+  },
+  {
+   "id": "bm-plus-ultra-creditor-protection",
+   "type": "Distress",
+   "co": "Plus Ultra Líneas Aéreas",
+   "firm": "Industry",
+   "desk": "Industrials & logistics",
+   "date": "Nov 13",
+   "year": 2026,
+   "heat": 3,
+   "rel": 4,
+   "value": "679 jobs",
+   "vlabel": "Collective redundancy notice, 12 Nov",
+   "title": "Plus Ultra seeks creditor protection, cuts most routes and 679 jobs",
+   "cs": "Airline restructuring and turnaround work, fleet and ACMI wet-lease strategy, and labour-negotiation support; read-across for carriers exposed to fuel costs.",
+   "stype": "Trade press",
+   "src": "Aviacionline",
+   "url": "https://www.aviacionline.com/english/commercial-aviation/europe/spain/plus-ultra-tells-court-it-has-begun-negotiations-with-its-creditors_a6af71f5f87005f8fa3f50cd6",
+   "updated": "2026-11-21",
+   "confidence": "Reported",
+   "readTime": "3 min",
+   "body": "Spanish carrier Plus Ultra has told a Madrid court it has begun creditor talks, and has issued a redundancy notice covering 679 employees.",
+   "paras": [
+    "Plus Ultra Líneas Aéreas filed a pre-insolvency notice with Madrid Commercial Court No. 8 on 13 November 2026, according to Aviacionline, giving it three months, extendable by three, to agree a restructuring plan with creditors. The airline served a collective redundancy notice on 12 November covering 679 employees, the outlet reports, citing the UGT union, and also plans a temporary layoff procedure and a smaller fleet of Airbus A330s.",
+    "AeroTime reports that scheduled flying would shrink to Caracas–Madrid and Tenerife North, with most activity shifting to ACMI wet-leasing, and that the airline blames fuel prices linked to the Middle East conflict. Aviacionline gives operating losses of €31.08 million between February and August and projected 2026 fuel spending of €104.83 million against a €69.13 million budget. AeroTime describes the loss figure as unverified Spanish media reporting.",
+    "Aviacionline adds that the airline asked Spain's state holding company SEPI to defer by two years repayment of the first €19 million of a €53 million 2021 rescue package, and that the chairman and chief executive lost their powers in July and later stepped down. AeroTime says Volotea also filed for creditor protection in September 2026. Both outlets rely partly on unnamed or unverified sources, so the figures are best read as reported."
+   ],
+   "unknowns": [
+    "Final restructuring plan and number of redundancies not known",
+    "Whether the Lima and Buenos Aires route halts become permanent is unclear"
+   ],
+   "sources": [
+    {
+     "stype": "Trade press",
+     "src": "Aviacionline",
+     "url": "https://www.aviacionline.com/english/commercial-aviation/europe/spain/plus-ultra-tells-court-it-has-begun-negotiations-with-its-creditors_a6af71f5f87005f8fa3f50cd6"
+    },
+    {
+     "stype": "Trade press",
+     "src": "AeroTime",
+     "url": "https://www.aerotime.aero/articles/spanish-airline-plus-ultra-files-for-creditor-protection-drops-most-routes/amp"
+    }
+   ]
+  },
+  {
+   "id": "bm-liv-golf-wind-down-plan",
+   "type": "Distress",
+   "co": "LIV Golf",
+   "firm": "Industry",
+   "desk": "Media & telecom",
+   "date": "Nov 10",
+   "year": 2026,
+   "heat": 3,
+   "rel": 3,
+   "value": "$300M",
+   "vlabel": "Pledged by BC Partners Credit; deal failed",
+   "title": "LIV Golf files Chapter 11 plan for orderly wind-down",
+   "cs": "Wind-down and liquidation-trust advisory, creditor and contract unwinding, and sports-media rights repricing as a major league funder exits.",
+   "stype": "Major press",
+   "src": "AP via Arizona's Family",
+   "url": "https://www.azfamily.com/2026/11/10/liv-golf-files-bankruptcy-plan-sets-sight-january-liquidation/",
+   "updated": "2026-11-21",
+   "confidence": "Reported",
+   "readTime": "3 min",
+   "body": "LIV Golf has filed a Chapter 11 plan in New Jersey for an orderly wind-down after its main backer stopped funding it, according to the Associated Press.",
+   "paras": [
+    "LIV Golf filed a Chapter 11 plan in New Jersey on 10 November 2026 setting out an orderly wind-down, according to the Associated Press. The league entered bankruptcy on 8 September after Saudi Arabia's Public Investment Fund stopped funding it following the 2026 season. A restructuring deal with BC Partners Credit, which had pledged $300 million, did not win enough support to create a new version of the league, the AP reports.",
+    "The filing says the Public Investment Fund put in about $5 billion of equity, the AP reports. It also says 289 employees were laid off and 22 furloughed about a week before the filing, and that $15.6 million in retention bonuses went to seven executives. LIV's own summary says no viable restructuring transaction remains, according to the report.",
+    "The plan would route proceeds to creditors through a wind-down trust. The AP's account of court hearing dates is unclear, so the schedule should be checked against the court docket. Creditor claim totals and the final liquidation timeline are not stated in the article."
+   ],
+   "unknowns": [
+    "Creditor claim totals and liquidation timing not stated",
+    "Court hearing dates need checking against the docket"
+   ],
+   "sources": [
+    {
+     "stype": "Major press",
+     "src": "AP via Arizona's Family",
+     "url": "https://www.azfamily.com/2026/11/10/liv-golf-files-bankruptcy-plan-sets-sight-january-liquidation/"
+    }
+   ]
+  },
+  {
+   "id": "bm-childrens-place-chapter-11",
+   "type": "Distress",
+   "co": "The Children's Place",
+   "firm": "Industry",
+   "desk": "Consumer & retail",
+   "date": "Nov 9",
+   "year": 2026,
+   "heat": 3,
+   "rel": 4,
+   "value": "Dec 9",
+   "vlabel": "Bid deadline in sale process",
+   "title": "Children's Place files Chapter 11 and seeks to sell its assets",
+   "cs": "Retail restructuring and liquidation advisory, lease and store-portfolio decisions, and carve-out and bid support for buyers of a kids' apparel brand.",
+   "stype": "Major press",
+   "src": "Bloomberg Law",
+   "url": "https://news.bgov.com/bankruptcy-law/childrens-place-files-for-chapter-11-bankruptcy-in-new-jersey",
+   "updated": "2026-11-21",
+   "confidence": "Reported",
+   "readTime": "3 min",
+   "body": "The Children's Place has filed Chapter 11 in New Jersey and plans to sell substantially all of its assets by the end of December 2026.",
+   "paras": [
+    "The Children's Place filed Chapter 11 petitions in the U.S. Bankruptcy Court for the District of New Jersey, according to a company release cited by Bloomberg Law on 9 November 2026. The retailer says it intends to sell substantially all of its assets and expects the sale process to finish by the end of December 2026. Bids are due on 9 December.",
+    "The company says it is talking with multiple parties about transactions that would let the business keep operating, and plans a new term loan from its existing secured lenders. Its stores and e-commerce sites remain open during the process, according to the report.",
+    "The readable part of the article does not give debt totals, store counts or the reasons for the filing, so those details are unknown here. For consultants, a sale on this timetable means fast work on store-by-store economics, lease negotiations, inventory valuation and transition planning for whoever buys the brand."
+   ],
+   "unknowns": [
+    "Debt totals, store counts and stated reasons for the filing were not available",
+    "Identity of bidders not disclosed"
+   ],
+   "sources": [
+    {
+     "stype": "Major press",
+     "src": "Bloomberg Law",
+     "url": "https://news.bgov.com/bankruptcy-law/childrens-place-files-for-chapter-11-bankruptcy-in-new-jersey"
+    }
+   ]
+  },
+  {
+   "id": "bm-textron-industrial-exit",
+   "type": "Divestiture",
+   "co": "Textron",
+   "firm": "Industry",
+   "desk": "Industrials & logistics",
+   "date": "Nov 18",
+   "year": 2026,
+   "heat": 3,
+   "rel": 4,
+   "value": "2027",
+   "vlabel": "Planned timing of the industrial segment exit",
+   "title": "Textron plans to exit industrial segment to focus on aerospace and defence",
+   "cs": "Portfolio-separation, stranded-cost and TSA design work, and standalone-readiness for the industrial business; buy-side diligence if it is sold.",
+   "stype": "Trade press",
+   "src": "FlightGlobal",
+   "url": "https://www.flightglobal.com/aerospace/2026/11/textron-plans-spin-off-to-become-pure-play-aerospace-and-defence-firm/",
+   "updated": "2026-11-21",
+   "confidence": "Developing",
+   "readTime": "3 min",
+   "body": "Textron plans to leave its industrial segment next year and become a pure-play aerospace and defence company, according to FlightGlobal.",
+   "paras": [
+    "Textron plans to sell its industrial segment next year, leaving it as an aerospace and defence company, according to FlightGlobal on 18 November 2026. Textron Aviation, Bell and Textron Systems would remain.",
+    "The article's headline describes a spin-off while its opening describes a sale, and the rest of the piece is behind a paywall. The buyer or structure, price and full timeline are therefore not known from the readable text, and no company statement was available.",
+    "Whatever the structure, a separation of this kind creates work in carve-out financials, separation of shared services and supply contracts, and standalone cost structures, and portfolio-focus announcements like this usually come with a capital-allocation story that investors will test."
+   ],
+   "unknowns": [
+    "Buyer or spin-off structure, price and timing not stated in the readable text",
+    "Whether the exit is a sale or a spin-off is unclear"
+   ],
+   "sources": [
+    {
+     "stype": "Trade press",
+     "src": "FlightGlobal",
+     "url": "https://www.flightglobal.com/aerospace/2026/11/textron-plans-spin-off-to-become-pure-play-aerospace-and-defence-firm/"
+    }
+   ]
+  },
+  {
+   "id": "bm-drax-brookfield-radiant-datacentre",
+   "type": "Market Entry",
+   "co": "Drax, Brookfield, Radiant",
+   "firm": "Industry",
+   "desk": "Energy & resources",
+   "date": "Nov 3",
+   "year": 2026,
+   "heat": 3,
+   "rel": 4,
+   "value": "£20bn",
+   "vlabel": "Partnership for up to 1GW of UK data-centre capacity",
+   "title": "Drax, Brookfield and Radiant plan £20bn, 1GW UK data centre",
+   "cs": "Site, grid-connection and power-sourcing strategy, planning and regulatory approvals, and tenant-sourcing work for AI data-centre developments on power-station sites.",
+   "stype": "Trade press",
+   "src": "Construction Briefing",
+   "url": "https://www.constructionbriefing.com/news/20bn-partnership-to-deliver-a-1gw-uk-data-centre-announced/8135483.article",
+   "updated": "2026-11-21",
+   "confidence": "Reported",
+   "readTime": "3 min",
+   "body": "Drax, Brookfield and Radiant have agreed a £20 billion partnership to deliver up to 1GW of UK data-centre capacity at Drax Power Station.",
+   "paras": [
+    "Drax, Brookfield and Brookfield's neocloud platform Radiant have agreed a £20 billion partnership (about US$26.8 billion) to deliver up to 1GW of UK data-centre capacity, according to Construction Briefing on 3 November 2026. The site is Drax Power Station near Selby in North Yorkshire.",
+    "The first 100MW phase could receive up to £2.5 billion of backing from the Brookfield-Qai AI infrastructure joint venture, the article says, and could be running from the first quarter of 2028. Capacity could then ramp to 500MW between 2028 and 2031. Phase one depends on planning, regulatory and grid approvals and on finding a tenant.",
+    "Drax chief executive Will Gardiner said the company is proud to partner with leading AI infrastructure providers on the project. The tenant and final investment decision are not yet known, which is where most of the delivery risk sits."
+   ],
+   "unknowns": [
+    "Tenant and final investment decision not announced",
+    "Planning, regulatory and grid approvals still required"
+   ],
+   "sources": [
+    {
+     "stype": "Trade press",
+     "src": "Construction Briefing",
+     "url": "https://www.constructionbriefing.com/news/20bn-partnership-to-deliver-a-1gw-uk-data-centre-announced/8135483.article"
+    }
+   ]
   },
   {
    "id": "bm-deloitte-valterra-bpo",
