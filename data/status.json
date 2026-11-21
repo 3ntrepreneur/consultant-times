@@ -1,6 +1,6 @@
 {
  "last_run": "2026-11-21T10:00:00-08:00",
- "result": "no_new_edition",
- "edition": "2026-11-20-2200",
- "note": "Saturday 10:00 run: no new edition published. Reader suggestions: none. Searches returned headlines only; fetched Consultancy.org index (new unused Nov 19-20 items: MHA to rebrand as Baker Tilly, Praxis42 joins Apave, Mace Consult Americas hire, A&M Saudi tax, KPMG Middle East partners) but the article pages could not be read (permission/provenance error on fetch), so per RULES 15d nothing was written from headlines. Other candidates found were older than 48h (Children's Place Ch.11 Nov 9; Palo Alto/Applied Compute Nov 18; Qube Feb 2026). Live edition 2026-11-20-2200 left untouched; no new How It Works (Monday cadence)."
+ "result": "ok",
+ "edition": "2026-11-21-1000",
+ "note": "Saturday 10:00: no fresh Nov 21 items verifiable (Consultancy.org newest Nov 20; CNBC/Anadolu/Bloomberg unreadable). On owner's request added 6 verified Big Moves from primary/major sources: Intuit-Mailchimp (Divestiture), Plus Ultra, LIV Golf, Children's Place (Distress), Textron exit (Divestiture), Drax/Brookfield data centre (Market Entry). Front page unchanged (Nov 20 items). Big Moves types still under 6: Divestiture 2, Distress 5, Market Entry 1, Restructuring 0, Leadership 1, Legal 1, IPO 2. No new How It Works (Monday cadence)."
 }
