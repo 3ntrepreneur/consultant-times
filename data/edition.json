@@ -1,9 +1,9 @@
 {
  "schema": 1,
  "edition": {
-  "id": "2026-11-21-1130",
+  "id": "2026-11-21-1230",
   "label": "SATURDAY 21 NOVEMBER 2026 · MIDDAY UPDATE",
-  "published": "2026-11-21T11:30:00-08:00",
+  "published": "2026-11-21T12:30:00-08:00",
   "next": "MON 10:00 AM PT"
  },
  "lead": "ey-canada-80m-innovation",
@@ -1463,6 +1463,56 @@
    "canada": true
   },
   {
+   "id": "bm-nvidia-huang-resigns-ceo",
+   "type": "Leadership",
+   "co": "Nvidia",
+   "firm": "Nvidia",
+   "desk": "Tech & AI",
+   "date": "Nov 12",
+   "year": 2026,
+   "heat": 5,
+   "rel": 5,
+   "value": "CEO exit",
+   "vlabel": "Jensen Huang resigned; Colette Kress interim CEO",
+   "title": "Nvidia CEO Jensen Huang resigns; CFO Colette Kress named interim CEO",
+   "cs": "CEO-succession and governance advisory, board-effectiveness reviews, investor-communications and risk work for AI-supply-chain customers asking about continuity at their largest chip supplier.",
+   "stype": "Company release",
+   "src": "NVIDIA newsroom",
+   "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+   "updated": "2026-11-21",
+   "confidence": "Confirmed",
+   "readTime": "3 min",
+   "body": "Nvidia said on 12 November that Jensen Huang resigned as president, CEO and director with immediate effect; CFO Colette Kress is interim CEO.",
+   "paras": [
+    "Nvidia announced on 12 November 2026 that Jensen Huang resigned as president, chief executive and board member, effective immediately. Chief financial officer Colette Kress, who has held that role since September 2013, is interim CEO and remains CFO. The board is searching for a permanent chief executive and will consider internal and external candidates. Harvey C. Jones, a former chief executive and executive chairman of Synopsys, was appointed the company's first chair of the board.",
+    "Nvidia's announcement gives no reason for the resignation. The departure follows a board investigation that the company announced days earlier into reports that Huang had been targeted by a foreign intelligence effort; the board said then it had no reason to believe national security or company secrets were compromised.",
+    "Fortune and Al Jazeera, both citing other reporting, say Huang acknowledged being unfaithful to his wife and describe reported relationships, including one with a woman U.S. officials reportedly viewed as a Chinese spy. These are reports and allegations. Nvidia has not confirmed them, and whether any intelligence link exists has not been established. Fortune reports that shares fell more than 6% at first on the news. Al Jazeera reports that the market value dipped below $4 trillion, that a shareholder class action has been filed, and that Huang has reportedly agreed to testify before Congress.",
+    "Nvidia still reported record third-quarter results on 17 November, covered elsewhere on this site. The unanswered questions are who becomes permanent CEO, how long the interim period lasts, and what the board's investigation finds."
+   ],
+   "unknowns": [
+    "Reason for the resignation not given by Nvidia",
+    "Outcome of the board's investigation and timing of a permanent CEO not known",
+    "Allegations about personal conduct and any intelligence link are reported, not established"
+   ],
+   "sources": [
+    {
+     "stype": "Company release",
+     "src": "NVIDIA newsroom",
+     "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+    },
+    {
+     "stype": "Major press",
+     "src": "Fortune",
+     "url": "https://fortune.com/2026/11/11/nvidia-oust-jensen-huang-spy-affairs/"
+    },
+    {
+     "stype": "Major press",
+     "src": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/12/ai-titan-jensen-huang-out-as-nvidia-ceo"
+    }
+   ]
+  },
+  {
    "id": "bm-sherritt-temporary-layoffs",
    "type": "Restructuring",
    "co": "Sherritt International",
@@ -1747,33 +1797,43 @@
    "desk": "Industrials & logistics",
    "date": "Nov 18",
    "year": 2026,
-   "heat": 3,
+   "heat": 4,
    "rel": 4,
-   "value": "2027",
-   "vlabel": "Planned timing of the industrial segment exit",
-   "title": "Textron plans to exit industrial segment to focus on aerospace and defence",
-   "cs": "Portfolio-separation, stranded-cost and TSA design work, and standalone-readiness for the industrial business; buy-side diligence if it is sold.",
+   "value": "$1.2B",
+   "vlabel": "Sale price; about $1.1B net cash expected",
+   "title": "Textron sells industrial segment to Kingswood Capital for $1.2 billion",
+   "cs": "Carve-out, separation and TSA work for Kautex and the Specialized Vehicles brands; buyer-side integration and value-creation plans; capital-allocation advice as Textron refocuses on aerospace and defence.",
    "stype": "Trade press",
-   "src": "FlightGlobal",
-   "url": "https://www.flightglobal.com/aerospace/2026/11/textron-plans-spin-off-to-become-pure-play-aerospace-and-defence-firm/",
+   "src": "Air Data News",
+   "url": "https://www.airdatanews.com/textron-to-sell-industrial-business-for-us-1-2-billion-leaving-aerospace-and-defense-as-its-core-operations/",
    "updated": "2026-11-21",
-   "confidence": "Developing",
+   "confidence": "Reported",
    "readTime": "3 min",
-   "body": "Textron plans to leave its industrial segment next year and become a pure-play aerospace and defence company, according to FlightGlobal.",
+   "body": "Textron has agreed to sell its Industrial segment, including Kautex and its Specialized Vehicles brands, to an affiliate of Kingswood Capital Management for $1.2 billion, according to trade reports.",
    "paras": [
-    "Textron plans to sell its industrial segment next year, leaving it as an aerospace and defence company, according to FlightGlobal on 18 November 2026. Textron Aviation, Bell and Textron Systems would remain.",
-    "The article's headline describes a spin-off while its opening describes a sale, and the rest of the piece is behind a paywall. The buyer or structure, price and full timeline are therefore not known from the readable text, and no company statement was available.",
-    "Whatever the structure, a separation of this kind creates work in carve-out financials, separation of shared services and supply contracts, and standalone cost structures, and portfolio-focus announcements like this usually come with a capital-allocation story that investors will test."
+    "Textron agreed on 18 November 2026 to sell its Industrial segment to an affiliate of Los Angeles-based Kingswood Capital Management for $1.2 billion, according to Air Data News, PlasticsToday and Finchannel, which all report the same terms. Textron expects about $1.1 billion of net cash after taxes and transaction costs, and closing is expected in the first half of 2027, subject to regulatory approvals.",
+    "The segment includes Kautex and Textron Specialized Vehicles, whose brands include E-Z-GO, Cushman, Jacobsen and Ransomes, the outlets report. Textron will keep Textron Aviation, Bell and Textron Systems and, according to Air Data News, put the Industrial segment into discontinued operations from the fourth quarter of 2026. It expects a non-cash pre-tax impairment of $350 million to $400 million in that quarter, the report says, citing its SEC filing. The board also authorised repurchases of up to 35 million shares, per the reports, and Goldman Sachs and Latham & Watkins advised Textron, according to PlasticsToday.",
+    "FlightGlobal's earlier headline described the move as a spin-off; the trade reports describe a sale to private equity. Kingswood manages about $7.1 billion in assets, per PlasticsToday. Textron's own release and SEC filing were not readable in this run, so the figures above are as reported by the outlets."
    ],
    "unknowns": [
-    "Buyer or spin-off structure, price and timing not stated in the readable text",
-    "Whether the exit is a sale or a spin-off is unclear"
+    "Buyer financing terms and the fate of Industrial employees were not reported",
+    "Textron's release and SEC filing were not read; figures are as reported by trade outlets"
    ],
    "sources": [
     {
      "stype": "Trade press",
-     "src": "FlightGlobal",
-     "url": "https://www.flightglobal.com/aerospace/2026/11/textron-plans-spin-off-to-become-pure-play-aerospace-and-defence-firm/"
+     "src": "Air Data News",
+     "url": "https://www.airdatanews.com/textron-to-sell-industrial-business-for-us-1-2-billion-leaving-aerospace-and-defense-as-its-core-operations/"
+    },
+    {
+     "stype": "Trade press",
+     "src": "PlasticsToday",
+     "url": "https://www.plasticstoday.com/automotive-mobility/textron-sells-industrial-unit-for-1-2-billion"
+    },
+    {
+     "stype": "Trade press",
+     "src": "Finchannel",
+     "url": "https://finchannel.com/textron-agrees-to-1-2-billion-industrial-sale-in-aerospace-pivot/142118/american-business-trends/2026/11/"
     }
    ]
   },
