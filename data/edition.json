@@ -1,13 +1,236 @@
 {
  "schema": 1,
  "edition": {
-  "id": "2026-11-20-1000",
-  "label": "FRIDAY 20 NOVEMBER 2026 · MORNING EDITION",
-  "published": "2026-11-20T10:00:00-08:00",
-  "next": "TODAY 10:00 PM PT"
+  "id": "2026-11-20-2200",
+  "label": "FRIDAY 20 NOVEMBER 2026 · EVENING EDITION",
+  "published": "2026-11-20T22:00:00-08:00",
+  "next": "MON 10:00 AM PT"
  },
- "lead": "anthropic-ipo-priced",
+ "lead": "ey-canada-80m-innovation",
  "stories": [
+  {
+   "id": "ey-canada-80m-innovation",
+   "date": "Nov 20",
+   "year": "2026",
+   "isNew": true,
+   "firm": "EY",
+   "section": "Consulting industry",
+   "kicker": "Consulting",
+   "desk": "Consulting industry",
+   "heat": 3,
+   "rel": 4,
+   "title": "EY Canada puts $80 million into AI, quantum and future-of-work bets",
+   "summary": "EY Canada says it invested $80 million in AI innovation, future-of-work programmes and Canadian 'moonshot' ideas, including an on-site quantum computer, according to Consulting.ca citing its 2026 Impact Report.",
+   "facts": [
+    {
+     "k": "Investment",
+     "v": "$80 million (period not stated)"
+    },
+    {
+     "k": "Learning hours",
+     "v": "450,000, about 50 per person"
+    },
+    {
+     "k": "Volunteers",
+     "v": "4,100+, reaching 3.1 million people"
+    },
+    {
+     "k": "EY Canada headcount",
+     "v": "8,300+ (per Consulting.ca)"
+    }
+   ],
+   "why": "A Big Four firm is publicly betting on AI and quantum capacity in Canada.",
+   "cs": "Signals where a Big Four firm is spending to sell AI and quantum-readiness work to Canadian clients; buyers can expect pilots and joint-innovation offers, and rivals face pressure to match the investment story.",
+   "confidence": "Reported",
+   "readTime": "3 min",
+   "paras": [
+    "EY Canada has invested $80 million in AI innovation, future-of-work programmes and what it calls Canadian moonshot ideas, according to Consulting.ca on 20 November 2026, which cites the firm's 2026 Impact Report. The spend includes an on-site quantum computer at its applied innovation centre.",
+    "The report also gives people figures: employees logged 450,000 learning hours last year, about 50 each, and more than 4,100 volunteers gave time to projects that reached 3.1 million people, including an 'AI for Good' programme. EY Canada became a sustaining supporter of the First Nations Major Projects Coalition over the year. Consulting.ca puts the firm at more than 8,300 people across audit, tax and consulting.",
+    "Alycia Calvert, EY Canada's chair and chief executive, is quoted saying Canada has no shortage of ambition. Chief technology officer Biren Agnihotri describes pairing experimentation with skills and confidence. The coverage does not say over what period the $80 million was spent, how it splits between AI, quantum and other programmes, or what revenue it is meant to support.",
+    "For the market, the notable point is the on-site quantum hardware: few Canadian advisers publicise it. Whether clients pay for quantum-readiness work, rather than treating it as a showcase, is not yet visible in the reporting."
+   ],
+   "unknowns": [
+    "Time period and split of the $80 million",
+    "Revenue or client-work targets tied to the spend",
+    "The Impact Report was not linked, so figures are as relayed by Consulting.ca"
+   ],
+   "questions": [
+    "A Big Four firm tells you it has put $80 million into AI and quantum: how would you test whether that translates into capability a client should pay for?",
+    "Which Canadian clients would actually need quantum-readiness advice today?"
+   ],
+   "sources": [
+    {
+     "stype": "Trade press",
+     "src": "Consulting.ca",
+     "url": "https://www.consulting.ca/news/5341/ey-canada-invests-80-million-in-innovation"
+    }
+   ],
+   "take": "Treat the headline as a marketing number until EY says what it bought; the quantum computer is the one concrete asset."
+  },
+  {
+   "id": "deloitte-valterra-bpo",
+   "date": "Nov 20",
+   "year": "2026",
+   "isNew": true,
+   "firm": "Deloitte",
+   "section": "Consulting industry",
+   "kicker": "Consulting",
+   "desk": "Energy & resources",
+   "heat": 3,
+   "rel": 4,
+   "title": "Deloitte takes over Valterra Platinum's finance, HR and payroll in BPO deal",
+   "summary": "Valterra Platinum, formerly Anglo American Platinum, has signed an outsourcing agreement under which Deloitte South Africa runs its finance, HR and payroll functions; 130+ staff transfer, according to Consultancy.co.za.",
+   "facts": [
+    {
+     "k": "Functions outsourced",
+     "v": "Finance, HR, payroll"
+    },
+    {
+     "k": "Staff transferring",
+     "v": "130+"
+    },
+    {
+     "k": "Deloitte outsourcing revenue goal",
+     "v": "30%+ (as reported)"
+    }
+   ],
+   "why": "Spin-offs create demand for outsourced back-office services.",
+   "cs": "Outsourcing and transition work for miners separating from a parent; shows Big Four firms pushing operate services beyond advice, with Deloitte targeting 30%+ of revenue from outsourcing.",
+   "confidence": "Reported",
+   "readTime": "3 min",
+   "paras": [
+    "Valterra Platinum, the Johannesburg-based miner formerly known as Anglo American Platinum, has signed a business process outsourcing agreement with Deloitte, according to Consultancy.co.za on 20 November 2026. Deloitte will take over corporate support functions including finance, HR and payroll through its Finance and HR Operate practice.",
+    "More than 130 Valterra employees are moving to Deloitte's South African operations, the article says, and the appointment followed a competitive process. Valterra became an independent company in 2025.",
+    "Ruwayda Redfearn, chief executive of Deloitte's Africa business unit, is quoted saying the deal advances its ambition to scale outsourcing; the article cites a goal of more than 30% of revenue from outsource services. Valterra chief executive Craig Miller calls it an important step.",
+    "Contract value, length and expected savings were not reported. The pattern matters beyond mining: newly independent companies often outsource back-office work rather than build it, and advisers with operate arms are positioned to win it."
+   ],
+   "unknowns": [
+    "Contract value and term",
+    "Expected cost savings",
+    "No company press release was linked"
+   ],
+   "questions": [
+    "A newly independent miner asks whether to outsource finance, HR and payroll: what would you weigh?",
+    "What risks come with transferring 130 staff to an adviser-run operate model?"
+   ],
+   "sources": [
+    {
+     "stype": "Trade press",
+     "src": "Consultancy.co.za",
+     "url": "https://www.consultancy.co.za/news/2616/mining-group-valterra-platinumajor-signs-major-bpo-deal-with-deloitte"
+    }
+   ]
+  },
+  {
+   "id": "teneo-hires-granowski-energy",
+   "date": "Nov 20",
+   "year": "2026",
+   "isNew": true,
+   "firm": "Teneo",
+   "section": "Consulting industry",
+   "kicker": "Consulting",
+   "desk": "Consulting industry",
+   "heat": 2,
+   "rel": 3,
+   "title": "Teneo hires Roland Berger's nuclear lead Mike Granowski for energy practice",
+   "summary": "Teneo has hired Mike Granowski, a seven-year Roland Berger partner and its global nuclear technology lead, as senior managing director in energy and infrastructure, based in Chicago, according to Consulting.us.",
+   "facts": [
+    {
+     "k": "Role",
+     "v": "Senior managing director, energy and infrastructure"
+    },
+    {
+     "k": "Base",
+     "v": "Chicago"
+    },
+    {
+     "k": "Prior firm",
+     "v": "Roland Berger, 7 years as partner"
+    },
+    {
+     "k": "Teneo size",
+     "v": "1,800+ people, 50+ offices (per Consulting.us)"
+    }
+   ],
+   "why": "Senior nuclear talent is moving between advisers.",
+   "cs": "Shows demand for nuclear and power-sector advice and the talent race for it; utilities and developers get another adviser with nuclear depth.",
+   "confidence": "Reported",
+   "readTime": "3 min",
+   "paras": [
+    "Teneo has hired Mike Granowski as a senior managing director in its energy and infrastructure practice, according to Consulting.us on 20 November 2026. He will be based in Chicago and support clients in nuclear energy and the broader power and gas sector.",
+    "Granowski has more than 25 years of consulting experience. He comes from Roland Berger, where he spent seven years as a partner, global nuclear technology lead and North American energy and utilities platform lead. Earlier roles included Enovation Partners, Bridge Strategy Group and Navigant, and he began as a nuclear engineer at Commonwealth Edison.",
+    "Dan Gabaldon, Teneo's vice chairman for management consulting and head of energy, welcomed the hire. Consulting.us puts Teneo at more than 1,800 people in over 50 offices.",
+    "The article does not say what client work the hire is meant to win or whether others from Roland Berger are following."
+   ],
+   "unknowns": [
+    "Whether a team follows him",
+    "Client targets for the nuclear build-out"
+   ],
+   "questions": [
+    "Why would a consultancy build a nuclear practice now?",
+    "What does a senior-partner lateral hire signal about demand?"
+   ],
+   "sources": [
+    {
+     "stype": "Trade press",
+     "src": "Consulting.us",
+     "url": "https://www.consulting.us/news/14260/teneo-hires-mike-granowski-as-senior-managing-director-in-energy-and-infrastructure"
+    }
+   ]
+  },
+  {
+   "id": "kpmg-east-africa-tax-deloitte-hires",
+   "date": "Nov 20",
+   "year": "2026",
+   "isNew": true,
+   "firm": "KPMG",
+   "section": "Consulting industry",
+   "kicker": "Consulting",
+   "desk": "Consulting industry",
+   "heat": 2,
+   "rel": 3,
+   "title": "KPMG hires two Deloitte tax partners and team in East Africa",
+   "summary": "KPMG East Africa has added Deloitte partners Fred Omondi and Fredrick Kimotho and associate director Kennedy Okoyo, plus others, to its Kenya tax practice, according to Consultancy.africa.",
+   "facts": [
+    {
+     "k": "Partners hired",
+     "v": "2 (Omondi, Kimotho)"
+    },
+    {
+     "k": "KPMG East Africa size",
+     "v": "1,000+ professionals, 45 partners"
+    },
+    {
+     "k": "Further moves",
+     "v": "6+ per The Kenya Times (as cited)"
+    }
+   ],
+   "why": "Team lifts are reshaping East African tax advisory.",
+   "cs": "Tax talent moves signal where indirect-tax and policy advisory demand sits in Kenya; clients should expect continuity checks as teams change firms.",
+   "confidence": "Reported",
+   "readTime": "3 min",
+   "paras": [
+    "KPMG has strengthened its East Africa tax advisory practice with hires from Deloitte, according to Consultancy.africa on 20 November 2026. On 11 November it announced partners Fred Omondi and Fredrick Kimotho and associate director Kennedy Okoyo; it later confirmed Patrick Chege as associate director.",
+    "The article cites The Kenya Times as reporting that at least six more professionals moved from Deloitte to KPMG. All hires are based in Kenya. KPMG East Africa has more than 1,000 professionals and 45 partners across Kenya, Uganda, Tanzania and Rwanda, per the report.",
+    "Omondi has 23 years of experience and previously worked at the Kenya Revenue Authority; Kimotho has 12-plus years in tax advisory and policy; Okoyo has 12-plus years in indirect tax; Chege spent about 25 years at the Kenya Revenue Authority. KPMG said the appointments strengthen its ability to support complex client engagements.",
+    "Deloitte's response and the number of clients moving were not reported."
+   ],
+   "unknowns": [
+    "Deloitte's response",
+    "Client moves"
+   ],
+   "questions": [
+    "What happens to client relationships when a tax partner moves firms?",
+    "How should a company reassess adviser independence after a team move?"
+   ],
+   "sources": [
+    {
+     "stype": "Trade press",
+     "src": "Consultancy.africa",
+     "url": "https://www.consultancy.africa/news/2541/kpmg-strengthens-east-africa-tax-practice-with-partner-and-team-hire-from-deloitte"
+    }
+   ]
+  },
   {
    "id": "anthropic-ipo-priced",
    "date": "Nov 18",
@@ -1040,6 +1263,20 @@
  "wire": [
   {
    "date": "Nov 20",
+   "tag": "Consulting",
+   "text": "Valterra Platinum moves finance, HR and payroll to Deloitte; 130+ staff transfer (Consultancy.co.za).",
+   "src": "Consultancy.co.za",
+   "desk": "Consulting industry",
+   "url": "https://www.consultancy.co.za/news/2616/mining-group-valterra-platinumajor-signs-major-bpo-deal-with-deloitte",
+   "id": "wire-valterra-deloitte",
+   "firm": "Deloitte",
+   "confidence": "Reported",
+   "paras": [
+    "Valterra Platinum, formerly Anglo American Platinum, has signed an outsourcing agreement under which Deloitte will run its finance, HR and payroll functions, according to Consultancy.co.za on 20 November 2026. More than 130 employees move to Deloitte's South African operations. The deal followed a competitive process, and Deloitte's Africa chief says it advances a goal of more than 30% of revenue from outsourcing. Value and term were not reported."
+   ]
+  },
+  {
+   "date": "Nov 20",
    "tag": "Week in 60 seconds",
    "text": "The week in five stories: Anthropic's IPO, Oliver Wyman's Synpulse deal, Nvidia's results, Home Depot's new CEO and IBM's Canadian AI survey.",
    "src": "The Consultant Times",
@@ -1187,6 +1424,118 @@
   "basedOn": "anthropic-ipo-priced"
  },
  "bigMoves": [
+  {
+   "id": "bm-ey-canada-80m",
+   "type": "Canada",
+   "co": "EY Canada",
+   "firm": "EY Canada",
+   "desk": "Consulting industry",
+   "date": "Nov 20",
+   "year": 2026,
+   "heat": 3,
+   "rel": 4,
+   "value": "$80M",
+   "vlabel": "AI, quantum, future of work",
+   "title": "EY Canada reports $80 million invested in AI and innovation",
+   "cs": "Signals where a Big Four firm is spending to sell AI and quantum-readiness work to Canadian clients; buyers can expect pilots and joint-innovation offers, and rivals face pressure to match the investment story.",
+   "stype": "Trade press",
+   "src": "Consulting.ca",
+   "url": "https://www.consulting.ca/news/5341/ey-canada-invests-80-million-in-innovation",
+   "updated": "2026-11-20",
+   "confidence": "Reported",
+   "readTime": "3 min",
+   "body": "EY Canada says it invested $80 million in AI innovation, future-of-work programmes and Canadian 'moonshot' ideas, including an on-site quantum computer, according to Consulting.ca citing its 2026 Impact Report.",
+   "paras": [
+    "EY Canada has invested $80 million in AI innovation, future-of-work programmes and what it calls Canadian moonshot ideas, according to Consulting.ca on 20 November 2026, which cites the firm's 2026 Impact Report. The spend includes an on-site quantum computer at its applied innovation centre.",
+    "The report also gives people figures: employees logged 450,000 learning hours last year, about 50 each, and more than 4,100 volunteers gave time to projects that reached 3.1 million people, including an 'AI for Good' programme. EY Canada became a sustaining supporter of the First Nations Major Projects Coalition over the year. Consulting.ca puts the firm at more than 8,300 people across audit, tax and consulting.",
+    "Alycia Calvert, EY Canada's chair and chief executive, is quoted saying Canada has no shortage of ambition. Chief technology officer Biren Agnihotri describes pairing experimentation with skills and confidence. The coverage does not say over what period the $80 million was spent, how it splits between AI, quantum and other programmes, or what revenue it is meant to support."
+   ],
+   "unknowns": [
+    "Period and split not stated"
+   ],
+   "sources": [
+    {
+     "stype": "Trade press",
+     "src": "Consulting.ca",
+     "url": "https://www.consulting.ca/news/5341/ey-canada-invests-80-million-in-innovation"
+    }
+   ],
+   "canada": true
+  },
+  {
+   "id": "bm-deloitte-valterra-bpo",
+   "type": "Partnerships",
+   "co": "Deloitte",
+   "firm": "Deloitte",
+   "desk": "Energy & resources",
+   "date": "Nov 20",
+   "year": 2026,
+   "heat": 3,
+   "rel": 4,
+   "value": "130+ staff",
+   "vlabel": "Valterra Platinum; value undisclosed",
+   "title": "Deloitte wins Valterra Platinum finance, HR and payroll outsourcing",
+   "cs": "Outsourcing and transition work for miners separating from a parent; shows Big Four firms pushing operate services beyond advice, with Deloitte targeting 30%+ of revenue from outsourcing.",
+   "stype": "Trade press",
+   "src": "Consultancy.co.za",
+   "url": "https://www.consultancy.co.za/news/2616/mining-group-valterra-platinumajor-signs-major-bpo-deal-with-deloitte",
+   "updated": "2026-11-20",
+   "confidence": "Reported",
+   "readTime": "3 min",
+   "body": "Valterra Platinum, formerly Anglo American Platinum, has signed an outsourcing agreement under which Deloitte South Africa runs its finance, HR and payroll functions; 130+ staff transfer, according to Consultancy.co.za.",
+   "paras": [
+    "Valterra Platinum, the Johannesburg-based miner formerly known as Anglo American Platinum, has signed a business process outsourcing agreement with Deloitte, according to Consultancy.co.za on 20 November 2026. Deloitte will take over corporate support functions including finance, HR and payroll through its Finance and HR Operate practice.",
+    "More than 130 Valterra employees are moving to Deloitte's South African operations, the article says, and the appointment followed a competitive process. Valterra became an independent company in 2025.",
+    "Ruwayda Redfearn, chief executive of Deloitte's Africa business unit, is quoted saying the deal advances its ambition to scale outsourcing; the article cites a goal of more than 30% of revenue from outsource services. Valterra chief executive Craig Miller calls it an important step."
+   ],
+   "unknowns": [
+    "Contract value and term not disclosed"
+   ],
+   "sources": [
+    {
+     "stype": "Trade press",
+     "src": "Consultancy.co.za",
+     "url": "https://www.consultancy.co.za/news/2616/mining-group-valterra-platinumajor-signs-major-bpo-deal-with-deloitte"
+    }
+   ]
+  },
+  {
+   "id": "bm-teneo-granowski",
+   "type": "Leadership",
+   "co": "Teneo",
+   "firm": "Teneo",
+   "desk": "Consulting industry",
+   "date": "Nov 20",
+   "year": 2026,
+   "heat": 3,
+   "rel": 4,
+   "value": "Sr MD",
+   "vlabel": "Chicago; nuclear and power",
+   "title": "Teneo hires Roland Berger nuclear lead for energy practice",
+   "cs": "Shows demand for nuclear and power-sector advice and the talent race for it; utilities and developers get another adviser with nuclear depth.",
+   "stype": "Trade press",
+   "src": "Consulting.us",
+   "url": "https://www.consulting.us/news/14260/teneo-hires-mike-granowski-as-senior-managing-director-in-energy-and-infrastructure",
+   "updated": "2026-11-20",
+   "confidence": "Reported",
+   "readTime": "3 min",
+   "body": "Teneo has hired Mike Granowski, a seven-year Roland Berger partner and its global nuclear technology lead, as senior managing director in energy and infrastructure, based in Chicago, according to Consulting.us.",
+   "paras": [
+    "Teneo has hired Mike Granowski as a senior managing director in its energy and infrastructure practice, according to Consulting.us on 20 November 2026. He will be based in Chicago and support clients in nuclear energy and the broader power and gas sector.",
+    "Granowski has more than 25 years of consulting experience. He comes from Roland Berger, where he spent seven years as a partner, global nuclear technology lead and North American energy and utilities platform lead. Earlier roles included Enovation Partners, Bridge Strategy Group and Navigant, and he began as a nuclear engineer at Commonwealth Edison.",
+    "Dan Gabaldon, Teneo's vice chairman for management consulting and head of energy, welcomed the hire. Consulting.us puts Teneo at more than 1,800 people in over 50 offices."
+   ],
+   "unknowns": [
+    "Whether a team follows"
+   ],
+   "sources": [
+    {
+     "stype": "Trade press",
+     "src": "Consulting.us",
+     "url": "https://www.consulting.us/news/14260/teneo-hires-mike-granowski-as-senior-managing-director-in-energy-and-infrastructure"
+    }
+   ]
+  },
   {
    "id": "bm-oliver-wyman-synpulse",
    "type": "M&A",
