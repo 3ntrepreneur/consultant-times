@@ -157,9 +157,9 @@ const DESKS = ["Tech & AI","Financial services","Energy & resources","Consumer &
 const SECTIONS = ["Latest","AI & Tools","Policy","Big Moves","Vancouver","How It Works"];
 const KC = { "Deals":"#C70000","Big Moves":"#C70000","Research":"#005689","Models":"#C05A00","Tools":"#C05A00","Workforce":"#7D0068","Strategy":"#3D5A80","Regulation":"#3D5A80" };
 const MC = { "M&A":"#005689", "IPO":"#1F8A4C", "Legal & Governance":"#C70000", "Funding":"#7D0068", "Canada":"#C05A00", "Earnings":"#3D5A80", "Leadership":"#3D5A80", "Restructuring":"#8A4B08", "Partnerships":"#0F766E", "Divestiture":"#6B4E16", "Distress":"#9B1C1C", "Market Entry":"#0B6E4F" };
-const BMTYPES = ["All","M&A","Funding","IPO","Earnings","Leadership","Restructuring","Partnerships","Legal & Governance","Divestiture","Distress","Market Entry","Canada"];
+const BMTYPES = ["M&A","Funding","IPO","Earnings","Leadership","Restructuring","Partnerships","Legal & Governance","Divestiture","Distress","Market Entry","Canada"];
 const bmHas = (m, t) => t === "All" || m.type === t || (t === "Canada" && m.canada);
-const st = { desks:null, data:null, lib:[], arch:[], archDone:false, q:"", akind:"All", view:"Latest", firm:"All", desk:"All", menu:null, moveType:"All" };
+const st = { desks:null, data:null, lib:[], arch:[], archDone:false, q:"", akind:"All", view:"Latest", firm:"All", desk:"All", menu:null, moveType:"M&A" };
 
 // ---------- helpers ----------
 const esc = (v) => String(v == null ? "" : v).replace(/[&<>"']/g, (c) => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
@@ -245,11 +245,11 @@ function bigMovesHTML(d){
   let list = arr(d.bigMoves).filter((m)=>bmHas(m, st.moveType) && storyMatches(m));
   if (!list.length) list = arr(d.bigMoves);
   if (!list.length) return "";
-  const h = list[0], rest = list.slice(1);
+  list = list.slice().sort((a,b)=>(b.heat||0)-(a.heat||0)); const h = list[0], rest = list.slice(1);
   return `<section class="sec"><div class="sec-h"><div><h2>Big Moves</h2><p>Deals, listings, shake-ups and legal fights, with what each one means for client work.</p></div>
    <div style="display:flex;flex-wrap:wrap;gap:6px">${types.map((t)=>`<button class="tab" data-act="move:${esc(t)}" aria-pressed="${st.moveType===t}">${esc(t)}</button>`).join("")}</div></div>
    <div class="row" style="border-top:2px solid var(--ink)">
-    <div class="bm-hero"><div class="kick" style="display:flex;justify-content:space-between;gap:8px"><span><span style="background:${MC[h.type]||"#3D5A80"};color:#fff;padding:3px 8px">${esc(h.type)}</span> &nbsp;Move of the week</span><span class="mono" style="letter-spacing:0;color:#A8A29A">${esc(h.date)}</span></div>
+    <div class="bm-hero"><div class="kick" style="display:flex;justify-content:space-between;gap:8px"><span><span style="background:${MC[h.type]||"#3D5A80"};color:#fff;padding:3px 8px">${esc(h.type)}</span> &nbsp;Biggest move</span><span class="mono" style="letter-spacing:0;color:#A8A29A">${esc(h.date)}</span></div>
      <div class="bm-val">${esc(h.value)}</div><div style="font-size:13px;color:#A8A29A">${esc(h.vlabel)}</div>
      <h3 class="serif" style="font-weight:700;font-size:30px;line-height:1.15;margin:18px 0 10px"><a href="#story-${esc(h.id)}" style="text-decoration:none">${esc(h.title)}</a></h3>
      ${h.body?`<p style="font-size:15px;line-height:1.6;margin:0 0 14px;color:#E7E0D2">${esc(h.body)}</p>`:""}
@@ -658,7 +658,7 @@ function render(){
 }
 document.addEventListener("click", (e) => {
   const home_ = e.target.closest('a[href="#"]');
-  if (home_) { st.view = "Latest"; st.firm = "All"; st.desk = "All"; st.menu = null; st.moveType = "All"; if (!location.hash || location.hash === "#") { e.preventDefault(); render(); window.scrollTo(0, 0); } return; }
+  if (home_) { st.view = "Latest"; st.firm = "All"; st.desk = "All"; st.menu = null; st.moveType = "M&A"; if (!location.hash || location.hash === "#") { e.preventDefault(); render(); window.scrollTo(0, 0); } return; }
   const b = e.target.closest("[data-act]"); if (!b) return;
   const [k, v] = b.getAttribute("data-act").split(/:(.*)/s);
   if (k==="menu") st.menu = st.menu===v ? null : v;
