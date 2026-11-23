@@ -9,10 +9,6 @@
    "hook": "Float, underwriting and claims"
   },
   {
-   "topic": "Telecom",
-   "hook": "ARPU, spectrum and churn"
-  },
-  {
    "topic": "Hospitals and health systems",
    "hook": "Payer mix and staffing"
   },
@@ -117,10 +113,6 @@
   {
    "topic": "Canada Goose",
    "hook": "Premium brand and wholesale vs direct"
-  },
-  {
-   "topic": "Canadian Tire",
-   "hook": "Retail, financial services and loyalty"
   },
   {
    "topic": "Duolingo",
@@ -243,10 +235,6 @@
   {
    "topic": "Pricing strategy",
    "hook": "Value-based, cost-plus, competitor-based"
-  },
-  {
-   "topic": "Break-even analysis",
-   "hook": "Fixed costs and contribution margin"
   },
   {
    "topic": "The profitability case framework",

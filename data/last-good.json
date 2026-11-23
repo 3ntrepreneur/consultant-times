@@ -1,9 +1,9 @@
 {
  "schema": 1,
  "edition": {
-  "id": "2026-11-21-1130",
+  "id": "2026-11-21-1230",
   "label": "SATURDAY 21 NOVEMBER 2026 · MIDDAY UPDATE",
-  "published": "2026-11-21T11:30:00-08:00",
+  "published": "2026-11-21T12:30:00-08:00",
   "next": "MON 10:00 AM PT"
  },
  "lead": "ey-canada-80m-innovation",
@@ -1463,6 +1463,56 @@
    "canada": true
   },
   {
+   "id": "bm-nvidia-huang-resigns-ceo",
+   "type": "Leadership",
+   "co": "Nvidia",
+   "firm": "Nvidia",
+   "desk": "Tech & AI",
+   "date": "Nov 12",
+   "year": 2026,
+   "heat": 5,
+   "rel": 5,
+   "value": "CEO exit",
+   "vlabel": "Jensen Huang resigned; Colette Kress interim CEO",
+   "title": "Nvidia CEO Jensen Huang resigns; CFO Colette Kress named interim CEO",
+   "cs": "CEO-succession and governance advisory, board-effectiveness reviews, investor-communications and risk work for AI-supply-chain customers asking about continuity at their largest chip supplier.",
+   "stype": "Company release",
+   "src": "NVIDIA newsroom",
+   "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+   "updated": "2026-11-21",
+   "confidence": "Confirmed",
+   "readTime": "3 min",
+   "body": "Nvidia said on 12 November that Jensen Huang resigned as president, CEO and director with immediate effect; CFO Colette Kress is interim CEO.",
+   "paras": [
+    "Nvidia announced on 12 November 2026 that Jensen Huang resigned as president, chief executive and board member, effective immediately. Chief financial officer Colette Kress, who has held that role since September 2013, is interim CEO and remains CFO. The board is searching for a permanent chief executive and will consider internal and external candidates. Harvey C. Jones, a former chief executive and executive chairman of Synopsys, was appointed the company's first chair of the board.",
+    "Nvidia's announcement gives no reason for the resignation. The departure follows a board investigation that the company announced days earlier into reports that Huang had been targeted by a foreign intelligence effort; the board said then it had no reason to believe national security or company secrets were compromised.",
+    "Fortune and Al Jazeera, both citing other reporting, say Huang acknowledged being unfaithful to his wife and describe reported relationships, including one with a woman U.S. officials reportedly viewed as a Chinese spy. These are reports and allegations. Nvidia has not confirmed them, and whether any intelligence link exists has not been established. Fortune reports that shares fell more than 6% at first on the news. Al Jazeera reports that the market value dipped below $4 trillion, that a shareholder class action has been filed, and that Huang has reportedly agreed to testify before Congress.",
+    "Nvidia still reported record third-quarter results on 17 November, covered elsewhere on this site. The unanswered questions are who becomes permanent CEO, how long the interim period lasts, and what the board's investigation finds."
+   ],
+   "unknowns": [
+    "Reason for the resignation not given by Nvidia",
+    "Outcome of the board's investigation and timing of a permanent CEO not known",
+    "Allegations about personal conduct and any intelligence link are reported, not established"
+   ],
+   "sources": [
+    {
+     "stype": "Company release",
+     "src": "NVIDIA newsroom",
+     "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+    },
+    {
+     "stype": "Major press",
+     "src": "Fortune",
+     "url": "https://fortune.com/2026/11/11/nvidia-oust-jensen-huang-spy-affairs/"
+    },
+    {
+     "stype": "Major press",
+     "src": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/12/ai-titan-jensen-huang-out-as-nvidia-ceo"
+    }
+   ]
+  },
+  {
    "id": "bm-sherritt-temporary-layoffs",
    "type": "Restructuring",
    "co": "Sherritt International",
@@ -1747,33 +1797,43 @@
    "desk": "Industrials & logistics",
    "date": "Nov 18",
    "year": 2026,
-   "heat": 3,
+   "heat": 4,
    "rel": 4,
-   "value": "2027",
-   "vlabel": "Planned timing of the industrial segment exit",
-   "title": "Textron plans to exit industrial segment to focus on aerospace and defence",
-   "cs": "Portfolio-separation, stranded-cost and TSA design work, and standalone-readiness for the industrial business; buy-side diligence if it is sold.",
+   "value": "$1.2B",
+   "vlabel": "Sale price; about $1.1B net cash expected",
+   "title": "Textron sells industrial segment to Kingswood Capital for $1.2 billion",
+   "cs": "Carve-out, separation and TSA work for Kautex and the Specialized Vehicles brands; buyer-side integration and value-creation plans; capital-allocation advice as Textron refocuses on aerospace and defence.",
    "stype": "Trade press",
-   "src": "FlightGlobal",
-   "url": "https://www.flightglobal.com/aerospace/2026/11/textron-plans-spin-off-to-become-pure-play-aerospace-and-defence-firm/",
+   "src": "Air Data News",
+   "url": "https://www.airdatanews.com/textron-to-sell-industrial-business-for-us-1-2-billion-leaving-aerospace-and-defense-as-its-core-operations/",
    "updated": "2026-11-21",
-   "confidence": "Developing",
+   "confidence": "Reported",
    "readTime": "3 min",
-   "body": "Textron plans to leave its industrial segment next year and become a pure-play aerospace and defence company, according to FlightGlobal.",
+   "body": "Textron has agreed to sell its Industrial segment, including Kautex and its Specialized Vehicles brands, to an affiliate of Kingswood Capital Management for $1.2 billion, according to trade reports.",
    "paras": [
-    "Textron plans to sell its industrial segment next year, leaving it as an aerospace and defence company, according to FlightGlobal on 18 November 2026. Textron Aviation, Bell and Textron Systems would remain.",
-    "The article's headline describes a spin-off while its opening describes a sale, and the rest of the piece is behind a paywall. The buyer or structure, price and full timeline are therefore not known from the readable text, and no company statement was available.",
-    "Whatever the structure, a separation of this kind creates work in carve-out financials, separation of shared services and supply contracts, and standalone cost structures, and portfolio-focus announcements like this usually come with a capital-allocation story that investors will test."
+    "Textron agreed on 18 November 2026 to sell its Industrial segment to an affiliate of Los Angeles-based Kingswood Capital Management for $1.2 billion, according to Air Data News, PlasticsToday and Finchannel, which all report the same terms. Textron expects about $1.1 billion of net cash after taxes and transaction costs, and closing is expected in the first half of 2027, subject to regulatory approvals.",
+    "The segment includes Kautex and Textron Specialized Vehicles, whose brands include E-Z-GO, Cushman, Jacobsen and Ransomes, the outlets report. Textron will keep Textron Aviation, Bell and Textron Systems and, according to Air Data News, put the Industrial segment into discontinued operations from the fourth quarter of 2026. It expects a non-cash pre-tax impairment of $350 million to $400 million in that quarter, the report says, citing its SEC filing. The board also authorised repurchases of up to 35 million shares, per the reports, and Goldman Sachs and Latham & Watkins advised Textron, according to PlasticsToday.",
+    "FlightGlobal's earlier headline described the move as a spin-off; the trade reports describe a sale to private equity. Kingswood manages about $7.1 billion in assets, per PlasticsToday. Textron's own release and SEC filing were not readable in this run, so the figures above are as reported by the outlets."
    ],
    "unknowns": [
-    "Buyer or spin-off structure, price and timing not stated in the readable text",
-    "Whether the exit is a sale or a spin-off is unclear"
+    "Buyer financing terms and the fate of Industrial employees were not reported",
+    "Textron's release and SEC filing were not read; figures are as reported by trade outlets"
    ],
    "sources": [
     {
      "stype": "Trade press",
-     "src": "FlightGlobal",
-     "url": "https://www.flightglobal.com/aerospace/2026/11/textron-plans-spin-off-to-become-pure-play-aerospace-and-defence-firm/"
+     "src": "Air Data News",
+     "url": "https://www.airdatanews.com/textron-to-sell-industrial-business-for-us-1-2-billion-leaving-aerospace-and-defense-as-its-core-operations/"
+    },
+    {
+     "stype": "Trade press",
+     "src": "PlasticsToday",
+     "url": "https://www.plasticstoday.com/automotive-mobility/textron-sells-industrial-unit-for-1-2-billion"
+    },
+    {
+     "stype": "Trade press",
+     "src": "Finchannel",
+     "url": "https://finchannel.com/textron-agrees-to-1-2-billion-industrial-sale-in-aerospace-pivot/142118/american-business-trends/2026/11/"
     }
    ]
   },
@@ -2517,6 +2577,1172 @@
    "stype": "Primary",
    "src": "Bain & Company press release",
    "url": "https://www.bain.com/about/media-center/press-releases/2026/bain-company-openai-a-new-venture-to-deploy-ai-at-enterprise-scale/"
+  },
+  {
+   "id": "bm-gildan-guidance-cut",
+   "type": "Earnings",
+   "co": "Gildan Activewear",
+   "firm": "Industry",
+   "desk": "Consumer & retail",
+   "date": "Nov 5",
+   "year": 2026,
+   "heat": 4,
+   "rel": 5,
+   "value": "-$650M",
+   "vlabel": "Cut to midpoint of 2026 revenue guidance",
+   "title": "Gildan slashes 2026 outlook and withdraws its 2028 targets after a weak third quarter",
+   "cs": "Integration re-plan and cost programmes for the HanesBrands combination, working-capital and inventory reviews with distributors, and wholesale demand forecasting work across apparel supply chains.",
+   "stype": "Trade press",
+   "src": "FashionUnited",
+   "url": "https://fashionunited.com/news/business/gildan-lowers-annual-guidance-amid-demand-slowdown/2026110575582",
+   "updated": "2026-11-22",
+   "confidence": "Reported",
+   "readTime": "2 min",
+   "body": "Gildan cut its 2026 revenue guidance to $5.4-5.5 billion from $6.0-6.2 billion and withdrew its 2026-2028 targets, according to FashionUnited.",
+   "paras": [
+    "Gildan Activewear reported third-quarter results on 5 November 2026 and lowered its full-year outlook sharply, according to FashionUnited. Revenue guidance now stands at $5.4-5.5 billion, down from $6.0-6.2 billion, adjusted EPS at $3.70-3.80 from $4.65-4.75, and adjusted operating margin at about 20% from about 21.8%. The company also withdrew its three-year 2026-2028 targets, the outlet reports. CTV News reported that the shares fell about 25 per cent on the day.",
+    "Quarterly net sales from continuing operations were $1.47 billion, up 61.1% because of the HanesBrands integration, per FashionUnited, but wholesale revenue fell 6.8%. Management pointed to softer consumer demand, distributors cutting replenishment orders to manage working capital, and cautious inventory commitments from retail partners. Adjusted margin was helped by $177 million of tariff refunds, the report says. Gildan also sold HanesBrands Australia for about A$700 million and left net leverage at 2.7 times."
+   ],
+   "unknowns": [
+    "Whether the demand weakness is temporary destocking or a lasting shift was not stated",
+    "Gildan's own release was not read; figures come from FashionUnited and CTV News"
+   ],
+   "sources": [
+    {
+     "stype": "Trade press",
+     "src": "FashionUnited",
+     "url": "https://fashionunited.com/news/business/gildan-lowers-annual-guidance-amid-demand-slowdown/2026110575582"
+    },
+    {
+     "stype": "Major outlet",
+     "src": "CTV News",
+     "url": "https://www.ctvnews.ca/business/article/gildan-shares-tumble-after-q3-results-disappoint-cuts-full-year-guidance/"
+    }
+   ]
+  },
+  {
+   "id": "bm-walmart-q3-raise",
+   "type": "Earnings",
+   "co": "Walmart",
+   "firm": "Industry",
+   "desk": "Consumer & retail",
+   "date": "Nov 19",
+   "year": 2026,
+   "heat": 3,
+   "rel": 4,
+   "value": "+23%",
+   "vlabel": "Walmart U.S. e-commerce growth",
+   "title": "Walmart raises its full-year outlook as e-commerce and advertising keep outgrowing stores",
+   "cs": "Omnichannel and retail-media strategy work for competitors, membership-model and pricing reviews, and supply-chain and fulfilment-cost programmes as the market leader widens its lead.",
+   "stype": "Trade press",
+   "src": "Supermarket News",
+   "url": "https://www.supermarketnews.com/finance/walmart-raises-full-year-outlook-after-strong-third-quarter-sales-ecommerce-growth",
+   "updated": "2026-11-22",
+   "confidence": "Reported",
+   "readTime": "2 min",
+   "body": "Walmart reported third-quarter revenue of $188.8 billion, up 5.2%, and raised its full-year sales and profit outlook, according to Supermarket News.",
+   "paras": [
+    "Walmart reported third-quarter revenue of $188.8 billion on 19 November 2026, up 5.2%, with adjusted EPS of $0.65, according to Supermarket News and StockAnalysis. Walmart U.S. e-commerce grew 23%, Sam's Club U.S. e-commerce 30%, and global advertising 25%, the first outlet reports. Global membership fee revenue rose 17%.",
+    "The company raised its fiscal 2027 outlook to net sales growth of 4.9-5.2%, adjusted operating income growth of 8-8.6% and adjusted EPS of $2.84-2.89 in constant currency, per the same reports. StockAnalysis says the sales outlook remains below analyst expectations and notes Walmart U.S. comparable sales of 2.9%. The reports flag a roughly 70 basis point headwind in health and wellness from deflation tied to drug price regulation, and pressure on Sam's Club operating income from a new bundled membership and a LIFO charge."
+   ],
+   "unknowns": [
+    "Walmart's own release was not read; the two outlets differ on the prior guidance ranges, so none are quoted here",
+    "Share-price reaction was not confirmed"
+   ],
+   "sources": [
+    {
+     "stype": "Trade press",
+     "src": "Supermarket News",
+     "url": "https://www.supermarketnews.com/finance/walmart-raises-full-year-outlook-after-strong-third-quarter-sales-ecommerce-growth"
+    },
+    {
+     "stype": "Trade press",
+     "src": "StockAnalysis",
+     "url": "https://stockanalysis.com/news/wmt-q3-fy2027-earnings-raises-outlook/"
+    }
+   ]
+  },
+  {
+   "id": "bm-lowes-q3-refund",
+   "type": "Earnings",
+   "co": "Lowe's",
+   "firm": "Industry",
+   "desk": "Consumer & retail",
+   "date": "Nov 18",
+   "year": 2026,
+   "heat": 3,
+   "rel": 3,
+   "value": "$0.34",
+   "vlabel": "Per-share tariff refund inside Q3 EPS",
+   "title": "Lowe's beats on EPS, but a $250 million tariff refund flatters the quarter",
+   "cs": "Margin-bridge and gross-margin diagnostics after acquisitions, tariff-refund accounting and pricing reviews, and Pro-customer strategy work as DIY demand stays soft.",
+   "stype": "Primary",
+   "src": "Lowe's (SEC filing)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000060667/000006066726000126/exhibit991-10302026.htm",
+   "updated": "2026-11-22",
+   "confidence": "Confirmed",
+   "readTime": "2 min",
+   "body": "Lowe's reported third-quarter sales of $22.8 billion, up 9.3%, with about $250 million of IEEPA tariff refunds adding $0.34 to EPS, according to its release.",
+   "paras": [
+    "Lowe's reported third-quarter sales of $22.8 billion on 18 November 2026, up 9.3%, with comparable sales up 1.8%, its sixth straight positive quarter, according to its earnings release filed with the SEC. Adjusted EPS was $3.10 and online sales rose 17.4%. Gross margin fell to 32.95% from 34.19%.",
+    "The release says IEEPA tariff refunds added about $250 million before tax, or $0.34 per share. Zacks, via Finviz, calculates that excluding the refund adjusted EPS would have been about $2.76, below consensus. Full-year guidance is for sales of about $92.5 billion, comparable sales up about 0.5% and adjusted EPS of about $12.25; Zacks says the EPS figure is unchanged from August, which implies a lower underlying outlook. Shares were down about 4% premarket, per the same report. Acquisitions of Foundation Building Materials and Artisan Design Group added about 7.5 points of sales growth, according to Zacks."
+   ],
+   "unknowns": [
+    "The release does not say whether refunds are included in full-year guidance",
+    "The underlying-earnings calculation is Zacks' analysis, not the company's"
+   ],
+   "sources": [
+    {
+     "stype": "Primary",
+     "src": "Lowe's (SEC filing)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000060667/000006066726000126/exhibit991-10302026.htm"
+    },
+    {
+     "stype": "Trade press",
+     "src": "Zacks via Finviz",
+     "url": "https://finviz.com/news/424752/lowes-beat-comes-with-a-refund-inside-it"
+    }
+   ]
+  },
+  {
+   "id": "bm-cisco-q1-fy27",
+   "type": "Earnings",
+   "co": "Cisco",
+   "firm": "Industry",
+   "desk": "Tech & AI",
+   "date": "Nov 12",
+   "year": 2026,
+   "heat": 3,
+   "rel": 4,
+   "value": "$9B",
+   "vlabel": "Expected FY27 hyperscaler AI revenue",
+   "title": "Cisco posts record $18.5 billion quarter and raises FY27 guidance on AI networking demand",
+   "cs": "AI data-centre and network-modernisation programmes for enterprises and telcos, supply-chain sourcing work around optics, and vendor-selection support as networking spend recovers.",
+   "stype": "Trade press",
+   "src": "Fierce Network",
+   "url": "https://www.fierce-network.com/broadband/cisco-posts-strongest-revenue-growth-15-years-ai-demand-fuels-networking-rebound",
+   "updated": "2026-11-22",
+   "confidence": "Reported",
+   "readTime": "2 min",
+   "body": "Cisco reported record first-quarter revenue of $18.5 billion, up 24%, and raised its fiscal 2027 outlook, according to Fierce Network.",
+   "paras": [
+    "Cisco reported first-quarter fiscal 2027 revenue of $18.5 billion, up 24% year on year, with networking product orders up 28%, according to Fierce Network and Constellation Research. Non-GAAP EPS was $1.40, seven cents above Wall Street estimates, per Constellation.",
+    "Cisco guided fiscal 2027 revenue to $74.8-75.8 billion and non-GAAP EPS to $5.47-5.53, against consensus of about $73.2 billion and $5.15, according to Constellation. Fierce Network reports that hyperscaler AI infrastructure revenue is expected to reach about $9 billion in fiscal 2027, more than double fiscal 2026. Orders excluding hyperscalers rose 14%, the outlet says, and CEO Chuck Robbins described a multi-year networking supercycle. CFO Mark Patterson said optics is the tightest part of the supply chain, per the same report."
+   ],
+   "unknowns": [
+    "How much of the growth reaches enterprise buyers rather than hyperscalers and service providers",
+    "Share-price reaction was not confirmed"
+   ],
+   "sources": [
+    {
+     "stype": "Trade press",
+     "src": "Fierce Network",
+     "url": "https://www.fierce-network.com/broadband/cisco-posts-strongest-revenue-growth-15-years-ai-demand-fuels-networking-rebound"
+    },
+    {
+     "stype": "Trade press",
+     "src": "Constellation Research",
+     "url": "https://www.constellationr.com/insights/news/cisco-delivers-strong-q1-raises-outlook-fiscal-2027"
+    }
+   ]
+  },
+  {
+   "id": "bm-yeti-q3-cut",
+   "type": "Earnings",
+   "co": "YETI",
+   "firm": "Industry",
+   "desk": "Consumer & retail",
+   "date": "Nov 12",
+   "year": 2026,
+   "heat": 2,
+   "rel": 3,
+   "value": "-11%",
+   "vlabel": "Premarket share move after first 2026 guidance cut",
+   "title": "YETI trims its 2026 outlook as U.S. direct-to-consumer demand softens",
+   "cs": "Channel-mix and direct-to-consumer reviews, international expansion planning, and pricing and promotion strategy as a premium brand loses online momentum.",
+   "stype": "Primary",
+   "src": "YETI (SEC filing)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001670592/000167059226000043/yeti-20261112xex991pressre.htm",
+   "updated": "2026-11-22",
+   "confidence": "Confirmed",
+   "readTime": "2 min",
+   "body": "YETI reported third-quarter sales of $509.4 million, up 4%, and cut its 2026 adjusted sales growth outlook to about 6% from 7-8%, according to its release.",
+   "paras": [
+    "YETI reported third-quarter sales of $509.4 million on 12 November 2026, up 4%, with wholesale up 19% but direct-to-consumer down 6%, according to its earnings release. Adjusted EPS rose 49% to $0.91 on adjusted gross margin of 59%.",
+    "The company cut 2026 adjusted sales growth to about 6% from 7-8%, and adjusted EPS to $2.90-2.95 from $2.94-3.00, per the release. Stocktwits reports the shares fell about 11% premarket and quotes CEO Matt Reintjes citing uneven demand in the U.S. and Canada, weak online and Amazon channels, and a cautious consumer who could weigh on the fourth quarter. International sales rose 19% and U.S. sales 1%, the release shows. YETI also changed how it reports adjusted results, excluding recall reserve adjustments and a tariff refund benefit, so comparisons with earlier periods are not like for like."
+   ],
+   "unknowns": [
+    "Where the closing share price settled was not confirmed",
+    "Fourth-quarter trend after the holiday season is unknown"
+   ],
+   "sources": [
+    {
+     "stype": "Primary",
+     "src": "YETI (SEC filing)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001670592/000167059226000043/yeti-20261112xex991pressre.htm"
+    },
+    {
+     "stype": "Trade press",
+     "src": "Stocktwits",
+     "url": "https://stocktwits.com/news-articles/markets/equity/yeti-stock-slides-after-q3-revenue-miss-company-cuts-2026-sales-and-eps-outlook/cNGzvl8R9ag"
+    }
+   ]
+  },
+  {
+   "id": "bm-bofa-aml-penalties",
+   "type": "Legal & Governance",
+   "co": "Bank of America",
+   "firm": "Industry",
+   "desk": "Financial services",
+   "date": "Oct 13",
+   "year": 2026,
+   "heat": 4,
+   "rel": 5,
+   "value": "$1.21B",
+   "vlabel": "Combined Treasury penalties",
+   "title": "Treasury fines Bank of America more than $1.2 billion over money-laundering and sanctions failures",
+   "cs": "AML lookbacks and independent reviews, transaction-monitoring and sanctions-screening remediation, and data-governance programmes; read-across work for peer banks on correspondent-banking controls.",
+   "stype": "Regulator",
+   "src": "U.S. Treasury",
+   "url": "https://home.treasury.gov/news/press-releases/sb0657",
+   "updated": "2026-11-22",
+   "confidence": "Confirmed",
+   "readTime": "2 min",
+   "body": "The U.S. Treasury announced penalties of more than $1.21 billion against Bank of America from FinCEN, the OCC and OFAC.",
+   "paras": [
+    "The U.S. Treasury announced on 13 October 2026 penalties of more than $1.21 billion against Bank of America: $1.2 billion from FinCEN, a $750 million civil penalty from the OCC and an $11.6 million OFAC settlement. According to Treasury, the bank admitted to willfully violating the Bank Secrecy Act and failed to timely report more than $5 billion in suspicious transactions, with the OCC saying failures continued after a December 2024 cease-and-desist order.",
+    "Treasury says the FinCEN consent order requires a third-party lookback and independent reviews of monitoring, customer due diligence, foreign correspondent due diligence and data governance. OFAC cited 475 apparent sanctions violations. Al Jazeera reports that the OCC fine is the largest in its history and that Bank of America said it is responsible for getting financial crime compliance right and is working to address the issues. The conduct described is as alleged by the regulators and partly admitted in the FinCEN order."
+   ],
+   "unknowns": [
+    "Cost and timeline of the required lookback were not disclosed",
+    "Whether other regulators or private claims will follow was not reported"
+   ],
+   "sources": [
+    {
+     "stype": "Regulator",
+     "src": "U.S. Treasury",
+     "url": "https://home.treasury.gov/news/press-releases/sb0657"
+    },
+    {
+     "stype": "Major outlet",
+     "src": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/14/us-fines-bank-of-america-1-2bn-for-money-laundering-sanctions-violations"
+    }
+   ]
+  },
+  {
+   "id": "bm-meta-italy-gallery-fine",
+   "type": "Legal & Governance",
+   "co": "Meta",
+   "firm": "Industry",
+   "desk": "Tech & AI",
+   "date": "Nov 14",
+   "year": 2026,
+   "heat": 3,
+   "rel": 4,
+   "value": "EUR 805M",
+   "vlabel": "Italian privacy fine; Meta to appeal",
+   "title": "Italy's privacy regulator fines Meta EUR 805 million over Facebook's Android photo-gallery feature",
+   "cs": "Consent-flow and permission-design reviews, privacy-by-default audits of app features, and regulatory-strategy work on which EU authority has jurisdiction over big platforms.",
+   "stype": "Trade press",
+   "src": "TechRepublic",
+   "url": "https://www.techrepublic.com/article/news-italy-meta-facebook-android-photo-access-emea/",
+   "updated": "2026-11-22",
+   "confidence": "Reported",
+   "readTime": "2 min",
+   "body": "Italy's data protection authority fined Meta EUR 805 million over a Facebook feature that accessed Android users' photo galleries, according to TechRepublic.",
+   "paras": [
+    "Italy's data protection authority, the Garante, announced on 14 November 2026 a EUR 805 million ($887 million) fine on Meta, according to TechRepublic and CyberInsider. The regulator found Facebook did not clearly explain, or obtain specific consent for, a gallery-suggestion feature that was on by default and affected about 20 million Android users, the outlets report.",
+    "According to CyberInsider, the Garante found a violation of Article 122 of Italy's Privacy Code and ordered Meta to switch the feature off by default and seek separate consent within 60 days. Meta disputes the decision and plans to appeal, the outlets say; TechRepublic reports it argued that Ireland's regulator should handle the case, which Italy rejected, and CyberInsider quotes it calling the fine disproportionate. TechRepublic adds that the regulator denied that the material was used for AI training. The findings are the regulator's; Meta contests them."
+   ],
+   "unknowns": [
+    "Appeal outcome and any stay of the 60-day compliance order",
+    "Whether other EU regulators will examine the same feature"
+   ],
+   "sources": [
+    {
+     "stype": "Trade press",
+     "src": "TechRepublic",
+     "url": "https://www.techrepublic.com/article/news-italy-meta-facebook-android-photo-access-emea/"
+    },
+    {
+     "stype": "Trade press",
+     "src": "CyberInsider",
+     "url": "https://cyberinsider.com/meta-italy-fine-facebook-android-photo-access/"
+    }
+   ]
+  },
+  {
+   "id": "bm-alibaba-megaspeed-suit",
+   "type": "Legal & Governance",
+   "co": "Alibaba",
+   "firm": "Industry",
+   "desk": "Tech & AI",
+   "date": "Nov 19",
+   "year": 2026,
+   "heat": 3,
+   "rel": 3,
+   "value": "-14%",
+   "vlabel": "Share fall over four days cited in complaint",
+   "title": "Alibaba is sued by shareholders over alleged under-disclosure of export-control risk tied to Megaspeed",
+   "cs": "Export-control and sanctions compliance reviews, third-party and customer due-diligence programmes, and risk-disclosure advice for firms buying or reselling advanced AI compute.",
+   "stype": "Major outlet",
+   "src": "Manila Times",
+   "url": "https://manilatimes.net/2026/11/21/business/foreign-business/alibaba-sued-by-shareholders-for-fraud/2475091",
+   "updated": "2026-11-22",
+   "confidence": "Reported",
+   "readTime": "2 min",
+   "body": "A shareholder filed a proposed class action in Manhattan federal court alleging Alibaba understated export-control risk, according to the Manila Times.",
+   "paras": [
+    "A shareholder filed a proposed class action on 19 November 2026 in federal court in Manhattan against Alibaba, alleging it inflated its share price by understating, in its 2024, 2025 and 2026 annual reports, the risk that actual or suspected export-control violations could harm its business, according to the Manila Times. The suit covers buyers of Alibaba's ADSs from 23 May 2024 to 11 November 2026 and seeks unspecified damages. FourWeekMBA reports that CEO Eddie Wu is also named.",
+    "The complaint points to Alibaba's reported ties to Megaspeed, a Singapore company suspected of helping Beijing access advanced Nvidia chips, including reports that Alibaba became its dominant customer, the outlet says. Alibaba shares fell 14% over four days, partly after a 12 November Reuters report on possible tighter U.S. limits on remote chip use. FourWeekMBA says lead-plaintiff motions are due by 19 January 2027. These are allegations; no court has ruled, and Alibaba had not responded when the outlets published."
+   ],
+   "unknowns": [
+    "Alibaba's response to the allegations was not reported",
+    "Neither outlet read the complaint; details come from Reuters and the plaintiffs' law firm"
+   ],
+   "sources": [
+    {
+     "stype": "Major outlet",
+     "src": "Manila Times",
+     "url": "https://manilatimes.net/2026/11/21/business/foreign-business/alibaba-sued-by-shareholders-for-fraud/2475091"
+    },
+    {
+     "stype": "Trade press",
+     "src": "FourWeekMBA",
+     "url": "https://fourweekmba.com/ai-alibaba-investors-sue-over-nvidia-chip-risks-after-14-fall/"
+    }
+   ]
+  },
+  {
+   "id": "bm-openai-ontario-appeal",
+   "type": "Legal & Governance",
+   "co": "OpenAI",
+   "firm": "Industry",
+   "desk": "Media & telecom",
+   "date": "Nov 13",
+   "year": 2026,
+   "heat": 2,
+   "rel": 3,
+   "value": "10.65M",
+   "vlabel": "Works at issue in the Canadian suit",
+   "title": "Ontario appeal court lets Canadian publishers' copyright suit against OpenAI proceed",
+   "cs": "AI training-data provenance and licensing audits, jurisdiction-by-jurisdiction legal-risk mapping for model developers, and content-licensing strategy for publishers.",
+   "stype": "Major outlet",
+   "src": "BNN Bloomberg",
+   "url": "https://www.bnnbloomberg.ca/business/artificial-intelligence/2026/11/13/court-allows-news-publishers-copyright-lawsuit-against-openai-to-go-ahead/",
+   "updated": "2026-11-22",
+   "confidence": "Reported",
+   "readTime": "2 min",
+   "body": "The Ontario Court of Appeal dismissed OpenAI's appeal, so a copyright suit by Canadian news organisations can proceed in Ontario, according to BNN Bloomberg.",
+   "paras": [
+    "The Ontario Court of Appeal dismissed OpenAI's appeal on 13 November 2026, allowing a copyright lawsuit by Canadian news organisations to proceed in Ontario, according to BNN Bloomberg and Tech Times. The plaintiffs include The Canadian Press, Torstar, The Globe and Mail, Postmedia and CBC/Radio-Canada, and they allege OpenAI used their content to train ChatGPT without permission or payment.",
+    "OpenAI had argued the case belonged in a U.S. court, BNN Bloomberg reports; the appeal court found no evidence that a Canadian judgment would conflict with U.S. law. Tech Times says the panel found a real and substantial connection to Ontario, and that the case will be judged under Canadian law, which has no text-and-data-mining exception like U.S. fair use. The ruling decides venue only, not infringement; Tech Times reports the plaintiffs seek statutory damages of up to $20,000 per work across 10.65 million works, and that OpenAI may seek leave to appeal to the Supreme Court of Canada. The claims are unproven."
+   ],
+   "unknowns": [
+    "Whether OpenAI will seek leave to appeal to the Supreme Court of Canada",
+    "Whether training copying occurred in Canada, which could affect liability"
+   ],
+   "sources": [
+    {
+     "stype": "Major outlet",
+     "src": "BNN Bloomberg",
+     "url": "https://www.bnnbloomberg.ca/business/artificial-intelligence/2026/11/13/court-allows-news-publishers-copyright-lawsuit-against-openai-to-go-ahead/"
+    },
+    {
+     "stype": "Trade press",
+     "src": "Tech Times",
+     "url": "https://www.techtimes.com/articles/330797/20261116/ontario-appeal-court-keeps-openai-copyright-suit-canada-where-us-fair-use-does-not-apply.htm"
+    }
+   ]
+  },
+  {
+   "id": "bm-sonoco-ceo-succession",
+   "type": "Leadership",
+   "co": "Sonoco",
+   "firm": "Industry",
+   "desk": "Industrials & logistics",
+   "date": "Nov 9",
+   "year": 2026,
+   "heat": 2,
+   "rel": 3,
+   "value": "Jan 1, 2027",
+   "vlabel": "Haynes succeeds Coker as CEO",
+   "title": "Sonoco names insider Ernest Haynes to succeed retiring CEO Howard Coker",
+   "cs": "Leadership-transition support, 100-day planning and portfolio review for a new CEO at a packaging group refocused on consumer and industrial segments.",
+   "stype": "Primary",
+   "src": "Sonoco (GlobeNewswire)",
+   "url": "https://www.globenewswire.com/news-release/2026/11/09/3398356/26553/en/sonoco-announces-ceo-succession-plan.html",
+   "updated": "2026-11-22",
+   "confidence": "Confirmed",
+   "readTime": "2 min",
+   "body": "Sonoco said on 9 November that CEO Howard Coker will retire and Ernest Haynes III, head of its global consumer packaging business, has been elected to succeed him.",
+   "paras": [
+    "According to Sonoco's release, R. Howard Coker, CEO since 2020 and a 41-year company veteran, will stay in the role through 31 December 2026. Ernest D. Haynes III, president of Global Consumer Packaging since August 2026, succeeds him as president, CEO and director. Chairman John Haley described the change as the result of a planned succession process, per the release.",
+    "Haynes joined Sonoco in 1997 and has held roles across both its Consumer and Industrial segments, including leading metal and rigid paper packaging through the integration of major acquisitions, the company says. Paper Age carried the same announcement. Sonoco reported $7.5 billion of 2025 sales from continuing operations and has about 22,000 employees, according to the release.",
+    "The handover comes as Sonoco presents itself as a more focused business built around consumer and industrial packaging, which makes the new CEO's portfolio and capital-allocation choices the thing to watch."
+   ],
+   "unknowns": [
+    "Haynes's strategic priorities and any portfolio changes were not set out in the release",
+    "Whether the succession is accompanied by other executive changes was not stated"
+   ],
+   "sources": [
+    {
+     "stype": "Primary",
+     "src": "Sonoco (GlobeNewswire)",
+     "url": "https://www.globenewswire.com/news-release/2026/11/09/3398356/26553/en/sonoco-announces-ceo-succession-plan.html"
+    },
+    {
+     "stype": "Trade press",
+     "src": "Paper Age",
+     "url": "https://www.paperage.com/2026news/11-09-2026sonoco-president-and-ceo-howard-coker-to-retire-ernest-haynes-elected-successor.html"
+    }
+   ]
+  },
+  {
+   "id": "bm-aci-worldwide-ceo-exit",
+   "type": "Leadership",
+   "co": "ACI Worldwide",
+   "firm": "Industry",
+   "desk": "Financial services",
+   "date": "Nov 18",
+   "year": 2026,
+   "heat": 2,
+   "rel": 3,
+   "value": "Interim CEO",
+   "vlabel": "CFO Leibrock steps in as CEO Warsop leaves",
+   "title": "ACI Worldwide CEO Thomas Warsop quits for another public company; CFO named interim",
+   "cs": "CEO search and succession advisory, interim-leadership governance and strategy reviews for a payments software vendor with falling profit and a pending acquisition.",
+   "stype": "Major outlet",
+   "src": "MarketScreener",
+   "url": "https://www.marketscreener.com/news/aci-worldwide-inc-announces-ceo-changes-ce785edddb89f623",
+   "updated": "2026-11-22",
+   "confidence": "Reported",
+   "readTime": "2 min",
+   "body": "ACI Worldwide said CEO Thomas Warsop has stepped down to run another public company and named CFO Robert Leibrock interim CEO while the board searches for a permanent successor.",
+   "paras": [
+    "According to the announcement carried by MarketScreener, Warsop left as CEO effective 18 November 2026 after accepting a CEO post at a public company in a different industry, and will remain with ACI until 18 December to support the transition. CFO Robert Leibrock, who joined in July 2025 after senior finance roles at Red Hat, becomes interim CEO. The board has hired a search firm and will consider internal and external candidates.",
+    "Payments Dive reports an SEC filing says there was no disagreement behind the resignation, that ACI reaffirmed the guidance issued with its third-quarter results, and that Warsop took over in 2023 after the abrupt exit of his predecessor. It also notes net income for the first nine months fell 37% to $102.6 million.",
+    "MarketScreener's page shows the shares closing at $50.50 on 19 November, down 4.5% that day; the page does not attribute the move to the leadership change."
+   ],
+   "unknowns": [
+    "Which company Warsop is joining was not disclosed",
+    "Whether Leibrock is a candidate for the permanent role is not stated"
+   ],
+   "sources": [
+    {
+     "stype": "Major outlet",
+     "src": "MarketScreener",
+     "url": "https://www.marketscreener.com/news/aci-worldwide-inc-announces-ceo-changes-ce785edddb89f623"
+    },
+    {
+     "stype": "Trade press",
+     "src": "Payments Dive",
+     "url": "https://paymentsdive.com/news/aci-worldwides-ceo-heads-out/875047"
+    },
+    {
+     "stype": "Trade press",
+     "src": "Fintech Futures",
+     "url": "https://www.fintechfutures.com/job-cuts-new-hires/aci-worldwide-names-cfo-robert-leibrock-interim-ceo"
+    }
+   ]
+  },
+  {
+   "id": "bm-cooper-jana-ceo-change",
+   "type": "Leadership",
+   "co": "Cooper Companies",
+   "firm": "Industry",
+   "desk": "Health",
+   "date": "Oct 27",
+   "year": 2026,
+   "heat": 3,
+   "rel": 3,
+   "value": "Jana Partners",
+   "vlabel": "Activist demands preceded CEO exit",
+   "title": "Cooper Companies replaces CEO Al White with executive chair Walt Rosebrough after Jana pressure",
+   "cs": "Board refresh and CEO search support, portfolio review of CooperVision versus surgical assets, and turnaround planning for a medtech company under activist pressure.",
+   "stype": "Trade press",
+   "src": "MedTech Dive",
+   "url": "https://www.medtechdive.com/news/cooper-companies-ceo-steps-down-after-activist-investor-pressure/873142/",
+   "updated": "2026-11-22",
+   "confidence": "Reported",
+   "readTime": "2 min",
+   "body": "Cooper Companies replaced CEO Albert White with board member Walter Rosebrough as executive chair, weeks after activist Jana Partners urged a CEO search and a look at asset sales, according to MedTech Dive.",
+   "paras": [
+    "According to MedTech Dive, Albert White stepped down as president and CEO effective immediately after eight years in the role and will advise through April. Walter Rosebrough Jr., a director and former Steris CEO, becomes executive chair and runs day-to-day operations until a permanent CEO is named, with Russell Reynolds supporting the search. A new independent director joins in December and three directors will not stand for re-election in 2027.",
+    "MedTech Dive says Jana Partners had demanded in September that Cooper start an external CEO search, appoint a new chair, consider selling its fertility and medical device assets and engage with buyers for CooperVision. Finimize reports Cooper reaffirmed its fiscal 2026 outlook and that its shares fell almost 3% in extended trading.",
+    "Note that the announcement was on 27 October, slightly before this week's window, but the follow-through on the search and any asset review is still ahead."
+   ],
+   "unknowns": [
+    "Jana's stake size was not disclosed in the coverage read",
+    "Whether the board will pursue the asset sales Jana asked for is unclear"
+   ],
+   "sources": [
+    {
+     "stype": "Trade press",
+     "src": "MedTech Dive",
+     "url": "https://www.medtechdive.com/news/cooper-companies-ceo-steps-down-after-activist-investor-pressure/873142/"
+    },
+    {
+     "stype": "Trade press",
+     "src": "Finimize",
+     "url": "https://finimize.com/content/cooper-companies-swaps-out-its-ceo-after-a-rough-patch"
+    }
+   ]
+  },
+  {
+   "id": "bm-fiserv-3000-cuts",
+   "type": "Restructuring",
+   "co": "Fiserv",
+   "firm": "Industry",
+   "desk": "Financial services",
+   "date": "Nov 3",
+   "year": 2026,
+   "heat": 3,
+   "rel": 4,
+   "value": "3,000 jobs",
+   "vlabel": "Cut since June; Elevate savings target $1B",
+   "title": "Fiserv discloses 3,000 job cuts and doubles Project Elevate savings target to $1 billion",
+   "cs": "Operating-model redesign, AI-enabled cost take-out, product-portfolio rationalisation and management-layer reductions at a payments processor under activist scrutiny.",
+   "stype": "Trade press",
+   "src": "People Matters",
+   "url": "https://www.peoplematters.in/news/strategic-hr/fiserv-cuts-3000-jobs-reduces-senior-leadership-by-more-than-10percent-53196",
+   "updated": "2026-11-22",
+   "confidence": "Reported",
+   "readTime": "2 min",
+   "body": "Fiserv said on its third-quarter call that it has cut about 3,000 employee and contractor roles since June and raised its Project Elevate savings target to $1 billion from $500 million.",
+   "paras": [
+    "According to People Matters, Fiserv disclosed on 3 November that roughly 3,000 employee and contractor positions have gone since June and that senior management was reduced by more than 10%. The company had more than 38,000 employees at the end of 2025, per the same report. AI Weekly, citing PYMNTS, says management framed the programme as an AI-everywhere reorganisation, with fraud review, customer service and software work slated for automation.",
+    "Fiserv's results release confirms the Project Elevate target rose to $1 billion from $500 million after a portfolio review, and reports $83 million of severance in the quarter plus a $6.45 billion goodwill impairment. People Matters reports Fiserv also plans to exit more than a dozen smaller products and that the new target sits below the $1.25 billion activist Jana Partners had proposed; the release itself did not mention product exits.",
+    "Both trade outlets report shares rising about 9.5% premarket."
+   ],
+   "unknowns": [
+    "Which divisions bore the cuts and the period for the $1B savings were not disclosed",
+    "The results release gave no headcount figures; the 3,000 figure comes from the call as reported"
+   ],
+   "sources": [
+    {
+     "stype": "Trade press",
+     "src": "People Matters",
+     "url": "https://www.peoplematters.in/news/strategic-hr/fiserv-cuts-3000-jobs-reduces-senior-leadership-by-more-than-10percent-53196"
+    },
+    {
+     "stype": "Trade press",
+     "src": "AI Weekly",
+     "url": "https://aiweekly.co/alerts/fiserv-cuts-3000-jobs-under-ai-everywhere-push-doubles-project-elevate-cost"
+    },
+    {
+     "stype": "Primary",
+     "src": "Fiserv Q3 2026 results (Finviz)",
+     "url": "https://finviz.com/news/414057/fiserv-reports-third-quarter-2026-results"
+    }
+   ]
+  },
+  {
+   "id": "bm-klm-5000-jobs",
+   "type": "Restructuring",
+   "co": "KLM (Air France-KLM)",
+   "firm": "Industry",
+   "desk": "Industrials & logistics",
+   "date": "Nov 5",
+   "year": 2026,
+   "heat": 3,
+   "rel": 4,
+   "value": "5,000 jobs",
+   "vlabel": "About 15% of KLM workforce; EUR 1B uplift",
+   "title": "KLM to cut, outsource or transfer about 5,000 jobs in cost-reset drive",
+   "cs": "Airline cost-base redesign, outsourcing and shared-services strategy, fleet and productivity programmes, and union-facing transformation planning.",
+   "stype": "Major outlet",
+   "src": "DutchNews.nl",
+   "url": "https://www.dutchnews.nl/2026/11/klm-to-cut-5000-jobs-amid-high-fuel-prices-and-global-unrest/",
+   "updated": "2026-11-22",
+   "confidence": "Reported",
+   "readTime": "2 min",
+   "body": "KLM said it will remove about 5,000 jobs, nearly 15% of its workforce, through cuts, outsourcing and transfers to its parent, with CEO Marjan Rintel warning the airline's future is not guaranteed.",
+   "paras": [
+    "Announced on 5 November alongside Air France-KLM's third-quarter results, the plan covers about 5,000 positions, according to DutchNews.nl and Skift. Skift breaks it down as roughly 1,250 catering jobs moved to Gategroup, 800 ground-services roles shifted to third parties, 2,000 positions transferred to Air France-KLM (1,500 at contact centre Cygnific) and about 1,000 reductions from productivity gains.",
+    "Skift reports KLM is targeting an extra EUR 1 billion a year of earnings improvement, taking the total to EUR 1.4 billion, and is seeking union agreement to an 8% productivity gain by 2028 with restrained wages. DutchNews.nl says KLM expects to avoid compulsory layoffs, relying on voluntary schemes and unfilled vacancies, and that unions FNV and CNV have voiced concern.",
+    "The cuts come despite a stronger quarter: Skift reports KLM's operating profit rose to EUR 458 million."
+   ],
+   "unknowns": [
+    "Implementation timetable and the final number of outright redundancies were not given",
+    "Union response and negotiation outcome remain open"
+   ],
+   "sources": [
+    {
+     "stype": "Major outlet",
+     "src": "DutchNews.nl",
+     "url": "https://www.dutchnews.nl/2026/11/klm-to-cut-5000-jobs-amid-high-fuel-prices-and-global-unrest/"
+    },
+    {
+     "stype": "Trade press",
+     "src": "Skift",
+     "url": "https://skift.com/2026/11/05/klm-to-cut-workforce-by-nearly-15-in-major-cost-saving-drive/"
+    }
+   ]
+  },
+  {
+   "id": "bm-schaeffler-3460-jobs",
+   "type": "Restructuring",
+   "co": "Schaeffler",
+   "firm": "Industry",
+   "desk": "Industrials & logistics",
+   "date": "Nov 3",
+   "year": 2026,
+   "heat": 3,
+   "rel": 4,
+   "value": "3,460 jobs",
+   "vlabel": "European net cuts; five sites to close",
+   "title": "Schaeffler to cut 3,460 European jobs and close five sites",
+   "cs": "Footprint and capacity consolidation, spans-and-layers redesign, and EV-versus-combustion portfolio strategy for an automotive supplier.",
+   "stype": "Trade press",
+   "src": "electrive",
+   "url": "https://electrive.com/2026/11/03/schaeffler-to-cut-almost-3500-jobs",
+   "updated": "2026-11-22",
+   "confidence": "Reported",
+   "readTime": "2 min",
+   "body": "Schaeffler said it will cut a net 3,460 jobs across 16 European sites and close five locations, aiming for about EUR 300 million of annual earnings improvement.",
+   "paras": [
+    "According to Evertiq, Schaeffler announced the programme on 3 November with its third-quarter results: a net 3,460 positions go in Europe, about 2,660 of them in Germany, across 16 sites, with five sites closing over time, four in Germany. Named closures include Dortmund, Morbach and Berlin, and Schwalbach is also affected, Evertiq reports. Roughly half the roles are in production and 30% in R&D.",
+    "Evertiq reports earnings should improve by about EUR 300 million a year from 2030 against one-off costs of about EUR 480 million, with implementation mainly in 2027 and 2028. electrive says Schaeffler blames weak combustion-engine demand, slower electric-mobility growth and high German labour costs, and that e-mobility lost EUR 571 million in nine months.",
+    "electrive also cites Handelsblatt as saying at least two of seven management levels below the board will be removed and the executive board will shrink to eight."
+   ],
+   "unknowns": [
+    "Social-plan and works-council negotiations were not reported as concluded",
+    "The count is net; gross reductions were not stated"
+   ],
+   "sources": [
+    {
+     "stype": "Trade press",
+     "src": "electrive",
+     "url": "https://electrive.com/2026/11/03/schaeffler-to-cut-almost-3500-jobs"
+    },
+    {
+     "stype": "Trade press",
+     "src": "Evertiq",
+     "url": "https://evertiq.com/news/2026-11-03-schaeffler-to-cut-3460-jobs-in-europe-and-close-four-german-sites"
+    }
+   ]
+  },
+  {
+   "id": "bm-ugi-lpg-spin",
+   "type": "Divestiture",
+   "co": "UGI Corporation",
+   "firm": "Industry",
+   "desk": "Energy & resources",
+   "date": "Nov 18",
+   "year": 2026,
+   "heat": 3,
+   "rel": 4,
+   "value": "2H 2027",
+   "vlabel": "Planned LPG spin-off completion",
+   "title": "UGI plans to spin off its global LPG business, separating from its regulated utilities",
+   "cs": "Separation planning, Form 10 and capital-structure design, TSA and stand-alone cost work, and valuation advice as an energy group splits propane from utilities.",
+   "stype": "Primary",
+   "src": "UGI Corporation",
+   "url": "https://www.ugicorp.com/news-releases/news-release-details/ugi-corporation-announces-plan-pursue-separation-its-global",
+   "updated": "2026-11-22",
+   "confidence": "Confirmed",
+   "readTime": "2 min",
+   "body": "UGI's board approved a plan to spin off its global LPG business, combining UGI International and AmeriGas Propane, with completion targeted for the second half of 2027.",
+   "paras": [
+    "According to UGI's release of 18 November, the new LPG company would be the largest publicly listed LPG distributor in the world and the largest US retail propane distributor, while New UGI keeps regulated gas utilities in Pennsylvania and West Virginia plus midstream assets. Shareholders would receive LPG shares pro rata in a transaction intended to be tax-free, and New UGI may retain up to 19.9% initially. J.P. Morgan and Latham & Watkins are advising.",
+    "The Philadelphia Inquirer reports UGI shares fell 8% on 19 November to $35.18, nearly erasing the gain from a KKR approach in August at $42.50 a share, and that CEO Bob Flexon said he is not completely opposed to selling the whole company for a better offer.",
+    "The release says final board approval, an effective Form 10 and debt consents are required and that there is no assurance the separation will occur."
+   ],
+   "unknowns": [
+    "Leadership, capital structure and dividend policy for each company are to be detailed later",
+    "Whether a whole-company bid re-emerges is unclear"
+   ],
+   "sources": [
+    {
+     "stype": "Primary",
+     "src": "UGI Corporation",
+     "url": "https://www.ugicorp.com/news-releases/news-release-details/ugi-corporation-announces-plan-pursue-separation-its-global"
+    },
+    {
+     "stype": "Major outlet",
+     "src": "The Philadelphia Inquirer",
+     "url": "https://www.inquirer.com/business/ugi-king-of-prussia-amerigas-split-20261119.html"
+    }
+   ]
+  },
+  {
+   "id": "bm-kraft-heinz-coffee-sale",
+   "type": "Divestiture",
+   "co": "Kraft Heinz",
+   "firm": "Industry",
+   "desk": "Consumer & retail",
+   "date": "Nov 4",
+   "year": 2026,
+   "heat": 3,
+   "rel": 4,
+   "value": "$650M",
+   "vlabel": "Enterprise value; Kraft keeps 30%",
+   "title": "Kraft Heinz sells North American coffee business to One Rock Capital for $650 million",
+   "cs": "Carve-out, TSA and stranded-cost work for the coffee unit, plus portfolio-focus and supply-chain consolidation support for Kraft Heinz.",
+   "stype": "Major outlet",
+   "src": "Bloomberg Law",
+   "url": "https://news.bgov.com/private-equity/kraft-heinz-to-sell-coffee-unit-to-refocus-on-other-brands-2",
+   "updated": "2026-11-22",
+   "confidence": "Reported",
+   "readTime": "2 min",
+   "body": "Kraft Heinz agreed to sell its North American coffee business, including Maxwell House and Gevalia, to private equity firm One Rock Capital Partners at a $650 million enterprise value.",
+   "paras": [
+    "According to Bloomberg Law, the deal values the unit at $650 million, with Kraft Heinz retaining a 30% non-controlling stake and closing expected in mid-2027. ConsumerGoods.com lists the brands as Maxwell House, Gevalia, Nabob, Yuban, Tassimo, Ethical Bean and Sanka, with about 250 full-time employees and plants in Jacksonville and Vancouver expected to transfer.",
+    "ConsumerGoods.com reports Kraft Heinz expects net proceeds of about $500 million to pay down debt and that CEO Steve Cahillane called it a step in unlocking portfolio value. Bloomberg Law says the sale narrows the portfolio as the company seeks to restart growth.",
+    "ConsumerGoods.com adds the move sits within a wider restructuring that includes consolidating supply-chain functions and a shift away from a planned company split."
+   ],
+   "unknowns": [
+    "Kraft Heinz's own release was not read; terms are as reported by outlets",
+    "Employee and plant transfer details beyond the reported figures were not given"
+   ],
+   "sources": [
+    {
+     "stype": "Major outlet",
+     "src": "Bloomberg Law",
+     "url": "https://news.bgov.com/private-equity/kraft-heinz-to-sell-coffee-unit-to-refocus-on-other-brands-2"
+    },
+    {
+     "stype": "Trade press",
+     "src": "ConsumerGoods.com",
+     "url": "https://consumergoods.com/kraft-heinz-sell-north-america-coffee-business"
+    }
+   ]
+  },
+  {
+   "id": "bm-sylvamo-europe-sale",
+   "type": "Divestiture",
+   "co": "Sylvamo",
+   "firm": "Industry",
+   "desk": "Industrials & logistics",
+   "date": "Nov 6",
+   "year": 2026,
+   "heat": 2,
+   "rel": 3,
+   "value": "Undisclosed",
+   "vlabel": "Price not disclosed; 20% future distributions",
+   "title": "Sylvamo proposes sale of its Europe paper business to Midas Atlantic Partners",
+   "cs": "Carve-out and separation planning, works-council consultation process support and post-sale refocus on Latin America and North America.",
+   "stype": "Primary",
+   "src": "Sylvamo (Business Wire via Finviz)",
+   "url": "https://finviz.com/news/418203/sylvamo-announces-plans-to-sell-europe-business",
+   "updated": "2026-11-22",
+   "confidence": "Confirmed",
+   "readTime": "2 min",
+   "body": "Sylvamo has entered a put option agreement for the sale of its Europe business to Midas Atlantic Partners with The Najafi Companies, with closing targeted by the end of Q1 2027.",
+   "paras": [
+    "According to Sylvamo's 6 November release, the proposed sale covers its uncoated freesheet mills in Saillat, France and Nymolla, Sweden, plus forestry and supporting operations. The buyer would take the business with an agreed level of working capital and cash, and Sylvamo would keep the right to 20% of future distributions. A definitive share purchase agreement follows works-council consultation.",
+    "The release quotes CEO John Sims describing it as an important strategic step that will leave Sylvamo more focused. Finviz's earnings coverage reports the European business is already shown as discontinued operations and that shares rose about 12% on the day.",
+    "Neither source discloses the price."
+   ],
+   "unknowns": [
+    "Deal value and Europe headcount were not disclosed",
+    "Outcome of works-council consultations will determine whether the sale proceeds"
+   ],
+   "sources": [
+    {
+     "stype": "Primary",
+     "src": "Sylvamo (Business Wire via Finviz)",
+     "url": "https://finviz.com/news/418203/sylvamo-announces-plans-to-sell-europe-business"
+    },
+    {
+     "stype": "Trade press",
+     "src": "Finviz / Benzinga",
+     "url": "https://finviz.com/news/418350/sylvamo-shares-jump-nearly-12-as-q3-earnings-beat-estimates-and-company-plans-european-business-sale"
+    }
+   ]
+  },
+  {
+   "id": "bm-airtrunk-andhra",
+   "type": "Market Entry",
+   "co": "AirTrunk",
+   "firm": "Industry",
+   "desk": "Tech & AI",
+   "date": "Nov 14",
+   "year": 2026,
+   "heat": 4,
+   "rel": 4,
+   "value": "1.8 GW",
+   "vlabel": "Planned capacity across two campuses; about $11B",
+   "title": "Blackstone-backed AirTrunk proposes two data centre campuses in Andhra Pradesh, its India entry",
+   "cs": "Site selection, power and water sourcing, regulatory-approval support and market-entry strategy for hyperscale operators; infrastructure financing and EPC advisory for a multi-gigawatt build-out.",
+   "stype": "Major outlet",
+   "src": "Business Today",
+   "url": "https://www.businesstoday.in/latest/corporate/story/blackstone-backed-airtrunk-plans-rs1-03-lakh-crore-investment-in-andhra-pradesh-for-two-data-centre-campuses-567467-2026-11-14",
+   "updated": "2026-11-22",
+   "confidence": "Reported",
+   "readTime": "3 min",
+   "body": "AirTrunk, the Blackstone-backed hyperscale data centre operator, has signed a memorandum of understanding with the Andhra Pradesh government for two campuses totalling 1.8 GW, according to Business Today and W.Media.",
+   "paras": [
+    "AirTrunk has submitted a detailed project report to the Andhra Pradesh government for two campuses in Anakapalli district totalling up to 1.8 GW, according to Business Today, which puts the investment at about Rs 1.03 lakh crore (roughly $11 billion). W.Media reports the split as a 1.4 GW campus at Tootipala and a 400 MW campus at Rambilli, and says the MoU was signed with the state government.",
+    "Both outlets say the proposal is still under state review and subject to approvals and infrastructure readiness. AirTrunk told Business Today it would use low-water, air-cooled technology and draw on industrial rather than municipal water, and W.Media adds that it wants to explore renewable power from the state. Chief Minister N. Chandrababu Naidu said the state is expanding renewable capacity and water supply to support large data centres, according to Business Today.",
+    "W.Media notes that the $11 billion figure comes from Bloomberg's reporting and that AirTrunk's own release does not state an investment amount. It also lists competing projects in the state, including Google's separately planned AI hub, which points to a crowded field for power and land in the region."
+   ],
+   "unknowns": [
+    "Final investment decision and construction timetable were not disclosed",
+    "The $11B figure is a media estimate; AirTrunk's release gave no amount",
+    "Power purchase arrangements and customer anchors were not named"
+   ],
+   "sources": [
+    {
+     "stype": "Major outlet",
+     "src": "Business Today",
+     "url": "https://www.businesstoday.in/latest/corporate/story/blackstone-backed-airtrunk-plans-rs1-03-lakh-crore-investment-in-andhra-pradesh-for-two-data-centre-campuses-567467-2026-11-14"
+    },
+    {
+     "stype": "Trade press",
+     "src": "W.Media",
+     "url": "https://w.media/?p=45370"
+    }
+   ]
+  },
+  {
+   "id": "bm-toyota-scion-kei",
+   "type": "Market Entry",
+   "co": "Toyota Motor North America",
+   "firm": "Industry",
+   "desk": "Industrials & logistics",
+   "date": "Nov 10",
+   "year": 2026,
+   "heat": 3,
+   "rel": 3,
+   "value": "$34M",
+   "vlabel": "Indiana investment; about 50 jobs",
+   "title": "Toyota relaunches Scion and brings its KEI-01 mini truck to the US in 2027",
+   "cs": "Go-to-market, dealer-network and fleet-channel strategy for a new vehicle category; regulatory and low-speed-vehicle compliance work; business-case and pricing studies for niche mobility products.",
+   "stype": "Primary",
+   "src": "Toyota Motor North America (via Finviz)",
+   "url": "https://finviz.com/news/420313/toyota-says-okei-to-america-introducing-the-scion-by-toyota-brand-and-kei-01",
+   "updated": "2026-11-22",
+   "confidence": "Reported",
+   "readTime": "2 min",
+   "body": "Toyota Motor North America unveiled a relaunched Scion by Toyota brand and said its ultra-compact KEI-01 utility truck will reach US fleet customers in the second half of 2027.",
+   "paras": [
+    "Toyota Motor North America presented the Scion by Toyota brand and the KEI-01 on 9 November, with a press release dated 10 November, according to a distributed Toyota release. The KEI-01 is a kei-style truck with a 660cc three-cylinder engine, selectable four-wheel drive, a top speed of 25 mph and design aimed at federal low-speed-vehicle rules.",
+    "Initial sales will be a fleet-focused pilot through selected dealers from the existing Toyota network, with limited retail possible later depending on market conditions, according to the release and the Honolulu Star-Advertiser. Assembly will take place at Toyota Motor Manufacturing Indiana from the second half of 2027, with a $34 million investment expected to add about 50 jobs.",
+    "Toyota describes Scion as a \"freedom lab\" for new mobility ideas and also showed side-by-side and compact personal-mobility concepts, per the release. Neither source gave a price or volume target."
+   ],
+   "unknowns": [
+    "No price, volume target or retail timetable was disclosed",
+    "Which dealers will join the Scion pilot was not stated"
+   ],
+   "sources": [
+    {
+     "stype": "Primary",
+     "src": "Toyota Motor North America (via Finviz)",
+     "url": "https://finviz.com/news/420313/toyota-says-okei-to-america-introducing-the-scion-by-toyota-brand-and-kei-01"
+    },
+    {
+     "stype": "Major outlet",
+     "src": "Honolulu Star-Advertiser",
+     "url": "https://www.staradvertiser.com/2026/11/11/breaking-news/toyota-to-bring-mini-trucks-to-u-s-market/"
+    }
+   ]
+  },
+  {
+   "id": "bm-ioi-tnb-solar",
+   "type": "Market Entry",
+   "co": "IOI Corporation, TNB Renewables",
+   "firm": "Industry",
+   "desk": "Energy & resources",
+   "date": "Nov 3",
+   "year": 2026,
+   "heat": 2,
+   "rel": 3,
+   "value": "500 MW",
+   "vlabel": "Solar plus 1 GWh storage for DayOne data centres",
+   "title": "IOI and TNB form joint venture for 500 MW solar and storage project in Negeri Sembilan",
+   "cs": "Project finance, CRESS structuring and offtake advisory; energy-transition strategy for plantation groups moving into power; data-centre power-sourcing work for hyperscale tenants.",
+   "stype": "Major outlet",
+   "src": "The Star (Malaysia)",
+   "url": "https://www.thestar.com.my/business/business-news/2026/11/04/tnb-and-ioi-team-up-for-mega-solar-project",
+   "updated": "2026-11-22",
+   "confidence": "Reported",
+   "readTime": "2 min",
+   "body": "Tenaga Nasional's renewables arm and plantation group IOI have signed a shareholders' agreement for a 500 MWac solar farm with battery storage to supply DayOne's Malaysian data centres, The Star reported.",
+   "paras": [
+    "TNB Renewables, IOI's Luminous Aspect and a consortium of 12 SMEs signed around 3 November to develop the project through Bahau Energy Ventures, according to The Star. Ownership is 70% TNB Renewables, 25% Luminous and 5% the SME consortium. The site is in Bahau, Negeri Sembilan, and the project includes a 250 MW / 1,000 MWh battery system under Malaysia's Corporate Renewable Energy Supply Scheme.",
+    "The Star says maximum equity is RM606.2 million, with TNB's share up to RM424.4 million, and funding will combine equity with project debt at up to 80:20. DayOne Data Centres is expected to buy up to 500 MWac over 21 years. Enerdata, citing an IOI release, reports the same structure and that IOI will lease the site.",
+    "TNB said the deal is not expected to materially affect its earnings per share or gearing this year, according to The Star. No construction or operation dates were given."
+   ],
+   "unknowns": [
+    "Construction start and commercial operation dates were not disclosed",
+    "Total project cost and third-party debt terms were not published"
+   ],
+   "sources": [
+    {
+     "stype": "Major outlet",
+     "src": "The Star (Malaysia)",
+     "url": "https://www.thestar.com.my/business/business-news/2026/11/04/tnb-and-ioi-team-up-for-mega-solar-project"
+    },
+    {
+     "stype": "Trade press",
+     "src": "Enerdata",
+     "url": "https://www.enerdata.net/publications/daily-energy-news/ioi-and-tnb-sign-jv-500-mw-solar-plant-bess-malaysia.html"
+    }
+   ]
+  },
+  {
+   "id": "bm-vingroup-philippines",
+   "type": "Market Entry",
+   "co": "Vingroup / VinFast",
+   "firm": "Industry",
+   "desk": "Industrials & logistics",
+   "date": "Oct 30",
+   "year": 2026,
+   "heat": 3,
+   "rel": 3,
+   "value": "$500M",
+   "vlabel": "Planned EV plant; 200,000 vehicles a year",
+   "title": "Vingroup plans a $500 million EV plant in the Philippines, its third overseas hub",
+   "cs": "Site and incentive strategy, supply-chain localisation and market-sizing for an EV plant in a small EV market; capacity-versus-demand reviews and distribution planning.",
+   "stype": "Trade press",
+   "src": "electrive",
+   "url": "https://electrive.com/2026/10/30/vingroup-to-build-a-e449-million-ev-plant-in-the-philippines",
+   "updated": "2026-11-22",
+   "confidence": "Reported",
+   "readTime": "2 min",
+   "body": "Vingroup plans a $500 million electric-vehicle plant in the Philippines with initial capacity of 200,000 vehicles a year, according to the Philippine trade department as relayed by electrive and TechNode.",
+   "paras": [
+    "The Philippines' Department of Trade and Industry announced the plan around 21 October, and TechNode and electrive both report a $500 million investment and initial output of 200,000 vehicles a year. Electrive says construction is targeted for the first quarter of 2027, with completion in one to one and a half years and production possibly from mid-2028; it would be Vingroup's third overseas hub after Indonesia and India.",
+    "Electrive reports that the site is not officially confirmed, with Batangas the preferred location according to Inquirer.net as quoted there. TechNode lists incentives under the CREATE MORE Act and fast-track regulatory processing, and says the plant would build cars first and then electric scooters.",
+    "TechNode also reports VinFast's unaudited second-quarter 2026 loss from continuing operations widened 128% to about $1.2 billion, which frames the capital-intensity of the expansion."
+   ],
+   "unknowns": [
+    "Site and final investment decision were not confirmed by Vingroup",
+    "Domestic demand versus export plans was not detailed",
+    "Announcement dates fall in late October, earlier than the other items"
+   ],
+   "sources": [
+    {
+     "stype": "Trade press",
+     "src": "electrive",
+     "url": "https://electrive.com/2026/10/30/vingroup-to-build-a-e449-million-ev-plant-in-the-philippines"
+    },
+    {
+     "stype": "Trade press",
+     "src": "TechNode",
+     "url": "https://technode.global/2026/10/22/vietnams-vingroup-plans-500m-ev-plant-in-philippines-targeting-200000-vehicles-annually/"
+    }
+   ]
+  },
+  {
+   "id": "bm-nscale-s1a",
+   "type": "IPO",
+   "co": "Nscale",
+   "firm": "Industry",
+   "desk": "Tech & AI",
+   "date": "Nov 12",
+   "year": 2026,
+   "heat": 3,
+   "rel": 4,
+   "value": "$1.69B",
+   "vlabel": "Nine-month net loss on $307.5M revenue",
+   "title": "Nscale updates its NYSE IPO filing, showing revenue up 14-fold and a $1.69 billion loss",
+   "cs": "IPO readiness, equity-story and investor-communications work for AI infrastructure firms; diligence on contracted-backlog quality, customer concentration and power-access risk.",
+   "stype": "Trade press",
+   "src": "Let's Data Science",
+   "url": "https://letsdatascience.com/news/nscales-updated-ipo-prospectus-shows-q3-revenue-surge-and-wi-ca5258b5",
+   "updated": "2026-11-22",
+   "confidence": "Reported",
+   "readTime": "2 min",
+   "body": "UK AI cloud provider Nscale filed an amended US registration statement on 12 November showing nine-month revenue of $307.5 million and a net loss of $1.69 billion, according to Let's Data Science.",
+   "paras": [
+    "Nscale's S-1/A, filed on 12 November for a planned NYSE listing, reports revenue of $307.5 million for the nine months to 30 September, against $21.3 million a year earlier, and a net loss of $1,691.9 million versus $433.3 million, per Let's Data Science. Adjusted EBITDA was minus $289.5 million. The outlet notes CNBC described these as quarterly figures when the filing presents nine- and six-month totals.",
+    "Neither source gives offer terms: the share count and price range have not been set, according to Let's Data Science and Fierce Network. Fierce describes Nscale as a UK neocloud spun out of Arkon Energy with infrastructure and cloud units, and says a $103 billion figure refers to total contracted value rather than valuation.",
+    "Let's Data Science adds that Microsoft and Anthropic are expected to be significant customers, and cites reports that Microsoft walked away from a planned English site over electricity access. Renaissance Capital's earlier coverage, which this run did not open, was returned in search for the original filing."
+   ],
+   "unknowns": [
+    "Offer size, price range and timing were not set in the filing",
+    "Possible slip into 2027 is reported elsewhere and was not confirmed here",
+    "Customer contract terms and backlog were not itemised in the sources read"
+   ],
+   "sources": [
+    {
+     "stype": "Trade press",
+     "src": "Let's Data Science",
+     "url": "https://letsdatascience.com/news/nscales-updated-ipo-prospectus-shows-q3-revenue-surge-and-wi-ca5258b5"
+    },
+    {
+     "stype": "Trade press",
+     "src": "Fierce Network",
+     "url": "https://www.fierce-network.com/newswire/neocloud-nscale-files-ipo"
+    }
+   ]
+  },
+  {
+   "id": "bm-metka-athens-ipo",
+   "type": "IPO",
+   "co": "METKA (Metlen)",
+   "firm": "Industry",
+   "desk": "Industrials & logistics",
+   "date": "Nov 11",
+   "year": 2026,
+   "heat": 2,
+   "rel": 3,
+   "value": "€250M",
+   "vlabel": "New shares offered; value up to €1.4B post-money",
+   "title": "Metlen takes construction arm METKA public on Euronext Athens with up to €250 million of new shares",
+   "cs": "Carve-out and listing readiness for conglomerate units, equity-story and valuation work, and infrastructure-concession strategy for the PPP pipeline METKA says it will fund.",
+   "stype": "Primary",
+   "src": "London Stock Exchange RNS (Metlen)",
+   "url": "https://www.londonstockexchange.com/en/news/article/MTLN/metka-intention-to-float-on-euronext-athens/d5a6-92-c5-b8-5f-4103ac",
+   "updated": "2026-11-22",
+   "confidence": "Reported",
+   "readTime": "2 min",
+   "body": "Metlen announced an intention to float its construction and infrastructure unit METKA on Euronext Athens, with an offer running 18 to 20 November and trading expected from 26 November, according to Dnews.",
+   "paras": [
+    "Metlen published its intention to float on 11 November, per the London Stock Exchange RNS listing. Dnews reports up to 25 million new shares, with Metlen selling 5 million existing shares and an option for 5 million more, so the total could reach about €365 million. The indicative range is €10 to €11.50, valuing METKA at roughly €1.25 to €1.4 billion after the capital increase.",
+    "METKA's new money is earmarked, per Dnews, for up to €84 million of existing PPP and concession commitments, including a Crete highway and student housing, and €166 million for new infrastructure investments from 2027 to 2030. It reported a construction backlog of about €2.1 billion at 30 June. Metlen would keep 76% to 78% after the offer.",
+    "Dnews carried headlines saying the price was set at €10 with demand more than twice the offer; this run could not confirm them from a primary document, and the RNS body was not readable."
+   ],
+   "unknowns": [
+    "Final price and allocation were not confirmed from a primary document",
+    "Revenue and profit figures were not in the sources read"
+   ],
+   "sources": [
+    {
+     "stype": "Primary",
+     "src": "London Stock Exchange RNS (Metlen)",
+     "url": "https://www.londonstockexchange.com/en/news/article/MTLN/metka-intention-to-float-on-euronext-athens/d5a6-92-c5-b8-5f-4103ac"
+    },
+    {
+     "stype": "Trade press",
+     "src": "Dnews",
+     "url": "https://www.dnews.gr/eidhseis/news-in-english/623209/metlen-takes-metka-public-in-bid-to-finance-next-phase-of-growth"
+    }
+   ]
+  },
+  {
+   "id": "bm-payhawk-seriesc",
+   "type": "Funding",
+   "co": "Payhawk",
+   "firm": "Industry",
+   "desk": "Financial services",
+   "date": "Nov 18",
+   "year": 2026,
+   "heat": 3,
+   "rel": 3,
+   "value": "$280M",
+   "vlabel": "Series C at $2B valuation",
+   "title": "Payhawk raises $280 million at a $2 billion valuation in Goldman Sachs-led round",
+   "cs": "Finance-function transformation and spend-management tooling selection; AI-agent operating-model design for CFO organisations; vendor and market landscape work in fintech.",
+   "stype": "Primary",
+   "src": "Payhawk",
+   "url": "https://payhawk.com/en-us/blog/payhawk-series-c-280m-funding",
+   "updated": "2026-11-22",
+   "confidence": "Confirmed",
+   "readTime": "2 min",
+   "body": "Bulgarian-founded spend-management firm Payhawk has raised a $280 million Series C led by Goldman Sachs Alternatives' growth equity arm at a $2 billion valuation, according to the company and The Next Web.",
+   "paras": [
+    "Payhawk announced the all-equity round on 18 November, doubling its $1 billion valuation from 2022, per The Next Web. Goldman Sachs Alternatives' growth equity team led, all existing investors including QED, Greenoaks, Lightspeed and Hedosophia took part, and new backers include Galdana Ventures, Cogito Capital, Inveready and Invus. Total funding passes $515 million, and the deal needs regulatory approvals, according to the company.",
+    "Payhawk says it operates in 33 countries, that 77% of customers use its AI agents daily, and that it reached positive cash flow in the third quarter. The Next Web notes revenue and ARR were not disclosed and that most revenue comes from subscriptions rather than card interchange.",
+    "The company framed the raise as building a \"Finance Operating System\" for the AI era; neither source gave a breakdown of how the money will be spent."
+   ],
+   "unknowns": [
+    "Use of proceeds, revenue and customer count were not disclosed",
+    "Regulatory approvals are still pending"
+   ],
+   "sources": [
+    {
+     "stype": "Primary",
+     "src": "Payhawk",
+     "url": "https://payhawk.com/en-us/blog/payhawk-series-c-280m-funding"
+    },
+    {
+     "stype": "Trade press",
+     "src": "The Next Web",
+     "url": "https://thenextweb.com/news/payhawk-raises-280m-at-a-2bn-valuation-in-round-led-by-goldman-sachs"
+    }
+   ]
+  },
+  {
+   "id": "bm-sila-panasonic",
+   "type": "Partnerships",
+   "co": "Sila, Panasonic Energy",
+   "firm": "Industry",
+   "desk": "Energy & resources",
+   "date": "Nov 19",
+   "year": 2026,
+   "heat": 3,
+   "rel": 3,
+   "value": "$1B+",
+   "vlabel": "Potential offtake over time",
+   "title": "Sila signs multi-year silicon anode offtake with Panasonic Energy worth over $1 billion",
+   "cs": "Supply-chain localisation and qualification planning for battery materials; offtake-contract structuring and plant ramp-up support; capital-planning for US battery-materials build-outs.",
+   "stype": "Primary",
+   "src": "Sila (via Bernama)",
+   "url": "https://bernama.com/en/press/news.php?id=2636509",
+   "updated": "2026-11-22",
+   "confidence": "Reported",
+   "readTime": "2 min",
+   "body": "Sila and Panasonic Energy of North America have agreed a multi-year offtake of Sila's Titan Silicon anode material from its Moses Lake plant, with potential value above $1 billion, according to a Sila release and Battery-Tech.",
+   "paras": [
+    "Sila's release, dated 19 November, says the multi-year agreement covers its silicon-carbon anode material, made at the Moses Lake, Washington, plant, for use in Panasonic cells at US sites. It cites potential for over $1 billion of offtake over time but gives no volumes or start date; supply begins once the material is qualified.",
+    "Battery-Tech, which dates the announcement 18 November, adds that the companies plan to collaborate on intellectual property and that Sila expects about 500 manufacturing and construction jobs at Moses Lake from scaling for this and other commitments. It notes the deal follows a $1.4 billion loan commitment to Sila from the US Department of Defense's Office of Strategic Capital.",
+    "The headline value is described as potential rather than committed, so actual revenue depends on qualification and Panasonic's volumes."
+   ],
+   "unknowns": [
+    "No volumes, pricing or qualification timetable were disclosed",
+    "Sources differ by one day on the announcement date (18 vs 19 November)"
+   ],
+   "sources": [
+    {
+     "stype": "Primary",
+     "src": "Sila (via Bernama)",
+     "url": "https://bernama.com/en/press/news.php?id=2636509"
+    },
+    {
+     "stype": "Trade press",
+     "src": "Battery-Tech.net",
+     "url": "https://battery-tech.net/battery-markets-news/sila-panasonic-anode-offtake/"
+    }
+   ]
+  },
+  {
+   "id": "bm-david-jones-administration",
+   "type": "Distress",
+   "co": "David Jones",
+   "firm": "Industry",
+   "desk": "Consumer & retail",
+   "date": "Nov 5",
+   "year": 2026,
+   "heat": 3,
+   "rel": 3,
+   "value": "6,000+",
+   "vlabel": "Employees across 38 stores",
+   "title": "Australia's David Jones enters administration as a sale process begins",
+   "cs": "Turnaround, store-footprint and lease renegotiation work; sale-readiness and carve-out preparation; landlord and lender restructuring advisory for department-store operators.",
+   "stype": "Major outlet",
+   "src": "Nation Thailand",
+   "url": "https://www.nationthailand.com/news/world/40073147",
+   "updated": "2026-11-22",
+   "confidence": "Reported",
+   "readTime": "2 min",
+   "body": "Australian department store David Jones appointed administrators on 5 November, with receivers running the business ahead of a sale, according to Nation Thailand and HCAmag.",
+   "paras": [
+    "The board of the 188-year-old retailer appointed McGrathNicol as voluntary administrator, while lender Hilco Capital appointed FTI Consulting's Christopher Hill as receiver, according to HCAmag. The business has 38 stores across Australia and New Zealand and more than 6,000 staff, and stores continue to trade during the process, per both outlets.",
+    "Scentre Group, its largest landlord, said rent had not been paid since 30 September, according to HCAmag. Nation Thailand, citing ABC News, says Scentre offered financial support that owner Anchorage Capital Partners rejected. Before the collapse the retailer had sought three months of rent relief and a footprint of about 12 key stores, per HCAmag.",
+    "The administrators are seeking a capital injection or a sale as a going concern, Nation Thailand reports. Neither outlet gave a total debt figure, and store closures and job cuts were expected to be updated later."
+   ],
+   "unknowns": [
+    "Total debt and creditor claims were not stated in the sources read",
+    "Store closures and job losses were still to be announced",
+    "Bidders for the business were not named"
+   ],
+   "sources": [
+    {
+     "stype": "Major outlet",
+     "src": "Nation Thailand",
+     "url": "https://www.nationthailand.com/news/world/40073147"
+    },
+    {
+     "stype": "Trade press",
+     "src": "HCAmag",
+     "url": "https://www.hcamag.com/au/specialisation/recruitment/david-jones-enters-administration-leaving-thousands-of-jobs-in-limbo/596221"
+    }
+   ]
   }
  ],
  "radar": [
