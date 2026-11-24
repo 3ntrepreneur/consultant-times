@@ -1,10 +1,10 @@
 {
  "schema": 1,
  "edition": {
-  "id": "2026-11-23-1000",
-  "label": "MONDAY 23 NOVEMBER 2026 · MORNING EDITION",
-  "published": "2026-11-23T10:00:00-08:00",
-  "next": "TODAY 10:00 PM PT"
+  "id": "2026-11-23-2200",
+  "label": "MONDAY 23 NOVEMBER 2026 · EVENING EDITION",
+  "published": "2026-11-23T22:00:00-08:00",
+  "next": "TUE 10:00 AM PT"
  },
  "lead": "ey-canada-80m-innovation",
  "stories": [
