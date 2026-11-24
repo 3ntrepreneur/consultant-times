@@ -3,11 +3,303 @@
  "edition": {
   "id": "2026-11-24-1000",
   "label": "TUESDAY 24 NOVEMBER 2026 · MORNING EDITION",
-  "published": "2026-11-24T10:00:00-08:00",
+  "published": "2026-11-24T10:30:00-08:00",
   "next": "TODAY 10:00 PM PT"
  },
- "lead": "ey-canada-80m-innovation",
+ "lead": "crowdstrike-zscaler-43-9b",
  "stories": [
+  {
+   "id": "crowdstrike-zscaler-43-9b",
+   "date": "Nov 23",
+   "year": "2026",
+   "isNew": true,
+   "firm": "CrowdStrike",
+   "section": "Tech & AI",
+   "kicker": "Deal",
+   "desk": "Tech & AI",
+   "heat": 5,
+   "rel": 5,
+   "title": "CrowdStrike to buy Zscaler in $43.9 billion all-stock deal",
+   "summary": "CrowdStrike will acquire Zscaler at a roughly 34% premium, targeting $1 billion of revenue synergies and $500 million of cost savings, according to its release.",
+   "facts": [
+    {
+     "k": "Enterprise value",
+     "v": "About $43.9B, based on CrowdStrike's Nov 20 close"
+    },
+    {
+     "k": "Exchange ratio",
+     "v": "1.135 CrowdStrike shares per Zscaler share (about $260.41)"
+    },
+    {
+     "k": "Premium",
+     "v": "About 34% to Zscaler's Nov 20 close"
+    },
+    {
+     "k": "Pro forma ownership",
+     "v": "CrowdStrike holders about 84.1%, Zscaler holders about 15.9%"
+    },
+    {
+     "k": "Expected close",
+     "v": "Second half of CrowdStrike fiscal 2028 (company)"
+    }
+   ],
+   "why": "The largest security deal of the year joins endpoint and network security and sets a template for platform consolidation.",
+   "cs": "Expect integration planning, cost take-out, vendor-consolidation and security-architecture work on both sides, plus CISOs re-running their vendor strategy and contract renewals as the combined platform pushes bundled pricing.",
+   "confidence": "Confirmed",
+   "readTime": "5 min",
+   "take": "The numbers are the buyer's targets, not results: $500 million of cost savings is the part consultants will be asked to deliver and the part customers will feel as vendor and data-centre consolidation.",
+   "paras": [
+    "CrowdStrike said on Monday 23 November 2026 that it will acquire Zscaler in an all-stock transaction that values the network-security company at about $43.9 billion, based on CrowdStrike's closing price on 20 November. According to CrowdStrike's release, each Zscaler share converts into 1.135 CrowdStrike shares, worth about $260.41 on that basis and a premium of roughly 34%. Both boards approved the deal unanimously, and Zscaler founder Jay Chaudhry and affiliates, who hold about 34% of Zscaler's shares, signed voting agreements.",
+    "Because the deal is paid in stock, Zscaler shareholders will own about 15.9% of the combined company and CrowdStrike holders about 84.1%. Closing is expected in the second half of CrowdStrike's fiscal 2028 and needs a Zscaler shareholder vote, regulatory approvals and customary conditions; CrowdStrike will file a Form S-4 that includes the proxy statement. TechCrunch reported a close around this time next year, which differs from the company's own timing, so this article uses the release. The two companies run separately until then. Chaudhry will continue to lead the Zscaler business and join the CrowdStrike board.",
+    "The companies argue the fit is commercial as much as technical. CrowdStrike says the combined business will have more than $10 billion of annual recurring revenue at close, of which Zscaler reported about $3.9 billion, and that the deal expands its addressable market by more than $185 billion in calendar 2029. The two share about 2,000 customers and 16 integrations, while about 8,000 Zscaler customers do not use CrowdStrike. Zscaler says its platform protects half of the Fortune 500.",
+    "The synergy targets are the part to watch. CrowdStrike says it expects about $1 billion of annualised revenue run-rate within 30 months of closing, and $500 million of annualised cost run-rate within 18 to 24 months, mainly from data-centre, vendor and operations optimisation. Those are company targets. The release says the deal should be significantly and immediately accretive to free cash flow per share before synergies.",
+    "Outside analysts quoted by Cybersecurity Dive framed the logic competitively. Madelein van der Hout of Forrester said the deal fills a network gap in CrowdStrike's offer, and Shaul Eyal of TD Cowen said it helps the company against Palo Alto Networks. Cybersecurity Dive also notes that CrowdStrike agreed earlier this month to buy Dreadnode and Fiddler; the Wall Street Journal reported prices of $95 million and $400 million, and the companies did not release terms.",
+    "Qatalyst Partners is lead financial adviser to CrowdStrike, with J.P. Morgan and BofA Securities also advising and Davis Polk & Wardwell as legal counsel. BDT & MSD Partners is lead financial adviser to Zscaler, with Citigroup and Goldman Sachs also named and Wilson Sonsini Goodrich & Rosati as legal counsel.",
+    "What is not yet known is whether regulators will examine the combination closely, how customers will react to bundled pricing, how much of the planned cost saving will fall on staff, and how the two architectures will be joined. The release does not state a termination fee."
+   ],
+   "unknowns": [
+    "Termination fee and detailed deal protections are not stated in the release",
+    "Scope and timing of regulatory review",
+    "How many roles the $500 million cost target affects",
+    "How the Zscaler network architecture will be joined to the Falcon platform"
+   ],
+   "questions": [
+    "CrowdStrike is paying a 34% premium in stock and targets $500 million of cost synergies. How would you test whether that target is credible?",
+    "What would you tell a CISO who buys from both companies about renewals during the 12 to 18 months before closing?",
+    "Which integration risks are biggest when an endpoint company buys a network-security company?"
+   ],
+   "sources": [
+    {
+     "stype": "Company release",
+     "src": "CrowdStrike newsroom",
+     "url": "https://www.crowdstrike.com/en-us/press-releases/crowdstrike-to-acquire-zscaler-bringing-network-security-and-zero-trust-to-the-falcon-platform/"
+    },
+    {
+     "stype": "Trade press",
+     "src": "Cybersecurity Dive",
+     "url": "https://www.cybersecuritydive.com/news/crowdstrike-acquire-zscaler-439-billion-turbulent-threat/875477/"
+    },
+    {
+     "stype": "Press",
+     "src": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/23/crowdstrike-to-acquire-zscaler-for-44-billion/"
+    }
+   ]
+  },
+  {
+   "id": "nvidia-reinstates-huang",
+   "date": "Nov 23",
+   "year": "2026",
+   "isNew": true,
+   "firm": "Nvidia",
+   "section": "Tech & AI",
+   "kicker": "Leadership",
+   "desk": "Tech & AI",
+   "heat": 5,
+   "rel": 4,
+   "title": "Nvidia board reinstates Jensen Huang as CEO 11 days after he resigned",
+   "summary": "Nvidia's board unanimously restored Huang, citing US government input that his return poses no national security risk, and created a new export-control committee, according to its filing.",
+   "facts": [
+    {
+     "k": "Effective",
+     "v": "Immediately, Nov 23, 2026"
+    },
+    {
+     "k": "Board vote",
+     "v": "Unanimous"
+    },
+    {
+     "k": "New oversight",
+     "v": "Independent-director National Security and Export Control Committee"
+    },
+    {
+     "k": "Compliance",
+     "v": "New Chief Compliance Officer to report to the nominating and governance committee"
+    },
+    {
+     "k": "Share price reaction",
+     "v": "More than 30% rise on Monday (Yahoo Finance headline; Fox News reported about 31%)"
+    }
+   ],
+   "why": "A chip supplier at the centre of AI spending reversed a CEO exit within two weeks and added a governance layer.",
+   "cs": "Board-governance, export-control compliance and geopolitical-risk work: clients that depend on Nvidia supply will ask for continuity plans, and companies selling advanced chips abroad will review their customer screening.",
+   "confidence": "Confirmed",
+   "readTime": "5 min",
+   "paras": [
+    "Nvidia's board on Monday 23 November 2026 unanimously reinstated Jensen Huang as president, chief executive and director, effective immediately, according to the company's filing with the US Securities and Exchange Commission. Huang resigned on 12 November, as covered earlier in this edition. Chief financial officer Colette Kress, who served as interim CEO, returns to her CFO role. Harvey C. Jones remains board chair.",
+    "In the filing, Nvidia says the board received input from senior levels of the US government and concluded that Huang's return poses no national security risk. Engadget reports that the board met late on Sunday and voted on Monday, that Jones had said days earlier the company did not intend to reinstate Huang, and that President Donald Trump, speaking to CNBC, said he had influenced the board. Nvidia's filing does not mention the president.",
+    "The board paired the decision with governance changes. A committee of independent directors, advised by independent counsel, is investigating reports that Huang was targeted by a foreign intelligence effort, and Huang supports the work and will cooperate, the filing says. The board is also creating a National Security and Export Control Committee made up only of independent directors, and is hiring a chief compliance officer who will report to the nominating and corporate governance committee.",
+    "The market reaction was large. Yahoo Finance's headline put the one-day rise in Nvidia shares above 30%, and the Fox News live blog reported a gain of about 31% that restored most of the value lost after the resignation. Those figures come from press reports of Monday's trading, not from Nvidia.",
+    "The decision sits inside a wider export-control story. Tech Times reports that the US Commerce Department put Megaspeed, a Singapore-based customer, and six affiliates on its Entity List on Monday, and that Huang and Nvidia's general counsel are scheduled to appear before House committees on 1 and 2 December. Fox News also reported that California's attorney general said an investigation into whether Nvidia misled investors continues; that is the office's position as reported, and Nvidia has not been found at fault.",
+    "What remains unknown is what the independent committee will find and when it will report, how Congress will respond, and whether the new committee changes how Nvidia screens customers. Nvidia's filing gives no timetable."
+   ],
+   "unknowns": [
+    "Findings and timing of the independent-director investigation",
+    "Outcome of the House appearances scheduled for 1 and 2 December",
+    "Whether the new committee changes customer screening in practice"
+   ],
+   "questions": [
+    "Nvidia reversed a CEO exit in 11 days. What should a board put in place before reinstating a leader under scrutiny?",
+    "How would you advise a company that depends on Nvidia supply to plan for leadership and export-control risk?"
+   ],
+   "sources": [
+    {
+     "stype": "Company release",
+     "src": "Nvidia 8-K (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000090/nov23pressrelease.htm"
+    },
+    {
+     "stype": "Press",
+     "src": "Engadget",
+     "url": "https://www.engadget.com/2326638/commerce-department-adds-megaspeed-to-trade-blacklist/"
+    },
+    {
+     "stype": "Press",
+     "src": "Tech Times",
+     "url": "https://www.techtimes.com/articles/331401/20261123/us-adds-nvidia-customer-megaspeed-entity-list-exports-seven-firms-now-need-licenses.htm"
+    },
+    {
+     "stype": "Press",
+     "src": "Fox News live blog",
+     "url": "https://www.foxnews.com/live-news/ai-news-tech-markets-nvidia-11-23-26"
+    }
+   ]
+  },
+  {
+   "id": "clariant-cdr-ashland-talks",
+   "date": "Nov 23",
+   "year": "2026",
+   "isNew": true,
+   "firm": "Clariant",
+   "section": "Industrials & logistics",
+   "kicker": "Deal",
+   "desk": "Industrials & logistics",
+   "heat": 3,
+   "rel": 4,
+   "title": "Clariant and CD&R confirm talks to buy Ashland",
+   "summary": "Clariant said it is in talks with private equity firm CD&R about acquiring Ashland; Reuters, citing Bloomberg, put the all-cash deal at about $3.4 billion.",
+   "facts": [
+    {
+     "k": "Reported value",
+     "v": "About $3.39B, all cash (Bloomberg, via Reuters)"
+    },
+    {
+     "k": "Ashland market cap",
+     "v": "$3.32B (LSEG, via Reuters)"
+    },
+    {
+     "k": "Status",
+     "v": "Talks only; no agreement certain (Clariant)"
+    },
+    {
+     "k": "Clariant FY2025 sales",
+     "v": "CHF 3.915B, 10,281 staff"
+    }
+   ],
+   "why": "A specialty-chemicals combination backed by private equity would trigger integration and portfolio work.",
+   "cs": "Due diligence, synergy sizing and portfolio-review work for the bidders, separation and carve-out planning if assets are sold on, and defence and strategic-alternatives work for Ashland's board.",
+   "confidence": "Reported",
+   "readTime": "3 min",
+   "paras": [
+    "Clariant confirmed on Monday 23 November 2026 that it is in discussions about a possible acquisition of Ashland in partnership with private equity firm Clayton, Dubilier & Rice (CD&R). In an ad hoc announcement issued from Muttenz, Switzerland, the company said it was responding to market speculation. It disclosed no price or terms and said there is no certainty that a transaction will be agreed or completed.",
+    "Reuters reported that Bloomberg News had said on Sunday that the two were negotiating an all-cash deal, and gave a value of about $3.39 billion, close to Ashland's recent trading price. Ashland's market capitalisation is $3.32 billion according to LSEG data cited by Reuters, and its shares rose about 1% in extended trading.",
+    "Reuters adds that Ashland has been exploring a sale since July after activist investors argued the company was undervalued, and that several private equity firms have shown interest. Clariant's own release says it will make a further announcement if and when appropriate. No advisers are named in either source.",
+    "For scale, Clariant's release states that it had 10,281 employees and sales of CHF 3.915 billion in its 2025 financial year. The unknowns are the structure of the Clariant and CD&R partnership, who would own which assets, the price, and whether rival bidders emerge."
+   ],
+   "unknowns": [
+    "Price, structure and the split of assets between Clariant and CD&R",
+    "Whether other private equity bidders remain in the process",
+    "Regulatory path and timing"
+   ],
+   "questions": [
+    "A strategic buyer partners with private equity to bid for a listed chemicals company. What are the main reasons for that structure?",
+    "How would you size synergies for a specialty-chemicals combination before any deal terms are public?"
+   ],
+   "sources": [
+    {
+     "stype": "Company release",
+     "src": "Clariant (GlobeNewswire)",
+     "url": "https://globenewswire.com/news-release/2026/11/23/3408861/0/en/clariant-confirms-talks-regarding-a-potential-acquisition-of-ashland.html"
+    },
+    {
+     "stype": "Press",
+     "src": "Reuters via Global Banking & Finance Review",
+     "url": "https://www.globalbankingandfinance.com/switzerlands-clariant-cd-r-talks-buy-chemicals-firm-ashland/"
+    }
+   ]
+  },
+  {
+   "id": "americas-car-mart-chapter-11",
+   "date": "Nov 24",
+   "year": "2026",
+   "isNew": true,
+   "firm": "America's Car-Mart",
+   "section": "Consumer & retail",
+   "kicker": "Distress",
+   "desk": "Consumer & retail",
+   "heat": 3,
+   "rel": 4,
+   "title": "America's Car-Mart files Chapter 11 with $10 million stalking-horse bid",
+   "summary": "The subprime auto dealer filed in Texas with liabilities of $1 billion to $10 billion and a proposed sale of substantially all assets to Cardinal Asset Holdings, according to TheStreet and Bloomberg Law.",
+   "facts": [
+    {
+     "k": "Court",
+     "v": "U.S. Bankruptcy Court, Southern District of Texas"
+    },
+    {
+     "k": "Listed liabilities",
+     "v": "$1B to $10B (range as filed)"
+    },
+    {
+     "k": "Listed assets",
+     "v": "$100M to $500M (range as filed)"
+    },
+    {
+     "k": "Stalking-horse bid",
+     "v": "$10M base cash plus $13.6M for owned real estate, inventory payments and assumed liabilities"
+    },
+    {
+     "k": "Financing",
+     "v": "Up to $60M of new DIP loans (needs court approval)"
+    },
+    {
+     "k": "Footprint",
+     "v": "Active dealerships cut from 154 to 94 in 12 months to Apr 30, 2026"
+    }
+   ],
+   "why": "A subprime auto retailer is moving to a court-run sale after shrinking its network by 40%.",
+   "cs": "Restructuring, DIP-financing, receivables-portfolio valuation and turnaround work for the company and its lenders, and credit-risk reviews for other subprime auto lenders and dealers.",
+   "confidence": "Reported",
+   "readTime": "4 min",
+   "paras": [
+    "America's Car-Mart, a subprime used-car dealer and lender, filed for Chapter 11 protection in the Southern District of Texas on Tuesday 24 November 2026, according to Bloomberg Law and TheStreet. The filing lists estimated assets of $100 million to $500 million and liabilities of $1 billion to $10 billion, ranges rather than exact figures.",
+    "TheStreet reports that the company proposes a court-supervised sale of substantially all its assets to Cardinal Asset Holdings and affiliates as a stalking-horse bidder, meaning an opening offer that other bidders can top. The consideration includes $10 million of base cash, $13.6 million for owned real estate, inventory-based payments, rollover debt and assumed liabilities. The company also seeks up to $60 million of new debtor-in-possession loans and up to $65 million of roll-up loans. Both the sale and the financing need bankruptcy court approval.",
+    "According to TheStreet, dealerships are expected to stay open, customers should keep paying on their current schedule, and service and accident protection plans are expected to continue, subject to court approval. The proposed plan would pay general unsecured claims in full, subject to approval, and give common stockholders $2.5 million from excluded assets with possible further recovery; no recovery is guaranteed. The report says Cardinal is led by executives with automotive retail and consumer finance experience, including a former Car-Mart chief executive and chairman.",
+    "The filing follows a long contraction. TheStreet reports that the annual report for the year ended 30 April 2026 carried a going-concern warning, that a special committee was reviewing strategic alternatives, and that active dealerships fell from 154 to 94, a cut of about 40%, over the preceding 12 months.",
+    "Not yet known are the names of the advisers, whether competing bids will appear, how the court will treat the proposed financing, and what happens to the loan portfolio that customers pay into."
+   ],
+   "unknowns": [
+    "Advisers and whether rival bids will emerge",
+    "Court decisions on the sale and financing",
+    "Treatment of the customer loan portfolio"
+   ],
+   "questions": [
+    "A subprime auto lender with a going-concern warning files Chapter 11 with a stalking-horse bidder. How would you value the loan portfolio?",
+    "What early-warning signals would you track at a subprime auto dealer before a filing?"
+   ],
+   "sources": [
+    {
+     "stype": "Press",
+     "src": "TheStreet",
+     "url": "https://www.thestreet.com/retail/after-closing-60-stores-americas-carmart-files-for-chapter-11-bankruptcy"
+    },
+    {
+     "stype": "Press",
+     "src": "Bloomberg Law",
+     "url": "https://news.bloomberglaw.com/bankruptcy-law/americas-car-mart-files-for-chapter-11-bankruptcy"
+    }
+   ]
+  },
   {
    "id": "ey-canada-80m-innovation",
    "date": "Nov 20",
@@ -1262,6 +1554,21 @@
  ],
  "wire": [
   {
+   "date": "Nov 24",
+   "tag": "Policy",
+   "text": "US adds Megaspeed and six affiliates to the Entity List; Federal Register publication due Nov 25 (Tech Times).",
+   "src": "Tech Times",
+   "desk": "Tech & AI",
+   "url": "https://www.techtimes.com/articles/331401/20261123/us-adds-nvidia-customer-megaspeed-entity-list-exports-seven-firms-now-need-licenses.htm",
+   "id": "wire-megaspeed-entity-list",
+   "firm": "Industry",
+   "confidence": "Reported",
+   "paras": [
+    "The US Commerce Department added Megaspeed and six affiliates in Singapore, Malaysia and Thailand to its Entity List, according to Tech Times on 23 November 2026. Licences are needed to supply them, with a presumption of denial.",
+    "The rule is scheduled for Federal Register publication on 25 November, and shipments under earlier orders may continue for 30 days. Megaspeed denies wrongdoing, according to Tech Times. See the Policy page for the full item."
+   ]
+  },
+  {
    "date": "Nov 20",
    "tag": "Consulting",
    "text": "Valterra Platinum moves finance, HR and payroll to Deloitte; 130+ staff transfer (Consultancy.co.za).",
@@ -1420,10 +1727,219 @@
   }
  ],
  "caseOfDay": {
-  "q": "Anthropic priced its IPO above range with $900B of committed compute spending. How would you size the demand needed to justify that commitment?",
-  "basedOn": "anthropic-ipo-priced"
+  "q": "CrowdStrike is paying a 34% premium in stock for Zscaler and targets $500 million of cost synergies. How would you test whether that target is credible?",
+  "basedOn": "crowdstrike-zscaler-43-9b"
  },
  "bigMoves": [
+  {
+   "id": "bm-crowdstrike-zscaler",
+   "type": "M&A",
+   "co": "CrowdStrike / Zscaler",
+   "firm": "CrowdStrike",
+   "desk": "Tech & AI",
+   "date": "Nov 23",
+   "year": 2026,
+   "heat": 5,
+   "rel": 5,
+   "value": "$43.9B",
+   "vlabel": "Enterprise value; all-stock",
+   "title": "CrowdStrike agrees to buy Zscaler for $43.9 billion in stock",
+   "cs": "Integration planning, $500M cost take-out delivery, vendor consolidation and CISO platform-strategy work on both sides of the deal.",
+   "stype": "Company release",
+   "src": "CrowdStrike newsroom",
+   "url": "https://www.crowdstrike.com/en-us/press-releases/crowdstrike-to-acquire-zscaler-bringing-network-security-and-zero-trust-to-the-falcon-platform/",
+   "updated": "2026-11-24",
+   "confidence": "Confirmed",
+   "readTime": "3 min",
+   "body": "CrowdStrike will acquire Zscaler in an all-stock deal worth about $43.9 billion, at a premium of roughly 34%, with closing expected in the second half of its fiscal 2028.",
+   "paras": [
+    "CrowdStrike announced on 23 November 2026 that it will buy Zscaler at 1.135 CrowdStrike shares per Zscaler share, about $260.41 each on 20 November prices. Zscaler holders would own about 15.9% of the combined company. Closing needs a Zscaler shareholder vote and regulatory approvals.",
+    "CrowdStrike targets about $1 billion of annualised revenue run-rate within 30 months and $500 million of annualised cost savings within 18 to 24 months, according to its release; both are company targets. See the full story in the front-page edition."
+   ],
+   "unknowns": [
+    "Termination fee not stated in the release",
+    "Regulatory review scope"
+   ],
+   "sources": [
+    {
+     "stype": "Company release",
+     "src": "CrowdStrike newsroom",
+     "url": "https://www.crowdstrike.com/en-us/press-releases/crowdstrike-to-acquire-zscaler-bringing-network-security-and-zero-trust-to-the-falcon-platform/"
+    },
+    {
+     "stype": "Trade press",
+     "src": "Cybersecurity Dive",
+     "url": "https://www.cybersecuritydive.com/news/crowdstrike-acquire-zscaler-439-billion-turbulent-threat/875477/"
+    }
+   ]
+  },
+  {
+   "id": "bm-nvidia-huang-reinstated",
+   "type": "Leadership",
+   "co": "Nvidia",
+   "firm": "Nvidia",
+   "desk": "Tech & AI",
+   "date": "Nov 23",
+   "year": 2026,
+   "heat": 5,
+   "rel": 4,
+   "value": "CEO reinstated",
+   "vlabel": "Board unanimous; new export-control committee",
+   "title": "Nvidia's board reinstates Jensen Huang as CEO after 11 days",
+   "cs": "Board-governance and export-control compliance work, and supply-continuity planning for clients that depend on Nvidia chips.",
+   "stype": "Company release",
+   "src": "Nvidia 8-K (SEC)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000090/nov23pressrelease.htm",
+   "updated": "2026-11-24",
+   "confidence": "Confirmed",
+   "readTime": "3 min",
+   "body": "Nvidia's board restored Jensen Huang as president, CEO and director with immediate effect, citing US government input that his return poses no national security risk.",
+   "paras": [
+    "Nvidia said in an SEC filing dated 23 November 2026 that its board unanimously reinstated Jensen Huang, who resigned on 12 November. Colette Kress returns to her CFO role after serving as interim CEO.",
+    "The board created a National Security and Export Control Committee of independent directors and is hiring a chief compliance officer. An independent-director committee continues to investigate reports that Huang was targeted by a foreign intelligence effort, the filing says."
+   ],
+   "unknowns": [
+    "Findings and timing of the independent investigation"
+   ],
+   "sources": [
+    {
+     "stype": "Company release",
+     "src": "Nvidia 8-K (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000090/nov23pressrelease.htm"
+    },
+    {
+     "stype": "Press",
+     "src": "Engadget",
+     "url": "https://www.engadget.com/2326638/commerce-department-adds-megaspeed-to-trade-blacklist/"
+    }
+   ]
+  },
+  {
+   "id": "bm-clariant-cdr-ashland",
+   "type": "M&A",
+   "co": "Clariant / CD&R / Ashland",
+   "firm": "Clariant",
+   "desk": "Industrials & logistics",
+   "date": "Nov 23",
+   "year": 2026,
+   "heat": 3,
+   "rel": 4,
+   "value": "~$3.4B",
+   "vlabel": "Reported all-cash value (Bloomberg via Reuters); talks only",
+   "title": "Clariant and CD&R confirm talks to acquire Ashland",
+   "cs": "Due diligence, synergy sizing and separation planning for the bidders; strategic-alternatives support for Ashland.",
+   "stype": "Company release",
+   "src": "Clariant (GlobeNewswire)",
+   "url": "https://globenewswire.com/news-release/2026/11/23/3408861/0/en/clariant-confirms-talks-regarding-a-potential-acquisition-of-ashland.html",
+   "updated": "2026-11-24",
+   "confidence": "Reported",
+   "readTime": "3 min",
+   "body": "Clariant confirmed talks with private equity firm CD&R about acquiring Ashland; no agreement is certain, and Reuters, citing Bloomberg, reported an all-cash value of about $3.39 billion.",
+   "paras": [
+    "Clariant said on 23 November 2026 that it is in discussions about a potential acquisition of Ashland in partnership with Clayton, Dubilier & Rice, responding to market speculation. It gave no price and said no transaction is certain.",
+    "Reuters says Ashland has explored a sale since July after activist investors argued it was undervalued, and that several private equity firms have shown interest."
+   ],
+   "unknowns": [
+    "Price and structure",
+    "Whether rival bidders remain"
+   ],
+   "sources": [
+    {
+     "stype": "Company release",
+     "src": "Clariant (GlobeNewswire)",
+     "url": "https://globenewswire.com/news-release/2026/11/23/3408861/0/en/clariant-confirms-talks-regarding-a-potential-acquisition-of-ashland.html"
+    },
+    {
+     "stype": "Press",
+     "src": "Reuters via Global Banking & Finance Review",
+     "url": "https://www.globalbankingandfinance.com/switzerlands-clariant-cd-r-talks-buy-chemicals-firm-ashland/"
+    }
+   ]
+  },
+  {
+   "id": "bm-americas-car-mart-chapter-11",
+   "type": "Distress",
+   "co": "America's Car-Mart",
+   "firm": "America's Car-Mart",
+   "desk": "Consumer & retail",
+   "date": "Nov 24",
+   "year": 2026,
+   "heat": 3,
+   "rel": 4,
+   "value": "$1B-$10B",
+   "vlabel": "Listed liabilities (range as filed)",
+   "title": "America's Car-Mart files Chapter 11 with a stalking-horse sale",
+   "cs": "Restructuring, DIP financing, receivables valuation and turnaround work; credit-risk reviews for other subprime auto lenders.",
+   "stype": "Press",
+   "src": "TheStreet",
+   "url": "https://www.thestreet.com/retail/after-closing-60-stores-americas-carmart-files-for-chapter-11-bankruptcy",
+   "updated": "2026-11-24",
+   "confidence": "Reported",
+   "readTime": "3 min",
+   "body": "The subprime auto dealer filed Chapter 11 in Texas and proposes selling substantially all assets to Cardinal Asset Holdings, with $10 million of base cash, according to TheStreet.",
+   "paras": [
+    "America's Car-Mart filed Chapter 11 on 24 November 2026 in the Southern District of Texas, listing assets of $100 million to $500 million and liabilities of $1 billion to $10 billion, according to Bloomberg Law and TheStreet.",
+    "TheStreet reports a proposed stalking-horse sale to Cardinal Asset Holdings and up to $60 million of new debtor-in-possession loans, both subject to court approval. Dealerships are expected to stay open."
+   ],
+   "unknowns": [
+    "Advisers and rival bids",
+    "Court rulings on sale and financing"
+   ],
+   "sources": [
+    {
+     "stype": "Press",
+     "src": "TheStreet",
+     "url": "https://www.thestreet.com/retail/after-closing-60-stores-americas-carmart-files-for-chapter-11-bankruptcy"
+    },
+    {
+     "stype": "Press",
+     "src": "Bloomberg Law",
+     "url": "https://news.bloomberglaw.com/bankruptcy-law/americas-car-mart-files-for-chapter-11-bankruptcy"
+    }
+   ]
+  },
+  {
+   "id": "bm-mnp-heagy-saskatoon",
+   "type": "M&A",
+   "co": "MNP / Heagy LLP",
+   "firm": "MNP",
+   "desk": "Consulting industry",
+   "date": "Nov 5",
+   "year": 2026,
+   "heat": 2,
+   "rel": 3,
+   "value": "4 partners, 14 staff",
+   "vlabel": "Heagy partners and team joining MNP; effective Jan 4, 2027",
+   "title": "MNP to merge with Saskatoon firm Heagy LLP",
+   "cs": "Integration and succession work in mid-market accounting; shows Canadian firms still consolidating regional practices.",
+   "stype": "Company release",
+   "src": "MNP newsroom",
+   "url": "https://www.mnp.ca/en/media/mnp-expands-presence-saskatoon-heagy-llp",
+   "updated": "2026-11-24",
+   "confidence": "Confirmed",
+   "readTime": "3 min",
+   "body": "MNP will merge with Heagy LLP, a Saskatoon chartered professional accounting firm, effective 4 January 2027, according to MNP.",
+   "paras": [
+    "MNP announced on 5 November 2026 that Heagy LLP, a Saskatoon firm focused on assurance, tax and business advisory, will join MNP effective 4 January 2027. Four Heagy partners, Richard Matchett, James Schemenauer, Alan Ashdown and Scott Ehrmantraut, will become MNP partners, supported by 14 team members.",
+    "The Heagy team stays at its current location, which becomes MNP's second Saskatoon office. MNP says it has more than 860 team members, including 142 partners, in Saskatchewan, and completed a merger with Green Finance earlier this year."
+   ],
+   "unknowns": [
+    "Financial terms were not disclosed in the release"
+   ],
+   "sources": [
+    {
+     "stype": "Company release",
+     "src": "MNP newsroom",
+     "url": "https://www.mnp.ca/en/media/mnp-expands-presence-saskatoon-heagy-llp"
+    },
+    {
+     "stype": "Press",
+     "src": "Cantech Letter (CNW)",
+     "url": "https://www.cantechletter.com/newswires/national-professional-services-firm-mnp-expands-presence-in-saskatchewan-with-saskatoon-merger/"
+    }
+   ],
+   "canada": true
+  },
   {
    "id": "bm-ey-canada-80m",
    "type": "Canada",
@@ -4373,6 +4889,61 @@
  "corrections": [],
  "policy": [
   {
+   "id": "pol-us-megaspeed-entity-list",
+   "kicker": "Regulation",
+   "firm": "Industry",
+   "desk": "Tech & AI",
+   "juris": "US",
+   "date": "Nov 23",
+   "year": "2026",
+   "confidence": "Reported",
+   "readTime": "3 min read",
+   "title": "US adds Megaspeed and six affiliates to the Entity List over AI chip diversion risk",
+   "summary": "Commerce added seven entities in Singapore, Malaysia and Thailand; US firms need licences, with a presumption of denial, to supply them, according to Tech Times.",
+   "cs": "Export-control compliance reviews, customer screening and know-your-customer work for chip makers, cloud providers and distributors, and supply-chain mapping for data-centre buyers in Southeast Asia.",
+   "dates": [
+    {
+     "iso": "2026-11-25",
+     "label": "Federal Register publication of the Entity List rule (scheduled)"
+    },
+    {
+     "iso": "2026-12-01",
+     "label": "House committee appearance for Nvidia CEO scheduled (reported)"
+    },
+    {
+     "iso": "2026-12-23",
+     "label": "End of 30-day savings clause for shipments under earlier orders"
+    },
+    {
+     "iso": "2027-01-10",
+     "label": "Affiliates Rule suspension runs to this date"
+    }
+   ],
+   "paras": [
+    "The US Commerce Department added Megaspeed and six other entities to its Entity List in a rule posted for public inspection on 23 November 2026, according to Tech Times. The entities are in Singapore, Malaysia and Thailand. Exports to them now need a licence, with a presumption of denial, because of what the rule describes as a significant risk of diversion of advanced computing items. Tech Times reports it is the first new listing in 410 days.",
+    "Engadget reports that the listing bars US companies, Nvidia included, from selling items such as AI chips to Megaspeed or its affiliates without a licence. Commerce began investigating the company in 2024, and Nvidia placed it on its own no-sell list in June 2025, Engadget says. Megaspeed denies wrongdoing. Tech Times reports that a joint Commerce and Justice Department statement on 16 November announced no charges against the company.",
+    "Two dates matter for compliance teams. Shipments under earlier orders may proceed if completed within 30 days of public inspection, which runs to 23 December, and the rule is scheduled for Federal Register publication on 25 November. Tech Times also notes that the broader Affiliates Rule, which extends controls to unlisted subsidiaries, remains suspended until 10 January 2027, so unnamed affiliates are not automatically covered.",
+    "Congressional attention is continuing. Tech Times reports that Nvidia chief executive Jensen Huang and the company's general counsel are scheduled to appear before House committees on 1 and 2 December. The sources reviewed do not say what legislation may follow or whether further entities will be listed."
+   ],
+   "unknowns": [
+    "Whether more Megaspeed-linked entities will be listed",
+    "Whether Congress will pass new chip-security legislation",
+    "How cloud providers will adjust screening of Southeast Asian customers"
+   ],
+   "sources": [
+    {
+     "stype": "Press",
+     "src": "Tech Times",
+     "url": "https://www.techtimes.com/articles/331401/20261123/us-adds-nvidia-customer-megaspeed-entity-list-exports-seven-firms-now-need-licenses.htm"
+    },
+    {
+     "stype": "Press",
+     "src": "Engadget",
+     "url": "https://www.engadget.com/2326638/commerce-department-adds-megaspeed-to-trade-blacklist/"
+    }
+   ]
+  },
+  {
    "id": "pol-ca-budget-2026-digital-transformation",
    "kicker": "Regulation",
    "firm": "Industry",
@@ -4855,6 +5426,59 @@
   }
  ],
  "deskNews": [
+  {
+   "id": "ci-deloitte-bfcm-2026",
+   "kicker": "Industry desk",
+   "firm": "Deloitte",
+   "desk": "Consumer & retail",
+   "date": "Nov 23",
+   "year": "2026",
+   "confidence": "Confirmed",
+   "readTime": "3 min read",
+   "lens": "Demand & customers",
+   "title": "Deloitte: 87% of US consumers plan to shop Black Friday-Cyber Monday, a 10-year high",
+   "summary": "Deloitte's survey of 1,200 consumers finds participation up from 82% in 2025, with average planned spend flat at $624 and Gen Z spending more.",
+   "cs": "Retailers and consumer-goods clients will ask for promotion-planning, pricing and omnichannel fulfilment work; flat average spend with higher participation signals a deal-driven, margin-pressured season.",
+   "paras": [
+    "Deloitte said on 23 November 2026 that 87% of US consumers plan to take part in Black Friday and Cyber Monday events, up from 82% in 2025 and the highest share since 2016. The figures come from a survey of 1,200 consumers conducted between 19 and 26 October 2026.",
+    "Average planned spend is $624, flat on last year, and 72% plan to delay some purchases until the sales. Households earning $100,000 to $199,000 plan to spend 7% less, while households under $50,000 plan to spend 17% more. Gen Z expects to spend $752, up 23%, and 94% of that group plan to take part.",
+    "On channels, budgets split 61% online and 39% in store; 55% plan to shop online on Black Friday, up seven points, and 53% in store, up four. Deloitte also reports that 47% say rising shipping costs may push them toward stores or pickup. The release is the firm's own survey, and the sample is small for a national forecast."
+   ],
+   "facts": [
+    {
+     "k": "Participation",
+     "v": "87% (82% in 2025)"
+    },
+    {
+     "k": "Average planned spend",
+     "v": "$624, flat year over year"
+    },
+    {
+     "k": "Gen Z planned spend",
+     "v": "$752, up 23%"
+    },
+    {
+     "k": "Survey",
+     "v": "1,200 consumers, Oct 19-26, 2026"
+    }
+   ],
+   "questions": [
+    "Participation is at a 10-year high but average spend is flat. What does that mean for retailer margins?",
+    "How would you reshape a promotion calendar for shoppers who delay purchases until Black Friday?"
+   ],
+   "unknowns": [
+    "Survey margin of error is not stated in the release",
+    "How actual sales compare with stated intent"
+   ],
+   "dates": [],
+   "sources": [
+    {
+     "stype": "Company release",
+     "src": "Deloitte via PR Newswire (Yahoo Finance)",
+     "url": "https://finance.yahoo.com/markets/articles/deloitte-participation-black-friday-cyber-123000204.html"
+    }
+   ]
+  },
   {
    "id": "ci-pwc-critical-thinking-cert",
    "kicker": "Industry desk",
