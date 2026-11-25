@@ -41,6 +41,10 @@
     {
      "k": "Expected close",
      "v": "Second half of CrowdStrike fiscal 2028 (company)"
+    },
+    {
+     "k": "Synergy targets (company)",
+     "v": "About $1B revenue run-rate in 30 months; $500M cost run-rate in 18-24 months"
     }
    ],
    "why": "The largest security deal of the year joins endpoint and network security and sets a template for platform consolidation.",
@@ -49,13 +53,15 @@
    "readTime": "5 min",
    "take": "The numbers are the buyer's targets, not results: $500 million of cost savings is the part consultants will be asked to deliver and the part customers will feel as vendor and data-centre consolidation.",
    "paras": [
-    "CrowdStrike said on Monday 23 November 2026 that it will acquire Zscaler in an all-stock transaction that values the network-security company at about $43.9 billion, based on CrowdStrike's closing price on 20 November. According to CrowdStrike's release, each Zscaler share converts into 1.135 CrowdStrike shares, worth about $260.41 on that basis and a premium of roughly 34%. Both boards approved the deal unanimously, and Zscaler founder Jay Chaudhry and affiliates, who hold about 34% of Zscaler's shares, signed voting agreements.",
-    "Because the deal is paid in stock, Zscaler shareholders will own about 15.9% of the combined company and CrowdStrike holders about 84.1%. Closing is expected in the second half of CrowdStrike's fiscal 2028 and needs a Zscaler shareholder vote, regulatory approvals and customary conditions; CrowdStrike will file a Form S-4 that includes the proxy statement. TechCrunch reported a close around this time next year, which differs from the company's own timing, so this article uses the release. The two companies run separately until then. Chaudhry will continue to lead the Zscaler business and join the CrowdStrike board.",
-    "The companies argue the fit is commercial as much as technical. CrowdStrike says the combined business will have more than $10 billion of annual recurring revenue at close, of which Zscaler reported about $3.9 billion, and that the deal expands its addressable market by more than $185 billion in calendar 2029. The two share about 2,000 customers and 16 integrations, while about 8,000 Zscaler customers do not use CrowdStrike. Zscaler says its platform protects half of the Fortune 500.",
-    "The synergy targets are the part to watch. CrowdStrike says it expects about $1 billion of annualised revenue run-rate within 30 months of closing, and $500 million of annualised cost run-rate within 18 to 24 months, mainly from data-centre, vendor and operations optimisation. Those are company targets. The release says the deal should be significantly and immediately accretive to free cash flow per share before synergies.",
-    "Outside analysts quoted by Cybersecurity Dive framed the logic competitively. Madelein van der Hout of Forrester said the deal fills a network gap in CrowdStrike's offer, and Shaul Eyal of TD Cowen said it helps the company against Palo Alto Networks. Cybersecurity Dive also notes that CrowdStrike agreed earlier this month to buy Dreadnode and Fiddler; the Wall Street Journal reported prices of $95 million and $400 million, and the companies did not release terms.",
-    "Qatalyst Partners is lead financial adviser to CrowdStrike, with J.P. Morgan and BofA Securities also advising and Davis Polk & Wardwell as legal counsel. BDT & MSD Partners is lead financial adviser to Zscaler, with Citigroup and Goldman Sachs also named and Wilson Sonsini Goodrich & Rosati as legal counsel.",
-    "What is not yet known is whether regulators will examine the combination closely, how customers will react to bundled pricing, how much of the planned cost saving will fall on staff, and how the two architectures will be joined. The release does not state a termination fee."
+    "CrowdStrike said on Monday 23 November 2026 that it will acquire Zscaler in an all-stock transaction that values the network-security company at about $43.9 billion, based on CrowdStrike's closing price on 20 November. According to the joint release, each Zscaler share converts into 1.135 CrowdStrike shares, worth about $260.41 on that basis and a premium of roughly 34% to Zscaler's 20 November close. Both boards approved the deal unanimously. Zscaler founder Jay Chaudhry and affiliates, who hold about 34% of Zscaler's shares, signed voting agreements.",
+    "Because the price is paid in shares, Zscaler holders will own about 15.9% of the combined company and CrowdStrike holders about 84.1%. Closing is expected in the second half of CrowdStrike's fiscal 2028, which falls in calendar 2027, and needs a Zscaler shareholder vote, regulatory approvals and customary conditions. CrowdStrike will file a Form S-4 containing the proxy statement and prospectus. TechCrunch reported a close around this time next year, which differs slightly from the company's own timing, so this article uses the release. The two companies run separately until then, and Chaudhry will continue to lead the Zscaler business and join the CrowdStrike board.",
+    "The companies were also reporting results the same day: CrowdStrike its fiscal third quarter and Zscaler its fiscal first quarter. They moved a joint call to 5:00 a.m. Pacific on 23 November, replacing one that had been set for 1 December. The releases point readers to the companies' investor sites for the quarterly figures, and this article does not report them.",
+    "The commercial argument is about reach and control. CrowdStrike says the combined business will have more than $10 billion of annual recurring revenue at close, of which Zscaler reported about $3.9 billion in its latest quarter, and that the deal expands its addressable market by more than $185 billion in calendar 2029. The two share more than 2,000 customers and 16 integrations, while about 8,000 Zscaler customers do not use CrowdStrike, according to the release. Zscaler says its platform protects half of the Fortune 500, operates from more than 200 locations and processes more than 750 billion transactions a day; those are company figures. CrowdStrike plans to carry Zscaler products on its single-contract Falcon Flex licence and to feed network telemetry into its Falcon Next-Gen SIEM. George Kurtz, CrowdStrike's founder and chief executive, framed the deal around securing AI and a single control plane, and Chaudhry described it as the natural evolution of the two companies' partnership, in the release.",
+    "The synergy targets are the part to watch. CrowdStrike expects about $1 billion of annualised revenue run-rate within 30 months of closing, and $500 million of annualised cost run-rate within 18 to 24 months, mainly from data-centre infrastructure, vendors and wider operations. Those are the buyer's targets, not results. The release says the deal should be significantly and immediately accretive to free cash flow per share before synergies, and accretive to revenue growth, non-GAAP operating margin and free cash flow margin within the first fiscal year after close once synergies are counted.",
+    "Outside analysts framed it competitively. Cybersecurity Dive quotes Madelein van der Hout of Forrester saying the deal fills a network gap in CrowdStrike's offer, and Shaul Eyal of TD Cowen saying it helps the company against Palo Alto Networks. In a longer Forrester note published on 24 November, principal analyst James Plouffe calls it the largest cybersecurity acquisition to date, puts Zscaler at about 11,000 customers with about 8,000 not overlapping with CrowdStrike, and notes that CrowdStrike's last three acquisitions, SGNL, Seraphic and Dreadnode, totalled about $1.2 billion, which makes this one uncharacteristically large. Cybersecurity Dive adds that CrowdStrike also agreed this month to buy Fiddler, and that the Wall Street Journal reported prices of $95 million for Dreadnode and $400 million for Fiddler; the companies did not release terms.",
+    "Forrester sees shareholder approval as a formality given Chaudhry's 34%, and regulatory risk as higher in the European Union and United Kingdom, where investment screening could add filings. It says regulators might look at bundling through Falcon Flex and at endpoint interoperability with Microsoft Defender and SentinelOne, and judges that interoperability commitments are a likelier outcome than a block. It flags integration risk too: CrowdStrike has not integrated a company this size, Zscaler's cloud raises questions about data-centre consolidation and outage risk given CrowdStrike's July 2024 outage, and ownership of Red Canary raises vendor-neutrality questions for managed-detection customers who use other endpoint tools. Forrester lists product overlaps in cloud and SaaS posture management, data security, identity and browser security, and notes that more than 20 vendors claim secure access service edge capabilities, so Netskope, Cato Networks and others may see partnerships shift. That is one analyst firm's view, not a forecast of what regulators will do.",
+    "For buyers, Forrester's advice is practical: ask for demonstrated interoperability, and use renewal talks to secure price protection and change-of-control terms. Qatalyst Partners is lead financial adviser to CrowdStrike, with J.P. Morgan and BofA Securities also advising and Davis Polk & Wardwell as legal counsel. BDT & MSD Partners is lead financial adviser to Zscaler, with Citigroup and Goldman Sachs also named and Wilson Sonsini Goodrich & Rosati as legal counsel.",
+    "What is not yet known is whether regulators will review the combination closely, how customers will respond to bundled pricing, how much of the $500 million cost target will fall on staff, and how the two architectures will be joined. The release does not state a termination fee."
    ],
    "unknowns": [
     "Termination fee and detailed deal protections are not stated in the release",
@@ -75,16 +81,27 @@
      "url": "https://www.crowdstrike.com/en-us/press-releases/crowdstrike-to-acquire-zscaler-bringing-network-security-and-zero-trust-to-the-falcon-platform/"
     },
     {
+     "stype": "Company release",
+     "src": "Zscaler newsroom",
+     "url": "https://www.zscaler.com/press/crowdstrike-acquire-zscaler-bringing-network-security-and-zero-trust-falcon-platform"
+    },
+    {
      "stype": "Trade press",
      "src": "Cybersecurity Dive",
      "url": "https://www.cybersecuritydive.com/news/crowdstrike-acquire-zscaler-439-billion-turbulent-threat/875477/"
+    },
+    {
+     "stype": "Research",
+     "src": "Forrester",
+     "url": "https://www.forrester.com/blogs/crowdstrike-and-zscaler-the-pre-black-friday-43-billion-deal/"
     },
     {
      "stype": "Press",
      "src": "TechCrunch",
      "url": "https://techcrunch.com/2026/11/23/crowdstrike-to-acquire-zscaler-for-44-billion/"
     }
-   ]
+   ],
+   "updated": "2026-11-24"
   },
   {
    "id": "nvidia-reinstates-huang",
@@ -118,7 +135,7 @@
     },
     {
      "k": "Share price reaction",
-     "v": "More than 30% rise on Monday (Yahoo Finance headline; Fox News reported about 31%)"
+     "v": "Up about 30%+ intraday Monday (press reports; not a closing price)"
     }
    ],
    "why": "A chip supplier at the centre of AI spending reversed a CEO exit within two weeks and added a governance layer.",
@@ -126,12 +143,14 @@
    "confidence": "Confirmed",
    "readTime": "5 min",
    "paras": [
-    "Nvidia's board on Monday 23 November 2026 unanimously reinstated Jensen Huang as president, chief executive and director, effective immediately, according to the company's filing with the US Securities and Exchange Commission. Huang resigned on 12 November, as covered earlier in this edition. Chief financial officer Colette Kress, who served as interim CEO, returns to her CFO role. Harvey C. Jones remains board chair.",
-    "In the filing, Nvidia says the board received input from senior levels of the US government and concluded that Huang's return poses no national security risk. Engadget reports that the board met late on Sunday and voted on Monday, that Jones had said days earlier the company did not intend to reinstate Huang, and that President Donald Trump, speaking to CNBC, said he had influenced the board. Nvidia's filing does not mention the president.",
-    "The board paired the decision with governance changes. A committee of independent directors, advised by independent counsel, is investigating reports that Huang was targeted by a foreign intelligence effort, and Huang supports the work and will cooperate, the filing says. The board is also creating a National Security and Export Control Committee made up only of independent directors, and is hiring a chief compliance officer who will report to the nominating and corporate governance committee.",
-    "The market reaction was large. Yahoo Finance's headline put the one-day rise in Nvidia shares above 30%, and the Fox News live blog reported a gain of about 31% that restored most of the value lost after the resignation. Those figures come from press reports of Monday's trading, not from Nvidia.",
-    "The decision sits inside a wider export-control story. Tech Times reports that the US Commerce Department put Megaspeed, a Singapore-based customer, and six affiliates on its Entity List on Monday, and that Huang and Nvidia's general counsel are scheduled to appear before House committees on 1 and 2 December. Fox News also reported that California's attorney general said an investigation into whether Nvidia misled investors continues; that is the office's position as reported, and Nvidia has not been found at fault.",
-    "What remains unknown is what the independent committee will find and when it will report, how Congress will respond, and whether the new committee changes how Nvidia screens customers. Nvidia's filing gives no timetable."
+    "Nvidia's board on Monday 23 November 2026 unanimously reinstated Jensen Huang as president, chief executive and director, effective immediately, according to the company's filing with the US Securities and Exchange Commission. Huang resigned on 12 November, as covered earlier in this edition, so the reversal came after 11 days. Chief financial officer Colette Kress, who served as interim CEO, returns to her CFO role, and Harvey C. Jones remains board chair. Euronews quotes Jones saying the board believes Huang is the right person to lead the company.",
+    "In the filing, Nvidia says the board received input from senior levels of the US government and concluded that Huang's return poses no national security risk. Engadget reports that the board met late on Sunday and voted on Monday, that Jones had said days earlier the board did not intend to reinstate Huang, and that President Donald Trump told CNBC he had influenced the decision. Euronews reports that Trump called the outcome the correct and proper decision on social media and said he had been speaking to the board directly and indirectly. Nvidia's own filing does not mention the president.",
+    "The board paired the decision with governance changes. A committee of independent directors, advised by independent counsel, is investigating reports that Huang was targeted by a foreign intelligence effort, and Huang supports the work and will cooperate, the filing says. The board is also creating a National Security and Export Control Committee made up only of independent directors, and is hiring a chief compliance officer who will report to the nominating and corporate governance committee. The filing gives no timetable for the investigation.",
+    "The market reaction was large. Gadget Review coverage syndicated by Yahoo Finance reported Nvidia shares up about 30% to 33% in early trading, with the Nasdaq Composite up roughly 6% to 7%, the S&P 500 up roughly 5% and the Dow up about 3%. Euronews said the move put the stock on track to add more than $1 trillion of market value, possibly a first. These are intraday figures from press reports, not closing prices. The Associated Press, as quoted in the same coverage, said Nvidia had fallen nearly 23% in the week after the resignation and was trading near $167 after the surge, still below its $186 level before the controversy. The S&P 500 had lost seven sessions in a row before Monday, and Deutsche Bank strategist Jim Reid noted that comparable volatility shocks have historically taken several weeks to settle.",
+    "The decision sits inside a wider export-control story. The Commerce Department added Megaspeed, a Singapore-based Nvidia customer, and six affiliates to its Entity List on the same day, covered on the Policy page. The Next Web reports that four US departments had wanted the listing for months and that Senator Pete Ricketts pressed Commerce to explain the delay; Treasury Secretary Scott Bessent said publicly that Commerce holds the pen. Fox Business reports that Nvidia's own website had listed Megaspeed as a preferred cloud partner, and that Nvidia placed it on its internal no-sell list in June 2025.",
+    "The Entity List rule itself, per Tech Times, adds seven entities in Singapore, Malaysia and Thailand, applies a presumption of denial to licence requests, and is the first new listing in 410 days. Shipments under earlier orders may proceed for 30 days, and the rule is scheduled for Federal Register publication on 25 November. Megaspeed denies wrongdoing, and a joint Commerce and Justice Department statement on 16 November announced no charges against the company, according to Tech Times. Euronews adds that Nvidia had reported better-than-expected quarterly results the week before the reinstatement.",
+    "Political scrutiny continues. Tech Times reports that Huang and Nvidia's general counsel are scheduled to appear before House committees on 1 and 2 December, and Euronews describes Huang's session as a closed, transcribed interview. Fox News also reported that California's attorney general said an investigation into whether Nvidia misled investors continues; that is the office's position as reported, and Nvidia has not been found at fault. Huang said he was honoured and would lead with humility, Euronews reports.",
+    "For clients, the lesson is about concentration. Nvidia's supply sits underneath most large AI build-outs, and a two-week leadership scare moved major indices. What remains unknown is what the independent committee will find and when it will report, how Congress will respond to the new listing and the hearings, and whether the new committee changes how Nvidia screens customers in practice."
    ],
    "unknowns": [
     "Findings and timing of the independent-director investigation",
@@ -160,10 +179,31 @@
     },
     {
      "stype": "Press",
+     "src": "Euronews via Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-reinstates-jensen-huang-ceo-141440326.html"
+    },
+    {
+     "stype": "Press",
+     "src": "Gadget Review via Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-shares-surge-over-30-183222460.html"
+    },
+    {
+     "stype": "Press",
+     "src": "The Next Web",
+     "url": "https://thenextweb.com/news/us-blacklists-megaspeed-nvidia-scandal"
+    },
+    {
+     "stype": "Press",
+     "src": "Fox Business",
+     "url": "https://www.foxbusiness.com/politics/trump-admin-adds-megaspeed-commerce-department-trade-blacklist-after-nvidia-scandal"
+    },
+    {
+     "stype": "Press",
      "src": "Fox News live blog",
      "url": "https://www.foxnews.com/live-news/ai-news-tech-markets-nvidia-11-23-26"
     }
-   ]
+   ],
+   "updated": "2026-11-24"
   },
   {
    "id": "clariant-cdr-ashland-talks",
@@ -194,6 +234,10 @@
     {
      "k": "Clariant FY2025 sales",
      "v": "CHF 3.915B, 10,281 staff"
+    },
+    {
+     "k": "Ashland FY2026",
+     "v": "Sales $1.863B; adjusted EBITDA $385M; net debt $891M (company, Nov 3)"
     }
    ],
    "why": "A specialty-chemicals combination backed by private equity would trigger integration and portfolio work.",
@@ -201,15 +245,19 @@
    "confidence": "Reported",
    "readTime": "3 min",
    "paras": [
-    "Clariant confirmed on Monday 23 November 2026 that it is in discussions about a possible acquisition of Ashland in partnership with private equity firm Clayton, Dubilier & Rice (CD&R). In an ad hoc announcement issued from Muttenz, Switzerland, the company said it was responding to market speculation. It disclosed no price or terms and said there is no certainty that a transaction will be agreed or completed.",
-    "Reuters reported that Bloomberg News had said on Sunday that the two were negotiating an all-cash deal, and gave a value of about $3.39 billion, close to Ashland's recent trading price. Ashland's market capitalisation is $3.32 billion according to LSEG data cited by Reuters, and its shares rose about 1% in extended trading.",
-    "Reuters adds that Ashland has been exploring a sale since July after activist investors argued the company was undervalued, and that several private equity firms have shown interest. Clariant's own release says it will make a further announcement if and when appropriate. No advisers are named in either source.",
-    "For scale, Clariant's release states that it had 10,281 employees and sales of CHF 3.915 billion in its 2025 financial year. The unknowns are the structure of the Clariant and CD&R partnership, who would own which assets, the price, and whether rival bidders emerge."
+    "Clariant confirmed on Monday 23 November 2026 that it is in discussions about a possible acquisition of Ashland in partnership with private equity firm Clayton, Dubilier & Rice (CD&R). In an ad hoc announcement from Muttenz, Switzerland, the company said it was responding to market speculation. It disclosed no price or terms and said there is no certainty that a transaction will be agreed or completed, adding that it will make a further announcement if and when appropriate.",
+    "Reuters reported that Bloomberg News had said on Sunday that the two were negotiating an all-cash deal, and gave a value of about $3.39 billion, close to Ashland's recent trading price. Ashland's market capitalisation is $3.32 billion according to LSEG data cited by Reuters, and its shares rose about 1% in extended trading. The market value has moved around: Personal Care Insights cited about $3.5 billion in August, and Mergermarket's Activist Monitor put it near $3.14 billion in October at a share price of about $68.76.",
+    "The background is an activist-driven sale process. Personal Care Insights reported in August, citing Bloomberg, that Ashland was exploring a sale after months of activist pressure and was talking to strategic and financial buyers, with Citigroup and Lazard advising. Ancora Holdings, which holds about 4.24% according to Mergermarket, went public in June pushing for a sale, and Cruiser Capital Advisors, with a smaller stake, joined it. Both reportedly threatened proxy fights if there was no progress by the September director-nomination deadline. At the end of July Ashland reached a cooperation agreement with Ancora that added two directors and created a capital-allocation advisory committee.",
+    "Mergermarket reported on 5 October, citing three sources, that initial bids were collected on 2 October, and, citing two sources, that CD&R had teamed with Clariant. Those sources said Clariant alone would face antitrust issues because the businesses overlap in personal care, which would explain the private equity partner. Apollo and Carlyle were also named as interested, with Advent and Standard Industries, a roughly 9.9% holder, mentioned in earlier Bloomberg coverage. None of the parties commented in those reports, and these are source-based accounts, not confirmed facts. Mergermarket also noted that Ashland is described as a reluctant seller and that sponsors might struggle to pay a premium of more than 10% to 15%.",
+    "On valuation, Mergermarket reports that Ancora's June presentation set a base case of 11.5 times estimated fiscal 2026 adjusted EBITDA, or about $76.47 a share, and a bull case of 13.8 times, or about $96. The shares closed near $68.76 in early October. Ashland reported fiscal 2026 adjusted EBITDA of $385 million, and its release credits its Life Sciences segment with a record quarterly margin and says Specialty Additives was held back by plant productivity. Whether a deal near the reported $3.39 billion would satisfy those holders is not known.",
+    "Ashland's own numbers show what a buyer would be underwriting. For the fiscal year ended 30 September 2026, reported on 3 November, sales were $1.863 billion, up 2%, and adjusted EBITDA was $385 million, down from $401 million, a margin of 20.7%. Fourth-quarter sales were $498 million and adjusted EBITDA $121 million. Life Sciences posted a 35.6% segment margin in the quarter, Personal Care sales rose 8%, and Specialty Additives EBITDA fell 31% on lower productivity at its Hopewell plant. Year-end net debt was $891 million, a leverage ratio of 2.3 times. For fiscal 2027 the company guided to sales of $1.905 billion to $1.975 billion and adjusted EBITDA of $405 million to $435 million. The release does not mention a sale process.",
+    "Clariant is itself under margin pressure. Its third-quarter local-currency sales rose 5.6% to CHF 968.8 million, but EBITDA margin before exceptionals fell to 15.6% from 17.9% as raw materials rose 12%, energy 9% and logistics 23.7%, according to Indian Chemical News. It reported CHF 79 million of run-rate savings against a CHF 90 million target for 2026, and kept its guidance for a margin of about 18%. For scale, Clariant's release states 10,281 employees and CHF 3.915 billion of sales in 2025.",
+    "The unknowns are the structure of the Clariant and CD&R partnership, which assets each would own, the price, whether rival bidders remain, and how competition authorities would view the personal-care overlap."
    ],
    "unknowns": [
     "Price, structure and the split of assets between Clariant and CD&R",
     "Whether other private equity bidders remain in the process",
-    "Regulatory path and timing"
+    "Antitrust view of the personal-care overlap and timing"
    ],
    "questions": [
     "A strategic buyer partners with private equity to bid for a listed chemicals company. What are the main reasons for that structure?",
@@ -225,8 +273,29 @@
      "stype": "Press",
      "src": "Reuters via Global Banking & Finance Review",
      "url": "https://www.globalbankingandfinance.com/switzerlands-clariant-cd-r-talks-buy-chemicals-firm-ashland/"
+    },
+    {
+     "stype": "Company release",
+     "src": "Ashland results (GlobeNewswire via Finviz)",
+     "url": "https://finviz.com/news/414986/ashland-reports-fourth-quarter-and-full-year-fiscal-2026-results-and-issues-outlook-for-fiscal-2027"
+    },
+    {
+     "stype": "Trade press",
+     "src": "Personal Care Insights",
+     "url": "https://www.personalcareinsights.com/news/ashland-sale-private-equity.html"
+    },
+    {
+     "stype": "Trade press",
+     "src": "ION Analytics Mergermarket",
+     "url": "https://ionanalytics.com/insights/mergermarket/activistmonitor/ashland-collects-initial-bids/"
+    },
+    {
+     "stype": "Trade press",
+     "src": "Indian Chemical News",
+     "url": "https://www.indianchemicalnews.com/general/lite/clariant-posts-56-sales-growth-in-q3-but-middle-east-conflict-rising-costs-squeeze-margins-32519"
     }
-   ]
+   ],
+   "updated": "2026-11-24"
   },
   {
    "id": "americas-car-mart-chapter-11",
@@ -264,7 +333,15 @@
     },
     {
      "k": "Footprint",
-     "v": "Active dealerships cut from 154 to 94 in 12 months to Apr 30, 2026"
+     "v": "Dealerships cut from 154 to 94 in the year to Apr 30, 2026"
+    },
+    {
+     "k": "FY2026 net loss",
+     "v": "$139.1M on revenue of $1.28B"
+    },
+    {
+     "k": "Q1 FY2027 net loss",
+     "v": "$69.0M; retail units down 81.9%"
     }
    ],
    "why": "A subprime auto retailer is moving to a court-run sale after shrinking its network by 40%.",
@@ -272,11 +349,14 @@
    "confidence": "Reported",
    "readTime": "4 min",
    "paras": [
-    "America's Car-Mart, a subprime used-car dealer and lender, filed for Chapter 11 protection in the Southern District of Texas on Tuesday 24 November 2026, according to Bloomberg Law and TheStreet. The filing lists estimated assets of $100 million to $500 million and liabilities of $1 billion to $10 billion, ranges rather than exact figures.",
+    "America's Car-Mart, a subprime used-car dealer and lender, filed for Chapter 11 protection in the Southern District of Texas on Tuesday 24 November 2026, according to Bloomberg Law and TheStreet. The filing lists estimated assets of $100 million to $500 million and liabilities of $1 billion to $10 billion, which are ranges, not exact figures.",
     "TheStreet reports that the company proposes a court-supervised sale of substantially all its assets to Cardinal Asset Holdings and affiliates as a stalking-horse bidder, meaning an opening offer that other bidders can top. The consideration includes $10 million of base cash, $13.6 million for owned real estate, inventory-based payments, rollover debt and assumed liabilities. The company also seeks up to $60 million of new debtor-in-possession loans and up to $65 million of roll-up loans. Both the sale and the financing need bankruptcy court approval.",
     "According to TheStreet, dealerships are expected to stay open, customers should keep paying on their current schedule, and service and accident protection plans are expected to continue, subject to court approval. The proposed plan would pay general unsecured claims in full, subject to approval, and give common stockholders $2.5 million from excluded assets with possible further recovery; no recovery is guaranteed. The report says Cardinal is led by executives with automotive retail and consumer finance experience, including a former Car-Mart chief executive and chairman.",
-    "The filing follows a long contraction. TheStreet reports that the annual report for the year ended 30 April 2026 carried a going-concern warning, that a special committee was reviewing strategic alternatives, and that active dealerships fell from 154 to 94, a cut of about 40%, over the preceding 12 months.",
-    "Not yet known are the names of the advisers, whether competing bids will appear, how the court will treat the proposed financing, and what happens to the loan portfolio that customers pay into."
+    "The filing follows a long contraction that the company disclosed in stages. For the fiscal year ended 30 April 2026, Car-Mart reported revenue of $1.28 billion, down 7.9%, and a net loss of $139.1 million, or $16.79 per share, according to its July results release and Talk Business. Retail units fell 14.3% for the year and 27.1% in the fourth quarter, net charge-offs reached 27.6% of average receivables from 25.9%, and the allowance for credit losses stood at 25.15% of receivables. Active dealerships fell from 154 to 94, a cut of about 40%, as 42 were consolidated in the fourth quarter alone. The company's annual report carried a going-concern warning, and chief executive Douglas Campbell said at the time that it had not yet secured the financing or alternative transaction needed to resolve its liquidity constraint, according to Bloomberg Law.",
+    "The loan book showed the strain. In the year to 30 April 2026, active customers fell 6.7% to 97,696, accounts more than 30 days past due rose to 4.1% from 3.4%, and the average contract term was 49 months, according to Talk Business and the company's release. Car-Mart's chief financial officer, Jonathan Collins, left at the end of July to join another company, and a capital-markets executive took over the role, Talk Business reports.",
+    "The company described the problem as a liquidity and capital-structure issue and not a credit-quality one. At 30 April it had total debt of $722.4 million against $1.41 billion of finance receivables, and unrestricted cash of $47.0 million. A $300 million term loan closed in October 2025, and on 19 June 2026 the company agreed an amendment with those lenders that gave covenant relief and a defined window to review strategic and financing alternatives. A special committee ran that review.",
+    "The numbers worsened after the review began. In the quarter ended 31 July 2026, reported on 9 September, retail units fell 81.9% to 2,450, total revenue fell 57.3% to $145.8 million, and the net loss was $69.0 million, or $8.28 per share. Gross margin dropped to 21.8% from 36.6%, wholesale sales rose to 23.4% of sales as inventory was run down to $35.2 million, and principal receivables fell 21.4% to $1.19 billion. Net charge-offs rose to 9.5% for the quarter and unrestricted cash fell to $27.5 million. The company also booked $13.7 million of non-recurring costs, including $9.6 million of professional fees tied to the strategic review. On 4 September it extended the lender amendment's termination date to 11 September. These figures come from the company's own releases, which were partly summarised in the pages reviewed.",
+    "Not yet known are the names of the advisers, whether competing bids will appear, how the court will treat the proposed financing, and what happens to the customer loan portfolio that borrowers continue to pay into."
    ],
    "unknowns": [
     "Advisers and whether rival bids will emerge",
@@ -297,8 +377,29 @@
      "stype": "Press",
      "src": "Bloomberg Law",
      "url": "https://news.bloomberglaw.com/bankruptcy-law/americas-car-mart-files-for-chapter-11-bankruptcy"
+    },
+    {
+     "stype": "Company release",
+     "src": "Car-Mart FY2026 results (GlobeNewswire via Finviz)",
+     "url": "https://finviz.com/news/367755/americas-car-mart-reports-fourth-quarter-and-fiscal-year-2026-results"
+    },
+    {
+     "stype": "Company release",
+     "src": "Car-Mart Q1 FY2027 results (GlobeNewswire via Finviz)",
+     "url": "https://finviz.com/news/390083/americas-car-mart-reports-first-quarter-fiscal-year-2027-results"
+    },
+    {
+     "stype": "Trade press",
+     "src": "Talk Business & Politics",
+     "url": "https://talkbusiness.net/2026/07/car-mart-fiscal-2026-loss-exceeds-139-million-sees-29-million-q4-loss/"
+    },
+    {
+     "stype": "Press",
+     "src": "Bloomberg Law (July)",
+     "url": "https://news.bgov.com/bankruptcy-law/americas-car-mart-still-needs-funds-to-fix-liquidity-constraint"
     }
-   ]
+   ],
+   "updated": "2026-11-24"
   },
   {
    "id": "ey-canada-80m-innovation",
