@@ -230,3 +230,9 @@ This overrides every "2+ sources" requirement above (§6, §6c, §6d, §14, §15
 
 ### 15f. Big Moves tabs: five per type (owner's rule, 22 Nov 2026)
 The Big Moves filter has no "All" tab; it opens on M&A. Every type tab (M&A, Funding, IPO, Earnings, Leadership, Restructuring, Partnerships, Legal & Governance, Divestiture, Distress, Market Entry, Canada) must always hold at least 5 items: one lead (highest `heat`, shown as the big card) and four smaller ones. Carry older verified items forward to keep each tab at 5; add fresh ones first. Canada counts items with `"canada": true`. Report any tab under 5.
+
+### 15g. Headlines as leads; fetch permission (owner's rule, 25 Nov 2026)
+- A headline or listing summary may be used as a lead and, when pages cannot be read, as a source for a short item. Never stop a run for "headlines only": first search for more sources on each headline and try to read them (use the `web-fetch` agent or WebFetch).
+- An item built from a headline or summary alone must say so in its text, stay Tier 2/3 length, set `confidence` to "Reported" or "Developing", list what is unknown, and invent no facts beyond what the headline/summary states. Prefer a second source when one exists.
+- §7 HOLD rules still override this: personal-conduct and allegation stories are never published from headlines alone.
+- WebFetch on the consultancy.org network (consultancy.org/.uk/.eu/.asia, consulting.us/.ca) is permitted by the owner. If a fetch fails with PROVENANCE_REQUIRED, say so in status.json and use the headline route above rather than carrying the edition forward unchanged.
