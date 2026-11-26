@@ -1,3 +1,3 @@
 Contact: https://github.com/3ntrepreneur/consultant-times/security/advisories/new
 Preferred-Languages: en
-Canonical: https://3ntrepreneur.github.io/consultant-times/.well-known/security.txt
+Canonical: https://theconsultanttimes.com/.well-known/security.txt

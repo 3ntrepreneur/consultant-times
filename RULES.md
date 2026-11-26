@@ -1,7 +1,7 @@
 # The Consultant Times — Editorial & Operations Rulebook
 
 Every scheduled run MUST read this file first and follow it exactly. It is the single source of truth.
-Founder/editor: Thomson Le (Vancouver, BCIT BITMAN). Site: https://3ntrepreneur.github.io/consultant-times/
+Founder/editor: Thomson Le (Vancouver, BCIT BITMAN). Site: https://theconsultanttimes.com/
 
 ## 1. Mission and audience
 Business news through a consultant's lens. Every item answers: does this create client work, change an industry's
@@ -148,7 +148,7 @@ Only real postings with working https links. Include pay only if the posting sta
 - Re-check items from the last 72h against newer reports; update or correct as needed.
 
 ## 11. Friday extras
-- Add Wire item tagged "Week in 60 seconds" linking to the five top stories (internal #story- links allowed as url "https://3ntrepreneur.github.io/consultant-times/#story-ID").
+- Add Wire item tagged "Week in 60 seconds" linking to the five top stories (internal #story- links allowed as url "https://theconsultanttimes.com/#story-ID").
 - Write a ~120-word LinkedIn post in Thomson's professional voice about the week's top story, with the article link,
   and save it as a Gmail DRAFT addressed to Thomson himself (Gmail create_draft only), subject
   "LinkedIn draft — The Consultant Times, week of YYYY-MM-DD". NEVER send it, never post anything anywhere,

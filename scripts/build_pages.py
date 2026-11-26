@@ -2,7 +2,7 @@
 """Generate one static, crawlable page per article (s/<id>/index.html) plus sitemap.xml.
 Run after every edition: python3 scripts/build_pages.py"""
 import json, glob, os, re, html, shutil, datetime
-BASE = "https://3ntrepreneur.github.io/consultant-times"
+BASE = "https://theconsultanttimes.com"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(ROOT)
 def load(p, default):
