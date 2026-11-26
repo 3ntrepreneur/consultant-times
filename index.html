@@ -70,7 +70,9 @@ button{font-family:inherit;color:inherit}
 .bm-hero{flex:1 1 420px;min-width:0;background:var(--ink);color:var(--paper);padding:28px}
 .bm-val{font-family:'IBM Plex Mono',monospace;font-size:64px;font-weight:600;line-height:1;margin:22px 0 4px;color:#FF6B57}
 .bm-row{display:flex;gap:18px;align-items:flex-start;padding:16px 0 16px 24px;border-bottom:1px solid var(--rule)}
-.bm-row .v{width:110px;flex:0 0 110px}
+.bm-row .v{width:120px;flex:0 0 120px;min-width:0;overflow-wrap:anywhere}
+.bm-row .v .mono{line-height:1.15}
+.bm-row .bt{min-width:0;flex:1 1 auto}
 .grid3{display:flex;flex-wrap:wrap;border-top:2px solid var(--ink)}
 .grid3 article{flex:1 1 300px;min-width:0;padding:16px 20px 16px 0;border-bottom:1px solid var(--rule);display:flex;flex-direction:column;gap:8px}
 .grid3 h3{font-family:'Fraunces',serif;font-weight:700;font-size:20px;line-height:1.22;margin:0}
@@ -240,6 +242,13 @@ function cardHTML(s){
    <p class="signal"><b>What it means:</b> ${esc(s.cs)}</p>
    <div style="margin-top:auto;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:8px;font-size:13px" class="muted"><span>${when(s)} · ${arr(s.sources).slice(0,1).map(srcLine).join("")}</span><a href="#story-${esc(s.id)}" style="font-weight:700;color:var(--ink)">Read →</a></div></article>`;
 }
+function fitSize(v, big){ const n = String(v||"").length; return big ? (n<=7?64:n<=9?52:n<=12?40:30) : (n<=6?22:n<=9?17:n<=13?14:12); }
+function bmRow(left, label, kick, color, x, srcHtml, url){
+  return `<div class="bm-row"><div class="v"><div class="mono" style="font-size:${fitSize(left)}px;font-weight:600;color:${color}">${esc(left)}</div>${label?`<div class="muted" style="font-size:11px;line-height:1.3;margin-top:2px">${esc(label)}</div>`:""}</div>
+   <div class="bt"><div class="kick" style="font-size:11px;color:${color}">${kick}</div>
+   <div class="serif" style="font-weight:700;font-size:19px;line-height:1.25;margin:4px 0"><a href="#story-${esc(x.id)}" style="text-decoration:none">${esc(x.title)}</a></div>
+   <div style="font-size:14px;line-height:1.5;color:#44403C">${x.cs?`<b>What it means:</b> ${esc(x.cs)} `:""}${srcHtml?`<span class="muted" style="font-size:12px">${x.cs?"· ":""}${srcHtml}</span>`:""}</div></div></div>`;
+}
 function bigMovesHTML(d){
   const types = BMTYPES.filter((t)=>t==="All" || arr(d.bigMoves).some((m)=>bmHas(m,t)));
   let list = arr(d.bigMoves).filter((m)=>bmHas(m, st.moveType) && storyMatches(m));
@@ -250,34 +259,27 @@ function bigMovesHTML(d){
    <div style="display:flex;flex-wrap:wrap;gap:6px">${types.map((t)=>`<button class="tab" data-act="move:${esc(t)}" aria-pressed="${st.moveType===t}">${esc(t)}</button>`).join("")}</div></div>
    <div class="row" style="border-top:2px solid var(--ink)">
     <div class="bm-hero"><div class="kick" style="display:flex;justify-content:space-between;gap:8px"><span><span style="background:${MC[h.type]||"#3D5A80"};color:#fff;padding:3px 8px">${esc(h.type)}</span> &nbsp;Biggest move</span><span class="mono" style="letter-spacing:0;color:#A8A29A">${esc(h.date)}</span></div>
-     <div class="bm-val">${esc(h.value)}</div><div style="font-size:13px;color:#A8A29A">${esc(h.vlabel)}</div>
+     <div class="bm-val" style="font-size:${fitSize(h.value,true)}px">${esc(h.value)}</div><div style="font-size:13px;color:#A8A29A">${esc(h.vlabel)}</div>
      <h3 class="serif" style="font-weight:700;font-size:30px;line-height:1.15;margin:18px 0 10px"><a href="#story-${esc(h.id)}" style="text-decoration:none">${esc(h.title)}</a></h3>
      ${h.body?`<p style="font-size:15px;line-height:1.6;margin:0 0 14px;color:#E7E0D2">${esc(h.body)}</p>`:""}
      <p style="font-size:15px;line-height:1.5;margin:0 0 14px"><b style="color:#FF6B57">What it means:</b> ${esc(h.cs)}</p>
      ${h.take?`<p class="serif" style="font-size:18px;line-height:1.4;margin:0 0 14px;border-left:3px solid #FF6B57;padding-left:14px">Our take: ${esc(h.take)}</p>`:""}
      <div style="font-size:13px;color:#A8A29A">${srcLine(h)}</div></div>
-    <div style="flex:1.4 1 520px;min-width:0">${rest.map((m)=>`<div class="bm-row"><div class="v"><div class="mono" style="font-size:22px;font-weight:600;color:${MC[m.type]||"#3D5A80"}">${esc(m.value)}</div><div class="muted" style="font-size:11px;line-height:1.3;margin-top:2px">${esc(m.vlabel)}</div></div>
-     <div style="min-width:0;flex:1 1 auto"><div class="kick" style="font-size:11px;color:${MC[m.type]||"#3D5A80"}">${esc(m.type)} · ${esc(m.co)} <span class="mono muted" style="letter-spacing:0;font-weight:500">· ${esc(m.date)}</span></div>
-     <div class="serif" style="font-weight:700;font-size:19px;line-height:1.25;margin:4px 0"><a href="#story-${esc(m.id)}" style="text-decoration:none">${esc(m.title)}</a></div>
-     <div style="font-size:14px;line-height:1.5;color:#44403C"><b>What it means:</b> ${esc(m.cs)} <span class="muted" style="font-size:12px">· ${srcLine(m)}</span></div></div></div>`).join("")}</div>
+    <div style="flex:1.4 1 520px;min-width:0">${rest.map((m)=>bmRow(m.value, m.vlabel, `${esc(m.type)} · ${esc(m.co)} <span class="mono muted" style="letter-spacing:0;font-weight:500">· ${esc(m.date)}</span>`, MC[m.type]||"#3D5A80", m, srcLine(m))).join("")}</div>
    </div><div class="muted" style="font-size:12px;margin-top:10px">Allegations are reported as allegations until established.</div></section>`;
 }
 function radarHTML(d){
   const r = arr(d.radar).filter(storyMatches);
   if (!r.length) return "";
   return `<section class="sec"><div class="sec-h"><div><h2>Under the Radar</h2><p>Quiet stories with real consequences: what a sharp consultant knows before the client does.</p></div></div>
-  <div class="grid3">${r.map((x)=>`<article><div class="kick" style="font-size:11px;color:#3D5A80">${esc(x.desk)} · <span class="mono muted" style="letter-spacing:0;font-weight:500">${esc(x.date)}</span></div><h3><a href="#story-${esc(x.id)}" style="text-decoration:none">${esc(x.title)}</a></h3><p style="font-size:15px;line-height:1.5;margin:0"><b>What it means:</b> ${esc(x.cs)}</p><div class="muted" style="font-size:12px;margin-top:auto">${srcLine(x)}</div></article>`).join("")}</div></section>`;
+  <div style="border-top:2px solid var(--ink)">${r.map((x)=>bmRow((x.desk||"Radar").split(" & ")[0], x.desk, `Under the radar · <span class="mono muted" style="letter-spacing:0;font-weight:500">${esc(x.date)}</span>`, "#3D5A80", x, srcLine(x))).join("")}</div></section>`;
 }
 function vanHTML(d){
   const v = d.vancouver || {}; const today = new Date().toISOString().slice(0,10);
   const jobs = arr(v.jobs).filter((j)=>!j.closes || j.closes >= today);
   if (!arr(v.stories).length && !jobs.length) return "";
   return `<section class="sec"><div class="sec-h"><div><div style="display:flex;align-items:baseline;gap:12px"><h2>The Vancouver Desk</h2><span style="background:var(--van);color:#fff;font-size:11px;font-weight:700;letter-spacing:.12em;padding:3px 8px">LOCAL</span></div><p>B.C. business, deals and careers that Vancouver consultants and consulting students should know.</p></div></div>
-  <div class="row" style="border-top:2px solid var(--van)"><div class="row" style="flex:2 1 560px;min-width:0">${arr(v.stories).map((x)=>`<article style="flex:1 1 260px;min-width:0;padding:16px 20px 16px 0;border-bottom:1px solid var(--rule);display:flex;flex-direction:column;gap:8px">
-   <div class="kick" style="font-size:11px;color:var(--van)">${esc(x.tag)} · <span class="mono muted" style="letter-spacing:0;font-weight:500">${esc(x.date)}</span></div>
-   <div class="mono" style="font-size:24px;font-weight:600;color:var(--van)">${esc(x.num)}</div>
-   <h3 class="serif" style="font-weight:700;font-size:20px;line-height:1.22;margin:0"><a href="#story-${esc(x.id)}" style="text-decoration:none">${esc(x.title)}</a></h3>
-   <p style="font-size:15px;line-height:1.5;margin:0"><b>What it means:</b> ${esc(x.cs)}</p><div class="muted" style="font-size:12px;margin-top:auto">${srcLine(x)}</div></article>`).join("")}</div>
+  <div class="row" style="border-top:2px solid var(--van)"><div style="flex:2 1 560px;min-width:0">${arr(v.stories).map((x)=>bmRow(x.num||"Local", x.tag, `${esc(x.tag)} · <span class="mono muted" style="letter-spacing:0;font-weight:500">${esc(x.date)}</span>`, "var(--van)", x, srcLine(x))).join("")}</div>
    <aside class="jobs"><div class="kick" style="font-size:11px;color:#BFE3D3">Careers board · Vancouver</div>
    ${jobs.map((j)=>`<div style="padding:14px 0;border-bottom:1px solid #3C7A64"><div class="serif" style="font-weight:700;font-size:19px;line-height:1.25">${esc(j.role)}</div><div style="font-size:14px;margin-top:4px">${esc(j.firm)} · ${esc(j.start)}</div><div class="mono" style="font-size:14px;font-weight:600;margin-top:4px;color:#FFD166">${esc(j.pay)}</div>${j.closes?`<div style="font-size:12px;color:#BFE3D3">Apply by ${esc(j.closes)}</div>`:""}<a href="${safeUrl(j.url)}" target="_blank" rel="noopener" style="font-size:13px;color:#BFE3D3">View posting →</a></div>`).join("") || '<p style="font-size:14px">No open roles listed right now.</p>'}
    <div style="font-size:12px;color:#BFE3D3;margin-top:12px;line-height:1.5">Consulting roles, internships and case competitions in Vancouver. Checked every edition; expired postings are removed.</div></aside></div></section>`;
@@ -438,9 +440,9 @@ function policyPage(d){
   ${noj.length ? `<section class="sec"><div class="sec-h"><div><h2>More policy headlines</h2></div></div><div class="grid">${noj.map((x) => mini(x)).join("")}</div></section>` : ""}`;
 }
 function policyHTML(d){
-  const L = policyItems(d).slice(0, 3);
+  const L = policyItems(d).filter((x) => x.kind === "pol" || x.juris).slice(0, 6);
   if (!L.length) return "";
-  return `<section class="sec"><div class="sec-h"><div><h2>Policy &amp; Regulation</h2><p>Rules, funding and deadlines that create client work.</p></div><button class="linkbtn" data-act="view:Policy">All policy news →</button></div><div class="grid">${L.map((x) => mini(x, { cs: true })).join("")}</div></section>`;
+  return `<section class="sec"><div class="sec-h"><div><h2>Policy &amp; Regulation</h2><p>Rules, funding and deadlines that create client work.</p></div><button class="linkbtn" data-act="view:Policy">All policy news →</button></div><div style="border-top:2px solid var(--ink)">${L.map((x) => bmRow(x.juris || "Policy", x.desk && x.desk !== "Public sector" ? x.desk : "Regulation", `${esc(x.kicker||"Regulation")} · <span class="mono muted" style="letter-spacing:0;font-weight:500">${esc(x.date)}</span>`, "#7D0068", x, srcOne(x))).join("")}</div></section>`;
 }
 
 // Firm page: newsroom stream for one firm + elsewhere in consulting
