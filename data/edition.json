@@ -1,10 +1,10 @@
 {
  "schema": 1,
  "edition": {
-  "id": "2026-11-25-1000",
-  "label": "WEDNESDAY 25 NOVEMBER 2026 · MORNING EDITION",
-  "published": "2026-11-25T10:30:00-08:00",
-  "next": "TODAY 10:00 PM PT"
+  "id": "2026-11-25-2200",
+  "label": "WEDNESDAY 25 NOVEMBER 2026 · EVENING EDITION",
+  "published": "2026-11-25T22:30:00-08:00",
+  "next": "TOMORROW 10:00 AM PT"
  },
  "lead": "crowdstrike-zscaler-43-9b",
  "stories": [
@@ -99,6 +99,110 @@
      "stype": "Press",
      "src": "TechCrunch",
      "url": "https://techcrunch.com/2026/11/23/crowdstrike-to-acquire-zscaler-for-44-billion/"
+    }
+   ],
+   "updated": "2026-11-24"
+  },
+  {
+   "id": "americas-car-mart-chapter-11",
+   "date": "Nov 24",
+   "year": "2026",
+   "isNew": true,
+   "firm": "America's Car-Mart",
+   "section": "Consumer & retail",
+   "kicker": "Distress",
+   "desk": "Consumer & retail",
+   "heat": 3,
+   "rel": 4,
+   "title": "America's Car-Mart files Chapter 11 with $10 million stalking-horse bid",
+   "summary": "The subprime auto dealer filed in Texas with liabilities of $1 billion to $10 billion and a proposed sale of substantially all assets to Cardinal Asset Holdings, according to TheStreet and Bloomberg Law.",
+   "facts": [
+    {
+     "k": "Court",
+     "v": "U.S. Bankruptcy Court, Southern District of Texas"
+    },
+    {
+     "k": "Listed liabilities",
+     "v": "$1B to $10B (range as filed)"
+    },
+    {
+     "k": "Listed assets",
+     "v": "$100M to $500M (range as filed)"
+    },
+    {
+     "k": "Stalking-horse bid",
+     "v": "$10M base cash plus $13.6M for owned real estate, inventory payments and assumed liabilities"
+    },
+    {
+     "k": "Financing",
+     "v": "Up to $60M of new DIP loans (needs court approval)"
+    },
+    {
+     "k": "Footprint",
+     "v": "Dealerships cut from 154 to 94 in the year to Apr 30, 2026"
+    },
+    {
+     "k": "FY2026 net loss",
+     "v": "$139.1M on revenue of $1.28B"
+    },
+    {
+     "k": "Q1 FY2027 net loss",
+     "v": "$69.0M; retail units down 81.9%"
+    }
+   ],
+   "why": "A subprime auto retailer is moving to a court-run sale after shrinking its network by 40%.",
+   "cs": "Restructuring, DIP-financing, receivables-portfolio valuation and turnaround work for the company and its lenders, and credit-risk reviews for other subprime auto lenders and dealers.",
+   "confidence": "Reported",
+   "readTime": "4 min",
+   "paras": [
+    "America's Car-Mart, a subprime used-car dealer and lender, filed for Chapter 11 protection in the Southern District of Texas on Tuesday 24 November 2026, according to Bloomberg Law and TheStreet. The filing lists estimated assets of $100 million to $500 million and liabilities of $1 billion to $10 billion, which are ranges, not exact figures.",
+    "TheStreet reports that the company proposes a court-supervised sale of substantially all its assets to Cardinal Asset Holdings and affiliates as a stalking-horse bidder, meaning an opening offer that other bidders can top. The consideration includes $10 million of base cash, $13.6 million for owned real estate, inventory-based payments, rollover debt and assumed liabilities. The company also seeks up to $60 million of new debtor-in-possession loans and up to $65 million of roll-up loans. Both the sale and the financing need bankruptcy court approval.",
+    "According to TheStreet, dealerships are expected to stay open, customers should keep paying on their current schedule, and service and accident protection plans are expected to continue, subject to court approval. The proposed plan would pay general unsecured claims in full, subject to approval, and give common stockholders $2.5 million from excluded assets with possible further recovery; no recovery is guaranteed. The report says Cardinal is led by executives with automotive retail and consumer finance experience, including a former Car-Mart chief executive and chairman.",
+    "The filing follows a long contraction that the company disclosed in stages. For the fiscal year ended 30 April 2026, Car-Mart reported revenue of $1.28 billion, down 7.9%, and a net loss of $139.1 million, or $16.79 per share, according to its July results release and Talk Business. Retail units fell 14.3% for the year and 27.1% in the fourth quarter, net charge-offs reached 27.6% of average receivables from 25.9%, and the allowance for credit losses stood at 25.15% of receivables. Active dealerships fell from 154 to 94, a cut of about 40%, as 42 were consolidated in the fourth quarter alone. The company's annual report carried a going-concern warning, and chief executive Douglas Campbell said at the time that it had not yet secured the financing or alternative transaction needed to resolve its liquidity constraint, according to Bloomberg Law.",
+    "The loan book showed the strain. In the year to 30 April 2026, active customers fell 6.7% to 97,696, accounts more than 30 days past due rose to 4.1% from 3.4%, and the average contract term was 49 months, according to Talk Business and the company's release. Car-Mart's chief financial officer, Jonathan Collins, left at the end of July to join another company, and a capital-markets executive took over the role, Talk Business reports.",
+    "The company described the problem as a liquidity and capital-structure issue and not a credit-quality one. At 30 April it had total debt of $722.4 million against $1.41 billion of finance receivables, and unrestricted cash of $47.0 million. A $300 million term loan closed in October 2025, and on 19 June 2026 the company agreed an amendment with those lenders that gave covenant relief and a defined window to review strategic and financing alternatives. A special committee ran that review.",
+    "The numbers worsened after the review began. In the quarter ended 31 July 2026, reported on 9 September, retail units fell 81.9% to 2,450, total revenue fell 57.3% to $145.8 million, and the net loss was $69.0 million, or $8.28 per share. Gross margin dropped to 21.8% from 36.6%, wholesale sales rose to 23.4% of sales as inventory was run down to $35.2 million, and principal receivables fell 21.4% to $1.19 billion. Net charge-offs rose to 9.5% for the quarter and unrestricted cash fell to $27.5 million. The company also booked $13.7 million of non-recurring costs, including $9.6 million of professional fees tied to the strategic review. On 4 September it extended the lender amendment's termination date to 11 September. These figures come from the company's own releases, which were partly summarised in the pages reviewed.",
+    "Not yet known are the names of the advisers, whether competing bids will appear, how the court will treat the proposed financing, and what happens to the customer loan portfolio that borrowers continue to pay into."
+   ],
+   "unknowns": [
+    "Advisers and whether rival bids will emerge",
+    "Court decisions on the sale and financing",
+    "Treatment of the customer loan portfolio"
+   ],
+   "questions": [
+    "A subprime auto lender with a going-concern warning files Chapter 11 with a stalking-horse bidder. How would you value the loan portfolio?",
+    "What early-warning signals would you track at a subprime auto dealer before a filing?"
+   ],
+   "sources": [
+    {
+     "stype": "Press",
+     "src": "TheStreet",
+     "url": "https://www.thestreet.com/retail/after-closing-60-stores-americas-carmart-files-for-chapter-11-bankruptcy"
+    },
+    {
+     "stype": "Press",
+     "src": "Bloomberg Law",
+     "url": "https://news.bloomberglaw.com/bankruptcy-law/americas-car-mart-files-for-chapter-11-bankruptcy"
+    },
+    {
+     "stype": "Company release",
+     "src": "Car-Mart FY2026 results (GlobeNewswire via Finviz)",
+     "url": "https://finviz.com/news/367755/americas-car-mart-reports-fourth-quarter-and-fiscal-year-2026-results"
+    },
+    {
+     "stype": "Company release",
+     "src": "Car-Mart Q1 FY2027 results (GlobeNewswire via Finviz)",
+     "url": "https://finviz.com/news/390083/americas-car-mart-reports-first-quarter-fiscal-year-2027-results"
+    },
+    {
+     "stype": "Trade press",
+     "src": "Talk Business & Politics",
+     "url": "https://talkbusiness.net/2026/07/car-mart-fiscal-2026-loss-exceeds-139-million-sees-29-million-q4-loss/"
+    },
+    {
+     "stype": "Press",
+     "src": "Bloomberg Law (July)",
+     "url": "https://news.bgov.com/bankruptcy-law/americas-car-mart-still-needs-funds-to-fix-liquidity-constraint"
     }
    ],
    "updated": "2026-11-24"
@@ -293,110 +397,6 @@
      "stype": "Trade press",
      "src": "Indian Chemical News",
      "url": "https://www.indianchemicalnews.com/general/lite/clariant-posts-56-sales-growth-in-q3-but-middle-east-conflict-rising-costs-squeeze-margins-32519"
-    }
-   ],
-   "updated": "2026-11-24"
-  },
-  {
-   "id": "americas-car-mart-chapter-11",
-   "date": "Nov 24",
-   "year": "2026",
-   "isNew": true,
-   "firm": "America's Car-Mart",
-   "section": "Consumer & retail",
-   "kicker": "Distress",
-   "desk": "Consumer & retail",
-   "heat": 3,
-   "rel": 4,
-   "title": "America's Car-Mart files Chapter 11 with $10 million stalking-horse bid",
-   "summary": "The subprime auto dealer filed in Texas with liabilities of $1 billion to $10 billion and a proposed sale of substantially all assets to Cardinal Asset Holdings, according to TheStreet and Bloomberg Law.",
-   "facts": [
-    {
-     "k": "Court",
-     "v": "U.S. Bankruptcy Court, Southern District of Texas"
-    },
-    {
-     "k": "Listed liabilities",
-     "v": "$1B to $10B (range as filed)"
-    },
-    {
-     "k": "Listed assets",
-     "v": "$100M to $500M (range as filed)"
-    },
-    {
-     "k": "Stalking-horse bid",
-     "v": "$10M base cash plus $13.6M for owned real estate, inventory payments and assumed liabilities"
-    },
-    {
-     "k": "Financing",
-     "v": "Up to $60M of new DIP loans (needs court approval)"
-    },
-    {
-     "k": "Footprint",
-     "v": "Dealerships cut from 154 to 94 in the year to Apr 30, 2026"
-    },
-    {
-     "k": "FY2026 net loss",
-     "v": "$139.1M on revenue of $1.28B"
-    },
-    {
-     "k": "Q1 FY2027 net loss",
-     "v": "$69.0M; retail units down 81.9%"
-    }
-   ],
-   "why": "A subprime auto retailer is moving to a court-run sale after shrinking its network by 40%.",
-   "cs": "Restructuring, DIP-financing, receivables-portfolio valuation and turnaround work for the company and its lenders, and credit-risk reviews for other subprime auto lenders and dealers.",
-   "confidence": "Reported",
-   "readTime": "4 min",
-   "paras": [
-    "America's Car-Mart, a subprime used-car dealer and lender, filed for Chapter 11 protection in the Southern District of Texas on Tuesday 24 November 2026, according to Bloomberg Law and TheStreet. The filing lists estimated assets of $100 million to $500 million and liabilities of $1 billion to $10 billion, which are ranges, not exact figures.",
-    "TheStreet reports that the company proposes a court-supervised sale of substantially all its assets to Cardinal Asset Holdings and affiliates as a stalking-horse bidder, meaning an opening offer that other bidders can top. The consideration includes $10 million of base cash, $13.6 million for owned real estate, inventory-based payments, rollover debt and assumed liabilities. The company also seeks up to $60 million of new debtor-in-possession loans and up to $65 million of roll-up loans. Both the sale and the financing need bankruptcy court approval.",
-    "According to TheStreet, dealerships are expected to stay open, customers should keep paying on their current schedule, and service and accident protection plans are expected to continue, subject to court approval. The proposed plan would pay general unsecured claims in full, subject to approval, and give common stockholders $2.5 million from excluded assets with possible further recovery; no recovery is guaranteed. The report says Cardinal is led by executives with automotive retail and consumer finance experience, including a former Car-Mart chief executive and chairman.",
-    "The filing follows a long contraction that the company disclosed in stages. For the fiscal year ended 30 April 2026, Car-Mart reported revenue of $1.28 billion, down 7.9%, and a net loss of $139.1 million, or $16.79 per share, according to its July results release and Talk Business. Retail units fell 14.3% for the year and 27.1% in the fourth quarter, net charge-offs reached 27.6% of average receivables from 25.9%, and the allowance for credit losses stood at 25.15% of receivables. Active dealerships fell from 154 to 94, a cut of about 40%, as 42 were consolidated in the fourth quarter alone. The company's annual report carried a going-concern warning, and chief executive Douglas Campbell said at the time that it had not yet secured the financing or alternative transaction needed to resolve its liquidity constraint, according to Bloomberg Law.",
-    "The loan book showed the strain. In the year to 30 April 2026, active customers fell 6.7% to 97,696, accounts more than 30 days past due rose to 4.1% from 3.4%, and the average contract term was 49 months, according to Talk Business and the company's release. Car-Mart's chief financial officer, Jonathan Collins, left at the end of July to join another company, and a capital-markets executive took over the role, Talk Business reports.",
-    "The company described the problem as a liquidity and capital-structure issue and not a credit-quality one. At 30 April it had total debt of $722.4 million against $1.41 billion of finance receivables, and unrestricted cash of $47.0 million. A $300 million term loan closed in October 2025, and on 19 June 2026 the company agreed an amendment with those lenders that gave covenant relief and a defined window to review strategic and financing alternatives. A special committee ran that review.",
-    "The numbers worsened after the review began. In the quarter ended 31 July 2026, reported on 9 September, retail units fell 81.9% to 2,450, total revenue fell 57.3% to $145.8 million, and the net loss was $69.0 million, or $8.28 per share. Gross margin dropped to 21.8% from 36.6%, wholesale sales rose to 23.4% of sales as inventory was run down to $35.2 million, and principal receivables fell 21.4% to $1.19 billion. Net charge-offs rose to 9.5% for the quarter and unrestricted cash fell to $27.5 million. The company also booked $13.7 million of non-recurring costs, including $9.6 million of professional fees tied to the strategic review. On 4 September it extended the lender amendment's termination date to 11 September. These figures come from the company's own releases, which were partly summarised in the pages reviewed.",
-    "Not yet known are the names of the advisers, whether competing bids will appear, how the court will treat the proposed financing, and what happens to the customer loan portfolio that borrowers continue to pay into."
-   ],
-   "unknowns": [
-    "Advisers and whether rival bids will emerge",
-    "Court decisions on the sale and financing",
-    "Treatment of the customer loan portfolio"
-   ],
-   "questions": [
-    "A subprime auto lender with a going-concern warning files Chapter 11 with a stalking-horse bidder. How would you value the loan portfolio?",
-    "What early-warning signals would you track at a subprime auto dealer before a filing?"
-   ],
-   "sources": [
-    {
-     "stype": "Press",
-     "src": "TheStreet",
-     "url": "https://www.thestreet.com/retail/after-closing-60-stores-americas-carmart-files-for-chapter-11-bankruptcy"
-    },
-    {
-     "stype": "Press",
-     "src": "Bloomberg Law",
-     "url": "https://news.bloomberglaw.com/bankruptcy-law/americas-car-mart-files-for-chapter-11-bankruptcy"
-    },
-    {
-     "stype": "Company release",
-     "src": "Car-Mart FY2026 results (GlobeNewswire via Finviz)",
-     "url": "https://finviz.com/news/367755/americas-car-mart-reports-fourth-quarter-and-fiscal-year-2026-results"
-    },
-    {
-     "stype": "Company release",
-     "src": "Car-Mart Q1 FY2027 results (GlobeNewswire via Finviz)",
-     "url": "https://finviz.com/news/390083/americas-car-mart-reports-first-quarter-fiscal-year-2027-results"
-    },
-    {
-     "stype": "Trade press",
-     "src": "Talk Business & Politics",
-     "url": "https://talkbusiness.net/2026/07/car-mart-fiscal-2026-loss-exceeds-139-million-sees-29-million-q4-loss/"
-    },
-    {
-     "stype": "Press",
-     "src": "Bloomberg Law (July)",
-     "url": "https://news.bgov.com/bankruptcy-law/americas-car-mart-still-needs-funds-to-fix-liquidity-constraint"
     }
    ],
    "updated": "2026-11-24"
@@ -1657,6 +1657,54 @@
   {
    "date": "Nov 25",
    "tag": "Consulting",
+   "text": "Teneo hires ex-CNBC technology correspondent Steve Kovach as a New York managing director in strategy and communications (Consulting.us).",
+   "src": "Consulting.us",
+   "desk": "Consulting industry",
+   "url": "https://www.consulting.us/news/14275/steve-kovach-joins-teneo-as-managing-director-in-new-york",
+   "id": "wire-teneo-kovach-ny",
+   "firm": "Teneo",
+   "confidence": "Reported",
+   "paras": [
+    "Teneo has hired Steve Kovach as a managing director in its strategy and communications practice in New York, according to Consulting.us on 25 November 2026. The report says he has more than 15 years of experience, including over seven years at CNBC as technology correspondent and technology editor for CNBC.com and nearly eight years at Business Insider.",
+    "Andrea Calise, president of Teneo's US strategy and communications practice, is quoted in the report welcoming him. Teneo describes itself as having more than 1,800 people in over 50 offices.",
+    "The hire fits a pattern of advisory firms recruiting former journalists and public-sector insiders to sell communications and stakeholder advice around technology, deals and regulation. This item relies on a single trade-press report; no Teneo release was read."
+   ]
+  },
+  {
+   "date": "Nov 26",
+   "tag": "Consulting",
+   "text": "Boutique adviser Continuum hires ex-Jefferies banker Graham Davidson, taking its UK team to 50; it is advising on TPG's recapitalisation of Sumer (Consultancy.uk).",
+   "src": "Consultancy.uk",
+   "desk": "Financial services",
+   "url": "https://www.consultancy.uk/news/46338/graham-davidson-joins-continuum-as-senior-managing-director",
+   "id": "wire-continuum-davidson-sumer",
+   "firm": "Continuum",
+   "confidence": "Reported",
+   "paras": [
+    "Continuum Advisory Partners has appointed Graham Davidson as a senior managing director in its UK team, according to Consultancy.uk on 26 November 2026. The report says he has more than 25 years in debt, equity and M&A, and was previously a managing director at Jefferies and a partner at Perella Weinberg Partners.",
+    "The article says Continuum has completed 18 transactions in 2026 and is advising Sumer and Penta Capital on the recapitalisation of Sumer by TPG, which it describes as valuing the UK mid-market accountancy at 1 billion pounds enterprise value. The hire brings the team to 50 professionals, ahead of a stated target of 50 by January 2027.",
+    "The Sumer figure comes from the trade report only; no deal release was read, so terms and timing are unconfirmed."
+   ]
+  },
+  {
+   "date": "Nov 25",
+   "tag": "Outsourcing",
+   "text": "TDCX opens its sixth China centre in Foshan with about 100 initial roles, serving the Greater Bay Area (Consultancy.asia).",
+   "src": "Consultancy.asia",
+   "desk": "Industrials & logistics",
+   "url": "https://www.consultancy.asia/news/7109/tdcx-opens-hub-in-foshan-to-serve-greater-bay-area-and-mainland-china",
+   "id": "wire-tdcx-foshan-hub",
+   "firm": "Industry",
+   "confidence": "Reported",
+   "paras": [
+    "Singapore-based customer-experience and outsourcing group TDCX has opened a campus in Foshan, its sixth centre in China, according to Consultancy.asia on 25 November 2026. The site offers Cantonese and Mandarin service and starts with about 100 positions, with headcount expected to grow quickly over two years.",
+    "The report quotes Tony Chen, TDCX's China country director, saying a Cantonese or Mandarin pod can be set up in 60 to 90 days. It describes TDCX as founded in 1995, with more than 20,000 employees across 37 locations.",
+    "The move shows outsourcers adding capacity close to Greater Bay Area clients. Contract values and client names were not given."
+   ]
+  },
+  {
+   "date": "Nov 25",
+   "tag": "Consulting",
    "text": "Teneo hires Elder Marques, ex-Blakes partner and finance-minister chief of staff, to open its Ottawa office (Consulting.ca).",
    "src": "Consulting.ca",
    "desk": "Consulting industry",
@@ -1854,6 +1902,44 @@
   "basedOn": "crowdstrike-zscaler-43-9b"
  },
  "bigMoves": [
+  {
+   "id": "bm-arup-schneider-ai-energy",
+   "type": "Partnerships",
+   "co": "Arup / Schneider Electric",
+   "firm": "Arup",
+   "desk": "Energy & resources",
+   "date": "Nov 26",
+   "year": 2026,
+   "heat": 3,
+   "rel": 4,
+   "value": "Undisclosed",
+   "vlabel": "Alliance; no deal value given",
+   "title": "Arup and Schneider Electric partner on AI software for energy infrastructure",
+   "cs": "Data-centre cooling and power-resilience programmes, asset-management analytics and digital-twin design; engineering consultancies moving into software-led services.",
+   "stype": "Trade press",
+   "src": "Consultancy.uk",
+   "url": "https://www.consultancy.uk/news/46344/arup-and-schneider-electric-partner-for-ai-energy-infrastructure-software",
+   "updated": "2026-11-26",
+   "confidence": "Reported",
+   "readTime": "3 min",
+   "body": "Arup and Schneider Electric will build AI-enabled software and physical systems for energy infrastructure, urban and healthcare projects, according to Consultancy.uk.",
+   "paras": [
+    "Engineering and design consultancy Arup and Schneider Electric have agreed a partnership to develop AI-enabled software and physical systems, according to Consultancy.uk on 26 November 2026. The target areas are energy infrastructure, urban transformation, sustainable development and healthcare.",
+    "The report says one use is predicting cooling-system failures and maintenance needs for data-centre operators, and that Schneider is adding generative AI to ETAP, its electrical power design and operations platform. The two firms earlier worked together on predictive maintenance for Schneider's Asset Advisor.",
+    "Fiona Cousins of Arup and Frederic Godemel of Schneider are quoted in the report. No financial terms, timeline or customers were disclosed."
+   ],
+   "unknowns": [
+    "Deal value, term and governance of the partnership",
+    "Which customers or projects come first"
+   ],
+   "sources": [
+    {
+     "stype": "Trade press",
+     "src": "Consultancy.uk",
+     "url": "https://www.consultancy.uk/news/46344/arup-and-schneider-electric-partner-for-ai-energy-infrastructure-software"
+    }
+   ]
+  },
   {
    "id": "bm-capita-ceo-resigns",
    "type": "Leadership",
@@ -5679,6 +5765,59 @@
   }
  ],
  "deskNews": [
+  {
+   "id": "desk-gallagher-uk-commercial-crime-2026",
+   "kicker": "Industry desk",
+   "firm": "Industry",
+   "desk": "Financial services",
+   "date": "Nov 26",
+   "year": "2026",
+   "confidence": "Reported",
+   "readTime": "3 min read",
+   "lens": "Risks & unknowns",
+   "title": "83% of UK firms faced financial crime attempts, but only a third hold standalone cover",
+   "summary": "Gallagher's 2026 survey finds 83% of UK businesses faced attempted or actual financial crime and 33% hold standalone commercial crime insurance, according to Consultancy.uk.",
+   "cs": "Fraud-controls and detection reviews, insurance-programme and risk-transfer design, and AI-enabled fraud-response work for UK mid-market and large firms.",
+   "paras": [
+    "Gallagher's 2026 Corporate Crime and Risk Survey, reported by Consultancy.uk on 26 November 2026, polled 1,150 senior decision-makers in 12 countries, 150 of them in the UK. It found 83% of UK businesses had experienced attempted or actual financial crime, against 75% globally, and 57% said attempts had become more frequent.",
+    "Detection is slow: 60% said finding their latest fraud took more than 24 hours and 19% said at least a month. Some 61% saw more AI-generated content in attempts and 56% saw more sophisticated ones. The most common threat was employee theft or dishonesty (31%).",
+    "On protection, only 33% of UK businesses held standalone commercial crime insurance, about 40% relied on a combined package, and 29% said they manage their balance sheet to absorb losses. The figures come from an insurer-broker's own survey, and the article cites UK Finance on 75.6 million pounds lost to bank-transfer scams in 2025."
+   ],
+   "facts": [
+    {
+     "k": "UK businesses facing financial crime",
+     "v": "83% (Gallagher survey; 75% globally)"
+    },
+    {
+     "k": "Took 24h+ to detect latest fraud",
+     "v": "60%"
+    },
+    {
+     "k": "Hold standalone crime insurance",
+     "v": "33%"
+    },
+    {
+     "k": "Survey sample",
+     "v": "1,150 decision-makers in 12 countries; 150 in UK"
+    }
+   ],
+   "questions": [
+    "How would you size the insurance gap for a mid-market firm where only a third buy standalone crime cover?",
+    "What detection controls would cut a 24-hour-plus fraud discovery time?"
+   ],
+   "unknowns": [
+    "Full methodology and sector split",
+    "Loss values per incident"
+   ],
+   "dates": [],
+   "sources": [
+    {
+     "stype": "Trade press",
+     "src": "Consultancy.uk",
+     "url": "https://www.consultancy.uk/news/46305/eight-in-10-uk-businesses-targeted-by-commercial-crime"
+    }
+   ]
+  },
   {
    "id": "desk-simon-kucher-software-ai-2026",
    "kicker": "Industry desk",

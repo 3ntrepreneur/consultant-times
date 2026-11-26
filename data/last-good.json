@@ -1,9 +1,9 @@
 {
  "schema": 1,
  "edition": {
-  "id": "2026-11-24-1000",
-  "label": "TUESDAY 24 NOVEMBER 2026 · MORNING EDITION",
-  "published": "2026-11-24T10:30:00-08:00",
+  "id": "2026-11-25-1000",
+  "label": "WEDNESDAY 25 NOVEMBER 2026 · MORNING EDITION",
+  "published": "2026-11-25T10:30:00-08:00",
   "next": "TODAY 10:00 PM PT"
  },
  "lead": "crowdstrike-zscaler-43-9b",
@@ -1655,6 +1655,28 @@
  ],
  "wire": [
   {
+   "date": "Nov 25",
+   "tag": "Consulting",
+   "text": "Teneo hires Elder Marques, ex-Blakes partner and finance-minister chief of staff, to open its Ottawa office (Consulting.ca).",
+   "src": "Consulting.ca",
+   "desk": "Consulting industry",
+   "url": "https://www.consulting.ca/news/5347/teneo-hires-elder-marques-to-lead-expansion-in-ottawa",
+   "id": "wire-teneo-ottawa-marques",
+   "firm": "Teneo",
+   "confidence": "Reported",
+   "paras": [
+    "Teneo has hired Elder Marques as a senior managing director to set up its Ottawa office and build its public affairs work in Ottawa and across Canada, according to Consulting.ca on 25 November 2026. The report says he has more than 20 years of legal and public-sector experience, including about five years as a partner at Blake, Cassels & Graydon and roles as chief of staff to two federal ministers.",
+    "Teneo has offices in Toronto, Montreal and Calgary with about 60 professionals in Canada, according to the report, and it hired Phil Reynolds on 10 November to lead a new Canadian financial advisory practice. James Crossland, Teneo's global vice chairman, leads the Canadian business. The hire points to demand for government-relations and regulatory advice among Canadian clients."
+   ],
+   "sources": [
+    {
+     "stype": "Trade press",
+     "src": "Consulting.ca",
+     "url": "https://www.consulting.ca/news/5347/teneo-hires-elder-marques-to-lead-expansion-in-ottawa"
+    }
+   ]
+  },
+  {
    "date": "Nov 24",
    "tag": "Policy",
    "text": "US adds Megaspeed and six affiliates to the Entity List; Federal Register publication due Nov 25 (Tech Times).",
@@ -1832,6 +1854,90 @@
   "basedOn": "crowdstrike-zscaler-43-9b"
  },
  "bigMoves": [
+  {
+   "id": "bm-capita-ceo-resigns",
+   "type": "Leadership",
+   "co": "Capita",
+   "firm": "Capita",
+   "desk": "Public sector",
+   "date": "Nov 24",
+   "year": 2026,
+   "heat": 4,
+   "rel": 4,
+   "value": "£239M",
+   "vlabel": "Civil Service Pension Scheme contract",
+   "title": "Capita CEO Adolfo Hernandez resigns amid pension-scheme backlog",
+   "cs": "Government outsourcing recovery, contract-performance reviews, operational turnaround and CEO-transition support; public bodies reassessing large outsourced service contracts.",
+   "stype": "Trade press",
+   "src": "Consultancy.uk",
+   "url": "https://www.consultancy.uk/news/46341/capita-ceo-resigns-as-company-faces-heat-for-civil-service-pension-scheme-debacle",
+   "updated": "2026-11-25",
+   "confidence": "Reported",
+   "readTime": "3 min",
+   "body": "Capita chief executive Adolfo Hernandez stepped down with immediate effect and CFO Pablo Andres replaces him, according to Consultancy.uk.",
+   "paras": [
+    "Capita chief executive Adolfo Hernandez has stepped down with immediate effect, and chief financial officer Pablo Andres replaces him, according to Consultancy.uk on 24 November 2026. Hernandez took the job at the start of 2024, succeeding Jon Lewis.",
+    "The report links the move to Capita's handling of the Civil Service Pension Scheme, about 1.7 million members, which it took over in December 2025 under a £239 million contract signed by the previous government. The backlog was above 86,000 cases at handover and above 120,000 by early February 2026, and about 8,500 members reportedly had payments delayed. A February government recovery plan added an emergency interest-free loan scheme, 150 civil servants and 100 more Capita staff.",
+    "The report says Capita has also warned that its 2027 profit range would be £85 million to £95 million, at least £25 million below earlier expectations. Innovation minister Lilian Greenwood called the problems a 'debacle' days before the resignation, the public accounts committee opened an inquiry earlier this month, and a National Audit Office report is due in the coming months. Ministers have noted the option of returning the contract to government management."
+   ],
+   "unknowns": [
+    "Whether the contract will be retained or returned to government",
+    "Findings of the National Audit Office and committee inquiry",
+    "Capita's own statement on the profit range timing"
+   ],
+   "sources": [
+    {
+     "stype": "Trade press",
+     "src": "Consultancy.uk",
+     "url": "https://www.consultancy.uk/news/46341/capita-ceo-resigns-as-company-faces-heat-for-civil-service-pension-scheme-debacle"
+    }
+   ]
+  },
+  {
+   "id": "bm-lego-portugal-factory",
+   "type": "Market Entry",
+   "co": "LEGO Group",
+   "firm": "LEGO",
+   "desk": "Consumer & retail",
+   "date": "Nov 25",
+   "year": 2026,
+   "heat": 3,
+   "rel": 4,
+   "value": "€1B+",
+   "vlabel": "Reported investment in new factory",
+   "title": "LEGO picks Portugal for a €1 billion factory, advised by Buck Consultants",
+   "cs": "Site selection, incentive negotiation, supply-chain network design and workforce planning for manufacturers weighing new plants; Buck Consultants International is named as LEGO's adviser.",
+   "stype": "Trade press",
+   "src": "Consultancy.eu",
+   "url": "https://www.consultancy.eu/news/14721/buck-consultants-international-advises-lego-on-new-1-billion-factory-in-portugal",
+   "updated": "2026-11-25",
+   "confidence": "Reported",
+   "readTime": "2 min",
+   "body": "LEGO will build a €1 billion factory in Estarreja, Portugal, creating more than 1,000 jobs, with production due in 2030, according to Consultancy.eu.",
+   "paras": [
+    "LEGO has chosen Estarreja, in Portugal's Aveiro district, for a new €1 billion factory expected to create more than 1,000 jobs, according to Consultancy.eu on 25 November 2026. The site covers 60 hectares and could grow to 116; the plant is 115,000 square metres and will handle moulding, processing, packing and warehousing. Construction is expected to start in the first half of 2027, with operations in 2030.",
+    "Buck Consultants International advised on location strategy and site selection, a process Consultancy.eu says took about a year. Portuguese newspaper Observador, cited by the report, says Portugal beat at least Spain and Poland. Portugal's trade agency AICEP began talks about a year earlier, and the Estarreja municipality joined in February 2026.",
+    "It would be LEGO's fourth European factory and eighth worldwide, after Billund, Kladno and Nyíregyháza in Europe. The report also lists a Vietnam plant opened in April 2025 and a US plant planned for 2027. LEGO targets 100% renewable energy, about 80% of it generated on site, and LEED Platinum certification, according to the report.",
+    "For consultants the signal is the mix of work around a plant of this size: site selection and incentive negotiation, supply-chain network design, energy and sustainability engineering, and workforce planning in a region where more than 1,000 hires are needed."
+   ],
+   "unknowns": [
+    "Public incentives and total jobs timetable",
+    "LEGO's own announcement and capacity figures",
+    "Return on investment, which the report does not give"
+   ],
+   "sources": [
+    {
+     "stype": "Trade press",
+     "src": "Consultancy.eu",
+     "url": "https://www.consultancy.eu/news/14721/buck-consultants-international-advises-lego-on-new-1-billion-factory-in-portugal"
+    },
+    {
+     "stype": "Press",
+     "src": "Fortune (earlier LEGO Vietnam plant)",
+     "url": "https://fortune.com/europe/2025/04/09/lego-1-billion-factory-vietnam-demand-brick-toys/"
+    }
+   ]
+  },
   {
    "id": "bm-crowdstrike-zscaler",
    "type": "M&A",
@@ -4990,6 +5096,52 @@
  "corrections": [],
  "policy": [
   {
+   "id": "pol-uk-basel-3-1-jan-2027",
+   "kicker": "Regulation",
+   "firm": "Industry",
+   "desk": "Financial services",
+   "juris": "UK",
+   "date": "Nov 25",
+   "year": "2026",
+   "confidence": "Reported",
+   "readTime": "3 min read",
+   "title": "UK banks face Basel 3.1 capital rules from 1 January 2027",
+   "summary": "The PRA's final Basel 3.1 rules start on 1 January 2027, with a capital output floor that begins at 60% and rises to 72.5% by 2030, according to Consultancy.uk.",
+   "cs": "Capital-impact modelling, risk-weighted-asset optimisation, data and reporting build, and programme management for UK banks and building societies; implementation assurance for smaller lenders.",
+   "dates": [
+    {
+     "iso": "2027-01-01",
+     "label": "Basel 3.1 starts in the UK; output floor at 60%"
+    },
+    {
+     "iso": "2028-01-01",
+     "label": "Internal models approach for market risk starts; output floor 65%"
+    }
+   ],
+   "paras": [
+    "The Prudential Regulation Authority published its final Basel 3.1 rules in January 2026, and they take effect in the UK on 1 January 2027, according to an explainer by consultancy Gini on Consultancy.uk on 25 November 2026. The start date moved several times, from January 2025 to July 2025, then January 2026, before settling on 2027.",
+    "The output floor stops a bank's modelled risk-weighted assets falling below a share of the standardised-approach figure. It starts at 60% on 1 January 2027 and rises to 65% in 2028, 70% in 2029 and 72.5% in 2030, according to Gini. Advanced internal-ratings models are removed for large corporates and financial institutions, income-producing real estate loses both internal-model options, and equity exposures move to the standardised approach, with existing permissions running to end-2029. Residential mortgages are split by loan-to-value, with the part up to 55% taking a 20% risk weight.",
+    "Operational risk moves to one standardised method and internal models for credit valuation adjustment are withdrawn, according to Gini. Market-risk standardised approaches start in January 2027 and the internal-models approach in January 2028. The PRA is also moving remaining capital rules into its Rulebook, including a Strong and Simple regime for small domestic deposit takers, broadly those under £20 billion of assets.",
+    "The explainer is by a consultancy that sells in this area and its footnotes were not available when read, so figures should be checked against the PRA's PS1/26 before client use."
+   ],
+   "unknowns": [
+    "Estimated capital impact by bank",
+    "Final detail of the Strong and Simple regime thresholds, which sit in PRA policy statements"
+   ],
+   "sources": [
+    {
+     "stype": "Official",
+     "src": "Bank of England PRA, PS1/26",
+     "url": "https://www.bankofengland.co.uk/prudential-regulation/publication/2026/january/implementation-of-the-basel-3-1-final-rules-policy-statement"
+    },
+    {
+     "stype": "Trade press",
+     "src": "Consultancy.uk",
+     "url": "https://www.consultancy.uk/news/46329/what-basel-31-will-change-for-uk-banks-in-2027"
+    }
+   ]
+  },
+  {
    "id": "pol-us-megaspeed-entity-list",
    "kicker": "Regulation",
    "firm": "Industry",
@@ -5527,6 +5679,64 @@
   }
  ],
  "deskNews": [
+  {
+   "id": "desk-simon-kucher-software-ai-2026",
+   "kicker": "Industry desk",
+   "firm": "Industry",
+   "desk": "Tech & AI",
+   "date": "Nov 25",
+   "year": "2026",
+   "confidence": "Reported",
+   "readTime": "3 min read",
+   "lens": "Profit pools & margins",
+   "title": "Software buyers expect AI budgets to rise, but vendors struggle to price it",
+   "summary": "Simon-Kucher's 2026 software study finds 79% of executives say AI already lifts revenue, while buyers demand proof of financial return, according to Consultancy.eu.",
+   "cs": "AI pricing and packaging redesign, unit-economics tracking for AI delivery cost, and buyer-side business-case and governance work.",
+   "paras": [
+    "Simon-Kucher's Global Software Study 2026, reported by Consultancy.eu on 25 November 2026, surveyed about 500 software executives and 200 buyers. Some 79% of executives say AI is already boosting revenue, but 62% see at least moderate risk that AI replaces their core products within two years. Among buyers, 7% have already replaced a traditional tool with an AI alternative and 36% have built or piloted substitutes.",
+    "Buyers say customer service (53%), workplace productivity (43%) and data analysis (42%) are most exposed. On budgets, 86% of buyers expect AI software spend to rise at least 10% over two years, against 43% for traditional software. Yet only 4% measure AI impact across the whole company, and two-thirds require measured financial return before approving purchases.",
+    "On the vendor side, 94% have changed or plan to change pricing, and executives expect a median 20% rise in delivery costs over two years, while only 23% track AI delivery cost per account or task. Only 23% charge separately for AI-agent access; 43% of buyers prefer agent access bundled into plan tiers. Figures are from a consultancy's own survey and no primary report link was given."
+   ],
+   "facts": [
+    {
+     "k": "Executives saying AI already boosts revenue",
+     "v": "79% (Simon-Kucher survey, about 500 executives)"
+    },
+    {
+     "k": "Buyers expecting AI software budgets up 10%+ in two years",
+     "v": "86%, versus 43% for traditional software"
+    },
+    {
+     "k": "Buyers measuring AI impact company-wide",
+     "v": "4%"
+    },
+    {
+     "k": "Vendors charging separately for agent access",
+     "v": "23%"
+    }
+   ],
+   "questions": [
+    "How would you price an AI feature when delivery costs vary by use and buyers want spending caps?",
+    "What evidence would a finance chief need to approve an AI software contract?"
+   ],
+   "unknowns": [
+    "Full study methodology and sample by region",
+    "Which vendors are included"
+   ],
+   "dates": [],
+   "sources": [
+    {
+     "stype": "Trade press",
+     "src": "Consultancy.eu",
+     "url": "https://www.consultancy.eu/news/14712/ai-unlocks-new-revenue-streams-for-software-firms-but-monetisation-remains-a-challenge"
+    },
+    {
+     "stype": "Press release",
+     "src": "Simon-Kucher (UK software study release)",
+     "url": "https://news.cision.com/simon-kucher---partners/r/growth-optimism-vs--ai-reality--uk-software-firms-struggle-to-monetize-ai,c4240132"
+    }
+   ]
+  },
   {
    "id": "ci-deloitte-bfcm-2026",
    "kicker": "Industry desk",
