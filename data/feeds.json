@@ -1,23 +1,296 @@
 {
  "note": "Tested 26 Nov 2026 via the web-fetch agent (shell cannot reach the web). Fetch these first each run, newest pubDate first; feed text is headlines/summaries, so open the linked article before writing (RULES section 17).",
  "working": [
-  {"name":"GlobeNewswire M&A","url":"https://www.globenewswire.com/RssFeed/subjectcode/27-Mergers%20and%20Acquisitions/feedTitle/GlobeNewswire%20-%20Mergers%20and%20Acquisitions","use":"Big Moves: M&A, divestitures; also try other subjectcode feeds","type":"rss"},
-  {"name":"PR Newswire all releases","url":"https://www.prnewswire.com/rss/news-releases-list.rss","use":"Company releases; noisy (class-action alerts), filter","type":"rss"},
-  {"name":"TechCrunch","url":"https://techcrunch.com/feed/","use":"Tech & AI, AI & Tools, funding","type":"rss"},
-  {"name":"Fortune","url":"https://fortune.com/feed/","use":"Front page candidates, CEO moves; only first ~40k chars read reliably","type":"rss"},
-  {"name":"B.C. Government news","url":"https://news.gov.bc.ca/feed","use":"Vancouver Desk, B.C. policy; not date-ordered, sort by pubDate","type":"rss"},
-  {"name":"Canada Gazette Part I","url":"https://gazette.gc.ca/rss/p1-eng.xml","use":"Policy (Canada); read only the first entries, long feed","type":"rss"},
-  {"name":"Federal Register API","url":"https://www.federalregister.gov/api/v1/documents.json?per_page=20&order=newest","use":"Policy (US); returned October items on test, check publication_date","type":"json"},
-  {"name":"Accounting Today","url":"https://www.accountingtoday.com/","use":"Big Four and audit news; HTML listing, dates lack a year","type":"html"},
-  {"name":"consultancy.org news","url":"https://www.consultancy.org/news","use":"Consulting industry; listing page works, article pages often work","type":"html"},
-  {"name":"consulting.ca","url":"https://www.consulting.ca/","use":"Canadian consulting news","type":"html"}
+  {
+   "name": "GlobeNewswire M&A",
+   "url": "https://www.globenewswire.com/RssFeed/subjectcode/27-Mergers%20and%20Acquisitions/feedTitle/GlobeNewswire%20-%20Mergers%20and%20Acquisitions",
+   "use": "Big Moves: M&A, divestitures; also try other subjectcode feeds",
+   "type": "rss"
+  },
+  {
+   "name": "PR Newswire all releases",
+   "url": "https://www.prnewswire.com/rss/news-releases-list.rss",
+   "use": "Company releases; noisy (class-action alerts), filter",
+   "type": "rss"
+  },
+  {
+   "name": "TechCrunch",
+   "url": "https://techcrunch.com/feed/",
+   "use": "Tech & AI, AI & Tools, funding",
+   "type": "rss"
+  },
+  {
+   "name": "Fortune",
+   "url": "https://fortune.com/feed/",
+   "use": "Front page candidates, CEO moves; only first ~40k chars read reliably",
+   "type": "rss"
+  },
+  {
+   "name": "B.C. Government news",
+   "url": "https://news.gov.bc.ca/feed",
+   "use": "Vancouver Desk, B.C. policy; not date-ordered, sort by pubDate",
+   "type": "rss"
+  },
+  {
+   "name": "Canada Gazette Part I",
+   "url": "https://gazette.gc.ca/rss/p1-eng.xml",
+   "use": "Policy (Canada); read only the first entries, long feed",
+   "type": "rss"
+  },
+  {
+   "name": "Federal Register API",
+   "url": "https://www.federalregister.gov/api/v1/documents.json?per_page=20&order=newest",
+   "use": "Policy (US); returned October items on test, check publication_date",
+   "type": "json"
+  },
+  {
+   "name": "Accounting Today",
+   "url": "https://www.accountingtoday.com/",
+   "use": "Big Four and audit news; HTML listing, dates lack a year",
+   "type": "html"
+  },
+  {
+   "name": "consultancy.org news",
+   "url": "https://www.consultancy.org/news",
+   "use": "Consulting industry; listing page works, article pages often work",
+   "type": "html"
+  },
+  {
+   "name": "consulting.ca",
+   "url": "https://www.consulting.ca/",
+   "use": "Canadian consulting news",
+   "type": "html"
+  },
+  {
+   "name": "GlobeNewswire Earnings",
+   "url": "https://www.globenewswire.com/RssFeed/subjectcode/18-Earnings%20Releases%20And%20Operating%20Results/feedTitle/GlobeNewswire%20-%20Earnings",
+   "use": "Earnings shocks, guidance",
+   "type": "rss"
+  },
+  {
+   "name": "GlobeNewswire Executive Changes",
+   "url": "https://www.globenewswire.com/RssFeed/subjectcode/13-Executive%20Changes/feedTitle/GlobeNewswire%20-%20Executive%20Changes",
+   "use": "Leadership moves; noisy",
+   "type": "rss"
+  },
+  {
+   "name": "GlobeNewswire Bankruptcy",
+   "url": "https://www.globenewswire.com/RssFeed/subjectcode/72-Bankruptcy/feedTitle/GlobeNewswire%20-%20Bankruptcy",
+   "use": "Distress; off-topic items common, filter",
+   "type": "rss"
+  },
+  {
+   "name": "Newswire.ca (Canada)",
+   "url": "https://www.newswire.ca/rss/news-releases-list.rss",
+   "use": "Canadian company releases",
+   "type": "rss"
+  },
+  {
+   "name": "PR Newswire Financial Services",
+   "url": "https://www.prnewswire.com/rss/financial-services-latest-news/financial-services-latest-news-list.rss",
+   "use": "Financial services desk",
+   "type": "rss"
+  },
+  {
+   "name": "PR Newswire Health",
+   "url": "https://www.prnewswire.com/rss/health-latest-news/health-latest-news-list.rss",
+   "use": "Health desk",
+   "type": "rss"
+  },
+  {
+   "name": "PR Newswire High Tech",
+   "url": "https://www.prnewswire.com/rss/high-tech-latest-news/high-tech-latest-news-list.rss",
+   "use": "Tech & AI desk",
+   "type": "rss"
+  },
+  {
+   "name": "PR Newswire AI",
+   "url": "https://www.prnewswire.com/rss/business-technology-latest-news/artificial-intelligence-list.rss",
+   "use": "AI & Tools",
+   "type": "rss"
+  },
+  {
+   "name": "PR Newswire Consumer",
+   "url": "https://www.prnewswire.com/rss/consumer-products-retail-latest-news/consumer-products-retail-latest-news-list.rss",
+   "use": "Consumer & retail desk; low quality",
+   "type": "rss"
+  },
+  {
+   "name": "PR Newswire Telecom",
+   "url": "https://www.prnewswire.com/rss/telecommunications-latest-news/telecommunications-latest-news-list.rss",
+   "use": "Media & telecom desk; low quality",
+   "type": "rss"
+  },
+  {
+   "name": "SEC press releases",
+   "url": "https://www.sec.gov/news/pressreleases.rss",
+   "use": "Policy/Legal (US)",
+   "type": "rss"
+  },
+  {
+   "name": "Federal Reserve press",
+   "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+   "use": "Policy, Financial services",
+   "type": "rss"
+  },
+  {
+   "name": "FTC press releases",
+   "url": "https://www.ftc.gov/feeds/press-release.xml",
+   "use": "Policy: antitrust, consumer protection",
+   "type": "rss"
+  },
+  {
+   "name": "US DOJ press releases",
+   "url": "https://www.justice.gov/news/rss?type=press_release",
+   "use": "Policy/Legal (US)",
+   "type": "rss"
+  },
+  {
+   "name": "ECB press",
+   "url": "https://www.ecb.europa.eu/rss/press.html",
+   "use": "Policy (EU), Financial services",
+   "type": "rss"
+  },
+  {
+   "name": "GOV.UK news",
+   "url": "https://www.gov.uk/search/news-and-communications.atom",
+   "use": "Policy (UK)",
+   "type": "atom"
+  },
+  {
+   "name": "MIT Technology Review",
+   "url": "https://www.technologyreview.com/feed/",
+   "use": "AI & Tools, Tech",
+   "type": "rss"
+  },
+  {
+   "name": "VentureBeat",
+   "url": "https://venturebeat.com/feed/",
+   "use": "AI & Tools",
+   "type": "rss"
+  },
+  {
+   "name": "Crunchbase News",
+   "url": "https://news.crunchbase.com/feed/",
+   "use": "Funding",
+   "type": "rss"
+  },
+  {
+   "name": "Forbes Business",
+   "url": "https://www.forbes.com/business/feed/",
+   "use": "Front page candidates; check each story",
+   "type": "rss"
+  },
+  {
+   "name": "Seeking Alpha market currents",
+   "url": "https://seekingalpha.com/market_currents.xml",
+   "use": "Earnings and market moves headlines",
+   "type": "rss"
+  },
+  {
+   "name": "The Logic (Canada)",
+   "url": "https://thelogic.co/feed/",
+   "use": "Canadian tech and business",
+   "type": "rss"
+  },
+  {
+   "name": "BetaKit (Canada)",
+   "url": "https://betakit.com/feed/",
+   "use": "Canadian tech; some Sponsored items, skip those",
+   "type": "rss"
+  },
+  {
+   "name": "Supply Chain Dive",
+   "url": "https://www.supplychaindive.com/feeds/news/",
+   "use": "Industrials & logistics desk",
+   "type": "rss"
+  },
+  {
+   "name": "Fierce Healthcare",
+   "url": "https://www.fiercehealthcare.com/rss/xml",
+   "use": "Health desk",
+   "type": "rss"
+  },
+  {
+   "name": "Utility Dive",
+   "url": "https://www.utilitydive.com/feeds/news/",
+   "use": "Energy & resources desk",
+   "type": "rss"
+  },
+  {
+   "name": "Retail Dive",
+   "url": "https://www.retaildive.com/feeds/news/",
+   "use": "Consumer & retail desk",
+   "type": "rss"
+  },
+  {
+   "name": "Banking Dive",
+   "url": "https://www.bankingdive.com/feeds/news/",
+   "use": "Financial services desk",
+   "type": "rss"
+  },
+  {
+   "name": "Cybersecurity Dive",
+   "url": "https://www.cybersecuritydive.com/feeds/news/",
+   "use": "Tech & AI desk",
+   "type": "rss"
+  },
+  {
+   "name": "CIO Dive",
+   "url": "https://www.ciodive.com/feeds/news/",
+   "use": "Tech & AI, AI & Tools",
+   "type": "rss"
+  },
+  {
+   "name": "HR Dive",
+   "url": "https://www.hrdive.com/feeds/news/",
+   "use": "Consulting industry: talent",
+   "type": "rss"
+  },
+  {
+   "name": "Construction Dive",
+   "url": "https://www.constructiondive.com/feeds/news/",
+   "use": "Industrials desk",
+   "type": "rss"
+  },
+  {
+   "name": "consultancy.eu listing",
+   "url": "https://www.consultancy.eu/news",
+   "use": "Consulting industry (HTML; footer links /rss/consultancy_rssfeed.xml, untested)",
+   "type": "html"
+  },
+  {
+   "name": "consulting.us listing",
+   "url": "https://www.consulting.us/news",
+   "use": "US consulting news (HTML)",
+   "type": "html"
+  },
+  {
+   "name": "consultancy-me listing",
+   "url": "https://www.consultancy-me.com/news",
+   "use": "Middle East consulting (HTML)",
+   "type": "html"
+  }
  ],
  "failed": [
   "consultancy.org/rss, consultancy.uk/rss, consulting.ca/rss (use the HTML listings instead)",
   "feeds.reuters.com, feeds.a.dj.com (WSJ), ft.com/rss (site blocked)",
   "cnbc.com RSS, businesswire.com RSS, biv.com/rss, bnnbloomberg.ca/rss, cbc.ca webfeed, managementconsulted.com/feed (client_error)",
   "sec.gov browse-edgar, news.google.com RSS, theglobeandmail.com RSS (robots disallowed)",
-  "canada.ca department atom guess (404)"
+  "canada.ca department atom guess (404)",
+  "theverge, wired, arstechnica, businessinsider, economist, apnews, theguardian, bbc, nytimes, marketwatch, vancouversun, financialpost (site blocked)",
+  "axios, bloomberg sitemap, npr, sec.gov srch-edgar (robots disallowed)",
+  "cnbc id 100003114, dailyhive vancouver, cfo.com, fiercewireless (client_error)",
+  "prnewswire M&A list and transportation list (stale: Sep/Oct 2026); EU presscorner API (stale: Sep 2026)",
+  "bankofcanada.ca/feed (dates wrong, shows 2027); statcan Daily and consultancy.uk/news (server error, retry once), canada.ca competition-bureau atom (404)"
  ],
- "to_test_next": ["globenewswire other subject codes (earnings, bankruptcy, executive changes)", "sedarplus / newswire.ca", "prnewswire topic feeds", "gov.uk and europa.eu press feeds", "SEC EDGAR full-text via efts API", "company newsroom feeds for the nine desks"]
+ "to_test_next": [
+  "consultancy.eu/consulting.us/consultancy-me /rss/consultancy_rssfeed.xml",
+  "statcan Daily retry",
+  "consultancy.uk/news retry",
+  "company newsroom feeds (Big Four, MBB, Accenture, Nvidia, CGI, MNP)",
+  "sedarplus",
+  "other GlobeNewswire subject codes (Mergers worked; try Restructuring, Joint Ventures, Financing Agreements)",
+  "Canadian regulators: OSC, OSFI, Competition Bureau via canada.ca news search"
+ ]
 }
