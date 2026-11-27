@@ -1,10 +1,10 @@
 {
  "schema": 1,
  "edition": {
-  "id": "2026-11-25-2200",
-  "label": "WEDNESDAY 25 NOVEMBER 2026 · EVENING EDITION",
-  "published": "2026-11-25T22:30:00-08:00",
-  "next": "TOMORROW 10:00 AM PT"
+  "id": "2026-11-26-1000",
+  "label": "THURSDAY 26 NOVEMBER 2026 · MORNING EDITION",
+  "published": "2026-11-26T10:30:00-08:00",
+  "next": "TODAY 10:00 PM PT"
  },
  "lead": "crowdstrike-zscaler-43-9b",
  "stories": [
@@ -1655,6 +1655,81 @@
  ],
  "wire": [
   {
+   "date": "Nov 26",
+   "tag": "M&A",
+   "text": "Japanese firm Dirbato acquires SAP specialist Icon Consulting Group, according to Consultancy.asia.",
+   "src": "Consultancy.asia",
+   "desk": "Consulting industry",
+   "url": "https://www.consultancy.asia/news/6998/japanese-firm-dirbato-acquires-sap-player-icon-consulting-group",
+   "id": "wire-dirbato-icon-consulting",
+   "firm": "Dirbato",
+   "confidence": "Developing",
+   "paras": [
+    "Consultancy.asia listed on 26 November 2026 a report that Japanese firm Dirbato has acquired Icon Consulting Group, described as an SAP player. This item is built from the headline and listing summary only; the full article could not be opened, so details such as price, terms and client names are unknown.",
+    "For consultants the signal is continued buy-side appetite for SAP implementation capacity, which is scarce as clients move to cloud ERP. Deal value, Icon's size and its markets are not stated in the headline."
+   ]
+  },
+  {
+   "date": "Nov 26",
+   "tag": "Consulting",
+   "text": "Grant Thornton strengthens its Saudi capital-markets capabilities with a CMA registration, per Consultancy-ME.",
+   "src": "Consultancy-ME",
+   "desk": "Consulting industry",
+   "url": "https://www.consultancy-me.com/news/14973/grant-thornton-strengthens-saudi-capital-markets-capabilities-with-cma-registration",
+   "id": "wire-grant-thornton-saudi-cma",
+   "firm": "Grant Thornton",
+   "confidence": "Developing",
+   "paras": [
+    "Consultancy-ME listed on 26 November 2026 a report that Grant Thornton has received a registration from Saudi Arabia's Capital Market Authority (CMA) to strengthen its capital-markets capabilities. This item is built from the headline and listing summary only; the full article could not be opened, so details such as price, terms and client names are unknown.",
+    "The headline points to advisory demand around listings and capital-markets compliance in the Kingdom. Which activities the registration covers is not known."
+   ]
+  },
+  {
+   "date": "Nov 26",
+   "tag": "Consulting",
+   "text": "Canpac Marine founder Ryan Anderson named Canada's EY Entrepreneur Of The Year, per Consulting.ca.",
+   "src": "Consulting.ca",
+   "desk": "Consulting industry",
+   "url": "https://www.consulting.ca/news/5350/canpac-marines-ryan-anderson-named-canadas-ey-entrepreneur-of-the-year",
+   "id": "wire-ey-eoy-canada-canpac",
+   "firm": "EY",
+   "confidence": "Developing",
+   "paras": [
+    "Consulting.ca listed on 26 November 2026 that Ryan Anderson of Canpac Marine has been named Canada's EY Entrepreneur Of The Year. This item is built from the headline and listing summary only; the full article could not be opened, so details such as price, terms and client names are unknown.",
+    "The award keeps EY close to owner-managed Canadian growth companies, a client base for succession, financing and scaling advice. Judging criteria and the company's figures are not covered here."
+   ]
+  },
+  {
+   "date": "Nov 26",
+   "tag": "Consulting",
+   "text": "Baycurrent partners with Treasure AI to launch the BAYVO offering in Japan, per Consultancy.asia.",
+   "src": "Consultancy.asia",
+   "desk": "Tech & AI",
+   "url": "https://www.consultancy.asia/news/6974/baycurrent-partners-with-treasure-ai-to-launch-bayvo-offering-in-japan",
+   "id": "wire-baycurrent-treasure-ai-bayvo",
+   "firm": "Baycurrent",
+   "confidence": "Developing",
+   "paras": [
+    "Consultancy.asia listed on 26 November 2026 that Japanese consultancy Baycurrent is partnering with Treasure AI to launch an offering called BAYVO in Japan. This item is built from the headline and listing summary only; the full article could not be opened, so details such as price, terms and client names are unknown.",
+    "It is another example of consultancies packaging AI products with technology partners rather than selling hours alone."
+   ]
+  },
+  {
+   "date": "Nov 26",
+   "tag": "Tech & AI",
+   "text": "Google Cloud names Valtech a Premier Tier partner in Singapore, per Consultancy.asia.",
+   "src": "Consultancy.asia",
+   "desk": "Tech & AI",
+   "url": "https://www.consultancy.asia/news/7139/google-cloud-names-valtech-a-premier-tier-partner-in-singapore",
+   "id": "wire-valtech-google-cloud-premier-sg",
+   "firm": "Valtech",
+   "confidence": "Developing",
+   "paras": [
+    "Consultancy.asia listed on 26 November 2026 that Google Cloud has named Valtech a Premier Tier partner in Singapore. This item is built from the headline and listing summary only; the full article could not be opened, so details such as price, terms and client names are unknown.",
+    "Partner tiers matter to consultancies because they decide access to co-selling and funding for cloud and AI projects."
+   ]
+  },
+  {
    "date": "Nov 25",
    "tag": "Consulting",
    "text": "Teneo hires ex-CNBC technology correspondent Steve Kovach as a New York managing director in strategy and communications (Consulting.us).",
@@ -1902,6 +1977,44 @@
   "basedOn": "crowdstrike-zscaler-43-9b"
  },
  "bigMoves": [
+  {
+   "id": "bm-dirbato-icon-consulting",
+   "type": "M&A",
+   "co": "Dirbato / Icon Consulting Group",
+   "firm": "Dirbato",
+   "desk": "Consulting industry",
+   "date": "Nov 26",
+   "year": 2026,
+   "heat": 2,
+   "rel": 4,
+   "value": "Undisclosed",
+   "vlabel": "Terms not stated in headline",
+   "title": "Dirbato acquires SAP specialist Icon Consulting Group",
+   "cs": "SAP implementation and integration work; post-merger integration and capacity planning for acquirers of ERP specialists.",
+   "stype": "Trade press",
+   "src": "Consultancy.asia",
+   "url": "https://www.consultancy.asia/news/6998/japanese-firm-dirbato-acquires-sap-player-icon-consulting-group",
+   "updated": "2026-11-26",
+   "confidence": "Developing",
+   "readTime": "1 min",
+   "body": "Japanese firm Dirbato has acquired SAP player Icon Consulting Group, according to a Consultancy.asia listing dated 26 November 2026.",
+   "paras": [
+    "Consultancy.asia listed on 26 November 2026 that Japanese firm Dirbato has acquired Icon Consulting Group, which it describes as an SAP player. This item is built from the headline and listing summary only because the full article could not be opened.",
+    "Deal value, Icon's headcount and geographic footprint, and Dirbato's rationale are not stated in what was read. The deal is one more purchase of specialist ERP capacity by a larger services group."
+   ],
+   "unknowns": [
+    "Price and terms",
+    "Icon size and markets",
+    "Closing date"
+   ],
+   "sources": [
+    {
+     "stype": "Trade press",
+     "src": "Consultancy.asia",
+     "url": "https://www.consultancy.asia/news/6998/japanese-firm-dirbato-acquires-sap-player-icon-consulting-group"
+    }
+   ]
+  },
   {
    "id": "bm-arup-schneider-ai-energy",
    "type": "Partnerships",
