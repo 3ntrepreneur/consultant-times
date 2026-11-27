@@ -250,3 +250,6 @@ The Big Moves filter has no "All" tab; it opens on M&A. Every type tab (M&A, Fun
 - If no item from the last 24 hours can be verified for a lead or card slot, the best verified item from the last 72 hours may take it, with `confidence` "Developing" if the facts are thin. Say in status.json which slots used this and why. This replaces the "freshest available, stale" fallback in §15.
 ### 17d. Retired
 The 22:00 run no longer exists (owner's decision, 26 Nov 2026). If a run finds fewer than 2 verified new items, it still publishes per §2 (refresh Wire, careers board, dates).
+
+### 17e. Feed tiers
+Fetch every `core` feed in `data/feeds.json` each run; read `rotate` feeds only a few per run (cycle through them) or when a desk or page is short. Keep the daily fetch budget lean.
