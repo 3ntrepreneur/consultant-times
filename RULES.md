@@ -3,13 +3,15 @@
 Every scheduled run MUST read this file first and follow it exactly. It is the single source of truth.
 Founder/editor: Thomson Le (Vancouver, BCIT BITMAN). Site: https://theconsultanttimes.com/
 
+> Precedence (cleanup 26 Nov 2026): later sections override earlier ones. In particular §16 (one credible source is enough) overrides every "2+ sources" line, §15e (How It Works weekly, Monday 10:00 run only) overrides any daily wording, and §17 (feeds, full stories, low-news days) overrides §15 where they differ.
+
 ## 1. Mission and audience
 Business news through a consultant's lens. Every item answers: does this create client work, change an industry's
 economics, or change how consulting itself works? Audience: from senior partners to consulting students.
 One professional voice for everyone. Clear, specific, no hype, no slang.
 
 ## 2. Edition schedule
-- Weekdays 10:00 and 22:00 PT: two editions a day (the 22:00 run is lighter: only news since the 10:00 edition).  Fridays add a "Week in 60 seconds" Wire item and a LinkedIn draft (see §11).
+- Weekdays 10:00 and 22:00 PT: two editions a day (the 22:00 run is lighter: only news since the 10:00 edition; see §17d for when it may skip).  Fridays add a "Week in 60 seconds" Wire item and a LinkedIn draft (see §11).
 - Once a week (Monday 10:00 run only; owner's rule, 18 Nov 2026): THREE new How It Works deep dives (see §6). They replace last week's three, which move to data/library.json. On all other runs, carry the current three forward unchanged and do not research or write new deep dives.
 - Budget: build-up phase (until every page reaches its target, see §6f) 30–40 searches per run, otherwise 15–25. Keep runs lean either way. Search only for news since the last edition (`edition.published`).
 - If fewer than 2 new items qualify, still publish: refresh the Wire, prices/dates, careers board; keep the lead.
@@ -228,7 +230,7 @@ After validation passes and before committing, run `python3 scripts/build_pages.
 ## 16. One credible source is enough (owner's decision, 18 Nov 2026)
 This overrides every "2+ sources" requirement above (§6, §6c, §6d, §14, §15, §15c, §15d). An item may publish with ONE real https source if that source is credible: an official primary source (company newsroom, filing, regulator, government release) or a major or established trade outlet (Reuters, AP, Bloomberg, CNBC, BNN Bloomberg, Globe and Mail, FT, WSJ, NYT, CBC, Consultancy.org network, Business in Vancouver, etc.). Aggregators, blogs and listing-page excerpts alone do not count. A single-source item must be attributed in the text ("according to ...") and set `confidence` to "Reported" (or "Developing" if the source is a trade outlet reporting without confirmation). Not changed: the §7 HOLD rules (personal-conduct stories still need two major outlets; breaking scandals still start on the Wire), and How It Works still needs 4+ sources. Still read the page before writing; never write from a headline or excerpt alone.
 
-### 15f. Big Moves tabs: five per type (owner's rule, 22 Nov 2026)
+### 15h. Big Moves tabs: five per type (owner's rule, 22 Nov 2026)
 The Big Moves filter has no "All" tab; it opens on M&A. Every type tab (M&A, Funding, IPO, Earnings, Leadership, Restructuring, Partnerships, Legal & Governance, Divestiture, Distress, Market Entry, Canada) must always hold at least 5 items: one lead (highest `heat`, shown as the big card) and four smaller ones. Carry older verified items forward to keep each tab at 5; add fresh ones first. Canada counts items with `"canada": true`. Report any tab under 5.
 
 ### 15g. Headlines as leads; fetch permission (owner's rule, 25 Nov 2026)
@@ -236,3 +238,15 @@ The Big Moves filter has no "All" tab; it opens on M&A. Every type tab (M&A, Fun
 - An item built from a headline or summary alone must say so in its text, stay Tier 2/3 length, set `confidence` to "Reported" or "Developing", list what is unknown, and invent no facts beyond what the headline/summary states. Prefer a second source when one exists.
 - §7 HOLD rules still override this: personal-conduct and allegation stories are never published from headlines alone.
 - WebFetch on the consultancy.org network (consultancy.org/.uk/.eu/.asia, consulting.us/.ca) is permitted by the owner. If a fetch fails with PROVENANCE_REQUIRED, say so in status.json and use the headline route above rather than carrying the edition forward unchanged.
+
+## 17. Feeds, full stories, low-news days (owner's rules, 26 Nov 2026)
+### 17a. Feeds first
+- Start every run from `data/feeds.json`: fetch each working feed (web-fetch agent or WebFetch; the shell cannot reach the web), keep items newer than `edition.published`, and use WebSearch only to fill gaps. Update `feeds.json` when a feed breaks or a new one is found and tested (say what was tested).
+- Run `python3 scripts/seen.py <url> ...` on every candidate URL before fetching it. SEEN means it is already published; skip it unless it is a real update.
+### 17b. A full story for every new headline
+- Every new headline gets its source page opened and read, then written at its tier (§6): feed or listing text alone is not a story. Fetch in batches (several URLs per agent call).
+- Headline-only items (§15g) are the exception, allowed only when the page cannot be fetched after trying a second outlet. Cap: at most 3 headline-only items per edition. If more candidates remain unread, leave them out rather than ship thin items.
+### 17c. Low-news days and the front page
+- If no item from the last 24 hours can be verified for a lead or card slot, the best verified item from the last 72 hours may take it, with `confidence` "Developing" if the facts are thin. Say in status.json which slots used this and why. This replaces the "freshest available, stale" fallback in §15.
+### 17d. 22:00 run may skip
+- At the 22:00 run, if after the feed pass fewer than 2 new items are verified, do not publish: make no commit, leave edition.json untouched, write status.json {result:"skipped", reason} locally only, and report "Edition skipped: <reason>". The careers-board check and corrections still run only if they would change data.

@@ -1,0 +1,23 @@
+{
+ "note": "Tested 26 Nov 2026 via the web-fetch agent (shell cannot reach the web). Fetch these first each run, newest pubDate first; feed text is headlines/summaries, so open the linked article before writing (RULES section 17).",
+ "working": [
+  {"name":"GlobeNewswire M&A","url":"https://www.globenewswire.com/RssFeed/subjectcode/27-Mergers%20and%20Acquisitions/feedTitle/GlobeNewswire%20-%20Mergers%20and%20Acquisitions","use":"Big Moves: M&A, divestitures; also try other subjectcode feeds","type":"rss"},
+  {"name":"PR Newswire all releases","url":"https://www.prnewswire.com/rss/news-releases-list.rss","use":"Company releases; noisy (class-action alerts), filter","type":"rss"},
+  {"name":"TechCrunch","url":"https://techcrunch.com/feed/","use":"Tech & AI, AI & Tools, funding","type":"rss"},
+  {"name":"Fortune","url":"https://fortune.com/feed/","use":"Front page candidates, CEO moves; only first ~40k chars read reliably","type":"rss"},
+  {"name":"B.C. Government news","url":"https://news.gov.bc.ca/feed","use":"Vancouver Desk, B.C. policy; not date-ordered, sort by pubDate","type":"rss"},
+  {"name":"Canada Gazette Part I","url":"https://gazette.gc.ca/rss/p1-eng.xml","use":"Policy (Canada); read only the first entries, long feed","type":"rss"},
+  {"name":"Federal Register API","url":"https://www.federalregister.gov/api/v1/documents.json?per_page=20&order=newest","use":"Policy (US); returned October items on test, check publication_date","type":"json"},
+  {"name":"Accounting Today","url":"https://www.accountingtoday.com/","use":"Big Four and audit news; HTML listing, dates lack a year","type":"html"},
+  {"name":"consultancy.org news","url":"https://www.consultancy.org/news","use":"Consulting industry; listing page works, article pages often work","type":"html"},
+  {"name":"consulting.ca","url":"https://www.consulting.ca/","use":"Canadian consulting news","type":"html"}
+ ],
+ "failed": [
+  "consultancy.org/rss, consultancy.uk/rss, consulting.ca/rss (use the HTML listings instead)",
+  "feeds.reuters.com, feeds.a.dj.com (WSJ), ft.com/rss (site blocked)",
+  "cnbc.com RSS, businesswire.com RSS, biv.com/rss, bnnbloomberg.ca/rss, cbc.ca webfeed, managementconsulted.com/feed (client_error)",
+  "sec.gov browse-edgar, news.google.com RSS, theglobeandmail.com RSS (robots disallowed)",
+  "canada.ca department atom guess (404)"
+ ],
+ "to_test_next": ["globenewswire other subject codes (earnings, bankruptcy, executive changes)", "sedarplus / newswire.ca", "prnewswire topic feeds", "gov.uk and europa.eu press feeds", "SEC EDGAR full-text via efts API", "company newsroom feeds for the nine desks"]
+}
