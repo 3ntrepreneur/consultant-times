@@ -11,7 +11,7 @@ economics, or change how consulting itself works? Audience: from senior partners
 One professional voice for everyone. Clear, specific, no hype, no slang.
 
 ## 2. Edition schedule
-- Once a day at 10:00 PT. The 22:00 edition was dropped by the owner on 26 Nov 2026 (usage cost); §17d is retired. Fridays add a "Week in 60 seconds" Wire item and a LinkedIn draft (see §11).  Fridays add a "Week in 60 seconds" Wire item and a LinkedIn draft (see §11).
+- Once a day at 10:00 PT. The 22:00 edition was dropped by the owner on 26 Nov 2026 (usage cost); §17d is retired. Fridays add a "Week in 60 seconds" Wire item and a LinkedIn draft (see §11).
 - Once a week (Monday 10:00 run only; owner's rule, 18 Nov 2026): THREE new How It Works deep dives (see §6). They replace last week's three, which move to data/library.json. On all other runs, carry the current three forward unchanged and do not research or write new deep dives.
 - Budget: build-up phase (until every page reaches its target, see §6f) 30–40 searches per run, otherwise 15–25. Keep runs lean either way. Search only for news since the last edition (`edition.published`).
 - If fewer than 2 new items qualify, still publish: refresh the Wire, prices/dates, careers board; keep the lead.
@@ -188,7 +188,7 @@ Leave edition.archive[] empty. How It Works items go to data/library.json instea
 - Set `edition.next` to the next run time (e.g. "MON 10:00 AM PT" or "TODAY 10:00 PM PT").
 
 ## 15. Front page freshness (owner's rule, 18 Nov 2026)
-- Every run (10:00 and 22:00) must replace or recycle the front page. The lead and the three cards (the first four `stories`) must be news from the last 24 hours. Nothing older than 48 hours may stay in the lead or card slots.
+- Every run (10:00 daily) must replace or recycle the front page. The lead and the three cards (the first four `stories`) must be news from the last 24 hours. Nothing older than 48 hours may stay in the lead or card slots.
 - Before finishing, check the date of each of those four items. If any is stale, replace it with the best fresh item (highest heat x relevance, newest first) and move the stale item down the `stories` list (it keeps its id and page; do not archive it early).
 - A new item that clearly beats the lead (see §5) becomes the lead in the same run. Do not wait for the next edition.
 - Spend research effort on this first: look for fresh candidates (Big Four/MBB firms, Nvidia/AI, big M&A, CEO changes, earnings, policy) before refilling category pages. Fresh items still need 2+ real https sources and must pass the §7 hold rules.
