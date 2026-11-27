@@ -270,6 +270,108 @@
    "url": "https://www.consultancy-me.com/news",
    "use": "Middle East consulting (HTML)",
    "type": "html"
+  },
+  {
+   "name": "consultancy.eu RSS",
+   "url": "https://www.consultancy.eu/rss/consultancy_rssfeed.xml",
+   "use": "Consulting industry (Europe)",
+   "type": "rss"
+  },
+  {
+   "name": "consulting.us RSS",
+   "url": "https://www.consulting.us/rss/consultancy_rssfeed.xml",
+   "use": "US consulting news",
+   "type": "rss"
+  },
+  {
+   "name": "consultancy-me RSS",
+   "url": "https://www.consultancy-me.com/rss/consultancy_rssfeed.xml",
+   "use": "Middle East consulting",
+   "type": "rss"
+  },
+  {
+   "name": "McKinsey Insights RSS",
+   "url": "https://www.mckinsey.com/insights/rss",
+   "use": "McKinsey publications; ignore test entries",
+   "type": "rss"
+  },
+  {
+   "name": "NVIDIA blog",
+   "url": "https://blogs.nvidia.com/feed/",
+   "use": "Tech & AI",
+   "type": "rss"
+  },
+  {
+   "name": "OpenAI news",
+   "url": "https://openai.com/news/rss.xml",
+   "use": "AI & Tools",
+   "type": "rss"
+  },
+  {
+   "name": "Google blog",
+   "url": "https://blog.google/rss/",
+   "use": "AI & Tools, Tech",
+   "type": "rss"
+  },
+  {
+   "name": "AWS What's New",
+   "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
+   "use": "AI & Tools, cloud releases",
+   "type": "rss"
+  },
+  {
+   "name": "Microsoft blogs",
+   "url": "https://blogs.microsoft.com/feed/",
+   "use": "AI & Tools",
+   "type": "rss"
+  },
+  {
+   "name": "GlobeNewswire Financing Agreements",
+   "url": "https://www.globenewswire.com/RssFeed/subjectcode/33-Financing%20Agreements/feedTitle/GlobeNewswire%20-%20Financing%20Agreements",
+   "use": "Funding, debt",
+   "type": "rss"
+  },
+  {
+   "name": "Federal Reserve speeches",
+   "url": "https://www.federalreserve.gov/feeds/speeches.xml",
+   "use": "Policy (US)",
+   "type": "rss"
+  },
+  {
+   "name": "WTO news",
+   "url": "https://www.wto.org/library/rss/latest_news_e.xml",
+   "use": "Policy: trade disputes",
+   "type": "rss"
+  },
+  {
+   "name": "USTR",
+   "url": "https://www.ustr.gov/rss.xml",
+   "use": "Policy: trade",
+   "type": "rss"
+  },
+  {
+   "name": "White House presidential actions",
+   "url": "https://www.whitehouse.gov/presidential-actions/feed/",
+   "use": "Policy (US); claims labelled as claims",
+   "type": "rss"
+  },
+  {
+   "name": "FDA press releases",
+   "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/press-releases/rss.xml",
+   "use": "Health desk, Policy",
+   "type": "rss"
+  },
+  {
+   "name": "Healthcare Dive",
+   "url": "https://www.healthcaredive.com/feeds/news/",
+   "use": "Health desk",
+   "type": "rss"
+  },
+  {
+   "name": "Investing.com news",
+   "url": "https://www.investing.com/rss/news.rss",
+   "use": "Markets, CEO changes; check dates",
+   "type": "rss"
   }
  ],
  "failed": [
@@ -282,15 +384,16 @@
   "axios, bloomberg sitemap, npr, sec.gov srch-edgar (robots disallowed)",
   "cnbc id 100003114, dailyhive vancouver, cfo.com, fiercewireless (client_error)",
   "prnewswire M&A list and transportation list (stale: Sep/Oct 2026); EU presscorner API (stale: Sep 2026)",
-  "bankofcanada.ca/feed (dates wrong, shows 2027); statcan Daily and consultancy.uk/news (server error, retry once), canada.ca competition-bureau atom (404)"
+  "bankofcanada.ca/feed (dates wrong, shows 2027); statcan Daily and consultancy.uk/news (server error, retry once), canada.ca competition-bureau atom (404)",
+  "Big Four, BCG, Bain, Accenture RSS guesses (client_error); anthropic.com RSS (client_error)",
+  "osc.ca, osfi, competitionbureau, bcsc, cmhc, imf, worldbank, oecd, treasury press RSS (client_error); canada.ca business atom (404); eia (robots); zdnet, computerworld (blocked)",
+  "yahoo finance rssindex (stale Sep 2026); globenewswire Restructuring and Stock Market (empty); Joint Ventures (stale)",
+  "statcan Daily and consultancy.uk/news (server error twice); nasdaq.com outbound feed (rate limited)"
  ],
  "to_test_next": [
-  "consultancy.eu/consulting.us/consultancy-me /rss/consultancy_rssfeed.xml",
-  "statcan Daily retry",
-  "consultancy.uk/news retry",
-  "company newsroom feeds (Big Four, MBB, Accenture, Nvidia, CGI, MNP)",
-  "sedarplus",
-  "other GlobeNewswire subject codes (Mergers worked; try Restructuring, Joint Ventures, Financing Agreements)",
-  "Canadian regulators: OSC, OSFI, Competition Bureau via canada.ca news search"
+  "Retry statcan, consultancy.uk, nasdaq feed",
+  "company newsroom pages (HTML) for Deloitte, PwC, KPMG, EY, BCG, Bain, Accenture",
+  "Canadian regulator news pages as HTML (OSC, OSFI, Competition Bureau, BIV, Daily Hive)",
+  "sedarplus"
  ]
 }

@@ -11,7 +11,7 @@ economics, or change how consulting itself works? Audience: from senior partners
 One professional voice for everyone. Clear, specific, no hype, no slang.
 
 ## 2. Edition schedule
-- Weekdays 10:00 and 22:00 PT: two editions a day (the 22:00 run is lighter: only news since the 10:00 edition; see §17d for when it may skip).  Fridays add a "Week in 60 seconds" Wire item and a LinkedIn draft (see §11).
+- Once a day at 10:00 PT. The 22:00 edition was dropped by the owner on 26 Nov 2026 (usage cost); §17d is retired. Fridays add a "Week in 60 seconds" Wire item and a LinkedIn draft (see §11).  Fridays add a "Week in 60 seconds" Wire item and a LinkedIn draft (see §11).
 - Once a week (Monday 10:00 run only; owner's rule, 18 Nov 2026): THREE new How It Works deep dives (see §6). They replace last week's three, which move to data/library.json. On all other runs, carry the current three forward unchanged and do not research or write new deep dives.
 - Budget: build-up phase (until every page reaches its target, see §6f) 30–40 searches per run, otherwise 15–25. Keep runs lean either way. Search only for news since the last edition (`edition.published`).
 - If fewer than 2 new items qualify, still publish: refresh the Wire, prices/dates, careers board; keep the lead.
@@ -248,5 +248,5 @@ The Big Moves filter has no "All" tab; it opens on M&A. Every type tab (M&A, Fun
 - Headline-only items (§15g) are the exception, allowed only when the page cannot be fetched after trying a second outlet. Cap: at most 3 headline-only items per edition. If more candidates remain unread, leave them out rather than ship thin items.
 ### 17c. Low-news days and the front page
 - If no item from the last 24 hours can be verified for a lead or card slot, the best verified item from the last 72 hours may take it, with `confidence` "Developing" if the facts are thin. Say in status.json which slots used this and why. This replaces the "freshest available, stale" fallback in §15.
-### 17d. 22:00 run may skip
-- At the 22:00 run, if after the feed pass fewer than 2 new items are verified, do not publish: make no commit, leave edition.json untouched, write status.json {result:"skipped", reason} locally only, and report "Edition skipped: <reason>". The careers-board check and corrections still run only if they would change data.
+### 17d. Retired
+The 22:00 run no longer exists (owner's decision, 26 Nov 2026). If a run finds fewer than 2 verified new items, it still publishes per §2 (refresh Wire, careers board, dates).
