@@ -1,10 +1,10 @@
 {
  "schema": 1,
  "edition": {
-  "id": "2026-11-26-1000",
-  "label": "THURSDAY 26 NOVEMBER 2026 · MORNING EDITION",
-  "published": "2026-11-26T10:30:00-08:00",
-  "next": "TODAY 10:00 PM PT"
+  "id": "2026-11-26-2200",
+  "label": "THURSDAY 26 NOVEMBER 2026 · EVENING EDITION",
+  "published": "2026-11-26T21:10:00-08:00",
+  "next": "FRI 10:00 AM PT"
  },
  "lead": "crowdstrike-zscaler-43-9b",
  "stories": [
@@ -1654,6 +1654,51 @@
   }
  ],
  "wire": [
+  {
+   "date": "Nov 26",
+   "tag": "M&A",
+   "text": "R J Utility Services passes to its management in a buy-out, with Azets advising the sellers, according to Consultancy.uk.",
+   "src": "Consultancy.uk",
+   "desk": "Industrials & logistics",
+   "url": "https://www.consultancy.uk/news/46335/r-j-utility-services-secures-succession-through-management-buy-out",
+   "id": "wire-rj-utility-mbo-azets",
+   "firm": "Azets",
+   "confidence": "Developing",
+   "paras": [
+    "Consultancy.uk listed on 26 November 2026 a report that North East England utilities contractor R J Utility Services has changed hands through a management buy-out, with accounting and advisory firm Azets advising the sellers. This item is built from the headline and listing summary only; the full article was not read, so price, financing and the buyers' backing are unknown.",
+    "For consultants the signal is steady succession-driven deal flow among owner-managed contractors, which creates valuation, tax structuring and transition-planning work for advisers."
+   ]
+  },
+  {
+   "date": "Nov 26",
+   "tag": "Consulting",
+   "text": "Africa-Southeast Asia trade could nearly double to $112 billion by 2035, according to a Consultancy.africa report.",
+   "src": "Consultancy.africa",
+   "desk": "Public sector",
+   "url": "https://www.consultancy.africa/news/2544/africas-trade-with-southeast-asia-could-nearly-double-to-112-billion-by-2035",
+   "id": "wire-africa-seasia-trade-2035",
+   "firm": "Industry",
+   "confidence": "Developing",
+   "paras": [
+    "Consultancy.africa listed on 26 November 2026 a report that trade between Africa and Southeast Asia could rise to about $112 billion by 2035, driven by partnerships, manufacturing and investment. This item is built from the headline and listing summary only; the underlying study, its author and its baseline were not read, so the figure should be treated as a projection of unknown method.",
+    "For consultants the signal is demand for market-entry, supply-chain and trade-corridor work between the two regions, if the projection holds."
+   ]
+  },
+  {
+   "date": "Nov 26",
+   "tag": "Consulting",
+   "text": "Gallagher report: eight in 10 UK businesses targeted by commercial crime, per Consultancy.uk.",
+   "src": "Consultancy.uk",
+   "desk": "Financial services",
+   "url": "https://www.consultancy.uk/news/46305/eight-in-10-uk-businesses-targeted-by-commercial-crime",
+   "id": "wire-gallagher-uk-commercial-crime",
+   "firm": "Industry",
+   "confidence": "Developing",
+   "paras": [
+    "Consultancy.uk listed on 26 November 2026 a Gallagher report saying about eight in ten UK businesses have been targeted by commercial crime, with UK firms hit by financial crime more often than the global average. This item is built from the headline and listing summary only; survey size, period and definitions were not read.",
+    "For consultants the signal is continued demand for fraud-risk, controls and cyber-resilience work, with the caveat that insurer-sponsored surveys can overstate prevalence."
+   ]
+  },
   {
    "date": "Nov 26",
    "tag": "M&A",
