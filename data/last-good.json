@@ -1,10 +1,10 @@
 {
  "schema": 1,
  "edition": {
-  "id": "2026-11-26-2200",
-  "label": "THURSDAY 26 NOVEMBER 2026 · EVENING EDITION",
-  "published": "2026-11-26T21:10:00-08:00",
-  "next": "FRI 10:00 AM PT"
+  "id": "2026-11-27-1000",
+  "label": "FRIDAY 27 NOVEMBER 2026 · MORNING EDITION",
+  "published": "2026-11-27T10:30:00-07:00",
+  "next": "MON 10:00 AM PT"
  },
  "lead": "crowdstrike-zscaler-43-9b",
  "stories": [
@@ -1654,6 +1654,22 @@
   }
  ],
  "wire": [
+  {
+   "date": "Nov 27",
+   "tag": "Week in 60 seconds",
+   "text": "The week in five stories: CrowdStrike's $43.9 billion Zscaler deal, America's Car-Mart's Chapter 11, Nvidia's CEO reversal, Clariant and CD&R's Ashland talks, and EY Canada's $80 million innovation bet.",
+   "src": "The Consultant Times",
+   "desk": "Consulting industry",
+   "url": "https://3ntrepreneur.github.io/consultant-times/#story-crowdstrike-zscaler-43-9b",
+   "id": "wire-week-in-60-seconds-2026-11-27",
+   "firm": "Industry",
+   "confidence": "Confirmed",
+   "paras": [
+    "CrowdStrike agreed to buy Zscaler in an all-stock deal valued at about $43.9 billion, with targets of $500 million in cost savings and $1 billion in revenue synergies, the week's largest transaction and a template for security-platform consolidation. America's Car-Mart filed for Chapter 11 with a $10 million stalking-horse bid, a reminder that subprime auto lending stress creates restructuring work.",
+    "Nvidia's board reinstated Jensen Huang as chief executive 11 days after he resigned, putting governance and succession planning in front of every AI-exposed client. Clariant and CD&R confirmed talks to buy Ashland, a possible large chemicals deal that would bring diligence and integration work. EY Canada committed $80 million to AI, quantum and future-of-work bets, a signal of how the large firms are investing in their own capability.",
+    "Each item has its own article: https://3ntrepreneur.github.io/consultant-times/#story-crowdstrike-zscaler-43-9b, https://3ntrepreneur.github.io/consultant-times/#story-americas-car-mart-chapter-11, https://3ntrepreneur.github.io/consultant-times/#story-nvidia-reinstates-huang, https://3ntrepreneur.github.io/consultant-times/#story-clariant-cdr-ashland-talks, https://3ntrepreneur.github.io/consultant-times/#story-ey-canada-80m-innovation."
+   ]
+  },
   {
    "date": "Nov 26",
    "tag": "M&A",

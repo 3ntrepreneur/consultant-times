@@ -1,10 +1,10 @@
 {
  "schema": 1,
  "edition": {
-  "id": "2026-11-27-1000",
-  "label": "FRIDAY 27 NOVEMBER 2026 · MORNING EDITION",
-  "published": "2026-11-27T10:30:00-07:00",
-  "next": "MON 10:00 AM PT"
+  "id": "2026-11-27-1300",
+  "label": "FRIDAY 27 NOVEMBER 2026 · AFTERNOON UPDATE",
+  "published": "2026-11-27T13:15:00-07:00",
+  "next": "SAT 10:00 AM PT"
  },
  "lead": "crowdstrike-zscaler-43-9b",
  "stories": [
@@ -102,6 +102,61 @@
     }
    ],
    "updated": "2026-11-24"
+  },
+  {
+   "id": "nvidia-pauses-sea-server-shipments",
+   "date": "Nov 26",
+   "year": "2026",
+   "isNew": true,
+   "firm": "Nvidia",
+   "section": "Tech & AI",
+   "kicker": "AI & Tools",
+   "desk": "Tech & AI",
+   "heat": 4,
+   "rel": 4,
+   "title": "Nvidia pauses server shipments to four Southeast Asian countries",
+   "summary": "Nvidia has told partners including Dell and Super Micro to pause server shipments to Malaysia, Singapore, Thailand and Indonesia while it checks export compliance, according to TechCrunch citing the Wall Street Journal.",
+   "facts": [
+    {
+     "k": "Countries affected",
+     "v": "Malaysia, Singapore, Thailand, Indonesia (reported)"
+    },
+    {
+     "k": "Duration",
+     "v": "Unspecified"
+    },
+    {
+     "k": "Share of China's AI compute from remote data centres",
+     "v": "about 24% (Institute for Progress estimate)"
+    }
+   ],
+   "why": "Export-control enforcement is moving from chips to where they are hosted, which reshapes data-centre location decisions.",
+   "cs": "Clients building or leasing AI capacity in Southeast Asia will need export-compliance reviews, partner due diligence and contingency plans for where to host workloads; hardware makers and cloud providers need supply-chain re-routing.",
+   "confidence": "Reported",
+   "readTime": "3 min",
+   "paras": [
+    "Nvidia has told manufacturing partners, including Dell and Super Micro, to pause server shipments to Malaysia, Singapore, Thailand and Indonesia, according to TechCrunch on 26 November 2026, which attributes the original report to the Wall Street Journal. The pause is for an unspecified period while Nvidia assesses whether partners in the region meet U.S. export requirements.",
+    "The reported trigger is remote access: Chinese companies were said to be using Nvidia chips from data centres in those countries. TechCrunch says the U.S. Commerce Department closed that loophole earlier in November 2026. It cites the Institute for Progress as estimating that such remote data centres supply about 24% of China's AI computing power.",
+    "The significance for clients is practical rather than geopolitical. A shipping pause on finished servers delays capacity that operators in four of Southeast Asia's busiest data-centre markets may already have budgeted for, and it signals that vendors will police end-use at the partner level, not just at the border.",
+    "We have only the TechCrunch summary of the underlying report; Nvidia's own statement was not part of what we read. How long the pause lasts, which partners are affected beyond those named, and what compliance evidence Nvidia will accept are all unknown."
+   ],
+   "unknowns": [
+    "Length of the pause",
+    "Nvidia's own statement",
+    "Which regional partners fail the assessment"
+   ],
+   "questions": [
+    "A client planned an AI data centre in Malaysia and its servers are on hold: how do you re-plan capacity and compliance?",
+    "How would you size the commercial exposure of a hardware pause across a regional partner network?"
+   ],
+   "sources": [
+    {
+     "stype": "Major press",
+     "src": "TechCrunch (citing the Wall Street Journal)",
+     "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/"
+    }
+   ],
+   "updated": "2026-11-27"
   },
   {
    "id": "americas-car-mart-chapter-11",
@@ -2073,6 +2128,53 @@
      "stype": "Trade press",
      "src": "Consultancy.asia",
      "url": "https://www.consultancy.asia/news/6998/japanese-firm-dirbato-acquires-sap-player-icon-consulting-group"
+    }
+   ]
+  },
+  {
+   "id": "bm-euronext-athens-merger",
+   "type": "M&A",
+   "co": "Euronext / Euronext Athens",
+   "firm": "Euronext",
+   "desk": "Financial services",
+   "date": "Nov 26",
+   "year": 2026,
+   "heat": 3,
+   "rel": 4,
+   "value": "EUR 9.85 per Athens share",
+   "vlabel": "Implied by Euronext's EUR 167.50 close on 25 Nov",
+   "canada": false,
+   "title": "Euronext to fold Euronext Athens into the group by statutory merger",
+   "cs": "Post-merger integration, exchange-systems and listing-process harmonisation, and legal-entity simplification work; advisers and auditors already sit on the transaction.",
+   "stype": "Official",
+   "src": "Euronext (via GlobeNewswire)",
+   "url": "https://www.globenewswire.com/news-release/2026/11/26/3411031/0/en/euronext-athens-holding-s-a-to-merge-with-and-into-euronext-n-v.html",
+   "updated": "2026-11-27",
+   "confidence": "Confirmed",
+   "readTime": "3 min",
+   "body": "Euronext N.V. will absorb Euronext Athens Holding S.A. in a cross-border statutory merger, according to a Euronext release on 26 November 2026.",
+   "paras": [
+    "Euronext said on 26 November 2026 that Euronext Athens Holding S.A. will merge with and into Euronext N.V. Euronext Athens will cease to exist and Euronext will continue the activity through a Greek branch.",
+    "Euronext Athens shareholders would receive one new Euronext share (nominal value EUR 1.60) for every 17 Euronext Athens shares, against one for 20 in the 2025 tender offer. The release values that at EUR 9.85 a share on Euronext's close of EUR 167.50 on 25 November, which it puts 38% above the EUR 7.14 implied by the earlier offer. Shareholders who vote against and exercise withdrawal rights would receive EUR 9.29 a share in cash.",
+    "The timetable is indicative: the merger proposal is filed on 27 November 2026, extraordinary general meetings of both companies are set for 26 January 2027, and creditor opposition periods are expected to end on 2 March 2027. Completion needs shareholder approvals, Dutch and Greek publication and creditor procedures, and a Greek pre-merger certificate. KPMG Accountants N.V. and Ernst & Young (Hellas) acted on the exchange-ratio and expert reports.",
+    "The release states the exemption document is not a prospectus and has not been approved by a regulator. Whether shareholders approve, the effective date and the share delivery date are not yet known."
+   ],
+   "unknowns": [
+    "Shareholder vote outcome on 26 January 2027",
+    "Effective and share delivery dates",
+    "Integration costs"
+   ],
+   "sources": [
+    {
+     "stype": "Official",
+     "src": "Euronext (via GlobeNewswire)",
+     "url": "https://www.globenewswire.com/news-release/2026/11/26/3411031/0/en/euronext-athens-holding-s-a-to-merge-with-and-into-euronext-n-v.html"
+    }
+   ],
+   "dates": [
+    {
+     "iso": "2027-01-26",
+     "label": "Euronext and Euronext Athens extraordinary general meetings"
     }
    ]
   },

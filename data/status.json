@@ -1,6 +1,6 @@
 {
- "last_run": "2026-11-27T10:30:00-07:00",
+ "last_run": "2026-11-27T13:15:00-07:00",
  "result": "ok",
- "edition": "2026-11-27-1000",
- "note": "Fri 27 Nov 10:00: REFRESH-ONLY edition. All feed/page fetches (core feeds, consultancy.org, etc.) failed with PROVENANCE_REQUIRED (fetch permission unanswered, unattended run); WebSearch returned undated headlines only, so no new stories were verified or written. Added Friday 'Week in 60 seconds' wire item from existing stories. Lead/cards unchanged (Nov 20-24, stale). Careers board not re-verified (no fetch). Gmail: no reader suggestions. Next: MON 10:00 AM PT (How It Works day)."
+ "edition": "2026-11-27-1300",
+ "note": "Fri 27 Nov 13:00 afternoon update. Feeds fetched OK this run (consultancy.org, consulting.ca, Accounting Today, GlobeNewswire M&A, TechCrunch): no items newer than 10:30 PT except undated consultancy listings. Added 2 verified items from Nov 26: Nvidia server-shipment pause (story, card slot) and Euronext Athens merger (Big Move). consulting.us pages (KPMG AI cyber offerings, software AI ROI) returned PROVENANCE_REQUIRED, left out. Lead/cards still partly stale (Nov 23-24; 72h rule not met for lead). Gmail: no reader suggestions. Careers board not re-verified. Next: SAT 10:00 AM PT."
 }
